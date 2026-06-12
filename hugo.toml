@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://jiwumission.org/"
+baseURL = "https://ccumgol.github.io/jiwumission/"
 title = "JIWU Mission | Jesus is with us"
 languageCode = "ko-kr"
 theme = "hugoplate"
