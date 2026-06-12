@@ -1,0 +1,10 @@
+<section {{ with .Get "id" }}id="{{ . }}"{{ end }} class="section {{ if eq (.Get "bg") "true" }}bg-theme-light dark:bg-darkmode-theme-light{{ end }}">
+<div class="container">
+<div class="text-center mb-12">
+{{ with .Get "eyebrow" }}<p class="text-sm font-semibold tracking-widest uppercase text-primary mb-2">{{ . }}</p>{{ end }}
+<h2 class="h2 mb-3 text-text-dark dark:text-white font-secondary font-bold">{{ .Get "title" }}</h2>
+{{ with .Get "intro" }}<p class="text-text-light dark:text-darkmode-text-light">{{ . }}</p>{{ end }}
+</div>
+{{ .Inner }}
+</div>
+</section>

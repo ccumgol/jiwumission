@@ -1,0 +1,5 @@
+<div class="mx-auto max-w-4xl p-6 text-center border-t border-border dark:border-darkmode-border mt-8">
+<h3 class="h4 mb-3">{{ .Get "title" }}</h3>
+<div class="mb-6 text-sm leading-relaxed">{{ .Page.RenderString (dict "display" "block") .Inner }}</div>
+<a href="{{ .Get "link" }}" target="_blank" rel="noopener" class="btn btn-primary">{{ .Get "button" }}</a>
+</div>

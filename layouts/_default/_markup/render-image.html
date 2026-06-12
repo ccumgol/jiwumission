@@ -1,0 +1,6 @@
+{{- $url := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+{{- $page := .Page -}}
+
+{{- partial "image" (dict "Src" $url "Context" $page "Alt" $alt "Class" "img-fluid w-full rounded" "DisplayXL" "800x") -}}

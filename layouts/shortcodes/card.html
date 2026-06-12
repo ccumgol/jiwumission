@@ -1,0 +1,11 @@
+{{ $bgClass := "bg-white dark:bg-darkmode-light border border-border dark:border-darkmode-border p-7" }}
+{{ if .Parent }}
+  {{ if eq (.Parent.Get "responsive") "false" }}
+    {{ $bgClass = "bg-transparent border-0 p-0 py-5 first:pt-0 last:pb-0 md:bg-white md:dark:bg-darkmode-light md:border md:border-border md:dark:border-darkmode-border md:rounded-lg md:p-7 md:first:pt-7 md:last:pb-7" }}
+  {{ end }}
+{{ end }}
+
+<div class="rounded-lg {{ $bgClass }} transition hover:shadow-lg">
+<h3 class="h5 mb-3">{{ with .Get "icon" }}{{ . }} {{ end }}{{ .Get "title" }}</h3>
+<div class="text-sm leading-relaxed">{{ .Page.RenderString (dict "display" "block") .Inner }}</div>
+</div>
