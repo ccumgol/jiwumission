@@ -1,0 +1,9 @@
+<div class="rounded-lg bg-white dark:bg-white border border-border dark:border-border p-3 sm:p-6 text-center shadow-sm h-full flex flex-col justify-center text-text-dark dark:text-text-dark">
+{{ with .Get "icon" }}<p class="text-xl sm:text-2xl mb-2">{{ . }}</p>{{ end }}
+<p class="text-[10px] sm:text-xs font-semibold tracking-widest uppercase text-primary mb-1">{{ .Get "label" }}</p>
+<p class="font-bold text-xs sm:text-base break-words leading-tight">
+  {{ with .Get "link" }}<a href="{{ . }}" class="text-text-dark dark:text-text-dark hover:text-primary">{{ end }}
+  {{ replace (.Get "value") "@" "<wbr>@" | safeHTML }}
+  {{ with .Get "link" }}</a>{{ end }}
+</p>
+</div>
