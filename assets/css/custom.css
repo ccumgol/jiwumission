@@ -32,3 +32,24 @@
   }
 }
 
+/* Custom Blockquote Styling Override */
+.content blockquote,
+.prose blockquote,
+blockquote {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: #eaeaea !important;
+  border-left-color: #cccccc !important;
+  border-left-width: 4px !important;
+}
+
+.dark .content blockquote,
+.dark .prose blockquote,
+.dark blockquote {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: #3e3e3e !important;
+  border-left-color: #666666 !important;
+  border-left-width: 4px !important;
+}
+
