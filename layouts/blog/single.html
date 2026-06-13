@@ -68,7 +68,7 @@
             </div>
           </div>
           <!-- open-remark comment -->
-          {{ if site.Params.open_remark.enable }}
+          {{ if and site.Params.open_remark.enable (ne .Params.comments false) }}
             <div class="mt-20">
               {{ partial "open-remark.html" . }}
             </div>
