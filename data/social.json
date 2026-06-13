@@ -3,22 +3,22 @@
     {
       "name": "facebook",
       "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
+      "link": "https://facebook.com/ccumgol"
     },
     {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
+      "name": "x-twitter",
+      "icon": "fab fa-x-twitter",
+      "link": "https://x.com/ccumgol"
     },
     {
-      "name": "github",
-      "icon": "fab fa-github",
-      "link": "https://www.github.com/"
+      "name": "threads",
+      "icon": "fab fa-threads",
+      "link": "https://www.threads.net/@ccumgol"
     },
     {
-      "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/ccumgol"
     }
   ]
 }
