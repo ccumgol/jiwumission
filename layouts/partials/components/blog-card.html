@@ -14,18 +14,18 @@
     {{ end }}
     
     {{ if $linkURL }}
-      <a href="{{ $linkURL }}" class="glightbox" data-gallery="post-thumbnails" data-title="{{ .Title }}">
+      <a href="{{ $linkURL }}" class="glightbox" data-type="image" data-gallery="post-thumbnails" data-title="{{ .Title }}">
         {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded hover:opacity-90 transition duration-300 cursor-zoom-in") }}
       </a>
     {{ else }}
       {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
     {{ end }}
   {{ end }}
-  <h4 class="mb-3">
+  <h5 class="h5 mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h4>
+  </h5>
   {{ $categories:= .Params.categories }}
   {{ if $categories }}
     <ul class="mb-4">
