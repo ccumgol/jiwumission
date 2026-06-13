@@ -1,0 +1,35 @@
+{{ $title := .Get "title" }}
+{{ $icon := .Get "icon" }}
+{{ $iconColor := .Get "icon_color" | default "text-primary" }}
+{{ $link := .Get "link" }}
+{{ $linkLabel := .Get "link_label" | default "바로가기" }}
+
+<div class="rounded-xl bg-white dark:bg-darkmode-body border border-border dark:border-darkmode-border p-6 md:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between h-full">
+  <div>
+    <div class="flex items-center gap-3 mb-4">
+      {{ if $icon }}
+        <span class="{{ $iconColor }} text-3xl">
+          {{ if or (strings.HasPrefix $icon "fa-") (strings.HasPrefix $icon "fab ") (strings.HasPrefix $icon "fas ") (strings.HasPrefix $icon "far ") }}
+            <i class="{{ $icon }}"></i>
+          {{ else }}
+            {{ $icon }}
+          {{ end }}
+        </span>
+      {{ end }}
+      <h4 class="text-xl font-secondary font-bold text-text-dark dark:text-white">{{ $title }}</h4>
+    </div>
+    <div class="text-sm leading-relaxed text-text-light dark:text-darkmode-text-light mb-6">
+      {{ .Page.RenderString (dict "display" "block") .Inner }}
+    </div>
+  </div>
+  {{ if $link }}
+  <div class="border-t border-border dark:border-darkmode-border pt-4">
+    <a href="{{ $link }}" target="_blank" rel="noopener" class="text-sm font-bold text-primary hover:text-primary-dark inline-flex items-center gap-1 transition-all">
+      {{ $linkLabel }}
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </a>
+  </div>
+  {{ end }}
+</div>
