@@ -1,0 +1,55 @@
+<div class="bg-body dark:bg-darkmode-body">
+  {{ $image:= .Params.image }}
+  {{ if $image }}
+    {{ $linkURL := "" }}
+    {{ if fileExists (add "assets/" (string $image)) }}
+      {{ $imgResource := resources.Get $image }}
+      {{ if $imgResource }}
+        {{ $linkURL = $imgResource.RelPermalink }}
+      {{ end }}
+    {{ else if fileExists (add "static/" (string $image)) }}
+      {{ $linkURL = $image | relURL }}
+    {{ else }}
+      {{ $linkURL = $image | relURL }}
+    {{ end }}
+    
+    {{ if $linkURL }}
+      <a href="{{ $linkURL }}" class="glightbox" data-gallery="post-thumbnails" data-title="{{ .Title }}">
+        {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded hover:opacity-90 transition duration-300 cursor-zoom-in") }}
+      </a>
+    {{ else }}
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
+    {{ end }}
+  {{ end }}
+  <h4 class="mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h4>
+  {{ $categories:= .Params.categories }}
+  {{ if $categories }}
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+          <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        {{ range $i,$p:= $categories }}
+          <a
+            href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+            class="ms-1"
+            >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+              {{ "," }}
+            {{ end }}
+          </a>
+        {{ end }}
+      </li>
+    </ul>
+  {{ end }}
+  
+  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+    {{ T "read_more" | default "Read More" }}
+  </a>
+</div>
