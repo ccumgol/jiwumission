@@ -2,13 +2,23 @@
   {{ $image:= .Params.image }}
   {{ if $image }}
     {{ $linkURL := "" }}
-    {{ if fileExists (add "assets/" (string $image)) }}
-      {{ $imgResource := resources.Get $image }}
-      {{ if $imgResource }}
-        {{ $linkURL = $imgResource.RelPermalink }}
+    {{ $imgResource := "" }}
+    
+    <!-- Try to find the image as a page resource (for bundles or parent sections) -->
+    {{ if .Resources.GetMatch $image }}
+      {{ $imgResource = .Resources.GetMatch $image }}
+    {{ else if and .Parent .Parent.Resources (.Parent.Resources.GetMatch $image) }}
+      {{ $imgResource = .Parent.Resources.GetMatch $image }}
+    {{ end }}
+    
+    <!-- Determine the correct link URL -->
+    {{ if $imgResource }}
+      {{ $linkURL = $imgResource.RelPermalink }}
+    {{ else if fileExists (add "assets/" (string $image)) }}
+      {{ $res := resources.Get $image }}
+      {{ if $res }}
+        {{ $linkURL = $res.RelPermalink }}
       {{ end }}
-    {{ else if fileExists (add "static/" (string $image)) }}
-      {{ $linkURL = $image | relURL }}
     {{ else }}
       {{ $linkURL = $image | relURL }}
     {{ end }}
@@ -21,11 +31,13 @@
       {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
     {{ end }}
   {{ end }}
+  
   <h5 class="h5 mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
   </h5>
+  
   {{ $categories:= .Params.categories }}
   {{ if $categories }}
     <ul class="mb-4">
