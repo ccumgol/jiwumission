@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JIWU Mission - Admin Panel</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Noto Sans KR', 'Outfit', sans-serif;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .glass-light {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    .accent-glow {
+      box-shadow: 0 0 15px rgba(229, 57, 53, 0.3);
+    }
+  </style>
+  
+  <!-- Config script using ES modules to load smol-toml -->
+  <script type="module">
+    import { parse, stringify } from 'https://esm.sh/smol-toml';
+    window.tomlParse = parse;
+    window.tomlStringify = stringify;
+  </script>
+</head>
+<body class="bg-[#121212] text-slate-200 min-h-screen transition-colors duration-300">
+
+  <!-- Main container -->
+  <div class="container mx-auto px-4 py-8 max-w-5xl">
+    
+    <!-- Header -->
+    <header class="flex flex-col sm:flex-row justify-between items-center mb-10 pb-6 border-b border-zinc-800">
+      <div class="flex items-center space-x-3 mb-4 sm:mb-0">
+        <div class="h-10 w-10 rounded-lg bg-[#E53935] flex items-center justify-center text-white font-bold text-xl accent-glow">
+          J
+        </div>
+        <div>
+          <h1 class="text-2xl font-bold tracking-tight text-white font-outfit">JIWU Mission</h1>
+          <p class="text-xs text-zinc-500">Site Management & Administration</p>
+        </div>
+      </div>
+      
+      <!-- Theme & Status Indicators -->
+      <div class="flex items-center space-x-4">
+        <div id="build-status-container" class="hidden flex items-center space-x-2 bg-zinc-900 rounded-full px-3 py-1 text-xs border border-zinc-800">
+          <span class="relative flex h-2 w-2">
+            <span id="status-pulse" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-zinc-400 opacity-75"></span>
+            <span id="status-dot" class="relative inline-flex rounded-full h-2 w-2 bg-zinc-500"></span>
+          </span>
+          <span id="status-text" class="text-zinc-400">Build Status: Checking...</span>
+        </div>
+        
+        <button id="logout-btn" class="hidden text-xs text-zinc-400 hover:text-white bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 rounded px-3 py-1.5 transition">
+          <i class="fa-solid fa-sign-out mr-1"></i> 로그아웃
+        </button>
+      </div>
+    </header>
+
+    <!-- App Content Wrapper -->
+    <main>
+      
+      <!-- 1. Authentication Screen -->
+      <section id="auth-section" class="max-w-md mx-auto my-12">
+        <div class="glass rounded-2xl p-8 shadow-2xl">
+          <h2 class="text-xl font-bold text-white mb-6 text-center">관리자 인증</h2>
+          
+          <div class="space-y-4">
+            <div>
+              <label class="block text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">GitHub Username</label>
+              <input type="text" id="github-username" value="ccumgol" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+            </div>
+            
+            <div>
+              <label class="block text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">Repository Name</label>
+              <input type="text" id="github-repo" value="jiwumission" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+            </div>
+            
+            <div>
+              <label class="block text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">Personal Access Token (PAT)</label>
+              <input type="password" id="github-token" placeholder="github_pat_..." class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+            </div>
+            
+            <button id="login-btn" class="w-full bg-[#E53935] hover:bg-[#c62828] text-white font-semibold py-3 rounded-lg transition accent-glow flex items-center justify-center space-x-2">
+              <i class="fa-solid fa-key"></i>
+              <span>인증하기</span>
+            </button>
+          </div>
+          
+          <!-- Instructions -->
+          <div class="mt-8 pt-6 border-t border-zinc-800">
+            <details class="text-xs text-zinc-500 cursor-pointer group">
+              <summary class="font-medium hover:text-zinc-300 transition list-none flex justify-between items-center">
+                <span>🔑 GitHub 토큰이 없으신가요? 생성 방법</span>
+                <i class="fa-solid fa-chevron-down group-open:rotate-180 transition"></i>
+              </summary>
+              <ol class="list-decimal list-inside space-y-2 mt-3 text-zinc-400 pl-1 leading-relaxed">
+                <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" class="text-[#E53935] underline font-medium">GitHub Token Settings</a>로 이동합니다.</li>
+                <li>Token name을 입력하고, Repository access에서 <strong>Only select repositories</strong>를 누른 후 <strong>jiwumission</strong>을 고릅니다.</li>
+                <li>Permissions에서 <strong>Repository permissions</strong> -> <strong>Contents</strong> 권한을 <strong>Read and Write</strong>로 부여합니다.</li>
+                <li>하단의 <strong>Generate token</strong> 버튼을 누르고 생성된 토큰을 복사하여 위에 붙여넣습니다.</li>
+              </ol>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Admin Workspace (Hidden by default) -->
+      <section id="workspace-section" class="hidden">
+        
+        <!-- Loading overlay -->
+        <div id="workspace-loading" class="flex flex-col items-center justify-center py-20">
+          <div class="animate-spin rounded-full h-12 w-12 border-4 border-t-[#E53935] border-zinc-800 mb-4"></div>
+          <p class="text-zinc-400">설정 파일을 불러오는 중입니다...</p>
+        </div>
+
+        <!-- Dashboard Form -->
+        <div id="dashboard-form" class="hidden grid grid-cols-1 lg:grid-cols-3 gap-8">
+          
+          <!-- Left Column: Navigation Tabs -->
+          <div class="lg:col-1 space-y-4">
+            <div class="glass rounded-xl p-4 flex flex-col space-y-1">
+              <button onclick="switchTab('tab-card')" id="btn-tab-card" class="tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-semibold transition bg-zinc-900 text-white border-l-4 border-[#E53935]">
+                <i class="fa-solid fa-images mr-2 w-5 text-center"></i> 글 목록 레이아웃
+              </button>
+              <button onclick="switchTab('tab-sorting')" id="btn-tab-sorting" class="tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-semibold transition text-zinc-400 hover:bg-zinc-900 hover:text-white">
+                <i class="fa-solid fa-sort mr-2 w-5 text-center"></i> 메뉴별 정렬 순서
+              </button>
+            </div>
+            
+            <div class="glass rounded-xl p-6">
+              <h3 class="text-sm font-bold text-white mb-3"><i class="fa-solid fa-circle-info mr-1 text-[#E53935]"></i> 저장 및 반영 방식</h3>
+              <p class="text-xs text-zinc-400 leading-relaxed mb-4">
+                설정을 변경하고 하단의 <strong>설정 저장하기</strong> 버튼을 누르면 GitHub 저장소의 설정 파일이 직접 커밋되어 실시간으로 반영됩니다. 반영 완료까지 약 1~2분이 소요됩니다.
+              </p>
+              <button id="save-btn" class="w-full bg-[#E53935] hover:bg-[#c62828] text-white font-semibold py-3 rounded-lg transition accent-glow flex items-center justify-center space-x-2">
+                <i class="fa-solid fa-floppy-disk"></i>
+                <span>설정 저장하기</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Right Column: Tab Content Area -->
+          <div class="lg:col-2 space-y-8">
+            
+            <!-- Tab 1: Card Layout settings -->
+            <div id="tab-card" class="tab-content glass rounded-xl p-6 md:p-8 space-y-6">
+              <h2 class="text-lg font-bold text-white border-b border-zinc-800 pb-3">
+                <i class="fa-solid fa-images mr-2 text-[#E53935]"></i> 글 목록 레이아웃 설정
+              </h2>
+              
+              <!-- Element visibility toggles -->
+              <div class="space-y-4">
+                <h3 class="text-xs font-semibold text-zinc-400 uppercase tracking-wider">글 목록 표시 항목</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  
+                  <label class="flex items-center justify-between p-4 bg-zinc-950/50 rounded-xl border border-zinc-850 cursor-pointer hover:border-zinc-800 transition">
+                    <div class="flex items-center space-x-3">
+                      <div class="p-2 rounded bg-zinc-900 text-zinc-400"><i class="fa-regular fa-image text-sm"></i></div>
+                      <span class="text-sm font-medium">썸네일 이미지</span>
+                    </div>
+                    <input type="checkbox" id="cfg-show-thumbnail" class="w-4 h-4 text-[#E53935] bg-zinc-950 border-zinc-800 rounded focus:ring-[#E53935] accent-[#E53935]">
+                  </label>
+                  
+                  <label class="flex items-center justify-between p-4 bg-zinc-950/50 rounded-xl border border-zinc-850 cursor-pointer hover:border-zinc-800 transition">
+                    <div class="flex items-center space-x-3">
+                      <div class="p-2 rounded bg-zinc-900 text-zinc-400"><i class="fa-solid fa-heading text-sm"></i></div>
+                      <span class="text-sm font-medium">글 제목</span>
+                    </div>
+                    <input type="checkbox" id="cfg-show-title" class="w-4 h-4 text-[#E53935] bg-zinc-950 border-zinc-800 rounded focus:ring-[#E53935] accent-[#E53935]">
+                  </label>
+                  
+                  <label class="flex items-center justify-between p-4 bg-zinc-950/50 rounded-xl border border-zinc-850 cursor-pointer hover:border-zinc-800 transition">
+                    <div class="flex items-center space-x-3">
+                      <div class="p-2 rounded bg-zinc-900 text-zinc-400"><i class="fa-solid fa-align-left text-sm"></i></div>
+                      <span class="text-sm font-medium">요약 설명</span>
+                    </div>
+                    <input type="checkbox" id="cfg-show-summary" class="w-4 h-4 text-[#E53935] bg-zinc-950 border-zinc-800 rounded focus:ring-[#E53935] accent-[#E53935]">
+                  </label>
+                  
+                  <label class="flex items-center justify-between p-4 bg-zinc-950/50 rounded-xl border border-zinc-850 cursor-pointer hover:border-zinc-800 transition">
+                    <div class="flex items-center space-x-3">
+                      <div class="p-2 rounded bg-zinc-900 text-zinc-400"><i class="fa-regular fa-calendar-days text-sm"></i></div>
+                      <span class="text-sm font-medium">게시일자 (Date)</span>
+                    </div>
+                    <input type="checkbox" id="cfg-show-date" class="w-4 h-4 text-[#E53935] bg-zinc-950 border-zinc-800 rounded focus:ring-[#E53935] accent-[#E53935]">
+                  </label>
+                  
+                  <label class="flex items-center justify-between p-4 bg-zinc-950/50 rounded-xl border border-zinc-850 cursor-pointer hover:border-zinc-800 transition">
+                    <div class="flex items-center space-x-3">
+                      <div class="p-2 rounded bg-zinc-900 text-zinc-400"><i class="fa-regular fa-user text-sm"></i></div>
+                      <span class="text-sm font-medium">작성자 (Author)</span>
+                    </div>
+                    <input type="checkbox" id="cfg-show-author" class="w-4 h-4 text-[#E53935] bg-zinc-950 border-zinc-800 rounded focus:ring-[#E53935] accent-[#E53935]">
+                  </label>
+                  
+                  <label class="flex items-center justify-between p-4 bg-zinc-950/50 rounded-xl border border-zinc-850 cursor-pointer hover:border-zinc-800 transition">
+                    <div class="flex items-center space-x-3">
+                      <div class="p-2 rounded bg-zinc-900 text-zinc-400"><i class="fa-solid fa-arrow-right-to-bracket text-sm"></i></div>
+                      <span class="text-sm font-medium">'Read More' 버튼</span>
+                    </div>
+                    <input type="checkbox" id="cfg-show-readmore" class="w-4 h-4 text-[#E53935] bg-zinc-950 border-zinc-800 rounded focus:ring-[#E53935] accent-[#E53935]">
+                  </label>
+                  
+                </div>
+              </div>
+              
+              <!-- Font size selections -->
+              <div class="space-y-4 pt-4 border-t border-zinc-800">
+                <h3 class="text-xs font-semibold text-zinc-400 uppercase tracking-wider">글씨 크기 설정</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label class="block text-xs text-zinc-400 mb-2">제목 글씨 크기 (Title Font Size)</label>
+                    <select id="cfg-title-size" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+                      <option value="h3">H3 (매우 큼)</option>
+                      <option value="h4">H4 (큼)</option>
+                      <option value="h5">H5 (기본)</option>
+                      <option value="h6">H6 (작음)</option>
+                      <option value="text-xl">Extra Large (XL)</option>
+                      <option value="text-lg">Large (L)</option>
+                    </select>
+                  </div>
+                  
+                  <div>
+                    <label class="block text-xs text-zinc-400 mb-2">요약 글씨 크기 (Summary Font Size)</label>
+                    <select id="cfg-summary-size" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+                      <option value="text-lg">Large (L)</option>
+                      <option value="text-base">Base (기본)</option>
+                      <option value="text-sm">Small (작음)</option>
+                      <option value="text-xs">Extra Small (XS)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tab 2: Sorting Order settings -->
+            <div id="tab-sorting" class="tab-content hidden glass rounded-xl p-6 md:p-8 space-y-6">
+              <h2 class="text-lg font-bold text-white border-b border-zinc-800 pb-3">
+                <i class="fa-solid fa-sort mr-2 text-[#E53935]"></i> 메뉴 및 카테고리 정렬 설정
+              </h2>
+              
+              <!-- Section sorting order -->
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <h3 class="text-xs font-semibold text-zinc-400 uppercase tracking-wider">메뉴(하위 섹션)별 정렬</h3>
+                  <button onclick="addSortingRow('section')" class="text-xs text-[#E53935] hover:text-[#c62828] transition font-bold">
+                    <i class="fa-solid fa-plus mr-1"></i> 메뉴 추가
+                  </button>
+                </div>
+                
+                <div id="section-sorting-list" class="space-y-2">
+                  <!-- Dynamic Rows -->
+                </div>
+              </div>
+
+              <!-- Term sorting order -->
+              <div class="space-y-4 pt-6 border-t border-zinc-800">
+                <div class="flex justify-between items-center">
+                  <h3 class="text-xs font-semibold text-zinc-400 uppercase tracking-wider">카테고리/태그(분류)별 정렬</h3>
+                  <button onclick="addSortingRow('term')" class="text-xs text-[#E53935] hover:text-[#c62828] transition font-bold">
+                    <i class="fa-solid fa-plus mr-1"></i> 분류 추가
+                  </button>
+                </div>
+                
+                <div id="term-sorting-list" class="space-y-2">
+                  <!-- Dynamic Rows -->
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="mt-20 text-center text-xs text-zinc-600 border-t border-zinc-900 pt-6">
+      <p>© 2026 JIWU Mission. Built securely for authorized administrators.</p>
+    </footer>
+  </div>
+
+  <script>
+    let configObject = null;
+    let fileSha = null;
+    
+    // Switch between tabs
+    window.switchTab = function(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+      document.getElementById(tabId).classList.remove('hidden');
+      
+      document.querySelectorAll('.tab-btn').forEach(el => {
+        el.classList.remove('bg-zinc-900', 'text-white', 'border-l-4', 'border-[#E53935]');
+        el.classList.add('text-zinc-400', 'hover:bg-zinc-900', 'hover:text-white');
+      });
+      
+      const activeBtn = document.getElementById('btn-' + tabId);
+      activeBtn.classList.add('bg-zinc-900', 'text-white', 'border-l-4', 'border-[#E53935]');
+      activeBtn.classList.remove('text-zinc-400', 'hover:bg-zinc-900', 'hover:text-white');
+    }
+
+    // Auto load credentials from localStorage
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedUser = localStorage.getItem("jiwu_gh_user");
+      const savedRepo = localStorage.getItem("jiwu_gh_repo");
+      const savedToken = localStorage.getItem("jiwu_gh_token");
+      
+      if (savedUser) document.getElementById("github-username").value = savedUser;
+      if (savedRepo) document.getElementById("github-repo").value = savedRepo;
+      if (savedToken) document.getElementById("github-token").value = savedToken;
+      
+      if (savedToken) {
+        verifyCredentialsAndLoad();
+      }
+    });
+
+    // Login Action
+    document.getElementById("login-btn").addEventListener("click", () => {
+      verifyCredentialsAndLoad();
+    });
+
+    // Save Action
+    document.getElementById("save-btn").addEventListener("click", () => {
+      saveConfiguration();
+    });
+
+    // Logout Action
+    document.getElementById("logout-btn").addEventListener("click", () => {
+      localStorage.removeItem("jiwu_gh_token");
+      location.reload();
+    });
+
+    // Verify & Load config from GitHub
+    async function verifyCredentialsAndLoad() {
+      const user = document.getElementById("github-username").value.trim();
+      const repo = document.getElementById("github-repo").value.trim();
+      const token = document.getElementById("github-token").value.trim();
+      
+      if (!token) {
+        alert("Personal Access Token을 입력해 주세요.");
+        return;
+      }
+      
+      // Save credentials locally
+      localStorage.setItem("jiwu_gh_user", user);
+      localStorage.setItem("jiwu_gh_repo", repo);
+      localStorage.setItem("jiwu_gh_token", token);
+      
+      document.getElementById("auth-section").classList.add("hidden");
+      document.getElementById("workspace-section").classList.remove("hidden");
+      document.getElementById("workspace-loading").classList.remove("hidden");
+      document.getElementById("dashboard-form").classList.add("hidden");
+      
+      try {
+        const response = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/config/_default/params.toml`, {
+          headers: {
+            "Authorization": `token ${token}`,
+            "Accept": "application/vnd.github.v3+json"
+          }
+        });
+        
+        if (!response.ok) {
+          throw new Error("설정 파일을 불러오지 못했습니다. 토큰 권한이나 레포지토리명을 확인해 주세요.");
+        }
+        
+        const data = await response.json();
+        fileSha = data.sha;
+        const tomlText = atob(data.content);
+        
+        // Use smol-toml parser
+        configObject = window.tomlParse(tomlText);
+        
+        // Populate inputs
+        populateForm(configObject);
+        
+        document.getElementById("workspace-loading").classList.add("hidden");
+        document.getElementById("dashboard-form").classList.remove("hidden");
+        document.getElementById("logout-btn").classList.remove("hidden");
+        
+        // Start checking build status
+        document.getElementById("build-status-container").classList.remove("hidden");
+        checkBuildStatus();
+        setInterval(checkBuildStatus, 15000); // Check every 15s
+        
+      } catch (err) {
+        alert(err.message);
+        document.getElementById("auth-section").classList.remove("hidden");
+        document.getElementById("workspace-section").classList.add("hidden");
+      }
+    }
+
+    // Populate Form Values
+    function populateForm(cfg) {
+      // Blog Card Layout checkboxes
+      const bc = cfg.blog_card || {};
+      document.getElementById("cfg-show-thumbnail").checked = bc.show_thumbnail !== false;
+      document.getElementById("cfg-show-title").checked = bc.show_title !== false;
+      document.getElementById("cfg-show-summary").checked = bc.show_summary !== false;
+      document.getElementById("cfg-show-date").checked = bc.show_date !== false;
+      document.getElementById("cfg-show-author").checked = bc.show_author !== false;
+      document.getElementById("cfg-show-readmore").checked = bc.show_read_more !== false;
+      
+      // Select box sizes
+      document.getElementById("cfg-title-size").value = bc.title_font_size || "h5";
+      document.getElementById("cfg-summary-size").value = bc.summary_font_size || "text-base";
+      
+      // Dynamic lists for Sorting
+      const sort = cfg.sorting || {};
+      populateSortingList(sort.sections || {}, 'section-sorting-list', 'section');
+      populateSortingList(sort.terms || {}, 'term-sorting-list', 'term');
+    }
+
+    // Populate sorting rows
+    function populateSortingList(map, containerId, type) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = '';
+      
+      Object.entries(map).forEach(([key, val]) => {
+        createSortingRow(container, key, val, type);
+      });
+      
+      if (Object.keys(map).length === 0) {
+        container.innerHTML = `<p class="text-xs text-zinc-500 py-2 ${type}-empty-msg">지정된 정렬 설정이 없습니다. 상단에서 추가해 주세요.</p>`;
+      }
+    }
+
+    // Create a row element
+    function createSortingRow(container, pathKey, orderValue, type) {
+      const row = document.createElement('div');
+      row.className = `flex space-x-2 items-center sorting-row-${type} bg-zinc-950/30 p-2.5 rounded-lg border border-zinc-900`;
+      row.innerHTML = `
+        <input type="text" value="${pathKey}" placeholder="${type === 'section' ? '/blog/section-name/' : '카테고리명'}" class="sorting-path flex-1 bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+        <select class="sorting-order bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-white focus:outline-none focus:border-[#E53935] transition text-sm w-36">
+          <option value="title" ${orderValue === 'title' ? 'selected' : ''}>가나다순 (제목)</option>
+          <option value="date_desc" ${orderValue === 'date_desc' || orderValue === 'date' ? 'selected' : ''}>최신순 (날짜)</option>
+          <option value="date_asc" ${orderValue === 'date_asc' ? 'selected' : ''}>오래된순 (날짜)</option>
+        </select>
+        <button onclick="this.parentElement.remove(); checkEmptyState('${type}');" class="text-zinc-500 hover:text-[#E53935] p-2 transition">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+      `;
+      container.appendChild(row);
+    }
+
+    // Dynamic row addition
+    window.addSortingRow = function(type) {
+      const container = document.getElementById(`${type}-sorting-list`);
+      const emptyMsg = container.querySelector(`.${type}-empty-msg`);
+      if (emptyMsg) emptyMsg.remove();
+      createSortingRow(container, '', 'title', type);
+    }
+
+    // Check empty state
+    window.checkEmptyState = function(type) {
+      const container = document.getElementById(`${type}-sorting-list`);
+      if (container.children.length === 0) {
+        container.innerHTML = `<p class="text-xs text-zinc-500 py-2 ${type}-empty-msg">지정된 정렬 설정이 없습니다. 상단에서 추가해 주세요.</p>`;
+      }
+    }
+
+    // Save changes to GitHub
+    async function saveConfiguration() {
+      const user = localStorage.getItem("jiwu_gh_user");
+      const repo = localStorage.getItem("jiwu_gh_repo");
+      const token = localStorage.getItem("jiwu_gh_token");
+      
+      const saveBtn = document.getElementById("save-btn");
+      const originalHtml = saveBtn.innerHTML;
+      
+      saveBtn.disabled = true;
+      saveBtn.innerHTML = `<div class="animate-spin rounded-full h-5 w-5 border-2 border-t-white border-zinc-600 mr-2"></div> 저장 중...`;
+      
+      try {
+        // 1. Compile form data back to configObject
+        if (!configObject.blog_card) configObject.blog_card = {};
+        configObject.blog_card.show_thumbnail = document.getElementById("cfg-show-thumbnail").checked;
+        configObject.blog_card.show_title = document.getElementById("cfg-show-title").checked;
+        configObject.blog_card.show_summary = document.getElementById("cfg-show-summary").checked;
+        configObject.blog_card.show_date = document.getElementById("cfg-show-date").checked;
+        configObject.blog_card.show_author = document.getElementById("cfg-show-author").checked;
+        configObject.blog_card.show_read_more = document.getElementById("cfg-show-readmore").checked;
+        
+        configObject.blog_card.title_font_size = document.getElementById("cfg-title-size").value;
+        configObject.blog_card.summary_font_size = document.getElementById("cfg-summary-size").value;
+        
+        // Parse sorting
+        if (!configObject.sorting) configObject.sorting = {};
+        
+        configObject.sorting.sections = {};
+        document.querySelectorAll('.sorting-row-section').forEach(row => {
+          const path = row.querySelector('.sorting-path').value.trim();
+          const order = row.querySelector('.sorting-order').value;
+          if (path) {
+            configObject.sorting.sections[path] = order;
+          }
+        });
+        
+        configObject.sorting.terms = {};
+        document.querySelectorAll('.sorting-row-term').forEach(row => {
+          const path = row.querySelector('.sorting-path').value.trim();
+          const order = row.querySelector('.sorting-order').value;
+          if (path) {
+            configObject.sorting.terms[path] = order;
+          }
+        });
+        
+        // 2. Serialize configObject back to TOML
+        const tomlString = window.tomlStringify(configObject);
+        const base64Content = btoa(unescape(encodeURIComponent(tomlString)));
+        
+        // 3. Push commit to GitHub
+        const commitResponse = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/config/_default/params.toml`, {
+          method: "PUT",
+          headers: {
+            "Authorization": `token ${token}`,
+            "Content-Type": "application/json",
+            "Accept": "application/vnd.github.v3+json"
+          },
+          body: JSON.stringify({
+            message: "feat(admin): update blog layout and sorting configuration",
+            content: base64Content,
+            sha: fileSha
+          })
+        });
+        
+        if (!commitResponse.ok) {
+          const errData = await commitResponse.json();
+          throw new Error(errData.message || "설정 저장을 실패했습니다.");
+        }
+        
+        const commitData = await commitResponse.json();
+        fileSha = commitData.content.sha; // Update SHA for subsequent saves
+        
+        alert("✅ 설정이 성공적으로 저장되었습니다! 사이트 빌드가 완료될 때까지 잠시 기다려 주세요.");
+        
+        // Trigger status check immediately
+        checkBuildStatus();
+        
+      } catch (err) {
+        alert("에러: " + err.message);
+      } finally {
+        saveBtn.disabled = false;
+        saveBtn.innerHTML = originalHtml;
+      }
+    }
+
+    // Check GitHub Actions Build Status
+    async function checkBuildStatus() {
+      const user = localStorage.getItem("jiwu_gh_user");
+      const repo = localStorage.getItem("jiwu_gh_repo");
+      const token = localStorage.getItem("jiwu_gh_token");
+      
+      const dot = document.getElementById("status-dot");
+      const pulse = document.getElementById("status-pulse");
+      const txt = document.getElementById("status-text");
+      
+      try {
+        const response = await fetch(`https://api.github.com/repos/${user}/${repo}/actions/runs?per_page=1`, {
+          headers: {
+            "Authorization": `token ${token}`,
+            "Accept": "application/vnd.github.v3+json"
+          }
+        });
+        
+        if (!response.ok) return;
+        
+        const data = await response.json();
+        if (data.workflow_runs && data.workflow_runs.length > 0) {
+          const run = data.workflow_runs[0];
+          const status = run.status; // "queued", "in_progress", "completed"
+          const conclusion = run.conclusion; // "success", "failure", etc.
+          
+          if (status === "queued" || status === "in_progress") {
+            dot.className = "relative inline-flex rounded-full h-2 w-2 bg-yellow-500";
+            pulse.className = "animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75";
+            txt.textContent = "배포 중... (빌드 진행 중)";
+            txt.className = "text-yellow-500 font-medium";
+          } else if (status === "completed") {
+            pulse.className = "hidden";
+            if (conclusion === "success") {
+              dot.className = "relative inline-flex rounded-full h-2 w-2 bg-green-500";
+              txt.textContent = "배포 성공 (최신 반영됨)";
+              txt.className = "text-green-500 font-medium";
+            } else {
+              dot.className = "relative inline-flex rounded-full h-2 w-2 bg-red-500";
+              txt.textContent = "배포 실패 (오류 발생)";
+              txt.className = "text-red-500 font-medium";
+            }
+          }
+        }
+      } catch (err) {
+        console.error("Failed to check build status:", err);
+      }
+    }
+  </script>
+</body>
+</html>

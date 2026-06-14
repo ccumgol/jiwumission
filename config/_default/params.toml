@@ -138,6 +138,17 @@ footer_content = "The JIWU Mission wants to network with people with good intent
 email = "jiwumission@gmail.com"
 phone = "862-413-7442"
 
+# 블로그 카드 레이아웃 설정 (blog_card)
+[blog_card]
+  show_thumbnail = true
+  show_title = true
+  show_summary = true
+  show_date = true
+  show_author = true
+  show_read_more = true
+  title_font_size = "h5"          # "h3", "h4", "h5", "h6", "text-xl", "text-lg"
+  summary_font_size = "text-base" # "text-xs", "text-sm", "text-base", "text-lg"
+
 # 블로그 및 카테고리 정렬 설정 (sorting)
 # 지원하는 정렬 옵션:
 # - "title": 제목 기준 가나다/알파벳순 정렬
