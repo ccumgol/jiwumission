@@ -8,15 +8,34 @@
         <div class="lg:col-9">
           <div class="row">
             {{ $pages := .Data.Pages }}
-            {{/* Check if this is a series category or tag to sort by Title */}}
-            {{ $isSeries := false }}
-            {{ range $pages }}
-              {{ if or (in .RelPermalink "/blog/second-brain/") (in .RelPermalink "/blog/singularity/") (in .RelPermalink "/blog/affinity/") (in .RelPermalink "/blog/ssg/") }}
-                {{ $isSeries = true }}
+            {{ $sortOrder := "date" }}
+            {{ if site.Params.sorting }}
+              {{/* 1. Try checking by term title */}}
+              {{ if site.Params.sorting.terms }}
+                {{ $sortOrder = index site.Params.sorting.terms (lower .Title) | default "date" }}
+              {{ end }}
+              
+              {{/* 2. Fallback: If still default "date", check if any nested page belongs to a configured section */}}
+              {{ if eq $sortOrder "date" }}
+                {{ if site.Params.sorting.sections }}
+                  {{ range $pages }}
+                    {{ $pageLink := .RelPermalink }}
+                    {{ range $secPath, $secOrder := site.Params.sorting.sections }}
+                      {{ if in $pageLink $secPath }}
+                        {{ $sortOrder = $secOrder }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
               {{ end }}
             {{ end }}
-            {{ if $isSeries }}
+
+            {{ if eq $sortOrder "title" }}
               {{ $pages = $pages.ByTitle }}
+            {{ else if eq $sortOrder "date_asc" }}
+              {{ $pages = $pages.ByDate }}
+            {{ else if eq $sortOrder "date_desc" }}
+              {{ $pages = $pages.ByDate.Reverse }}
             {{ end }}
             
             {{ $paginator:= .Paginate $pages 9 }}
