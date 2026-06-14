@@ -3,7 +3,7 @@
 {{ $responsive := .Get "responsive" }}
 
 {{ if eq $responsive "false" }}
-<div class="flex flex-col gap-0 md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12 bg-white dark:bg-darkmode-light border border-border dark:border-darkmode-border rounded-xl p-6 divide-y divide-border dark:divide-darkmode-border md:bg-transparent md:border-0 md:p-0 md:divide-y-0">
+<div class="flex flex-col gap-0 md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12 bg-white dark:bg-darkmode-body border border-border dark:border-darkmode-border rounded-xl p-6 divide-y divide-border dark:divide-darkmode-border md:bg-transparent md:border-0 md:p-0 md:divide-y-0">
   {{ .Inner }}
 </div>
 {{ else }}
