@@ -1,46 +1,79 @@
 <div class="bg-body dark:bg-darkmode-body">
-  {{ $image:= .Params.image }}
-  {{ if $image }}
-    {{ $linkURL := "" }}
-    {{ $imgResource := "" }}
-    
-    <!-- Try to find the image as a page resource (for bundles or parent sections) -->
-    {{ if .Resources.GetMatch $image }}
-      {{ $imgResource = .Resources.GetMatch $image }}
-    {{ else if and .Parent .Parent.Resources (.Parent.Resources.GetMatch $image) }}
-      {{ $imgResource = .Parent.Resources.GetMatch $image }}
-    {{ end }}
-    
-    <!-- Determine the correct link URL -->
-    {{ if $imgResource }}
-      {{ $linkURL = $imgResource.RelPermalink }}
-    {{ else if fileExists (add "assets/" (string $image)) }}
-      {{ $res := resources.Get $image }}
-      {{ if $res }}
-        {{ $linkURL = $res.RelPermalink }}
+  {{ $show_thumbnail := site.Params.blog_card.show_thumbnail | default true }}
+  {{ $show_title := site.Params.blog_card.show_title | default true }}
+  {{ $show_summary := site.Params.blog_card.show_summary | default true }}
+  {{ $show_date := site.Params.blog_card.show_date | default true }}
+  {{ $show_author := site.Params.blog_card.show_author | default true }}
+  {{ $show_read_more := site.Params.blog_card.show_read_more | default true }}
+  
+  {{ $title_size := site.Params.blog_card.title_font_size | default "h5" }}
+  {{ $summary_size := site.Params.blog_card.summary_font_size | default "text-base" }}
+
+  {{ if $show_thumbnail }}
+    {{ $image:= .Params.image }}
+    {{ if $image }}
+      {{ $linkURL := "" }}
+      {{ $imgResource := "" }}
+      
+      <!-- Try to find the image as a page resource (for bundles or parent sections) -->
+      {{ if .Resources.GetMatch $image }}
+        {{ $imgResource = .Resources.GetMatch $image }}
+      {{ else if and .Parent .Parent.Resources (.Parent.Resources.GetMatch $image) }}
+        {{ $imgResource = .Parent.Resources.GetMatch $image }}
       {{ end }}
-    {{ else }}
-      {{ $linkURL = $image | relURL }}
-    {{ end }}
-    
-    {{ if $linkURL }}
-      <a href="{{ $linkURL }}" class="glightbox" data-type="image" data-gallery="post-thumbnails" data-title="{{ .Title }}">
-        {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded hover:opacity-90 transition duration-300 cursor-zoom-in") }}
-      </a>
-    {{ else }}
-      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
+      
+      <!-- Determine the correct link URL -->
+      {{ if $imgResource }}
+        {{ $linkURL = $imgResource.RelPermalink }}
+      {{ else if fileExists (add "assets/" (string $image)) }}
+        {{ $res := resources.Get $image }}
+        {{ if $res }}
+          {{ $linkURL = $res.RelPermalink }}
+        {{ end }}
+      {{ else }}
+        {{ $linkURL = $image | relURL }}
+      {{ end }}
+      
+      {{ if $linkURL }}
+        <a href="{{ $linkURL }}" class="glightbox" data-type="image" data-gallery="post-thumbnails" data-title="{{ .Title }}">
+          {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded hover:opacity-90 transition duration-300 cursor-zoom-in") }}
+        </a>
+      {{ else }}
+        {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
+      {{ end }}
     {{ end }}
   {{ end }}
   
-  <h5 class="h5 mb-3">
-    <a href="{{ .RelPermalink }}">
-      {{ .Title }}
+  {{ if $show_title }}
+    <h5 class="{{ $title_size }} mb-3">
+      <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+      </a>
+    </h5>
+  {{ end }}
+
+  {{ if or $show_date $show_author }}
+    <ul class="mb-3 flex flex-wrap text-sm text-text-light dark:text-darkmode-text-light space-x-4">
+      {{ if and $show_author .Params.author }}
+        <li>
+          <i class="fa-regular fa-circle-user mr-1.5"></i>{{ .Params.author }}
+        </li>
+      {{ end }}
+      {{ if $show_date }}
+        <li>
+          <i class="fa-regular fa-clock mr-1.5"></i>{{ time.Format ":date_long" .PublishDate }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  
+  {{ if $show_summary }}
+    <p class="{{ $summary_size }} mb-6">{{ .Summary | plainify | truncate 200 "..." }}</p>
+  {{ end }}
+  
+  {{ if $show_read_more }}
+    <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+      {{ T "read_more" | default "Read More" }}
     </a>
-  </h5>
-  
-  <p class="mb-6">{{ .Summary | plainify | truncate 200 "..." }}</p>
-  
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-    {{ T "read_more" | default "Read More" }}
-  </a>
+  {{ end }}
 </div>
