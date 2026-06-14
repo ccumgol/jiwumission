@@ -137,3 +137,25 @@ footer_content = "The JIWU Mission wants to network with people with good intent
 # 연락처 (contact 관련 섹션이 있는 경우)
 email = "jiwumission@gmail.com"
 phone = "862-413-7442"
+
+# 블로그 및 카테고리 정렬 설정 (sorting)
+# 지원하는 정렬 옵션:
+# - "title": 제목 기준 가나다/알파벳순 정렬
+# - "date_desc" (또는 "date"): 최신순 정렬 (기본값)
+# - "date_asc": 오래된순 정렬
+[sorting]
+  [sorting.sections]
+  "/blog/second-brain/" = "title"
+  "/blog/singularity/" = "title"
+  "/blog/affinity/" = "title"
+  "/blog/ssg/" = "title"
+
+  [sorting.terms]
+  "세컨드브레인" = "title"
+  "특이점" = "title"
+  "affinity" = "title"
+  "홈페이지 만들기" = "title"
+  "홈페이지-만들기" = "title"
+  "second-brain" = "title"
+  "singularity" = "title"
+  "ssg" = "title"

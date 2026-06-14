@@ -13,10 +13,19 @@
               {{ $pages = where .Site.RegularPages "Section" .Section }}
             {{ end }}
 
-            {{/* Check if this is a series section to sort by Title */}}
-            {{ $isSeries := in (slice "/blog/second-brain/" "/blog/singularity/" "/blog/affinity/" "/blog/ssg/") .RelPermalink }}
-            {{ if $isSeries }}
+            {{ $sortOrder := "date" }}
+            {{ if site.Params.sorting }}
+              {{ if site.Params.sorting.sections }}
+                {{ $sortOrder = index site.Params.sorting.sections .RelPermalink | default "date" }}
+              {{ end }}
+            {{ end }}
+
+            {{ if eq $sortOrder "title" }}
               {{ $pages = $pages.ByTitle }}
+            {{ else if eq $sortOrder "date_asc" }}
+              {{ $pages = $pages.ByDate }}
+            {{ else if eq $sortOrder "date_desc" }}
+              {{ $pages = $pages.ByDate.Reverse }}
             {{ end }}
 
             {{ $paginator:= .Paginate $pages 9 }}
