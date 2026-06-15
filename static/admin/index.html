@@ -384,7 +384,7 @@
         
         const data = await response.json();
         fileSha = data.sha;
-        const tomlText = atob(data.content);
+        const tomlText = decodeURIComponent(escape(atob(data.content)));
         
         // Use smol-toml parser
         configObject = window.tomlParse(tomlText);
