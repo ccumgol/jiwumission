@@ -348,6 +348,9 @@
                   <i class="fa-solid fa-folder-open mr-2 text-[#E53935]"></i> 콘텐츠 관리자
                 </h2>
                 <div class="flex space-x-2">
+                  <button onclick="openNewFolderModal('')" class="text-xs bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-semibold px-3 py-1.5 rounded border border-zinc-700 transition">
+                    <i class="fa-solid fa-folder-plus mr-1"></i> 새 폴더 생성
+                  </button>
                   <button onclick="openNewPostModal('')" class="text-xs bg-[#E53935] hover:bg-[#c62828] text-white font-semibold px-3 py-1.5 rounded transition">
                     <i class="fa-solid fa-file-circle-plus mr-1"></i> 새 글 쓰기
                   </button>
@@ -614,7 +617,13 @@
           const item = document.createElement("div");
           const rel = subpath ? `${subpath}/${file.name}` : file.name;
           if (file.type === "dir") {
-            item.innerHTML = `<div class="cursor-pointer flex items-center justify-between p-2 hover:bg-zinc-900 rounded" onclick="toggleDir('${rel}', this)"><div class="flex items-center text-zinc-300"><i class="fa-solid fa-folder text-yellow-500 mr-2"></i>${file.name}</div><button onclick="event.stopPropagation(); openNewPostModal('${rel}')" class="text-xs bg-zinc-800 p-1 px-2 rounded hover:bg-[#E53935]">새 글</button></div><div id="dir-${rel.replace(/\//g, '-')}" class="hidden pl-6 border-l border-zinc-850 ml-2.5"></div>`;
+            item.innerHTML = `<div class="cursor-pointer flex items-center justify-between p-2 hover:bg-zinc-900 rounded" onclick="toggleDir('${rel}', this)">
+              <div class="flex items-center text-zinc-300"><i class="fa-solid fa-folder text-yellow-500 mr-2"></i>${file.name}</div>
+              <div class="flex space-x-1">
+                <button onclick="event.stopPropagation(); openNewFolderModal('${rel}')" class="text-[10px] bg-zinc-800 p-1 px-1.5 rounded hover:bg-zinc-700 text-zinc-400 hover:text-white">폴더+</button>
+                <button onclick="event.stopPropagation(); openNewPostModal('${rel}')" class="text-[10px] bg-zinc-800 p-1 px-1.5 rounded hover:bg-[#E53935] text-zinc-350 hover:text-white">새 글</button>
+              </div>
+            </div><div id="dir-${rel.replace(/\//g, '-')}" class="hidden pl-6 border-l border-zinc-850 ml-2.5"></div>`;
           } else if (file.name.endsWith(".md")) {
             item.innerHTML = `<div class="flex items-center justify-between p-2 hover:bg-zinc-900 rounded"><div class="text-zinc-400 text-sm"><i class="fa-regular fa-file-lines mr-2"></i>${file.name}</div><button onclick="openEditPostModal('${rel}', '${file.sha}')" class="text-xs bg-zinc-800 p-1 px-2 rounded hover:bg-zinc-700">편집</button></div>`;
           }
@@ -631,6 +640,49 @@
         loadContentDirectory(dirPath, sub);
       } else {
         sub.classList.add("hidden");
+      }
+    }
+
+    window.openNewFolderModal = async (parentPath = "") => {
+      const displayPath = parentPath ? `content/${parentPath}/` : "content/";
+      const folderName = prompt(`생성할 새 폴더명을 입력해 주세요. (영어 권장)\n경로: ${displayPath}`);
+      if (!folderName) return;
+      
+      const cleanName = folderName.trim().replace(/^\/|\/$/g, ""); // strip leading/trailing slashes
+      if (!cleanName) return;
+      
+      const fullDirPath = parentPath ? `${parentPath}/${cleanName}` : cleanName;
+      
+      const user = localStorage.getItem("jiwu_gh_user");
+      const repo = localStorage.getItem("jiwu_gh_repo");
+      const token = localStorage.getItem("jiwu_gh_token");
+      
+      const path = `${fullDirPath}/_index.md`;
+      const title = cleanName.charAt(0).toUpperCase() + cleanName.slice(1);
+      const content = `---\ntitle: "${title}"\ntype: "blog"\n---\n`;
+      
+      try {
+        const resp = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/content/${path}`, {
+          method: "PUT",
+          headers: {
+            "Authorization": `token ${token}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            message: `create folder placeholder _index.md in ${fullDirPath}`,
+            content: encodeBase64(content)
+          })
+        });
+        
+        if (!resp.ok) {
+          const errData = await resp.json();
+          throw new Error(errData.message || "폴더 생성에 실패했습니다.");
+        }
+        
+        alert(`폴더(placeholder _index.md)가 성공적으로 생성되었습니다!`);
+        loadContentDirectory("");
+      } catch (err) {
+        alert("에러: " + err.message);
       }
     }
 
