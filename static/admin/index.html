@@ -373,7 +373,7 @@
   </div>
 
   <!-- Modal: Post Editor / Creator -->
-  <div id="editor-modal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 flex items-center justify-center p-4">
+  <div id="editor-modal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 items-center justify-center p-4">
     <div class="bg-[#181818] border border-zinc-850 rounded-2xl w-full max-w-4xl p-6 md:p-8 space-y-6 shadow-2xl max-h-[90vh] overflow-y-auto">
       <div class="flex justify-between items-center border-b border-zinc-800 pb-3">
         <h3 id="modal-title" class="text-lg font-bold text-white">글 편집 및 발행</h3>
@@ -704,7 +704,9 @@
       document.getElementById("post-summary").value = "";
       document.getElementById("post-body").value = "";
       
-      document.getElementById("editor-modal").classList.remove("hidden");
+      const modal = document.getElementById("editor-modal");
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
     }
 
     window.openEditPostModal = async (filePath, sha) => {
@@ -727,7 +729,9 @@
       document.getElementById("post-summary").value = "";
       document.getElementById("post-body").value = "";
       
-      document.getElementById("editor-modal").classList.remove("hidden");
+      const modal = document.getElementById("editor-modal");
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
       
       try {
         const resp = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/content/${filePath}`, {
@@ -780,7 +784,11 @@
       }
     }
 
-    window.closeEditorModal = () => document.getElementById("editor-modal").classList.add("hidden");
+    window.closeEditorModal = () => {
+      const modal = document.getElementById("editor-modal");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    };
 
     async function saveLayoutConfiguration() {
       const user = localStorage.getItem("jiwu_gh_user");
