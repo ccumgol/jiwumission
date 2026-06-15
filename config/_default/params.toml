@@ -106,7 +106,7 @@ summary_font_size = "text-base"
 "/blog/singularity/" = "title"
 "/blog/affinity/" = "title"
 "/blog/ssg/" = "title"
-"/blog/presentation/" = "title"
+"/blog/프리젠테이션/" = "title"
 
 [sorting.terms]
 "세컨드브레인" = "title"
