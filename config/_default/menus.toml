@@ -1,5 +1,3 @@
-############# 1차 메뉴 #############
-
 [[main]]
 name = "About"
 url = "/"
@@ -11,59 +9,59 @@ url = "/blog/"
 weight = 3
 hasChildren = true
 
-  [[main]]
-  parent = "Blog"
-  name = "Affinity"
-  url = "/blog/affinity/"
-  weight = 1
+[[main]]
+name = "Affinity"
+url = "/class/affinity/"
+weight = 1
+parent = "Class"
 
-  [[main]]
-  parent = "Blog"
-  name = "AI & Tech"
-  url = "/blog/ai-tech/"
-  weight = 2
+[[main]]
+name = "AI & Tech"
+url = "/blog/ai-tech/"
+weight = 2
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "성경연구"
-  url = "/blog/bible-study/"
-  weight = 3
+[[main]]
+name = "성경연구"
+url = "/blog/bible-study/"
+weight = 3
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "세컨드브레인"
-  url = "/blog/second-brain/"
-  weight = 4
+[[main]]
+name = "세컨드브레인"
+url = "/blog/second-brain/"
+weight = 4
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "주간 AI 트렌드"
-  url = "/blog/weekly-ai-trends/"
-  weight = 5
+[[main]]
+name = "주간 AI 트렌드"
+url = "/blog/weekly-ai-trends/"
+weight = 5
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "프리젠테이션"
-  url = "/blog/presentation/"
-  weight = 6
+[[main]]
+name = "프리젠테이션"
+url = "/blog/presentation/"
+weight = 6
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "특이점"
-  url = "/blog/singularity/"
-  weight = 7
+[[main]]
+name = "특이점"
+url = "/blog/singularity/"
+weight = 7
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "홈페이지 만들기"
-  url = "/blog/ssg/"
-  weight = 8
+[[main]]
+name = "홈페이지 만들기"
+url = "/blog/ssg/"
+weight = 8
+parent = "Blog"
 
-  [[main]]
-  parent = "Blog"
-  name = "컨퍼런스 리뷰"
-  url = "/blog/conference-review/"
-  weight = 9
+[[main]]
+name = "컨퍼런스 리뷰"
+url = "/blog/conference-review/"
+weight = 9
+parent = "Blog"
 
 [[main]]
 name = "Class"
@@ -71,29 +69,29 @@ url = "/class/"
 weight = 4
 hasChildren = true
 
-  [[main]]
-  parent = "Class"
-  name = "AI 공부법"
-  url = "/class/ai-study-guide/"
-  weight = 1
+[[main]]
+name = "AI 공부법"
+url = "/class/ai-study-guide/"
+weight = 1
+parent = "Class"
 
-  [[main]]
-  parent = "Class"
-  name = "Notebook LM"
-  url = "/class/notebook-lm/"
-  weight = 2
+[[main]]
+name = "Notebook LM"
+url = "/class/notebook-lm/"
+weight = 2
+parent = "Class"
 
-  [[main]]
-  parent = "Class"
-  name = "Gemini Gems"
-  url = "/class/gemini-gems/"
-  weight = 3
+[[main]]
+name = "Gemini Gems"
+url = "/class/gemini-gems/"
+weight = 3
+parent = "Class"
 
-  [[main]]
-  parent = "Class"
-  name = "Gemini Canvas"
-  url = "/class/gemini-canvas/"
-  weight = 4
+[[main]]
+name = "Gemini Canvas"
+url = "/class/gemini-canvas/"
+weight = 4
+parent = "Class"
 
 [[main]]
 name = "Databank"
@@ -101,25 +99,23 @@ url = "/databank/"
 weight = 5
 hasChildren = true
 
-  [[main]]
-  parent = "Databank"
-  name = "이슬비전도카드"
-  url = "/databank/rain-card/"
-  weight = 1
+[[main]]
+name = "이슬비전도카드"
+url = "/databank/rain-card/"
+weight = 1
+parent = "Databank"
 
-  [[main]]
-  parent = "Databank"
-  name = "성경자료실"
-  url = "/databank/bible-resources/"
-  weight = 2
+[[main]]
+name = "성경자료실"
+url = "/databank/bible-resources/"
+weight = 2
+parent = "Databank"
 
-  [[main]]
-  parent = "Databank"
-  name = "노션 템플릿"
-  url = "/databank/notion-templates/"
-  weight = 3
-
-############# 푸터 메뉴 #############
+[[main]]
+name = "노션 템플릿"
+url = "/databank/notion-templates/"
+weight = 3
+parent = "Databank"
 
 [[footer]]
 name = "Home"
