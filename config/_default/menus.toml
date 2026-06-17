@@ -18,49 +18,49 @@ parent = "Class"
 [[main]]
 name = "AI & Tech"
 url = "/blog/ai-tech/"
-weight = 2
+weight = 1
 parent = "Blog"
 
 [[main]]
 name = "성경연구"
 url = "/blog/bible-study/"
-weight = 3
+weight = 2
 parent = "Blog"
 
 [[main]]
 name = "세컨드브레인"
 url = "/blog/second-brain/"
-weight = 4
+weight = 3
 parent = "Blog"
 
 [[main]]
 name = "주간 AI 트렌드"
 url = "/blog/weekly-ai-trends/"
-weight = 5
+weight = 4
 parent = "Blog"
 
 [[main]]
 name = "프리젠테이션"
 url = "/blog/presentation/"
-weight = 6
+weight = 5
 parent = "Blog"
 
 [[main]]
 name = "특이점"
 url = "/blog/singularity/"
-weight = 7
+weight = 6
 parent = "Blog"
 
 [[main]]
 name = "홈페이지 만들기"
 url = "/blog/ssg/"
-weight = 8
+weight = 7
 parent = "Blog"
 
 [[main]]
 name = "컨퍼런스 리뷰"
 url = "/blog/conference-review/"
-weight = 9
+weight = 8
 parent = "Blog"
 
 [[main]]
@@ -72,25 +72,25 @@ hasChildren = true
 [[main]]
 name = "AI 공부법"
 url = "/class/ai-study-guide/"
-weight = 1
+weight = 2
 parent = "Class"
 
 [[main]]
 name = "Notebook LM"
 url = "/class/notebook-lm/"
-weight = 2
+weight = 3
 parent = "Class"
 
 [[main]]
 name = "Gemini Gems"
 url = "/class/gemini-gems/"
-weight = 3
+weight = 4
 parent = "Class"
 
 [[main]]
 name = "Gemini Canvas"
 url = "/class/gemini-canvas/"
-weight = 4
+weight = 5
 parent = "Class"
 
 [[main]]
