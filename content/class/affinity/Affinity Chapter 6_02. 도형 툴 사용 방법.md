@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-6_02.-도형-툴-사용-방법.jpg"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-6_02-32e091c284f680b39d19c0d3b4fd248c
 notion_id: 32e091c2-84f6-80b3-9d19-c0d3b4fd248c
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

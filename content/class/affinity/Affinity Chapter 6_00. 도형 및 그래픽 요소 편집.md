@@ -8,7 +8,6 @@ description: "Affinity 매뉴얼 Chapter 6에서는 교회 주보 제작을 �
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-6_00-364091c284f68053bf0ad587b5acc4e1
 notion_id: 364091c2-84f6-8053-bf0a-d587b5acc4e1
-path: ["class", "affinity"]
 ---
 
 # Affinity (Layout Studio) 교회 주보/책자 제작 매뉴얼

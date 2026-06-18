@@ -8,7 +8,6 @@ description: "Affinity Studio에서 툴바 커스터마이징 시 추가할 수 
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_05-Toolbar-2fb091c284f68068ba0bebfd58443e8f
 notion_id: 2fb091c2-84f6-8068-ba0b-ebfd58443e8f
-path: ["class", "affinity"]
 ---
 
 ![image](images/Affinity-Chapter-2_05.-Toolbar-1.png)

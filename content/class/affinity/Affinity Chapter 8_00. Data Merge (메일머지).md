@@ -8,7 +8,6 @@ description: "Affinity Studio를 활용해 Mac과 Windows에서 교회학교 졸
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-8_00-Data-Merge-364091c284f680eb8841ed16048ebbac
 notion_id: 364091c2-84f6-80eb-8841-ed16048ebbac
-path: ["class", "affinity"]
 ---
 
 # Affinity Studio — Data Merge (메일머지) 완전 가이드

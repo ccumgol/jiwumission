@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-�
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_03-Studio-311091c284f6803eade4e4096e3190f5
 notion_id: 311091c2-84f6-803e-ade4-e4096e3190f5
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

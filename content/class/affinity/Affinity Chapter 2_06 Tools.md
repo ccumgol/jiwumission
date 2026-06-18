@@ -8,7 +8,6 @@ description: "Affinity Studio의 Tools(도구) 기능을 정리한 참고 페이
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_06-Tools-2a4091c284f680b78dc4dbb486fd064a
 notion_id: 2a4091c2-84f6-80b7-8dc4-dbb486fd064a
-path: ["class", "affinity"]
 ---
 
 ![image](images/Affinity-Chapter-2_06-Tools-1.png)

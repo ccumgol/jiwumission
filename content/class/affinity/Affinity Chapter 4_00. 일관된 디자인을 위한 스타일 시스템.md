@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-4_00.-일관된-디자인을-위한-스타일-�
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-4_00-361091c284f6800da2e4dec7de4a76a8
 notion_id: 361091c2-84f6-800d-a2e4-dec7de4a76a8
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

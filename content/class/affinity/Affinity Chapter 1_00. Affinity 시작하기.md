@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-1_00.-Affinity-시작하기.jpg"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_00-Affinity-361091c284f68069ba9ac38340776916
 notion_id: 361091c2-84f6-8069-ba9a-c38340776916
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

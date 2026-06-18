@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-5_04.-텍스트의-흐르는-방법.png"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_04-341091c284f680c686d6fcd9be416eb3
 notion_id: 341091c2-84f6-80c6-86d6-fcd9be416eb3
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

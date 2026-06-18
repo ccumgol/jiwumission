@@ -9,7 +9,6 @@ tags: ["잎새 16호"]
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_01-Affinity-Studio-d37353c4a2f24da1bc243f1a3bd50a08
 notion_id: d37353c4-a2f2-4da1-bc24-3f1a3bd50a08
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 
