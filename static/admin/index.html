@@ -42,6 +42,8 @@
     window.tomlStringify = stringify;
     window.yamlLoad = load;
     window.yamlDump = dump;
+    window._tomlReady = true;
+    document.dispatchEvent(new Event('toml-ready'));
   </script>
 </head>
 <body class="bg-[#121212] text-slate-200 min-h-screen transition-colors duration-300">
@@ -470,10 +472,22 @@
       if (savedUser) document.getElementById("github-username").value = savedUser;
       if (savedRepo) document.getElementById("github-repo").value = savedRepo;
       if (savedToken) document.getElementById("github-token").value = savedToken;
-      if (savedToken) verifyCredentialsAndLoad();
+      if (savedToken) {
+        if (window._tomlReady) {
+          verifyCredentialsAndLoad();
+        } else {
+          document.addEventListener('toml-ready', () => verifyCredentialsAndLoad(), { once: true });
+        }
+      }
     });
 
-    document.getElementById("login-btn").addEventListener("click", () => verifyCredentialsAndLoad());
+    document.getElementById("login-btn").addEventListener("click", () => {
+      if (window._tomlReady) {
+        verifyCredentialsAndLoad();
+      } else {
+        document.addEventListener('toml-ready', () => verifyCredentialsAndLoad(), { once: true });
+      }
+    });
     document.getElementById("save-card-btn").addEventListener("click", () => saveLayoutConfiguration());
     document.getElementById("save-sorting-btn").addEventListener("click", () => saveLayoutConfiguration());
     document.getElementById("save-menus-btn").addEventListener("click", () => saveMenusConfiguration());
@@ -552,6 +566,7 @@
       row.innerHTML = `<input type="text" value="${pathKey}" placeholder="${type === 'section' ? '/blog/' : '카테고리명'}" class="sorting-path flex-1 bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
         <select class="sorting-order bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-white focus:outline-none focus:border-[#E53935] transition text-sm w-36">
           <option value="title" ${orderValue === 'title' ? 'selected' : ''}>가나다순</option>
+          <option value="title_desc" ${orderValue === 'title_desc' ? 'selected' : ''}>가나다역순</option>
           <option value="date_desc" ${orderValue === 'date_desc' || orderValue === 'date' ? 'selected' : ''}>최신순</option>
           <option value="date_asc" ${orderValue === 'date_asc' ? 'selected' : ''}>오래된순</option>
         </select>

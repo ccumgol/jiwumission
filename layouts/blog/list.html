@@ -22,6 +22,8 @@
 
             {{ if eq $sortOrder "title" }}
               {{ $pages = $pages.ByTitle }}
+            {{ else if eq $sortOrder "title_desc" }}
+              {{ $pages = $pages.ByTitle.Reverse }}
             {{ else if eq $sortOrder "date_asc" }}
               {{ $pages = $pages.ByDate }}
             {{ else if eq $sortOrder "date_desc" }}
