@@ -10,7 +10,6 @@ image: "images/‘리포지터리(repository)’란.png"
 comments: false
 notion_url: https://app.notion.com/p/repository-382091c284f68015a811d67df53c7b6c
 notion_id: 382091c2-84f6-8015-a811-d67df53c7b6c
-path: ["class", "computer-basic"]
 Categories: ["컴퓨터 기초"]
 ---
 

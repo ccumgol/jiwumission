@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드.j
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_02-318091c284f680d8bcd0de2a21b66a0f
 notion_id: 318091c2-84f6-80d8-bcd0-de2a21b66a0f
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

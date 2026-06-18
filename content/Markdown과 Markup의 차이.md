@@ -7,7 +7,6 @@ image: "images/Markdown과-Markup의-차이.png"
 comments: false
 notion_url: https://app.notion.com/p/Markdown-Markup-313091c284f680038528ec4f4094ab9c
 notion_id: 313091c2-84f6-8003-8528-ec4f4094ab9c
-path: ["class", "computer-basic"]
 Categories: ["컴퓨터 기초"]
 ---
 

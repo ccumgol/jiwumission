@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-5_01.-텍스트-툴-사용-방법.png"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_01-318091c284f6808f9002de16d23b8531
 notion_id: 318091c2-84f6-808f-9002-de16d23b8531
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

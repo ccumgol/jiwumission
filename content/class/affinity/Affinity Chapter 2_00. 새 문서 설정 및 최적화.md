@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-2_00.-새-문서-설정-및-최적화.png"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_00-361091c284f68032bc05ce6b1ddda924
 notion_id: 361091c2-84f6-8032-bc05-ce6b1ddda924
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

@@ -10,7 +10,6 @@ image: "images/컴퓨터-메모리-시스템-가이드---RAM,-VRAM,-통합메모
 comments: false
 notion_url: https://app.notion.com/p/RAM-VRAM-33b091c284f6806388afe94ea0ada1d2
 notion_id: 33b091c2-84f6-8063-88af-e94ea0ada1d2
-path: ["class", "computer-basic"]
 Categories: ["컴퓨터 기초"]
 ---
 

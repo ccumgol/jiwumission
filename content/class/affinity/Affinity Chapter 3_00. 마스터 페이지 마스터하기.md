@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-3_00.-마스터-페이지-마스터하기.png"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-3_00-361091c284f680849447e3369c365137
 notion_id: 361091c2-84f6-8084-9447-e3369c365137
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-3_03-335091c284f680548582ce916836b72e
 notion_id: 335091c2-84f6-8054-8582-ce916836b72e
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

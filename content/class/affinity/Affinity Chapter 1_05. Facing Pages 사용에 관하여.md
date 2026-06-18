@@ -10,7 +10,6 @@ image: "images/Affinity-Chapter-1_05.-Facing-Pages-사용에-관하여.png"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_05-Facing-Pages-33b091c284f68081a4b8e9a8d18b5cd7
 notion_id: 33b091c2-84f6-8081-a4b8-e9a8d18b5cd7
-path: ["class", "affinity"]
 Categories: ["Affinity"]
 ---
 

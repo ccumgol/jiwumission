@@ -8,7 +8,6 @@ description: "Affinity 3의 68가지 도구를 Vector/Pixel/Layout Studio로 나
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_04-68-2f4091c284f680b48ec5f7f12c92e6b8
 notion_id: 2f4091c2-84f6-80b4-8ec5-f7f12c92e6b8
-path: ["class", "affinity"]
 ---
 
 📌 Affinity 3의 68가지 도구는 어떻게 활용할 수 있는가?
