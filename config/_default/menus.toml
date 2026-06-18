@@ -1,3 +1,5 @@
+############# 1차 메뉴 #############
+
 [[main]]
 name = "About"
 url = "/"
@@ -9,35 +11,35 @@ url = "/blog/"
 weight = 3
 hasChildren = true
 
-[[main]]
-name = "주간 AI 트렌드"
-url = "/blog/weekly-ai-trends/"
-weight = 1
-parent = "Blog"
+  [[main]]
+  parent = "Blog"
+  name = "주간 AI 트렌드"
+  url = "/blog/weekly-ai-trends/"
+  weight = 1
 
-[[main]]
-name = "컨퍼런스 리뷰"
-url = "/blog/conference-review/"
-weight = 2
-parent = "Blog"
+  [[main]]
+  parent = "Blog"
+  name = "컨퍼런스 리뷰"
+  url = "/blog/conference-review/"
+  weight = 2
 
-[[main]]
-name = "세컨드 브레인"
-url = "/blog/second-brain/"
-weight = 3
-parent = "Blog"
+  [[main]]
+  parent = "Blog"
+  name = "세컨드 브레인"
+  url = "/blog/second-brain/"
+  weight = 3
 
-[[main]]
-name = "프리젠테이션"
-url = "/blog/presentation/"
-weight = 4
-parent = "Blog"
+  [[main]]
+  parent = "Blog"
+  name = "프리젠테이션"
+  url = "/blog/presentation/"
+  weight = 4
 
-[[main]]
-name = "특이점"
-url = "/blog/singularity/"
-weight = 5
-parent = "Blog"
+  [[main]]
+  parent = "Blog"
+  name = "특이점"
+  url = "/blog/singularity/"
+  weight = 5
 
 [[main]]
 name = "Class"
@@ -45,47 +47,53 @@ url = "/class/"
 weight = 4
 hasChildren = true
 
-[[main]]
-name = "Affinity"
-url = "/class/affinity/"
-weight = 1
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "Affinity"
+  url = "/class/affinity/"
+  weight = 1
 
-[[main]]
-name = "정적홈페이지"
-url = "/class/ssg/"
-weight = 2
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "정적홈페이지"
+  url = "/class/ssg/"
+  weight = 2
 
-[[main]]
-name = "컴퓨터 기초"
-url = "/class/computer-basic/"
-weight = 4
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "LLM Wiki"
+  url = "/class/llm-wiki/"
+  weight = 3
 
-[[main]]
-name = "청출어람"
-url = "/class/ai-study-guide/"
-weight = 5
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "컴퓨터 기초"
+  url = "/class/computer-basic/"
+  weight = 4
 
-[[main]]
-name = "Gemini Canvas"
-url = "/class/gemini-canvas/"
-weight = 6
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "청출어람"
+  url = "/class/ai-study-guide/"
+  weight = 5
 
-[[main]]
-name = "Gemini Gems"
-url = "/class/gemini-gems/"
-weight = 7
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "Gemini Canvas"
+  url = "/class/gemini-canvas/"
+  weight = 6
 
-[[main]]
-name = "Notebook LM"
-url = "/class/notebook-lm/"
-weight = 8
-parent = "Class"
+  [[main]]
+  parent = "Class"
+  name = "Gemini Gems"
+  url = "/class/gemini-gems/"
+  weight = 7
+
+  [[main]]
+  parent = "Class"
+  name = "Notebook LM"
+  url = "/class/notebook-lm/"
+  weight = 8
 
 [[main]]
 name = "Databank"
@@ -93,29 +101,25 @@ url = "/databank/"
 weight = 5
 hasChildren = true
 
-[[main]]
-name = "말씀카드"
-url = "/databank/rain-card/"
-weight = 1
-parent = "Databank"
+  [[main]]
+  parent = "Databank"
+  name = "말씀카드"
+  url = "/databank/rain-card/"
+  weight = 1
 
-[[main]]
-name = "성경 자료"
-url = "/databank/bible-resources/"
-weight = 2
-parent = "Databank"
+  [[main]]
+  parent = "Databank"
+  name = "성경 자료"
+  url = "/databank/bible-resources/"
+  weight = 2
 
-[[main]]
-name = "자료실"
-url = "/databank/pds/"
-weight = 3
-parent = "Databank"
+  [[main]]
+  parent = "Databank"
+  name = "자료실"
+  url = "/databank/pds/"
+  weight = 3
 
-[[main]]
-name = "LLM Wiki"
-url = "/class/llm-wiki"
-weight = 3
-parent = "Class"
+############# 푸터 메뉴 #############
 
 [[footer]]
 name = "Home"
