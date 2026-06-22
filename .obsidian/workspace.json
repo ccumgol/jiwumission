@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/class/llm-wiki/‘리포지터리(repository)’란.md",
+                "file": "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "‘리포지터리(repository)’란"
+              "title": "Obsidian-LLM-Wiki 초보자 설치부터 사용까지"
             }
           }
         ]
@@ -185,6 +185,15 @@
   },
   "active": "70989248695ddab9",
   "lastOpenFiles": [
+    "content/class/llm-wiki/‘리포지터리(repository)’란.md",
+    "content/class/ai-study-guide/일상에서 전문 개발까지, 한눈에 맛보는 구글 AI 올인원(All-in-One) 성찬.md",
+    "content/class/ai-study-guide/바이브코딩(Vibe Coding) 교육용 개발 요약서 웹 기반 타자 연습 프로그램.md",
+    "content/class/ai-study-guide/로컬 AI의 심장 Ollama & 최신 Gemma4 설치법.md",
+    "content/class/ai-study-guide/Vibe Coding.md",
+    "content/class/ai-study-guide/AI 챗봇 vs AI 에이전트 vs 에이전틱 AI 비교.md",
+    "content/class/ai-study-guide/AI 엔지니어링의 진화 흐름 프롬프트에서 하네스로.md",
+    "content/class/ai-study-guide/AI 관련 주요 용어.md",
+    "content/blog/weekly-ai-trends/2026년 6월 2주차 글로벌 AI 산업 지형도 및 트렌드 분석.md",
     "content/blog/conference-review/Info-Tech LIVE 2026.md",
     "content/blog/conference-review/images/Info-Tech-LIVE-2026.jpg",
     "content/class/ssg/교회 홈페이지 무료 제작 매뉴얼 Chapter 5. GitHub 연결과 첫 배포.md",
@@ -219,7 +228,6 @@
     "public/class/llm-wiki/obsidian-llm-wiki-초보자-설치부터-사용까지/index.md",
     "public/class/llm-wiki/obsidian-llm-wiki-chapter-1.-설치법---ar9av-리포지터리-활용/index.md",
     "public/class/affinity/affinity-chapter-8_01.-data-merge로-졸업장-만들기/index.md",
-    "public/categories/홈페이지/index.md",
     "public/class/notebook-lm/page/8/index.html",
     "public/class/ssg/images/교회-홈페이지-무료-제작-매뉴얼-Chapter-1.-왜,-무엇으로-만들까_hu_fb6617d3f29a24a4.png",
     "public/class/ssg/images/교회-홈페이지-무료-제작-매뉴얼-Chapter-1.-왜,-무엇으로-만들까_hu_98da2c79eadc189d.webp"
