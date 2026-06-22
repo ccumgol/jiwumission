@@ -12,7 +12,7 @@ notion_url: https://app.notion.com/p/Obsidian-LLM-Wiki-378091c284f680d9b50adb2b7
 notion_id: 378091c2-84f6-80d9-b50a-db2b7fa783b5
 Categories: ["AI & Tech"]
 ---
-![](https://youtu.be/DuwZKH2DMQ0)
+{{< youtube-lite "DuwZKH2DMQ0" >}}
 
 ## 1. 폴더 구성하기
 
