@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-22
 summary: "이 문서는 Obsidian과 Antigravity Family를 활용해 폴더 구성, 설치, 스크립트 작성 및 다양한 위키 관리 스킬을 단계별로 안내하는 상세 가이드입니다."
 description: "이 문서는 Obsidian과 Antigravity Family를 활용해 폴더 구성, 설치, 스크립트 작성 및 다양한 위키 관리 스킬을 단계별로 안내하는 상세 가이드입니다."
-tags: ["잎새 35호"]
+tags: ["잎새 36호"]
 image: "images/Obsidian-LLM-Wiki-초보자-설치부터-사용까지.png"
 comments: false
 notion_url: https://app.notion.com/p/Obsidian-LLM-Wiki-378091c284f680d9b50adb2b7fa783b5
