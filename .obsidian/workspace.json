@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
+                "file": "content/class/llm-wiki/‘리포지터리(repository)’란.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian-LLM-Wiki 초보자 설치부터 사용까지"
+              "title": "‘리포지터리(repository)’란"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
+                "file": "content/class/llm-wiki/‘리포지터리(repository)’란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Obsidian-LLM-Wiki 초보자 설치부터 사용까지 의 백링크"
+              "title": "‘리포지터리(repository)’란 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
+                "file": "content/class/llm-wiki/‘리포지터리(repository)’란.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Obsidian-LLM-Wiki 초보자 설치부터 사용까지 의 나가는 링크"
+              "title": "‘리포지터리(repository)’란 의 나가는 링크"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
+                "file": "content/class/llm-wiki/‘리포지터리(repository)’란.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian-LLM-Wiki 초보자 설치부터 사용까지 의 개요"
+              "title": "‘리포지터리(repository)’란 의 개요"
             }
           }
         ]
@@ -185,7 +185,43 @@
   },
   "active": "70989248695ddab9",
   "lastOpenFiles": [
-    "content/class/llm-wiki/images/Obsidian-LLM-Wiki-초보자-설치부터-사용까지.png",
-    "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md"
+    "content/blog/conference-review/Info-Tech LIVE 2026.md",
+    "content/blog/conference-review/images/Info-Tech-LIVE-2026.jpg",
+    "content/class/ssg/교회 홈페이지 무료 제작 매뉴얼 Chapter 5. GitHub 연결과 첫 배포.md",
+    "content/class/ssg/images/교회-홈페이지-무료-제작-매뉴얼-Chapter-5.-GitHub-연결과-첫-배포.png",
+    "content/2026년 6월 2주차 글로벌 AI 산업 지형도 및 트렌드 분석.md",
+    "content/images/2026년-6월-2주차-글로벌-AI-산업-지형도-및-트렌드-분석.jpg",
+    "content/databank/bible-resources/갈라디아서 5장 성령을 따라 행하는 삶.md",
+    "content/databank/bible-resources/images/갈라디아서-5장-성령을-따라-행하는-삶.png",
+    "content/blog/weekly-ai-trends/2026년 6월 3주차 글로벌 AI 산업 지형도 및 트렌드 분석.md",
+    "content/blog/weekly-ai-trends/images/2026년-6월-3주차-글로벌-AI-산업-지형도-및-트렌드-분석.png",
+    "content/class/affinity/Affinity Chapter 5-Part 1. 텍스트 도구 & 프레임.md",
+    "content/class/affinity/images/Affinity-Chapter-5-Part-1.-텍스트-도구-&-프레임.png",
+    "content/databank/bible-resources/갈라디아서 5장 성령의 열매 해설.md",
+    "content/databank/bible-resources/images/갈라디아서-5장-성령의-열매-해설.png",
+    "content/class/computer-basic/Local AI 컴퓨터 간단 비교.md",
+    "content/class/computer-basic/images/Local-AI-컴퓨터-간단-비교.png",
+    "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
+    "public/categories/홈페이지/index.xml",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-1.-왜-무엇으로-만들까/index.xml",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-4.-테마-선택과-적용/index.xml",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-3.-hugo-프로젝트-시작하기/index.xml",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-2.-사전-준비--컴퓨터에-도구-설치하기-for-mac/index.xml",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-2.-사전-준비--컴퓨터에-도구-설치하기-for-windows/index.xml",
+    "public/class/llm-wiki/obsidian-llm-wiki-초보자-설치부터-사용까지/index.xml",
+    "public/class/llm-wiki/obsidian-llm-wiki-chapter-1.-설치법---ar9av-리포지터리-활용/index.xml",
+    "public/class/affinity/affinity-chapter-8_01.-data-merge로-졸업장-만들기/index.xml",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-2.-사전-준비--컴퓨터에-도구-설치하기-for-windows/index.md",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-3.-hugo-프로젝트-시작하기/index.md",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-4.-테마-선택과-적용/index.md",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-2.-사전-준비--컴퓨터에-도구-설치하기-for-mac/index.md",
+    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-1.-왜-무엇으로-만들까/index.md",
+    "public/class/llm-wiki/obsidian-llm-wiki-초보자-설치부터-사용까지/index.md",
+    "public/class/llm-wiki/obsidian-llm-wiki-chapter-1.-설치법---ar9av-리포지터리-활용/index.md",
+    "public/class/affinity/affinity-chapter-8_01.-data-merge로-졸업장-만들기/index.md",
+    "public/categories/홈페이지/index.md",
+    "public/class/notebook-lm/page/8/index.html",
+    "public/class/ssg/images/교회-홈페이지-무료-제작-매뉴얼-Chapter-1.-왜,-무엇으로-만들까_hu_fb6617d3f29a24a4.png",
+    "public/class/ssg/images/교회-홈페이지-무료-제작-매뉴얼-Chapter-1.-왜,-무엇으로-만들까_hu_98da2c79eadc189d.webp"
   ]
 }
