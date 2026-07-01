@@ -562,6 +562,18 @@ git pull --rebase && git push
 2. **참조 링크 일괄 치환**: `content/` 디렉토리 하위의 마크다운 문서들 중 이미지 경로를 가리키던 모든 구문들을 변경했습니다.
    * **Front Matter 변경**: `image: "images/파일명.png"` ➡️ `image: "images/파일명.webp"`
    * **본문 마크다운 변경**: `![설명](images/파일명.png)` ➡️ `![설명](images/파일명.webp)`
+3. **과거 히스토리 내 PNG 영구 삭제 (Git Purge)**: 원격 GitHub 리포지토리의 용량 제한(1GB)에 임박함에 따라, 과거 모든 커밋 기록에 남아있는 `.png` 원본 이미지 데이터를 완벽히 제거하는 히스토리 재작성을 수행했습니다.
+   * **도구**: `git-filter-repo` (Homebrew로 설치)
+   * **실행 명령**:
+     ```bash
+     # content/ 하위의 모든 png 파일을 과거 커밋 기록에서 영구 배제
+     git filter-repo --path-glob 'content/**/*.png' --invert-paths --force
+     
+     # 원격 저장소 재연동 및 강제 푸시 (동기화)
+     git remote add origin https://github.com/ccumgol/jiwumission.git
+     git push origin main --force
+     ```
+   * **결과**: 로컬 및 원격 저장소의 Git 히스토리 용량이 **`989 MB`에서 `134 MB`로 약 86% 대폭 축소**되어 안전하게 최적화되었습니다.
 
 ### 3) 향후 이미지 자산 추가 시 관리 가이드
 * **이미지 등록 전 사전 인코딩**: 블로그 포스트나 성경 자료 등 새로운 콘텐츠를 추가할 때, 가능한 한 이미지 파일을 로컬에서 사전에 `.webp` 포맷으로 변환하여 등록하십시오.
