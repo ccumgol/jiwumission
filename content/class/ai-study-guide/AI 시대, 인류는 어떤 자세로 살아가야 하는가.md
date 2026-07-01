@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "AI 시대에 인간은 도구를 활용하되 비판적 사고와 윤리적 감수성을 유지하고, 평생학습과 심리적 탄력성을 통해 변화에 적응하며 인간 고유의 가치와 관계를 지키는 자세가 필요하다."
 description: "AI 시대에 인간은 도구를 활용하되 비판적 사고와 윤리적 감수성을 유지하고, 평생학습과 심리적 탄력성을 통해 변화에 적응하며 인간 고유의 가치와 관계를 지키는 자세가 필요하다."
 tags: ["잎새 25호"]
-image: "images/AI-시대,-인류는-어떤-자세로-살아가야-하는가.png"
+image: "images/AI-시대,-인류는-어떤-자세로-살아가야-하는가.webp"
 comments: false
 notion_url: https://app.notion.com/p/AI-33c091c284f680e78e90ff2e90a10066
 notion_id: 33c091c2-84f6-80e7-8e90-ff2e90a10066

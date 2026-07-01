@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "Canva Create 2025 주요 업데이트/발표 내용을 정리한 컨퍼런스 노트."
 description: "Canva Create 2025 주요 업데이트/발표 내용을 정리한 컨퍼런스 노트."
-image: "images/Canva-Create-2025.png"
+image: "images/Canva-Create-2025.webp"
 comments: false
 notion_url: https://app.notion.com/p/Canva-Create-2025-2a1091c284f680fda89be63aff560254
 notion_id: 2a1091c2-84f6-80fd-a89b-e63aff560254

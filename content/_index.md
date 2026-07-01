@@ -3,7 +3,7 @@
 banner:
   title: "JIWU MISSION NETWORK"
   content: "두려워하지 말라 내가 너와 함께 함이라, <br>놀라지 말라 나는 네 하나님이 됨이라.<br>내가 너를 굳세게 하리라 참으로 너를 도와 주리라, <br>참으로 나의 의로운 오른손으로 너를 붙들리라. <br>이사야 41:10"
-  image: "images/title_banner.png"
+  image: "images/title_banner.webp"
   button:
     enable: false
     label: "JIWU Mission 소개"

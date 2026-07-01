@@ -16,7 +16,7 @@ notion_id: 30b091c2-84f6-805e-adee-eb4bb0d7c95a
 
 Affinity Studio에서 새 프로젝트를 시작할 때 가장 먼저 마주하게 되는 것이 바로 '새 문서 만들기' 대화상자입니다. 이 설정들을 제대로 이해하고 활용하면 작업의 효율성을 크게 높일 수 있습니다. 오늘은 각 설정 옵션에 대해 자세히 알아보겠습니다.
 
-![image](images/Affinity-Chapter-2_01.-‘새-문서-만들기’를-위한-설정-1.png)
+![image](images/Affinity-Chapter-2_01.-‘새-문서-만들기’를-위한-설정-1.webp)
 
 ## 📄 문서 유형 (Document Type)
 

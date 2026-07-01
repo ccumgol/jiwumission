@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity Studio v3에서 텍스트 프레임을 연결하고 오토플로우, 경로 따라 흐르는 텍스트, 텍스트 랩 기능을 활용해 대량 텍스트를 자동 페이지 생성 및 이미지·도형을 피하도록 배치하는 방법을 설명합니다."
 description: "Affinity Studio v3에서 텍스트 프레임을 연결하고 오토플로우, 경로 따라 흐르는 텍스트, 텍스트 랩 기능을 활용해 대량 텍스트를 자동 페이지 생성 및 이미지·도형을 피하도록 배치하는 방법을 설명합니다."
 tags: ["잎새 26호"]
-image: "images/Affinity-Chapter-5_04.-텍스트의-흐르는-방법.png"
+image: "images/Affinity-Chapter-5_04.-텍스트의-흐르는-방법.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_04-341091c284f680c686d6fcd9be416eb3
 notion_id: 341091c2-84f6-80c6-86d6-fcd9be416eb3

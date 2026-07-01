@@ -6,7 +6,7 @@ lastmod: 2026-06-13
 summary: "AI와 로봇이 일자리를 대체하는 현시점에서, 현장 기술직의 수요가 급증하고 구조적 특성으로 대체되기 어려운 직업군을 중심으로 재교육·전환 전략을 제시한다."
 description: "AI와 로봇이 일자리를 대체하는 현시점에서, 현장 기술직의 수요가 급증하고 구조적 특성으로 대체되기 어려운 직업군을 중심으로 재교육·전환 전략을 제시한다."
 tags: ["잎새 30호"]
-image: "images/부록B-—-AI-시대의-일자리,-우리는-어디에-서-있는가.png"
+image: "images/부록B-—-AI-시대의-일자리,-우리는-어디에-서-있는가.webp"
 comments: false
 notion_url: https://app.notion.com/p/B-AI-35f091c284f6806cac2ad0adca590a80
 notion_id: 35f091c2-84f6-806c-ac2a-d0adca590a80

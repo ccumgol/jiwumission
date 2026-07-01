@@ -6,7 +6,7 @@ lastmod: 2026-06-13
 summary: "Second Brain 1장: 세컨드 브레인 개념, 필요성, 기본 원칙을 소개하는 챕터."
 description: "Second Brain 1장: 세컨드 브레인 개념, 필요성, 기본 원칙을 소개하는 챕터."
 tags: ["잎새 6호"]
-image: "images/Second-Brain-제1장-세컨드-브레인의-개념과-기초.png"
+image: "images/Second-Brain-제1장-세컨드-브레인의-개념과-기초.webp"
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-1-2b2091c284f68062a19ef0163dd5a6da
 notion_id: 2b2091c2-84f6-8062-a19e-f0163dd5a6da
@@ -55,9 +55,9 @@ Categories: ["세컨드브레인"]
 
 **티아고 포르테의 저서 ‘세컨드 브레인’, ‘세컨드 브레인 부스트’**
 
-![image](images/Second-Brain-제1장-세컨드-브레인의-개념과-기초-1.png)
+![image](images/Second-Brain-제1장-세컨드-브레인의-개념과-기초-1.webp)
 
-![image](images/Second-Brain-제1장-세컨드-브레인의-개념과-기초-2.png)
+![image](images/Second-Brain-제1장-세컨드-브레인의-개념과-기초-2.webp)
 
 티아고 포르테는 세컨드 브레인 개념을 체계화하고 대중화한 생산성 전문가이자 교육자입니다. 그는 2017년부터 "Building a Second Brain"이라는 온라인 코스를 통해 수만 명의 학생들에게 개인 지식 관리 방법론을 가르쳐왔으며, 2022년에는 같은 제목의 베스트셀러 책을 출간하여 세컨드 브레인 방법론을 보다 넓은 대중에게 소개했습니다.
 

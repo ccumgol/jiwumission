@@ -6,7 +6,7 @@ lastmod: 2026-06-13
 summary: "컴퓨텍스 2026은 “AI Together”를 주제로 에이전틱 AI와 피지컬 AI를 강조하며 NVIDIA의 Vera Rubin, RTX Spark, Nemotron 3 Ultra 등 주요 발표와 삼성·SK하이닉스의 HBM5·HBM4E 공개, 한국 기업과의 파트너십을 포함한 전 세계 33개국 1,500개 기업·6,000부스 규모의 종합 리뷰를 제공한다."
 description: "컴퓨텍스 2026은 “AI Together”를 주제로 에이전틱 AI와 피지컬 AI를 강조하며 NVIDIA의 Vera Rubin, RTX Spark, Nemotron 3 Ultra 등 주요 발표와 삼성·SK하이닉스의 HBM5·HBM4E 공개, 한국 기업과의 파트너십을 포함한 전 세계 33개국 1,500개 기업·6,000부스 규모의 종합 리뷰를 제공한다."
 tags: ["잎새 34호"]
-image: "images/COMPUTEX-Taipei-2026.png"
+image: "images/COMPUTEX-Taipei-2026.webp"
 comments: false
 notion_url: https://app.notion.com/p/COMPUTEX-Taipei-2026-377091c284f6809788d4e13d2d53a3b5
 notion_id: 377091c2-84f6-8097-88d4-e13d2d53a3b5

@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Google Antigravity는 파이썬 기반 AI 코딩 비서를 활용해 초보자도 설치·설정부터 앱 설계·자동 구현·테스트·수정까지 손쉽게 진행할 수 있도록 안내하는 입문 가이드입니다"
 description: "Google Antigravity는 파이썬 기반 AI 코딩 비서를 활용해 초보자도 설치·설정부터 앱 설계·자동 구현·테스트·수정까지 손쉽게 진행할 수 있도록 안내하는 입문 가이드입니다"
 tags: ["잎새 28호"]
-image: "images/왕초보를-위한-Google-Antigravity-입문-및-활용-가이드.png"
+image: "images/왕초보를-위한-Google-Antigravity-입문-및-활용-가이드.webp"
 comments: false
 notion_url: https://app.notion.com/p/Google-Antigravity-353091c284f680809155fc8e2384c8e4
 notion_id: 353091c2-84f6-8080-9155-fc8e2384c8e4

@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Python은 초보자도 쉽게 배울 수 있는 읽기 쉬운 프로그래밍 언어로, 게임·웹·데이터·AI·자동화 등 다양한 분야에서 활용할 수 있어요."
 description: "Python은 초보자도 쉽게 배울 수 있는 읽기 쉬운 프로그래밍 언어로, 게임·웹·데이터·AI·자동화 등 다양한 분야에서 활용할 수 있어요."
 tags: ["잎새 28호"]
-image: "images/Python이-뭐예요.png"
+image: "images/Python이-뭐예요.webp"
 comments: false
 notion_url: https://app.notion.com/p/Python-353091c284f68085af5af1bc415d1c9b
 notion_id: 353091c2-84f6-8085-af5a-f1bc415d1c9b

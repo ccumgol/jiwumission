@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Gemini Canvas는 AI와 함께 실시간으로 아이디어를 편집·코딩·멀티미디어로 구현해 주는 인터랙티브 가상 작업실입니다."
 description: "Gemini Canvas는 AI와 함께 실시간으로 아이디어를 편집·코딩·멀티미디어로 구현해 주는 인터랙티브 가상 작업실입니다."
 tags: ["잎새 24호"]
-image: "images/Gemini-Canvas-당신의-완벽한-AI-작업-파트너.png"
+image: "images/Gemini-Canvas-당신의-완벽한-AI-작업-파트너.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Canvas-AI-335091c284f6802db9faeaeb31c61d5c
 notion_id: 335091c2-84f6-802d-b9fa-eaeb31c61d5c

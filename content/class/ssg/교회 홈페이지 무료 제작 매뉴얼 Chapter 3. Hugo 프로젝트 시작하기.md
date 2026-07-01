@@ -6,7 +6,7 @@ lastmod: 2026-06-18
 summary: "이 챕터는 Hugo 프로젝트를 초기화하고 폴더 구조, 설정 파일(hugo.toml) 수정, Git 저장소 초기화, 로컬 서버 실행 등 교회 홈페이지를 만들기 위한 기본 단계들을 상세히 안내한다."
 description: "이 챕터는 Hugo 프로젝트를 초기화하고 폴더 구조, 설정 파일(hugo.toml) 수정, Git 저장소 초기화, 로컬 서버 실행 등 교회 홈페이지를 만들기 위한 기본 단계들을 상세히 안내한다."
 tags: ["잎새 34호"]
-image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-3.-Hugo-프로젝트-시작하기.png"
+image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-3.-Hugo-프로젝트-시작하기.webp"
 comments: false
 notion_url: https://app.notion.com/p/Chapter-3-Hugo-376091c284f680ad893ff9e993b35ff8
 notion_id: 376091c2-84f6-80ad-893f-f9e993b35ff8
@@ -365,7 +365,7 @@ content/
 ```plain text
 static/
 ├── images/
-│   ├── logo.png       교회 로고
+│   ├── logo.webp       교회 로고
 │   └── banner.jpg     홈 화면 배경 사진
 └── files/
     └── 주일학교안내.pdf

@@ -6,7 +6,7 @@ lastmod: 2026-06-22
 summary: "이 챕터에서는 GitHub 저장소를 만들고 로컬 프로젝트와 연결한 뒤, 자동 배포 워크플로우 파일을 설정·커밋하고 첫 푸시를 통해 Hugo 기반 교회 홈페이지를 GitHub Pages에 배포하는 전체 과정을 단계별로 안내합니다."
 description: "이 챕터에서는 GitHub 저장소를 만들고 로컬 프로젝트와 연결한 뒤, 자동 배포 워크플로우 파일을 설정·커밋하고 첫 푸시를 통해 Hugo 기반 교회 홈페이지를 GitHub Pages에 배포하는 전체 과정을 단계별로 안내합니다."
 tags: ["잎새 36호"]
-image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-5.-GitHub-연결과-첫-배포.png"
+image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-5.-GitHub-연결과-첫-배포.webp"
 comments: false
 notion_url: https://app.notion.com/p/Chapter-5-GitHub-37c091c284f68077af2ad29588bf9ef1
 notion_id: 37c091c2-84f6-8077-af2a-d29588bf9ef1

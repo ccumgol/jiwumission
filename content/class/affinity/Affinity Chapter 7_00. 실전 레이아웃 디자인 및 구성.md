@@ -724,8 +724,8 @@ Preflight 패널 → 설정 아이콘 → **"Run Preflight on export"** 체크
   ├── 📁 _템플릿/
   │   └── Heritage Seum Church 주보 템플릿.aftemplate
   ├── 📁 _이미지_공통/
-  │   ├── logo.png
-  │   └── map.png
+  │   ├── logo.webp
+  │   └── map.webp
   ├── 📁 2025년/
   │   ├── 📁 05월/
   │   │   ├── 2025-05-11_주보.af

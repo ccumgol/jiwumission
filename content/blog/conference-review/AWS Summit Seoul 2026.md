@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "AWS Summit Seoul 2026은 “Agentic AI와 Physical AI”를 핵심 주제로, 12조 6,000억원 투자 선언, 주요 AI 도구 및 서비스 발표, 그리고 한국 제조·클라우드 시장을 겨냥한 전략적 로드맵을 제시한 종합 컨퍼런스이다."
 description: "AWS Summit Seoul 2026은 “Agentic AI와 Physical AI”를 핵심 주제로, 12조 6,000억원 투자 선언, 주요 AI 도구 및 서비스 발표, 그리고 한국 제조·클라우드 시장을 겨냥한 전략적 로드맵을 제시한 종합 컨퍼런스이다."
-image: "images/AWS-Summit-Seoul-2026.png"
+image: "images/AWS-Summit-Seoul-2026.webp"
 comments: false
 notion_url: https://app.notion.com/p/AWS-Summit-Seoul-2026-93f72ed069b24486bba75b41fee7d595
 notion_id: 93f72ed0-69b2-4486-bba7-5b41fee7d595

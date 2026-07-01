@@ -38,7 +38,7 @@ Categories: ["Affinity"]
 
 ![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-3.jpg)
 
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-4.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-4.webp)
 
 - 기본 도형의 정해진 틀을 벗어나 개별 앵커 포인트(점)를 직접 자유롭게 편집하고 싶다면, 해당 도형을 우클릭하거나 상단 메뉴를 통해 '**곡선으로 변환(Convert to Curves)**'을 실행해야 합니다.
 - 이 과정을 거치면 노드 툴(Node Tool)을 사용해 도형의 형태를 완전히 마음대로 뜯어고칠 수 있지만, 기존 '라이브 쉐이프'가 가지던 고유 옵션(예: 별의 꼭짓점 개수 조절)은 더 이상 사용할 수 없게 되는 일종의 트레이드오프(Trade-off)가 발생합니다.
@@ -63,23 +63,23 @@ Categories: ["Affinity"]
 1. **컨텍스트 툴바 (Contextual Toolbar):** 
   - 화면 상단에 가로로 위치하며, 현재 선택한 특정 도형에 맞는 세부 설정값을 수치로 직접 입력할 수 있는 곳입니다. 치아(Teeth)의 개수, 내부 반경(Inner Radius) 등을 정확하게 설정할 수 있으며, 일부 도형의 경우 방사형 태양 모양 등 미리 만들어진 **'프리셋(Presets)'**을 원클릭으로 적용할 수도 있습니다.
   - 여러 종류의 컨텍스트 툴바
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-6.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-6.webp)
 
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-7.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-7.webp)
 
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-8.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-8.webp)
 
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-9.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-9.webp)
 
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-10.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-10.webp)
 2. **변형 패널 (Transform Panel):** 
   - 화면 우측 하단에 배치되어 있으며, 도형의 정확한 X/Y 좌표 위치, 너비(W)와 높이(H), 회전(Rotation), 기울기(Shear) 값을 소수점 단위의 정밀한 수치로 제어할 때 사용합니다.
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-11.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-11.webp)
 3. **색상 및 획 패널 (Colors & Stroke Panel):** 
   - 도형의 내부를 채우는 색상(Fill)과 외곽선(Stroke)의 색상을 지정합니다. 특히 획(Stroke) 패널에서는 외곽선의 두께(Width), 점선 스타일, 모서리 둥글기 등을 세밀하게 조절하거나 화살표 머리를 추가할 수 있습니다.
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-12.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-12.webp)
 
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-13.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-13.webp)
 4. **레이어 패널 (Layers Panel):** 
   - 캔버스에 도형을 생성할 때마다 레이어 패널에는 해당 도형만의 독립적인 새 레이어가 차곡차곡 쌓입니다. 이를 통해 수많은 도형의 겹침 순서를 위아래로 조정하거나, 묶기(그룹화) 및 잠금 설정 등을 쉽게 관리할 수 있습니다.
-![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-14.png)
+![image](images/Affinity-Chapter-6_02.-도형-툴-사용-방법-14.webp)

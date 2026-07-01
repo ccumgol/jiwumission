@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "OpenAI DevDay 2025 발표 내용과 주요 제품 업데이트를 정리한 컨퍼런스 노트."
 description: "OpenAI DevDay 2025 발표 내용과 주요 제품 업데이트를 정리한 컨퍼런스 노트."
-image: "images/OpenAI-DevDay-2025.png"
+image: "images/OpenAI-DevDay-2025.webp"
 comments: false
 notion_url: https://app.notion.com/p/OpenAI-DevDay-2025-2a1091c284f680bea5ddd1a032672fb5
 notion_id: 2a1091c2-84f6-80be-a5dd-d1a032672fb5

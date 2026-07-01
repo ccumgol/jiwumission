@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity Layout Studio를 이용해 교회 주보와 책자를 효율적으로 제작하고 관리하는 방법을 마스터 페이지 설정, 편집, 적용, 가이드 및 실전 예제로 상세히 설명한 매뉴얼이다."
 description: "Affinity Layout Studio를 이용해 교회 주보와 책자를 효율적으로 제작하고 관리하는 방법을 마스터 페이지 설정, 편집, 적용, 가이드 및 실전 예제로 상세히 설명한 매뉴얼이다."
 tags: ["잎새 34호"]
-image: "images/Affinity-Chapter-3_00.-마스터-페이지-마스터하기.png"
+image: "images/Affinity-Chapter-3_00.-마스터-페이지-마스터하기.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-3_00-361091c284f680849447e3369c365137
 notion_id: 361091c2-84f6-8084-9447-e3369c365137

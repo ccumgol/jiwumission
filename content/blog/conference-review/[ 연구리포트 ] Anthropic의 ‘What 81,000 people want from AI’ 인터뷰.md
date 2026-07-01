@@ -6,7 +6,7 @@ lastmod: 2026-06-13
 summary: "81,000명의 인터뷰를 통해 사람들은 AI가 직업적 탁월함·시간 여유·삶의 질 향상을 제공하길 원하지만, 신뢰성 부족·일자리·자율성 상실 등 13가지 우려도 동시에 가지고 있음을 보여준다."
 description: "81,000명의 인터뷰를 통해 사람들은 AI가 직업적 탁월함·시간 여유·삶의 질 향상을 제공하길 원하지만, 신뢰성 부족·일자리·자율성 상실 등 13가지 우려도 동시에 가지고 있음을 보여준다."
 tags: ["잎새 23호"]
-image: "images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰.png"
+image: "images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰.webp"
 comments: false
 notion_url: https://app.notion.com/p/Anthropic-What-81-000-people-want-from-AI-32c091c284f68035a880c6006e480c16
 notion_id: 32c091c2-84f6-8035-a880-c6006e480c16
@@ -15,39 +15,39 @@ Categories: ["AI & Tech", "컨퍼런스 리뷰"]
 
 [video](https://youtu.be/4kVy6sTElVA)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-1.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-1.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-2.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-2.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-3.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-3.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-4.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-4.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-5.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-5.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-6.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-6.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-7.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-7.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-8.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-8.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-9.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-9.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-10.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-10.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-11.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-11.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-12.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-12.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-13.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-13.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-14.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-14.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-15.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-15.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-16.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-16.webp)
 
-![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-17.png)
+![image](images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-AI’-인터뷰-17.webp)
 
 **슬라이드 1: 제목 및 도입 - 81,000명의 목소리**
 "여러분 안녕하십니까, 오늘은 AI 역사상 전례 없는 규모로 진행된 정성적 연구인 '81,000명의 목소리: AI에게 바라는 것과 두려워하는 것'에 대해 발표하겠습니다. 우리는 사람들이 AI를 통해 어떤 희망을 품고 있으며, 동시에 어떤 우려를 가지고 있는지 그 생생한 목소리를 살펴보고자 합니다."

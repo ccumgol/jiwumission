@@ -3,7 +3,7 @@ title: "Markdown과 Markup의 차이"
 date: 2026-02-26T18:34:00.000Z
 author: "Gihyun Park"
 lastmod: 2026-06-17
-image: "images/Markdown과-Markup의-차이.png"
+image: "images/Markdown과-Markup의-차이.webp"
 comments: false
 notion_url: https://app.notion.com/p/Markdown-Markup-313091c284f680038528ec4f4094ab9c
 notion_id: 313091c2-84f6-8003-8528-ec4f4094ab9c

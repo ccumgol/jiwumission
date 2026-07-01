@@ -18,4 +18,4 @@ notion_id: 31c091c2-84f6-8091-a56d-ce1e269328f4
   - 체크: Canvas 영역만 표시
   - 체크 해제: Pasteboard 영역의 Object도 표시
 
-![image](images/Tips-모음-1.png)
+![image](images/Tips-모음-1.webp)

@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "AI 기술을 사용자의 개입 정도와 자율성 수준에 따라 챗봇, 에이전트, 에이전틱 AI로 구분하고, 각각의 특징, 활용 서비스 및 적용 사례를 비교·제시한다."
 description: "AI 기술을 사용자의 개입 정도와 자율성 수준에 따라 챗봇, 에이전트, 에이전틱 AI로 구분하고, 각각의 특징, 활용 서비스 및 적용 사례를 비교·제시한다."
 tags: ["잎새 23호"]
-image: "images/AI-챗봇-vs-AI-에이전트-vs-에이전틱-AI-비교.png"
+image: "images/AI-챗봇-vs-AI-에이전트-vs-에이전틱-AI-비교.webp"
 comments: false
 notion_url: https://app.notion.com/p/AI-vs-AI-vs-AI-32e091c284f680ca92e2e0f79de49ca3
 notion_id: 32e091c2-84f6-80ca-92e2-e0f79de49ca3

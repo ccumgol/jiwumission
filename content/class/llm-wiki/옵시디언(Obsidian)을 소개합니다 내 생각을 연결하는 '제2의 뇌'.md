@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "옵시디언은 로컬에 마크다운 파일을 저장하고 양방향 링크와 플러그인으로 생각을 연결해 개인 지식 관리와 생산성을 높이는 메모 앱이다."
 description: "옵시디언은 로컬에 마크다운 파일을 저장하고 양방향 링크와 플러그인으로 생각을 연결해 개인 지식 관리와 생산성을 높이는 메모 앱이다."
 tags: ["잎새 27호"]
-image: "images/옵시디언(Obsidian)을-소개합니다-내-생각을-연결하는-'제2의-뇌'.png"
+image: "images/옵시디언(Obsidian)을-소개합니다-내-생각을-연결하는-'제2의-뇌'.webp"
 comments: false
 notion_url: https://app.notion.com/p/Obsidian-2-34a091c284f6807da200cb21768303ba
 notion_id: 34a091c2-84f6-807d-a200-cb21768303ba

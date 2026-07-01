@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Gemini Gems 가이드는 AI와 함께 브레인스토밍, 프롬프트 설계, 이미지·음악·리서치·콘텐츠 제작 등 다양한 활용 사례와 단계별 인터뷰 흐름, 시스템 프롬프트 템플릿을 제공하여 맞춤형 대화형 템플릿(Gems)을 효율적으로 구축하고 적용하는 방법을 설명합니다."
 description: "Gemini Gems 가이드는 AI와 함께 브레인스토밍, 프롬프트 설계, 이미지·음악·리서치·콘텐츠 제작 등 다양한 활용 사례와 단계별 인터뷰 흐름, 시스템 프롬프트 템플릿을 제공하여 맞춤형 대화형 템플릿(Gems)을 효율적으로 구축하고 적용하는 방법을 설명합니다."
 tags: ["잎새 31호"]
-image: "images/나의-공부법---Gemini-Gems-가이드.png"
+image: "images/나의-공부법---Gemini-Gems-가이드.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Gems-364091c284f680c1b0aae14a4f0515bd
 notion_id: 364091c2-84f6-80c1-b0aa-e14a4f0515bd

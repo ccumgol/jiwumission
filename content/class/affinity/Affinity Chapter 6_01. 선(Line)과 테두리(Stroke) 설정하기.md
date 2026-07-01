@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity Layout Studio에서 선 및 도형의 테두리(Stroke)를 컨텍스트 툴바와 Stroke 패널을 이용해 두께, 스타일, 캡·조인·정렬, 화살표, 그라디언트 등 다양한 옵션으로 세밀하게 설정하고 조절하는 방법을 설명합니다."
 description: "Affinity Layout Studio에서 선 및 도형의 테두리(Stroke)를 컨텍스트 툴바와 Stroke 패널을 이용해 두께, 스타일, 캡·조인·정렬, 화살표, 그라디언트 등 다양한 옵션으로 세밀하게 설정하고 조절하는 방법을 설명합니다."
 tags: ["잎새 28호"]
-image: "images/Affinity-Chapter-6_01.-선(Line)과-테두리(Stroke)-설정하기.png"
+image: "images/Affinity-Chapter-6_01.-선(Line)과-테두리(Stroke)-설정하기.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-6_01-Line-Stroke-353091c284f68090a6e3d48a039a2df1
 notion_id: 353091c2-84f6-8090-a6e3-d48a039a2df1
@@ -19,7 +19,7 @@ Categories: ["Affinity"]
 
 테두리 설정과 관련된 핵심적인 기능과 사용법은 다음과 같습니다.
 
-![image](images/Affinity-Chapter-6_01.-선(Line)과-테두리(Stroke)-설정하기-1.png)
+![image](images/Affinity-Chapter-6_01.-선(Line)과-테두리(Stroke)-설정하기-1.webp)
 
 ### 1. 두께 및 스타일 조절
 

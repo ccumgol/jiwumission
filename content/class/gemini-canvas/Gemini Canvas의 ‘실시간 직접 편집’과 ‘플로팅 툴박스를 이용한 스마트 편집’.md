@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Gemini Canvas는 실시간 직접 편집과 플로팅 툴박스를 활용해 텍스트를 바로 수정·보강하고, 길이·어조·난이도 등을 손쉽게 조절하여 AI와 협업하면서 문서를 정교하게 완성할 수 있는 기능을 제공한다."
 description: "Gemini Canvas는 실시간 직접 편집과 플로팅 툴박스를 활용해 텍스트를 바로 수정·보강하고, 길이·어조·난이도 등을 손쉽게 조절하여 AI와 협업하면서 문서를 정교하게 완성할 수 있는 기능을 제공한다."
 tags: ["잎새 25호"]
-image: "images/Gemini-Canvas의-‘실시간-직접-편집’과-‘플로팅-툴박스를-이용한-스마트-편집’.png"
+image: "images/Gemini-Canvas의-‘실시간-직접-편집’과-‘플로팅-툴박스를-이용한-스마트-편집’.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Canvas-33c091c284f680aca9bfe5b4e0ec480c
 notion_id: 33c091c2-84f6-80ac-a9bf-e5b4e0ec480c
@@ -15,7 +15,7 @@ Categories: ["AI & Tech"]
 
 Gemini Canvas의 '실시간 직접 편집'과 '플로팅 툴박스를 이용한 스마트 편집'은 문서 작업 시 전체 내용을 새로 쓸 필요 없이 직관적이고 세밀하게 결과물을 다듬을 수 있는 핵심 기능입니다.
 
-![image](images/Gemini-Canvas의-‘실시간-직접-편집’과-‘플로팅-툴박스를-이용한-스마트-편집’-1.png)
+![image](images/Gemini-Canvas의-‘실시간-직접-편집’과-‘플로팅-툴박스를-이용한-스마트-편집’-1.webp)
 
 **1. 실시간 직접 편집**
 

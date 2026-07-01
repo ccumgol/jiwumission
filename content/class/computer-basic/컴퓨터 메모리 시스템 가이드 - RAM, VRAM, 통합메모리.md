@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "컴퓨터 메모리 시스템을 RAM, VRAM, 통합 메모리로 구분하고, 각각의 특징과 영상 편집 및 로컬 AI 작업에서의 성능 차이를 비교하여 통합 메모리가 대용량 모델 실행에 유리함을 설명한다."
 description: "컴퓨터 메모리 시스템을 RAM, VRAM, 통합 메모리로 구분하고, 각각의 특징과 영상 편집 및 로컬 AI 작업에서의 성능 차이를 비교하여 통합 메모리가 대용량 모델 실행에 유리함을 설명한다."
 tags: ["잎새 25호"]
-image: "images/컴퓨터-메모리-시스템-가이드---RAM,-VRAM,-통합메모리.png"
+image: "images/컴퓨터-메모리-시스템-가이드---RAM,-VRAM,-통합메모리.webp"
 comments: false
 notion_url: https://app.notion.com/p/RAM-VRAM-33b091c284f6806388afe94ea0ada1d2
 notion_id: 33b091c2-84f6-8063-88af-e94ea0ada1d2
@@ -27,7 +27,7 @@ Categories: ["컴퓨터 기초"]
 
 ## 2. 작업별 처리 과정 비교 (Data Flow Comparison)
 
-![image](images/컴퓨터-메모리-시스템-가이드---RAM,-VRAM,-통합메모리-1.png)
+![image](images/컴퓨터-메모리-시스템-가이드---RAM,-VRAM,-통합메모리-1.webp)
 
 ### 🎬 Case A: 일반 영상 편집 (Video Editing)
 

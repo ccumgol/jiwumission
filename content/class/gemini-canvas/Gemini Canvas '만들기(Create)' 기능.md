@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "구글 Gemini Canvas의 '만들기' 버튼을 사용해 텍스트를 기반으로 슬라이드, 웹페이지, 앱, 오디오, 퀴즈, 인포그래픽 등 다양한 인터랙티브 콘텐츠를 자동으로 생성하고 바로 편집·공유할 수 있는 기능에 대한 상세 가이드입니다."
 description: "구글 Gemini Canvas의 '만들기' 버튼을 사용해 텍스트를 기반으로 슬라이드, 웹페이지, 앱, 오디오, 퀴즈, 인포그래픽 등 다양한 인터랙티브 콘텐츠를 자동으로 생성하고 바로 편집·공유할 수 있는 기능에 대한 상세 가이드입니다."
 tags: ["잎새 26호"]
-image: "images/Gemini-Canvas-'만들기(Create)'-기능.png"
+image: "images/Gemini-Canvas-'만들기(Create)'-기능.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Canvas-Create-341091c284f680979007d84394ed7c0b
 notion_id: 341091c2-84f6-8097-9007-d84394ed7c0b

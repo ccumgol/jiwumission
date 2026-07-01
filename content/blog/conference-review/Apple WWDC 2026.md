@@ -6,7 +6,7 @@ lastmod: 2026-06-13
 summary: "Apple WWDC 2026은 6월 8일~12일에 애플 본사에서 열리는 행사로, iOS, macOS, watchOS 및 개발자 도구 업데이트가 예정되어 있습니다."
 description: "Apple WWDC 2026은 6월 8일~12일에 애플 본사에서 열리는 행사로, iOS, macOS, watchOS 및 개발자 도구 업데이트가 예정되어 있습니다."
 tags: ["잎새 35호"]
-image: "images/Apple-WWDC-2026.png"
+image: "images/Apple-WWDC-2026.webp"
 comments: false
 notion_url: https://app.notion.com/p/Apple-WWDC-2026-491e83e92e03413ca64e7470370f9a81
 notion_id: 491e83e9-2e03-413c-a64e-7470370f9a81

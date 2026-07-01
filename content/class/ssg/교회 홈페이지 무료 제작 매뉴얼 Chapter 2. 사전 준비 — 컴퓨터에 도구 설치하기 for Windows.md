@@ -6,7 +6,7 @@ lastmod: 2026-06-18
 summary: "이 문서는 Windows 환경에서 교회 홈페이지 제작을 위해 VS Code, Git, Hugo, Antigravity CLI 등 필수 도구를 설치하고 설정하는 단계별 가이드를 제공한다."
 description: "이 문서는 Windows 환경에서 교회 홈페이지 제작을 위해 VS Code, Git, Hugo, Antigravity CLI 등 필수 도구를 설치하고 설정하는 단계별 가이드를 제공한다."
 tags: ["잎새 33호"]
-image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-2.-사전-준비-—-컴퓨터에-도구-설치하기-for-Windows.png"
+image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-2.-사전-준비-—-컴퓨터에-도구-설치하기-for-Windows.webp"
 comments: false
 notion_url: https://app.notion.com/p/Chapter-2-for-Windows-372091c284f680f4abe9f393e6c28ecf
 notion_id: 372091c2-84f6-80f4-abe9-f393e6c28ecf

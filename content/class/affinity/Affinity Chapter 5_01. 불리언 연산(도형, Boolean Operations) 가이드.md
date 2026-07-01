@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity Designer에서 비파괴적인 컴파운드 레이어를 이용해 5가지 불리언 연산(추가, 빼기, 교차, XOR, 나누기)을 적용하고, 레이어 순서와 노드 정리에 주의하며 자유롭게 편집할 수 있는 가이드이다."
 description: "Affinity Designer에서 비파괴적인 컴파운드 레이어를 이용해 5가지 불리언 연산(추가, 빼기, 교차, XOR, 나누기)을 적용하고, 레이어 순서와 노드 정리에 주의하며 자유롭게 편집할 수 있는 가이드이다."
 tags: ["잎새 27호"]
-image: "images/Affinity-Chapter-5_01.-불리언-연산(도형,-Boolean-Operations)-가이드.png"
+image: "images/Affinity-Chapter-5_01.-불리언-연산(도형,-Boolean-Operations)-가이드.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_01-Boolean-Operations-349091c284f6801e83fed65bdb4014d6
 notion_id: 349091c2-84f6-801e-83fe-d65bdb4014d6

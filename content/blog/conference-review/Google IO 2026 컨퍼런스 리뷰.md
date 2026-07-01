@@ -15,7 +15,7 @@ notion_id: e6f282a7-744d-4fec-a586-9514c85a4912
 Categories: ["컨퍼런스 리뷰"]
 ---
 
-![image](images/Google-IO-2026-컨퍼런스-리뷰-1.png)
+![image](images/Google-IO-2026-컨퍼런스-리뷰-1.webp)
 
 # Google I/O 2026 종합 리뷰
 

@@ -6,7 +6,7 @@ lastmod: 2026-06-22
 summary: "컴퓨터 제품들을 표로 정리하고, 각 모델의 메모리 옵션, 가격, 일반 및 로컬 LLM 활용성을 비교한 내용입니다."
 description: "컴퓨터 제품들을 표로 정리하고, 각 모델의 메모리 옵션, 가격, 일반 및 로컬 LLM 활용성을 비교한 내용입니다."
 tags: ["잎새 36호"]
-image: "images/Local-AI-컴퓨터-간단-비교.png"
+image: "images/Local-AI-컴퓨터-간단-비교.webp"
 comments: false
 notion_url: https://app.notion.com/p/Local-AI-387091c284f680b787c4e4cb581facd1
 notion_id: 387091c2-84f6-80b7-87c4-e4cb581facd1

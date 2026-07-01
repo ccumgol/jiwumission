@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "이 문서는 인터뷰형 Gems 프롬프트를 설계·고도화하기 위한 템플릿, 패턴 예방 문구, 단계별 인터뷰 흐름 및 복붙용 시스템 프롬프트를 제공한다."
 description: "이 문서는 인터뷰형 Gems 프롬프트를 설계·고도화하기 위한 템플릿, 패턴 예방 문구, 단계별 인터뷰 흐름 및 복붙용 시스템 프롬프트를 제공한다."
 tags: ["잎새 31호"]
-image: "images/인터뷰형-Gems-프롬프트를-만드는-Gems.png"
+image: "images/인터뷰형-Gems-프롬프트를-만드는-Gems.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gems-Gems-366091c284f6804d962dcdd6bf843620
 notion_id: 366091c2-84f6-804d-962d-cdd6bf843620

@@ -21,7 +21,7 @@ Categories: ["Affinity"]
 
 새 문서를 만들 때(`Ctrl/Cmd + N`) 설정해야 할 핵심 항목들입니다. 이전 문서를 참고하세요.
 
-![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-1.png)
+![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-1.webp)
 
 ### ① 페이지 구성 및 면지 (Facing Pages)
 
@@ -38,7 +38,7 @@ Categories: ["Affinity"]
 - **CMYK:** 인쇄용 목적(잡지, 브로슈어 등).
 - **RGB:** 화면용 목적(E-book, 웹 게시용).
 
-![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-2.png)
+![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-2.webp)
 
 ## 2. 일관성을 위한 도구: 마스터 페이지 (Master Pages)
 
@@ -59,12 +59,12 @@ Categories: ["Affinity"]
 ### ② 스내핑 (Snapping)
 
 - 자석 아이콘을 클릭하여 활성화합니다. 개체를 이동할 때 다른 개체의 중앙, 모서리, 가이드라인 등에 딱 붙게 해주어 오차 없는 배치를 가능하게 합니다.
-![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-3.png)
+![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-3.webp)
 
 ### ③ 에셋 패널 (Assets Panel)
 
 - 반복해서 사용하는 로고, 아이콘, 서명, UI 요소 등을 저장해두고 필요할 때마다 꺼내 쓸 수 있는 보관함입니다.
-![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-4.png)
+![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-4.webp)
 
 ## 4. 최종 점검 및 내보내기
 
@@ -72,12 +72,12 @@ Categories: ["Affinity"]
 
 - 작업 중에 실시간으로 오류를 감지합니다. (예: 저해상도 이미지, 텍스트 넘침, 유실된 폰트 등)
 - 인쇄소에 넘기기 전 하단 상태바의 초록/빨간불을 반드시 확인하세요.
-![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-5.png)
+![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-5.webp)
 
 ### ② 패키지 (Package)
 
 - `File > Package` 기능을 통해 사용된 모든 폰트, 이미지, 문서를 하나의 폴더로 묶어줍니다. 다른 컴퓨터에서 작업하거나 인쇄소에 파일을 전달할 때 필수입니다.
-![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-6.png)
+![image](images/Affinity-Chapter-2_02.-문서-세팅-및-레이아웃-가이드-6.webp)
 
 ## 5. 실전 레이아웃 팁
 

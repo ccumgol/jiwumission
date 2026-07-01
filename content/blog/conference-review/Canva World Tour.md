@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "Canva World Tour 행사/업데이트 요약 노트."
 description: "Canva World Tour 행사/업데이트 요약 노트."
-image: "images/Canva-World-Tour.png"
+image: "images/Canva-World-Tour.webp"
 comments: false
 notion_url: https://app.notion.com/p/Canva-World-Tour-2a1091c284f680b1b20cd0e84831a235
 notion_id: 2a1091c2-84f6-80b1-b20c-d0e84831a235

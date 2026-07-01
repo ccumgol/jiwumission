@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Vibe Coding은 AI와 대화하며 원하는 결과를 말로 설명하고, 작은 프로그램을 만들고 실행·수정해가며 코딩을 배우는 초보자 친화적인 접근 방식입니다."
 description: "Vibe Coding은 AI와 대화하며 원하는 결과를 말로 설명하고, 작은 프로그램을 만들고 실행·수정해가며 코딩을 배우는 초보자 친화적인 접근 방식입니다."
 tags: ["잎새 22호"]
-image: "images/Vibe-Coding.png"
+image: "images/Vibe-Coding.webp"
 comments: false
 notion_url: https://app.notion.com/p/Vibe-Coding-327091c284f680bc9008e3d76396ce1b
 notion_id: 327091c2-84f6-80bc-9008-e3d76396ce1b

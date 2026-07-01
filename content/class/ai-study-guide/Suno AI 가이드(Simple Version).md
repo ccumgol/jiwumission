@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Suno AI를 활용한 노래 제작 과정을 초급부터 고급까지 7개의 챕터로 체계적으로 안내하는 매뉴얼입니다."
 description: "Suno AI를 활용한 노래 제작 과정을 초급부터 고급까지 7개의 챕터로 체계적으로 안내하는 매뉴얼입니다."
 tags: ["잎새 29호"]
-image: "images/Suno-AI-가이드(Simple-Version).png"
+image: "images/Suno-AI-가이드(Simple-Version).webp"
 comments: false
 notion_url: https://app.notion.com/p/Suno-AI-Simple-Version-357091c284f6800ea3a2d55acd2c9184
 notion_id: 357091c2-84f6-800e-a3a2-d55acd2c9184

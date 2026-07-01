@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "텍스트 감싸기, 패스 상 텍스트, 피닝 기능을 활용해 이미지·곡선·그래픽을 자동 배치·곡선에 따라 글자 배치·본문에 고정시키는 방법을 설명한 내용입니다"
 description: "텍스트 감싸기, 패스 상 텍스트, 피닝 기능을 활용해 이미지·곡선·그래픽을 자동 배치·곡선에 따라 글자 배치·본문에 고정시키는 방법을 설명한 내용입니다"
 tags: ["잎새 30호"]
-image: "images/Affinity-Chapter-5_03.-Text-Wrap,-Text-on-a-Path,-Pinning.png"
+image: "images/Affinity-Chapter-5_03.-Text-Wrap,-Text-on-a-Path,-Pinning.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_03-Text-Wrap-Text-on-a-Path-Pinning-360091c284f6807b845bda8cf6c62990
 notion_id: 360091c2-84f6-807b-845b-da8cf6c62990
@@ -39,7 +39,7 @@ Categories: ["Affinity"]
   4. 앞서 그려둔 곡선 위에 마우스 커서를 올리고 클릭한 뒤, 원하는 텍스트를 입력합니다.
   5. 텍스트가 선을 따라 써지면, 시작점과 끝점에 화살표 모양의 조절 슬라이더가 나타납니다. 이 슬라이더를 좌우로 드래그하여 패스 위에서 텍스트의 위치를 앞뒤로 이동시킬 수 있으며, 슬라이더를 선의 반대쪽 면으로 넘기면 텍스트가 뒤집히게(flip) 만들 수도 있습니다.
 
-![image](images/Affinity-Chapter-5_03.-Text-Wrap,-Text-on-a-Path,-Pinning-3.png)
+![image](images/Affinity-Chapter-5_03.-Text-Wrap,-Text-on-a-Path,-Pinning-3.webp)
 
 ### 3. 피닝 (Pinning - 개체 고정)
 

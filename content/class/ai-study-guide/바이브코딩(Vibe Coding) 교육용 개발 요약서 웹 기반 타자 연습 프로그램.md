@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "바이브코딩 교육용 개발 요약서는 초기 Tkinter 기반 타자 연습 프로그램을 웹 기반 글래스모피즘 UI로 전환하고, 다양한 한글 자소 연습과 레이아웃 개선을 통해 사용자 피드백을 반영한 완성도 높은 타자 연습 애플리케이션을 구현한 과정을 정리한 문서입니다"
 description: "바이브코딩 교육용 개발 요약서는 초기 Tkinter 기반 타자 연습 프로그램을 웹 기반 글래스모피즘 UI로 전환하고, 다양한 한글 자소 연습과 레이아웃 개선을 통해 사용자 피드백을 반영한 완성도 높은 타자 연습 애플리케이션을 구현한 과정을 정리한 문서입니다"
 tags: ["잎새 28호"]
-image: "images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램.png"
+image: "images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램.webp"
 comments: false
 notion_url: https://app.notion.com/p/Vibe-Coding-353091c284f680f1b51aeb7bd9d46778
 notion_id: 353091c2-84f6-80f1-b51a-eb7bd9d46778
@@ -106,10 +106,10 @@ Categories: ["코딩"]
 
 사용자의 지속적이고 구체적인 피드백이 AI의 문제 해결 능력과 맞물려 어떻게 완성도 높은 애플리케이션으로 진화하는지를 보여주는 훌륭한 협업 모델입니다.
 
-![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-1.png)
+![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-1.webp)
 
-![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-2.png)
+![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-2.webp)
 
-![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-3.png)
+![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-3.webp)
 
-![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-4.png)
+![image](images/바이브코딩(Vibe-Coding)-교육용-개발-요약서-웹-기반-타자-연습-프로그램-4.webp)

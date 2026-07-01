@@ -941,7 +941,7 @@ Ulysses → Medium/WordPress
 ### Content Blocks
 파일 포함:
 /챕터1.md
-/이미지.png
+/이미지.webp
 /표.csv
 
 ```

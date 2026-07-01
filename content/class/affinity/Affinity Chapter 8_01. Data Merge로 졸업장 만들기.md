@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity Studio의 Data Merge 기능을 활용해 엑셀 데이터를 기반으로 교회 졸업장을 자동으로 제작하고, 플랫폼별 차이와 설정·필드 삽입·날짜·성별 처리·PDF 출력까지의 전체 워크플로우를 안내하는 가이드."
 description: "Affinity Studio의 Data Merge 기능을 활용해 엑셀 데이터를 기반으로 교회 졸업장을 자동으로 제작하고, 플랫폼별 차이와 설정·필드 삽입·날짜·성별 처리·PDF 출력까지의 전체 워크플로우를 안내하는 가이드."
 tags: ["잎새 31호"]
-image: "images/Affinity-Chapter-8_01.-Data-Merge로-졸업장-만들기.png"
+image: "images/Affinity-Chapter-8_01.-Data-Merge로-졸업장-만들기.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-8_01-Data-Merge-365091c284f680508e1fc1c4d1fee844
 notion_id: 365091c2-84f6-8050-8e1f-c1c4d1fee844
@@ -310,8 +310,8 @@ C:\church\photos\lee-seoyeon.jpg
 
 ```plain text
 =IF(D2="남",
-  "/Users/john/church/backgrounds/boy_cert.png",
-  "/Users/john/church/backgrounds/girl_cert.png"
+  "/Users/john/church/backgrounds/boy_cert.webp",
+  "/Users/john/church/backgrounds/girl_cert.webp"
 )
 ```
 
@@ -319,8 +319,8 @@ C:\church\photos\lee-seoyeon.jpg
 
 ```plain text
 =IF(D2="남",
-  "C:\church\backgrounds\boy_cert.png",
-  "C:\church\backgrounds\girl_cert.png"
+  "C:\church\backgrounds\boy_cert.webp",
+  "C:\church\backgrounds\girl_cert.webp"
 )
 ```
 
@@ -334,8 +334,8 @@ C:\church\photos\lee-seoyeon.jpg
 
 | 상황 | 🍎 Mac 경로 예시 | 🪟 Windows 경로 예시 |
 | --- | --- | --- |
-| 배경 이미지 | `/Users/john/church/bg/boy.png` | `C:\church\bg\boy.png` |
-| 남/여 도장 | `/Users/john/church/stamps/blue.png` | `C:\church\stamps\blue.png` |
+| 배경 이미지 | `/Users/john/church/bg/boy.webp` | `C:\church\bg\boy.webp` |
+| 남/여 도장 | `/Users/john/church/stamps/blue.webp` | `C:\church\stamps\blue.webp` |
 
 | 상황 | 엑셀 수식 (공통) | Affinity 필드 |
 | --- | --- | --- |

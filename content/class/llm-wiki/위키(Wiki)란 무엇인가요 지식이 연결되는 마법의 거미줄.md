@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "위키는 빠르고 쉽게 지식을 기록·공유하며 하이퍼링크와 협업·버전 관리 기능을 통해 개인·팀·공개용으로 활용되는 연결된 지식 네트워크이다"
 description: "위키는 빠르고 쉽게 지식을 기록·공유하며 하이퍼링크와 협업·버전 관리 기능을 통해 개인·팀·공개용으로 활용되는 연결된 지식 네트워크이다"
 tags: ["잎새 27호"]
-image: "images/위키(Wiki)란-무엇인가요-지식이-연결되는-마법의-거미줄.png"
+image: "images/위키(Wiki)란-무엇인가요-지식이-연결되는-마법의-거미줄.webp"
 comments: false
 notion_url: https://app.notion.com/p/Wiki-34a091c284f6805ea862f1ff42254b3a
 notion_id: 34a091c2-84f6-805e-a862-f1ff42254b3a

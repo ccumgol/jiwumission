@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity Layout Studio의 마스터 페이지는 문서 전체에 공통 디자인 요소를 한 번에 설정·관리해 반복 작업을 줄이고, 필요 시 개별 페이지에서 분리 편집으로 요소를 일시적으로 수정할 수 있게 하는 기능이다."
 description: "Affinity Layout Studio의 마스터 페이지는 문서 전체에 공통 디자인 요소를 한 번에 설정·관리해 반복 작업을 줄이고, 필요 시 개별 페이지에서 분리 편집으로 요소를 일시적으로 수정할 수 있게 하는 기능이다."
 tags: ["잎새 24호"]
-image: "images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-페이지’-이해.png"
+image: "images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-페이지’-이해.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-3_03-335091c284f680548582ce916836b72e
 notion_id: 335091c2-84f6-8054-8582-ce916836b72e
@@ -28,7 +28,7 @@ Affinity의 레이아웃 스튜디오(Layout Studio)에서 제공하는 **마스
 5. **자동 쪽 번호 넣기 (꿀팁):** 마스터 페이지 하단에 텍스트 상자를 만들고, 상단 메뉴에서 `Text > Insert > Fields > Page Number`를 선택하면 자동으로 숫자가 매겨지는 쪽 번호가 삽입됩니다.
 6. 편집을 마친 후 다시 일반 페이지(예: Page 1)를 더블 클릭하여 돌아오면, 마스터에서 만든 요소들이 고정되어 나타납니다.
 
-![image](images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-페이지’-이해-1.png)
+![image](images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-페이지’-이해-1.webp)
 
 ### **3. 마스터 페이지의 심화 활용법**
 
@@ -41,7 +41,7 @@ Affinity의 레이아웃 스튜디오(Layout Studio)에서 제공하는 **마스
 
 하지만 특정 페이지에 큰 사진이 들어가서 마스터의 머리글을 가리는 등, **특정 페이지에서만 예외적으로 마스터 요소를 옮기거나 수정**해야 할 때가 있습니다. 이때는 다음 방법을 사용합니다.
 
-![image](images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-페이지’-이해-2.png)
+![image](images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-페이지’-이해-2.webp)
 
 1. 수정하고 싶은 일반 페이지로 이동합니다.
 2. 레이어 패널에서 청록색 실선이 있는 해당 **마스터 레이어를 클릭**하여 선택합니다.

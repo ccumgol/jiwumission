@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity v3.2 텍스트 스타일은 단락·글자·그룹 스타일을 활용한 상속·계층 구조와 다양한 편집 기능으로 효율적인 타이포그래피와 협업을 가능하게 합니다."
 description: "Affinity v3.2 텍스트 스타일은 단락·글자·그룹 스타일을 활용한 상속·계층 구조와 다양한 편집 기능으로 효율적인 타이포그래피와 협업을 가능하게 합니다."
 tags: ["잎새 29호"]
-image: "images/Affinity-Chapter-5_02.-텍스트-스타일-핵심-가이드.png"
+image: "images/Affinity-Chapter-5_02.-텍스트-스타일-핵심-가이드.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_02-35a091c284f68045afd1f2c7ba46b63b
 notion_id: 35a091c2-84f6-8045-afd1-f2c7ba46b63b

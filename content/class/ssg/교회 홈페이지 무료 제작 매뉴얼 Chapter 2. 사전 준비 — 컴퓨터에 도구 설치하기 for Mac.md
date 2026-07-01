@@ -6,7 +6,7 @@ lastmod: 2026-06-18
 summary: "이 문서는 Mac에서 교회 홈페이지 제작을 위해 VS Code, Homebrew, Git, Hugo, Antigravity CLI 등 필요한 도구들을 설치하고 설정하는 단계별 가이드를 제공한다."
 description: "이 문서는 Mac에서 교회 홈페이지 제작을 위해 VS Code, Homebrew, Git, Hugo, Antigravity CLI 등 필요한 도구들을 설치하고 설정하는 단계별 가이드를 제공한다."
 tags: ["잎새 33호"]
-image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-2.-사전-준비-—-컴퓨터에-도구-설치하기-for-Mac.png"
+image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-2.-사전-준비-—-컴퓨터에-도구-설치하기-for-Mac.webp"
 comments: false
 notion_url: https://app.notion.com/p/Chapter-2-for-Mac-372091c284f680999766cddac1548774
 notion_id: 372091c2-84f6-8099-9766-cddac1548774

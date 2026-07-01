@@ -60,11 +60,11 @@ notion_id: 2fb091c2-84f6-8006-8c62-d68cb2998d65
   - Meter법을 사용하는 나라는 A, B 규격
     - A0(841×1189mm, 1제곱m), 1:√2 비율
 
-![image](images/Affinity-Studio-by-Canva-개요-1.png)
+![image](images/Affinity-Studio-by-Canva-개요-1.webp)
   - 미국은 Letter, Legal, Ledger 규격 사용
-![image](images/Affinity-Studio-by-Canva-개요-2.png)
+![image](images/Affinity-Studio-by-Canva-개요-2.webp)
 - Letter Size 주보를 만드는 유형
-![image](images/Affinity-Studio-by-Canva-개요-3.png)
+![image](images/Affinity-Studio-by-Canva-개요-3.webp)
 
   - 편집용지와 출력용지를 따로 생각하면 좋음
   - Letter Size(8.5"×11") 가로유형으로 한 페이지에 2면씩 구성
@@ -89,7 +89,7 @@ notion_id: 2fb091c2-84f6-8006-8c62-d68cb2998d65
 
 ### 4.4 Color Format
 
-![image](images/Affinity-Studio-by-Canva-개요-4.png)
+![image](images/Affinity-Studio-by-Canva-개요-4.webp)
 
 - CMYK
   - Cyan, Magenta, Yellow + Black
@@ -148,7 +148,7 @@ notion_id: 2fb091c2-84f6-8006-8c62-d68cb2998d65
 - 대량 인쇄/출판용 제판 작업에서 Cutting 안정성을 위해 사용
 - 주보 프린팅에서는 불필요
 
-![image](images/Affinity-Studio-by-Canva-개요-6.png)
+![image](images/Affinity-Studio-by-Canva-개요-6.webp)
 
 ### 4.12 Drawing Scale
 

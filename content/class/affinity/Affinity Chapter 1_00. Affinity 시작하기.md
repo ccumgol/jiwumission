@@ -13,7 +13,7 @@ notion_id: 361091c2-84f6-8069-ba9a-c38340776916
 Categories: ["Affinity"]
 ---
 
-![image](images/Affinity-Chapter-1_00.-Affinity-시작하기-1.png)
+![image](images/Affinity-Chapter-1_00.-Affinity-시작하기-1.webp)
 
 # Affinity (Layout Studio) 교회 주보/책자 제작 매뉴얼
 

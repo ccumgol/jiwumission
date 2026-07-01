@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "MWC Barcelona 2026은 2026년 3월 2일부터 3월 5일까지 스페인 바르셀로나의 Fira Gran Via에서 개최된 세계 최대 규모의 모바일·커넥티비티 전시·컨퍼런스이며, 현재는 기본 일정·장소·공식 사이트 정보만 확정된 상태이다."
 description: "MWC Barcelona 2026은 2026년 3월 2일부터 3월 5일까지 스페인 바르셀로나의 Fira Gran Via에서 개최된 세계 최대 규모의 모바일·커넥티비티 전시·컨퍼런스이며, 현재는 기본 일정·장소·공식 사이트 정보만 확정된 상태이다."
-image: "images/Mobile-World-Congress-2026.png"
+image: "images/Mobile-World-Congress-2026.webp"
 comments: false
 notion_url: https://app.notion.com/p/Mobile-World-Congress-2026-352091c284f6808b89f8d251869d376b
 notion_id: 352091c2-84f6-808b-89f8-d251869d376b

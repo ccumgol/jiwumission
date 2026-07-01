@@ -63,11 +63,11 @@ Studio를 바꾸면 주로 아래가 함께 바뀝니다.
 3. **Layout Studio**: 페이지 레이아웃, 출판, 문서 편집용
 4. **Canva AI Studio**: AI/머신러닝 도구 모음(플랜/권한에 따라 잠금 해제 범위가 달라질 수 있음) - 유료 기능
 
-![image](images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-이해하기-1.png)
+![image](images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-이해하기-1.webp)
 
-![image](images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-이해하기-2.png)
+![image](images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-이해하기-2.webp)
 
-![image](images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-이해하기-3.png)
+![image](images/Affinity-Chapter-1_03.-화면-구성과-‘Studio’의-개념-이해하기-3.webp)
 
 ---
 

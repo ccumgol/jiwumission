@@ -10,7 +10,7 @@ notion_url: https://app.notion.com/p/Affinity-Chapter-2_05-Toolbar-2fb091c284f68
 notion_id: 2fb091c2-84f6-8068-ba0b-ebfd58443e8f
 ---
 
-![image](images/Affinity-Chapter-2_05.-Toolbar-1.png)
+![image](images/Affinity-Chapter-2_05.-Toolbar-1.webp)
 
 ### Toolbar 항목 설명
 

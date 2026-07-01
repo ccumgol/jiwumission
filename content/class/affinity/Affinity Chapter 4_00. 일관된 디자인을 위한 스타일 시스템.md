@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "이 장은 교회 주보와 책자 제작을 위해 Affinity Layout Studio에서 텍스트 스타일 시스템을 설계·구성·활용하는 방법을 단계별로 자세히 안내합니다."
 description: "이 장은 교회 주보와 책자 제작을 위해 Affinity Layout Studio에서 텍스트 스타일 시스템을 설계·구성·활용하는 방법을 단계별로 자세히 안내합니다."
 tags: ["잎새 35호"]
-image: "images/Affinity-Chapter-4_00.-일관된-디자인을-위한-스타일-시스템.png"
+image: "images/Affinity-Chapter-4_00.-일관된-디자인을-위한-스타일-시스템.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-4_00-361091c284f6800da2e4dec7de4a76a8
 notion_id: 361091c2-84f6-800d-a2e4-dec7de4a76a8

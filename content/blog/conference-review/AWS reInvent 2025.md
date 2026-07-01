@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "AWS re:Invent 2025 주요 발표/클라우드 서비스 업데이트를 정리한 컨퍼런스 노트."
 description: "AWS re:Invent 2025 주요 발표/클라우드 서비스 업데이트를 정리한 컨퍼런스 노트."
-image: "images/AWS-reInvent-2025.png"
+image: "images/AWS-reInvent-2025.webp"
 comments: false
 notion_url: https://app.notion.com/p/AWS-re-Invent-2025-2ac091c284f680c48d60cc6d60ad0b5a
 notion_id: 2ac091c2-84f6-80c4-8d60-cc6d60ad0b5a

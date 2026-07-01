@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "Second Brain 3장: 정보를 흩어지지 않게 캡처·통합하고 맥락/태그와 주간 리뷰로 ‘나중에 활용 가능한’ 자료 수집 시스템을 만드는 방법을 정리한 챕터."
 description: "Second Brain 3장: 정보를 흩어지지 않게 캡처·통합하고 맥락/태그와 주간 리뷰로 ‘나중에 활용 가능한’ 자료 수집 시스템을 만드는 방법을 정리한 챕터."
-image: "images/Second-Brain-제3장.-자료-수집의-기술.png"
+image: "images/Second-Brain-제3장.-자료-수집의-기술.webp"
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-3-2f4091c284f6800398fad8933e2c54da
 notion_id: 2f4091c2-84f6-8003-98fa-d8933e2c54da

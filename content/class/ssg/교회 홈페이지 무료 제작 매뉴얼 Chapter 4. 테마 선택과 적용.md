@@ -6,7 +6,7 @@ lastmod: 2026-06-18
 summary: "이 챕터는 교회 홈페이지에 적합한 Hugo 테마(PaperMod)를 선택·다운로드·설치하고, hugo.toml 설정, 테스트 콘텐츠 작성, 로컬 미리보기, Git 커밋까지 단계별로 자세히 안내한다."
 description: "이 챕터는 교회 홈페이지에 적합한 Hugo 테마(PaperMod)를 선택·다운로드·설치하고, hugo.toml 설정, 테스트 콘텐츠 작성, 로컬 미리보기, Git 커밋까지 단계별로 자세히 안내한다."
 tags: ["잎새 35호"]
-image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-4.-테마-선택과-적용.png"
+image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-4.-테마-선택과-적용.webp"
 comments: false
 notion_url: https://app.notion.com/p/Chapter-4-377091c284f680e39ec0df4bb65ff5b6
 notion_id: 377091c2-84f6-80e3-9ec0-df4bb65ff5b6

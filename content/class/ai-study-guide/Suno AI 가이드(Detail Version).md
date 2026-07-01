@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "Suno AI 가이드는 초보자부터 전문가까지 음악 제작, 프롬프트 엔지니어링, 메타 태그 활용, 고급 확장 기능, 최신 V5.5 기능 및 스튜디오 믹싱, 그리고 트러블슈팅과 수익화 전략까지 포괄적으로 설명하는 상세 매뉴얼이다."
 description: "Suno AI 가이드는 초보자부터 전문가까지 음악 제작, 프롬프트 엔지니어링, 메타 태그 활용, 고급 확장 기능, 최신 V5.5 기능 및 스튜디오 믹싱, 그리고 트러블슈팅과 수익화 전략까지 포괄적으로 설명하는 상세 매뉴얼이다."
 tags: ["잎새 29호"]
-image: "images/Suno-AI-가이드(Detail-Version).png"
+image: "images/Suno-AI-가이드(Detail-Version).webp"
 comments: false
 notion_url: https://app.notion.com/p/Suno-AI-Detail-Version-357091c284f680c88141cbd36fcd8401
 notion_id: 357091c2-84f6-80c8-8141-cbd36fcd8401

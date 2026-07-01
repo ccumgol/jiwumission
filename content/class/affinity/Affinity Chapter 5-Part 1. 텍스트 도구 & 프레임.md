@@ -6,7 +6,7 @@ lastmod: 2026-06-22
 summary: "Affinity Chapter 5‑Part 1에서는 텍스트 프레임 도구와 아트 텍스트 도구의 차이와 사용법, 프레임 생성·편집·크기·위치 조정 방법 및 실무 팁을 설명합니다."
 description: "Affinity Chapter 5‑Part 1에서는 텍스트 프레임 도구와 아트 텍스트 도구의 차이와 사용법, 프레임 생성·편집·크기·위치 조정 방법 및 실무 팁을 설명합니다."
 tags: ["잎새 36호"]
-image: "images/Affinity-Chapter-5-Part-1.-텍스트-도구-&-프레임.png"
+image: "images/Affinity-Chapter-5-Part-1.-텍스트-도구-&-프레임.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5-Part-1-387091c284f6806aa2f0e04becb95068
 notion_id: 387091c2-84f6-806a-a2f0-e04becb95068

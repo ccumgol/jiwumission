@@ -6,7 +6,7 @@ lastmod: 2026-06-18
 summary: "이 매뉴얼은 교회 홈페이지를 정적 사이트 생성기(Hugo)와 무료 도구들로 구축하고 관리하는 방법을 단계별로 안내합니다."
 description: "이 매뉴얼은 교회 홈페이지를 정적 사이트 생성기(Hugo)와 무료 도구들로 구축하고 관리하는 방법을 단계별로 안내합니다."
 tags: ["잎새 32호"]
-image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-1.-왜,-무엇으로-만들까.png"
+image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-1.-왜,-무엇으로-만들까.webp"
 comments: false
 notion_url: https://app.notion.com/p/Chapter-1-36c091c284f6801f96e0f6d8ca30781f
 notion_id: 36c091c2-84f6-801f-96e0-f6d8ca30781f

@@ -6,14 +6,14 @@ lastmod: 2026-06-17
 summary: "레이어는 캔버스를 투명한 필름처럼 겹쳐 독립적으로 관리하며, 순서 조절, 가시성, 투명도, 마스크, 조정 레이어 및 그룹화 등을 통해 비파괴 편집과 작업 효율을 높이는 기능이다."
 description: "레이어는 캔버스를 투명한 필름처럼 겹쳐 독립적으로 관리하며, 순서 조절, 가시성, 투명도, 마스크, 조정 레이어 및 그룹화 등을 통해 비파괴 편집과 작업 효율을 높이는 기능이다."
 tags: ["잎새 21호"]
-image: "images/Affinity-Chapter-2_03.-레이어(Layer)의-이해.png"
+image: "images/Affinity-Chapter-2_03.-레이어(Layer)의-이해.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_03-Layer-31f091c284f680a69084c94717b93c54
 notion_id: 31f091c2-84f6-80a6-9084-c94717b93c54
 Categories: ["Affinity"]
 ---
 
-![image](images/Affinity-Chapter-2_03.-레이어(Layer)의-이해-1.png)
+![image](images/Affinity-Chapter-2_03.-레이어(Layer)의-이해-1.webp)
 
 ## ‘레이어(Layer)’ 기능이란?
 

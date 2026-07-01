@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "리포지터리는 버전 관리 시스템에서 코드와 파일을 보관하고 변경 이력을 기록하는 저장소이며, 협업, 되돌리기, 공유를 용이하게 하는 주요 도구이다."
 description: "리포지터리는 버전 관리 시스템에서 코드와 파일을 보관하고 변경 이력을 기록하는 저장소이며, 협업, 되돌리기, 공유를 용이하게 하는 주요 도구이다."
 tags: ["잎새 35호"]
-image: "images/‘리포지터리(repository)’란.png"
+image: "images/‘리포지터리(repository)’란.webp"
 comments: false
 notion_url: https://app.notion.com/p/repository-382091c284f68015a811d67df53c7b6c
 notion_id: 382091c2-84f6-8015-a811-d67df53c7b6c

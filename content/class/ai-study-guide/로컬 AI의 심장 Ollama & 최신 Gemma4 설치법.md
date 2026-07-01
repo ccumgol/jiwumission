@@ -6,7 +6,7 @@ lastmod: 2026-06-15
 summary: "이 문서는 Ollama와 Gemma4 모델을 소개하고, 각 모델 크기별 하드웨어 요구 사양과 사용 환경에 맞는 선택 가이드를 제공한다."
 description: "이 문서는 Ollama와 Gemma4 모델을 소개하고, 각 모델 크기별 하드웨어 요구 사양과 사용 환경에 맞는 선택 가이드를 제공한다."
 tags: ["잎새 27호"]
-image: "images/로컬-AI의-심장-Ollama-&-최신-Gemma4-설치법.png"
+image: "images/로컬-AI의-심장-Ollama-&-최신-Gemma4-설치법.webp"
 comments: false
 notion_url: https://app.notion.com/p/AI-Ollama-Gemma4-34a091c284f680f3854ac5e8cb208e44
 notion_id: 34a091c2-84f6-80f3-854a-c5e8cb208e44

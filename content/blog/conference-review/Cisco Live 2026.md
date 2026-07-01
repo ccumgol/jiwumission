@@ -5,7 +5,7 @@ author: "Gihyun Park"
 lastmod: 2026-06-13
 summary: "Cisco Live 2026은 “에이전틱 AI 시대”를 주제로 AI‑기반 통합 인프라 플랫폼 Cisco Cloud Control와 보안·양자 안전·비인간 ID 등 다양한 신기술을 발표하며, AI 인프라 매출 성장과 전략적 전환을 강조한 행사다."
 description: "Cisco Live 2026은 “에이전틱 AI 시대”를 주제로 AI‑기반 통합 인프라 플랫폼 Cisco Cloud Control와 보안·양자 안전·비인간 ID 등 다양한 신기술을 발표하며, AI 인프라 매출 성장과 전략적 전환을 강조한 행사다."
-image: "images/Cisco-Live-2026.png"
+image: "images/Cisco-Live-2026.webp"
 comments: false
 notion_url: https://app.notion.com/p/Cisco-Live-2026-37480d0e43c24ce58199e0b234054cd4
 notion_id: 37480d0e-43c2-4ce5-8199-e0b234054cd4

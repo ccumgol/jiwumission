@@ -306,8 +306,8 @@ C:\church\photos\lee-seoyeon.jpg
 
 ```plain text
 =IF(D2="남",
-  "/Users/john/church/backgrounds/boy_cert.png",
-  "/Users/john/church/backgrounds/girl_cert.png"
+  "/Users/john/church/backgrounds/boy_cert.webp",
+  "/Users/john/church/backgrounds/girl_cert.webp"
 )
 ```
 
@@ -315,8 +315,8 @@ C:\church\photos\lee-seoyeon.jpg
 
 ```plain text
 =IF(D2="남",
-  "C:\church\backgrounds\boy_cert.png",
-  "C:\church\backgrounds\girl_cert.png"
+  "C:\church\backgrounds\boy_cert.webp",
+  "C:\church\backgrounds\girl_cert.webp"
 )
 ```
 
@@ -330,8 +330,8 @@ C:\church\photos\lee-seoyeon.jpg
 
 | 상황 | 🍎 Mac 경로 예시 | 🪟 Windows 경로 예시 |
 | --- | --- | --- |
-| 배경 이미지 | `/Users/john/church/bg/boy.png` | `C:\church\bg\boy.png` |
-| 남/여 도장 | `/Users/john/church/stamps/blue.png` | `C:\church\stamps\blue.png` |
+| 배경 이미지 | `/Users/john/church/bg/boy.webp` | `C:\church\bg\boy.webp` |
+| 남/여 도장 | `/Users/john/church/stamps/blue.webp` | `C:\church\stamps\blue.webp` |
 
 | 상황 | 엑셀 수식 (공통) | Affinity 필드 |
 | --- | --- | --- |

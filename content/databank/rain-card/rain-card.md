@@ -3,7 +3,7 @@ title: "이슬비전도카드 소개 및 활용법"
 meta_title: "이슬비전도카드 소개 및 활용법"
 description: "문서선교 사역의 핵심, 이슬비전도카드 활용 및 신청 안내"
 date: 2026-06-11T12:00:00-04:00
-image: "/images/image-placeholder.png"
+image: "/images/image-placeholder.webp"
 categories: ["이슬비전도카드"]
 tags: ["문서선교", "전도카드"]
 draft: false

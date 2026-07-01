@@ -6,7 +6,7 @@ lastmod: 2026-06-17
 summary: "Affinity 매뉴얼 Chapter 2에서는 교회 주보와 책자를 처음부터 올바르게 설정하고 최적화하기 위해 문서 크기, 방향, DPI, 여백, 도련, 색상, Facing Pages 옵션 등 주요 설정값을 단계별로 설명하고, 인쇄소 제출용과 자체 출력용 파일을 만드는 방법을 안내합니다."
 description: "Affinity 매뉴얼 Chapter 2에서는 교회 주보와 책자를 처음부터 올바르게 설정하고 최적화하기 위해 문서 크기, 방향, DPI, 여백, 도련, 색상, Facing Pages 옵션 등 주요 설정값을 단계별로 설명하고, 인쇄소 제출용과 자체 출력용 파일을 만드는 방법을 안내합니다."
 tags: ["잎새 33호"]
-image: "images/Affinity-Chapter-2_00.-새-문서-설정-및-최적화.png"
+image: "images/Affinity-Chapter-2_00.-새-문서-설정-및-최적화.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_00-361091c284f68032bc05ce6b1ddda924
 notion_id: 361091c2-84f6-8032-bc05-ce6b1ddda924
