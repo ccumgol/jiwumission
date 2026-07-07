@@ -1,0 +1,8 @@
+{
+  "title": {{ .Title | jsonify }},
+  "date": {{ .Date.Format "2006-01-02" | jsonify }},
+  "passage": {{ .Params.passage | jsonify }},
+  "status": {{ .Params.qt_status | jsonify }},
+  "url": {{ .RelPermalink | jsonify }},
+  "content": {{ .Content | jsonify }}
+}

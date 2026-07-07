@@ -1,0 +1,43 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+
+          <!-- Prev / Next day navigation -->
+          <nav class="mt-10 flex items-center justify-between gap-4 border-t border-border dark:border-darkmode-border pt-6">
+            {{ with .PrevInSection }}
+              <a href="{{ .RelPermalink }}"
+                 class="btn btn-outline-primary flex items-center gap-2">
+                <i class="fas fa-chevron-left"></i>
+                <span>{{ .Date.Format "1월 2일" }} ({{ .Params.weekday }})</span>
+              </a>
+            {{ else }}
+              <span></span>
+            {{ end }}
+
+            <a href="{{ .CurrentSection.RelPermalink }}"
+               class="text-sm text-text-light dark:text-darkmode-text-light hover:text-primary">
+              전체 목록
+            </a>
+
+            {{ with .NextInSection }}
+              <a href="{{ .RelPermalink }}"
+                 class="btn btn-outline-primary flex items-center gap-2">
+                <span>{{ .Date.Format "1월 2일" }} ({{ .Params.weekday }})</span>
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            {{ else }}
+              <span></span>
+            {{ end }}
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
