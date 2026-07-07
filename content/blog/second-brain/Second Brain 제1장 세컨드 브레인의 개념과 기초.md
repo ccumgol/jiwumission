@@ -10,7 +10,7 @@ image: "images/Second-Brain-제1장-세컨드-브레인의-개념과-기초.webp
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-1-2b2091c284f68062a19ef0163dd5a6da
 notion_id: 2b2091c2-84f6-8062-a19e-f0163dd5a6da
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 **영상 개요**

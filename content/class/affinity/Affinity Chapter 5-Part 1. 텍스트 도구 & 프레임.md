@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-5-Part-1.-텍스트-도구-&-프레임.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5-Part-1-387091c284f6806aa2f0e04becb95068
 notion_id: 387091c2-84f6-806a-a2f0-e04becb95068
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 # Part 1. 기초: 텍스트 도구 & 프레임

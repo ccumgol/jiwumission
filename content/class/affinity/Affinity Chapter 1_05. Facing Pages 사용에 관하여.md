@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-1_05.-Facing-Pages-사용에-관하여.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_05-Facing-Pages-33b091c284f68081a4b8e9a8d18b5cd7
 notion_id: 33b091c2-84f6-8081-a4b8-e9a8d18b5cd7
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 Affinity Studio v3의 레이아웃 스튜디오(Layout Studio)에서 책이나 교회 주보를 제작할 때, 'Facing Pages(마주보기 페이지/스프레드)' 기능의 사용 여부와 출력 환경에 따른 장단점을 비교해 드립니다. 특히 가정용 프린터를 사용할 경우 '소책자(Booklet)' 기능 유무에 따라 접근법을 달리 해야 합니다.

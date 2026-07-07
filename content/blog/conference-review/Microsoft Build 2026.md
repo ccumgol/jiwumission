@@ -12,7 +12,7 @@ notion_url: https://app.notion.com/p/Microsoft-Build-2026-aadb57d708f54383b7755b
 notion_id: aadb57d7-08f5-4383-b775-5be52d715abe
 기간: "2026-06-02"
 주최: ["Microsoft"]
-Categories: ["컨퍼런스 리뷰"]
+categories: ["컨퍼런스 리뷰"]
 ---
 
 [video](https://youtu.be/Gfhseao8OzM)

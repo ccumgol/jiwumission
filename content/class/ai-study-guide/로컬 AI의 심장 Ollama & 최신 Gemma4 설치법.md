@@ -10,7 +10,7 @@ image: "images/로컬-AI의-심장-Ollama-&-최신-Gemma4-설치법.webp"
 comments: false
 notion_url: https://app.notion.com/p/AI-Ollama-Gemma4-34a091c284f680f3854ac5e8cb208e44
 notion_id: 34a091c2-84f6-80f3-854a-c5e8cb208e44
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 ## 로컬 AI의 심장: Ollama & 최신 Gemma4 설치법

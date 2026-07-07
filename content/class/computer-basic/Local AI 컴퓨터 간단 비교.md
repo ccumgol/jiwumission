@@ -10,7 +10,7 @@ image: "images/Local-AI-컴퓨터-간단-비교.webp"
 comments: false
 notion_url: https://app.notion.com/p/Local-AI-387091c284f680b787c4e4cb581facd1
 notion_id: 387091c2-84f6-80b7-87c4-e4cb581facd1
-Categories: ["blog", "컴퓨터 기초"]
+categories: ["blog", "컴퓨터 기초"]
 ---
 
 ## Local AI 컴퓨터 간단 비교

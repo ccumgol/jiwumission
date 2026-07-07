@@ -8,7 +8,7 @@ image: "images/md(Mark-Down)-&-.json.jpg"
 comments: false
 notion_url: https://app.notion.com/p/md-Mark-Down-json-313091c284f6802585afc7843dbdb4b4
 notion_id: 313091c2-84f6-8025-85af-c7843dbdb4b4
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 # 📚 Markdown(.md)과 JSON(.json) 완벽 가이드

@@ -10,7 +10,7 @@ image: "images/[-연구리포트-]-Anthropic의-‘What-81,000-people-want-from-
 comments: false
 notion_url: https://app.notion.com/p/Anthropic-What-81-000-people-want-from-AI-32c091c284f68035a880c6006e480c16
 notion_id: 32c091c2-84f6-8035-a880-c6006e480c16
-Categories: ["AI & Tech", "컨퍼런스 리뷰"]
+categories: ["AI & Tech", "컨퍼런스 리뷰"]
 ---
 
 [video](https://youtu.be/4kVy6sTElVA)

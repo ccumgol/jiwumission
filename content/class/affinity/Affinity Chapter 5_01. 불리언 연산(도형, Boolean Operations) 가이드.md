@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-5_01.-불리언-연산(도형,-Boolean-Operation
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_01-Boolean-Operations-349091c284f6801e83fed65bdb4014d6
 notion_id: 349091c2-84f6-801e-83fe-d65bdb4014d6
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 ## Affinity Designer 불리언 연산(Boolean Operations) 가이드

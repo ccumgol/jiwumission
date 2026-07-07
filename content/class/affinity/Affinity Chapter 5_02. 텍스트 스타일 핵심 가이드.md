@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-5_02.-텍스트-스타일-핵심-가이드.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_02-35a091c284f68045afd1f2c7ba46b63b
 notion_id: 35a091c2-84f6-8045-afd1-f2c7ba46b63b
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 # Affinity v3.2 텍스트 스타일 핵심 가이드

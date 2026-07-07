@@ -10,7 +10,7 @@ image: "images/나의-공부법---Notebook-LM으로-Suno-AI를-배워보자.webp
 comments: false
 notion_url: https://app.notion.com/p/Notebook-LM-Suno-AI-356091c284f6804a98e0efbca01d0ccb
 notion_id: 356091c2-84f6-804a-98e0-efbca01d0ccb
-Categories: ["AI 공부법"]
+categories: ["AI 공부법"]
 ---
 
 [video](https://youtu.be/y_F1mw_4noE)

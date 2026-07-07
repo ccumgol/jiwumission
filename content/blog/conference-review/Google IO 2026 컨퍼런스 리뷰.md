@@ -12,7 +12,7 @@ notion_url: https://app.notion.com/p/Google-I-O-2026-e6f282a7744d4feca5869514c85
 notion_id: e6f282a7-744d-4fec-a586-9514c85a4912
 기간: "2026-05-19"
 주최: ["Google"]
-Categories: ["컨퍼런스 리뷰"]
+categories: ["컨퍼런스 리뷰"]
 ---
 
 ![image](images/Google-IO-2026-컨퍼런스-리뷰-1.webp)

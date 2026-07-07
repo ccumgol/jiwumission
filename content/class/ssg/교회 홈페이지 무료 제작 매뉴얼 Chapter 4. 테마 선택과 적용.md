@@ -10,7 +10,7 @@ image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-4.-테마-선
 comments: false
 notion_url: https://app.notion.com/p/Chapter-4-377091c284f680e39ec0df4bb65ff5b6
 notion_id: 377091c2-84f6-80e3-9ec0-df4bb65ff5b6
-Categories: ["홈페이지"]
+categories: ["홈페이지"]
 ---
 
 # 교회 홈페이지 무료 제작 매뉴얼

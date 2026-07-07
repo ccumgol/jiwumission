@@ -10,7 +10,7 @@ image: "images/Second-Brain-제4장-PARA-시스템-완전-가이드.jpg"
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-4-PARA-2b3091c284f680aa8005e2b0a06d6e76
 notion_id: 2b3091c2-84f6-80aa-8005-e2b0a06d6e76
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 **영상 개요**

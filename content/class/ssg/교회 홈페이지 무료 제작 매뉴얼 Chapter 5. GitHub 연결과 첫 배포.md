@@ -10,7 +10,7 @@ image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-5.-GitHub-연
 comments: false
 notion_url: https://app.notion.com/p/Chapter-5-GitHub-37c091c284f68077af2ad29588bf9ef1
 notion_id: 37c091c2-84f6-8077-af2a-d29588bf9ef1
-Categories: ["blog", "홈페이지"]
+categories: ["blog", "홈페이지"]
 ---
 
 # 교회 홈페이지 무료 제작 매뉴얼

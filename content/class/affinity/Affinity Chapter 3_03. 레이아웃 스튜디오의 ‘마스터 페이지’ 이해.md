@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-3_03.-레이아웃-스튜디오의-‘마스터-
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-3_03-335091c284f680548582ce916836b72e
 notion_id: 335091c2-84f6-8054-8582-ce916836b72e
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 Affinity의 레이아웃 스튜디오(Layout Studio)에서 제공하는 **마스터 페이지(Master Pages)**는 문서의 여러 페이지에 반복적으로 들어가는 디자인 요소를 한 번에 관리할 수 있게 해주는 강력한 '템플릿' 기능입니다. 초보자도 쉽게 이해할 수 있도록 단계별로 설명해 드립니다.

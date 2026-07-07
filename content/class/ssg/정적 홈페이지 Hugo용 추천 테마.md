@@ -10,7 +10,7 @@ image: "images/정적-홈페이지-Hugo용-추천-테마.webp"
 comments: false
 notion_url: https://app.notion.com/p/Hugo-38e091c284f680339aa0f54c0f486d0f
 notion_id: 38e091c2-84f6-8033-9aa0-f54c0f486d0f
-Categories: ["blog", "홈페이지"]
+categories: ["blog", "홈페이지"]
 ---
 
 # 추천 Hugo 테마 27선 (블로그, 포트폴리오 및 범용, 2026년 최신 기준)

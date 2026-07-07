@@ -10,7 +10,7 @@ image: "images/‘리포지터리(repository)’란.webp"
 comments: false
 notion_url: https://app.notion.com/p/repository-382091c284f68015a811d67df53c7b6c
 notion_id: 382091c2-84f6-8015-a811-d67df53c7b6c
-Categories: ["컴퓨터 기초"]
+categories: ["컴퓨터 기초"]
 ---
 
 "리포지터리(repository)"는 직역하면 "저장소"라는 뜻인데, IT 분야에서는 보통 **버전 관리 시스템에서 코드와 파일을 보관하는 공간**을 가리킵니다. 가장 흔히 마주치는 맥락은 Git과 GitHub이니, 그걸 중심으로 풀어서 설명할게요.

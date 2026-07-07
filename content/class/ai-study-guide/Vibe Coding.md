@@ -10,7 +10,7 @@ image: "images/Vibe-Coding.webp"
 comments: false
 notion_url: https://app.notion.com/p/Vibe-Coding-327091c284f680bc9008e3d76396ce1b
 notion_id: 327091c2-84f6-80bc-9008-e3d76396ce1b
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 ### Vibe Coding이 뭐예요?

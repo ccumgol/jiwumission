@@ -10,7 +10,7 @@ image: "images/Python이-뭐예요.webp"
 comments: false
 notion_url: https://app.notion.com/p/Python-353091c284f68085af5af1bc415d1c9b
 notion_id: 353091c2-84f6-8085-af5a-f1bc415d1c9b
-Categories: ["코딩"]
+categories: ["코딩"]
 ---
 
 ### Python이 뭐예요?

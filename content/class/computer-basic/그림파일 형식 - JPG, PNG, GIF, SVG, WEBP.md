@@ -10,7 +10,7 @@ image: "images/그림파일-형식---JPG,-PNG,-GIF,-SVG,-WEBP.webp"
 comments: false
 notion_url: https://app.notion.com/p/JPG-PNG-GIF-SVG-WEBP-2ae091c284f680f2b50dff830f617d86
 notion_id: 2ae091c2-84f6-80f2-b50d-ff830f617d86
-Categories: ["blog", "컴퓨터 기초"]
+categories: ["blog", "컴퓨터 기초"]
 카테고리: ["매뉴얼", "참고자료"]
 ---
 

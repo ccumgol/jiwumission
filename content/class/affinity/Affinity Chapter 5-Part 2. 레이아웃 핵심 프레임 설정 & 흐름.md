@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-5-Part-2.-레이아웃-핵심-프레임-설정-&
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5-Part-2-38f091c284f680f294bfe0a3c73aecd8
 notion_id: 38f091c2-84f6-80f2-94bf-e0a3c73aecd8
-Categories: ["blog", "Affinity"]
+categories: ["blog", "Affinity"]
 ---
 
 # Part 2. 레이아웃 핵심: 프레임 설정 & 흐름

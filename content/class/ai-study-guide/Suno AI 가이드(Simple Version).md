@@ -10,7 +10,7 @@ image: "images/Suno-AI-가이드(Simple-Version).webp"
 comments: false
 notion_url: https://app.notion.com/p/Suno-AI-Simple-Version-357091c284f6800ea3a2d55acd2c9184
 notion_id: 357091c2-84f6-800e-a3a2-d55acd2c9184
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 > 

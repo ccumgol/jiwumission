@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-6_01.-선(Line)과-테두리(Stroke)-설정하�
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-6_01-Line-Stroke-353091c284f68090a6e3d48a039a2df1
 notion_id: 353091c2-84f6-8090-a6e3-d48a039a2df1
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 ## 선(Line)과 테두리(Stroke) 설정하기

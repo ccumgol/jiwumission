@@ -10,7 +10,7 @@ image: "images/Suno-AI-가이드(Detail-Version).webp"
 comments: false
 notion_url: https://app.notion.com/p/Suno-AI-Detail-Version-357091c284f680c88141cbd36fcd8401
 notion_id: 357091c2-84f6-80c8-8141-cbd36fcd8401
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 > 

@@ -10,7 +10,7 @@ image: "images/옵시디언(Obsidian)을-소개합니다-내-생각을-연결하
 comments: false
 notion_url: https://app.notion.com/p/Obsidian-2-34a091c284f6807da200cb21768303ba
 notion_id: 34a091c2-84f6-807d-a200-cb21768303ba
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 ## 옵시디언(Obsidian)을 소개합니다: 내 생각을 연결하는 '제2의 뇌'

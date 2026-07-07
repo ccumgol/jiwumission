@@ -10,7 +10,7 @@ image: "images/[논문소개]-AI+HW-2035-다음-10년을-형성하다-Shaping-th
 comments: false
 notion_url: https://app.notion.com/p/AI-HW-2035-10-Shaping-the-Next-Decade-31f091c284f680818256d0a3ec07eaf0
 notion_id: 31f091c2-84f6-8081-8256-d0a3ec07eaf0
-Categories: ["AI & Tech", "컨퍼런스 리뷰"]
+categories: ["AI & Tech", "컨퍼런스 리뷰"]
 ---
 
 **동영상 해설**

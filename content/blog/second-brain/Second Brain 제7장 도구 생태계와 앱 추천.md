@@ -8,7 +8,7 @@ description: "Second Brain 7장: 세컨드 브레인 구축에 유용한 도구 
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-7-2b4091c284f680bd8565e3e936022c6d
 notion_id: 2b4091c2-84f6-80bd-8565-e3e936022c6d
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 # 제7장: 도구 생태계와 앱 추천 – 당신의 Second Brain을 위한 최적의 도구 선택

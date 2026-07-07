@@ -10,7 +10,7 @@ image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-3.-Hugo-프�
 comments: false
 notion_url: https://app.notion.com/p/Chapter-3-Hugo-376091c284f680ad893ff9e993b35ff8
 notion_id: 376091c2-84f6-80ad-893f-f9e993b35ff8
-Categories: ["홈페이지"]
+categories: ["홈페이지"]
 ---
 
 # 교회 홈페이지 무료 제작 매뉴얼

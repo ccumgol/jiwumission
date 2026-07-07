@@ -10,7 +10,7 @@ image: "images/교회-홈페이지-무료-제작-매뉴얼-Chapter-2.-사전-준
 comments: false
 notion_url: https://app.notion.com/p/Chapter-2-for-Mac-372091c284f680999766cddac1548774
 notion_id: 372091c2-84f6-8099-9766-cddac1548774
-Categories: ["홈페이지"]
+categories: ["홈페이지"]
 ---
 
 # 교회 홈페이지 무료 제작 매뉴얼

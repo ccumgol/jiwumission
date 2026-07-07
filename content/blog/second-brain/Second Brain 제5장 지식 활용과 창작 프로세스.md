@@ -10,7 +10,7 @@ image: "images/Second-Brain-제5장-지식-활용과-창작-프로세스.jpg"
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-5-2b2091c284f680aba596fe8d0605e8d8
 notion_id: 2b2091c2-84f6-80ab-a596-fe8d0605e8d8
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 **개요 동영상**

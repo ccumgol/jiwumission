@@ -8,7 +8,7 @@ description: "Second Brain 9장(부록): 추가 자료, 체크리스트, 참고 
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-9-2b4091c284f68017b492e8d9c2528921
 notion_id: 2b4091c2-84f6-8017-b492-e8d9c2528921
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 # 부록: 세컨드 브레인 실전 도구상자

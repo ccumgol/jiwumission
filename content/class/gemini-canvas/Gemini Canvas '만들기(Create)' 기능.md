@@ -10,7 +10,7 @@ image: "images/Gemini-Canvas-'만들기(Create)'-기능.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Canvas-Create-341091c284f680979007d84394ed7c0b
 notion_id: 341091c2-84f6-8097-9007-d84394ed7c0b
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 # Gemini Canvas '만들기(Create)' 기능 상세 가이드

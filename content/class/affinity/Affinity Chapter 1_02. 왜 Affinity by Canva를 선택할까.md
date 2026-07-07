@@ -9,7 +9,7 @@ tags: ["잎새 17호"]
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_02-Affinity-by-Canva-303091c284f6807288cae44939a6fb55
 notion_id: 303091c2-84f6-8072-88ca-e44939a6fb55
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 # Affinity Studio v3: 교회 주보 제작을 위한 완벽한 선택

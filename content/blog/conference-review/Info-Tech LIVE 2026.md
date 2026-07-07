@@ -12,7 +12,7 @@ notion_url: https://app.notion.com/p/Info-Tech-LIVE-2026-ad2a52b532c0423a9248b71
 notion_id: ad2a52b5-32c0-423a-9248-b7174cd59c6c
 기간: "2026-06-09"
 주최: ["Info-Tech Research Group"]
-Categories: ["blog", "컨퍼런스 리뷰"]
+categories: ["blog", "컨퍼런스 리뷰"]
 ---
 
 # Info-Tech LIVE 2026 (라스베이거스) 리뷰

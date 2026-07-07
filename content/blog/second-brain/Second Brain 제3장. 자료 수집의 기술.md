@@ -9,7 +9,7 @@ image: "images/Second-Brain-제3장.-자료-수집의-기술.webp"
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-3-2f4091c284f6800398fad8933e2c54da
 notion_id: 2f4091c2-84f6-8003-98fa-d8933e2c54da
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 **영상 개요**

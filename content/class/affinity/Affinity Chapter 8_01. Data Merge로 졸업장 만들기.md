@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-8_01.-Data-Merge로-졸업장-만들기.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-8_01-Data-Merge-365091c284f680508e1fc1c4d1fee844
 notion_id: 365091c2-84f6-8050-8e1f-c1c4d1fee844
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 # Affinity Studio — Data Merge (메일머지) 가이드

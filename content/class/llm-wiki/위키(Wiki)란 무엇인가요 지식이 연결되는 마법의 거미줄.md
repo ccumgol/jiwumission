@@ -10,7 +10,7 @@ image: "images/위키(Wiki)란-무엇인가요-지식이-연결되는-마법의-
 comments: false
 notion_url: https://app.notion.com/p/Wiki-34a091c284f6805ea862f1ff42254b3a
 notion_id: 34a091c2-84f6-805e-a862-f1ff42254b3a
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 ## 위키(Wiki)란 무엇인가요?: 지식이 연결되는 마법의 거미줄

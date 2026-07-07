@@ -10,7 +10,7 @@ image: "images/인터뷰형-Gems-프롬프트를-만드는-Gems.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gems-Gems-366091c284f6804d962dcdd6bf843620
 notion_id: 366091c2-84f6-804d-962d-cdd6bf843620
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 ## 인터뷰형 Gems 프롬프트를 만드는 Gems

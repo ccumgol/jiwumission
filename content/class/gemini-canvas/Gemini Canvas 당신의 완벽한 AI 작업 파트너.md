@@ -10,7 +10,7 @@ image: "images/Gemini-Canvas-당신의-완벽한-AI-작업-파트너.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Canvas-AI-335091c284f6802db9faeaeb31c61d5c
 notion_id: 335091c2-84f6-802d-b9fa-eaeb31c61d5c
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 # Gemini Canvas: 당신의 완벽한 AI 작업 파트너

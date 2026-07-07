@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-5_03.-Text-Wrap,-Text-on-a-Path,-Pinning.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-5_03-Text-Wrap-Text-on-a-Path-Pinning-360091c284f6807b845bda8cf6c62990
 notion_id: 360091c2-84f6-807b-845b-da8cf6c62990
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 ![image](images/Affinity-Chapter-5_03.-Text-Wrap,-Text-on-a-Path,-Pinning-1.jpg)

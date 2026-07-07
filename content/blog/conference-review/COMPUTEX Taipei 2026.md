@@ -11,7 +11,7 @@ comments: false
 notion_url: https://app.notion.com/p/COMPUTEX-Taipei-2026-377091c284f6809788d4e13d2d53a3b5
 notion_id: 377091c2-84f6-8097-88d4-e13d2d53a3b5
 기간: "2026-06-02"
-Categories: ["컨퍼런스 리뷰"]
+categories: ["컨퍼런스 리뷰"]
 ---
 
 # COMPUTEX Taipei 2026 종합 리뷰

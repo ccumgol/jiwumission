@@ -8,7 +8,7 @@ image: "images/Google-Gems-‘나만의-맞춤형-AI-비서’.webp"
 comments: false
 notion_url: https://app.notion.com/p/Google-Gems-AI-303091c284f68051b713c01aded3a92c
 notion_id: 303091c2-84f6-8051-b713-c01aded3a92c
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 **강좌 동영상**

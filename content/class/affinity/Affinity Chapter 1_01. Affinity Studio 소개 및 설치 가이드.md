@@ -9,7 +9,7 @@ tags: ["잎새 16호"]
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-1_01-Affinity-Studio-d37353c4a2f24da1bc243f1a3bd50a08
 notion_id: d37353c4-a2f2-4da1-bc24-3f1a3bd50a08
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 Canva가 인수한 Serif사의 전문 디자인 도구인 Affinity Studio는 기존의 Publisher, Designer, Photo를 하나의 통합 앱으로 제공하며, 디자인 전문가와 일반 사용자 모두에게 강력한 창작 환경을 제공합니다.

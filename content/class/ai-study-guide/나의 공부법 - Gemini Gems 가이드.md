@@ -10,7 +10,7 @@ image: "images/나의-공부법---Gemini-Gems-가이드.webp"
 comments: false
 notion_url: https://app.notion.com/p/Gemini-Gems-364091c284f680c1b0aae14a4f0515bd
 notion_id: 364091c2-84f6-80c1-b0aa-e14a4f0515bd
-Categories: ["AI 공부법"]
+categories: ["AI 공부법"]
 ---
 
 # Gemini Gems 완전 가이드 — 인터랙티브 브레인스토밍 & 프롬프트 빌더 설계

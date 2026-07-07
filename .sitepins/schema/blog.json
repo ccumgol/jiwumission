@@ -67,6 +67,27 @@
       "type": "boolean",
       "value": false,
       "defaultValue": ""
+    },
+    {
+      "name": "comments",
+      "label": "Comments",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "notion_url",
+      "label": "Notion URL",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "notion_id",
+      "label": "Notion ID",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
     }
   ]
 }

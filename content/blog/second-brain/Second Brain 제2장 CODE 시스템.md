@@ -10,7 +10,7 @@ image: "images/Second-Brain-제2장-CODE-시스템.jpg"
 comments: false
 notion_url: https://app.notion.com/p/Second-Brain-2-CODE-2b8091c284f68071aef9ffbe0947b6c1
 notion_id: 2b8091c2-84f6-8071-aef9-ffbe0947b6c1
-Categories: ["세컨드브레인"]
+categories: ["세컨드브레인"]
 ---
 
 **동영상 개요**

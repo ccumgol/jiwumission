@@ -10,7 +10,7 @@ image: "images/Obsidian-LLM-Wiki-초보자-설치부터-사용까지.webp"
 comments: false
 notion_url: https://app.notion.com/p/Obsidian-LLM-Wiki-378091c284f680d9b50adb2b7fa783b5
 notion_id: 378091c2-84f6-80d9-b50a-db2b7fa783b5
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 {{< youtube-lite "DuwZKH2DMQ0" >}}
 

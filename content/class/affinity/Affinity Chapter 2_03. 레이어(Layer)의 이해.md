@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-2_03.-레이어(Layer)의-이해.webp"
 comments: false
 notion_url: https://app.notion.com/p/Affinity-Chapter-2_03-Layer-31f091c284f680a69084c94717b93c54
 notion_id: 31f091c2-84f6-80a6-9084-c94717b93c54
-Categories: ["Affinity"]
+categories: ["Affinity"]
 ---
 
 ![image](images/Affinity-Chapter-2_03.-레이어(Layer)의-이해-1.webp)

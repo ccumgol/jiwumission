@@ -11,7 +11,7 @@ comments: false
 notion_url: https://app.notion.com/p/NVIDIA-GTC-Taipei-at-COMPUTEX-2026-372091c284f6801483a2fa370001ffb8
 notion_id: 372091c2-84f6-8014-83a2-fa370001ffb8
 기간: "2026-06-01"
-Categories: ["컨퍼런스 리뷰"]
+categories: ["컨퍼런스 리뷰"]
 ---
 
 # NVIDIA GTC Taipei at COMPUTEX 2026 종합 리뷰

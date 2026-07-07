@@ -11,7 +11,7 @@ comments: false
 notion_url: https://app.notion.com/p/CVPR-2026-Denver-37a091c284f68014a126e83f4e65bfc9
 notion_id: 37a091c2-84f6-8014-a126-e83f4e65bfc9
 기간: "2026-06-03"
-Categories: ["컨퍼런스 리뷰"]
+categories: ["컨퍼런스 리뷰"]
 ---
 
 [video](https://youtu.be/KyXkcofqBCI)

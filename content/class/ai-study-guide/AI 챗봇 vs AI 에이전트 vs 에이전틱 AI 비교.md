@@ -10,7 +10,7 @@ image: "images/AI-챗봇-vs-AI-에이전트-vs-에이전틱-AI-비교.webp"
 comments: false
 notion_url: https://app.notion.com/p/AI-vs-AI-vs-AI-32e091c284f680ca92e2e0f79de49ca3
 notion_id: 32e091c2-84f6-80ca-92e2-e0f79de49ca3
-Categories: ["AI & Tech"]
+categories: ["AI & Tech"]
 ---
 
 # AI 챗봇 vs AI 에이전트 vs 에이전틱 AI 비교
