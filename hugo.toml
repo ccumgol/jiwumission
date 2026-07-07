@@ -4,6 +4,7 @@ title = "JIWU Mission | Jesus is with us"
 languageCode = "ko-kr"
 theme = "hugoplate"
 timeZone = "America/New_York"
+buildFuture = true
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
@@ -96,6 +97,12 @@ rel = "manifest"
 [outputFormats.SearchIndex]
 mediaType = "application/json"
 baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.DailyBibleJSON]
+mediaType = "text/plain"
+baseName = "index"
 isPlainText = true
 notAlternative = true
 

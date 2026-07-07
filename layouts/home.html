@@ -154,4 +154,127 @@
 <!-- Call to action -->
 {{ partial "call-to-action" . }}
 <!-- /Call to action -->
+
+<!-- Daily Bible Modal -->
+<div id="daily-bible-modal" class="fixed inset-0 z-50 flex items-center justify-center hidden opacity-0 transition-opacity duration-300">
+  <!-- Backdrop / Overlay with Backdrop blur -->
+  <div id="daily-bible-overlay" class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
+  
+  <!-- Modal Content Container -->
+  <div class="relative bg-white dark:bg-darkmode-body border border-border dark:border-darkmode-border rounded-2xl shadow-2xl max-w-2xl w-11/12 max-h-[80vh] flex flex-col z-10 transform scale-95 transition-transform duration-300">
+    
+    <!-- Modal Header -->
+    <div class="flex items-center justify-between px-6 py-4 border-b border-border dark:border-darkmode-border">
+      <h3 id="daily-bible-title" class="text-xl font-bold text-text-dark dark:text-white flex items-center gap-2">
+        <i class="fas fa-book-open text-primary"></i> 오늘의 성경 말씀
+      </h3>
+      <button id="daily-bible-close-btn" class="text-text-light hover:text-text-dark dark:text-darkmode-text-light dark:hover:text-white transition-colors duration-200 focus:outline-none">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    
+    <!-- Modal Body (Scrollable for long content) -->
+    <div class="px-6 py-6 overflow-y-auto flex-1 content prose dark:prose-invert max-w-none prose-headings:font-secondary prose-h2:text-xl">
+      <div id="daily-bible-content">
+        <!-- Content will be injected here -->
+      </div>
+    </div>
+    
+    <!-- Modal Footer -->
+    <div class="flex items-center justify-between px-6 py-4 bg-slate-50 dark:bg-darkmode-theme-light rounded-b-2xl border-t border-border dark:border-darkmode-border">
+      <label class="flex items-center gap-2 cursor-pointer select-none text-sm text-text-light dark:text-darkmode-text-light">
+        <input type="checkbox" id="daily-bible-hide-today" class="rounded border-gray-300 dark:border-darkmode-border text-primary focus:ring-primary w-4 h-4">
+        <span>오늘 하루 보지 않기</span>
+      </label>
+      <button id="daily-bible-close-footer-btn" class="btn btn-primary py-2 px-5 text-sm">
+        닫기
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const hideTodayKey = "daily_bible_hide_today";
+  const hideTodayVal = localStorage.getItem(hideTodayKey);
+  const todayStr = getTodayString(); // Format: YYYY-MM-DD
+  
+  if (hideTodayVal === todayStr) {
+    return;
+  }
+  
+  const jsonUrl = `/daily-bible/index.txt`;
+  
+  fetch(jsonUrl)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to load daily bible index.");
+      }
+      return response.json();
+    })
+    .then(data => {
+      const todayData = data[todayStr];
+      if (todayData && todayData.content) {
+        showDailyBibleModal(todayData.title, todayData.content);
+      } else {
+        console.log("No daily bible content found for today: " + todayStr);
+      }
+    })
+    .catch(error => {
+      console.log("Daily Bible modal check:", error.message);
+    });
+
+  function getTodayString() {
+    const localDate = new Date();
+    const yyyy = localDate.getFullYear();
+    const mm = String(localDate.getMonth() + 1).padStart(2, '0');
+    const dd = String(localDate.getDate()).padStart(2, '0');
+    return `${yyyy}-${mm}-${dd}`;
+  }
+
+  function showDailyBibleModal(title, content) {
+    const modal = document.getElementById("daily-bible-modal");
+    const titleEl = document.getElementById("daily-bible-title");
+    const contentEl = document.getElementById("daily-bible-content");
+    const closeBtn = document.getElementById("daily-bible-close-btn");
+    const closeFooterBtn = document.getElementById("daily-bible-close-footer-btn");
+    const overlay = document.getElementById("daily-bible-overlay");
+    const hideCheckbox = document.getElementById("daily-bible-hide-today");
+    
+    if (title) {
+      titleEl.innerHTML = `<i class="fas fa-book-open text-primary mr-1"></i> ${title}`;
+    }
+    contentEl.innerHTML = content;
+    
+    modal.classList.remove("hidden");
+    // Force browser reflow to enable transition
+    modal.offsetHeight;
+    modal.classList.remove("opacity-0");
+    modal.classList.add("opacity-100");
+    
+    const container = modal.querySelector(".relative");
+    container.classList.remove("scale-95");
+    container.classList.add("scale-100");
+    
+    function closeModal() {
+      if (hideCheckbox && hideCheckbox.checked) {
+        localStorage.setItem(hideTodayKey, todayStr);
+      }
+      
+      modal.classList.remove("opacity-100");
+      modal.classList.add("opacity-0");
+      container.classList.remove("scale-100");
+      container.classList.add("scale-95");
+      
+      setTimeout(() => {
+        modal.classList.add("hidden");
+      }, 300);
+    }
+    
+    closeBtn.addEventListener("click", closeModal);
+    closeFooterBtn.addEventListener("click", closeModal);
+    overlay.addEventListener("click", closeModal);
+  }
+});
+</script>
 {{ end }}
