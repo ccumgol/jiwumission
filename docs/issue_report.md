@@ -28,6 +28,10 @@
 | 16 | git push rejected — 원격/로컬 커밋 불일치 | Admin 페이지의 직접 커밋 |
 | 17 | 이미지 위치 오류 — `content/images/`에 방치 | 파일 정리 누락 |
 | 18 | VS Code 프론트매터 필드 경고 | 에디터 스키마 불인식 |
+| 19 | Cloudflare 빌드 에러 — ERESOLVE / matches | npm 및 pnpm 패키지 매니저 충돌 |
+| 20 | CNAME 레코드 추가 실패 — reference itself | 루트 도메인의 CNAME 설정 금지 규칙 |
+| 21 | Cloudflare Pages 배포 주소에서 CSS 깨짐 | baseURL 운영 도메인 고정 버그 |
+
 
 ---
 
@@ -373,6 +377,60 @@ Unknown field "weekday" — not defined in content type or...
 
 ---
 
+## Issue 19. Cloudflare 빌드 에러 — ERESOLVE / matches
+
+**발생 시점**: Cloudflare Pages 첫 빌드 실행 시  
+**현상**: `npm install` 도중 빌드가 실패하며 아래 에러 출력
+```
+npm error Cannot read properties of null (reading 'matches')
+Failed: Build command exited with code: 1
+```
+
+**원인**: 저장소 내의 `pnpm-lock.yaml`을 인식한 Cloudflare Pages가 패키지를 `pnpm install`로 자동 다운로드한 상태에서, 빌드 명령어에 수동 기입된 `npm install`이 충돌을 일으키며 락파일 분석 오작동을 유발했습니다.
+
+**해결**: Cloudflare Pages의 Build command 설정을 아래와 같이 변경하여 불필요한 패키지 설치 명령을 소거했습니다:
+```bash
+pnpm run project-setup && pnpm run build
+```
+
+**결론/교훈**: `pnpm` 환경이 셋업된 프로젝트에서는 빌드 머신이 자동 셋업하도록 위임하고, 명시적인 `install` 스크립트를 빌드 쉘 커맨드 체인에서 삭제해야 패키지 매니저 충돌을 피할 수 있습니다.
+
+---
+
+## Issue 20. CNAME 레코드 추가 실패 — CNAME content cannot reference itself
+
+**발생 시점**: Cloudflare Pages 커스텀 도메인 추가 시  
+**현상**: DNS 레코드 추가창에서 `NAME: jesusiswith.us` / `VALUE: jiwumission.pages.dev` 설정 시 알 수 없는 오류 발생
+```
+CNAME content cannot reference itself
+```
+
+**원인**: DNS 프로토콜 표준상 루트 도메인(`jesusiswith.us`)이 자기 자신을 대상으로 지정하는 CNAME 레코드는 직접 생성할 수 없게 설계되어 있기 때문입니다.
+
+**해결**:
+1. 표 하단의 기존 GitHub Pages를 바라보던 IP주소인 **A 레코드 4개**만 삭제합니다.
+2. 수동으로 루트 CNAME을 추가하려 하지 않고, 도메인 연결 과정을 마저 완료하면 Cloudflare 시스템이 내부적으로 **CNAME Flattening** 기술을 활성화하여 루트 도메인 바인딩을 자동으로 처리해 줍니다.
+
+**결론/교훈**: Cloudflare DNS를 이용할 때는 루트 도메인과 www 서브도메인의 Pages 연동 과정에서 복잡한 수동 매핑 없이 중복되는 예전 레코드만 정리해 주면 시스템이 자동 셋업합니다.
+
+---
+
+## Issue 21. Cloudflare Pages 배포 주소에서 CSS/JS 레이아웃 깨짐
+
+**발생 시점**: Cloudflare Pages 첫 임시 배포 링크 확인 시  
+**현상**: 사이트 구조 HTML만 로드되고 CSS 스타일이 적용되지 않아 화면 디자인이 모두 깨져서 나옴
+
+**원인**: `hugo.toml`에 사이트 기준 주소인 `baseURL = "https://jesusiswith.us/"`가 하드코딩되어 빌드되었기 때문에, 임시 개발 도메인으로 들어간 브라우저가 타 도메인에 호스팅 중인 스타일시트 파일을 요청하려다 보안 정책 및 경로 비매칭으로 차단(404)이 유발되었습니다.
+
+**해결**: Cloudflare Pages의 환경 변수 `$CF_PAGES_URL`을 Hugo 빌드 플래그로 동적으로 넘기도록 빌드 명령어를 강화했습니다:
+```bash
+pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
+```
+
+**결론/교훈**: 정적 사이트 빌더는 리소스 절대 경로 결정을 위해 `baseURL` 파라미터가 핵심적인 역할을 담당합니다. 멀티 환경(임시 미리보기 / 운영 배포)을 커버하려면 빌드 커맨드 단에서 가변 환경변수를 주입해야 합니다.
+
+---
+
 ## 업데이트 가이드
 
 새로운 문제가 발생하면 아래 형식으로 이 파일에 추가해 주세요.
@@ -386,3 +444,4 @@ Unknown field "weekday" — not defined in content type or...
 **해결**: 어떻게 해결했는지 (코드 포함)  
 **결론/교훈**: 앞으로 어떻게 하면 좋은지
 ```
+

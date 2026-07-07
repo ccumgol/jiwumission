@@ -351,3 +351,26 @@ qt_status: "done" 이면 → 모달 표시
 - Admin 페이지(`/admin/`)를 사용한 후에는 로컬 작업 전 반드시 `git pull --rebase` 실행
 - 이미지 업로드 전 WebP 변환 권장
 - GitHub 저장소 용량은 현재 약 134MB (최대 권장 500MB 이내 유지)
+
+---
+
+## 12. Cloudflare Pages 서비스 배포 관리
+
+이 홈페이지는 기존 GitHub Pages에서 **Cloudflare Pages**로 호스팅 환경이 이전되었습니다.
+
+### 배포 파이프라인 구조
+```
+GitHub 저장소 (Push 감지) 
+    ↓
+Cloudflare Pages 빌드 서버 구동
+    ↓
+pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
+    ↓
+전 세계 310개+ Edge 서버로 캐싱 배포 (수십 초 이내)
+```
+
+### 로컬 작업과 배포의 관계
+- 기존과 동일하게 마크다운 글을 쓰고 `git push`를 실행하면 Cloudflare Pages에서 자동으로 새 커밋을 감지해 재빌드 및 배포를 완료합니다.
+- 매일 아침 06시 KST에 트리거되는 자동 배포 스케줄러(`scheduled-publish.yml`)도 GitHub에 빈 커밋을 push함으로써 Cloudflare 배포 파이프라인을 정상 작동시킵니다.
+- 상세한 배포 구성 및 DNS 연동 트러블슈팅 히스토리는 [docs/cloudflare_build.md](file:///Users/gihyunpark/Desktop/jiwumission/docs/cloudflare_build.md) 파일을 참고하십시오.
+
