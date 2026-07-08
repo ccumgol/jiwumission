@@ -386,7 +386,7 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
    - 변경 사항이 있을 때만 날짜를 포함한 커밋 생성 및 `git push` 실행
    - 무의미한 충돌 방지를 위해 `git pull --rebase` 선행 수행
 2. **Mac 백그라운드 스케줄러**: `~/Library/LaunchAgents/com.jiwumission.autopush.plist`
-   - 매일 새벽 1시 정각(`01:00`)에 `auto_push.sh` 스크립트를 무인 백그라운드 호출
+   - 매일 밤 11시 30분(`23:30`)에 `auto_push.sh` 스크립트를 무인 백그라운드 호출
 
 ### 모니터링 및 문제해결
 - 스크립트의 작동 및 Git 상태 로그: `scripts/auto_push.log`
