@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/class/llm-wiki/LLM-Wiki 세가지 유형.md",
+                "file": "content/class/ssg/사이트 제작기 4부 - 디자인 커스터마이징과 관리자 패널.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM-Wiki 세가지 유형"
+              "title": "사이트 제작기 4부 - 디자인 커스터마이징과 관리자 패널"
             }
           }
         ]
@@ -183,48 +183,44 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "floating": {
-    "id": "f50c8cc7d0c0699d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c0deadae88bfa482",
-        "type": "window",
-        "children": [
-          {
-            "id": "0c52b5577a982f06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b83b54c907e4ba31",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "새 탭"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 76,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "b83b54c907e4ba31",
+  "active": "70989248695ddab9",
   "lastOpenFiles": [
-    "content/class/llm-wiki/LLM-Wiki 세가지 유형.md",
-    "content/2026년 6월 2주차 글로벌 AI 산업 지형도 및 트렌드 분석.md",
+    "content/class/ssg/사이트 제작기 3부 - 매일 밤 도는 자동화 파이프라인.md",
+    "content/class/ssg/사이트 제작기 2부 - 콘텐츠 3구역 대해부.md",
+    "scripts/launchd_stderr.log",
+    "scripts/launchd_stdout.log",
+    "content/class/ssg/사이트 제작기 1부 - 왜 정적 홈페이지로 시작했나.md",
+    "docs/manual.md",
+    "public/class/ssg/site-story-4/index.xml",
+    "public/class/ssg/site-story-4/index.md",
+    "public/class/ssg/site-story-4/index.html",
+    "public/class/ssg/site-story-4",
+    "public/class/ssg/site-story-3/index.xml",
+    "public/class/ssg/site-story-3/index.md",
+    "public/class/ssg/site-story-3/index.html",
+    "public/class/ssg/site-story-3",
+    "public/class/ssg/site-story-2/index.xml",
+    "public/class/ssg/site-story-2/index.md",
+    "public/class/ssg/site-story-2/index.html",
+    "public/class/ssg/site-story-1/index.md",
+    "public/tags/콘텐츠구조/index.md",
+    "public/tags/정적홈페이지/index.md",
+    "public/tags/자동화/index.md",
+    "public/tags/제작기/index.md",
+    "public/tags/launchd/index.md",
+    "public/tags/tailwindcss/index.md",
+    "public/tags/githubactions/index.md",
+    "public/tags/ssg/index.md",
+    "public/tags/hugo/index.md",
+    "public/blog/daily-it-news/claude/index.md",
+    "public/tags/커스터마이징/index.md",
+    "public/class/ssg/사이트-제작기-4부---디자인-커스터마이징과-관리자-패널/index.md",
+    "public/class/ssg/사이트-제작기-3부---매일-밤-도는-자동화-파이프라인/index.md",
+    "public/class/ssg/사이트-제작기-2부---콘텐츠-3구역-대해부/index.md",
+    "public/class/ssg/사이트-제작기-1부---왜-정적-홈페이지로-시작했나/index.md",
+    "public/categories/정적홈페이지/index.md",
+    "content/class/ssg/사이트 제작기 4부 - 디자인 커스터마이징과 관리자 패널.md",
     "content/images/2026년-6월-2주차-글로벌-AI-산업-지형도-및-트렌드-분석.webp",
-    "content/class/ssg/정적 홈페이지 관련 용어사전.md",
-    "content/databank/bible-resources/‘아멘’의 의미.md",
     "public/images/title_banner.webp",
     "images/title_banner.webp",
     "assets/images/title_banner.webp",
@@ -233,38 +229,6 @@
     "content/images/유튜브-채널-완전-정복-가이드.webp",
     "content/images/위키(Wiki)란-무엇인가요-지식이-연결되는-마법의-거미줄.webp",
     "content/images/오퍼레이팅-시스템(운영체제)이-뭐예요.webp",
-    "content/images/내-컴퓨터-속을-알고-싶다.webp",
-    "content/class/computer-basic/그림파일 형식 - JPG, PNG, GIF, SVG, WEBP.md",
-    "content/class/affinity/Affinity Chapter 5-Part 2. 레이아웃 핵심 프레임 설정 & 흐름.md",
-    "content/blog/weekly-ai-trends/2026년 6월 4주차 글로벌 AI 산업 보고서.md",
-    "public/tags/지식-관리/page/1/index.html",
-    "public/tags/지식-관리/page/1",
-    "public/tags/지식-관리/page",
-    "public/tags/지식-관리/index.xml",
-    "public/tags/지식-관리/index.md",
-    "public/tags/지식-관리/index.html",
-    "public/tags/지식-관리",
-    "public/tags/잎새-37호/page/1/index.html",
-    "public/tags/잎새-37호/page/1",
-    "public/tags/잎새-37호/page",
-    "public/tags/잎새-37호/index.xml",
-    "public/tags/잎새-37호/index.md",
-    "public/tags/obsidian/index.md",
-    "public/tags/llm-wiki/index.md",
-    "public/databank/bible-resources/시편의-구분/index.md",
-    "public/databank/bible-resources/아멘의-의미/index.md",
-    "public/class/ssg/정적-홈페이지-관련-용어사전/index.md",
-    "public/class/ssg/정적-홈페이지-hugo용-추천-테마/index.md",
-    "public/class/llm-wiki/llm-wiki-세가지-유형/index.md",
-    "public/class/computer-basic/그림파일-형식---jpg-png-gif-svg-webp/index.md",
-    "public/class/affinity/affinity-chapter-5-part-2.-레이아웃-핵심-프레임-설정--흐름/index.md",
-    "public/blog/weekly-ai-trends/2026년-6월-4주차-글로벌-ai-산업-보고서/index.md",
-    "content/class/ssg/정적 홈페이지 Hugo용 추천 테마.md",
-    "content/databank/bible-resources/시편의 구분.md",
-    "public/class/llm-wiki/무제/index.md",
-    "content/class/llm-wiki/Obsidian-LLM-Wiki 초보자 설치부터 사용까지.md",
-    "public/tags/잎새-36호/index.md",
-    "public/databank/bible-resources/갈라디아서-5장-성령의-열매-해설/index.md",
-    "public/class/ssg/교회-홈페이지-무료-제작-매뉴얼-chapter-5.-github-연결과-첫-배포/index.md"
+    "content/images/내-컴퓨터-속을-알고-싶다.webp"
   ]
 }
