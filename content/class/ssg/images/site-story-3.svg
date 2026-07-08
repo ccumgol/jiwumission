@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="800" height="800" rx="28" fill="#ffffff"/>
+  <rect x="1.5" y="1.5" width="797" height="797" rx="26.5" fill="none" stroke="#eaeaea" stroke-width="3"/>
+
+  <!-- header -->
+  <rect x="60" y="52" width="150" height="34" rx="17" fill="#FDECEA"/>
+  <text x="135" y="75" text-anchor="middle" font-size="17" font-weight="700" fill="#E53935">제작기 · 3부</text>
+  <text x="60" y="126" font-size="37" font-weight="800" fill="#111111">하루 동안의 자동화</text>
+  <text x="60" y="160" font-size="18" fill="#666666">사람이 잠든 사이 네 개의 톱니바퀴가 돌아갑니다</text>
+
+  <!-- spine -->
+  <line x1="230" y1="240" x2="230" y2="690" stroke="#E53935" stroke-width="4"/>
+
+  <!-- Event 1 -->
+  <circle cx="230" cy="255" r="13" fill="#E53935" stroke="#ffffff" stroke-width="3"/>
+  <rect x="60" y="230" width="140" height="50" rx="12" fill="#111111"/>
+  <text x="130" y="253" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">밤 11시경</text>
+  <text x="130" y="271" text-anchor="middle" font-size="12" fill="#cccccc">AI 생성</text>
+  <rect x="270" y="222" width="470" height="66" rx="14" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="292" y="252" font-size="19" font-weight="700" fill="#111111">① AI가 오늘의 IT뉴스를 쓴다</text>
+  <text x="292" y="275" font-size="14" fill="#666666">정해진 archetype 틀에 맞춰 .md 파일 한 장 생성</text>
+
+  <!-- Event 2 -->
+  <circle cx="230" cy="400" r="13" fill="#E53935" stroke="#ffffff" stroke-width="3"/>
+  <rect x="60" y="375" width="140" height="50" rx="12" fill="#111111"/>
+  <text x="130" y="398" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">밤 11:30</text>
+  <text x="130" y="416" text-anchor="middle" font-size="12" fill="#cccccc">자동 push</text>
+  <rect x="270" y="367" width="470" height="66" rx="14" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="292" y="397" font-size="19" font-weight="700" fill="#111111">② launchd → auto_push.sh</text>
+  <text x="292" y="420" font-size="14" fill="#666666">변경이 있을 때만 커밋·push → Cloudflare 재빌드</text>
+
+  <!-- Event 3 -->
+  <circle cx="230" cy="545" r="13" fill="#E53935" stroke="#ffffff" stroke-width="3"/>
+  <rect x="60" y="520" width="140" height="50" rx="12" fill="#111111"/>
+  <text x="130" y="543" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">아침 06:00</text>
+  <text x="130" y="561" text-anchor="middle" font-size="12" fill="#cccccc">예약 공개</text>
+  <rect x="270" y="512" width="470" height="66" rx="14" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="292" y="542" font-size="19" font-weight="700" fill="#111111">③ GitHub Actions 빈 커밋</text>
+  <text x="292" y="565" font-size="14" fill="#666666">재빌드를 유발해 예약된 미래 날짜 글을 공개</text>
+
+  <!-- Event 4 -->
+  <circle cx="230" cy="675" r="13" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <rect x="60" y="650" width="140" height="50" rx="12" fill="#E53935"/>
+  <text x="130" y="673" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">방문 순간</text>
+  <text x="130" y="691" text-anchor="middle" font-size="12" fill="#ffe3e2">QT 팝업</text>
+  <rect x="270" y="642" width="470" height="66" rx="14" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="292" y="672" font-size="19" font-weight="700" fill="#111111">④ 오늘의 QT 모달</text>
+  <text x="292" y="695" font-size="14" fill="#666666">오늘 날짜 QT(JSON)를 fetch → 팝업으로 표시</text>
+
+  <!-- footer note -->
+  <text x="400" y="748" text-anchor="middle" font-size="15" fill="#999999">관리자가 아무 버튼도 누르지 않는 날에도 사이트는 스스로 갱신됩니다</text>
+</svg>

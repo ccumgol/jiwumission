@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="800" height="800" rx="28" fill="#ffffff"/>
+  <rect x="1.5" y="1.5" width="797" height="797" rx="26.5" fill="none" stroke="#eaeaea" stroke-width="3"/>
+
+  <!-- header -->
+  <rect x="60" y="46" width="150" height="34" rx="17" fill="#FDECEA"/>
+  <text x="135" y="69" text-anchor="middle" font-size="17" font-weight="700" fill="#E53935">제작기 · 4부</text>
+  <text x="60" y="120" font-size="36" font-weight="800" fill="#111111">테마 길들이기 &amp; 관리자</text>
+  <text x="60" y="152" font-size="18" fill="#666666">가져온 테마를 우리 사이트로 수선하고, 코딩 없이 운영하기</text>
+
+  <!-- Section 1 label -->
+  <text x="60" y="200" font-size="20" font-weight="800" fill="#E53935">① 테마 커스터마이징</text>
+
+  <!-- base -> ours -->
+  <rect x="60" y="220" width="290" height="70" rx="14" fill="#f7f7f7" stroke="#eaeaea" stroke-width="2"/>
+  <text x="205" y="252" text-anchor="middle" font-size="18" font-weight="700" fill="#666666">기본 Hugoplate 테마</text>
+  <text x="205" y="274" text-anchor="middle" font-size="13" fill="#999999">오픈소스 그대로</text>
+
+  <path d="M362 255 L438 255" stroke="#E53935" stroke-width="4" fill="none"/>
+  <path d="M430 247 L446 255 L430 263 Z" fill="#E53935"/>
+
+  <rect x="450" y="220" width="290" height="70" rx="14" fill="#E53935"/>
+  <text x="595" y="252" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">우리 사이트</text>
+  <text x="595" y="274" text-anchor="middle" font-size="13" fill="#ffe3e2">jesusiswith.us</text>
+
+  <!-- 4 customization chips (2x2) -->
+  <rect x="60" y="310" width="335" height="66" rx="12" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="82" y="338" font-size="16" font-weight="700" fill="#111111">반응형 카드 개수</text>
+  <text x="82" y="360" font-size="13" fill="#666666">CSS로 6 / 8 / 9개 자동 조절</text>
+
+  <rect x="405" y="310" width="335" height="66" rx="12" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="427" y="338" font-size="16" font-weight="700" fill="#111111">다크모드 로고 반전</text>
+  <text x="427" y="360" font-size="13" fill="#666666">filter: invert() 로 시인성 확보</text>
+
+  <rect x="60" y="386" width="335" height="66" rx="12" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="82" y="414" font-size="16" font-weight="700" fill="#111111">정렬 기준 설정화</text>
+  <text x="82" y="436" font-size="13" fill="#666666">params.toml 한 줄로 날짜/제목순</text>
+
+  <rect x="405" y="386" width="335" height="66" rx="12" fill="#ffffff" stroke="#eaeaea" stroke-width="2"/>
+  <text x="427" y="414" font-size="16" font-weight="700" fill="#111111">요약문 200자 카드</text>
+  <text x="427" y="436" font-size="13" fill="#666666">plainify · truncate 로 깔끔하게</text>
+
+  <!-- divider -->
+  <line x1="60" y1="486" x2="740" y2="486" stroke="#eaeaea" stroke-width="2"/>
+
+  <!-- Section 2 label -->
+  <text x="60" y="524" font-size="20" font-weight="800" fill="#E53935">② Git 기반 관리자 패널</text>
+
+  <!-- 4-step flow -->
+  <g>
+    <rect x="60" y="548" width="150" height="78" rx="12" fill="#111111"/>
+    <text x="135" y="583" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">브라우저</text>
+    <text x="135" y="604" text-anchor="middle" font-size="13" fill="#cccccc">/admin/ 에서 수정</text>
+
+    <rect x="233" y="548" width="150" height="78" rx="12" fill="#ffffff" stroke="#E53935" stroke-width="2"/>
+    <text x="308" y="583" text-anchor="middle" font-size="15" font-weight="700" fill="#111111">GitHub API</text>
+    <text x="308" y="604" text-anchor="middle" font-size="13" fill="#666666">설정을 직접 커밋</text>
+
+    <rect x="406" y="548" width="150" height="78" rx="12" fill="#ffffff" stroke="#E53935" stroke-width="2"/>
+    <text x="481" y="583" text-anchor="middle" font-size="15" font-weight="700" fill="#111111">Cloudflare</text>
+    <text x="481" y="604" text-anchor="middle" font-size="13" fill="#666666">자동 재빌드</text>
+
+    <rect x="579" y="548" width="150" height="78" rx="12" fill="#E53935"/>
+    <text x="654" y="583" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">사이트 반영</text>
+    <text x="654" y="604" text-anchor="middle" font-size="13" fill="#ffe3e2">잠시 뒤 완료</text>
+
+    <!-- arrows -->
+    <path d="M212 587 L231 587 M225 581 L233 587 L225 593 Z" stroke="#cccccc" stroke-width="2.5" fill="#cccccc"/>
+    <path d="M385 587 L404 587 M398 581 L406 587 L398 593 Z" stroke="#cccccc" stroke-width="2.5" fill="#cccccc"/>
+    <path d="M558 587 L577 587 M571 581 L579 587 L571 593 Z" stroke="#cccccc" stroke-width="2.5" fill="#cccccc"/>
+  </g>
+
+  <!-- security note -->
+  <rect x="60" y="650" width="680" height="52" rx="14" fill="#f7f7f7"/>
+  <text x="400" y="682" text-anchor="middle" font-size="15" fill="#333333">🔒 서버 없이 동작 — 접근 토큰은 관리자 브라우저의 localStorage에만 저장</text>
+
+  <!-- tagline -->
+  <text x="400" y="748" text-anchor="middle" font-size="15" fill="#999999">코딩을 몰라도, 월 0원에 가깝게, 직접 운영하는 홈페이지</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="800" height="800" rx="28" fill="#ffffff"/>
+  <rect x="1.5" y="1.5" width="797" height="797" rx="26.5" fill="none" stroke="#eaeaea" stroke-width="3"/>
+
+  <!-- header -->
+  <rect x="60" y="52" width="150" height="34" rx="17" fill="#FDECEA"/>
+  <text x="135" y="75" text-anchor="middle" font-size="17" font-weight="700" fill="#E53935">제작기 · 1부</text>
+  <text x="60" y="126" font-size="37" font-weight="800" fill="#111111">정적 홈페이지의 흐름</text>
+  <text x="60" y="160" font-size="18" fill="#666666">글 한 편이 방문자에게 닿기까지 거치는 여섯 단계</text>
+
+  <!-- spine -->
+  <line x1="122" y1="200" x2="122" y2="625" stroke="#E53935" stroke-width="4"/>
+
+  <!-- stops -->
+  <!-- 1 -->
+  <circle cx="122" cy="200" r="23" fill="#E53935"/>
+  <text x="122" y="208" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">1</text>
+  <text x="170" y="194" font-size="23" font-weight="700" fill="#111111">Markdown</text>
+  <text x="170" y="221" font-size="16" fill="#666666">글을 쓰는 형식 — 기호를 쓰는 메모장</text>
+
+  <!-- 2 -->
+  <circle cx="122" cy="285" r="23" fill="#E53935"/>
+  <text x="122" y="293" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">2</text>
+  <text x="170" y="279" font-size="23" font-weight="700" fill="#111111">Hugo</text>
+  <text x="170" y="306" font-size="16" fill="#666666">마크다운을 HTML로 변환(빌드)하는 엔진</text>
+
+  <!-- 3 -->
+  <circle cx="122" cy="370" r="23" fill="#E53935"/>
+  <text x="122" y="378" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">3</text>
+  <text x="170" y="364" font-size="23" font-weight="700" fill="#111111">Hugoplate 테마</text>
+  <text x="170" y="391" font-size="16" fill="#666666">Tailwind CSS 기반 디자인 양식</text>
+
+  <!-- 4 -->
+  <circle cx="122" cy="455" r="23" fill="#E53935"/>
+  <text x="122" y="463" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">4</text>
+  <text x="170" y="449" font-size="23" font-weight="700" fill="#111111">GitHub</text>
+  <text x="170" y="476" font-size="16" fill="#666666">코드·콘텐츠 저장 + 모든 수정 이력 보관</text>
+
+  <!-- 5 -->
+  <circle cx="122" cy="540" r="23" fill="#E53935"/>
+  <text x="122" y="548" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">5</text>
+  <text x="170" y="534" font-size="23" font-weight="700" fill="#111111">Cloudflare Pages</text>
+  <text x="170" y="561" font-size="16" fill="#666666">Push 감지 → 자동 빌드 → 전 세계 배포</text>
+
+  <!-- 6 -->
+  <circle cx="122" cy="625" r="23" fill="#111111"/>
+  <text x="122" y="633" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">6</text>
+  <text x="170" y="619" font-size="23" font-weight="700" fill="#111111">jesusiswith.us</text>
+  <text x="170" y="646" font-size="16" fill="#666666">완성된 HTML을 방문자에게 그대로 전달</text>
+
+  <!-- tagline -->
+  <rect x="60" y="690" width="680" height="70" rx="16" fill="#f7f7f7"/>
+  <text x="400" y="726" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">정적(Static) = 서버·DB 없이</text>
+  <text x="400" y="750" text-anchor="middle" font-size="16" fill="#E53935">‘미리 만들어 둔 HTML’을 그대로 전달 → 빠르고 안전하고 저렴</text>
+</svg>
