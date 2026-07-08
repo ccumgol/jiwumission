@@ -374,3 +374,29 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
 - 매일 아침 06시 KST에 트리거되는 자동 배포 스케줄러(`scheduled-publish.yml`)도 GitHub에 빈 커밋을 push함으로써 Cloudflare 배포 파이프라인을 정상 작동시킵니다.
 - 상세한 배포 구성 및 DNS 연동 트러블슈팅 히스토리는 [docs/cloudflare_build.md](file:///Users/gihyunpark/Desktop/jiwumission/docs/cloudflare_build.md) 파일을 참고하십시오.
 
+---
+
+## 13. 로컬 자동 퍼블리시 및 Git Push 스케줄러 구성
+
+매일 로컬에서 AI 등으로 자동 생성되는 콘텐츠(IT 뉴스, 오늘의 QT 등)를 매일 특정 시각에 감지하여 자동으로 GitHub에 업로드(push)하고 배포하는 시스템입니다.
+
+### 구성 요소
+1. **자동 푸시 스크립트**: [scripts/auto_push.sh](file:///Users/gihyunpark/Desktop/jiwumission/scripts/auto_push.sh)
+   - 로컬의 변경사항(신규 마크다운 파일 등) 유무를 검사
+   - 변경 사항이 있을 때만 날짜를 포함한 커밋 생성 및 `git push` 실행
+   - 무의미한 충돌 방지를 위해 `git pull --rebase` 선행 수행
+2. **Mac 백그라운드 스케줄러**: `~/Library/LaunchAgents/com.jiwumission.autopush.plist`
+   - 매일 새벽 1시 정각(`01:00`)에 `auto_push.sh` 스크립트를 무인 백그라운드 호출
+
+### 모니터링 및 문제해결
+- 스크립트의 작동 및 Git 상태 로그: `scripts/auto_push.log`
+- macOS launchd 자체 에러 로그: `scripts/launchd_stderr.log`
+- 스케줄러 서비스 수동 재기동:
+  ```bash
+  # 서비스 언로드 (해제)
+  launchctl unload ~/Library/LaunchAgents/com.jiwumission.autopush.plist
+  # 서비스 로드 (등록)
+  launchctl load ~/Library/LaunchAgents/com.jiwumission.autopush.plist
+  ```
+
+
