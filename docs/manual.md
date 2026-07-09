@@ -381,22 +381,25 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
 매일 로컬에서 AI 등으로 자동 생성되는 콘텐츠(IT 뉴스, 오늘의 QT 등)를 매일 특정 시각에 감지하여 자동으로 GitHub에 업로드(push)하고 배포하는 시스템입니다.
 
 ### 구성 요소
-1. **자동 푸시 스크립트**: [scripts/auto_push.sh](file:///Users/gihyunpark/Desktop/jiwumission/scripts/auto_push.sh)
+1. **자동 푸시 스크립트**: `~/.scripts/auto_push.sh` (실제 구동본) / 프로젝트 소스: [scripts/auto_push.sh](file:///Users/gihyunpark/Desktop/jiwumission/scripts/auto_push.sh)
    - 로컬의 변경사항(신규 마크다운 파일 등) 유무를 검사
    - 변경 사항이 있을 때만 날짜를 포함한 커밋 생성 및 `git push` 실행
    - 무의미한 충돌 방지를 위해 `git pull --rebase` 선행 수행
+   - macOS TCC 보안 정책(바탕화면 직접 접근 차단)을 우회하기 위해 사용자 홈 디렉토리 아래의 별도 숨김 폴더에 복사되어 실행됩니다.
 2. **Mac 백그라운드 스케줄러**: `~/Library/LaunchAgents/com.jiwumission.autopush.plist`
-   - 매일 밤 11시 30분(`23:30`)에 `auto_push.sh` 스크립트를 무인 백그라운드 호출
+   - 매일 밤 11시 30분(`23:30`)에 `auto_push.sh` 스크립트를 무인 백그라운드 호출 (바탕화면 chdir 에러를 피하기 위해 WorkingDirectory 속성이 제거되었습니다.)
 
 ### 모니터링 및 문제해결
-- 스크립트의 작동 및 Git 상태 로그: `scripts/auto_push.log`
-- macOS launchd 자체 에러 로그: `scripts/launchd_stderr.log`
-- 스케줄러 서비스 수동 재기동:
+- 스크립트의 작동 및 Git 상태 로그: `~/.scripts/auto_push.log`
+- macOS launchd 자체 에러 로그: `~/.scripts/launchd_stderr.log`
+- 스케줄러 서비스 수동 재기동 및 즉시 트리거:
   ```bash
-  # 서비스 언로드 (해제)
+  # 서비스 등록 해제
   launchctl unload ~/Library/LaunchAgents/com.jiwumission.autopush.plist
-  # 서비스 로드 (등록)
+  # 서비스 신규 등록
   launchctl load ~/Library/LaunchAgents/com.jiwumission.autopush.plist
+  # 수동 강제 1회 즉시 실행 테스트
+  launchctl start com.jiwumission.autopush
   ```
 
 

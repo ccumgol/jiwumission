@@ -31,6 +31,8 @@
 | 19 | Cloudflare 빌드 에러 — ERESOLVE / matches | npm 및 pnpm 패키지 매니저 충돌 |
 | 20 | CNAME 레코드 추가 실패 — reference itself | 루트 도메인의 CNAME 설정 금지 규칙 |
 | 21 | Cloudflare Pages 배포 주소에서 CSS 깨짐 | baseURL 운영 도메인 고정 버그 |
+| 22 | launchd 백그라운드 스케줄러 작동 실패 | macOS TCC 보안 정책 (바탕화면 접근 차단) |
+
 
 
 ---
@@ -431,6 +433,29 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
 
 ---
 
+## Issue 22. launchd 백그라운드 스케줄러 작동 실패 (macOS 보안 접근 차단)
+
+**발생 시점**: launchd 스케줄러 등록 및 구동 예약 시점  
+**현상**: 지정된 시간이 지나도 자동 푸시가 작동하지 않고, `launchd_stderr.log`에 아래와 같은 에러가 발생함
+```
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/gihyunpark/Desktop/jiwumission/scripts/auto_push.sh: Operation not permitted
+```
+또는 `WorkingDirectory`가 설정되어 있을 때 아래 chdir 에러 유발:
+```
+chdir: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+```
+
+**원인**: macOS의 개인정보 보호 및 보안 정책(TCC)에 의해 시스템 데몬인 `launchd`가 사용자의 데스크톱(`Desktop/`) 폴더 내 리소스를 직접 건드리거나 작업 디렉토리(`WorkingDirectory`)를 변경하려 시도할 때 차단이 발생합니다.
+
+**해결**:
+1. 실행 쉘 스크립트(`auto_push.sh`) 본체와 작동 로그들을 보안 권한 차단 검열에서 제외되는 안전한 사용자 홈 디렉토리 내부 폴더인 **`~/.scripts/`** 폴더를 만들어 복사 이전했습니다.
+2. `com.jiwumission.autopush.plist` 파일에서 데스크톱 폴더 접근을 원천 봉쇄하게 만드는 **`WorkingDirectory` 설정을 제거**하여 launchd가 해당 영역을 건드리지 않도록 수정했습니다. 대신 프로젝트 이동은 `auto_push.sh` 쉘 코드 최상단에서 직접 `cd`로 이동하게끔 위임 처리했습니다.
+
+**결론/교훈**: macOS 환경에서 무인 백그라운드 스케줄러(`launchd`)를 운용할 때는, 스크립트 실행본이나 파일 출력을 `Desktop/`, `Documents/`, `Downloads/` 등의 보안 감시 구역 바깥인 `~/.scripts/`나 `/tmp/` 등의 일반 홈 디렉토리로 격리 분리해야만 TCC 차단 없는 안정적인 무인 가동을 달성할 수 있습니다.
+
+---
+
 ## 업데이트 가이드
 
 새로운 문제가 발생하면 아래 형식으로 이 파일에 추가해 주세요.
@@ -444,4 +469,5 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
 **해결**: 어떻게 해결했는지 (코드 포함)  
 **결론/교훈**: 앞으로 어떻게 하면 좋은지
 ```
+
 
