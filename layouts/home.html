@@ -6,21 +6,33 @@
     <div class="row items-center justify-between">
       <div class="lg:col-6 mb-8 lg:mb-0 text-center lg:text-left">
         <h1 class="mb-4 text-h3 lg:text-h1">
-          {{ .title | markdownify }}
+          <span class="lang-ko">{{ .title | markdownify }}</span>
+          {{ if .title_en }}
+          <span class="lang-en">{{ .title_en | markdownify }}</span>
+          {{ end }}
         </h1>
         {{ with .subtitle }}
         <p class="h4 mb-6 text-primary font-semibold tracking-wider uppercase">
-          {{ . | markdownify }}
+          <span class="lang-ko">{{ . | markdownify }}</span>
+          {{ if $.Params.banner.subtitle_en }}
+          <span class="lang-en">{{ $.Params.banner.subtitle_en | markdownify }}</span>
+          {{ end }}
         </p>
         {{ end }}
         <p class="mb-8 text-lg">
-          {{ .content | safeHTML }}
+          <span class="lang-ko">{{ .content | safeHTML }}</span>
+          {{ if .content_en }}
+          <span class="lang-en">{{ .content_en | safeHTML }}</span>
+          {{ end }}
         </p>
         {{ with .button }}
         {{ if .enable }}
         <a class="btn btn-primary" href="{{ .link | absURL }}" {{ if strings.HasPrefix .link `http` }} target="_blank"
           rel="noopener" {{ end }}>
-          {{ .label }}
+          <span class="lang-ko">{{ .label }}</span>
+          {{ if $.Params.banner.button.label_en }}
+          <span class="lang-en">{{ $.Params.banner.button.label_en }}</span>
+          {{ end }}
         </a>
         {{ end }}
         {{ end }}
@@ -44,7 +56,10 @@
       <div class="lg:col-8 md:col-10">
         <div
           class="content text-lg font-semibold text-text-dark dark:text-white leading-relaxed">
-          {{ . | safeHTML }}
+          <div class="lang-ko">{{ . | safeHTML }}</div>
+          {{ if $.Params.intro_en }}
+          <div class="lang-en">{{ $.Params.intro_en | safeHTML }}</div>
+          {{ end }}
         </div>
       </div>
     </div>
@@ -67,12 +82,20 @@
             </div>
             {{ end }}
             <h4 class="text-xl md:text-2xl font-secondary font-bold text-center text-text-dark dark:text-white mb-4">
-              {{ .title | markdownify }}
+              <span class="lang-ko">{{ .title | markdownify }}</span>
+              {{ if .title_en }}
+              <span class="lang-en">{{ .title_en | markdownify }}</span>
+              {{ end }}
             </h4>
-            <p class="mb-6 text-text-light dark:text-darkmode-text-light text-base leading-relaxed">
-              {{ .content | markdownify }}
-            </p>
-            <ul class="text-left mb-6">
+            <div class="mb-6 text-text-light dark:text-darkmode-text-light text-base leading-relaxed">
+              <p class="lang-ko">{{ .content | markdownify }}</p>
+              {{ if .content_en }}
+              <p class="lang-en">{{ .content_en | markdownify }}</p>
+              {{ end }}
+            </div>
+            
+            <!-- 한글 리스트 -->
+            <ul class="text-left mb-6 lang-ko">
               {{ range .bulletpoints }}
               <li class="relative mb-2 pl-6 text-sm text-text-dark dark:text-darkmode-text-light">
                 <i class="fa fa-check absolute left-0 top-1 text-primary text-xs"></i>
@@ -80,6 +103,18 @@
               </li>
               {{ end }}
             </ul>
+            
+            <!-- 영어 리스트 -->
+            {{ if .bulletpoints_en }}
+            <ul class="text-left mb-6 lang-en">
+              {{ range .bulletpoints_en }}
+              <li class="relative mb-2 pl-6 text-sm text-text-dark dark:text-darkmode-text-light">
+                <i class="fa fa-check absolute left-0 top-1 text-primary text-xs"></i>
+                {{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+            {{ end }}
           </div>
         </div>
       </div>

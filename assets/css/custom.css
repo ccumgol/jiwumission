@@ -53,3 +53,11 @@ blockquote {
   border-left-width: 4px !important;
 }
 
+/* Client-side Language Switching Toggle Styles */
+html[data-lang="ko"] .lang-en {
+  display: none !important;
+}
+
+html[data-lang="en"] .lang-ko {
+  display: none !important;
+}
