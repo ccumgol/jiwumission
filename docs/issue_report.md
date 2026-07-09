@@ -32,6 +32,8 @@
 | 20 | CNAME 레코드 추가 실패 — reference itself | 루트 도메인의 CNAME 설정 금지 규칙 |
 | 21 | Cloudflare Pages 배포 주소에서 CSS 깨짐 | baseURL 운영 도메인 고정 버그 |
 | 22 | launchd 백그라운드 스케줄러 작동 실패 | macOS TCC 보안 정책 (바탕화면 접근 차단) |
+| 23 | GitHub Secret Scanning 경고 노출 | 노션 임시 S3 만료 자격 증명 및 과거 구글 API 키 잔존 이력 |
+
 
 
 
@@ -456,6 +458,27 @@ chdir: error retrieving current directory: getcwd: cannot access parent director
 
 ---
 
+## Issue 23. GitHub Secret Scanning 경고 노출 (Notion S3 임시 만료 자격 증명 및 과거 구글 API 키 히스토리)
+
+**발생 시점**: 리포지토리 보안 점검 및 깃허브 알림 확인 시  
+**현상**: GitHub의 Security 탭 내 `Secret scanning alerts` 메뉴에 아래와 같은 퍼블릭 유출(Public leak) 경고들이 다수 발생함
+- `Amazon AWS Temporary Access Key ID (ASIA...)` (content/ 하위 마크다운 다수 파일)
+- `Google API Key (AIzaSy...)` (config/_default/params.toml)
+
+**원인**:
+1. **임시 AWS Key**: 노션(Notion) 문서를 마크다운으로 추출(Export)할 때, PDF 등 업로드된 리소스를 불러오기 위해 노션 서버가 일시적으로 발급해 준 **1시간짜리 AWS S3 임시 보안 읽기 서명 토큰 주소**가 마크다운 본문에 그대로 포함되어 GitHub에 커밋되었습니다. 
+2. **Google API Key**: params.toml 소스 코드 내부에서는 해당 키를 제거했으나, Git의 **과거 커밋 히스토리 기록** 상에 여전히 흔적이 영구적으로 남아있기 때문에 깃허브가 감지하여 경고를 유지하는 것입니다.
+
+**해결**:
+1. **임시 AWS Key**: 1시간이 지나면 자동으로 만료되어 영구 무효화되는 무해한 일회성 세션 키입니다. 보안 위협이 0%이므로 실제 조치가 불필요하지만, 깃허브의 알림 목록을 청소하기 위해 **GitHub 저장소 ➡️ Security ➡️ Secret scanning** 페이지로 들어가서 각 얼럿을 클릭한 뒤 우측 상단 **[Close alert]**을 클릭하고 **`False positive`** (오탐) 또는 **`Revoked`** (만료됨)를 선택해 닫아주었습니다.
+2. **Google API Key**: 로컬 실물 파일에는 이미 제거되었으므로, **Google Cloud Console**에 접근하여 노출되었던 해당 Maps API Key를 **삭제/폐기(Delete/Revoke)** 조치하여 실질적 리스크를 영구 소멸시켰습니다. 깃허브 알림 또한 수동으로 **`Revoked`** 처리하여 닫아주었습니다.
+
+**결론/교훈**: 
+- 노션 문서 내보내기를 할 때 불필요한 첨부 파일 다운로드 경로(`[file](https://prod-files-secure.s3...)`)가 들어갔는지 push 전에 확인하여 제거하는 것이 좋습니다.
+- API Key나 비밀번호 등의 민감한 정보는 소스 코드에 하드코딩하지 않고 환경 변수로 운용해야 합니다. 만약 실수로 커밋되었다면 소스에서 키를 지우는 것에 그치지 않고 **해당 키 자체를 해당 서비스 콘솔에서 즉시 폐기/재발급**해야 안전합니다.
+
+---
+
 ## 업데이트 가이드
 
 새로운 문제가 발생하면 아래 형식으로 이 파일에 추가해 주세요.
@@ -469,5 +492,6 @@ chdir: error retrieving current directory: getcwd: cannot access parent director
 **해결**: 어떻게 해결했는지 (코드 포함)  
 **결론/교훈**: 앞으로 어떻게 하면 좋은지
 ```
+
 
 

@@ -402,4 +402,23 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
   launchctl start com.jiwumission.autopush
   ```
 
+---
+
+## 14. 보안 및 민감한 정보 노출 방지 안전 수칙
+
+안전한 웹사이트 운영과 불필요한 GitHub 보안 경고(Secret scanning alerts)를 사전에 차단하기 위해 글을 쓰고 배포할 때 아래 규칙들을 준수하십시오.
+
+### 1) 노션(Notion) 마크다운 추출물 업로드 시 파일 링크 제거
+- **주의사항**: 노션 페이지에 파일(PDF, 동영상 등)이 포함된 상태로 마크다운으로 내보내면, 파일 링크 주소에 **`ASIA...`로 시작하는 AWS S3 읽기 토큰** 파라미터가 자동으로 동봉되어 추출됩니다.
+- **영향**: 이 토큰은 **1시간만 유효한 임시 키**이므로 유출되어도 무해하지만, GitHub에 업로드되면 **Secret Scanning** 시스템이 해킹용 Access Key 유출인 것으로 오진하여 지속적인 보안 경고 메일을 발송합니다.
+- **방지책**: 노션에서 변환한 마크다운을 업로드하기 전에, 파일 상단이나 본문에 포함되어 있는 `[file](https://prod-files-secure.s3.us-west-2.amazonaws.com/...)` 형태의 임시 다운로드 주소를 **반드시 완전히 지우고** Git에 push하십시오.
+
+### 2) API Key 및 비밀값은 소스 코드 하드코딩 금지
+- 구글 지도 API, 메일서비스 토큰 등 외부 시스템 연계 시 필요한 비밀값은 `params.toml`이나 마크다운 본문에 하드코딩하지 않습니다.
+- **실수로 커밋된 경우 대처**:
+  1. 즉시 로컬 소스 코드에서 해당 키 값을 지운 뒤 새로 커밋하여 push합니다.
+  2. **가장 중요**: 이미 Git 과거 히스토리상에 흔적이 영구 보존된 상태이므로, **해당 API를 제공하는 공급업체 콘솔(예: Google Cloud Console)에 즉시 로그인하셔서 해당 키를 폐기(Delete/Revoke)하거나 재생성**해야만 요금 도용 등의 실제 리스크를 소멸시킬 수 있습니다.
+  3. GitHub Web에 남아있는 경고 알림은 **Security > Secret scanning** 탭에서 **[Close alert]**를 누른 뒤 `False positive` 또는 `Revoked`를 선택해 비활성화 처리하십시오.
+
+
 
