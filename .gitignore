@@ -1,5 +1,8 @@
+# OS generated files
 Thumbs.db
 .DS_Store
+
+# Temporary / Build directories
 .dist
 .tmp
 .lock
@@ -7,9 +10,34 @@ Thumbs.db
 npm-debug.log
 node_modules
 builds
-package-lock.json
 public
 resources
+
+# Lock files and JS configs
+package-lock.json
 jsconfig.json
 go.sum
 yarn.lock
+
+# Hugo specific temporary stats
+hugo_stats.json
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# AI Tools and CMS configs
+.claude/
+.agent/
+.agents/
+.sitepins/
+
+# Obsidian local configurations (if private settings shouldn't sync)
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/workspace-mobile.json

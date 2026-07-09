@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 설정 변수
-PROJECT_DIR="/Users/gihyunpark/Desktop/jiwumission"
+PROJECT_DIR="/Users/$USER/Desktop/jiwumission"
 GIT_BIN="/opt/homebrew/bin/git"
 LOG_FILE="$PROJECT_DIR/scripts/auto_push.log"
 
