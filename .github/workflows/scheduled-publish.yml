@@ -1,5 +1,5 @@
-# 매일 06:00 KST (전날 21:00 UTC)에 사이트를 재빌드해
-# 미래 날짜로 예약된 포스트(IT뉴스, 오늘의 QT)를 자동 공개합니다.
+# 매일 06:00 KST (전날 21:00 UTC)에 Cloudflare Pages Deploy Hook을 호출하여
+# 미래 날짜로 예약된 포스트(오늘의 QT, IT뉴스)를 자동으로 무인 재빌드 및 배포합니다.
 name: Scheduled Daily Publish
 
 on:
@@ -9,25 +9,19 @@ on:
   # 수동으로도 실행 가능
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  trigger-rebuild:
+  trigger-cloudflare-build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4.2.2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Configure Git
+      - name: Trigger Cloudflare Pages Rebuild
+        env:
+          DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Create scheduled rebuild commit
-        run: |
-          DATE=$(TZ="Asia/Seoul" date "+%Y-%m-%d %H:%M KST")
-          git commit --allow-empty -m "chore: scheduled daily publish [$DATE]"
-          git push origin main
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "오류: CLOUDFLARE_PAGES_DEPLOY_HOOK 비밀값이 지정되지 않았습니다."
+            echo "GitHub 저장소 Settings > Secrets > Actions에 등록해 주세요."
+            exit 1
+          fi
+          echo "Cloudflare Pages 빌드 훅 호출 중..."
+          curl -X POST "$DEPLOY_HOOK"
+          echo "성공적으로 빌드 트리거 요청을 전송했습니다."

@@ -1,282 +1,75 @@
-<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
+# JIWU Mission 홈페이지 (jesusiswith.us)
 
-<p align="center">Hugoplate is a free starter template built with Hugo and Tailwind CSS v4.0, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
-
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
-
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a> |   <a target="_blank" href="https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate">
-    <img src="https://sitepins.com/button.svg" alt="One Click Deploy With Sitepins">
-  </a>
-</h2>
-
-<p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.158.0" alt="Contributors">
-    <img alt="hugo version" src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.158.0&color=f00&logo=hugo" />
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate">
-    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
-  </a>
-</p>
-
-## Table of Contents
-
-- [What's Included](#-whats-included)
-  - [Key Features](#-key-features)
-  - [15+ Pre-designed Pages](#-15-pre-designed-pages)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#-prerequisites)
-  - [Project Setup](#-project-setup)
-  - [Install Dependencies](#-install-dependencies)
-  - [Development Command](#-development-command)
-- [Customization](#-customization)
-  - [Site Config](#-site-config)
-  - [Site Params](#-site-params)
-  - [Colors and Fonts](#-colors-and-fonts)
-  - [Social Links](#-social-links)
-- [Advanced Usage](#-advanced-usage)
-- [Build And Deploy](#-build-and-deploy)
-- [Guide to Staying Compliant](#-guide-to-staying-compliant)
-- [Showcase](#-showcase)
-- [Need Customization?](#-need-customization)
-
-## 🎁 What's Included
-
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
-
-### 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Open-Remark Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
-### 📦 Tech Stack
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS v4.0](https://tailwindcss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/) by [Gethugothemes](https://gethugothemes.com/hugo-modules)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
+뉴저지 포트리(Fort Lee)에 위치한 해외한인장로회(KPCA) 소속 **아이하나 교회(IHANA CHURCH)**의 사역 정보 및 일일 말씀(QT), AI IT뉴스 서비스를 구축하고 호스팅하는 정적 웹사이트 저장소입니다.
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ 기술 아키텍처 조망
 
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
-
-### ⚙ Prerequisites
-
-To start using this template, you need to have some prerequisites installed on your machine.
-
-- [Hugo Extended v0.144+](https://gohugo.io/installation/)
-- [Node v22+](https://nodejs.org/en/download/)
-- [Go v1.24+](https://go.dev/doc/install)
-
-### 👉 Project Setup
-
-We built this custom script to make your project setup easier. It will create a new Hugo theme folder and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
-
-```bash
-npm run project-setup
+```
+[로컬 글 작성 (Notion / Markdown)]
+      ↓ (수동 또는 launchd 스케줄러가 감지)
+[GitHub 저장소 (ccumgol/jiwumission)]
+      ↓ (커밋 push 또는 Daily Deploy Hook 스케줄)
+[Cloudflare Pages 빌드 컨테이너]
+      ↓ (pnpm 빌드 파이프라인 수행)
+[jesusiswith.us 배포 서비스]
 ```
 
-### 👉 Install Dependencies
-
-Install all the dependencies using the following command.
-
-```bash
-npm install
-```
-
-### 👉 Development Command
-
-Start the development server using the following command.
-
-```bash
-npm run dev
-```
-
-### 🎬 Still Confused? Watch a Quick Video
-
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
+- **SSG (정적 사이트 빌더)**: Hugo Extended (v0.158.0) & Tailwind CSS v4.0
+- **테마 프레임워크**: Hugoplate (Customized)
+- **정적 호스팅 인프라**: Cloudflare Pages (글로벌 CDN 캐싱 및 SSL 기본 제공)
+- **데이터 저장 관리**: GitHub 리포지토리
 
 ---
 
-## 📝 Customization
+## 📂 폴더 구조 가이드
 
-This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
-
-### 👉 Site Config
-
-You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
-
-### 👉 Site Params
-
-You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
-
-### 👉 Colors and Fonts
-
-You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
-
-### 👉 Social Links
-
-You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
+```
+jiwumission/
+│
+├── config/                ← Hugo 설정 폴더
+│   └── _default/
+│       ├── hugo.toml      ← 호스팅 baseURL, 언어 등 사이트 전역 설정
+│       ├── menus.toml     ← 드롭다운 서브메뉴(Blog, Class, Databank) 구조
+│       └── params.toml    ← 정렬 순서 및 테마 커스텀 변수
+│
+├── content/               ← 실제 글 콘텐츠 (마크다운)
+│   ├── blog/              ← 블로그 카테고리 (주간 AI, 일간 IT 뉴스 등)
+│   ├── class/             ← 정적홈페이지 강좌, Affinity 디자이너 가이드 등
+│   └── databank/          ← 오늘의 QT, 말씀카드, 자료실
+│
+├── layouts/               ← HTML 레이아웃 템플릿 (홈페이지 모달 팝업 JS 수록)
+├── static/                ← 로고 및 에셋 복사용 폴더
+│   ├── admin/             ← 브라우저용 원격 설정 제어 관리자 패널
+│   └── _headers           ← 클릭재킹 및 보안 강화용 HTTP Headers
+│
+├── scripts/               ← 로컬 빌드 보조 및 자동화 스크립트
+├── .github/workflows/     ← 매일 아침 06:00 KST 빌드용 Actions
+└── docs/                  ← 교육 매뉴얼 및 트러블슈팅 이력 문서화
+```
 
 ---
 
-## 🛠 Advanced Usage
+## ⏰ 일일 콘텐츠 자동화 스케줄러 관리
 
-We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
+이 프로젝트는 매일 자동으로 생성되는 일간 뉴스 및 말씀(QT) 콘텐츠를 실시간으로 빌드 및 업로드하기 위해 두 가지 자동화 장치를 이용합니다.
 
-### 👉 Update Theme
+### 1) 로컬 Mac ➡️ GitHub 자동 Push 스케줄러
+- **실행본**: `~/.scripts/auto_push.sh`
+- **스케줄러 설정**: `~/Library/LaunchAgents/com.jiwumission.autopush.plist`
+- **작동**: 매일 밤 **11시 30분(23:30)**에 백그라운드 구동되어 로컬에 새로 생성된 IT뉴스/QT 문서를 감지하고 `git push`를 수행합니다.
+- **실행 이력 로깅**: `~/.scripts/auto_push.log`
 
-If you want to update the theme, then you can use the following command. It will update the theme to the latest version.
-
-```bash
-npm run update-theme
-```
-
-> **Note:** This command will work after running the `project-setup` script.
-
-### 👉 Update Modules
-
-We have added a lot of modules to this template. You can update all the modules using the following command.
-
-```bash
-npm run update-modules
-```
-
-### 👉 Remove Dark Mode
-
-If you want to remove dark mode from your project, you can use the following command to remove dark mode from your project.
-
-```bash
-npm run remove-darkmode
-```
-
-> **Note:** This command will work before running the `project-setup` script. If you have already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. Afterward, you can run `npm run project-setup` again.
-
-### 👉 Remove Multilingual
-
-If you want to remove multilingual from your project, you can use the following command to remove multilingual from your project.
-
-```bash
-npm run remove-multilang
-```
-
-> **Note:** This command will work before running the `project-setup` script. If you have already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. Afterward, you can run `npm run project-setup` again.
+### 2) GitHub ➡️ Cloudflare Pages 무인 재빌드 (Secrets 연동)
+- **실행본**: `.github/workflows/scheduled-publish.yml`
+- **작동**: 매일 아침 **06:00 KST**에 작동하여, GitHub Secrets에 등록된 `CLOUDFLARE_PAGES_DEPLOY_HOOK` 주소로 POST 호출을 보내어 빈 커밋 없이 웹사이트를 강제 재빌드(Deploy)합니다.
 
 ---
 
-## 🚀 Build And Deploy
+## 📖 시스템 관리 문서 링크
 
-After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
-
-### 👉 Build Command
-
-To build your project locally, you can use the following command.
-
-```bash
-npm run build
-```
-
-### 👉 Deploy Site
-
-We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
-
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-
-And if you want to host some other hosting platforms. Then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
-
-> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
-
----
-
-<!-- edit with sitepins -->
-
-## 📝 Edit Content with CMS
-
-This template comes pre-configured with [**Sitepins**](https://sitepins.com?aff=hugoplate), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
-
-**How to get started:**
-
-Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
-
-  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate">
-    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
-  </a>
-
-## 🔒 Guide to Staying Compliant
-
-### 🐞 Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please search [existing issues](https://github.com/zeon-studio/hugoplate/issues). Someone may have already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
-
-### 📝 License
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
----
-
-## 🌠 Showcase
-
-List of some projects people are building with [**Hugoplate**!](https://github.com/zeon-studio/hugoplate/discussions/207)
-Don't forget to add yours.
-
----
-
-## 💻 Need Customization?
-
-If you need a custom theme, theme customization, or complete website development services from scratch, you can [Hire Us](https://zeon.studio/estimate-project).
+웹사이트 제작 과정에서 만난 모든 문제 해결 내역과 SSG 기초 사용 매뉴얼은 `docs/` 폴더 내에 정리되어 있습니다:
+- [정적 홈페이지 초보자 매뉴얼](docs/manual.md)
+- [18대 주요 에러 및 트러블슈팅 리포트](docs/issue_report.md)
+- [Cloudflare Pages 이전 및 DNS 셋업 가이드](docs/cloudflare_build.md)
