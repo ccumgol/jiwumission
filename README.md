@@ -1,6 +1,6 @@
 # JIWU Mission 홈페이지 (jesusiswith.us)
 
-뉴저지 포트리(Fort Lee)에 위치한 해외한인장로회(KPCA) 소속 **아이하나 교회(IHANA CHURCH)**의 사역 정보 및 일일 말씀(QT), AI IT뉴스 서비스를 구축하고 호스팅하는 정적 웹사이트 저장소입니다.
+"예수님께서 우리와 함께 하신다"는 의미의 **JIWU Mission(Jesus Is With Us) 네트워크**의 사역 정보 및 일일 성경 말씀(QT), 소식지 구독 신청, 동영상 강좌 정보 등을 제공하고 서비스하는 정적 웹사이트 저장소입니다.
 
 ---
 
@@ -16,7 +16,7 @@
 [jesusiswith.us 배포 서비스]
 ```
 
-- **SSG (정적 사이트 빌더)**: Hugo Extended (v0.158.0) & Tailwind CSS v4.0
+- **SSG (정적 사이트 빌더)**: Hugo Extended (v0.164.0)
 - **테마 프레임워크**: Hugoplate (Customized)
 - **정적 호스팅 인프라**: Cloudflare Pages (글로벌 CDN 캐싱 및 SSL 기본 제공)
 - **데이터 저장 관리**: GitHub 리포지토리
@@ -71,5 +71,5 @@ jiwumission/
 
 웹사이트 제작 과정에서 만난 모든 문제 해결 내역과 SSG 기초 사용 매뉴얼은 `docs/` 폴더 내에 정리되어 있습니다:
 - [정적 홈페이지 초보자 매뉴얼](docs/manual.md)
-- [18대 주요 에러 및 트러블슈팅 리포트](docs/issue_report.md)
+- [24대 주요 에러 및 트러블슈팅 리포트](docs/issue_report.md)
 - [Cloudflare Pages 이전 및 DNS 셋업 가이드](docs/cloudflare_build.md)
