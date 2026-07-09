@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/databank/daily-bible/2026-07-08.md",
+                "file": "content/databank/daily-bible/2026-06-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-08"
+              "title": "2026-06-18"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "70989248695ddab9",
   "lastOpenFiles": [
+    "content/blog/daily-it-news/2026-07-08.md",
+    "content/blog/daily-it-news/2026-07-10.md",
+    "content/databank/daily-bible/2026-07-08.md",
     "content/blog/weekly-ai-trends/2026년 7월 1주차 글로벌 AI 산업 지형도 및 트렌드 분석.md",
     "content/blog/weekly-ai-trends/images/2026년-7월-1주차-글로벌-AI-산업-지형도-및-트렌드-분석.webp",
     "content/class/computer-basic/gitHub이란.md",
@@ -219,7 +222,6 @@
     "content/class/ssg/사이트 제작기 3부 - 매일 밤 도는 자동화 파이프라인.md",
     "content/class/ssg/사이트 제작기 2부 - 콘텐츠 3구역 대해부.md",
     "content/class/ssg/사이트 제작기 1부 - 왜 정적 홈페이지로 시작했나.md",
-    "content/databank/daily-bible/2026-07-08.md",
     "docs/manual.md",
     "public/class/ssg/site-story-4/index.md",
     "public/class/ssg/site-story-3/index.md",
@@ -228,8 +230,6 @@
     "public/tags/콘텐츠구조/index.md",
     "public/tags/정적홈페이지/index.md",
     "public/tags/자동화/index.md",
-    "public/tags/제작기/index.md",
-    "public/tags/launchd/index.md",
-    "public/tags/tailwindcss/index.md"
+    "public/tags/제작기/index.md"
   ]
 }
