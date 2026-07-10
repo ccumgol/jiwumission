@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JIWU MISSION NETWORK 소개 프리젠테이션</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;600;900&family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    :root {
+      --bg-dark: hsl(220, 20%, 8%);
+      --bg-card: hsla(220, 20%, 14%, 0.7);
+      --border-glow: hsla(43, 90%, 55%, 0.15);
+      --text-main: hsl(220, 15%, 90%);
+      --text-muted: hsl(220, 10%, 65%);
+      --accent-gold: hsl(43, 90%, 55%);
+      --accent-gold-rgb: 230, 175, 50;
+      --accent-crimson: hsl(355, 75%, 50%);
+      --accent-orange: hsl(20, 85%, 55%);
+      --accent-bronze: hsl(30, 45%, 45%);
+      --shadow-soft: 0 12px 40px rgba(0, 0, 0, 0.6);
+      --font-serif: 'Noto Serif KR', serif;
+      --font-sans: 'Outfit', 'Noto Sans KR', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background-color: var(--bg-dark); color: var(--text-main); font-family: var(--font-sans); overflow: hidden; height: 100vh; width: 100vw; position: relative; }
+    
+    .bg-animation { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden; pointer-events: none; filter: blur(100px); opacity: 0.45; }
+    .bg-orb { position: absolute; border-radius: 50%; mix-blend-mode: screen; animation: float 25s infinite alternate ease-in-out; }
+    .orb-1 { top: -10%; left: 10%; width: 500px; height: 500px; background: radial-gradient(circle, var(--accent-orange) 0%, transparent 70%); animation-duration: 30s; }
+    .orb-2 { bottom: -10%; right: 15%; width: 600px; height: 600px; background: radial-gradient(circle, var(--accent-gold) 0%, transparent 70%); animation-duration: 25s; animation-delay: -5s; }
+    @keyframes float { 0% { transform: translate(0, 0) scale(1); } 50% { transform: translate(5%, 10%) scale(1.1); } 100% { transform: translate(-5%, -5%) scale(0.9); } }
+
+    .slides-wrapper { position: relative; width: 100%; height: 100%; z-index: 10; }
+    .slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 3rem 5rem; opacity: 0; pointer-events: none; transform: translateY(20px) scale(0.98); transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateY(0) scale(1); }
+    .slide.exit-left { opacity: 0; pointer-events: none; transform: translateX(-50px) scale(0.95); }
+    .slide.exit-right { opacity: 0; pointer-events: none; transform: translateX(50px) scale(0.95); }
+
+    .glass-card { background: var(--bg-card); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: var(--shadow-soft), inset 0 1px 1px rgba(255, 255, 255, 0.1); border-radius: 24px; padding: 3rem; width: 100%; max-width: 1200px; position: relative; overflow: hidden; }
+    .glass-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-orange), var(--accent-crimson)); }
+
+    h1.serif-title { font-family: var(--font-serif); font-size: 3.2rem; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 0.5rem; background: linear-gradient(135deg, #ffffff 30%, var(--accent-gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.25; text-align: center; }
+    h2.slide-title { font-family: var(--font-serif); font-size: 2.2rem; font-weight: 600; margin-bottom: 2rem; color: #ffffff; border-left: 5px solid var(--accent-gold); padding-left: 1rem; line-height: 1.1; }
+    p.subtitle { font-size: 1.25rem; color: var(--text-muted); margin-bottom: 1.5rem; text-align: center; text-transform: uppercase; letter-spacing: 0.15em; }
+
+    /* Layout Specifics */
+    .overview-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 1rem; width: 100%; }
+    .overview-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); display: flex; flex-direction: column; justify-content: space-between; height: 260px; }
+    .overview-card:hover { background: rgba(255, 255, 255, 0.06); border-color: var(--accent-gold); transform: translateY(-8px); box-shadow: 0 10px 25px rgba(0,0,0,0.4); }
+    .card-num { font-size: 0.95rem; color: var(--accent-gold); font-weight: 800; letter-spacing: 0.15em; }
+    .card-icon-large { font-size: 2.5rem; margin: 1rem 0; color: #ffffff; }
+    .card-name { font-size: 1.3rem; font-weight: 700; color: #ffffff; margin-bottom: 0.5rem; }
+    .card-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; }
+
+    .offering-layout { display: grid; grid-template-columns: 1.25fr 1.75fr; gap: 3rem; align-items: center; }
+    .offering-details { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; }
+    .detail-box { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 1.2rem 1.5rem; transition: border-color 0.3s; }
+    .detail-box:hover { border-color: rgba(255, 255, 255, 0.15); }
+    .detail-title { font-size: 0.95rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 0.5rem; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.5rem; }
+    .detail-content { font-size: 0.95rem; line-height: 1.6; color: var(--text-main); }
+    .offering-summary { padding-right: 2rem; border-right: 1px solid rgba(255, 255, 255, 0.08); }
+    .offering-summary .hebrew { font-family: var(--font-serif); font-size: 2rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
+    .offering-summary .scripture { display: inline-block; padding: 0.3rem 0.8rem; background: rgba(255, 255, 255, 0.06); border-radius: 30px; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; }
+    .offering-summary .main-text { font-size: 1.1rem; line-height: 1.7; color: var(--text-main); }
+
+    .theology-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.8rem; margin-top: 1rem; perspective: 1000px; }
+    .flip-card { background-color: transparent; width: 100%; height: 280px; cursor: pointer; }
+    .flip-card-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275); transform-style: preserve-3d; }
+    .flip-card.flipped .flip-card-inner, .flip-card:hover .flip-card-inner { transform: rotateY(180deg); }
+    .flip-card-front, .flip-card-back { position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; border-radius: 16px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+    .flip-card-front { background: linear-gradient(145deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01)); color: white; }
+    .flip-card-back { background: linear-gradient(145deg, hsla(43, 60%, 15%, 0.95), hsla(43, 60%, 8%, 0.95)); color: var(--text-main); transform: rotateY(180deg); border-color: rgba(var(--accent-gold-rgb), 0.3); }
+    .flip-card-front .icon { font-size: 2.2rem; margin-bottom: 0.8rem; }
+    .flip-card-front h3 { font-family: var(--font-serif); font-size: 1.2rem; margin-bottom: 0.5rem; color: #ffffff; }
+    .flip-card-front span { font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; font-weight: 700; }
+    .flip-card-back h4 { font-family: var(--font-serif); color: var(--accent-gold); font-size: 1.1rem; margin-bottom: 0.6rem; }
+    .flip-card-back p { font-size: 0.85rem; line-height: 1.5; }
+
+    .conclusion-content { text-align: center; max-width: 850px; margin: 0 auto; }
+    .quote-box { font-family: var(--font-serif); font-size: 1.5rem; line-height: 1.7; color: #ffffff; margin: 1.5rem 0; position: relative; padding: 0 2rem; }
+    .quote-box::before, .quote-box::after { content: '"'; font-size: 4rem; color: var(--accent-gold); position: absolute; opacity: 0.3; line-height: 1; }
+    .quote-box::before { left: -0.5rem; top: -1.5rem; }
+    .quote-box::after { right: -0.5rem; bottom: -2.5rem; }
+
+    /* Presenter Notes & Controls Bar */
+    .controls-container { position: absolute; bottom: 2rem; left: 0; right: 0; display: flex; justify-content: space-between; align-items: center; padding: 0 5rem; z-index: 100; }
+    .nav-buttons { display: flex; gap: 1rem; }
+    .control-btn { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #ffffff; width: 48px; height: 48px; border-radius: 50%; cursor: pointer; display: flex; justify-content: center; align-items: center; font-size: 1.2rem; transition: all 0.3s; }
+    .control-btn:hover:not(:disabled) { background: var(--accent-gold); color: var(--bg-dark); border-color: var(--accent-gold); transform: scale(1.1); }
+    .control-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .progress-wrapper { flex-grow: 1; margin: 0 3rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .progress-bar { width: 100%; height: 4px; background: rgba(255, 255, 255, 0.1); border-radius: 2px; overflow: hidden; }
+    .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent-gold), var(--accent-orange)); transition: width 0.5s cubic-bezier(0.25, 1, 0.5, 1); }
+    .progress-dots { display: flex; justify-content: center; gap: 0.75rem; }
+    .dot { width: 8px; height: 8px; background: rgba(255, 255, 255, 0.2); border-radius: 50%; cursor: pointer; transition: all 0.3s; }
+    .dot.active { background: var(--accent-gold); transform: scale(1.4); }
+    
+    .presenter-notes { position: absolute; bottom: 80px; left: 5rem; right: 5rem; background: rgba(10, 10, 12, 0.9); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 1.5rem; max-height: 180px; overflow-y: auto; backdrop-filter: blur(10px); z-index: 90; opacity: 0; pointer-events: none; transform: translateY(15px); transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); }
+    .presenter-notes.open { opacity: 1; pointer-events: auto; transform: translateY(0); }
+    .notes-header { font-size: 0.8rem; color: var(--accent-gold); font-weight: 800; letter-spacing: 0.1em; margin-bottom: 0.5rem; text-transform: uppercase; }
+    .notes-body { font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); }
+
+    .shortcuts-guide { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 0.75rem; color: var(--text-muted); background: rgba(255, 255, 255, 0.05); padding: 0.4rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); z-index: 20; }
+    
+    .home-link { position: absolute; top: 1.5rem; left: 1.5rem; font-size: 0.85rem; color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: color 0.3s; z-index: 20; }
+    .home-link:hover { color: var(--accent-gold); }
+
+    /* Responsive */
+    @media (max-width: 960px) {
+      body { overflow-y: auto; height: auto; }
+      .slide { position: relative; opacity: 1; pointer-events: auto; transform: none; padding: 2rem 1.5rem; height: auto; display: block; }
+      .slide:not(.active) { display: block; }
+      .slides-wrapper { display: flex; flex-direction: column; gap: 3rem; padding: 5rem 1rem; }
+      .glass-card { padding: 1.5rem; max-height: none; overflow-y: visible; }
+      .offering-layout { grid-template-columns: 1fr; gap: 1.5rem; }
+      .offering-summary { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-right: 0; padding-bottom: 1.5rem; }
+      .overview-grid { grid-template-columns: 1fr; }
+      .theology-grid { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
+      .flip-card { height: 200px; }
+      .controls-container { display: none; }
+      .shortcuts-guide { display: none; }
+      h1.serif-title { font-size: 2.2rem; }
+      h2.slide-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Aura Background -->
+  <div class="bg-animation">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+  </div>
+
+  <a href="/" class="home-link">
+    <i class="fas fa-home"></i> JIWU Mission 홈으로
+  </a>
+
+  <div class="shortcuts-guide">
+    ◀ ▶ / Space : 이동 | N : 발표자 대본
+  </div>
+
+  <div class="slides-wrapper">
+
+    <!-- Slide 1: Cover -->
+    <div class="slide active" id="slide-1">
+      <div class="glass-card" style="text-align: center;">
+        <div class="cover-logo" style="font-size: 4.5rem; margin-bottom: 1rem;">⛪</div>
+        <p class="subtitle">Jesus is With Us</p>
+        <h1 class="serif-title">JIWU MISSION NETWORK</h1>
+        <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 1.5rem auto;"></div>
+        <p style="font-size: 1.15rem; max-width: 700px; margin: 0 auto; line-height: 1.7; color: var(--text-main); font-family: var(--font-serif);">
+          "두려워하지 말라 내가 너와 함께 함이라, 놀라지 말라 나는 네 하나님이 됨이라.<br>내가 너를 굳세게 하리라 참으로 너를 도와 주리라,<br>참으로 나의 의로운 오른손으로 너를 붙들리라."<br>— 이사야 41:10 —
+        </p>
+        <div style="margin-top: 2.5rem; font-size: 0.9rem; color: var(--text-muted); letter-spacing: 0.15em; text-transform: uppercase;">
+          JIWU Mission 소개 프리젠테이션
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Conceptual Dashboard -->
+    <div class="slide" id="slide-2">
+      <div class="glass-card">
+        <h2 class="slide-title">핵심 선교 사역</h2>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">JIWU Mission은 비영리 기독교 단체로서 아래의 세 가지 핵심 분야에 집중합니다.</p>
+        
+        <div class="overview-grid">
+          <!-- Card 1 -->
+          <div class="overview-card" onclick="goToSlide(3)">
+            <div>
+              <span class="card-num">01</span>
+              <div class="card-icon-large"><i class="fas fa-file-alt"></i></div>
+              <div class="card-name">문서선교</div>
+            </div>
+            <div class="card-desc">문서를 통해 시공간을 초월하여 영혼 구원과 말씀 교육을 지원합니다.</div>
+          </div>
+          <!-- Card 2 -->
+          <div class="overview-card" onclick="goToSlide(3)">
+            <div>
+              <span class="card-num">02</span>
+              <div class="card-icon-large"><i class="fas fa-globe"></i></div>
+              <div class="card-name">인터넷선교</div>
+            </div>
+            <div class="card-desc">블로그와 홈페이지 등 현대적 IT 플랫폼을 이용해 복음 콘텐츠를 나눕니다.</div>
+          </div>
+          <!-- Card 3 -->
+          <div class="overview-card" onclick="goToSlide(3)">
+            <div>
+              <span class="card-num">03</span>
+              <div class="card-icon-large"><i class="fas fa-hands-helping"></i></div>
+              <div class="card-name">행정/IT 지원</div>
+            </div>
+            <div class="card-desc">작은 교회와 선교사님들이 핵심 사역에 집중할 수 있도록 IT 컨설팅을 지원합니다.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Split Details -->
+    <div class="slide" id="slide-3">
+      <div class="glass-card">
+        <h2 class="slide-title">사역 내용 세부 소개</h2>
+        <div class="offering-layout">
+          <!-- Left Column -->
+          <div class="offering-summary">
+            <div class="hebrew">선교 사역의 가치</div>
+            <div class="scripture">사역 분야별 가이드라인</div>
+            <p class="main-text">
+              JIWU Mission은 물질적 후원뿐만 아니라 지식과 기술을 나누어 스스로 설 수 있도록 돕는 사역 모델을 실천합니다.
+            </p>
+          </div>
+          <!-- Right Column -->
+          <div class="offering-details">
+            <div class="detail-box">
+              <div class="detail-title">📚 문서 자료 개발</div>
+              <div class="detail-content">다양한 전도지, 소책자 등의 양육 문서를 지속 개발하고 공유합니다.</div>
+            </div>
+            <div class="detail-box">
+              <div class="detail-title">💻 IT 기술 교육</div>
+              <div class="detail-content">노션 활용법이나 홈페이지 구축 요령 등을 실무 교육으로 전달합니다.</div>
+            </div>
+            <div class="detail-box">
+              <div class="detail-title">⚙️ 생산성 최적화</div>
+              <div class="detail-content">스마트워크 및 자동화 도구 컨설팅으로 사역의 행정적 부담을 줄입니다.</div>
+            </div>
+            <div class="detail-box">
+              <div class="detail-title">🤝 선교사 지원</div>
+              <div class="detail-content">선교사님들의 핵심 활동을 돕는 저비용/고효율 웹 마케팅을 구축합니다.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: 3D Flip Cards Grid -->
+    <div class="slide" id="slide-4">
+      <div class="glass-card">
+        <h2 class="slide-title">구체적 사역 분야 (Ministry Guide)</h2>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">각 사역 아이콘에 마우스를 올리거나 터치하여 상세 내용을 확인해 보세요.</p>
+        
+        <div class="theology-grid">
+          <!-- Card 1 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="icon">📚</div>
+                <h3>강좌 사역</h3>
+                <span>Education</span>
+              </div>
+              <div class="flip-card-back">
+                <h4>역량 강화</h4>
+                <p>Notion, 홈페이지 제작 강좌로 스스로 업무 생산성을 높일 수 있게 돕습니다.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="icon">🌐</div>
+                <h3>홈페이지</h3>
+                <span>IT System</span>
+              </div>
+              <div class="flip-card-back">
+                <h4>저비용 구축</h4>
+                <p>자체 구축이 어려운 작은 교회와 사역 단체의 홈페이지 개설과 활용법을 가르칩니다.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="icon">📄</div>
+                <h3>문서 사역</h3>
+                <span>Literature</span>
+              </div>
+              <div class="flip-card-back">
+                <h4>복음 배포</h4>
+                <p>현장 전도 및 양육 문서 자산을 디지털화하고 널리 배포할 수 있게 지원합니다.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="icon">⚙️</div>
+                <h3>생산성</h3>
+                <span>Consulting</span>
+              </div>
+              <div class="flip-card-back">
+                <h4>효율성 개선</h4>
+                <p>최신 자동화 프로세스와 협업 툴(Google Workspace 등) 컨설팅을 제안합니다.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="icon">🤝</div>
+                <h3>네트워킹</h3>
+                <span>Networking</span>
+              </div>
+              <div class="flip-card-back">
+                <h4>믿음의 협력</h4>
+                <p>다양한 기독 동역자들과 정기적이고 유기적인 네트워크를 형성합니다.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="icon">💝</div>
+                <h3>사역 지원</h3>
+                <span>Support</span>
+              </div>
+              <div class="flip-card-back">
+                <h4>동역과 지원</h4>
+                <p>작은 교회와 선교지에서 실제 유용하게 체감할 수 있는 실무 가이드를 제공합니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: Conclusion & Call to Action -->
+    <div class="slide" id="slide-5">
+      <div class="glass-card">
+        <h2 class="slide-title">동참하는 법 및 결론</h2>
+        <div class="conclusion-content">
+          <div class="quote-box">
+            "복음은 멈추어 있지 않고 다양한 방식으로 세상에 흘러가야 합니다.<br>우리가 가진 문서, 인터넷, 그리고 행정 지원의 달란트로 함께 세워갑니다."
+            <span class="quote-source">— JIWU MISSION NETWORK 동역자 일동</span>
+          </div>
+          
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem;">
+            <div style="background: rgba(255,255,255,0.02); border-radius: 12px; padding: 1.2rem; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <span style="font-size: 2rem; display: block; margin-bottom: 0.5rem;">🙏</span>
+              <strong style="color: var(--accent-gold); display: block; margin-bottom: 0.5rem;">기도 동역</strong>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">작은 교회와 선교사들을 위한 IT 행정 사역이 안정되도록 기도해 주세요.</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.02); border-radius: 12px; padding: 1.2rem; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <span style="font-size: 2rem; display: block; margin-bottom: 0.5rem;">💡</span>
+              <strong style="color: var(--accent-gold); display: block; margin-bottom: 0.5rem;">재능/지식 기부</strong>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Notion 템플릿, 웹 빌딩, 디자인 템플릿 등의 지식과 역량을 공유해 주세요.</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.02); border-radius: 12px; padding: 1.2rem; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <span style="font-size: 2rem; display: block; margin-bottom: 0.5rem;">💝</span>
+              <strong style="color: var(--accent-gold); display: block; margin-bottom: 0.5rem;">재정 후원</strong>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">기독교 비영리 사역 단체로서 투명하게 운영되며, 사역 장비 구입 등에 소중히 사용됩니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Script notes overlay -->
+  <div class="presenter-notes" id="presenter-notes">
+    <div class="notes-header">발표자 스크립트 (Presenter Notes)</div>
+    <div class="notes-body" id="notes-content">대본이 표시되는 곳</div>
+  </div>
+
+  <!-- Navigation controls -->
+  <div class="controls-container">
+    <div class="nav-buttons">
+      <button class="control-btn" id="prev-btn" onclick="prevSlide()">◀</button>
+      <button class="control-btn" id="next-btn" onclick="nextSlide()">▶</button>
+    </div>
+    
+    <div class="progress-wrapper">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="progress-dots" id="progress-dots"></div>
+    </div>
+
+    <div class="notes-toggle-wrapper">
+      <button class="control-btn" style="border-radius: 8px; width: auto; padding: 0 1rem; font-size: 0.85rem;" onclick="toggleNotes()">
+        📝 대본 보기 (N)
+      </button>
+    </div>
+  </div>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 5;
+    let notesVisible = false;
+
+    const slideNotes = {
+      1: "JIWU MISSION NETWORK 소개 프리젠테이션 표지입니다. 단체의 비전 구절인 이사야 41장 10절과 소개로 세션을 시작하세요.",
+      2: "JIWU Mission의 3대 핵심 사역(문서 선교, 인터넷 선교, 행정 및 IT 지원)의 개요입니다. 각 카드가 3열 구조로 구성되어 있음을 설명하세요.",
+      3: "세부 사역 소개 영역입니다. 지식 기부와 기술 나눔을 통해 동역자들이 자립할 수 있도록 돕는 실질적인 목표를 전달하세요.",
+      4: "사역 카테고리를 직관적으로 이해할 수 있는 3D 플립 카드 형태의 마인드맵입니다. 마우스를 대거나 화면을 누르면 사역 카드의 상세 설명이 도출됩니다.",
+      5: "결론 및 콜 투 액션(Call to Action) 슬라이드입니다. 기도 동역, 재능 기부, 재정 후원에 대한 방법을 안내하고 프레젠테이션을 맺어주세요."
+    };
+
+    const dotsContainer = document.getElementById('progress-dots');
+    for (let i = 1; i <= totalSlides; i++) {
+      const dot = document.createElement('div');
+      dot.className = `dot ${i === 1 ? 'active' : ''}`;
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+      dotsContainer.appendChild(document.createTextNode(' '));
+    }
+
+    function goToSlide(slideNum) {
+      if (slideNum < 1 || slideNum > totalSlides) return;
+      const prevActiveSlide = document.querySelector('.slide.active');
+      const nextActiveSlide = document.getElementById(`slide-${slideNum}`);
+      if (prevActiveSlide) {
+        prevActiveSlide.classList.remove('active');
+        if (slideNum > currentSlide) {
+          prevActiveSlide.classList.add('exit-left');
+          prevActiveSlide.classList.remove('exit-right');
+        } else {
+          prevActiveSlide.classList.add('exit-right');
+          prevActiveSlide.classList.remove('exit-left');
+        }
+      }
+      nextActiveSlide.classList.remove('exit-left', 'exit-right');
+      nextActiveSlide.classList.add('active');
+      currentSlide = slideNum;
+      updateControls();
+    }
+
+    function nextSlide() { goToSlide(currentSlide + 1); }
+    function prevSlide() { goToSlide(currentSlide - 1); }
+
+    function updateControls() {
+      document.getElementById('prev-btn').disabled = currentSlide === 1;
+      document.getElementById('next-btn').disabled = currentSlide === totalSlides;
+      const percent = ((currentSlide - 1) / (totalSlides - 1)) * 100;
+      document.getElementById('progress-fill').style.width = `${percent}%`;
+      const dots = document.querySelectorAll('.dot');
+      dots.forEach((dot, idx) => {
+        dot.classList.toggle('active', idx + 1 === currentSlide);
+      });
+      document.getElementById('notes-content').innerHTML = slideNotes[currentSlide];
+    }
+
+    function toggleNotes() {
+      notesVisible = !notesVisible;
+      document.getElementById('presenter-notes').classList.toggle('open', notesVisible);
+    }
+
+    document.addEventListener('keydown', (e) => {
+      switch(e.key) {
+        case 'ArrowRight': case ' ': case 'PageDown': nextSlide(); break;
+        case 'ArrowLeft': case 'PageUp': prevSlide(); break;
+        case 'n': case 'N': case 'ㅜ': toggleNotes(); break;
+      }
+    });
+
+    document.querySelectorAll('.flip-card').forEach(card => {
+      card.addEventListener('click', function(e) {
+        this.classList.toggle('flipped');
+        e.stopPropagation();
+      });
+    });
+
+    updateControls();
+  </script>
+</body>
+</html>
