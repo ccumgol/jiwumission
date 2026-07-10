@@ -61,3 +61,14 @@ html[data-lang="ko"] .lang-en {
 html[data-lang="en"] .lang-ko {
   display: none !important;
 }
+
+/* KakaoTalk Share Button Styling */
+.share-kakaotalk {
+  background-color: #FEE500;
+  color: #3C1E1E !important;
+}
+
+.share-kakaotalk:hover {
+  background-color: #e0ca00;
+  color: #3C1E1E !important;
+}

@@ -13,6 +13,7 @@ contact_form_action = "#"
 google_tag_manager = ""
 google_adsense = ""
 custom_script = ""
+kakao_app_key = "" # 카카오 개발자 JavaScript 앱 키 (카카오톡 공유 기능용)
 copyright = "© 2026 JIWU Mission | Jesus is with us"
 
 [preloader]

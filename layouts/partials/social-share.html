@@ -13,6 +13,7 @@
 {{ $vk:= .Vk | default true }}
 {{ $fediverse:= .Fediverse | default true }}
 {{ $copy:= .Copy | default true }}
+{{ $kakaotalk:= .Kakaotalk | default true }}
 
 {{ $url := printf "%s" $context.Permalink | absLangURL }}
 
@@ -69,6 +70,23 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
             d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
+        </svg>
+      </span>
+    </a>
+  {{ end }}
+
+
+  <!-- KakaoTalk -->
+  {{ if $kakaotalk }}
+    <a
+      class="share-link share-kakaotalk"
+      href="javascript:void(0);"
+      onclick="shareToKakao('{{ $url }}', '{{ $title }}', '{{ $context.Params.summary | default $context.Description | default "" }}', '{{ if $context.Params.image }}{{ printf "%s" $context.Params.image | absURL }}{{ end }}')"
+      aria-label="share kakaotalk"
+      title="Share to KakaoTalk">
+      <span class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 18.75c-.591 0-1.17-.041-1.732-.12-.562.396-3.813 2.679-4.12 2.722 0 0-.125.049-.232-.014s-.088-.229-.088-.229c.046-.226.549-3.03.882-4.167C4.169 15.019 3 13.064 3 10.875 3 6.529 6.925 3 12 3c5.075 0 9 3.529 9 7.875 0 4.346-3.925 7.875-9 7.875z"/>
         </svg>
       </span>
     </a>
@@ -356,4 +374,54 @@
       nativeBtn.classList.remove("hidden");
     }
   });
+
+  // KakaoTalk Share Function
+  function shareToKakao(url, title, summary, imageUrl) {
+    const kakaoAppKey = "{{ site.Params.kakao_app_key }}";
+    if (!kakaoAppKey) {
+      alert("카카오 개발자 앱 키(JavaScript 키)가 설정되지 않았습니다.\\nconfig/_default/params.toml 파일에서 [kakao_app_key] 값을 설정해 주세요.");
+      return;
+    }
+
+    if (typeof Kakao === "undefined") {
+      const script = document.createElement("script");
+      script.src = "https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js";
+      script.integrity = "sha384-mLIzptHG7yUA9Fj81Je7nMwkBC83L1adkk5P4H3mMC54lhX96K2u4N908F+a719+";
+      script.crossOrigin = "anonymous";
+      script.onload = () => {
+        initAndShareKakao(url, title, summary, imageUrl, kakaoAppKey);
+      };
+      document.head.appendChild(script);
+    } else {
+      initAndShareKakao(url, title, summary, imageUrl, kakaoAppKey);
+    }
+  }
+
+  function initAndShareKakao(url, title, summary, imageUrl, appKey) {
+    if (!Kakao.isInitialized()) {
+      Kakao.init(appKey);
+    }
+    
+    Kakao.Share.sendDefault({
+      objectType: 'feed',
+      content: {
+        title: title,
+        description: summary || '오늘의 소식을 확인해 보세요.',
+        imageUrl: imageUrl || 'https://jesusiswith.us/images/og-image.png',
+        link: {
+          mobileWebUrl: url,
+          webUrl: url,
+        },
+      },
+      buttons: [
+        {
+          title: '자세히 보기',
+          link: {
+            mobileWebUrl: url,
+            webUrl: url,
+          },
+        },
+      ],
+    });
+  }
 </script>
