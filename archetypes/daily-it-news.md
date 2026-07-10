@@ -1,5 +1,5 @@
 ---
-title: "{{ .Date.Format "2006년 1월 2일" }} IT뉴스"
+title: '{{ .Date.Format "2006년 1월 2일" }} IT뉴스'
 date: {{ .Date }}
 author: "Gihyun Park"
 summary: ""
