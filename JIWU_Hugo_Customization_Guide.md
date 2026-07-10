@@ -579,8 +579,32 @@ git pull --rebase && git push
 * **이미지 등록 전 사전 인코딩**: 블로그 포스트나 성경 자료 등 새로운 콘텐츠를 추가할 때, 가능한 한 이미지 파일을 로컬에서 사전에 `.webp` 포맷으로 변환하여 등록하십시오.
 * **경로 일관성 유지**: 마크다운 파일 내 이미지 참조 확장자가 파일의 실제 포맷인 `.webp`와 일치하는지 반드시 확인한 뒤 업로드해야 빌드 중단을 방지할 수 있습니다.
 * **사전 빌드 테스트**: 새 이미지가 추가된 후에는 원격 서버 푸시 전 로컬 터미널에서 다음 명령어를 실행하여 리사이징 에러가 없는지 최종 빌드 상태를 검증하는 것을 권장합니다.
-  ```bash
-  npm run build
+  ```
+  pnpm run build
   ```
 
+---
 
+## 18. 푸터 영역 로고/소셜 아이콘 최적화 및 말씀 모달(QT) 공유 버튼 세트 연동
+
+최종 사용자 편의성과 접근성을 향상하기 위해 홈페이지 푸터 영역의 브랜드 정체성 노출 방식과 소셜 인터랙션 채널을 추가로 재편했습니다.
+
+### 1) 푸터 로고 레이아웃 오버라이드 및 크기 표준화
+* **수정 파일**: [footer.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/_partials/essentials/footer.html), [custom.css](file:///Users/gihyunpark/Desktop/jiwumission/assets/css/custom.css)
+* **내용**:
+  * 테마 내부 폴더에 숨어있던 푸터 템플릿을 로컬로 가져와 오버라이드하고, 로고 링크 태그에 `footer-logo` 클래스를 추가했습니다.
+  * `custom.css`에서 로고 크기를 상단 로고의 2/3 배율인 `100px`로 명시 고정하고, 어두운 백그라운드 상에서 로고가 흰색으로 뚜렷하게 도출되도록 색상 반전 규칙(`filter: invert(1) hue-rotate(180deg);`)을 부여했습니다.
+
+### 2) 푸터 소셜 링크 캡션 적용 및 카카오톡 채널 연동
+* **수정 파일**: [footer.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/_partials/essentials/footer.html), [social.json](file:///Users/gihyunpark/Desktop/jiwumission/data/social.json)
+* **내용**:
+  * 푸터 우측의 소셜 아이콘 목록(`Facebook`, `X`, `Threads`, `Instagram`)에 마우스 오버 시 도출될 전용 `title` 툴팁 캡션을 연계했습니다.
+  * 카카오톡 1:1 친구추가용 채널 링크를 `data/social.json`에 기입했습니다.
+  * FontAwesome 라이브러리에 누락되어 있는 카카오톡 브랜드 아이콘을 지원하기 위해, `footer.html` 템플릿 내에 `.icon`이 `"kakaotalk"`으로 감지될 때만 inline SVG 벡터 그래픽 코드를 실시간 삽입해주는 렌더링 우회 로직을 구성했습니다.
+
+### 3) 오늘의 성경 말씀(QT) 모달 창 내 SNS 공유 버튼 세트 탑재
+* **수정 파일**: [home.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/home.html), `layouts/databank/daily-bible/single.dailybiblejson.txt`
+* **내용**:
+  * 매일 말씀 모달 팝업 내부에서 각 말씀 데이터의 원천Permalink URL 정보를 받아와 외부 SNS로 다이렉트 전송할 수 있는 공유기 기능을 추가했습니다.
+  * 모달 푸터 영역에 페이스북, X, 인스타그램 링크 복사 가이드, 스레드, 모바일 시스템 공유 API(Web Share) 등 5대 소셜 공유 버튼 세트를 배치했습니다.
+  * 말씀 비동기 로드 시 주소 및 제목 정보를 가공하여 전역 상태 변수로 트래킹하고, 버튼 이벤트 시 이와 연계된 `shareQT(platform)` 함수를 호출하여 정확한 글 주소와 함께 글쓰기 창이 열리도록 구현했습니다.

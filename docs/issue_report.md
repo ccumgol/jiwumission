@@ -34,10 +34,11 @@
 | 22 | launchd 백그라운드 스케줄러 작동 실패 | macOS TCC 보안 정책 (바탕화면 접근 차단) |
 | 23 | GitHub Secret Scanning 경고 노출 | 노션 임시 S3 만료 자격 증명 및 과거 구글 API 키 잔존 이력 |
 | 24 | 모바일 기기에서 SNS 공유 시 내용 무시됨 | 모바일 OS의 Universal Link 가로채기 및 앱별 쿼리스트링 파싱 버그 |
-
-
-
-
+| 25 | 프론트매터 파서 경고 및 필드 누락 | Archetype 따옴표 중첩 및 서브폴더 index.md 필수 날짜 부재 |
+| 26 | SNS 공유 버튼 툴팁 부재 | <a> 및 <button> 태그의 title 속성 누락 |
+| 27 | 홈페이지 하단 푸터 로고 비표시 및 크기 불일치 | 테마 레이아웃 클래스 누락 및 다크모드/라이트모드 시인성 저하 |
+| 28 | 푸터 영역 소셜 아이콘 개선 | 소셜 아이콘 호버 캡션 부재 및 카카오톡 비표준 아이콘 렌더링 한계 |
+| 29 | 오늘의 성경 말씀(QT) 공유 기능 부재 | 팝업 모달 내부에 포스트 개별 URL 공유 기능 누락 |
 
 ---
 
@@ -496,6 +497,107 @@ chdir: error retrieving current directory: getcwd: cannot access parent director
 - **방법 3 (Copy Link 활용)**: 이미 적용되어 있는 **[링크 복사(Copy Link)]** 기능(체크 마크 토글 버튼)을 모바일 이용자에게 안내하여 주소를 복사해 직접 붙여넣도록 유도하는 것이 실질적으로 가장 확실하고 가볍습니다.
 
 **결론/교훈**: 모바일 플랫폼의 유니버설 링크와 네이티브 앱 연동은 웹 브라우저와 파라미터 규격이 달라 오작동을 자주 일으킵니다. 모바일 대응을 정밀하게 하려면 `navigator.share` 등 표준 브라우저 스토리지 공유 기능을 추가 기입하는 편이 안전합니다.
+
+---
+
+## Issue 25. 프론트매터 파서 경고 및 필드 누락
+
+**발생 시점**: IDE 뷰어 및 Hugo 빌드 검증 단계  
+**현상**:
+- `archetypes/daily-it-news.md` 생성 시 YAML 구문 파싱 에러 발생.
+- `content/blog/` 하위 subcategory `_index.md` 파싱 시 `Publish Date` 필드 경고 발생.
+
+**원인**:
+1. Archetype 내 Go-template 구문 `title: "{{ .Date.Format "2006년 1월 2일" }} IT뉴스"` 중 중첩된 쌍따옴표(`"`)가 YAML 파서에서 정상 해석되지 못해 에러가 발생했습니다.
+2. `.sitepins/schema/blog.json` 스키마 밸리데이션 규칙상 `type: "blog"`를 갖는 모든 폴더 및 파일에 `Publish Date` 필드가 필수로 선언되어야 하지만, `_index.md`에 `date` 정보가 누락되어 있었습니다.
+
+**해결**:
+1. [daily-it-news.md](file:///Users/gihyunpark/Desktop/jiwumission/archetypes/daily-it-news.md) (L2)의 전체 타이틀 구문을 홑따옴표(`'`)로 감싸서 문자열 해석 문제를 해결했습니다:
+   ```yaml
+   title: '{{ .Date.Format "2006년 1월 2일" }} IT뉴스'
+   ```
+2. `content/blog/` 하위의 6개 카테고리 `_index.md` 프론트매터에 날짜 필드(`date: 2026-07-10T00:00:00Z`)를 추가 선언했습니다.
+
+**결론/교훈**: Go template 내에 쌍따옴표가 포함된 문자열을 프론트매터에 기입할 때는 전체 값을 홑따옴표(`'`)로 안전하게 감싸서 YAML 파서의 충돌을 방지해야 합니다. 또한 커스텀 정합성 스키마가 적용되어 있을 때는 서브폴더의 `_index.md` 파일도 스키마 규칙을 충족해야 합니다.
+
+---
+
+## Issue 26. SNS 공유 버튼 툴팁(호버 캡션) 누락
+
+**발생 시점**: 포스트 하단 공유 영역 웹 퍼블리싱 검증  
+**현상**: Facebook, X, Reddit 등의 SNS 공유 버튼에 마우스를 올려도 각 버튼이 가리키는 대상에 대한 텍스트 캡션이 표시되지 않음.
+
+**원인**: 공유 버튼 마크업 코드(`layouts/partials/social-share.html`) 내에 접근성 및 툴팁 제공용 HTML `title` 속성이 누락되어 있었습니다.
+
+**해결**:
+- [social-share.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/partials/social-share.html)에 구현된 각 앵커(`<a>`) 및 버튼(`<button>`) 태그에 `title` 속성을 새롭게 바인딩했습니다.
+  - Facebook: `title="Share to Facebook"`
+  - X: `title="Share to X"`
+  - E-Mail: `title="Share to E-Mail"`
+  - Reddit: `title="Share to Reddit"`
+  - WhatsApp: `title="Share to WhatsApp"`
+  - Telegram: `title="Share to Telegram"`
+  - LinkedIn: `title="Share to LinkedIn"`
+  - Pinterest: `title="Share to Pinterest"`
+  - Tumblr: `title="Share to Tumblr"`
+  - VK: `title="Share to VK"`
+  - Fediverse: `title="Share to Fediverse"`
+  - Copy Link: `title="Copy Link"`
+  - Native Share: `title="System Share"`
+
+**결론/교훈**: 사용자 경험 및 웹 접근성을 고려하여, 텍스트가 생략되고 아이콘으로만 이루어진 버튼에는 마우스 호버 및 스크린 리더 대응을 위한 `title` 및 `aria-label` 속성을 명확히 적어두는 모범사례를 준수해야 합니다.
+
+---
+
+## Issue 27. 홈페이지 하단 푸터 로고 비표시 및 시인성 저하
+
+**발생 시점**: 푸터 영역 퍼블리싱 확인  
+**현상**: 푸터 배경이 항상 어두운 색상(bg-theme-dark)임에도 불구하고, 로고 이미지가 반전되지 않고 검은색으로 나와 눈에 보이지 않거나 테마 레이아웃 설정이 먹히지 않음.
+
+**원인**:
+1. 테마 파일인 `themes/hugoplate/layouts/_partials/essentials/footer.html`에는 로고 앵커 태그에 `.footer-logo` 클래스가 부여되어 있지 않아, `assets/css/custom.css`에 선언된 로고 이미지 반전 및 너비 제한 코드(`.footer-logo img`)가 전혀 로드되지 못했습니다.
+2. 새로 추가했던 외곽 테두리 효과(`drop-shadow`)가 로고 본래의 색상 표현과 겹쳐 복잡해져 시인성이 도리어 낮아진 부작용이 있었습니다.
+
+**해결**:
+1. 테마의 레이아웃 파일을 복사하여 로컬 경로인 [footer.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/_partials/essentials/footer.html)로 오버라이드 셋업하고, 로고 링크 태그에 `class="navbar-brand inline-block footer-logo"`를 명시적으로 보강했습니다.
+2. [custom.css](file:///Users/gihyunpark/Desktop/jiwumission/assets/css/custom.css) 내의 스타일 규칙을 수정하여 로고 크기를 원래의 2/3 배율인 `100px`로 고정하고, 지저분한 테두리 드롭쉐도우를 삭제한 후 깔끔한 색상 반전 규칙(`filter: invert(1) hue-rotate(180deg);`)만 유지하도록 롤백 및 복원했습니다.
+
+**결론/교훈**: 하위 테마 패키지의 레이아웃에 클래스가 누락되었을 때는 테마 소스를 직접 만지는 대신 로컬 오버라이드 경로(`layouts/`)에 동일하게 생성하여 안전하게 덮어쓰고 제어해야 합니다.
+
+---
+
+## Issue 28. 푸터 영역 소셜 아이콘 개선 (호버 캡션 추가 & 카카오톡 채널 연동)
+
+**발생 시점**: 홈페이지 푸터 소셜 링크 이용성 검증  
+**현상**:
+- 푸터 우측 소셜 링크 아이콘들에 마우스 호버 툴팁(title)이 표시되지 않음.
+- 카카오톡 채널로 바로 1:1 친구추가할 수 있는 아이콘이 푸터에 부재함.
+- FontAwesome Free 버전에는 KakaoTalk 공식 브랜드 아이콘이 누락되어 있어 일반적인 아이콘 클래스로 표현이 불가함.
+
+**원인**: 소셜 링크 정의 파일인 `data/social.json`과 푸터 마크업 템플릿의 설계상 접근성 툴팁 및 커스텀 SVG 브랜드 렌더링에 대한 조건부 분기 처리가 빠져 있었습니다.
+
+**해결**:
+1. [footer.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/_partials/essentials/footer.html)을 수정하여 각 소셜 아이콘 링크에 사용자 친화적 타이틀 필드(`title="{{ if eq .name "x-twitter" }}X{{ else if eq .name "kakaotalk" }}KakaoTalk{{ else }}{{ .name | humanize }}{{ end }}"`)를 연결했습니다.
+2. [social.json](file:///Users/gihyunpark/Desktop/jiwumission/data/social.json)에 카카오톡 1:1 QR 추가용 주소(`http://qr.kakao.com/talk/3qfhqjklc3tn27xz8ahhiktu9m0`)를 `name: "kakaotalk"`, `icon: "kakaotalk"` 규격으로 등록했습니다.
+3. 푸터 템플릿 코드 내에 조건부 분기를 생성하여, `.icon` 값이 `"kakaotalk"`일 때는 FontAwesome `<i>` 태그 대신 카카오톡 공식 로고의 **인라인 SVG 경로**(`viewBox="0 0 24 24"`)가 즉시 렌더링되도록 구현했습니다.
+
+**결론/교훈**: 외부 라이브러리(FontAwesome 등)에 특정 국가/서비스용 브랜드 아이콘이 누락되어 있다면 인라인 SVG 렌더링 분기를 템플릿 단에 보강하여 손쉽게 호환성을 유지할 수 있습니다.
+
+---
+
+## Issue 29. 오늘의 성경 말씀(QT) 공유 기능 부재
+
+**발생 시점**: 메인화면 팝업 말씀 모달 이용성 분석  
+**현상**: 첫 화면 진입 시 노출되는 '오늘의 성경 말씀' 모달 창 내부에서 해당 QT의 고유 URL 주소를 외부 SNS(페이스북, X, 스레드 등)에 전송하거나 주소를 즉시 복사하는 편의 기능이 제공되지 않음.
+
+**원인**: 모달 창의 레이아웃 디자인과 비동기 데이터 로딩 스크립트(`layouts/home.html`) 내에 현재 표시 중인 말씀의 Permalink URL 정보를 보존하고 내보내는 공유 처리 기능이 설계되지 않았습니다.
+
+**해결**:
+1. **마크다운 JSON 데이터 연계**: 각 말씀 페이지의 RESTful JSON 메타데이터 렌더러(`layouts/databank/daily-bible/single.dailybiblejson.txt`)에 `.RelPermalink` 값을 파싱해 주는 `"url"` 필드를 연동시켰습니다.
+2. **모달 푸터 마크업 개편**: [home.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/home.html) 모달 푸터 영역에 5가지 공유 수단(페이스북, X, 인스타그램 링크 복사 가이드, 스레드, 모바일 시스템 공유 API) 버튼 세트를 추가했습니다.
+3. **공유 브릿지 스크립트 구축**: 비동기로 불러오는 말씀의 고유 경로를 `window.location.origin + todayData.url`로 조합하여 전역 변수 `currentLoadedUrl`과 `currentLoadedTitle`에 가공 보관하도록 스크립트를 개선하고, 버튼 클릭 시 이를 활용하여 공유 윈도우를 호출하거나 복사(Clipboard copy)하는 `shareQT(platform)` 함수를 구현하여 `window` 객체에 연계시켰습니다.
+
+**결론/교훈**: 비동기 통신을 통해 화면 내용을 수시로 갈아끼우는 모달 구조에서는, 각 변경 상태(날짜 이동 등)에 연동되는 고유 원천 주소(Permalink)를 메모리 상의 전역 상태 변수로 트래킹하고 있어야만 사용자가 보고 있는 실제 정보와 링크 사이의 불일치 없이 정확한 공유 기능을 배포할 수 있습니다.
 
 ---
 
