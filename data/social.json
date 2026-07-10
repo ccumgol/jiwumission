@@ -19,6 +19,11 @@
       "name": "instagram",
       "icon": "fab fa-instagram",
       "link": "https://www.instagram.com/ccumgol"
+    },
+    {
+      "name": "kakaotalk",
+      "icon": "kakaotalk",
+      "link": "http://qr.kakao.com/talk/3qfhqjklc3tn27xz8ahhiktu9m0"
     }
   ]
 }

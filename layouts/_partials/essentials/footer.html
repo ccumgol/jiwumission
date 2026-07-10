@@ -39,9 +39,16 @@
               <a
                 target="_blank"
                 aria-label="{{ .name }}"
+                title="{{ if eq .name "x-twitter" }}X{{ else if eq .name "kakaotalk" }}KakaoTalk{{ else }}{{ .name | humanize }}{{ end }}"
                 rel="nofollow noopener"
                 href="{{ .link | safeURL }}">
-                <i class="{{ .icon }}"></i>
+                {{ if eq .icon "kakaotalk" }}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle;">
+                    <path d="M12 18.75c-.591 0-1.17-.041-1.732-.12-.562.396-3.813 2.679-4.12 2.722 0 0-.125.049-.232-.014s-.088-.229-.088-.229c.046-.226.549-3.03.882-4.167C4.169 15.019 3 13.064 3 10.875 3 6.529 6.925 3 12 3c5.075 0 9 3.529 9 7.875 0 4.346-3.925 7.875-9 7.875z"/>
+                  </svg>
+                {{ else }}
+                  <i class="{{ .icon }}"></i>
+                {{ end }}
               </a>
             </li>
           {{ end }}
