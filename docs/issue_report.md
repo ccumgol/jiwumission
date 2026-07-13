@@ -601,6 +601,33 @@ chdir: error retrieving current directory: getcwd: cannot access parent director
 
 ---
 
+## Issue 30. 타임존 불일치로 인한 성경 말씀 팝업 모달 오작동 및 IT 뉴스 404 에러
+
+**발생 시점**: 타임존 및 자동 뉴스 빌드 검증 단계  
+**현상**:
+- 해외 타임존(예: 미국 New York)에서 메인 페이지 접속 시 오늘의 성경 말씀(QT) 모달 팝업이 로컬 자정이 아닌 한국 KST 자정(뉴욕 기준 오전 11시/낮 12시)에 맞추어 갱신되면서 하루에 두 번 뜨거나 제 날짜에 뜨지 않는 문제 발생.
+- 메인 헤드라인 하단의 '오늘의 IT 뉴스' 버튼 클릭 시 아직 생성되지 않은 내일 날짜(한국 기준) 링크로 바인딩되어 404 페이지 에러가 발생함.
+
+**원인**:
+1. 메인 화면 JavaScript에서 날짜 계산 시 `getKSTDateString()`을 사용하여 강제로 한국 표준시(KST, UTC+9) 날짜 문자열을 생성했기 때문입니다. 이로 인해 한국 자정 시간대에 해외 사용자 브라우저는 정오를 채 지나지 않았음에도 미래 날짜(`YYYY-MM-DD`)를 반환하게 되었습니다.
+2. '오늘의 IT 뉴스' 주소를 JavaScript에서 dynamic date 기반으로 매핑하여, 빌드되지 않은 뉴스 페이지를 요청하게 됨으로써 404 에러를 발생시켰습니다.
+
+**해결**:
+1. [home.html](file:///Users/gihyunpark/Desktop/jiwumission/layouts/home.html)의 말씀 모달 호출 날짜 획득 로직을 브라우저의 시스템 로컬 데이트를 기준으로 작동하는 `getLocalDateString()`으로 전면 수정했습니다.
+2. 헤더/히어로 영역의 '오늘의 IT 뉴스' 버튼 링크(`hero-btn-news`)는 클라이언트 사이드 자바스크립트 바인딩을 제거하고, Hugo 템플릿 빌드 단계에서 카테고리가 `"매일의 IT뉴스"`인 포스트 중 가장 최신의 빌드 완료된 주소를 추출하도록 정적 앵커 코드로 대체했습니다.
+   ```html
+   {{ $latest_news := index (where site.RegularPages "Params.categories" "intersect" (slice "매일의 IT뉴스")) 0 }}
+   {{ $news_url := "/blog/daily-it-news/" }}
+   {{ if $latest_news }}
+     {{ $news_url = $latest_news.RelPermalink }}
+   {{ end }}
+   <a id="hero-btn-news" class="..." href="{{ $news_url }}">
+   ```
+
+**결론/교훈**: 클라이언트 사이드에서 동적인 날짜 기준으로 REST API성 정적 파일을 호출할 때는 사용자의 브라우저 로컬 타임존 및 하루 주기(`localStorage` 매칭 등)를 세심히 설계해야 합니다. 또한, 빌드 시점 이후에 수시로 생성되는 정적 데이터 주소는 가급적 서버 사이드 Hugo 템플릿에서 직접 빌드 완료된 객체를 쿼리하여 원천적으로 404 링크 에러가 나지 않도록 방지하는 것이 좋습니다.
+
+---
+
 ## 업데이트 가이드
 
 새로운 문제가 발생하면 아래 형식으로 이 파일에 추가해 주세요.
