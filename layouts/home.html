@@ -32,7 +32,12 @@
             <span class="lang-ko"><i class="fas fa-book-open"></i> 오늘의 말씀</span>
             <span class="lang-en"><i class="fas fa-book-open"></i> Today's QT</span>
           </a>
-          <a id="hero-btn-news" class="btn btn-outline-primary py-2.5 px-6 text-sm inline-flex items-center gap-2 font-semibold shadow-sm hover:shadow transition-all" href="/blog/daily-it-news/">
+          {{ $latest_news := index (where site.RegularPages "Params.categories" "intersect" (slice "매일의 IT뉴스")) 0 }}
+          {{ $news_url := "/blog/daily-it-news/" }}
+          {{ if $latest_news }}
+            {{ $news_url = $latest_news.RelPermalink }}
+          {{ end }}
+          <a id="hero-btn-news" class="btn btn-outline-primary py-2.5 px-6 text-sm inline-flex items-center gap-2 font-semibold shadow-sm hover:shadow transition-all" href="{{ $news_url }}">
             <span class="lang-ko"><i class="fas fa-newspaper"></i> 오늘의 IT 뉴스</span>
             <span class="lang-en"><i class="fas fa-newspaper"></i> Today's IT News</span>
           </a>
@@ -283,20 +288,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const hideTodayKey = "daily_bible_hide_today";
   const hideTodayVal = localStorage.getItem(hideTodayKey);
   
-  // 한국 표준시(KST) 기준 YYYY-MM-DD 획득
-  const todayStr = getKSTDateString();
+  // 접속한 사용자 브라우저의 로컬 기준 YYYY-MM-DD 획득
+  const todayStr = getLocalDateString();
   let currentLoadedDate = todayStr;
   let currentLoadedTitle = "";
   let currentLoadedUrl = "";
 
-  // 히어로 영역의 두 버튼에 동적으로 오늘 날짜 링크 바인딩
+  // 히어로 영역의 오늘의 말씀 버튼에 동적으로 오늘 날짜 링크 바인딩
   const bibleBtn = document.getElementById("hero-btn-bible");
-  const newsBtn = document.getElementById("hero-btn-news");
   if (bibleBtn) {
     bibleBtn.href = `/databank/daily-bible/${todayStr}/`;
-  }
-  if (newsBtn) {
-    newsBtn.href = `/blog/daily-it-news/${todayStr}/`;
   }
 
   // 오늘 하루 보지 않기 상태가 아닌 경우 자동으로 오늘 말씀 모달을 불러옴
@@ -326,14 +327,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // KST 시간대 구하기
-  function getKSTDateString() {
-    const localDate = new Date();
-    const utc = localDate.getTime() + (localDate.getTimezoneOffset() * 60000);
-    const kstDate = new Date(utc + (3600000 * 9));
-    const yyyy = kstDate.getFullYear();
-    const mm = String(kstDate.getMonth() + 1).padStart(2, '0');
-    const dd = String(kstDate.getDate()).padStart(2, '0');
+  // 접속한 사용자 브라우저 로컬 시간대의 YYYY-MM-DD 구하기
+  function getLocalDateString() {
+    const d = new Date();
+    const yyyy = d.getFullYear();
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
     return `${yyyy}-${mm}-${dd}`;
   }
 
