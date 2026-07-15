@@ -1,0 +1,68 @@
+# main 브랜치에 push되면 GitHub Actions에서 Hugo로 빌드한 뒤
+# 결과물(public/)을 Cloudflare Pages로 직접 배포합니다.
+# (Cloudflare의 Git 웹훅 연동에 의존하지 않는 방식)
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# 동시에 여러 배포가 겹치지 않도록 (최신 커밋만 배포)
+concurrency:
+  group: "cloudflare-pages-deploy"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.158.0"
+      HUGO_ENVIRONMENT: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install Hugo Extended
+        run: |
+          wget -O "${RUNNER_TEMP}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${RUNNER_TEMP}/hugo.deb"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Project setup (테마 확인, 이미 설정됐으면 no-op)
+        run: pnpm run project-setup
+
+      - name: Build site
+        run: pnpm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=jiwumission --branch=main
