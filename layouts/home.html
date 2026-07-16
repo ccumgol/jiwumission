@@ -69,11 +69,11 @@
 <!-- Jiwu Mission 소개 (About의 첫 섹션) -->
 {{ with .Params.intro }}
 <section class="py-12 pb-6">
-  <div class="container text-center">
-    <div class="row justify-center">
-      <div class="lg:col-8 md:col-10">
+  <div class="container">
+    <div class="row justify-start lg:justify-center">
+      <div class="lg:col-8 md:col-10 border-l-2 border-primary/20 pl-6 md:pl-8">
         <div
-          class="content text-lg font-semibold text-text-dark dark:text-white leading-relaxed">
+          class="content text-lg font-medium text-text-dark dark:text-white leading-relaxed">
           <div class="lang-ko">{{ . | safeHTML }}</div>
           {{ if $.Params.intro_en }}
           <div class="lang-en">{{ $.Params.intro_en | safeHTML }}</div>
@@ -85,55 +85,61 @@
 </section>
 {{ end }}
 
-<!-- Features (세가지 사역 목표 소개 - 3열 카드 레이아웃) -->
+<!-- Features (세가지 사역 목표 소개 - 비대칭 교차 레이아웃) -->
 <section class="section">
   <div class="container">
-    <div class="row justify-center">
-      {{ range .Params.features }}
-      <div class="col-12 md:col-6 lg:col-4 mb-8">
-        <div
-          class="bg-white dark:bg-darkmode-body border border-border dark:border-darkmode-border rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col">
-          <div>
-            {{ if .icon }}
-            <div class="mb-6 flex justify-center text-text-dark dark:text-white">
-              <i class="fas {{ .icon }} text-4xl"></i>
-            </div>
+    <div class="space-y-20 md:space-y-28">
+      {{ range $index, $element := .Params.features }}
+      {{ $isEven := eq (mod $index 2) 0 }}
+      <div class="row items-center justify-between {{ if not $isEven }}flex-row-reverse{{ end }} gap-y-8">
+        <!-- Visual Column -->
+        <div class="col-12 md:col-5 flex flex-col items-start {{ if not $isEven }}md:items-end md:text-right{{ else }}md:items-start md:text-left{{ end }}">
+          {{ if .icon }}
+          <div class="w-16 h-16 rounded-2xl bg-primary/10 dark:bg-primary/20 flex items-center justify-center text-primary text-3xl mb-6 shadow-sm">
+            <i class="fas {{ .icon }}"></i>
+          </div>
+          {{ end }}
+          <div class="text-xs font-mono text-primary/70 dark:text-primary/90 tracking-widest uppercase mb-2">
+            MISSION GOAL 0{{ add $index 1 }}
+          </div>
+          <h3 class="text-2xl md:text-4xl font-secondary font-bold text-text-dark dark:text-white mb-4 leading-tight">
+            <span class="lang-ko">{{ .title | markdownify }}</span>
+            {{ if .title_en }}
+            <span class="lang-en">{{ .title_en | markdownify }}</span>
             {{ end }}
-            <h4 class="text-xl md:text-2xl font-secondary font-bold text-center text-text-dark dark:text-white mb-4">
-              <span class="lang-ko">{{ .title | markdownify }}</span>
-              {{ if .title_en }}
-              <span class="lang-en">{{ .title_en | markdownify }}</span>
-              {{ end }}
-            </h4>
-            <div class="mb-6 text-text-light dark:text-darkmode-text-light text-base leading-relaxed">
-              <p class="lang-ko">{{ .content | markdownify }}</p>
-              {{ if .content_en }}
-              <p class="lang-en">{{ .content_en | markdownify }}</p>
-              {{ end }}
-            </div>
-            
-            <!-- 한글 리스트 -->
-            <ul class="text-left mb-6 lang-ko">
-              {{ range .bulletpoints }}
-              <li class="relative mb-2 pl-6 text-sm text-text-dark dark:text-darkmode-text-light">
-                <i class="fa fa-check absolute left-0 top-1 text-primary text-xs"></i>
-                {{ . | markdownify }}
-              </li>
-              {{ end }}
-            </ul>
-            
-            <!-- 영어 리스트 -->
-            {{ if .bulletpoints_en }}
-            <ul class="text-left mb-6 lang-en">
-              {{ range .bulletpoints_en }}
-              <li class="relative mb-2 pl-6 text-sm text-text-dark dark:text-darkmode-text-light">
-                <i class="fa fa-check absolute left-0 top-1 text-primary text-xs"></i>
-                {{ . | markdownify }}
-              </li>
-              {{ end }}
-            </ul>
+          </h3>
+        </div>
+        
+        <!-- Content Column -->
+        <div class="col-12 md:col-6 text-left">
+          <div class="text-text-light dark:text-darkmode-text-light text-base md:text-lg leading-relaxed mb-6">
+            <p class="lang-ko">{{ .content | markdownify }}</p>
+            {{ if .content_en }}
+            <p class="lang-en">{{ .content_en | markdownify }}</p>
             {{ end }}
           </div>
+          
+          <!-- 한글 리스트 -->
+          <ul class="text-left mb-0 lang-ko space-y-3">
+            {{ range .bulletpoints }}
+            <li class="relative pl-6 text-sm md:text-base text-text-dark dark:text-darkmode-text-light">
+              <i class="fa fa-check absolute left-0 top-1 text-primary text-xs"></i>
+              {{ . | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+          
+          <!-- 영어 리스트 -->
+          {{ if .bulletpoints_en }}
+          <ul class="text-left mb-0 lang-en space-y-3">
+            {{ range .bulletpoints_en }}
+            <li class="relative pl-6 text-sm md:text-base text-text-dark dark:text-darkmode-text-light">
+              <i class="fa fa-check absolute left-0 top-1 text-primary text-xs"></i>
+              {{ . | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
         </div>
       </div>
       {{ end }}
@@ -255,23 +261,23 @@
       <div class="flex items-center gap-2">
         <span class="text-xs font-semibold text-text-light dark:text-darkmode-text-light mr-1">공유:</span>
         <!-- Facebook -->
-        <button onclick="shareQT('facebook')" class="w-8 h-8 rounded-full flex items-center justify-center bg-[#3b5998] hover:bg-[#2d4373] text-white transition-colors focus:outline-none cursor-pointer" title="Facebook에 공유">
+        <button onclick="shareQT('facebook')" class="w-8 h-8 rounded-full border border-border dark:border-darkmode-border text-text-light dark:text-darkmode-text-light hover:text-primary dark:hover:text-darkmode-primary hover:border-primary dark:hover:border-darkmode-primary transition-all duration-200 flex items-center justify-center bg-transparent focus:outline-none cursor-pointer" title="Facebook에 공유">
           <i class="fab fa-facebook-f text-sm"></i>
         </button>
         <!-- X -->
-        <button onclick="shareQT('x')" class="w-8 h-8 rounded-full flex items-center justify-center bg-black hover:bg-zinc-800 text-white transition-colors focus:outline-none cursor-pointer" title="X에 공유">
+        <button onclick="shareQT('x')" class="w-8 h-8 rounded-full border border-border dark:border-darkmode-border text-text-light dark:text-darkmode-text-light hover:text-primary dark:hover:text-darkmode-primary hover:border-primary dark:hover:border-darkmode-primary transition-all duration-200 flex items-center justify-center bg-transparent focus:outline-none cursor-pointer" title="X에 공유">
           <i class="fab fa-x-twitter text-sm"></i>
         </button>
         <!-- Instagram -->
-        <button onclick="shareQT('instagram')" class="w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white transition-colors focus:outline-none cursor-pointer" title="Instagram 링크 복사">
+        <button onclick="shareQT('instagram')" class="w-8 h-8 rounded-full border border-border dark:border-darkmode-border text-text-light dark:text-darkmode-text-light hover:text-primary dark:hover:text-darkmode-primary hover:border-primary dark:hover:border-darkmode-primary transition-all duration-200 flex items-center justify-center bg-transparent focus:outline-none cursor-pointer" title="Instagram 링크 복사">
           <i class="fab fa-instagram text-sm"></i>
         </button>
         <!-- Threads -->
-        <button onclick="shareQT('threads')" class="w-8 h-8 rounded-full flex items-center justify-center bg-black hover:bg-zinc-800 text-white transition-colors focus:outline-none cursor-pointer" title="Threads에 공유">
+        <button onclick="shareQT('threads')" class="w-8 h-8 rounded-full border border-border dark:border-darkmode-border text-text-light dark:text-darkmode-text-light hover:text-primary dark:hover:text-darkmode-primary hover:border-primary dark:hover:border-darkmode-primary transition-all duration-200 flex items-center justify-center bg-transparent focus:outline-none cursor-pointer" title="Threads에 공유">
           <i class="fab fa-threads text-sm"></i>
         </button>
         <!-- Native Share -->
-        <button onclick="shareQT('native')" class="w-8 h-8 rounded-full flex items-center justify-center bg-slate-600 hover:bg-slate-700 text-white transition-colors focus:outline-none cursor-pointer" title="시스템 공유">
+        <button onclick="shareQT('native')" class="w-8 h-8 rounded-full border border-border dark:border-darkmode-border text-text-light dark:text-darkmode-text-light hover:text-primary dark:hover:text-darkmode-primary hover:border-primary dark:hover:border-darkmode-primary transition-all duration-200 flex items-center justify-center bg-transparent focus:outline-none cursor-pointer" title="시스템 공유">
           <i class="fas fa-share-alt text-sm"></i>
         </button>
       </div>

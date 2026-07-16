@@ -19,6 +19,16 @@ cd "$PROJECT_DIR" || { log_message "오류: $PROJECT_DIR 폴더로 이동할 수
 log_message "원격 저장소 상태 동기화 시도 중 (pull --rebase)..."
 $GIT_BIN pull --rebase origin main >> "$LOG_FILE" 2>&1
 
+# 추천 리포지터리 자동 분류 스크립트 실행
+log_message "추천 리포지터리 목록 업데이트 시작..."
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+node scripts/updateRepos.js >> "$LOG_FILE" 2>&1
+if [ $? -eq 0 ]; then
+    log_message "성공: 추천 리포지터리 목록이 정상적으로 업데이트되었습니다."
+else
+    log_message "경고: 추천 리포지터리 목록 업데이트 도중 문제가 발생했습니다."
+fi
+
 # 새로 생성된 파일 또는 수정된 파일이 있는지 검증
 STATUS_OUT=$($GIT_BIN status --porcelain)
 

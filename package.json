@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node scripts/themeGenerator.js && concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --baseURL http://localhost:1313/\"",
     "build": "node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "update-repos": "node scripts/updateRepos.js",
     "preview": "node scripts/themeGenerator.js && hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
     "dev:example": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server -s exampleSite\"",
     "build:example": "cd exampleSite && node ../scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
