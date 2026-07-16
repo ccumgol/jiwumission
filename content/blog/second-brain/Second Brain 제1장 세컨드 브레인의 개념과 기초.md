@@ -1,23 +1,25 @@
 ---
 title: "Second Brain 제1장: 세컨드 브레인의 개념과 기초"
-date: 2025-11-21T01:36:00.000Z
+date: "2025-11-21T01:36:00.000Z"
 author: "Gihyun Park"
-lastmod: 2026-06-13
+lastmod: "2026-07-16"
 summary: "Second Brain 1장: 세컨드 브레인 개념, 필요성, 기본 원칙을 소개하는 챕터."
 description: "Second Brain 1장: 세컨드 브레인 개념, 필요성, 기본 원칙을 소개하는 챕터."
-tags: ["잎새 6호"]
+tags: ["잎새 06호"]
 image: "images/Second-Brain-제1장-세컨드-브레인의-개념과-기초.webp"
 comments: false
-notion_url: https://app.notion.com/p/Second-Brain-1-2b2091c284f68062a19ef0163dd5a6da
-notion_id: 2b2091c2-84f6-8062-a19e-f0163dd5a6da
-categories: ["세컨드브레인"]
+notion_url: "https://app.notion.com/p/Second-Brain-1-2b2091c284f68062a19ef0163dd5a6da"
+notion_id: "2b2091c2-84f6-8062-a19e-f0163dd5a6da"
+Categories: ["세컨드브레인"]
 ---
 
 **영상 개요**
 
-[video](https://youtu.be/1aBn2uFUO0E)
+{{< youtube 1aBn2uFUO0E >}}
 
 **오디오 개요**
+
+[https://open.spotify.com/episode/3X5wu1xU29NM8eXHCWM09f?si=y1u48kpfQU2Ffh3QOLIjKw](https://open.spotify.com/episode/3X5wu1xU29NM8eXHCWM09f?si=y1u48kpfQU2Ffh3QOLIjKw)
 
 # 제1장: 세컨드 브레인의 개념과 기초
 

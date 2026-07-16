@@ -1,21 +1,21 @@
 ---
 title: "Second Brain 제4장: PARA 시스템 완전 가이드"
-date: 2025-11-22T12:07:00.000Z
+date: "2025-11-22T12:07:00.000Z"
 author: "Gihyun Park"
-lastmod: 2026-06-13
+lastmod: "2026-07-16"
 summary: "Second Brain 4장: PARA 시스템(Projects/Areas/Resources/Archives) 구조와 적용법을 정리한 챕터."
 description: "Second Brain 4장: PARA 시스템(Projects/Areas/Resources/Archives) 구조와 적용법을 정리한 챕터."
-tags: ["잎새 8호"]
-image: "images/Second-Brain-제4장-PARA-시스템-완전-가이드.jpg"
+tags: ["잎새 08호"]
+image: "images/Second-Brain-제4장-PARA-시스템-완전-가이드.webp"
 comments: false
-notion_url: https://app.notion.com/p/Second-Brain-4-PARA-2b3091c284f680aa8005e2b0a06d6e76
-notion_id: 2b3091c2-84f6-80aa-8005-e2b0a06d6e76
-categories: ["세컨드브레인"]
+notion_url: "https://app.notion.com/p/Second-Brain-4-PARA-2b3091c284f680aa8005e2b0a06d6e76"
+notion_id: "2b3091c2-84f6-80aa-8005-e2b0a06d6e76"
+Categories: ["세컨드브레인"]
 ---
 
 **영상 개요**
 
-[video](https://youtu.be/u4z7FkpVahg)
+{{< youtube u4z7FkpVahg >}}
 
 # 제4장: PARA 시스템 완전 가이드 – 실행 가능성을 위한 조직화
 
@@ -40,7 +40,7 @@ PARA는 네 개의 카테고리 첫 글자를 딴 약어입니다:
 
 이 네 카테고리는 **실행 가능성의 스펙트럼**을 나타냅니다:
 
-```plain text
+```
 [높은 실행성] → [낮은 실행성]
 Projects > Areas > Resources > Archives
 
@@ -50,7 +50,7 @@ Projects > Areas > Resources > Archives
 
 전통적 방식:
 
-```plain text
+```
 질문: "이 노트는 무엇에 대한 것인가?"
 답변: "마케팅에 관한 것이니까... 비즈니스 > 마케팅 폴더에"
 
@@ -58,7 +58,7 @@ Projects > Areas > Resources > Archives
 
 PARA 방식:
 
-```plain text
+```
 질문: "이 노트를 언제 사용할 것인가?"
 답변: "다음 주 캠페인에 쓸 거니까... Projects > Q4 캠페인에"
 
@@ -146,7 +146,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 1: 업무 프로젝트**
 
-```plain text
+```
 📁 Projects
   📂 Q4 마케팅 캠페인 [11/1 - 12/31]
     📄 프로젝트 개요
@@ -164,7 +164,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 2: 개인 프로젝트**
 
-```plain text
+```
 📁 Projects
   📂 유럽 여행 계획 [준비 중 - 2025년 7월]
     📄 여행 개요 (날짜, 도시, 예산)
@@ -181,7 +181,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 3: 학습 프로젝트**
 
-```plain text
+```
 📁 Projects
   📂 React 마스터하기 [10/1 - 12/31]
     📄 학습 로드맵
@@ -209,7 +209,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **팁 2: 주간 리뷰 시 프로젝트 상태 점검**
 
-```plain text
+```
 매주 일요일 저녁:
 - [ ] 각 프로젝트의 진행 상황 확인
 - [ ] 완료된 프로젝트 → Archives로 이동
@@ -238,7 +238,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **팁 4: 프로젝트 네이밍 컨벤션**
 
-```plain text
+```
 좋은 이름:
 ✅ "고객 온보딩 프로세스 개선 [Q4]"
 ✅ "Python 데이터 분석 강의 수강 [11월]"
@@ -287,7 +287,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 ### 4.3.2 Area의 하위 구조
 
-```plain text
+```
 📁 Areas
   📂 건강 & 피트니스
     📄 운동 루틴
@@ -316,7 +316,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 1: 개인 삶의 Area**
 
-```plain text
+```
 📁 Areas
   📂 건강 & 웰빙
   📂 재정 & 투자
@@ -329,7 +329,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 2: 직장인의 업무 Area**
 
-```plain text
+```
 📁 Areas
   📂 팀 리더십
   📂 제품 개발
@@ -342,7 +342,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 3: 프리랜서의 Area**
 
-```plain text
+```
 📁 Areas
   📂 비즈니스 운영
     📄 클라이언트 관리
@@ -361,7 +361,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 이것이 PARA에서 가장 많이 실수하는 지점입니다. 다음 결정 트리를 사용하세요:
 
-```plain text
+```
 질문 1: "이것이 완료되면 끝나는가?"
   └─ Yes → Project
   └─ No → 질문 2로
@@ -414,7 +414,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **원칙 3: 정기 리뷰**
 
-```plain text
+```
 주간: Projects만 점검 (빠르게)
 월간: Areas 점검 (기준 대비 현재 상태)
 분기: Areas 재정의 (여전히 관련있는가?)
@@ -452,7 +452,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 ### 4.4.2 Resource의 구조
 
-```plain text
+```
 📁 Resources
   📂 생산성 & 시간관리
     📄 GTD 방법론
@@ -485,7 +485,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **소프트웨어 엔지니어:**
 
-```plain text
+```
 📁 Resources
   📂 프로그래밍 언어
     📂 JavaScript
@@ -500,7 +500,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **마케터:**
 
-```plain text
+```
 📁 Resources
   📂 SEO 전략
   📂 소셜 미디어 트렌드
@@ -513,7 +513,7 @@ Projects는 완료되면 Archives로 이동합니다. 고정된 구조가 아닙
 
 **예시 2: 취미 중심 Resource**
 
-```plain text
+```
 📁 Resources
   📂 사진 촬영
     📄 구도 & 조명 팁
@@ -546,7 +546,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **전략 2: Resource → Project 승격**
 
-```plain text
+```
 시나리오:
 "마케팅 전략" Resource를 자주 참고함
 → "소셜 미디어 마케팅 마스터하기" Project 생성
@@ -567,7 +567,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **팁 1: 품질 > 양**
 
-```plain text
+```
 ❌ 나쁜 습관:
 - 모든 기사를 "나중에 읽기"
 - 500+ 읽지 않은 저장 항목
@@ -588,7 +588,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **팁 3: 자신의 해석 추가**
 
-```plain text
+```
 ❌ 단순 저장:
 "10 Productivity Tips - [URL]"
 
@@ -622,7 +622,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **방법 1: 날짜 기반**
 
-```plain text
+```
 📁 Archives
   📂 2025
     📂 Q1
@@ -637,7 +637,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **방법 2: 원본 구조 유지**
 
-```plain text
+```
 📁 Archives
   📂 Projects
     📂 [완료] Q3 마케팅 캠페인
@@ -664,7 +664,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **전략 3: 정기 청소**
 
-```plain text
+```
 분기별 또는 연간:
 - 2년 이상 된 Archives 검토
 - 정말 다시 볼 가능성 있나?
@@ -675,7 +675,7 @@ Resource를 12개월 동안 한 번도 사용하지 않았다면:
 
 **전략 4: "프로젝트 사후 검토"**
 
-```plain text
+```
 Project를 Archive로 이동하기 전:
 
 📄 프로젝트 회고
@@ -717,7 +717,7 @@ Project를 Archive로 이동하기 전:
 
 새 노트/파일을 받았을 때:
 
-```plain text
+```
 START
   ↓
 질문 1: "이게 현재 진행 중인 프로젝트와 관련있나?"
@@ -752,7 +752,7 @@ START
 
 **해결:**
 
-```plain text
+```
 📁 Areas
   📂 기술 역량 개발
     📄 학습 로드맵
@@ -785,7 +785,7 @@ START
 
 **해결:**
 
-```plain text
+```
 📁 Areas
   📂 팀 관리
     📄 주간 팀 미팅 (최근 4주만 유지)
@@ -809,7 +809,7 @@ START
 
 결정 프로세스:
 
-```plain text
+```
 1. "지금 진행 중인 프로젝트에 직접 쓸 수 있나?"
    Yes → Projects로
    No → 2번으로
@@ -828,7 +828,7 @@ START
 
 **업무 관련:**
 
-```plain text
+```
 Projects: 진행 중인 업무 프로젝트
 Areas: 직무, 팀 관리, 전문성 개발
 Resources: 업계 지식, 도구 사용법, 베스트 프랙티스
@@ -837,7 +837,7 @@ Resources: 업계 지식, 도구 사용법, 베스트 프랙티스
 
 **개인 개발:**
 
-```plain text
+```
 Projects: 구체적 학습 목표 (코스, 자격증)
 Areas: 건강, 재정, 관계
 Resources: 자기계발 콘텐츠, 영감
@@ -846,7 +846,7 @@ Resources: 자기계발 콘텐츠, 영감
 
 **창작 활동:**
 
-```plain text
+```
 Projects: 진행 중인 블로그, 영상, 책
 Areas: 콘텐츠 전략, 오디언스 관리
 Resources: 아이디어, 사례 연구, 템플릿
@@ -859,7 +859,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 증상:
 
-```plain text
+```
 📁 Projects (50개)
   📂 운동하기
   📂 영어 공부
@@ -872,7 +872,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 해결:
 
-```plain text
+```
 📁 Areas
   📂 건강 & 피트니스
   📂 언어 학습
@@ -889,7 +889,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 증상:
 
-```plain text
+```
 📁 Resources (200개 폴더)
   📂 흥미로운 것들
   📂 나중에 읽기
@@ -900,7 +900,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 해결:
 
-```plain text
+```
 주간 리뷰 시:
 - Resources 정리 15분
 - 12개월 동안 안 본 것 → 삭제 검토
@@ -912,7 +912,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 증상:
 
-```plain text
+```
 📁 Projects (30개)
   📂 [완료] 2023년 프로젝트들...
   📂 [완료] 2022년 프로젝트들...
@@ -922,7 +922,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 해결:
 
-```plain text
+```
 완료 즉시 Archive:
 - Project 완료 → 바로 Archive로
 - 작업 공간 깔끔하게 유지
@@ -936,7 +936,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 해결:
 
-```plain text
+```
 2초 규칙:
 - 2초 안에 직관적으로 결정
 - 틀려도 괜찮음 (나중에 옮기면 됨)
@@ -952,7 +952,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 **구조:**
 
-```plain text
+```
 🏠 Home
   📁 Projects
   📁 Areas
@@ -965,7 +965,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 **Projects Database:**
 
-```plain text
+```
 컬럼:
 - Name (제목)
 - Status (Not Started, In Progress, Completed)
@@ -978,7 +978,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 **템플릿 버튼:**
 
-```plain text
+```
 "New Project" 버튼 클릭 →
   자동으로 다음 생성:
   - 프로젝트 개요 페이지
@@ -992,7 +992,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 **폴더 구조:**
 
-```plain text
+```
 📁 Vault
   📁 1-Projects
     📁 Q4 Marketing Campaign
@@ -1033,7 +1033,7 @@ Resources: 아이디어, 사례 연구, 템플릿
 
 **단순 폴더 방식:**
 
-```plain text
+```
 Projects
   ├─ Q4 Marketing
   ├─ Website Redesign
@@ -1050,7 +1050,7 @@ Archives
 
 **태그 활용:**
 
-```plain text
+```
 모든 노트에 태그:
 #project #area #resource #archive
 
@@ -1063,7 +1063,7 @@ Archives
 
 **다중 도구 사용 시:**
 
-```plain text
+```
 Notion: Project 관리 (협업, 복잡한 프로젝트)
 Obsidian: 개인 지식 (깊은 사고, 연결)
 Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
@@ -1072,7 +1072,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **동기화 전략:**
 
-```plain text
+```
 1. 빠른 캡처는 모바일 앱
 2. 매일 저녁 15분: Inbox 정리
 3. 주말 30분: 전체 PARA 리뷰
@@ -1087,7 +1087,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **아침 (5분):**
 
-```plain text
+```
 1. Projects 대시보드 열기
 2. 오늘 집중할 프로젝트 2개 선택
 3. 각 프로젝트의 "다음 행동" 확인
@@ -1097,7 +1097,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **하루 중:**
 
-```plain text
+```
 - 새 정보 발견 시 → 즉시 관련 Project/Area로 저장
 - 빠른 메모는 Inbox → 저녁에 분류
 - 프로젝트 작업 시 노트 업데이트
@@ -1106,7 +1106,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **저녁 (10분):**
 
-```plain text
+```
 1. Inbox 비우기
    - 각 항목을 Projects/Areas/Resources로 분류
 2. 오늘 완료한 작업 체크
@@ -1118,7 +1118,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **매주 일요일 저녁:**
 
-```plain text
+```
 1. Projects 점검 (15분)
    - 각 프로젝트 진행 상황
    - 완료된 것 → Archives
@@ -1140,7 +1140,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **매월 마지막 일요일:**
 
-```plain text
+```
 1. Areas 심층 검토 (30분)
    - 각 Area별 상태 평가
    - 목표 대비 현재 위치
@@ -1162,7 +1162,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **분기마다:**
 
-```plain text
+```
 1. Archives 정리
    - 2년+ 된 것 검토 및 삭제
    - 재사용 가능한 템플릿 추출
@@ -1192,7 +1192,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 **반복되는 프로젝트 유형:**
 
-```plain text
+```
 템플릿 1: 클라이언트 프로젝트
   📄 프로젝트 Brief
   📄 타임라인 & 마일스톤
@@ -1212,7 +1212,7 @@ Apple Notes: 빠른 캡처 → 매일 Notion으로 이동
 
 ### 4.9.2 태그 시스템과 PARA 결합
 
-```plain text
+```
 PARA 폴더 + 태그로 다차원 분류:
 
 파일 위치: Projects > Q4 Marketing
@@ -1226,7 +1226,7 @@ PARA 폴더 + 태그로 다차원 분류:
 
 ### 4.9.3 "Someday/Maybe" 활용
 
-```plain text
+```
 📁 Projects
   📂 [활성] 진행 중...
   📂 [대기] Someday Maybe
@@ -1241,7 +1241,7 @@ PARA 폴더 + 태그로 다차원 분류:
 
 ### 4.9.4 연결과 백링크 활용
 
-```plain text
+```
 Obsidian 예시:
 
 Projects > Q4 Marketing 페이지에서:
@@ -1262,7 +1262,7 @@ Projects > Q4 Marketing 페이지에서:
 
 **현재 상태 평가:**
 
-```plain text
+```
 1. 현재 폴더/노트 시스템 스크린샷
 2. 주요 카테고리 목록 작성
 3. 가장 자주 찾는 것 식별
@@ -1274,7 +1274,7 @@ Projects > Q4 Marketing 페이지에서:
 
 **Week 1: PARA 빼대 만들기**
 
-```plain text
+```
 - 4개 최상위 폴더/페이지 생성
 - 새로운 것은 무조건 PARA로
 - 기존 것은 그대로 (아직)
@@ -1283,7 +1283,7 @@ Projects > Q4 Marketing 페이지에서:
 
 **Week 2-3: 활성 항목 이동**
 
-```plain text
+```
 - 현재 작업 중인 프로젝트 → Projects
 - 매일 관리하는 것 → Areas
 - 점진적으로 이동, 완벽 추구 X
@@ -1292,7 +1292,7 @@ Projects > Q4 Marketing 페이지에서:
 
 **Week 4+: 점진적 정리**
 
-```plain text
+```
 - 필요할 때마다 기존 파일을 PARA로
 - "Big Bang" 마이그레이션 하지 말 것
 - 3개월 후 남은 것은 Archive 또는 삭제

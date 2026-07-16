@@ -1,21 +1,21 @@
 ---
 title: "Second Brain 제2장: CODE 시스템"
-date: 2025-11-27T16:32:00.000Z
+date: "2025-11-27T16:32:00.000Z"
 author: "Gihyun Park"
-lastmod: 2026-06-13
+lastmod: "2026-07-16"
 summary: "Second Brain 2장: CODE 시스템(Capture/Organize/Distill/Express) 구조와 적용법을 정리한 챕터."
 description: "Second Brain 2장: CODE 시스템(Capture/Organize/Distill/Express) 구조와 적용법을 정리한 챕터."
-tags: ["잎새 7호"]
-image: "images/Second-Brain-제2장-CODE-시스템.jpg"
+tags: ["잎새 07호"]
+image: "images/Second-Brain-제2장-CODE-시스템.webp"
 comments: false
-notion_url: https://app.notion.com/p/Second-Brain-2-CODE-2b8091c284f68071aef9ffbe0947b6c1
-notion_id: 2b8091c2-84f6-8071-aef9-ffbe0947b6c1
-categories: ["세컨드브레인"]
+notion_url: "https://app.notion.com/p/Second-Brain-2-CODE-2b8091c284f68071aef9ffbe0947b6c1"
+notion_id: "2b8091c2-84f6-8071-aef9-ffbe0947b6c1"
+Categories: ["세컨드브레인"]
 ---
 
 **동영상 개요**
 
-[video](https://youtu.be/I92rpUGLdKI)
+{{< youtube I92rpUGLdKI >}}
 
 # 제2장: CODE 시스템 - 지식 관리의 4단계
 
