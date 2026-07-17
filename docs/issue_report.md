@@ -2,7 +2,7 @@
 
 > **목적**: 제작 과정에서 만난 문제들과 해결 방법, 의사결정의 맥락을 기록한다.
 > **독자**: 이 사이트를 관리하거나 교육받는 사람
-> **최종 수정**: 2026-07-07
+> **최종 수정**: 2026-07-17
 
 ---
 
@@ -39,6 +39,11 @@
 | 27 | 홈페이지 하단 푸터 로고 비표시 및 크기 불일치 | 테마 레이아웃 클래스 누락 및 다크모드/라이트모드 시인성 저하 |
 | 28 | 푸터 영역 소셜 아이콘 개선 | 소셜 아이콘 호버 캡션 부재 및 카카오톡 비표준 아이콘 렌더링 한계 |
 | 29 | 오늘의 성경 말씀(QT) 공유 기능 부재 | 팝업 모달 내부에 포스트 개별 URL 공유 기능 누락 |
+| 30 | 타임존 불일치 — QT 팝업 오작동 & IT뉴스 404 | 클라이언트에서 KST 강제 날짜 계산 |
+| 31 | Cloudflare↔GitHub 연결 끊김으로 자동 배포 중단 | Pages의 Git 웹훅/GitHub App 연결 해제 |
+| 32 | GitHub Actions 배포 스텝 실패 (wrangler 설치) | pnpm 워크스페이스 루트 추가 차단 |
+| 33 | 성경개론↔QT 자동 링크 시 문서 구조 불일치 | 섹션 제목·경계·시편 항목 형식 상이 |
+| 34 | Canva 반응형 email 하이퍼링크 URL 자동 변경 불가 | 반응형 페이지 편집 API 제약 |
 
 ---
 
@@ -625,6 +630,97 @@ chdir: error retrieving current directory: getcwd: cannot access parent director
    ```
 
 **결론/교훈**: 클라이언트 사이드에서 동적인 날짜 기준으로 REST API성 정적 파일을 호출할 때는 사용자의 브라우저 로컬 타임존 및 하루 주기(`localStorage` 매칭 등)를 세심히 설계해야 합니다. 또한, 빌드 시점 이후에 수시로 생성되는 정적 데이터 주소는 가급적 서버 사이드 Hugo 템플릿에서 직접 빌드 완료된 객체를 쿼리하여 원천적으로 404 링크 에러가 나지 않도록 방지하는 것이 좋습니다.
+
+---
+
+## Issue 31. Cloudflare ↔ GitHub 연결 끊김으로 자동 배포 중단
+
+**발생 시점**: 2026년 7월 중순, `git push` 후 사이트가 갱신되지 않음
+**현상**:
+- `main`에 push해도 사이트(`jesusiswith.us`)가 바뀌지 않음
+- 새로 올린 글·이미지가 라이브에서 **404**
+- 확인 결과 **마지막 실제 배포가 7월 9일에서 멈춰 있었음**
+
+**진단 (gh CLI로 GitHub 쪽 상태 확인)**:
+```bash
+gh api repos/ccumgol/jiwumission/hooks            # → []  (웹훅이 0개 = 연결 끊김)
+gh api repos/ccumgol/jiwumission/commits/main/status  # → state: pending, 체크 0개
+```
+- 저장소 웹훅이 **하나도 없음**, 최근 커밋에 어떤 빌드 체크도 붙지 않음, GitHub Deployments도 7/9 이후 기록 없음.
+
+**원인**: Cloudflare Pages의 **Git 연동(Cloudflare Pages GitHub App / 웹훅)이 끊겨** 저장소 웹훅이 제거된 상태. 이 경우 push가 도달해도 Cloudflare가 감지·빌드하지 못함. 기존 Pages 프로젝트에서 Git을 재연결하는 것은 Cloudflare 대시보드에서 잘 되지 않는 경우가 많음(GitHub 인증/권한 단계에서 막힘).
+
+**해결**: 웹훅에 의존하지 않는 **GitHub Actions 배포 방식으로 전환**.
+1. `.github/workflows/deploy-cloudflare.yml` 추가 — GitHub Actions가 Hugo로 빌드 후 `wrangler`로 Cloudflare Pages에 직접 업로드.
+2. GitHub 저장소 Secrets 2개 등록: `CLOUDFLARE_API_TOKEN`(Pages Edit 권한), `CLOUDFLARE_ACCOUNT_ID`.
+3. push하면 Actions가 자동으로 빌드·배포. (급할 때 로컬에서 `pnpm run build` 후 `npx wrangler pages deploy public`로 수동 배포도 가능)
+
+**결론/교훈**: 웹훅 기반 자동 연동은 어느 순간 **조용히 끊겨도 알기 어렵습니다**. 배포 설정이 저장소 안 파일(yaml)로 남고 로그가 투명한 **GitHub Actions 방식이 더 견고**합니다. 방식별 상세 비교와 따라하기는 [docs/github-actions-deploy.md](file:///Users/gihyunpark/Desktop/jiwumission/docs/github-actions-deploy.md) 참고.
+
+---
+
+## Issue 32. GitHub Actions 배포 스텝 실패 — wrangler 설치 충돌
+
+**발생 시점**: GitHub Actions 배포 워크플로우 첫 실행
+**현상**: 빌드까지는 모두 성공했으나 마지막 **배포 스텝에서만 실패**
+```
+ERR_PNPM_ADDING_TO_ROOT  Running this command will add the dependency to the workspace root...
+##[error]🚨 Action failed
+```
+
+**원인**: 처음엔 공식 `cloudflare/wrangler-action`을 사용했는데, 이 액션이 wrangler를 `pnpm add wrangler`로 설치하려 함. 그런데 이 저장소는 **pnpm 워크스페이스**(`pnpm-workspace.yaml`)라, pnpm이 "워크스페이스 루트에 패키지를 함부로 추가하지 말라"는 보호장치(`ERR_PNPM_ADDING_TO_ROOT`)로 설치를 거부함.
+
+**해결**: `wrangler-action` 대신 **`npx`로 wrangler를 직접 실행**하도록 배포 스텝 교체.
+```yaml
+- name: Deploy to Cloudflare Pages
+  run: npx --yes wrangler@3 pages deploy public --project-name=jiwumission --branch=main
+  env:
+    CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+```
+`npx`는 패키지를 워크스페이스에 추가하지 않고 임시로 받아 실행하므로 충돌이 없음.
+
+**결론/교훈**: pnpm 워크스페이스로 구성된 저장소에서는 일부 GitHub Action의 "자동 패키지 설치"가 워크스페이스 규칙과 충돌할 수 있습니다. 이럴 땐 `npx <도구> ...`로 직접 실행하는 편이 안전합니다.
+
+---
+
+## Issue 33. 성경개론 ↔ 매일 QT 자동 링크 시 문서 구조 불일치
+
+**발생 시점**: 개론(`bible-overview`)의 '내용구분'에 QT(`daily-bible`) 링크를 자동 삽입하는 스크립트 작성 시
+**현상**: 첫 실행에서 **창세기 0건 연결, 시편 누락, 이사야 대량 누락** 등 매칭 실패가 다수 발생.
+
+**원인** (책마다 문서 구조가 달랐음):
+1. **섹션 제목 상이**: 대부분 "각 장 및 문단의 내용 정리"인데 시편만 "각 장의 내용 요약".
+2. **경계 오인식(창세기)**: 내용구분 안에 `### 원시사`, `### 족장사` 소제목이 섹션 제목(`### 4. ...`)과 **같은 헤딩 레벨**이라, 섹션 범위가 첫 소제목에서 잘려 항목을 못 읽음.
+3. **항목 형식 상이(시편)**: `- 시편 N편:` 처럼 장 단위 표기라 `장:절` 파서로 못 잡음.
+4. **세분화 수준 차이**: 창세기·요한복음·이사야는 절 단위, 시편은 편(장) 단위.
+5. **미발행 QT 제외**: 이사야(40~66장 등)처럼 아직 발행 안 된(draft) QT는 대상에서 제외됨 → 이는 깨진 링크 방지를 위한 **정상 동작**.
+
+**해결**: 매칭 스크립트를 보완.
+- 섹션 제목 정규식 유연화(`내용 정리|내용 요약`)
+- 섹션 끝을 "번호 매김 제목 또는 참고/특징 등 상위 섹션 키워드"로 판단(원시사·제N권 같은 소제목은 건너뜀)
+- 시편 `N편` 형식 파싱 추가
+- 각 QT를 **시작 절이 속한 '가장 좁은 항목'에만** 배정(중복 없음)
+- `draft:false`(발행분)만 링크 → 깨진 링크 방지
+- **idempotent**: 재실행해도 중복되지 않음
+- 결과: 개론 8권에 **300개 링크** 적용. 스크립트: [scripts/link_qt_to_overview.py](file:///Users/gihyunpark/Desktop/jiwumission/scripts/link_qt_to_overview.py)
+
+**결론/교훈**: 여러 문서를 자동 처리할 때는 제목·헤딩 레벨·항목 표기의 **변형을 폭넓게 수용**하도록 설계하고, 발행 상태를 필터해 **깨진 링크가 생기지 않게** 해야 합니다. QT가 더 발행되면 스크립트를 다시 돌리면 링크가 자동 확장됩니다.
+
+---
+
+## Issue 34. Canva 반응형 email 디자인의 하이퍼링크 URL 자동 변경 불가
+
+**발생 시점**: Canva 커넥터로 '잎새' 소식지(뉴스레터, 39호)를 편집할 때
+**현상**: 제목·본문 텍스트 교체와 이미지 교체는 API로 되는데, **특집 글 제목 등에 걸린 하이퍼링크의 URL은 바꿀 수 없음**(텍스트만 바뀌고 링크는 예전 주소 유지).
+
+**원인**: 잎새 디자인이 **반응형(email) 페이지**라, Canva 편집 API가 반응형 페이지에서 허용하는 작업이 `update_title / replace_text / find_and_replace_text / update_fill / delete_element`로 제한됨. 링크 지정에 필요한 `format_text(link)`는 반응형 페이지에서 **미지원**.
+
+**해결/우회**:
+- 텍스트·요약·본문은 API로 자동 교체하고, **하이퍼링크 URL 교체만 Canva 편집기에서 수동**으로 처리.
+- 새 호를 만들 때는 지난 호를 복제(copy) 후 텍스트·이미지를 갈아끼우고 링크만 손보는 흐름이 가장 안전.
+
+**결론/교훈**: Canva 반응형 email의 자동 편집은 **텍스트·이미지 위주**로 가능하며, 링크 URL 변경은 수동 보완이 필요합니다. (잎새 소식지 제작 절차는 manual.md 참고)
 
 ---
 
