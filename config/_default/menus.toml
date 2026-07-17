@@ -115,7 +115,7 @@ hasChildren = true
 
   [[main]]
   parent = "Databank"
-  name = "말씀카드"
+  name = "이슬비카드"
   url = "/databank/rain-card/"
   weight = 2
 

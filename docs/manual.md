@@ -2,7 +2,7 @@
 
 > **대상 독자**: 정적 홈페이지를 처음 접하는 초보자
 > **목적**: 이 사이트가 어떻게 만들어졌는지, 앞으로 어떻게 관리하면 되는지를 이해한다.
-> **최종 수정**: 2026-07-07
+> **최종 수정**: 2026-07-17
 
 ---
 
@@ -419,6 +419,103 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
   1. 즉시 로컬 소스 코드에서 해당 키 값을 지운 뒤 새로 커밋하여 push합니다.
   2. **가장 중요**: 이미 Git 과거 히스토리상에 흔적이 영구 보존된 상태이므로, **해당 API를 제공하는 공급업체 콘솔(예: Google Cloud Console)에 즉시 로그인하셔서 해당 키를 폐기(Delete/Revoke)하거나 재생성**해야만 요금 도용 등의 실제 리스크를 소멸시킬 수 있습니다.
   3. GitHub Web에 남아있는 경고 알림은 **Security > Secret scanning** 탭에서 **[Close alert]**를 누른 뒤 `False positive` 또는 `Revoked`를 선택해 비활성화 처리하십시오.
+
+---
+
+## 15. 배포 방식 두 가지 — Cloudflare 웹훅 vs GitHub Actions
+
+이 사이트는 **어느 방식이든 최종적으로 Cloudflare Pages가 사이트를 서빙**합니다. 차이는 "누가 빌드하고 누가 Cloudflare에 올리느냐"뿐입니다.
+
+| 방식 | 동작 | 특징 |
+|---|---|---|
+| **① Cloudflare 웹훅(네이티브)** | push → Cloudflare가 감지해 직접 빌드·배포 (§12) | 설정 쉬움. 단, GitHub App/웹훅 연결이 끊기면 조용히 멈출 수 있음 |
+| **② GitHub Actions** | push → GitHub이 빌드 → `wrangler`로 Cloudflare Pages에 업로드 | 설정이 저장소 파일로 남아 안정적·투명. 웹훅에 의존 안 함 |
+
+### GitHub Actions 방식 (`.github/workflows/deploy-cloudflare.yml`)
+- 필요한 것: GitHub 저장소 **Secrets 2개**
+  - `CLOUDFLARE_API_TOKEN` (Cloudflare → My Profile → API Tokens → **Cloudflare Pages: Edit** 권한)
+  - `CLOUDFLARE_ACCOUNT_ID` (대시보드 우측 사이드바 / 주소창의 계정 ID)
+  - 등록: `gh secret set CLOUDFLARE_API_TOKEN` / `gh secret set CLOUDFLARE_ACCOUNT_ID`
+- push하면 GitHub **Actions 탭**에서 빌드·배포 진행 상황을 볼 수 있습니다(초록 체크 = 성공).
+- 급할 때 수동 배포: `pnpm run build` 후 `npx wrangler pages deploy public --project-name=jiwumission`
+
+> 📘 **두 방식의 상세 비교·따라하기·트러블슈팅**은 [docs/github-actions-deploy.md](file:///Users/gihyunpark/Desktop/jiwumission/docs/github-actions-deploy.md)에 별도로 정리되어 있습니다. (2026-07 기준, 웹훅 연결이 끊긴 이력이 있어 GitHub Actions 방식을 마련해 두었습니다 — [issue_report.md](file:///Users/gihyunpark/Desktop/jiwumission/docs/issue_report.md) Issue 31~32 참고)
+
+---
+
+## 16. 성경개론(Databank)과 매일 QT 자동 링크
+
+`databank/bible-overview`의 성경개론 66권에는 **'각 장 및 문단의 내용 정리'(내용구분)** 섹션이 있습니다. 이 항목들에서 해당 본문의 **매일 QT(`databank/daily-bible`)로 바로 이동하는 링크**를 자동으로 붙일 수 있습니다.
+
+### 사용법
+저장소 루트에서 아래 한 줄을 실행합니다.
+```bash
+python3 scripts/link_qt_to_overview.py
+```
+- QT 파일의 `book`·`passage`·`date` 정보를 읽어, 개론 내용구분 항목 중 **본문이 속한 가장 좁은 항목**에 링크를 붙입니다.
+- 링크 형식: `- 1:1-31 6일간의 창조  · 📖 [1:1-13](/databank/daily-bible/2026-01-01/) [1:14-25](...)`
+
+### 특징 (알아두면 좋은 점)
+- **발행된 QT만** 링크합니다(미발행 draft 제외) → 깨진 링크가 생기지 않습니다.
+- **재실행해도 중복되지 않습니다(idempotent)**. QT가 더 발행되면 **다시 실행만** 하면 링크가 자동으로 채워집니다.
+- QT가 있는 책(창세기·요한복음·사사기·고린도전서·시편·이사야·고린도후서·야고보서 등)만 처리합니다.
+
+---
+
+## 17. 잎새 소식지(뉴스레터) 제작 — Canva 연동
+
+매주 발행하는 '잎새' 소식지는 **Canva의 email 디자인**으로 제작합니다. Claude의 Canva 커넥터를 이용하면 지난 호를 바탕으로 새 호를 빠르게 만들 수 있습니다.
+
+### 새 호 만드는 흐름
+1. **지난 호 복제** (예: 38호 → 39호 초안) 후 제목·인사말의 호수 변경
+2. 이번 주 **사이트 발행 글**로 각 섹션 교체 — 특집, 주간 AI 트렌드(최신 주차), Affinity(다음 강), 성경 자료 등의 제목·요약·URL을 넣음
+3. **대표 이미지(썸네일)** 교체
+4. Canva에서 검토 후 발송(발송은 기존 방식대로 직접)
+
+### 주의 (제약)
+- 잎새는 **반응형(email) 디자인**이라, 커넥터/자동화로는 **하이퍼링크 URL을 바꿀 수 없습니다**(텍스트·이미지 교체는 가능). 따라서 **글 제목에 걸린 링크 주소 교체는 Canva 편집기에서 수동**으로 해야 합니다. (자세한 배경: [issue_report.md](file:///Users/gihyunpark/Desktop/jiwumission/docs/issue_report.md) Issue 34)
+- 사이트에 아직 배포되지 않은 새 글의 링크·이미지는 열리지 않으므로, **배포가 끝난 뒤** 뉴스레터에 넣는 것이 안전합니다.
+
+---
+
+## 18. 추천 GitHub 리포지터리 자동 분류 및 갱신
+
+IT 뉴스(`content/blog/daily-it-news/*.md`)에서 매일 발행하는 리포지터리 추천 건을 추출하여 [자료실 ➡️ 추천 GitHub 리포지터리](file:///Users/gihyunpark/Desktop/jiwumission/content/databank/pds/github-repos.md) 문서에 카테고리별로 자동 분류 및 요약 한 줄 설명을 추가해 주는 기능입니다.
+
+### 동작 원리 및 사용법
+1. **수동 실행**:
+   저장소 루트에서 다음 명령을 실행하면 즉시 뉴스 본문을 스캔하여 신규 리포지터리 정보를 파싱 및 추가합니다.
+   ```bash
+   pnpm run update-repos
+   ```
+2. **자동 실행 (스케줄러)**:
+   로컬 Mac의 백그라운드 일일 배포 프로세스(`auto_push.sh` 및 `~/.scripts/auto_push.sh`)에 이 스크립트 실행이 포함되어 있어, 매일 밤 23:30에 자동으로 수집·빌드되어 Git에 푸시됩니다.
+
+---
+
+## 19. 이슬비카드(말씀카드) 및 성경개론 관리
+
+### 이슬비카드 (구 말씀카드)
+- **위치**: `content/databank/rain-card/`
+- **글로벌 메뉴**: `Databank ➡️ 이슬비카드` 메뉴로 연결되며 각 말씀카드를 이미지 및 텍스트 형태로 목록화합니다.
+- **수정**: 파일의 카테고리(`categories: ["이슬비전도카드", "말씀카드"]`) 및 정적 빌드 구조가 유지되어 있으며, 글로벌 메뉴 및 내부 인덱스 제목이 기존 '말씀카드'에서 '이슬비카드'로 단일 동기화되었습니다.
+
+### 성경개론
+- **위치**: `content/databank/bible-overview/`
+- **정렬 방식**: 성경 66권이 창세기(1)부터 요한계시록(66)까지 순서대로 정렬되도록 Frontmatter에 `weight: [성경 순번]`을 부여했습니다.
+- **글로벌 메뉴**: `Databank ➡️ 성경개론` (주소: `/databank/bible-overview/`) 메뉴로 등록되어 있습니다.
+- **본문 정제**: 성경 본문 위키 링크 및 작업 언어 콜아웃 안내 문구가 일괄 제거되어 깔끔한 정적 페이지 본문만 노출됩니다.
+
+---
+
+## 20. 어드민 페이지(Admin Panel) 및 방문자 통계 설정
+
+브라우저상에서 작동하는 관리자 패널(`static/admin/index.html`)에는 사이트 방문자 수 및 행동 패턴을 분석하는 구글 애널리틱스 4(GA4) 및 Looker Studio 연동용 통계 기능이 탑재되어 있습니다.
+
+### 설정 방법
+1. **어드민 패널 ➡️ 방문자 통계** 탭으로 이동합니다.
+2. **Google Tag Manager ID** (또는 GA4 측정 ID)를 입력하고, 구글 Looker Studio에서 임베드한 보고서의 **공유 임베드 URL** 주소를 입력합니다.
+3. `통계 설정 저장하기` 버튼을 누르면 설정 파일(`config/_default/params.toml`)에 정보가 즉시 저장 및 커밋되며, 배포 완료 후 어드민 페이지 내부에서 바로 방문자 수 통계 차트가 출력됩니다.
 
 
 

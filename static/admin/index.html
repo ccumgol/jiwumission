@@ -100,7 +100,7 @@
             
             <div>
               <label class="block text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">Personal Access Token (PAT)</label>
-              <input type="password" id="github-token" placeholder="github_pat_..." class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
+              <input type="password" id="github-token" autocomplete="current-password" placeholder="github_pat_..." class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#E53935] transition text-sm">
             </div>
             
             <button id="login-btn" class="w-full bg-[#E53935] hover:bg-[#c62828] text-white font-semibold py-3 rounded-lg transition accent-glow flex items-center justify-center space-x-2">
@@ -153,6 +153,9 @@
               </button>
               <button onclick="switchTab('tab-content')" id="btn-tab-content" class="tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-semibold transition text-zinc-400 hover:bg-zinc-900 hover:text-white">
                 <i class="fa-solid fa-folder-open mr-2 w-5 text-center"></i> 콘텐츠 관리자
+              </button>
+              <button onclick="switchTab('tab-analytics')" id="btn-tab-analytics" class="tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-semibold transition text-zinc-400 hover:bg-zinc-900 hover:text-white">
+                <i class="fa-solid fa-chart-line mr-2 w-5 text-center"></i> 방문자 통계
               </button>
             </div>
             
@@ -362,6 +365,40 @@
                 <div id="content-tree" class="space-y-1"></div>
               </div>
             </div>
+
+            <!-- Tab 5: Analytics -->
+            <div id="tab-analytics" class="tab-content hidden glass rounded-xl p-6 md:p-8 space-y-6">
+              <h2 class="text-lg font-bold text-white border-b border-zinc-800 pb-3">
+                <i class="fa-solid fa-chart-line mr-2 text-[#E53935]"></i> 방문자 통계 (Google Looker Studio)
+              </h2>
+              
+              <!-- GA4 / GTM Configuration Section -->
+              <div class="bg-zinc-950/40 p-5 rounded-xl border border-zinc-900 space-y-4">
+                <h3 class="text-sm font-bold text-white"><i class="fa-solid fa-gear mr-2 text-zinc-400"></i> 통계 설정</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Google Tag Manager ID</label>
+                    <input type="text" id="cfg-gtm-id" class="w-full bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-white focus:outline-none focus:border-[#E53935] text-sm" placeholder="GTM-XXXXXXX">
+                  </div>
+                  <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Looker Studio 공유 임베드 URL</label>
+                    <input type="text" id="cfg-analytics-url" class="w-full bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-white focus:outline-none focus:border-[#E53935] text-sm" placeholder="https://lookerstudio.google.com/embed/reporting/...">
+                  </div>
+                </div>
+                
+                <button onclick="saveAnalyticsConfig()" class="bg-[#E53935] hover:bg-[#c62828] text-white font-semibold px-4 py-2.5 rounded-lg text-xs transition accent-glow flex items-center space-x-2">
+                  <i class="fa-solid fa-floppy-disk"></i>
+                  <span>통계 설정 저장하기</span>
+                </button>
+              </div>
+
+              <!-- Embed Viewer or Guide -->
+              <div id="analytics-viewer-container" class="w-full text-zinc-300">
+                <!-- If embed URL exists, iframe will be rendered here -->
+                <!-- Else, guide will be rendered here -->
+              </div>
+            </div>
             
           </div>
         </div>
@@ -471,8 +508,13 @@
       const savedToken = localStorage.getItem("jiwu_gh_token");
       if (savedUser) document.getElementById("github-username").value = savedUser;
       if (savedRepo) document.getElementById("github-repo").value = savedRepo;
-      if (savedToken) document.getElementById("github-token").value = savedToken;
       if (savedToken) {
+        document.getElementById("github-token").value = savedToken;
+        // 즉시 로그인창을 숨기고 설정 로딩 화면으로 진입하여 자연스러운 자동 로그인 구현
+        document.getElementById("auth-section").classList.add("hidden");
+        document.getElementById("workspace-section").classList.remove("hidden");
+        document.getElementById("workspace-loading").classList.remove("hidden");
+        
         if (window._tomlReady) {
           verifyCredentialsAndLoad();
         } else {
@@ -551,6 +593,11 @@
       const sort = cfg.sorting || {};
       populateSortingList(sort.sections || {}, 'section-sorting-list', 'section');
       populateSortingList(sort.terms || {}, 'term-sorting-list', 'term');
+      
+      // 방문자 통계 설정 연동
+      document.getElementById("cfg-gtm-id").value = cfg.google_tag_manager || "";
+      document.getElementById("cfg-analytics-url").value = cfg.analytics_embed_url || "";
+      renderAnalyticsDashboard(cfg.analytics_embed_url || "");
     }
 
     function populateSortingList(map, containerId, type) {
@@ -1017,6 +1064,85 @@
         alert("글이 성공적으로 저장 및 발행되었습니다!");
         closeEditorModal();
         loadContentDirectory("");
+        checkBuildStatus();
+      } catch (err) {
+        alert("에러: " + err.message);
+      } finally {
+        saveBtn.disabled = false;
+        saveBtn.innerHTML = originalText;
+      }
+    }
+
+    function renderAnalyticsDashboard(url) {
+      const container = document.getElementById("analytics-viewer-container");
+      if (url) {
+        container.innerHTML = `
+          <div class="relative w-full rounded-xl overflow-hidden border border-zinc-800" style="padding-top: 56.25%;">
+            <iframe src="${url}" class="absolute inset-0 w-full h-full border-0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+          </div>
+        `;
+      } else {
+        container.innerHTML = `
+          <div class="bg-zinc-950/20 border border-dashed border-zinc-800 rounded-xl p-8 text-center space-y-4">
+            <div class="text-zinc-500 text-4xl"><i class="fa-solid fa-chart-simple"></i></div>
+            <h3 class="text-white font-bold text-sm">구글 룩커 스튜디오 대시보드가 등록되지 않았습니다</h3>
+            <p class="text-xs text-zinc-400 max-w-md mx-auto leading-relaxed">
+              구글 애널리틱스(GA4) 데이터를 연동하여 시각화된 방문자 통계 그래프를 어드민 페이지에 표시할 수 있습니다.
+            </p>
+            <div class="text-left bg-zinc-950/60 p-5 rounded-lg text-xs space-y-2 text-zinc-400 max-w-xl mx-auto leading-relaxed border border-zinc-900">
+              <h4 class="font-bold text-white mb-2"><i class="fa-solid fa-circle-play mr-1 text-[#E53935]"></i> 설정 순서</h4>
+              <ol class="list-decimal list-inside space-y-1.5 pl-1">
+                <li><a href="https://analytics.google.com/" target="_blank" class="text-[#E53935] underline">구글 애널리틱스</a>에 사이트를 등록하고 <strong>측정 ID (G-XXXXXXX)</strong>를 발급받습니다.</li>
+                <li>발급받은 ID를 위의 <strong>Google Tag Manager ID</strong> 입력창(또는 hugo.toml의 GoogleAnalytics 서비스)에 저장합니다.</li>
+                <li><a href="https://lookerstudio.google.com/" target="_blank" class="text-[#E53935] underline">구글 Looker Studio</a>에 접속하여 <strong>새 보고서</strong>를 생성하고 GA4 데이터 소스를 연결합니다.</li>
+                <li>보고서 화면 상단에서 <strong>공유 ➡️ 보고서 임베드</strong>를 클릭하고 <strong>임베드 사용</strong>을 체크합니다.</li>
+                <li>표시되는 코드 중 <code>src="..."</code> 내의 <strong>임베드 URL 주소</strong>를 복사하여 위의 <strong>Looker Studio 공유 임베드 URL</strong> 입력창에 붙여넣고 저장합니다.</li>
+              </ol>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    async function saveAnalyticsConfig() {
+      const user = localStorage.getItem("jiwu_gh_user");
+      const repo = localStorage.getItem("jiwu_gh_repo");
+      const token = localStorage.getItem("jiwu_gh_token");
+      
+      const gtmId = document.getElementById("cfg-gtm-id").value.trim();
+      const analyticsUrl = document.getElementById("cfg-analytics-url").value.trim();
+      
+      configObject.google_tag_manager = gtmId;
+      configObject.analytics_embed_url = analyticsUrl;
+      
+      const saveBtn = document.querySelector("#tab-analytics button[onclick='saveAnalyticsConfig()']");
+      const originalText = saveBtn.innerHTML;
+      saveBtn.disabled = true;
+      saveBtn.innerHTML = '<i class="fa-solid fa-spinner animate-spin mr-2"></i>저장 중...';
+      
+      try {
+        const resp = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/config/_default/params.toml`, {
+          method: "PUT",
+          headers: {
+            "Authorization": `token ${token}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            message: "update analytics config",
+            content: encodeBase64(window.tomlStringify(configObject)),
+            sha: fileSha
+          })
+        });
+        
+        if (!resp.ok) {
+          const errData = await resp.json();
+          throw new Error(errData.message || "설정 저장에 실패했습니다.");
+        }
+        
+        const d = await resp.json();
+        fileSha = d.content.sha;
+        alert("통계 설정이 성공적으로 저장되었습니다!");
+        renderAnalyticsDashboard(analyticsUrl);
         checkBuildStatus();
       } catch (err) {
         alert("에러: " + err.message);
