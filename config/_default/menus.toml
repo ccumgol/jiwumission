@@ -127,9 +127,15 @@ hasChildren = true
 
   [[main]]
   parent = "Databank"
+  name = "성경개론"
+  url = "/databank/bible-overview/"
+  weight = 4
+
+  [[main]]
+  parent = "Databank"
   name = "자료실"
   url = "/databank/pds/"
-  weight = 4
+  weight = 5
 
 ############# 푸터 메뉴 #############
 
