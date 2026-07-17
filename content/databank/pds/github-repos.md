@@ -1,6 +1,6 @@
 ---
 title: "추천 GitHub 리포지터리 모음"
-date: 2026-07-17T08:59:00+09:00
+date: 2026-07-17T12:40:45+09:00
 description: "daily-it-news 브리핑에서 엄선하여 소개한 GitHub 오픈소스 리포지터리 모음집입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스", "에이전트", "자체호스팅"]
