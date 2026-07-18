@@ -1,6 +1,6 @@
 ---
 title: "추천 GitHub 리포지터리 모음"
-date: 2026-07-17T12:40:45+09:00
+date: 2026-07-18T12:30:06+09:00
 description: "daily-it-news 브리핑에서 엄선하여 소개한 GitHub 오픈소스 리포지터리 모음집입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스", "에이전트", "자체호스팅"]
@@ -15,6 +15,7 @@ type: "post"
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
+- [Ml-intern](https://github.com/huggingface/ml-intern)
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
@@ -25,6 +26,7 @@ type: "post"
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
+- [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
@@ -33,6 +35,7 @@ type: "post"
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스
+- [OpenObserve.](https://github.com/openobserve/openobserve)
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
@@ -56,4 +59,8 @@ type: "post"
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
+- [Yt-dlp](https://github.com/yt-dlp/yt-dlp)
+
+### 📦 기타 / 미분류 (Uncategorized)
+- [GitHub 최다 스타 리포:](https://github.com/codecrafters-io/build-your-own-x)
 
