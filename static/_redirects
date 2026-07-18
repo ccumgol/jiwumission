@@ -1,0 +1,5 @@
+# Cloudflare Pages 리다이렉트 (public/ 로 게시됨)
+/2e6188de6a664afba4f999cd6d633057 / 301
+/class/gemini-canvas/* /class/gemini/:splat 301
+/class/gemini-gems/* /class/gemini/:splat 301
+/class/notebook-lm/* /class/gemini/:splat 301

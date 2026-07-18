@@ -1,33 +1,80 @@
 ---
-title: "Privacy"
-# meta title
-meta_title: ""
-# meta description
-description: "This is meta description"
-# save as draft
+title: "개인정보처리방침"
+meta_title: "개인정보처리방침 | JIWU Mission"
+description: "JIWU Mission(jesusiswith.us)의 개인정보 수집·이용·보관 및 이용자 권리에 관한 안내입니다."
+date: 2026-07-17T15:00:00+09:00
 draft: false
 ---
 
-#### Responsibility of Contributors
+**JIWU Mission**(이하 "본 사이트", `jesusiswith.us`)은 이용자의 개인정보를 소중히 여기며, 관련 법령을 준수합니다. 본 사이트는 **서버·데이터베이스 없이 운영되는 정적 웹사이트**로, 자체적으로 이용자 정보를 저장하지 않습니다. 다만 아래와 같이 일부 기능에서 외부 서비스를 통해 최소한의 정보가 처리될 수 있습니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+> 최종 개정일: 2026년 7월 17일
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+## 1. 수집하는 개인정보 항목
 
-#### Gathering of Personal Information
+본 사이트는 **회원가입 절차가 없으며**, 로그인 없이 대부분의 콘텐츠를 열람할 수 있습니다. 다음의 경우에 한해 정보가 수집·처리됩니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+| 구분 | 수집 항목 | 처리 주체 |
+|---|---|---|
+| 소식지('잎새') 신청 | 이메일 주소, (선택)이름 | Google Forms / 이메일 발송 서비스 |
+| 뉴스레터 발송 | 이메일 주소 | 이메일 발송 서비스(예: Mailchimp) |
+| 댓글 작성 | 닉네임, 작성 내용 | 댓글 서비스(OpenRemark) |
+| 문의 | 이메일 주소, 문의 내용 | 이메일(info@jiwumission.org) |
+| 접속 기록 | IP 주소, 브라우저 정보 등 | 호스팅/보안 서비스(Cloudflare) |
 
-#### Protection of Personal- Information
+## 2. 개인정보의 수집 방법
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+- 이용자가 **직접 입력**(소식지 신청 폼, 댓글, 문의 이메일)하는 경우
+- 서비스 이용 과정에서 **자동으로 생성**되어 수집되는 경우(접속 로그, 쿠키 등 — 호스팅·보안 목적)
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+## 3. 개인정보의 이용 목적
 
-#### Privacy Policy Changes
+- 소식지·뉴스레터 등 요청하신 콘텐츠의 발송
+- 문의에 대한 응답 및 안내
+- 댓글 등 커뮤니티 기능 제공
+- 사이트의 안정적 운영, 보안 및 부정 이용 방지
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+## 4. 보유 및 이용 기간
+
+- **구독 정보**: 구독 해지 또는 삭제 요청 시까지 보관하며, 요청 시 지체 없이 파기합니다.
+- **문의 이메일**: 문의 처리 후 합리적인 기간 내 파기합니다.
+- **접속 로그**: 호스팅·보안 서비스의 정책에 따라 일정 기간 후 자동 삭제됩니다.
+
+## 5. 제3자 제공 및 처리 위탁
+
+본 사이트는 이용자의 개인정보를 **판매하지 않으며**, 법령에 근거가 없는 한 제3자에게 제공하지 않습니다. 다만 서비스 제공을 위해 아래의 신뢰할 수 있는 외부 서비스를 이용하며, 각 서비스는 자체 개인정보처리방침을 따릅니다.
+
+- **Cloudflare** — 웹사이트 호스팅(Cloudflare Pages) 및 보안·접속 처리
+- **GitHub** — 사이트 소스·콘텐츠 저장소
+- **Google (Forms)** — 소식지 신청 접수
+- **이메일 발송 서비스(예: Mailchimp)** — 뉴스레터 발송
+- **OpenRemark** — 댓글 기능
+
+## 6. 쿠키(Cookie)에 관한 사항
+
+- 본 사이트는 화면 테마(다크/라이트 모드), '오늘의 QT 팝업 오늘 하루 보지 않기' 등 **이용 편의를 위한 최소한의 저장소(localStorage·쿠키)**를 사용합니다.
+- 호스팅·보안(Cloudflare) 및 외부 서비스가 자체 쿠키를 설정할 수 있습니다.
+- 이용자는 브라우저 설정에서 쿠키 저장을 거부하거나 삭제할 수 있으며, 이 경우 일부 편의 기능이 제한될 수 있습니다.
+
+## 7. 이용자의 권리
+
+이용자는 언제든지 본인의 개인정보에 대해 다음을 요청할 수 있습니다.
+
+- 열람, 정정, 삭제
+- 구독(소식지·뉴스레터)의 해지
+- 처리 정지
+
+요청은 아래 연락처로 접수해 주시면 지체 없이 조치합니다.
+
+## 8. 개인정보 보호 문의
+
+개인정보 처리에 관한 문의·요청·불만은 아래로 연락해 주시기 바랍니다.
+
+- **이메일**: info@jiwumission.org
+- **운영**: JIWU Mission (Jesus Is With Us)
+
+## 9. 고지 및 변경
+
+본 개인정보처리방침의 내용이 추가·삭제·수정될 경우, 변경 사항을 본 페이지를 통해 공지합니다. 중요한 변경이 있을 경우 시행일 이전에 안내하도록 노력합니다.
+
+> 본 방침은 정적 웹사이트의 운영 실태에 맞추어 작성된 일반 안내이며, 구체적인 법적 의무(예: 정보통신망법·개인정보보호법상 고지 사항)는 운영 상황에 따라 별도 검토가 필요할 수 있습니다.

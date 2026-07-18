@@ -1,56 +1,46 @@
-############# 1차 메뉴 #############
+############# 1차 메뉴 (A–E) #############
 
 [[main]]
 name = "About"
 url = "/"
 weight = 1
 
+######### B. Bible (신앙 콘텐츠 — 경로는 /databank/ 유지) #########
 [[main]]
-name = "Blog"
-url = "/blog/"
-weight = 3
+name = "Bible"
+url = "/databank/"
+weight = 2
 hasChildren = true
 
   [[main]]
-  parent = "Blog"
-  name = "매일의 IT뉴스"
-  url = "/blog/daily-it-news/"
+  parent = "Bible"
+  name = "오늘의 QT"
+  url = "/databank/daily-bible/"
   weight = 1
 
   [[main]]
-  parent = "Blog"
-  name = "주간 AI 트렌드"
-  url = "/blog/weekly-ai-trends/"
+  parent = "Bible"
+  name = "이슬비카드"
+  url = "/databank/rain-card/"
   weight = 2
 
   [[main]]
-  parent = "Blog"
-  name = "컨퍼런스 리뷰"
-  url = "/blog/conference-review/"
+  parent = "Bible"
+  name = "성경개론"
+  url = "/databank/bible-overview/"
   weight = 3
 
   [[main]]
-  parent = "Blog"
-  name = "세컨드 브레인"
-  url = "/blog/second-brain/"
+  parent = "Bible"
+  name = "성경자료"
+  url = "/databank/bible-resources/"
   weight = 4
 
-  [[main]]
-  parent = "Blog"
-  name = "프리젠테이션"
-  url = "/blog/presentation/"
-  weight = 5
-
-  [[main]]
-  parent = "Blog"
-  name = "특이점"
-  url = "/blog/singularity/"
-  weight = 6
-
+######### C. Class (강의) #########
 [[main]]
 name = "Class"
 url = "/class/"
-weight = 4
+weight = 3
 hasChildren = true
 
   [[main]]
@@ -85,76 +75,80 @@ hasChildren = true
 
   [[main]]
   parent = "Class"
-  name = "Gemini Canvas"
-  url = "/class/gemini-canvas/"
+  name = "Gemini 활용"
+  url = "/class/gemini/"
   weight = 6
 
   [[main]]
   parent = "Class"
-  name = "Gemini Gems"
-  url = "/class/gemini-gems/"
+  name = "Notion"
+  url = "/class/notion/"
   weight = 7
 
-  [[main]]
-  parent = "Class"
-  name = "Notebook LM"
-  url = "/class/notebook-lm/"
-  weight = 8
-
+######### D. Digest (기술·AI 읽을거리 — 경로는 /blog/ 유지) #########
 [[main]]
-name = "Databank"
-url = "/databank/"
+name = "Digest"
+url = "/blog/"
+weight = 4
+hasChildren = true
+
+  [[main]]
+  parent = "Digest"
+  name = "매일의 IT뉴스"
+  url = "/blog/daily-it-news/"
+  weight = 1
+
+  [[main]]
+  parent = "Digest"
+  name = "주간 AI 트렌드"
+  url = "/blog/weekly-ai-trends/"
+  weight = 2
+
+  [[main]]
+  parent = "Digest"
+  name = "컨퍼런스 리뷰"
+  url = "/blog/conference-review/"
+  weight = 3
+
+  [[main]]
+  parent = "Digest"
+  name = "세컨드 브레인"
+  url = "/blog/second-brain/"
+  weight = 4
+
+  [[main]]
+  parent = "Digest"
+  name = "프리젠테이션"
+  url = "/blog/presentation/"
+  weight = 5
+
+  [[main]]
+  parent = "Digest"
+  name = "특이점"
+  url = "/blog/singularity/"
+  weight = 6
+
+######### E. Extra (제작기·자료실·정책) #########
+[[main]]
+name = "Extra"
+url = "/extra/"
 weight = 5
 hasChildren = true
 
   [[main]]
-  parent = "Databank"
-  name = "오늘의 QT"
-  url = "/databank/daily-bible/"
+  parent = "Extra"
+  name = "사이트 제작기"
+  url = "/extra/site-story/"
   weight = 1
 
   [[main]]
-  parent = "Databank"
-  name = "이슬비카드"
-  url = "/databank/rain-card/"
+  parent = "Extra"
+  name = "자료실"
+  url = "/databank/pds/"
   weight = 2
 
   [[main]]
-  parent = "Databank"
-  name = "성경 자료"
-  url = "/databank/bible-resources/"
+  parent = "Extra"
+  name = "개인정보처리방침"
+  url = "/privacy-policy/"
   weight = 3
-
-  [[main]]
-  parent = "Databank"
-  name = "성경개론"
-  url = "/databank/bible-overview/"
-  weight = 4
-
-  [[main]]
-  parent = "Databank"
-  name = "자료실"
-  url = "/databank/pds/"
-  weight = 5
-
-############# 푸터 메뉴 #############
-
-[[footer]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[footer]]
-name = "About"
-url = "/"
-weight = 2
-
-[[footer]]
-name = "Blog"
-url = "/blog/"
-weight = 3
-
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy/"
-weight = 4

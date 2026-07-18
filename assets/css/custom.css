@@ -72,3 +72,48 @@ html[data-lang="en"] .lang-ko {
   background-color: #e0ca00;
   color: #3C1E1E !important;
 }
+
+/* ── 접이식 토글(<details>) — 노션 토글 대체 스타일 ── */
+/* 요약(summary)=토글 제목은 본문보다 크게 강조, 내부 내용은 한 단계 들여쓰고 덜 강조 */
+.content details {
+  margin: 1.25rem 0;
+  border-left: 3px solid #dddddd;      /* 토글 영역 표시 */
+  padding: 0.1rem 0 0.1rem 1.25rem;    /* 내용 한 단계 들여쓰기 */
+}
+.content details > summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;                     /* 본문(16px)보다 약간 크게 */
+  color: #333333;
+  margin-left: -1.25rem;               /* 제목은 들여쓰기 밖(왼쪽 끝)으로 */
+  padding: 0.35rem 0.5rem 0.35rem 1.25rem;
+}
+.content details[open] > summary {
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #eeeeee;
+}
+/* 토글 내부 주요 소제목(h1–h4): 굵은 검은색 + 위아래 여백 (계층 구조) */
+.content details :is(h1, h2, h3, h4) {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  margin: 1.6rem 0 0.7rem;
+  line-height: 1.4;
+  border: 0;
+}
+/* 더 깊은 소제목(h5–h6): 옅게 (덜 강조) */
+.content details :is(h5, h6) {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666666;
+  margin: 0.9rem 0 0.35rem;
+  line-height: 1.4;
+  border: 0;
+}
+
+/* 다크 모드 */
+.dark .content details { border-left-color: #3e3e3e; }
+.dark .content details > summary { color: #e5e5e5; }
+.dark .content details[open] > summary { border-bottom-color: #3e3e3e; }
+.dark .content details :is(h1, h2, h3, h4) { color: #ffffff; }
+.dark .content details :is(h5, h6) { color: #b4afb6; }
