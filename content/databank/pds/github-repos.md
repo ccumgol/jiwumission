@@ -1,6 +1,6 @@
 ---
 title: "추천 GitHub 리포지터리 모음"
-date: 2026-07-18T12:30:06+09:00
+date: 2026-07-19T12:30:02+09:00
 description: "daily-it-news 브리핑에서 엄선하여 소개한 GitHub 오픈소스 리포지터리 모음집입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스", "에이전트", "자체호스팅"]
@@ -19,12 +19,15 @@ type: "post"
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
+- [Postiz-app](https://github.com/gitroomhq/postiz-app)
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
+- [Bentopdf](https://github.com/alam00000/bentopdf)
+- [Biblememory](https://github.com/miking7/biblememory)
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
@@ -58,6 +61,7 @@ type: "post"
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
+- [Immich](https://github.com/immich-app/immich)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
