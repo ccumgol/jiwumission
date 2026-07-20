@@ -771,3 +771,32 @@ ERR_PNPM_ADDING_TO_ROOT  Running this command will add the dependency to the wor
 
 
 
+---
+
+## Issue 38. 사이트 전체 메뉴 및 폴더 구조 개편 (리다이렉트 포함)
+
+**발생 시점**: 기존 `blog`, `databank` 등의 메뉴/폴더명 대신 직관적인 `digest`, `bible` 등으로 구조를 개편하고자 할 때.
+**현상**: 기존 폴더명으로 발송된 링크들이 모두 404 Not Found 에러를 반환할 위험이 큼.
+**원인**: 콘텐츠를 담은 폴더 이름이 변경되면 사이트 내의 영구 주소(Permalink) URL도 바뀌기 때문.
+**해결**: `content/databank`를 `content/bible`로, `content/blog`를 `content/digest`로 변경함. Hugo 레이아웃 폴더(`layouts/databank`)도 일치하도록(`layouts/bible`) 수정. 404 문제를 해결하기 위해 `static/_redirects` 파일에 `301` 리다이렉트 규칙을 작성하여 과거 주소를 새 주소로 자동 포워딩 처리함. (`/databank/* /bible/:splat 301` 등)
+**결론/교훈**: 대규모 폴더 구조 변경 시에는 기존 사용자 경험을 해치지 않도록 반드시 301 리다이렉트를 철저하게 설정해야 하며, Hugo의 레이아웃 경로와 콘텐츠 폴더 경로가 매핑된다는 점을 주의해야 합니다.
+
+---
+
+## Issue 39. 데일리 연재 콘텐츠(QT, 뉴스)의 연도별(YYYY) 폴더 중첩 적용
+
+**발생 시점**: 매일 발행되는 QT나 뉴스 파일이 수년간 쌓일 경우, 폴더 하나에 수천 개의 파일이 생성되어 관리가 어려워지는 것을 방지하고자 할 때.
+**현상**: `daily-bible`이나 `daily-it-news` 아래에 모든 `.md` 파일이 평면적으로 나열됨.
+**원인**: 초기 설계 시 연도별 폴더 중첩을 고려하지 않았음.
+**해결**: `daily-bible/2026/...`, `daily-it-news/2026/...` 와 같이 연도 폴더를 생성하여 파일을 이동. 자동화 스크립트(`NotionWP/run_sync.sh`)도 변경된 폴더 구조(`2026/`)에 맞게 문서를 배포하도록 수정.
+**결론/교훈**: 장기 연재형 콘텐츠는 사전에 연도별 폴더(디렉터리) 구조를 마련해두어, 시스템 빌드 속도 및 파일 관리 효율성을 유지해야 합니다.
+
+---
+
+## Issue 40. Admin 페이지 방문자 통계 탭(Looker Studio) 하얀 화면 출력 오류
+
+**발생 시점**: Admin 페이지 내에서 구글 룩커 스튜디오 대시보드를 iframe으로 임베드할 때 차트가 뜨지 않고 하얀 화면과 푸터만 표시됨.
+**현상**: Safari나 크롬 시크릿 모드에서 통계 대시보드가 정상 출력되지 않음.
+**원인**: iframe에 서드파티(3사) 쿠키 및 스토리지 접근을 허용하는 `sandbox` 속성이 누락되어, 보안 정책이 엄격한 브라우저에서 Looker Studio의 구글 세션 인증이 차단되었음.
+**해결**: `static/admin/index.html` 내의 룩커 스튜디오 iframe 코드에 `sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"` 속성을 복구/추가하여 브라우저의 저장소 접근을 허용하도록 조치함.
+**결론/교훈**: 보안이 강화된 최신 브라우저 환경에서 구글 인프라 등 서드파티 임베드를 사용할 경우, 명시적인 sandbox 접근 허용 속성들이 필수적입니다.

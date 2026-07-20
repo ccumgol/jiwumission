@@ -101,9 +101,13 @@ jiwumission/               ← 프로젝트 루트
 │       └── params.toml    ← 테마 파라미터, 정렬 설정, 카드 옵션
 │
 ├── content/               ← 모든 글 파일 (마크다운)
-│   ├── blog/              ← 블로그 섹션
+│   ├── bible/             ← 성경 관련 자료 (이전 databank)
+│   │   ├── daily-bible/   ← 오늘의 QT (연도별 폴더 포함, 예: /2026/)
+│   │   ├── bible-overview/← 성경 개요
+│   │   └── ancestry/      ← 믿음의 계보
+│   ├── digest/            ← 글 및 트렌드 모음 (이전 blog)
 │   │   ├── weekly-ai-trends/   ← 주간 AI 트렌드
-│   │   ├── daily-it-news/      ← 매일의 IT 뉴스
+│   │   ├── daily-it-news/      ← 매일의 IT 뉴스 (연도별 폴더 포함)
 │   │   ├── conference-review/
 │   │   ├── second-brain/
 │   │   ├── presentation/
@@ -112,19 +116,18 @@ jiwumission/               ← 프로젝트 루트
 │   │   ├── affinity/
 │   │   ├── ssg/           ← 정적홈페이지 강의
 │   │   ├── llm-wiki/
-│   │   ├── computer-basic/
-│   │   └── ...
-│   └── databank/          ← 자료실
-│       ├── daily-bible/   ← 오늘의 QT
+│   │   └── computer-basic/
+│   └── extra/             ← 기타 자료
 │       ├── rain-card/
-│       ├── bible-resources/
-│       └── pds/
+│       ├── pds/
+│       └── site-story.md
 │
 ├── layouts/               ← HTML 레이아웃 템플릿
 │   ├── home.html          ← 첫 페이지 레이아웃
-│   ├── blog/
+│   ├── digest/
 │   │   ├── list.html      ← 목록 페이지
 │   │   └── single.html    ← 개별 글 페이지
+│   ├── bible/             ← 성경 섹션 레이아웃
 │   ├── partials/          ← 재사용 가능한 부분 레이아웃
 │   └── shortcodes/        ← 마크다운 내 사용할 수 있는 특수 태그
 │
