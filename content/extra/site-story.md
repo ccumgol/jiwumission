@@ -2,7 +2,7 @@
 title: "사이트 제작기"
 description: "jesusiswith.us를 만들어 온 과정과 변경 이력"
 summary: "이 사이트가 어떻게 만들어지고 발전해 왔는지 — 제작기 4부작과 커밋 기반 변경 이력."
-date: 2026-07-17T15:00:00+09:00
+date: 2026-07-20T13:00:00+09:00
 author: "Gihyun Park"
 categories: ["Extra", "제작기"]
 tags: ["제작기", "changelog"]
@@ -26,6 +26,12 @@ comments: false
 > 저장소의 커밋 기록에서 의미 있는 변경만 추린 목록입니다. (자동 생성되는 일일 콘텐츠·정기 배포 커밋은 제외) 계속 업데이트됩니다.
 
 <!-- CHANGELOG:START -->
+- **2026-07-20** — 잎새 40호
+- **2026-07-19** — Fix dailybiblejson layout path for new bible structure
+- **2026-07-19** — 메뉴와 폴더 구조 개편
+- **2026-07-17** — Set Looker Studio Embed URL
+- **2026-07-17** — Google Analytics 설정
+- **2026-07-17** — 메뉴구조 개편
 - **2026-07-17** — QT 자료 구조 변경 + 이슬비카드 + admin 통계 추가
 - **2026-07-17** — 주석 링크 폼 결정
 - **2026-07-16** — 성경 연결 시작
