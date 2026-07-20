@@ -5,36 +5,42 @@ name = "About"
 url = "/"
 weight = 1
 
-######### B. Bible (신앙 콘텐츠 — 경로는 /databank/ 유지) #########
+######### B. Bible (신앙 콘텐츠 — 경로는 /bible/ 유지) #########
 [[main]]
 name = "Bible"
-url = "/databank/"
+url = "/bible/"
 weight = 2
 hasChildren = true
 
   [[main]]
   parent = "Bible"
   name = "오늘의 QT"
-  url = "/databank/daily-bible/"
+  url = "/bible/daily-bible/"
   weight = 1
 
   [[main]]
   parent = "Bible"
   name = "이슬비카드"
-  url = "/databank/rain-card/"
+  url = "/bible/rain-card/"
   weight = 2
 
   [[main]]
   parent = "Bible"
   name = "성경개론"
-  url = "/databank/bible-overview/"
+  url = "/bible/bible-overview/"
   weight = 3
 
   [[main]]
   parent = "Bible"
   name = "성경자료"
-  url = "/databank/bible-resources/"
+  url = "/bible/bible-resources/"
   weight = 4
+
+  [[main]]
+  parent = "Bible"
+  name = "믿음의 계보"
+  url = "/bible/ancestry/"
+  weight = 5
 
 ######### C. Class (강의) #########
 [[main]]
@@ -85,47 +91,47 @@ hasChildren = true
   url = "/class/notion/"
   weight = 7
 
-######### D. Digest (기술·AI 읽을거리 — 경로는 /blog/ 유지) #########
+######### D. Digest (기술·AI 읽을거리 — 경로는 /digest/ 유지) #########
 [[main]]
 name = "Digest"
-url = "/blog/"
+url = "/digest/"
 weight = 4
 hasChildren = true
 
   [[main]]
   parent = "Digest"
   name = "매일의 IT뉴스"
-  url = "/blog/daily-it-news/"
+  url = "/digest/daily-it-news/"
   weight = 1
 
   [[main]]
   parent = "Digest"
   name = "주간 AI 트렌드"
-  url = "/blog/weekly-ai-trends/"
+  url = "/digest/weekly-ai-trends/"
   weight = 2
 
   [[main]]
   parent = "Digest"
   name = "컨퍼런스 리뷰"
-  url = "/blog/conference-review/"
+  url = "/digest/conference-review/"
   weight = 3
 
   [[main]]
   parent = "Digest"
   name = "세컨드 브레인"
-  url = "/blog/second-brain/"
+  url = "/digest/second-brain/"
   weight = 4
 
   [[main]]
   parent = "Digest"
   name = "프리젠테이션"
-  url = "/blog/presentation/"
+  url = "/digest/presentation/"
   weight = 5
 
   [[main]]
   parent = "Digest"
   name = "특이점"
-  url = "/blog/singularity/"
+  url = "/digest/singularity/"
   weight = 6
 
 ######### E. Extra (제작기·자료실·정책) #########
@@ -144,7 +150,7 @@ hasChildren = true
   [[main]]
   parent = "Extra"
   name = "자료실"
-  url = "/databank/pds/"
+  url = "/extra/pds/"
   weight = 2
 
   [[main]]

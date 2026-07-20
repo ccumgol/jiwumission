@@ -101,7 +101,7 @@ comments: false
 - **2026-06-21** — llm-wiki 수정
 - **2026-06-21** — llm-wiki upload
 - **2026-06-18** — feat: add Affinity Ch8_01, LLM Wiki Ch1, SSG church website manual chapters 1-4
-- **2026-06-18** — fix: correct presentation section sort path from Korean to /blog/presentation/
+- **2026-06-18** — fix: correct presentation section sort path from Korean to /digest/presentation/
 - **2026-06-18** — feat: add 가나다역순(title_desc) sort option and fix admin TOML library race condition
 - **2026-06-18** — docs: update Hugo guide (sections 15-16) and troubleshooting report (issues 15-16)
 - **2026-06-18** — 폴더 구조 확인

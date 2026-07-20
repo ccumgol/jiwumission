@@ -3,3 +3,13 @@
 /class/gemini-canvas/* /class/gemini/:splat 301
 /class/gemini-gems/* /class/gemini/:splat 301
 /class/notebook-lm/* /class/gemini/:splat 301
+
+/databank/daily-bible/2026*  /bible/daily-bible/2026/2026:splat  301
+/databank/daily-bible/2027*  /bible/daily-bible/2027/2027:splat  301
+/databank/bible-overview/*   /bible/bible-overview/:splat        301
+/databank/bible-resources/*  /bible/bible-resources/:splat       301
+/databank/rain-card/*        /bible/rain-card/:splat             301
+/blog/daily-it-news/2026*    /digest/daily-it-news/2026/2026:splat 301
+/blog/daily-it-news/2027*    /digest/daily-it-news/2027/2027:splat 301
+/blog/*                      /digest/:splat                      301
+/databank/pds/*              /extra/pds/:splat                   301

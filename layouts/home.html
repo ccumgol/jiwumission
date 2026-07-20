@@ -302,8 +302,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 히어로 영역의 오늘의 말씀 버튼에 동적으로 오늘 날짜 링크 바인딩
   const bibleBtn = document.getElementById("hero-btn-bible");
+  const yearStr = todayStr.split('-')[0];
   if (bibleBtn) {
-    bibleBtn.href = `/databank/daily-bible/${todayStr}/`;
+    bibleBtn.href = `/bible/daily-bible/${yearStr}/${todayStr}/`;
   }
 
   // 오늘 하루 보지 않기 상태가 아닌 경우 자동으로 오늘 말씀 모달을 불러옴
@@ -360,7 +361,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 특정 날짜의 QT 텍스트 비동기 패치
   function fetchAndLoadQT(dateStr, isManualClick = false) {
-    const jsonUrl = `/databank/daily-bible/${dateStr}/index.txt`;
+    const fetchYearStr = dateStr.split('-')[0];
+    const jsonUrl = `/bible/daily-bible/${fetchYearStr}/${dateStr}/index.txt`;
 
     return fetch(jsonUrl)
       .then(response => {
