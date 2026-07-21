@@ -26,6 +26,15 @@ comments: false
 > 저장소의 커밋 기록에서 의미 있는 변경만 추린 목록입니다. (자동 생성되는 일일 콘텐츠·정기 배포 커밋은 제외) 계속 업데이트됩니다.
 
 <!-- CHANGELOG:START -->
+- **2026-07-21** — 매일 QT에 내용 이해 추가
+- **2026-07-20** — 믿음의 계보 글목록 레이아웃 수정
+- **2026-07-20** — style: 믿음의 계보 리스트 레이아웃 통일 (type: blog 추가)
+- **2026-07-20** — 믿음의 계보 1,2 재업
+- **2026-07-20** — fix: Admin 방문자 통계 Looker Studio 크로스도메인 리다이렉트 에러 수정
+- **2026-07-20** — docs: 문서 업데이트 (폴더 개편 내역, Looker Studio 버그 픽스 등 issue_report 및 manual 구조 갱신)
+- **2026-07-20** — fix: Admin 페이지 Looker Studio iframe sandbox 속성 복구 (흰 화면 버그 수정)
+- **2026-07-20** — docs: github-repos.md 누락된 리포지터리 설명 추가
+- **2026-07-20** — docs: 사이트 제작기 변경 이력(Changelog) 업데이트
 - **2026-07-20** — 잎새 40호
 - **2026-07-19** — Fix dailybiblejson layout path for new bible structure
 - **2026-07-19** — 메뉴와 폴더 구조 개편
@@ -107,7 +116,7 @@ comments: false
 - **2026-06-21** — llm-wiki 수정
 - **2026-06-21** — llm-wiki upload
 - **2026-06-18** — feat: add Affinity Ch8_01, LLM Wiki Ch1, SSG church website manual chapters 1-4
-- **2026-06-18** — fix: correct presentation section sort path from Korean to /digest/presentation/
+- **2026-06-18** — fix: correct presentation section sort path from Korean to /blog/presentation/
 - **2026-06-18** — feat: add 가나다역순(title_desc) sort option and fix admin TOML library race condition
 - **2026-06-18** — docs: update Hugo guide (sections 15-16) and troubleshooting report (issues 15-16)
 - **2026-06-18** — 폴더 구조 확인

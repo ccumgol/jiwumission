@@ -102,8 +102,10 @@ jiwumission/               ← 프로젝트 루트
 │
 ├── content/               ← 모든 글 파일 (마크다운)
 │   ├── bible/             ← 성경 관련 자료 (이전 databank)
-│   │   ├── daily-bible/   ← 오늘의 QT (연도별 폴더 포함, 예: /2026/)
-│   │   ├── bible-overview/← 성경 개요
+│   │   ├── daily-bible/   ← 오늘의 QT (연도별 폴더, 예: /2026/)
+│   │   ├── bible-overview/← 성경개론 (66권)
+│   │   ├── bible-resources/ ← 성경 자료
+│   │   ├── rain-card/     ← 이슬비카드 (말씀카드)
 │   │   └── ancestry/      ← 믿음의 계보
 │   ├── digest/            ← 글 및 트렌드 모음 (이전 blog)
 │   │   ├── weekly-ai-trends/   ← 주간 AI 트렌드
@@ -117,10 +119,9 @@ jiwumission/               ← 프로젝트 루트
 │   │   ├── ssg/           ← 정적홈페이지 강의
 │   │   ├── llm-wiki/
 │   │   └── computer-basic/
-│   └── extra/             ← 기타 자료
-│       ├── rain-card/
-│       ├── pds/
-│       └── site-story.md
+│   └── extra/             ← 기타 (제작기·자료실·정책)
+│       ├── site-story.md  ← 사이트 제작기 + 변경 이력
+│       └── pds/           ← 자료실
 │
 ├── layouts/               ← HTML 레이아웃 템플릿
 │   ├── home.html          ← 첫 페이지 레이아웃
@@ -295,16 +296,16 @@ git push origin main
 ```toml
 # 1단계 메뉴 예시
 [[main]]
-name = "Blog"
-url = "/blog/"
-weight = 3          # 숫자가 작을수록 앞에 표시
+name = "Digest"
+url = "/digest/"
+weight = 4          # 숫자가 작을수록 앞에 표시
 hasChildren = true  # 하위 메뉴가 있을 경우 true
 
   # 2단계 하위 메뉴
   [[main]]
-  parent = "Blog"       # 부모 메뉴 이름과 정확히 일치해야 함
+  parent = "Digest"     # 부모 메뉴 이름과 정확히 일치해야 함
   name = "주간 AI 트렌드"
-  url = "/blog/weekly-ai-trends/"
+  url = "/digest/weekly-ai-trends/"
   weight = 2
 ```
 
@@ -324,7 +325,7 @@ hasChildren = true  # 하위 메뉴가 있을 경우 true
     ↓
 JavaScript가 오늘 날짜 계산 (YYYY-MM-DD)
     ↓
-/databank/daily-bible/[오늘날짜]/index.txt 파일 fetch
+/bible/daily-bible/[연도]/[오늘날짜]/index.txt 파일 fetch
     ↓
 qt_status: "done" 이면 → 모달 표시
 그 외 → 조용히 스킵
@@ -346,8 +347,8 @@ qt_status: "done" 이면 → 모달 표시
 
 ### 자동 업로드되는 콘텐츠
 
-- **오늘의 QT** (`content/databank/daily-bible/YYYY-MM-DD.md`): AI 스크립트 자동 생성 + push
-- **매일의 IT뉴스** (`content/blog/daily-it-news/YYYY-MM-DD.md`): AI 스크립트 자동 생성 + push
+- **오늘의 QT** (`content/bible/daily-bible/[연도]/YYYY-MM-DD.md`): AI 스크립트 자동 생성 + push
+- **매일의 IT뉴스** (`content/digest/daily-it-news/[연도]/YYYY-MM-DD.md`): AI 스크립트 자동 생성 + push
 
 ### 주의사항
 
@@ -446,9 +447,9 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
 
 ---
 
-## 16. 성경개론(Databank)과 매일 QT 자동 링크
+## 16. 성경개론(Bible)과 매일 QT 자동 링크
 
-`databank/bible-overview`의 성경개론 66권에는 **'각 장 및 문단의 내용 정리'(내용구분)** 섹션이 있습니다. 이 항목들에서 해당 본문의 **매일 QT(`databank/daily-bible`)로 바로 이동하는 링크**를 자동으로 붙일 수 있습니다.
+`bible/bible-overview`의 성경개론 66권에는 **'각 장 및 문단의 내용 정리'(내용구분)** 섹션이 있습니다. 이 항목들에서 해당 본문의 **매일 QT(`bible/daily-bible`)로 바로 이동하는 링크**를 자동으로 붙일 수 있습니다.
 
 ### 사용법
 저장소 루트에서 아래 한 줄을 실행합니다.
@@ -456,12 +457,14 @@ pnpm run project-setup && pnpm run build -- --baseURL $CF_PAGES_URL
 python3 scripts/link_qt_to_overview.py
 ```
 - QT 파일의 `book`·`passage`·`date` 정보를 읽어, 개론 내용구분 항목 중 **본문이 속한 가장 좁은 항목**에 링크를 붙입니다.
-- 링크 형식: `- 1:1-31 6일간의 창조  · 📖 [1:1-13](/databank/daily-bible/2026-01-01/) [1:14-25](...)`
+- 링크 형식: `- 1:1-31 6일간의 창조  · 📖 [1:1-13](/bible/daily-bible/2026/2026-01-01/) [1:14-25](...)`
 
 ### 특징 (알아두면 좋은 점)
 - **발행된 QT만** 링크합니다(미발행 draft 제외) → 깨진 링크가 생기지 않습니다.
 - **재실행해도 중복되지 않습니다(idempotent)**. QT가 더 발행되면 **다시 실행만** 하면 링크가 자동으로 채워집니다.
 - QT가 있는 책(창세기·요한복음·사사기·고린도전서·시편·이사야·고린도후서·야고보서 등)만 처리합니다.
+
+> ⚠️ **마이그레이션 반영 필요**: 폴더가 `databank`→`bible`로 바뀌었으므로, 스크립트(`scripts/link_qt_to_overview.py`) 내부 경로 상수(`content/databank/daily-bible`, `/databank/daily-bible/...`)를 `content/bible/daily-bible`, `/bible/daily-bible/[연도]/...`로 갱신해야 정상 동작합니다.
 
 ---
 
@@ -483,7 +486,9 @@ python3 scripts/link_qt_to_overview.py
 
 ## 18. 추천 GitHub 리포지터리 자동 분류 및 갱신
 
-IT 뉴스(`content/blog/daily-it-news/*.md`)에서 매일 발행하는 리포지터리 추천 건을 추출하여 [자료실 ➡️ 추천 GitHub 리포지터리](file:///Users/gihyunpark/Desktop/jiwumission/content/databank/pds/github-repos.md) 문서에 카테고리별로 자동 분류 및 요약 한 줄 설명을 추가해 주는 기능입니다.
+IT 뉴스(`content/digest/daily-it-news/*.md`)에서 매일 발행하는 리포지터리 추천 건을 추출하여 자료실(`content/extra/pds/github-repos.md`) 문서에 카테고리별로 자동 분류 및 요약 한 줄 설명을 추가해 주는 기능입니다.
+
+> ⚠️ **마이그레이션 반영 필요**: `scripts/updateRepos.js`가 아직 옛 경로(`content/blog/daily-it-news`, `content/databank/pds`)를 참조하므로 새 구조(`content/digest/daily-it-news`, `content/extra/pds`)로 갱신이 필요합니다.
 
 ### 동작 원리 및 사용법
 1. **수동 실행**:
@@ -499,14 +504,14 @@ IT 뉴스(`content/blog/daily-it-news/*.md`)에서 매일 발행하는 리포지
 ## 19. 이슬비카드(말씀카드) 및 성경개론 관리
 
 ### 이슬비카드 (구 말씀카드)
-- **위치**: `content/databank/rain-card/`
-- **글로벌 메뉴**: `Databank ➡️ 이슬비카드` 메뉴로 연결되며 각 말씀카드를 이미지 및 텍스트 형태로 목록화합니다.
+- **위치**: `content/bible/rain-card/`
+- **글로벌 메뉴**: `Bible ➡️ 이슬비카드` 메뉴로 연결되며 각 말씀카드를 이미지 및 텍스트 형태로 목록화합니다.
 - **수정**: 파일의 카테고리(`categories: ["이슬비전도카드", "말씀카드"]`) 및 정적 빌드 구조가 유지되어 있으며, 글로벌 메뉴 및 내부 인덱스 제목이 기존 '말씀카드'에서 '이슬비카드'로 단일 동기화되었습니다.
 
 ### 성경개론
-- **위치**: `content/databank/bible-overview/`
+- **위치**: `content/bible/bible-overview/`
 - **정렬 방식**: 성경 66권이 창세기(1)부터 요한계시록(66)까지 순서대로 정렬되도록 Frontmatter에 `weight: [성경 순번]`을 부여했습니다.
-- **글로벌 메뉴**: `Databank ➡️ 성경개론` (주소: `/databank/bible-overview/`) 메뉴로 등록되어 있습니다.
+- **글로벌 메뉴**: `Bible ➡️ 성경개론` (주소: `/bible/bible-overview/`) 메뉴로 등록되어 있습니다.
 - **본문 정제**: 성경 본문 위키 링크 및 작업 언어 콜아웃 안내 문구가 일괄 제거되어 깔끔한 정적 페이지 본문만 노출됩니다.
 
 ---
