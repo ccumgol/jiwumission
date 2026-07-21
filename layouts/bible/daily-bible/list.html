@@ -41,7 +41,8 @@
       const yyyy = d.getFullYear();
       const mm = String(d.getMonth() + 1).padStart(2, "0");
       const dd = String(d.getDate()).padStart(2, "0");
-      const todayUrl = `{{ .RelPermalink }}${yyyy}-${mm}-${dd}/`;
+      // pages are nested by year: /bible/daily-bible/<year>/<year>-<mm>-<dd>/
+      const todayUrl = `{{ .RelPermalink }}${yyyy}/${yyyy}-${mm}-${dd}/`;
       const btn = document.getElementById("qt-today-btn");
       // show the button only if today's page exists
       fetch(todayUrl + "index.txt", { method: "HEAD" })
