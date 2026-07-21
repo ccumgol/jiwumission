@@ -47,10 +47,10 @@ expire_days = 7
 content = "<span class='text-center block'>♥️ Loving Hugoplate? <a class='underline' href='https://github.com/zeon-studio/hugoplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>"
 
 [metadata]
-keywords = [ "Boilerplate", "Hugo" ]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+keywords = ["JIWU Mission", "예수동행", "성경", "QT", "말씀카드", "이슬비전도카드", "AI", "IT뉴스", "문서선교"]
+description = "AI와 성경말씀으로 나를 변화시키는 시간 — JIWU Mission. 오늘의 QT·성경 자료·주간 AI/IT 소식을 나누는 문서선교 네트워크입니다."
+author = "JIWU Mission"
+twitter = "ccumgol"
 image = "images/og-image.png"
 
 [site_verification]
