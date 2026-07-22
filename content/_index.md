@@ -254,7 +254,7 @@ Though slow, I pray to keep walking this path faithfully. I wish to be a clean v
 <div class="lang-ko">
 {{< section id="donation" eyebrow="Contact & Support" title="연락처 및 후원 안내" intro="여러분의 후원은 작은 교회를 섬기고, 복음이 더 먼 곳까지 전달되게 합니다." bg="true" >}}
 
-{{< cards mobcols="3" >}}
+{{< cards cols="2" mobcols="2" >}}
 {{< contact icon="✉️" label="E-mail" value="jiwumission@gmail.com" link="mailto:jiwumission@gmail.com" >}}
 {{< contact icon="💬" label="KakaoTalk" value="Jiwumission" >}}
 {{< /cards >}}
@@ -294,7 +294,7 @@ Though slow, I pray to keep walking this path faithfully. I wish to be a clean v
 <div class="lang-en">
 {{< section id="donation-en" eyebrow="Contact & Support" title="Contact & Support" intro="Your support serves small churches and helps spread the Gospel to the ends of the earth." bg="true" >}}
 
-{{< cards mobcols="3" >}}
+{{< cards cols="2" mobcols="2" >}}
 {{< contact icon="✉️" label="E-mail" value="jiwumission@gmail.com" link="mailto:jiwumission@gmail.com" >}}
 {{< contact icon="💬" label="KakaoTalk" value="Jiwumission" >}}
 {{< /cards >}}
