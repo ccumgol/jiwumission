@@ -33,7 +33,7 @@
             <span class="lang-en"><i class="fas fa-book-open"></i> Today's QT</span>
           </a>
           {{ $latest_news := index (where site.RegularPages "Params.categories" "intersect" (slice "매일의 IT뉴스")) 0 }}
-          {{ $news_url := "/blog/daily-it-news/" }}
+          {{ $news_url := "/digest/daily-it-news/" }}
           {{ if $latest_news }}
             {{ $news_url = $latest_news.RelPermalink }}
           {{ end }}
