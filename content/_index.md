@@ -224,7 +224,7 @@ Every Mon 7:30 PM (Zoom) · Thu 3:30 PM (Offline)
 <div class="lang-ko">
 {{< section eyebrow="Director" title="대표간사 소개" >}}
 
-{{< profile quote="열정은 타오르는 것이 아니라 지속해 나가는 것이다!" name="박기현 대표간사" link="https://ccumgol.net" linklabel="개인 홈페이지 ccumgol.net" >}}
+{{< profile quote="열정은 타오르는 것이 아니라 지속해 나가는 것이다!" name="박기현 대표간사" link="https://ccumgol.net" linklabel="개인 홈페이지 ccumgol.net" note="성경공부 자료, 동전으로 보는 미국 등 컨텐츠 자료" >}}
 대학을 졸업할 때 '문서선교'의 소명을 받았습니다. 그것을 위해 군 제대 후 매킨토시를 구입했습니다. 문서 디자인을 공부했고, 컴퓨터를 가르치기 시작했습니다.
 
 30년 넘게 사용해 온 **CCUMGOL(꿈골)** 이란 아이디는 'Christian Computer User's Mission for Glory of Our Lord'의 이니셜을 따서 만든 것입니다. 그 비전은 인터넷선교로, 그리고 작은 교회와 외로이 달음질하는 선교사님들에 대한 관심으로 이어졌습니다.
@@ -238,7 +238,7 @@ Every Mon 7:30 PM (Zoom) · Thu 3:30 PM (Offline)
 <div class="lang-en">
 {{< section eyebrow="Director" title="Meet our Director" >}}
 
-{{< profile quote="Passion is not about burning out, but about pressing on!" name="Director Gihyun Park" link="https://ccumgol.net" linklabel="Personal Website: ccumgol.net" >}}
+{{< profile quote="Passion is not about burning out, but about pressing on!" name="Director Gihyun Park" link="https://ccumgol.net" linklabel="Personal Website: ccumgol.net" note="Bible study materials, 'America Through Coins', and more content" >}}
 Upon graduation, I received a calling for 'Literature Mission'. For this vision, I bought a Macintosh after my military service, studied document design, and began teaching computers.
 
 The ID **CCUMGOL**, which I've used for over 30 years, stands for 'Christian Computer User's Mission for Glory of Our Lord'. This vision evolved into Internet mission, administrative support, and IT ideas for small churches and missionaries.

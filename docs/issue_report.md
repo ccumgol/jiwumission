@@ -824,3 +824,26 @@ ERR_PNPM_ADDING_TO_ROOT  Running this command will add the dependency to the wor
 **원인**: 페이지에 `<base href="https://jesusiswith.us/">`가 삽입되어, `/css/...`·`/images/...` 등 **루트 상대경로 리소스가 모두 프로덕션 도메인 기준으로 해석**됨. 프로덕션에는 아직 새 빌드(새 해시 CSS, 새 이미지)가 배포되지 않아 404 → 스타일 미적용·이미지 누락. (base 태그는 `layouts/partials/basic-seo.html`에서 비-개발 조건일 때 `.Permalink`로 출력)
 **해결**: 코드 문제가 아님을 확인(서버가 내려주는 HTML·CSS·이미지 모두 정상: 이미지 HTTP 200, CSS에 `grayscale`/`56rem`/`grid-cols-2` 포함). 검증은 브라우저에서 base href를 로컬로 바꾸고 localhost CSS를 강제 주입해 진행했고, 실제로는 **배포 후 프로덕션에서 정상 렌더**됨.
 **결론/교훈**: 이 사이트는 로컬 미리보기라도 `<base href>`가 프로덕션을 가리키므로, **아직 배포되지 않은 새 리소스는 로컬에서 곧바로 확인되지 않을 수 있음**. 커밋·푸시로 배포한 뒤 실제 도메인에서 확인하는 것이 가장 확실합니다.
+
+---
+
+## Issue 43. 홈·푸터 정렬 다듬기 + 대표간사 사진 원형 채움
+
+**발생 시점**: 연락처 전화번호 삭제 후 레이아웃이 어긋나고, 좁은 폭에서 푸터 SNS 아이콘이 줄바꿈되며, 대표간사 사진 아래 흰 여백이 보일 때.
+**현상**:
+- 연락처에서 전화번호를 지우니 남은 2개 카드가 3열 그리드 탓에 왼쪽으로 치우침.
+- 브라우저 폭이 좁으면 푸터 SNS 아이콘(5개)이 4+1로 줄바꿈되어 정렬이 틀어짐.
+- 대표간사 원형 프로필 사진 아래쪽에 흰 배경이 보임.
+- 소식지 신청 섹션이 모바일에서도 좌측정렬이라 어색함.
+**원인**:
+- 연락처 카드가 `cards mobcols="3"`(데스크탑 3열)이라 항목 2개가 가운데로 모이지 않음.
+- `.social-icons`가 `inline-block` 기반이라 부모가 좁아지면 아이템이 줄바꿈됨. 카카오 아이콘만 인라인 SVG여서 baseline이 8px 달라 수직으로도 틀어짐.
+- 프로필 이미지가 500px보다 커서 `image` 파티셜이 `<picture>`(inline)로 감쌌고, `<picture>`가 원형 컨테이너 높이를 못 채워 이미지가 세로로 짧게(168×161) 렌더 → 아래 흰 여백.
+**해결**:
+- 연락처: `content/_index.md` ko·en 블록을 `cards cols="2" mobcols="2"`로 변경(`max-w-2xl mx-auto`로 가운데 정렬).
+- 푸터 SNS: `assets/css/custom.css`의 `.social-icons`를 `display:flex; flex-wrap:nowrap; justify-content:flex-end; align-items:center`로 → 어떤 폭에서도 한 줄·우측정렬·수직중앙.
+- 푸터 상단: `footer.html`을 `flex justify-between`(로고 좌 / SNS 우, 중앙 메뉴는 `hidden lg:block` 스페이서)로 재구성 → 모바일에서도 로고+SNS 한 줄.
+- 프로필 사진: `profile.html`에서 이미지 파티셜에 `Size="300x300" Command="Fill"` 추가 → 정사각형 단일 `<img>`가 원을 꽉 채움.
+- 소식지: `newsletter.html` 콘텐츠 컬럼 `text-left` → `text-center md:text-left`(모바일 중앙 / 데스크탑 좌측).
+- 부수 변경: 대표간사 링크 아래 `note` 안내문 추가, 푸터 카카오 아이콘 링크를 `pf.kakao.com/_xlxhxnUG/chat`으로, 푸터 버튼 문구 「Presentation」→「기관 소개」, 연락처 전화번호 삭제.
+**결론/교훈**: (1) 항목 수가 바뀌는 카드 영역은 열 수를 항목 수에 맞춰 조정해야 가운데 정렬이 유지됩니다. (2) 아이콘 줄을 확실히 한 줄로 유지하려면 `inline-block`보다 `flex + flex-wrap:nowrap`이 안전합니다. (3) Hugo `image` 파티셜은 큰 이미지를 `<picture>`로 감싸므로, 고정 비율 컨테이너(원형 아바타 등)를 꽉 채우려면 `Size`+`Command="Fill"`로 정사각형 단일 `<img>`를 만들어야 합니다.

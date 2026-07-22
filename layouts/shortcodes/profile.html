@@ -5,7 +5,7 @@
     {{ if $image }}
     <div class="flex-shrink-0">
       <div class="w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-white dark:border-darkmode-border shadow-md">
-        {{ partial "image" (dict "Src" $image "Alt" (.Get "name") "Class" "w-full h-full object-cover") }}
+        {{ partial "image" (dict "Src" $image "Alt" (.Get "name") "Class" "w-full h-full object-cover" "Size" "300x300" "Command" "Fill") }}
       </div>
     </div>
     {{ end }}
@@ -28,6 +28,9 @@
             {{ or ($.Get "linklabel") . }}
           </a>
         </p>
+        {{ end }}
+        {{ with .Get "note" }}
+        <p class="text-xs text-text-light dark:text-darkmode-text-light mt-1">{{ . }}</p>
         {{ end }}
       </div>
     </div>
