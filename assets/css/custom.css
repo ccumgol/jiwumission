@@ -1,5 +1,21 @@
 /* Add your own custom styles here */
 
+/* Image card: grayscale by default, full color on hover (desktop/tablet with pointer) */
+.image-card .image-card-media {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+.image-card:hover .image-card-media,
+.image-card:focus-within .image-card-media {
+  filter: grayscale(0);
+}
+/* Touch devices (no hover): always show in color */
+@media (hover: none) {
+  .image-card .image-card-media {
+    filter: none;
+  }
+}
+
 /* User's custom dark mode logo styling */
 .dark-mode .logo-img img,
 .dark .logo-img img,

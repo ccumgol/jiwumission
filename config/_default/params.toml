@@ -8,13 +8,13 @@ logo_text = "JIWU Mission"
 navbar_fixed = true
 theme_switcher = true
 theme_default = "system"
-mainSections = [ "blog" ]
+mainSections = ["blog"]
 contact_form_action = "#"
 google_tag_manager = ""
 analytics_embed_url = "https://datastudio.google.com/embed/reporting/f5fddbc5-815d-4d80-8708-6d1b6b28a55a/page/qAC4F"
 google_adsense = ""
 custom_script = ""
-kakao_app_key = "" # 카카오 개발자 JavaScript 앱 키 (카카오톡 공유 기능용)
+kakao_app_key = ""                                                                                                    # 카카오 개발자 JavaScript 앱 키 (카카오톡 공유 기능용)
 copyright = "© 2026 JIWU Mission | Jesus is with us"
 
 [preloader]
@@ -35,7 +35,7 @@ exclude = []
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = [ "blog" ]
+include_sections = ["blog"]
 show_image = true
 show_description = true
 show_tags = true
@@ -47,11 +47,21 @@ expire_days = 7
 content = "<span class='text-center block'>♥️ Loving Hugoplate? <a class='underline' href='https://github.com/zeon-studio/hugoplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>"
 
 [metadata]
-keywords = ["JIWU Mission", "예수동행", "성경", "QT", "말씀카드", "이슬비전도카드", "AI", "IT뉴스", "문서선교"]
+keywords = [
+    "JIWU Mission",
+    "예수동행",
+    "성경",
+    "QT",
+    "말씀카드",
+    "이슬비전도카드",
+    "AI",
+    "IT뉴스",
+    "문서선교",
+]
 description = "AI와 성경말씀으로 나를 변화시키는 시간 — JIWU Mission. 오늘의 QT·성경 자료·주간 AI/IT 소식을 나누는 문서선교 네트워크입니다."
 author = "JIWU Mission"
 twitter = "ccumgol"
-image = "images/og-image.png"
+image = "assets/images/og-image.png"
 
 [site_verification]
 google = ""
@@ -70,7 +80,7 @@ button = "I Accept"
 js_url = "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs"
 
 [widgets]
-sidebar = [ "categories", "tags" ]
+sidebar = ["categories", "tags"]
 
 [google_map]
 enable = false

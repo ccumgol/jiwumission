@@ -800,3 +800,27 @@ ERR_PNPM_ADDING_TO_ROOT  Running this command will add the dependency to the wor
 **원인**: iframe에 서드파티(3사) 쿠키 및 스토리지 접근을 허용하는 `sandbox` 속성이 누락되어, 보안 정책이 엄격한 브라우저에서 Looker Studio의 구글 세션 인증이 차단되었음.
 **해결**: `static/admin/index.html` 내의 룩커 스튜디오 iframe 코드에 `sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"` 속성을 복구/추가하여 브라우저의 저장소 접근을 허용하도록 조치함.
 **결론/교훈**: 보안이 강화된 최신 브라우저 환경에서 구글 인프라 등 서드파티 임베드를 사용할 경우, 명시적인 sandbox 접근 허용 속성들이 필수적입니다.
+
+---
+
+## Issue 41. 홈 「유튜브·강좌」 섹션 2×2 개편 + 강좌 포스터 카드(회색조→호버 컬러) + 사역 소개 구분선
+
+**발생 시점**: 홈 화면의 유튜브/강좌 안내를 3단에서 2×2로 바꾸고, 월별 강좌 포스터를 카드로 노출하며, 사역 소개 3가지 사이에 구분선을 넣고자 할 때.
+**현상/요구**: (1) 2단으로 바꾸면 카드가 너무 커짐, (2) 포스터를 카드 박스에 넣고 평소 회색조·마우스 오버 시 컬러로 표시, (3) 소개 3개 사이에만 짧은 가로선.
+**원인**: 기존 `cards` 숏코드의 `cols="2"`는 폭이 `max-w-2xl`로 고정이라 크기 조절이 어렵고, Tailwind 빌드에 `grayscale` 유틸이 생성돼 있지 않았음.
+**해결**:
+- `cards.html`에 `maxw` 옵션 추가(리터럴 클래스 `max-w-3xl/4xl/5xl` — 미지정 시 기존 `2xl` 유지 → 타 페이지 영향 없음). 홈에서는 `cols="2" maxw="4xl"`로 카드 폭 ≈436px(3단과 유사)로 제한.
+- `image_card.html` 신규 생성(`resources.Get`로 assets 이미지 로드, 파일 없으면 "이미지 준비중" 자리표시자). 포스터는 `assets/images/courses/notion-2026-08.webp`.
+- 회색조 효과는 Tailwind 유틸 대신 `assets/css/custom.css`의 `.image-card .image-card-media { filter: grayscale(100%) }` + `:hover`시 `grayscale(0)`로 구현. `@media (hover:none)`에서는 항상 컬러.
+- `layouts/home.html` Features 반복문에 사이(마지막 제외) 구분선 `<div class="mx-auto w-[500px] max-w-full border-t border-border ...">` 추가. 간격은 `space-y-10 md:space-y-14`로 재조정.
+**결론/교훈**: 공용 숏코드를 확장할 때는 **옵션 미지정 시 기존 동작을 그대로 유지**해 회귀를 막아야 합니다. Tailwind v4는 소스에 없는 유틸(`grayscale` 등)을 생성하지 않으므로, 확실히 적용해야 하는 스타일은 `custom.css`에 직접 작성하는 편이 안전합니다.
+
+---
+
+## Issue 42. 로컬 미리보기에서 새 CSS/이미지가 안 보이고 프로덕션 리소스가 로드됨 (`<base href>`)
+
+**발생 시점**: 위 홈 개편 작업 후 로컬(`hugo server`, localhost:1414)에서 결과를 확인하려 할 때.
+**현상**: HTML 마크업은 최신인데 레이아웃이 깨지고(2단 미적용), 강좌 이미지는 404, 브라우저가 로드한 스타일시트 주소가 `https://jesusiswith.us/css/style.<새해시>.css`(프로덕션 도메인)였음.
+**원인**: 페이지에 `<base href="https://jesusiswith.us/">`가 삽입되어, `/css/...`·`/images/...` 등 **루트 상대경로 리소스가 모두 프로덕션 도메인 기준으로 해석**됨. 프로덕션에는 아직 새 빌드(새 해시 CSS, 새 이미지)가 배포되지 않아 404 → 스타일 미적용·이미지 누락. (base 태그는 `layouts/partials/basic-seo.html`에서 비-개발 조건일 때 `.Permalink`로 출력)
+**해결**: 코드 문제가 아님을 확인(서버가 내려주는 HTML·CSS·이미지 모두 정상: 이미지 HTTP 200, CSS에 `grayscale`/`56rem`/`grid-cols-2` 포함). 검증은 브라우저에서 base href를 로컬로 바꾸고 localhost CSS를 강제 주입해 진행했고, 실제로는 **배포 후 프로덕션에서 정상 렌더**됨.
+**결론/교훈**: 이 사이트는 로컬 미리보기라도 `<base href>`가 프로덕션을 가리키므로, **아직 배포되지 않은 새 리소스는 로컬에서 곧바로 확인되지 않을 수 있음**. 커밋·푸시로 배포한 뒤 실제 도메인에서 확인하는 것이 가장 확실합니다.

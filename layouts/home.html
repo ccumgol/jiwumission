@@ -88,12 +88,12 @@
 <!-- Features (세가지 사역 목표 소개 - 비대칭 교차 레이아웃) -->
 <section class="section">
   <div class="container">
-    <div class="space-y-20 md:space-y-28">
+    <div class="space-y-10 md:space-y-14">
       {{ range $index, $element := .Params.features }}
       {{ $isEven := eq (mod $index 2) 0 }}
       <div class="row items-center justify-between {{ if not $isEven }}flex-row-reverse{{ end }} gap-y-8">
         <!-- Visual Column -->
-        <div class="col-12 md:col-5 flex flex-col items-start {{ if not $isEven }}md:items-end md:text-right{{ else }}md:items-start md:text-left{{ end }}">
+        <div class="col-12 md:col-5 flex flex-col items-center text-center">
           {{ if .icon }}
           <div class="w-16 h-16 rounded-2xl bg-primary/10 dark:bg-primary/20 flex items-center justify-center text-primary text-3xl mb-6 shadow-sm">
             <i class="fas {{ .icon }}"></i>
@@ -142,6 +142,9 @@
           {{ end }}
         </div>
       </div>
+      {{ if lt (add $index 1) (len $.Params.features) }}
+      <div class="mx-auto w-[500px] max-w-full border-t border-border dark:border-darkmode-border" aria-hidden="true"></div>
+      {{ end }}
       {{ end }}
     </div>
   </div>
