@@ -16,6 +16,7 @@ type: "post"
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
+- [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
@@ -34,6 +35,7 @@ type: "post"
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
+- [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
@@ -45,6 +47,7 @@ type: "post"
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
+- [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
 
@@ -54,6 +57,7 @@ type: "post"
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
+- [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 
 ### 🛡️ 보안 (Security)
