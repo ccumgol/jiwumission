@@ -15,8 +15,10 @@ type: "post"
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
+- [Codex Plugin CC](https://github.com/openai/codex-plugin-cc) - Claude Code에서 OpenAI Codex를 불러 코드 리뷰·작업 위임을 하게 해주는 플러그인
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
+- [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
@@ -24,6 +26,7 @@ type: "post"
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
+- [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - 자연어로 주식·크립토·외환 전략을 만들고 백테스트하는 오픈소스 AI 트레이딩 에이전트(홍콩대 HKUDS)
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
@@ -35,6 +38,7 @@ type: "post"
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
+- [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
