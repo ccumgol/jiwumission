@@ -7,6 +7,7 @@ summary: "Hugo 공식 테마 사이트에 등록된 275개 테마를 전부 수�
 description: "themes.gohugo.io에 등록된 Hugo 테마 275개를 블로그·문서·포트폴리오·기업 등 12가지 용도로 분류한 한국어 가이드. 별점, 최종 업데이트일, 라이선스, 초보자가 조심할 점까지 정리했습니다."
 tags: ["정적홈페이지", "Hugo", "테마", "가이드"]
 categories: ["정적홈페이지"]
+image: "images/hugo-theme-guide.jpg"
 comments: false
 ---
 
