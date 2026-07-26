@@ -23,6 +23,7 @@ type: "post"
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
 - [Postiz-app](https://github.com/gitroomhq/postiz-app) - 여러 SNS 채널의 게시물 예약을 한 곳에서 관리하는 오픈소스 소셜 미디어 스케줄링 도구
+- [Pxpipe](https://github.com/teamchong/pxpipe) - 시스템 프롬프트·툴 정의·대화 이력을 촘촘한 PNG로 렌더링해 LLM 토큰 비용을 절반 수준까지 줄이는 로컬 프록시
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Re_gent](https://github.com/regent-vcs/re_gent) - AI 에이전트의 작업 이력을 git처럼 추적·되감기·bisect 할 수 있게 하는 에이전트용 버전관리 도구
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
@@ -32,6 +33,7 @@ type: "post"
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
+- [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
 - [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
@@ -44,6 +46,7 @@ type: "post"
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
+- [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
@@ -67,6 +70,7 @@ type: "post"
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
+- [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
 
 ### 🛡️ 보안 (Security)
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
