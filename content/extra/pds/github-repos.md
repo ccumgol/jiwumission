@@ -15,7 +15,9 @@ type: "post"
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
+- [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - 코드베이스를 영속적 지식 그래프로 색인해 AI 코딩 에이전트에게 지도를 제공하는 고성능 MCP 서버(158개 언어, 1ms 미만 질의)
 - [Codex Plugin CC](https://github.com/openai/codex-plugin-cc) - Claude Code에서 OpenAI Codex를 불러 코드 리뷰·작업 위임을 하게 해주는 플러그인
+- [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
@@ -62,6 +64,7 @@ type: "post"
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
+- [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
 
@@ -77,6 +80,7 @@ type: "post"
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
 
 ### 🛡️ 보안 (Security)
+- [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
 
