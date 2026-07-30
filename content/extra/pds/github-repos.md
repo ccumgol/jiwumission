@@ -12,6 +12,7 @@ type: "post"
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
+- [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
@@ -50,6 +51,7 @@ type: "post"
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
+- [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
@@ -59,6 +61,7 @@ type: "post"
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
+- [WorldMonitor](https://github.com/koala73/worldmonitor) - AI 뉴스 집계·지정학 모니터링·인프라 추적을 하나의 상황인식 화면으로 묶은 실시간 글로벌 인텔리전스 대시보드
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
@@ -75,6 +78,7 @@ type: "post"
 - [Actual Budget](https://github.com/actualbudget/actual) - 봉투 예산(envelope budgeting) 방식의 로컬 우선 무료 가계부
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
+- [Yap](https://github.com/FrigadeHQ/yap) - 애플 Speech 프레임워크를 그대로 써서 모델 다운로드·클라우드 전송·API 키 없이 기기 내에서 처리하는 맥OS용 무료 음성 입력 도구
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
