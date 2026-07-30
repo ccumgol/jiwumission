@@ -25,6 +25,12 @@ comments: false
 
 > 저장소의 커밋 기록에서 의미 있는 변경만 추린 목록입니다. (자동 생성되는 일일 콘텐츠·정기 배포 커밋은 제외) 계속 업데이트됩니다.
 
+<div id="changelog">
+<div class="changelog-controls">
+  <button type="button" class="changelog-sort-btn is-active" data-order="desc">최신순 ↓</button>
+  <button type="button" class="changelog-sort-btn" data-order="asc">오래된순 ↑</button>
+</div>
+
 <!-- CHANGELOG:START -->
 - **2026-07-30** — 정적홈페이지 완성 가이드
 - **2026-07-26** — 잎새 41호
@@ -187,3 +193,37 @@ comments: false
 - **2026-06-12** — config: update baseURL for GitHub Pages deployment
 - **2026-06-12** — JIWU Mission 사이트 초기 구축 (폴더 구조 정리)
 <!-- CHANGELOG:END -->
+
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById("changelog");
+  if (!root) return;
+  var list = root.querySelector("ul");
+  if (!list) return;
+  var items = Array.prototype.slice.call(list.children);
+  items.forEach(function (li, i) { li.setAttribute("data-idx", i); });
+  function dateOf(li) {
+    var s = li.querySelector("strong");
+    return s ? s.textContent.trim() : "";
+  }
+  function sortBy(order) {
+    items.slice().sort(function (a, b) {
+      var da = dateOf(a), db = dateOf(b);
+      if (da === db) {
+        var ia = +a.getAttribute("data-idx"), ib = +b.getAttribute("data-idx");
+        return order === "asc" ? ib - ia : ia - ib;
+      }
+      if (order === "asc") return da < db ? -1 : 1;
+      return da < db ? 1 : -1;
+    }).forEach(function (li) { list.appendChild(li); });
+    root.querySelectorAll(".changelog-sort-btn").forEach(function (btn) {
+      btn.classList.toggle("is-active", btn.getAttribute("data-order") === order);
+    });
+  }
+  root.querySelectorAll(".changelog-sort-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () { sortBy(btn.getAttribute("data-order")); });
+  });
+})();
+</script>
