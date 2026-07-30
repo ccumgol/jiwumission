@@ -9,6 +9,7 @@ FILE="content/extra/site-story.md"
 CHANGELOG=$(git log --date=short --pretty="format:%ad|%s" \
   | grep -viE 'scheduled daily publish|일일 자동 생성|자동 생성 컨텐츠' \
   | grep -vE '\|[0-9]{4}-[0-9]{2}-[0-9]{2}$' \
+  | grep -viE '\|(test|테스트|wip|tmp|임시)$' \
   | awk -F'|' '{printf "- **%s** — %s\n", $1, substr($0, index($0,"|")+1)}')
 
 export CHANGELOG
