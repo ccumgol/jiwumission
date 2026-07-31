@@ -144,7 +144,11 @@ html[data-lang="en"] .lang-ko {
   color: #333333;
   margin-left: -1.25rem;               /* 제목은 들여쓰기 밖(왼쪽 끝)으로 */
   padding: 0.35rem 0.5rem 0.35rem 1.25rem;
+  list-style: none;                    /* 기본 삼각형 마커 제거 (Firefox/Chrome) */
 }
+.content details > summary::-webkit-details-marker { display: none; } /* Safari/구 Chrome */
+.content details > summary::before { content: "► "; }                 /* 닫힘 */
+.content details[open] > summary::before { content: "▼ "; }            /* 열림 */
 .content details[open] > summary {
   margin-bottom: 0.5rem;
   border-bottom: 1px solid #eeeeee;
