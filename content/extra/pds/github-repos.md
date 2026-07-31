@@ -35,12 +35,14 @@ type: "post"
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
+- [TurboFieldfare](https://github.com/drumih/turbo-fieldfare) - 4비트 Gemma 4 26B의 전문가 가중치를 SSD에서 스트리밍해 램 2GB만으로 M시리즈 맥에서 구동하는 Swift·Metal 추론 엔진
 - [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - 자연어로 주식·크립토·외환 전략을 만들고 백테스트하는 오픈소스 AI 트레이딩 에이전트(홍콩대 HKUDS)
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
+- [BibleOS](https://github.com/crynta/BibleOS) - Tauri 기반 크로스플랫폼 성경 리더 앱으로, 읽는 중에 AI 채팅으로 본문 배경·문맥을 바로 물어볼 수 있다
 - [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
@@ -60,6 +62,8 @@ type: "post"
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
+- [RomM](https://github.com/rommapp/romm) - 레트로 게임 롬 파일을 메타데이터·박스아트와 함께 정리하고 브라우저에서 바로 실행하는 자체 호스팅 롬 매니저 겸 플레이어
+- [Usertour](https://github.com/usertour/usertour) - 앱 안에 제품 투어·체크리스트·설문을 붙이는 오픈소스 사용자 온보딩 플랫폼(Appcues·Userflow 대안, Docker 자체 호스팅)
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
 - [WorldMonitor](https://github.com/koala73/worldmonitor) - AI 뉴스 집계·지정학 모니터링·인프라 추적을 하나의 상황인식 화면으로 묶은 실시간 글로벌 인텔리전스 대시보드
 
