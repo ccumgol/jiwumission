@@ -10,7 +10,7 @@ image: "images/Chapter-2.-페이지와-블록.webp"
 comments: false
 notion_url: "https://app.notion.com/p/Chapter-2-3a1091c284f68139bb3ee22a359d6992"
 notion_id: "3a1091c2-84f6-8139-bb3e-e22a359d6992"
-Categories: ["blog", "Notion"]
+categories: ["blog", "Notion"]
 참고내용: "Claude Opus"
 ---
 

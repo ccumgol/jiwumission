@@ -10,7 +10,7 @@ image: "images/토큰이-뭐길래-—-AI가-글을-읽는-단위.webp"
 comments: false
 notion_url: "https://app.notion.com/p/AI-39e091c284f6814fa10dd2bf04a0d39e"
 notion_id: "39e091c2-84f6-814f-a10d-d2bf04a0d39e"
-Categories: ["blog", "컴퓨터 기초"]
+categories: ["blog", "컴퓨터 기초"]
 참고내용: "시즌 1 · EP.03"
 ---
 

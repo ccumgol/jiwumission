@@ -10,7 +10,7 @@ image: "images/정적홈페이지---Cloudflare-Pages로-홈페이지-배포하�
 comments: false
 notion_url: "https://app.notion.com/p/Cloudflare-Pages-39c091c284f68061955afe6c082b9231"
 notion_id: "39c091c2-84f6-8061-955a-fe6c082b9231"
-Categories: ["blog", "홈페이지"]
+categories: ["blog", "홈페이지"]
 ---
 
 # Cloudflare Pages로 홈페이지 배포하기

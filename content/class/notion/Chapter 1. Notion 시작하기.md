@@ -10,7 +10,7 @@ image: "images/Chapter-1.-Notion-시작하기.webp"
 comments: false
 notion_url: "https://app.notion.com/p/Chapter-1-Notion-3a1091c284f681c8a36fe97f2bae95fe"
 notion_id: "3a1091c2-84f6-81c8-a36f-e97f2bae95fe"
-Categories: ["blog", "Notion"]
+categories: ["blog", "Notion"]
 참고내용: "Claude Opus"
 ---
 

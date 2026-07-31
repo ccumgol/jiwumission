@@ -10,7 +10,7 @@ image: "images/Chapter-3.-텍스트-작성과-서식.webp"
 comments: false
 notion_url: "https://app.notion.com/p/Chapter-3-3a1091c284f6815dad6df728e3315191"
 notion_id: "3a1091c2-84f6-815d-ad6d-f728e3315191"
-Categories: ["blog", "Notion"]
+categories: ["blog", "Notion"]
 참고내용: "Claude Opus"
 ---
 

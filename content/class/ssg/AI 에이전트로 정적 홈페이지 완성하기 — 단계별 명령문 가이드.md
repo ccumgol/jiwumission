@@ -10,7 +10,7 @@ image: "images/AI-에이전트로-정적-홈페이지-완성하기-—-단계별
 comments: false
 notion_url: "https://app.notion.com/p/AI-39d091c284f680209142f237adce58f9"
 notion_id: "39d091c2-84f6-8020-9142-f237adce58f9"
-Categories: ["blog", "홈페이지"]
+categories: ["blog", "홈페이지"]
 ---
 
 # AI 에이전트로 정적 홈페이지 완성하기 — 단계별 명령문 가이드

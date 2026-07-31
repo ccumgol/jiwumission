@@ -10,7 +10,7 @@ image: "images/Notion-초보자-입문-매뉴얼-—-구성-개요(기획안).we
 comments: false
 notion_url: "https://app.notion.com/p/Notion-3a1091c284f6810b87e9f8f3a7a05faa"
 notion_id: "3a1091c2-84f6-810b-87e9-f8f3a7a05faa"
-Categories: ["blog", "Notion"]
+categories: ["blog", "Notion"]
 참고내용: "Claude Opus"
 ---
 

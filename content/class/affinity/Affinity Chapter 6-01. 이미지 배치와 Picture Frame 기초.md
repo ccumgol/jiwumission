@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-6-01.-이미지-배치와-Picture-Frame-기초.w
 comments: false
 notion_url: "https://app.notion.com/p/Affinity-Chapter-6-01-Picture-Frame-967e124f930e42c8990dc4f06a2df223"
 notion_id: "967e124f-930e-42c8-990d-c4f06a2df223"
-Categories: ["blog", "Affinity"]
+categories: ["blog", "Affinity"]
 ---
 
 ## 이 파트에서 배울 내용

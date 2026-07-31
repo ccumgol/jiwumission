@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-6-03.-도형·색상·레이어·정렬.webp"
 comments: false
 notion_url: "https://app.notion.com/p/Affinity-Chapter-6-03-a67848a585ba402aa35f1293346e6957"
 notion_id: "a67848a5-85ba-402a-a35f-1293346e6957"
-Categories: ["blog", "Affinity"]
+categories: ["blog", "Affinity"]
 ---
 
 ## 이 파트에서 배울 내용

@@ -10,7 +10,7 @@ image: "images/gitHub이란.webp"
 comments: false
 notion_url: "https://app.notion.com/p/gitHub-397091c284f680ebabffe28a44e42609"
 notion_id: "397091c2-84f6-80eb-abff-e28a44e42609"
-Categories: ["blog", "컴퓨터 기초"]
+categories: ["blog", "컴퓨터 기초"]
 ---
 
 ## GitHub이란?

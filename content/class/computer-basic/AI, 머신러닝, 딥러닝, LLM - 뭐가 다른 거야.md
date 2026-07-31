@@ -10,7 +10,7 @@ image: "images/AI,-머신러닝,-딥러닝,-LLM---뭐가-다른-거야.webp"
 comments: false
 notion_url: "https://app.notion.com/p/AI-LLM-39e091c284f681b385d6d4078109509a"
 notion_id: "39e091c2-84f6-81b3-85d6-d4078109509a"
-Categories: ["blog", "컴퓨터 기초"]
+categories: ["blog", "컴퓨터 기초"]
 참고내용: "시즌 1 · EP.01"
 ---
 

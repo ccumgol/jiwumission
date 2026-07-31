@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-5-Part-3.-타이포그래피-&-반복작업(완�
 comments: false
 notion_url: "https://app.notion.com/p/Affinity-Chapter-5-Part-3-397091c284f6804e841cee280faf5d05"
 notion_id: "397091c2-84f6-804e-841c-ee280faf5d05"
-Categories: ["blog", "Affinity"]
+categories: ["blog", "Affinity"]
 ---
 
 # Part 3. 타이포그래피 & 반복작업(완성도): 스타일/그리드/고급/실전

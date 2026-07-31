@@ -10,7 +10,7 @@ image: "images/Affinity-Chapter-6-02.-이미지-파일-관리와-Resource-Manage
 comments: false
 notion_url: "https://app.notion.com/p/Affinity-Chapter-6-02-Resource-Manager-b5470bf551474ddba0246dd169c71709"
 notion_id: "b5470bf5-5147-4ddb-a024-6dd169c71709"
-Categories: ["blog", "Affinity"]
+categories: ["blog", "Affinity"]
 ---
 
 ## 이 파트에서 배울 내용

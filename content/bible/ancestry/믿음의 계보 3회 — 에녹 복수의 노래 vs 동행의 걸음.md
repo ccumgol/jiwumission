@@ -10,7 +10,7 @@ image: "images/믿음의-계보-3회-—-에녹-복수의-노래-vs-동행의-�
 comments: false
 notion_url: "https://app.notion.com/p/3-vs-3a3091c284f6818cb538c90adb8ec6d3"
 notion_id: "3a3091c2-84f6-818c-b538-c90adb8ec6d3"
-Categories: ["성경연구", "blog"]
+categories: ["성경연구", "blog"]
 ---
 
 **본문: 창세기 5:21-24 (배경 본문: 창 4:23-24; 히 11:5; 유 1:14-15)**
