@@ -1,12 +1,22 @@
-# 매일 06:00 KST (전날 21:00 UTC)에 Cloudflare Pages Deploy Hook을 호출하여
-# 미래 날짜로 예약된 포스트(오늘의 QT, IT뉴스)를 자동으로 무인 재빌드 및 배포합니다.
+# Cloudflare Pages Deploy Hook을 호출해 사이트를 재빌드합니다.
+#
+# ⚠️ 2026-07-31: 매일 06:00 KST 자동 실행을 '중단'했습니다. (수동 실행만 남김)
+#    이유 — 매일 재빌드가 필요하지 않다는 것이 확인되었습니다:
+#      1) hugo.toml 의 buildFuture = true 라서 미래 날짜 글도 이미 빌드·배포됨
+#         (실제로 2026-12-31 QT 페이지가 이미 라이브 상태로 확인)
+#      2) 오늘의 QT 팝업·버튼은 서버가 아니라 '브라우저'가 날짜를 계산해 표시하므로
+#         날짜가 바뀌어도 재빌드 없이 그날 QT가 자동으로 보임
+#      3) 레이아웃에 빌드 시점의 '오늘'을 쓰는 곳이 없음 (날짜만으로 바뀌는 화면 없음)
+#      4) 새 원고는 매일 23:30 auto_push 의 push 가 이미 배포를 트리거함
+#
+#    다시 켜야 한다면 아래 schedule 주석을 해제하세요.
 name: Scheduled Daily Publish
 
 on:
-  schedule:
-    # KST 06:00 = UTC 21:00 (전날)
-    - cron: "0 21 * * *"
-  # 수동으로도 실행 가능
+  # schedule:
+  #   # KST 06:00 = UTC 21:00 (전날)
+  #   - cron: "0 21 * * *"
+  # 필요할 때 수동으로 실행 (Actions 탭 → Run workflow)
   workflow_dispatch:
 
 jobs:

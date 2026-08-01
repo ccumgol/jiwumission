@@ -3,14 +3,16 @@
 성경개론(bible-overview)의 '내용구분'에 매일 QT(daily-bible) 링크를 붙이는 스크립트.
 
 무엇을 하나요?
-  - content/databank/daily-bible/*.md 의 각 QT(발행된 것: draft:false)를 읽어
+  - content/bible/daily-bible/<연도>/*.md 의 각 QT(원고 완성분)를 읽어
     front matter의 book/passage/date 로 "어느 본문인지"를 파악합니다.
-  - content/databank/bible-overview/*.md 의 "각 장 및 문단의 내용 정리"(= 내용구분)
+  - content/bible/bible-overview/*.md 의 "각 장 및 문단의 내용 정리"(= 내용구분)
     섹션에서, 각 QT의 '시작 절'이 속한 '가장 좁은 항목'에 링크를 덧붙입니다.
-  - 링크 라벨은 본문 범위(예: 1:1-13)이며, 형식은:  · 📖 [1:1-13](/databank/daily-bible/2026-01-01/)
+  - 링크 라벨은 본문 범위(예: 1:1-13)이며, 형식은:  · 📖 [1:1-13](/bible/daily-bible/2026/2026-01-01/)
 
 특징
-  - 발행된(draft:false) QT만 링크 → 깨진 링크가 생기지 않습니다.
+  - 원고가 완성된 QT(draft:false + qt_status:done)만 링크합니다.
+    ※ 1년치 QT 파일이 미리 만들어져 있고 미래분은 qt_status:draft(뼈대만)이므로,
+      이 필터가 없으면 아직 쓰지 않은 QT에도 링크가 붙습니다.
   - idempotent: 여러 번 돌려도 중복되지 않습니다(기존 "  · 📖 ..." 를 지우고 다시 붙임).
     → QT가 더 발행되면 그냥 다시 실행하세요.
   - QT가 있는 책(창세기/요한복음/사사기/고린도전서/시편/이사야/고린도후서/야고보서 등)만 처리.
@@ -21,8 +23,8 @@
 """
 import os, re, glob
 
-QT_DIR = "content/databank/daily-bible"
-OV_DIR = "content/databank/bible-overview"
+QT_DIR = "content/bible/daily-bible"      # 하위에 연도 폴더(2026/…)가 있음
+OV_DIR = "content/bible/bible-overview"
 MARK = "  · 📖 "  # 링크 구분 접두 (idempotent 갱신 기준)
 
 
@@ -61,13 +63,18 @@ def parse_ref(tok):
 
 
 def collect_qts():
-    """book -> [(시작위치, 날짜, 본문라벨), ...]  (발행분만)."""
+    """book -> [(시작위치, 날짜, 본문라벨), ...]  (원고 완성분만)."""
     qts = {}
-    for p in glob.glob(f"{QT_DIR}/*.md"):
+    # 연도 폴더(2026/…) 하위까지 재귀 탐색
+    for p in glob.glob(f"{QT_DIR}/**/*.md", recursive=True):
+        if os.path.basename(p) == "_index.md":
+            continue
         fm = parse_fm(p)
         if not fm or "passage" not in fm or "book" not in fm:
             continue
         if fm.get("draft", "false") == "true":  # 미발행(draft) 제외 → 깨진 링크 방지
+            continue
+        if fm.get("qt_status", "done") != "done":  # 뼈대만 있는 미작성 QT 제외
             continue
         mm = re.match(r"^(\S+)\s+(.+)$", fm["passage"])
         if not mm:
@@ -161,7 +168,8 @@ def process(path, qts):
     # 6) 링크 덧붙이기
     for idx, items in assign.items():
         items = sorted(set(items))
-        links = " ".join(f"[{lab}](/databank/daily-bible/{d}/)" for _, d, lab in items)
+        # 연도 폴더가 URL에 포함됨: /bible/daily-bible/2026/2026-01-01/
+        links = " ".join(f"[{lab}](/bible/daily-bible/{d[:4]}/{d}/)" for _, d, lab in items)
         lines[idx] = lines[idx].rstrip() + MARK + links
 
     open(path, "w", encoding="utf-8").write("\n".join(lines))

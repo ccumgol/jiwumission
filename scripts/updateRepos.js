@@ -1,8 +1,26 @@
+/**
+ * ⚠️ [사용 중지 / DEPRECATED] 2026-07-31
+ *
+ * 이 스크립트는 IT뉴스 본문에서 GitHub 리포지터리를 뽑아
+ * `추천 GitHub 리포지터리 모음` 문서를 만드는 용도였습니다.
+ *
+ * 지금은 **'예정됨'(예약된 작업)의 매일 IT뉴스 작성 작업이
+ * 뉴스와 함께 `content/extra/pds/github-repos.md` 를 직접 갱신**하므로
+ * 이 스크립트는 더 이상 사용하지 않습니다. (auto_push.sh에서도 호출을 제거했음)
+ *
+ * ❗️ 다시 실행하지 마세요:
+ *   - 이 스크립트는 결과 문서를 **통째로 덮어씁니다**(writeFileSync).
+ *   - 리포 설명문은 아래 하드코딩된 목록(REPO_MAP)에서만 가져오므로,
+ *     그 목록에 없는 그동안 축적된 큐레이션 항목들이 모두 사라집니다.
+ *
+ * 참고용으로만 보관합니다. 자세한 경위는 docs/features.md 10장 참조.
+ */
 const fs = require('fs');
 const path = require('path');
 
-const NEWS_DIR = path.join(__dirname, '../content/blog/daily-it-news');
-const OUTPUT_FILE = path.join(__dirname, '../content/databank/pds/github-repos.md');
+// (사용 중지) 폴더 개편 이후 경로: content/digest/daily-it-news, content/extra/pds
+const NEWS_DIR = path.join(__dirname, '../content/digest/daily-it-news');
+const OUTPUT_FILE = path.join(__dirname, '../content/extra/pds/github-repos.md');
 
 // 카테고리 정의
 const CATEGORIES = [
