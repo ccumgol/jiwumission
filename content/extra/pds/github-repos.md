@@ -11,6 +11,7 @@ type: "post"
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
+- [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
@@ -21,6 +22,7 @@ type: "post"
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
+- [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
@@ -30,8 +32,10 @@ type: "post"
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
 - [Postiz-app](https://github.com/gitroomhq/postiz-app) - 여러 SNS 채널의 게시물 예약을 한 곳에서 관리하는 오픈소스 소셜 미디어 스케줄링 도구
 - [Pxpipe](https://github.com/teamchong/pxpipe) - 시스템 프롬프트·툴 정의·대화 이력을 촘촘한 PNG로 렌더링해 LLM 토큰 비용을 절반 수준까지 줄이는 로컬 프록시
-- [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
+- [PyTorch](https://github.com/pytorch/pytorch) - 강력한 GPU 가속을 지원하는 파이썬 텐서·동적 신경망 라이브러리로 딥러닝 연구의 사실상 표준 프레임워크
+- [Qm](https://github.com/yc-software/qm) - Y Combinator가 내부 운영에 실제로 쓰는 멀티플레이어 AI 에이전트 하니스(사람·방마다 격리된 메모리·권한·샌드박스, 하니스/모델 교체 가능, MIT)
 - [Re_gent](https://github.com/regent-vcs/re_gent) - AI 에이전트의 작업 이력을 git처럼 추적·되감기·bisect 할 수 있게 하는 에이전트용 버전관리 도구
+- [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
@@ -46,6 +50,7 @@ type: "post"
 - [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
+- [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
@@ -59,6 +64,7 @@ type: "post"
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
+- [MeTube](https://github.com/alexta69/metube) - yt-dlp를 브라우저 UI로 감싼 자체 호스팅 영상 다운로더, 채널·재생목록 구독 자동 수집 지원
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
@@ -68,12 +74,14 @@ type: "post"
 - [WorldMonitor](https://github.com/koala73/worldmonitor) - AI 뉴스 집계·지정학 모니터링·인프라 추적을 하나의 상황인식 화면으로 묶은 실시간 글로벌 인텔리전스 대시보드
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
+- [Alexandrie](https://github.com/Smaug6739/Alexandrie) - 확장 마크다운 에디터·칸반·OIDC/SSO·오프라인 PWA를 갖춘 자체 호스팅 지식 베이스(노션·컨플루언스 대안), docker compose 한 번으로 배포
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
+- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
