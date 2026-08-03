@@ -15,6 +15,7 @@ type: "post"
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
+- [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - 코드베이스를 영속적 지식 그래프로 색인해 AI 코딩 에이전트에게 지도를 제공하는 고성능 MCP 서버(158개 언어, 1ms 미만 질의)
@@ -35,6 +36,7 @@ type: "post"
 - [PyTorch](https://github.com/pytorch/pytorch) - 강력한 GPU 가속을 지원하는 파이썬 텐서·동적 신경망 라이브러리로 딥러닝 연구의 사실상 표준 프레임워크
 - [Qm](https://github.com/yc-software/qm) - Y Combinator가 내부 운영에 실제로 쓰는 멀티플레이어 AI 에이전트 하니스(사람·방마다 격리된 메모리·권한·샌드박스, 하니스/모델 교체 가능, MIT)
 - [Re_gent](https://github.com/regent-vcs/re_gent) - AI 에이전트의 작업 이력을 git처럼 추적·되감기·bisect 할 수 있게 하는 에이전트용 버전관리 도구
+- [RuView](https://github.com/ruvnet/RuView) - 카메라 없이 일반 WiFi 신호만으로 실시간 공간 인식·재실 감지·생체 신호 모니터링을 수행하는 무선 센싱 프로젝트
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
@@ -60,6 +62,7 @@ type: "post"
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
+- [Xiphos](https://github.com/crosswire/xiphos) - SWORD 프로젝트 모듈로 여러 역본·주석·사전을 나란히 놓고 연구하는 리눅스·유닉스·윈도우용 데스크톱 성경 공부 도구(CrossWire)
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
@@ -98,6 +101,7 @@ type: "post"
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) - AI 코딩 에이전트가 위험한 git·셸 명령을 실행하기 전에 맥락까지 판단해 가로막는 러스트 기반 훅
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
+- [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
 
 ### 🛡️ 보안 (Security)
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
