@@ -143,13 +143,22 @@ def process(path, qts):
         if j != -1:
             lines[i] = lines[i][:j].rstrip()
 
-    # 4) 항목(범위 있는 - 불릿) 수집
+    # 4) 항목(본문 범위가 적힌 줄) 수집
+    #    - 불릿 항목:  "- 1:1-9 유다의 범죄와 황폐함"
+    #    - 평문 줄:    "14:24-27 앗수르에 대한 예언"
+    #      (이사야·예레미야애가처럼 불릿 없이 평문으로만 적힌 개론도 있어 함께 인식)
     entries = []
     for i in range(hs + 1, he):
         m = re.match(r"^(\s*)-\s+(\*\*)?(.+)$", lines[i])
-        if not m:
-            continue
-        ref = entry_ref(m.group(3))
+        if m:
+            text = m.group(3)
+        else:
+            stripped = lines[i].strip()
+            # 빈 줄·헤딩·인용은 건너뜀
+            if not stripped or stripped.startswith(("#", ">")):
+                continue
+            text = stripped.lstrip("*").strip()
+        ref = entry_ref(text)
         if ref:
             entries.append([i, ref[0], ref[1]])
 
