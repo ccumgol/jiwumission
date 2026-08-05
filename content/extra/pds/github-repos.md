@@ -43,6 +43,7 @@ type: "post"
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
 - [TurboFieldfare](https://github.com/drumih/turbo-fieldfare) - 4비트 Gemma 4 26B의 전문가 가중치를 SSD에서 스트리밍해 램 2GB만으로 M시리즈 맥에서 구동하는 Swift·Metal 추론 엔진
+- [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - 100페이지 PDF를 한 번에 처리하는 바이두의 3B 멀티모달 문서 OCR 모델(32K 컨텍스트, Ollama·vLLM·llama.cpp 로컬 구동, MIT)
 - [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - 자연어로 주식·크립토·외환 전략을 만들고 백테스트하는 오픈소스 AI 트레이딩 에이전트(홍콩대 HKUDS)
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
@@ -59,6 +60,7 @@ type: "post"
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
+- [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
@@ -98,11 +100,13 @@ type: "post"
 - [Yap](https://github.com/FrigadeHQ/yap) - 애플 Speech 프레임워크를 그대로 써서 모델 다운로드·클라우드 전송·API 키 없이 기기 내에서 처리하는 맥OS용 무료 음성 입력 도구
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
+- [Actions Checkout](https://github.com/actions/checkout) - 거의 모든 CI 워크플로의 첫 단계로 쓰이는 GitHub Actions 공식 저장소 체크아웃 액션
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) - AI 코딩 에이전트가 위험한 git·셸 명령을 실행하기 전에 맥락까지 판단해 가로막는 러스트 기반 훅
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - 대용량 로그·문서의 전문 검색과 실시간 분석에 쓰이는 오픈소스 분산 RESTful 검색·분석 엔진
+- [Factorio Code Visualizer](https://github.com/rorz/factorio-code-visualizer) - 코드베이스 구조를 실제로 플레이 가능한 Factorio 게임 맵으로 변환해 시각화하는 도구
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
 
