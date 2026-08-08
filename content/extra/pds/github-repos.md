@@ -23,6 +23,7 @@ type: "post"
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
@@ -89,6 +90,7 @@ type: "post"
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
+- [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
@@ -108,10 +110,12 @@ type: "post"
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 - [Actions Checkout](https://github.com/actions/checkout) - 거의 모든 CI 워크플로의 첫 단계로 쓰이는 GitHub Actions 공식 저장소 체크아웃 액션
 - [Ansible](https://github.com/ansible/ansible) - 에이전트 설치 없이 SSH만으로 서버 배포·설정·네트워크·클라우드 관리를 자동화하는 IT 자동화 플랫폼
+- [Assembly Hall of Shame](https://github.com/xoreaxeaxeax/asm-hall-of-shame) - CPU 명령어 하나를 최대한 느리게 만드는 방법을 겨루는 역방향 최적화 연구 모음(현재 x86 기록 1,980억 사이클·62초)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
+- [Wyzer](https://github.com/Wyzer-Lang/wyzer) - 소유권 규칙 하나로 메모리·동시성·네트워크 안전성을 함께 해결하려는 정적 타입 컴파일 언어(코레오그래픽 프로그래밍, perceus 메모리 모델)
 - [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) - AI 코딩 에이전트가 위험한 git·셸 명령을 실행하기 전에 맥락까지 판단해 가로막는 러스트 기반 훅
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - 대용량 로그·문서의 전문 검색과 실시간 분석에 쓰이는 오픈소스 분산 RESTful 검색·분석 엔진
 - [Factorio Code Visualizer](https://github.com/rorz/factorio-code-visualizer) - 코드베이스 구조를 실제로 플레이 가능한 Factorio 게임 맵으로 변환해 시각화하는 도구
