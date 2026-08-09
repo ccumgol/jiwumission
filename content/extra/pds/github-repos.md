@@ -66,6 +66,7 @@ type: "post"
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
 - [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
+- [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
@@ -81,6 +82,7 @@ type: "post"
 - [RomM](https://github.com/rommapp/romm) - 레트로 게임 롬 파일을 메타데이터·박스아트와 함께 정리하고 브라우저에서 바로 실행하는 자체 호스팅 롬 매니저 겸 플레이어
 - [Usertour](https://github.com/usertour/usertour) - 앱 안에 제품 투어·체크리스트·설문을 붙이는 오픈소스 사용자 온보딩 플랫폼(Appcues·Userflow 대안, Docker 자체 호스팅)
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
+- [TuneLog](https://github.com/adiiverma40/tunelog) - 별점 없이 건너뛴 곡·다시 들은 곡만으로 취향을 학습하는 자체 호스팅 음악 추천 서비스(Navidrome/Subsonic·ListenBrainz 연동)
 - [WorldMonitor](https://github.com/koala73/worldmonitor) - AI 뉴스 집계·지정학 모니터링·인프라 추적을 하나의 상황인식 화면으로 묶은 실시간 글로벌 인텔리전스 대시보드
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
@@ -126,6 +128,7 @@ type: "post"
 - [Nightcrawler](https://github.com/garagehq/nightcrawler) - 스마트폰에서 완전 로컬로 구동되는 자율 침투 테스트 에이전트(2B 로컬 모델, 클라우드 불필요, MIT)
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
+- [Rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge) - 일부 x86(VIA C3) CPU에 숨겨진 비x86 보조 코어를 통해 메모리 보호·권한 검사를 우회하는 하드웨어 백도어를 실증하고 탐지 도구까지 공개한 연구 프로젝트
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
