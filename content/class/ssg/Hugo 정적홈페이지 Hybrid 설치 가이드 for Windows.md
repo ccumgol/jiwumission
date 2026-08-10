@@ -14,6 +14,7 @@ categories: ["blog", "홈페이지"]
 ---
 
 # Hugo 정적홈페이지 Hybrid 설치 가이드 for Windows
+![Hugo 정적홈페이지 Hybrid 설치 가이드 for Windows](images/Hugo-정적홈페이지-Hybrid-설치-가이드-for-Windows.webp)
 
 이 문서는 Antigravity IDE에서 빈 GitHub 리포지토리를 클론한 뒤, Windows 환경에서 Hugo와 필수 도구를 설치하고 Hugo Modules 방식으로 테마를 적용한 다음, 다시 GitHub에 Push하는 과정을 정리한 가이드입니다. AI Agent와 함께 정적 홈페이지를 제작할 때 토큰 사용량을 줄이기 위해, AI에게 맡길 작업과 사용자가 직접 Antigravity IDE 터미널에서 처리할 작업을 나누어 진행합니다.
 
