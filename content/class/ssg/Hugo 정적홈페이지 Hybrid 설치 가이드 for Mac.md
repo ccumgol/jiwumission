@@ -13,9 +13,9 @@ notion_id: "3b7091c2-84f6-8055-8a12-e4ca664b2b5b"
 categories: ["blog", "홈페이지"]
 ---
 
-# Hugo 정적홈페이지 Hybrid 설치 가이드 for Mac
+{{< youtube SxoPE5T0yiI >}}
 
-![Hugo 정적홈페이지 Hybrid 설치 가이드 for Mac](images/Hugo-정적홈페이지-Hybrid-설치-가이드-for-Mac.webp)
+# Hugo 정적홈페이지 Hybrid 설치 가이드 for Mac
 
 이 문서는 Antigravity IDE에서 빈 GitHub 리포지토리를 클론한 뒤, 터미널 명령어로 Hugo와 Blowfish 테마를 Hugo Modules 방식으로 설정하고 다시 GitHub에 Push하는 전체 과정을 정리한 가이드입니다. AI Agent와 함께 정적 홈페이지를 제작할 때 토큰 사용량을 줄이기 위해, AI에게 맡길 작업과 사용자가 직접 터미널에서 처리할 작업을 나누어 진행하는 방법을 설명합니다.
 
