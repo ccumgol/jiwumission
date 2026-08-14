@@ -13,6 +13,7 @@ type: "post"
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
 - [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
+- [Ante](https://github.com/AntigmaLabs/ante) - 인터넷 연결 없이 오프라인으로 구동되는 단일 바이너리 코딩 에이전트
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
@@ -20,6 +21,7 @@ type: "post"
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - 코드베이스를 영속적 지식 그래프로 색인해 AI 코딩 에이전트에게 지도를 제공하는 고성능 MCP 서버(158개 언어, 1ms 미만 질의)
 - [Codex Plugin CC](https://github.com/openai/codex-plugin-cc) - Claude Code에서 OpenAI Codex를 불러 코드 리뷰·작업 위임을 하게 해주는 플러그인
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [Frontman](https://github.com/frontman-ai/frontman) - 실행 중인 웹사이트에서 요소를 클릭하고 자연어로 설명하면 실제 소스 파일을 고쳐주는 AI 웹사이트 편집기(워드프레스·Next.js·Astro·Vite 지원, 자체 호스팅 무제한)
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
@@ -55,6 +57,7 @@ type: "post"
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
+- [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
 - [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
@@ -77,6 +80,7 @@ type: "post"
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
+- [UniqueBible](https://github.com/eliranwong/UniqueBible) - 히브리어·헬라어 원어 자료와 주석·사전·백과사전·연대표를 통째로 내려받아 완전 오프라인으로 쓰는 크로스플랫폼 성경 연구 앱(GUI·웹서버·터미널 등 다중 실행 모드, GPL-3.0)
 - [Weblate](https://github.com/WeblateOrg/weblate) - 깃 저장소와 맞물려 여러 언어권 팀이 소식지·교재·앱 문구를 문장 단위로 나눠 번역·검토·용어집 관리하는 웹 기반 현지화 플랫폼(자체 호스팅 가능)
 - [Xiphos](https://github.com/crosswire/xiphos) - SWORD 프로젝트 모듈로 여러 역본·주석·사전을 나란히 놓고 연구하는 리눅스·유닉스·윈도우용 데스크톱 성경 공부 도구(CrossWire)
 
@@ -115,6 +119,7 @@ type: "post"
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 - [Actual Budget](https://github.com/actualbudget/actual) - 봉투 예산(envelope budgeting) 방식의 로컬 우선 무료 가계부
 - [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - 주식·외환·원자재 시세와 경제지표를 한 화면에서 다루는 오픈소스 데스크톱 금융 분석 터미널(C++20·Qt6, AGPL-3.0)
+- [Anydoc](https://github.com/firecrawl/anydoc) - Word·PPT·Excel·OpenDocument·RTF·EPUB·CSV·PDF 등 14개 포맷을 깨끗한 GitHub Flavored Markdown으로 바꾸는 러스트 라이브러리(ML 모델·외부 서비스 없이 변환 중앙값 5ms 미만, Node·파이썬·WASM 바인딩)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
@@ -144,6 +149,7 @@ type: "post"
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
 - [Rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge) - 일부 x86(VIA C3) CPU에 숨겨진 비x86 보조 코어를 통해 메모리 보호·권한 검사를 우회하는 하드웨어 백도어를 실증하고 탐지 도구까지 공개한 연구 프로젝트
+- [Skitter Creek Bath Salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) - AMD Family 16h의 DRAM 컨트롤러 주소 변환 레지스터가 잠기지 않는 점을 이용해 물리 주소 매핑을 재배열하고 통상 차단된 메모리 영역까지 소프트웨어로 도달하는 보안 연구(Christopher Domas)
 - [Smiiiiiiiiiiiiiiii](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) - 약 40억 사이클이 걸리는 초장시간 x86 명령어 하나로 코어 간 동시 진입 전제를 깨뜨려 CPU 최고 특권 환경 SMM을 무너뜨리는 DEF CON 34 보안 연구(Christopher Domas)
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
 
