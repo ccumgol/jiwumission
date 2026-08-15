@@ -22,6 +22,7 @@ type: "post"
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - 코드베이스를 영속적 지식 그래프로 색인해 AI 코딩 에이전트에게 지도를 제공하는 고성능 MCP 서버(158개 언어, 1ms 미만 질의)
 - [Codex Plugin CC](https://github.com/openai/codex-plugin-cc) - Claude Code에서 OpenAI Codex를 불러 코드 리뷰·작업 위임을 하게 해주는 플러그인
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
+- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [Frontman](https://github.com/frontman-ai/frontman) - 실행 중인 웹사이트에서 요소를 클릭하고 자연어로 설명하면 실제 소스 파일을 고쳐주는 AI 웹사이트 편집기(워드프레스·Next.js·Astro·Vite 지원, 자체 호스팅 무제한)
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
@@ -104,6 +105,7 @@ type: "post"
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
+- [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
@@ -120,6 +122,7 @@ type: "post"
 - [Actual Budget](https://github.com/actualbudget/actual) - 봉투 예산(envelope budgeting) 방식의 로컬 우선 무료 가계부
 - [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - 주식·외환·원자재 시세와 경제지표를 한 화면에서 다루는 오픈소스 데스크톱 금융 분석 터미널(C++20·Qt6, AGPL-3.0)
 - [Anydoc](https://github.com/firecrawl/anydoc) - Word·PPT·Excel·OpenDocument·RTF·EPUB·CSV·PDF 등 14개 포맷을 깨끗한 GitHub Flavored Markdown으로 바꾸는 러스트 라이브러리(ML 모델·외부 서비스 없이 변환 중앙값 5ms 미만, Node·파이썬·WASM 바인딩)
+- [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
@@ -128,6 +131,7 @@ type: "post"
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 - [Actions Checkout](https://github.com/actions/checkout) - 거의 모든 CI 워크플로의 첫 단계로 쓰이는 GitHub Actions 공식 저장소 체크아웃 액션
 - [Ansible](https://github.com/ansible/ansible) - 에이전트 설치 없이 SSH만으로 서버 배포·설정·네트워크·클라우드 관리를 자동화하는 IT 자동화 플랫폼
+- [ArcadeMaker](https://github.com/ArcadeMakerSources/ArcadeMaker) - 자체 스크립트 언어(Exp)와 IDE까지 직접 구현한 게임메이커 스타일 C# 2D 게임 엔진
 - [Assembly Hall of Shame](https://github.com/xoreaxeaxeax/asm-hall-of-shame) - CPU 명령어 하나를 최대한 느리게 만드는 방법을 겨루는 역방향 최적화 연구 모음(현재 x86 기록 1,980억 사이클·62초)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Channels SDK](https://github.com/CopilotKit/channels-sdk) - 이미 만들어 둔 AI 에이전트를 코드 수정 없이 슬랙·MS 팀즈 등 여러 메신저 채널에 그대로 연결해주는 오픈소스 SDK
