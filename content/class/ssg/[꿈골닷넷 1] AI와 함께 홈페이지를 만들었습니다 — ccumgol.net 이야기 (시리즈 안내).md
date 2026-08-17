@@ -6,7 +6,7 @@ lastmod: "2026-08-17"
 summary: "이 시리즈는 AI와 함께 정적 사이트 Hugo와 Cloudflare를 사용해 인터랙티브 지도, 동전 도감, 성경 읽기표, 이중 언어 등 다양한 기능을 구현한 홈페이지 제작 과정을 단계별로 기록한 블로그이다."
 description: "이 시리즈는 AI와 함께 정적 사이트 Hugo와 Cloudflare를 사용해 인터랙티브 지도, 동전 도감, 성경 읽기표, 이중 언어 등 다양한 기능을 구현한 홈페이지 제작 과정을 단계별로 기록한 블로그이다."
 tags: ["잎새 44호"]
-image: "images/[꿈골닷넷-1]-AI와-함께-홈페이지를-만들었습니다-—-ccumgol.net-이야기-(시리즈-안내).webp"
+image: "images/꿈골닷넷.webp"
 comments: false
 notion_url: "https://app.notion.com/p/1-AI-ccumgol-net-3bf091c284f681798867cc68137170ed"
 notion_id: "3bf091c2-84f6-8179-8867-cc68137170ed"

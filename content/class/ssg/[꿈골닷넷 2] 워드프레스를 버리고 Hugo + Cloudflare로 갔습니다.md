@@ -6,7 +6,7 @@ lastmod: "2026-08-17"
 summary: "워드프레스 대신 Hugo와 Cloudflare Pages를 사용해 정적 사이트로 전환해 관리 부담을 줄이고 속도·보안을 향상시킨 과정과 결과를 설명한다."
 description: "워드프레스 대신 Hugo와 Cloudflare Pages를 사용해 정적 사이트로 전환해 관리 부담을 줄이고 속도·보안을 향상시킨 과정과 결과를 설명한다."
 tags: ["잎새 44호"]
-image: "images/[꿈골닷넷-2]-워드프레스를-버리고-Hugo-+-Cloudflare로-갔습니다.webp"
+image: "images/꿈골닷넷.webp"
 comments: false
 notion_url: "https://app.notion.com/p/2-Hugo-Cloudflare-3bf091c284f6816b858cd794e1b8af0b"
 notion_id: "3bf091c2-84f6-816b-858c-d794e1b8af0b"
