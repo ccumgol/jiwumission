@@ -32,6 +32,7 @@ type: "post"
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
+- [Mole](https://github.com/lajosdeme/mole) - 예산 상한을 원장으로 강제하고 모든 주장을 출처 원문과 대조해 검증하는 터미널용 딥리서치 에이전트(Go, MCP 지원, 로컬 데이터 프라이버시 경계, Apache-2.0)
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
@@ -67,6 +68,7 @@ type: "post"
 - [BibleOS](https://github.com/crynta/BibleOS) - Tauri 기반 크로스플랫폼 성경 리더 앱으로, 읽는 중에 AI 채팅으로 본문 배경·문맥을 바로 물어볼 수 있다
 - [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
+- [Bolls Bible (bain)](https://github.com/Bolls-Bible/bain) - 광고·부가기능 없이 본문에만 집중한 오픈소스 성경 읽기 앱(31개 언어 146개 역본, 병행 읽기·기기 간 동기화·시맨틱 검색, 웹·안드로이드·윈도우·리눅스, GPL-3.0)
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
@@ -74,6 +76,7 @@ type: "post"
 - [ChurchIt](https://github.com/meichthys/churchit) - Frappe 프레임워크 위에 올린 오픈소스 교회관리시스템으로 교인·출석·헌금·기금과 선교사 후원 추적, 익명 기도 요청 창구까지 포함(MIT)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
+- [Elisha](https://github.com/31Carlton7/elisha) - KJV·ASV·WEB 등 여러 역본을 오프라인으로 읽고 오늘의 말씀·일일 묵상·북마크·읽기 연속기록까지 관리하는 iOS·안드로이드 성경 앱(Flutter)
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
@@ -142,6 +145,7 @@ type: "post"
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
+- [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
 - [Wyzer](https://github.com/Wyzer-Lang/wyzer) - 소유권 규칙 하나로 메모리·동시성·네트워크 안전성을 함께 해결하려는 정적 타입 컴파일 언어(코레오그래픽 프로그래밍, perceus 메모리 모델)
 - [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) - AI 코딩 에이전트가 위험한 git·셸 명령을 실행하기 전에 맥락까지 판단해 가로막는 러스트 기반 훅
