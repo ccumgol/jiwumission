@@ -36,7 +36,9 @@ type: "post"
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
+- [Hax](https://github.com/OleksandrChekhovskyi/hax) - C로 작성된 단일 바이너리 미니멀 터미널 코딩 에이전트. 수 MB 메모리만 쓰고 llama.cpp 등 로컬 모델을 1급으로 지원하며 모델과 주고받은 전문을 트랜스크립트로 확인할 수 있다
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
+- [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 290여 공급자·500여 모델을 단일 OpenAI 호환 엔드포인트로 묶는 MIT AI 게이트웨이(쿼터 인식 자동 폴백·토큰 압축)
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
@@ -109,6 +111,7 @@ type: "post"
 - [Alexandrie](https://github.com/Smaug6739/Alexandrie) - 확장 마크다운 에디터·칸반·OIDC/SSO·오프라인 PWA를 갖춘 자체 호스팅 지식 베이스(노션·컨플루언스 대안), docker compose 한 번으로 배포
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - 문서·DB·칸반·캘린더·위키를 하나로 묶은 오픈소스 노션 대안(Rust·Flutter, 데스크톱 앱·오프라인 우선)
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
+- [BudgetBee](https://github.com/budgetbee/budgetbee) - 도커 한 번으로 내 서버에 올리는 자체 호스팅 가계부. 카테고리별 예산·순자산 집계·다가올 고정지출·엑셀/JSON 가져오기·다중 사용자·다중 통화 지원(MIT)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
