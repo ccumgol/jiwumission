@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 387" width="700" height="387" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<style>
+  svg{--paper:#fffdf8;--ink:#2b2622;--soft:#5b5148;--muted:#8a7f73;
+      --band:#e6ddc9;--rule:#d9d0be;--acc:#a67c33;--accd:#7d5c22}
+  @media (prefers-color-scheme:dark){
+    svg{--paper:#221d17;--ink:#ece5d8;--soft:#c4baa9;--muted:#9b9080;
+        --band:#3a3226;--rule:#4a4136;--acc:#c9a54c;--accd:#e0bd6a}
+  }
+  .bg{fill:var(--paper)}
+  .grid{stroke:var(--rule);stroke-width:1}
+  .tick{font-size:10px;fill:var(--muted)}
+  .flood{stroke:var(--accd);stroke-width:1.6;stroke-dasharray:4 3}
+  .floodlbl{font-size:10.5px;fill:var(--accd);font-weight:700}
+  .bar{fill:var(--band);stroke:var(--rule);stroke-width:1}
+  .bar.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.4}
+  .name{font-size:11.5px;fill:var(--soft);font-weight:500}
+  .name.on{fill:var(--ink);font-weight:700}
+  .span{font-size:10px;fill:var(--accd)}
+  .span.in{fill:var(--paper);font-weight:700}
+  .note{font-size:10.5px;fill:var(--muted)}
+  .box{fill:var(--band);stroke:var(--rule);stroke-width:1.1}
+  .box.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.8}
+  .lbl{font-size:12.5px;fill:var(--ink);font-weight:500;text-anchor:middle}
+  .lbl.on{fill:var(--paper);font-weight:700}
+  .link{fill:none;stroke:var(--muted);stroke-width:1.3}
+  .link.dash{stroke:var(--acc);stroke-dasharray:5 4}
+</style>
+<rect class="bg" width="700" height="387"/>
+<line class="grid" x1="96.0" y1="22" x2="96.0" y2="361"/>
+<text class="tick" x="96.0" y="375" text-anchor="middle">0</text>
+<line class="grid" x1="229.2" y1="22" x2="229.2" y2="361"/>
+<text class="tick" x="229.2" y="375" text-anchor="middle">500</text>
+<line class="grid" x1="362.4" y1="22" x2="362.4" y2="361"/>
+<text class="tick" x="362.4" y="375" text-anchor="middle">1000</text>
+<line class="grid" x1="495.5" y1="22" x2="495.5" y2="361"/>
+<text class="tick" x="495.5" y="375" text-anchor="middle">1500</text>
+<line class="grid" x1="628.7" y1="22" x2="628.7" y2="361"/>
+<text class="tick" x="628.7" y="375" text-anchor="middle">2000</text>
+<text class="tick" x="88" y="375" text-anchor="end">창조 후(년)</text>
+<line class="flood" x1="537.1" y1="16" x2="537.1" y2="361"/>
+<text class="floodlbl" x="537.1" y="12" text-anchor="middle">홍수 1656</text>
+<rect class="bar" x="96.0" y="30" width="247.7" height="13" rx="3"/>
+<text class="name" x="87" y="40" text-anchor="end">아담</text>
+<rect class="bar" x="130.6" y="47" width="242.9" height="13" rx="3"/>
+<text class="name" x="87" y="57" text-anchor="end">셋</text>
+<rect class="bar" x="158.6" y="64" width="241.1" height="13" rx="3"/>
+<text class="name" x="87" y="74" text-anchor="end">에노스</text>
+<rect class="bar" x="182.6" y="81" width="242.4" height="13" rx="3"/>
+<text class="name" x="87" y="91" text-anchor="end">게난</text>
+<rect class="bar" x="201.2" y="98" width="238.4" height="13" rx="3"/>
+<text class="name" x="87" y="108" text-anchor="end">마할랄렐</text>
+<rect class="bar" x="218.5" y="115" width="256.2" height="13" rx="3"/>
+<text class="name" x="87" y="125" text-anchor="end">야렛</text>
+<rect class="bar" x="261.7" y="132" width="97.2" height="13" rx="3"/>
+<text class="name" x="87" y="142" text-anchor="end">에녹</text>
+<rect class="bar" x="279.0" y="149" width="258.1" height="13" rx="3"/>
+<text class="name" x="87" y="159" text-anchor="end">므두셀라</text>
+<rect class="bar" x="328.8" y="166" width="207.0" height="13" rx="3"/>
+<text class="name" x="87" y="176" text-anchor="end">라멕</text>
+<rect class="bar on" x="377.3" y="183" width="253.0" height="13" rx="3"/>
+<text class="name on" x="87" y="193" text-anchor="end">노아</text>
+<text class="span in" x="625.3" y="193" text-anchor="end">1056–2006</text>
+<rect class="bar" x="510.5" y="200" width="159.8" height="13" rx="3"/>
+<text class="name" x="87" y="210" text-anchor="end">셈</text>
+<rect class="bar" x="537.1" y="217" width="116.7" height="13" rx="3"/>
+<text class="name" x="87" y="227" text-anchor="end">아르박삿</text>
+<rect class="bar" x="546.4" y="234" width="115.3" height="13" rx="3"/>
+<text class="name" x="87" y="244" text-anchor="end">셀라</text>
+<rect class="bar" x="554.4" y="251" width="123.6" height="13" rx="3"/>
+<text class="name" x="87" y="261" text-anchor="end">에벨</text>
+<rect class="bar" x="563.5" y="268" width="63.7" height="13" rx="3"/>
+<text class="name" x="87" y="278" text-anchor="end">벨렉</text>
+<rect class="bar" x="571.5" y="285" width="63.7" height="13" rx="3"/>
+<text class="name" x="87" y="295" text-anchor="end">르우</text>
+<rect class="bar" x="580.0" y="302" width="61.3" height="13" rx="3"/>
+<text class="name" x="87" y="312" text-anchor="end">스룩</text>
+<rect class="bar" x="588.0" y="319" width="39.4" height="13" rx="3"/>
+<text class="name" x="87" y="329" text-anchor="end">나홀</text>
+<rect class="bar" x="595.7" y="336" width="54.6" height="13" rx="3"/>
+<text class="name" x="87" y="346" text-anchor="end">데라</text>
+<text class="note" x="96" y="12">노아의 육백 세에 홍수가 온다</text>
+</svg>
