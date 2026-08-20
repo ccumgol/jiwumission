@@ -79,6 +79,7 @@ type: "post"
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
 - [ChurchIt](https://github.com/meichthys/churchit) - Frappe 프레임워크 위에 올린 오픈소스 교회관리시스템으로 교인·출석·헌금·기금과 선교사 후원 추적, 익명 기도 요청 창구까지 포함(MIT)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
+- [Corpus Christi](https://github.com/corpus-christi/corpus-christi) - 교인·소그룹·행사·교육과정 관리를 담고 설계 단계부터 완전한 국제화(다국어)를 목표로 한 오픈소스 교회 관리 스위트(Python/Flask + Vue, 다국어 회중·해외 선교지 교회에 적합)
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
 - [Elisha](https://github.com/31Carlton7/elisha) - KJV·ASV·WEB 등 여러 역본을 오프라인으로 읽고 오늘의 말씀·일일 묵상·북마크·읽기 연속기록까지 관리하는 iOS·안드로이드 성경 앱(Flutter)
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
@@ -97,6 +98,7 @@ type: "post"
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
+- [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
 - [MeTube](https://github.com/alexta69/metube) - yt-dlp를 브라우저 UI로 감싼 자체 호스팅 영상 다운로더, 채널·재생목록 구독 자동 수집 지원
 - [Ntfy](https://github.com/binwiederhier/ntfy) - HTTP 요청 한 줄로 휴대폰·데스크톱에 알림을 보내는 자체 호스팅 푸시 알림 서비스(구글·애플 알림 인프라 불필요)
@@ -150,6 +152,7 @@ type: "post"
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
+- [LuaCAD](https://github.com/ad-si/LuaCAD) - Lua 스크립트로 파라메트릭 2D·3D CAD 모델을 작성해 3MF·STL·OBJ 등으로 내보내는 도구(Rust 엔진에 Lua 5.4 임베드, CLI·데스크톱 앱·WASM 플레이그라운드, BOSL2 완전 지원)
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
@@ -173,6 +176,7 @@ type: "post"
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
+- [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [Webreel](https://github.com/vercel-labs/webreel) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 Apache 2.0 CLI(Vercel Labs)
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - 유튜브 및 수많은 스트리밍 사이트에서 동영상과 오디오를 다운로드할 수 있는 강력한 커맨드라인 도구 (youtube-dl 포크)
