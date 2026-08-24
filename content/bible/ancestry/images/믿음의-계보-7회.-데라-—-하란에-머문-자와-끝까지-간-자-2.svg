@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 246" width="630" height="246" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<style>
+  svg{--paper:#fffdf8;--ink:#2b2622;--soft:#5b5148;--muted:#8a7f73;
+      --band:#e6ddc9;--rule:#d9d0be;--acc:#a67c33;--accd:#7d5c22}
+  @media (prefers-color-scheme:dark){
+    svg{--paper:#221d17;--ink:#ece5d8;--soft:#c4baa9;--muted:#9b9080;
+        --band:#3a3226;--rule:#4a4136;--acc:#c9a54c;--accd:#e0bd6a}
+  }
+  .bg{fill:var(--paper)}
+  .grid{stroke:var(--rule);stroke-width:1}
+  .tick{font-size:10px;fill:var(--muted)}
+  .flood{stroke:var(--accd);stroke-width:1.6;stroke-dasharray:4 3}
+  .floodlbl{font-size:10.5px;fill:var(--accd);font-weight:700}
+  .bar{fill:var(--band);stroke:var(--rule);stroke-width:1}
+  .bar.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.4}
+  .name{font-size:11.5px;fill:var(--soft);font-weight:500}
+  .name.on{fill:var(--ink);font-weight:700}
+  .span{font-size:10px;fill:var(--accd)}
+  .span.in{fill:var(--paper);font-weight:700}
+  .note{font-size:10.5px;fill:var(--muted)}
+  .box{fill:var(--band);stroke:var(--rule);stroke-width:1.1}
+  .box.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.8}
+  .lbl{font-size:12.5px;fill:var(--ink);font-weight:500;text-anchor:middle}
+  .lbl.on{fill:var(--paper);font-weight:700}
+  .link{fill:none;stroke:var(--muted);stroke-width:1.3}
+  .link.dash{stroke:var(--acc);stroke-dasharray:5 4}
+</style>
+<rect class="bg" width="630" height="246"/>
+<path class="link" d="M111.0 168.0 V185.0 H60.0 V202.0"/>
+<path class="link" d="M111.0 168.0 V185.0 H162.0 V202.0"/>
+<path class="link" d="M315.0 168.0 V185.0 H264.0 V202.0"/>
+<path class="link" d="M315.0 168.0 V185.0 H366.0 V202.0"/>
+<path class="link" d="M519.0 168.0 V185.0 H468.0 V202.0"/>
+<path class="link" d="M519.0 168.0 V185.0 H570.0 V202.0"/>
+<path class="link" d="M315.0 106.0 V123.0 H111.0 V140.0"/>
+<path class="link" d="M315.0 106.0 V123.0 H315.0 V140.0"/>
+<path class="link" d="M315.0 106.0 V123.0 H519.0 V140.0"/>
+<path class="link" d="M315.0 44.0 V61.0 H315.0 V78.0"/>
+<rect class="box" x="16.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="60.0" y="220">이스마엘</text>
+<rect class="box" x="118.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="162.0" y="220">이삭</text>
+<rect class="box" x="67.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="111.0" y="158">아브라함</text>
+<rect class="box" x="220.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="264.0" y="220">브두엘</text>
+<rect class="box" x="322.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="366.0" y="220">마아가</text>
+<rect class="box" x="271.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="315.0" y="158">나홀</text>
+<rect class="box" x="424.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="468.0" y="220">롯</text>
+<rect class="box" x="526.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="570.0" y="220">밀가</text>
+<rect class="box" x="475.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="519.0" y="158">하란</text>
+<rect class="box on" x="271.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl on" x="315.0" y="96">데라</text>
+<rect class="box" x="271.0" y="16" width="88" height="28" rx="5"/>
+<text class="lbl" x="315.0" y="34">나홀</text>
+</svg>
