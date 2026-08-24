@@ -33,6 +33,7 @@ type: "post"
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
+- [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [Mole](https://github.com/lajosdeme/mole) - 예산 상한을 원장으로 강제하고 모든 주장을 출처 원문과 대조해 검증하는 터미널용 딥리서치 에이전트(Go, MCP 지원, 로컬 데이터 프라이버시 경계, Apache-2.0)
@@ -74,6 +75,7 @@ type: "post"
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
 - [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
+- [bible_api](https://github.com/seven1m/bible_api) - 퍼블릭 도메인·오픈 라이선스 성경 역본을 JSON API로 제공하는 루비 웹 앱. 널리 쓰이는 bible-api.com을 그대로 돌리는 원본 코드로, 오늘의 말씀 위젯·묵상 봇 제작이나 자체 호스팅에 적합(802 star, MIT)
 - [BibleOS](https://github.com/crynta/BibleOS) - Tauri 기반 크로스플랫폼 성경 리더 앱으로, 읽는 중에 AI 채팅으로 본문 배경·문맥을 바로 물어볼 수 있다
 - [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
 - [Bible Song Pro](https://github.com/Johnbatey/bible-song-pro) - OBS Studio용 무료 오픈소스 교회 프레젠테이션 시스템. 브라우저 소스 오버레이로 찬양 가사와 성경 구절을 온라인 예배 송출에 바로 얹는다
@@ -121,6 +123,7 @@ type: "post"
 - [Usertour](https://github.com/usertour/usertour) - 앱 안에 제품 투어·체크리스트·설문을 붙이는 오픈소스 사용자 온보딩 플랫폼(Appcues·Userflow 대안, Docker 자체 호스팅)
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
 - [TuneLog](https://github.com/adiiverma40/tunelog) - 별점 없이 건너뛴 곡·다시 들은 곡만으로 취향을 학습하는 자체 호스팅 음악 추천 서비스(Navidrome/Subsonic·ListenBrainz 연동)
+- [wacrm](https://github.com/ArnasDon/wacrm) - 공유 수신함·연락처·칸반 영업 파이프라인·단체발송·노코드 자동화를 담은 왓츠앱용 자체 호스팅 CRM 템플릿(공식 WhatsApp Business API, Node.js 어디든 배포, MIT)
 - [Wger](https://github.com/wger-project/wger) - 자동 중량 증가 규칙이 들어간 운동 루틴·Open Food Facts 기반 식단·체중·진척도 사진을 한곳에서 관리하는 자체 호스팅 운동·영양 트래커(안드로이드·iOS 앱, REST API, AGPL-3.0)
 - [WorldMonitor](https://github.com/koala73/worldmonitor) - AI 뉴스 집계·지정학 모니터링·인프라 추적을 하나의 상황인식 화면으로 묶은 실시간 글로벌 인텔리전스 대시보드
 - [Zoneless](https://github.com/zonelessdev/zoneless) - Stripe Connect의 API 리소스 구조를 그대로 따라가면서 USDC·솔라나로 정산하는 자체 호스팅 마켓플레이스 결제 인프라(건당 0.002달러·220여 개국 즉시 지급, Apache 2.0)
@@ -151,6 +154,7 @@ type: "post"
 - [Anydoc](https://github.com/firecrawl/anydoc) - Word·PPT·Excel·OpenDocument·RTF·EPUB·CSV·PDF 등 14개 포맷을 깨끗한 GitHub Flavored Markdown으로 바꾸는 러스트 라이브러리(ML 모델·외부 서비스 없이 변환 중앙값 5ms 미만, Node·파이썬·WASM 바인딩)
 - [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
+- [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
 - [Yap](https://github.com/FrigadeHQ/yap) - 애플 Speech 프레임워크를 그대로 써서 모델 다운로드·클라우드 전송·API 키 없이 기기 내에서 처리하는 맥OS용 무료 음성 입력 도구
