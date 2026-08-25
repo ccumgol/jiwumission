@@ -43,7 +43,9 @@ type: "post"
 - [Nobuzz (Claudette)](https://github.com/adnanakil/nobuzz) - 클로드의 마지막 답변을 Gemini CLI에 통과시켜 클릭베이트 말투를 평범한 문장으로 바꿔주는 Claude Code 스킬(`/debuzz`)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
 - [Hax](https://github.com/OleksandrChekhovskyi/hax) - C로 작성된 단일 바이너리 미니멀 터미널 코딩 에이전트. 수 MB 메모리만 쓰고 llama.cpp 등 로컬 모델을 1급으로 지원하며 모델과 주고받은 전문을 트랜스크립트로 확인할 수 있다
+- [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
+- [oMLX](https://github.com/jundot/omlx) - KV 캐시를 메모리(핫)와 SSD(콜드) 두 계층에 유지해 컨텍스트가 바뀌어도 지난 맥락을 재사용하는 애플 실리콘용 로컬 LLM 추론 서버(맥 메뉴 막대 관리, LLM·VLM·OCR·임베딩·리랭커 지원)
 - [OpenViking](https://github.com/volcengine/OpenViking) - 에이전트 메모리·지식 RAG·스킬을 한 저장소로 묶어 스스로 갱신되는 AI 에이전트용 자기진화형 컨텍스트 데이터베이스(바이트댄스 볼케이노 엔진)
 - [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 290여 공급자·500여 모델을 단일 OpenAI 호환 엔드포인트로 묶는 MIT AI 게이트웨이(쿼터 인식 자동 폴백·토큰 압축)
@@ -144,6 +146,7 @@ type: "post"
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
+- [Trilium Notes](https://github.com/TriliumNext/Trilium) - 노트를 무한히 깊은 트리로 정리하고 한 노트를 여러 위치에 복제(cloning)해 둘 수 있는 개인 지식베이스 앱. WYSIWYG 편집기·전문 검색·노트 버전 관리·노트별 암호화·Excalidraw 스케치·마인드맵·지도 노트 지원, 윈도우/맥/리눅스 실행 파일만으로 서버 없이 사용 가능(AGPL-3.0)
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
 - [Wallos](https://github.com/ellite/Wallos) - 매달 빠져나가는 각종 구독료를 결제일 알림·카테고리·다중 통화로 관리하는 자체 호스팅 구독 트래커(GPL)
@@ -184,6 +187,7 @@ type: "post"
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
 
 ### 🛡️ 보안 (Security)
+- [Bumblebee](https://github.com/perplexityai/bumblebee) - 코드를 실행하지 않고 디스크 위 패키지·MCP 설정·에디터/브라우저 확장 메타데이터만 읽어 알려진 공급망 침해 노출 여부를 대조하는 읽기 전용 스캐너(Go 단일 정적 바이너리, 의존성 0, Apache 2.0, 퍼플렉시티)
 - [Nightcrawler](https://github.com/garagehq/nightcrawler) - 스마트폰에서 완전 로컬로 구동되는 자율 침투 테스트 에이전트(2B 로컬 모델, 클라우드 불필요, MIT)
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
