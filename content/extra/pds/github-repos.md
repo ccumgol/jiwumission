@@ -17,6 +17,7 @@ type: "post"
 - [Ante](https://github.com/AntigmaLabs/ante) - 인터넷 연결 없이 오프라인으로 구동되는 단일 바이너리 코딩 에이전트
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0·ATLAS·D3FEND 등 6개 프레임워크에 매핑한 모음집(29개 보안 도메인, agentskills.io 표준, Apache 2.0)
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
+- [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
@@ -91,6 +92,7 @@ type: "post"
 - [ChurchIt](https://github.com/meichthys/churchit) - Frappe 프레임워크 위에 올린 오픈소스 교회관리시스템으로 교인·출석·헌금·기금과 선교사 후원 추적, 익명 기도 요청 창구까지 포함(MIT)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [Corpus Christi](https://github.com/corpus-christi/corpus-christi) - 교인·소그룹·행사·교육과정 관리를 담고 설계 단계부터 완전한 국제화(다국어)를 목표로 한 오픈소스 교회 관리 스위트(Python/Flask + Vue, 다국어 회중·해외 선교지 교회에 적합)
+- [Donate-button](https://github.com/everydotorg/donate-button) - 홈페이지에 코드 몇 줄만 붙이면 카드·은행 이체·페이팔·벤모·애플페이·구글페이는 물론 주식·암호화폐 기부까지 받고 생일·기념일 P2P 모금 페이지도 열 수 있는 비영리 전용 무료 오픈소스 후원 버튼(Every.org, 71 star)
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
 - [Elisha](https://github.com/31Carlton7/elisha) - KJV·ASV·WEB 등 여러 역본을 오프라인으로 읽고 오늘의 말씀·일일 묵상·북마크·읽기 연속기록까지 관리하는 iOS·안드로이드 성경 앱(Flutter)
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
@@ -201,6 +203,7 @@ type: "post"
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
+- [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
 - [Webreel](https://github.com/vercel-labs/webreel)
 - [Wrtag](https://github.com/sentriz/wrtag) - MusicBrainz와 대조해 음악 파일 태그와 폴더 구조를 자동 정리하는 빠른 CLI 겸 웹 UI(Beets·Picard 대안, 리눅스·맥·윈도우 단일 실행 파일) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 Apache 2.0 CLI(Vercel Labs)
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - 유튜브 및 수많은 스트리밍 사이트에서 동영상과 오디오를 다운로드할 수 있는 강력한 커맨드라인 도구 (youtube-dl 포크)
