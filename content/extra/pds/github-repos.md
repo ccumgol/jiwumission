@@ -102,6 +102,7 @@ type: "post"
 - [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
+- [MauCariApa Church Starter](https://github.com/MauCariApa-com/maucariapacom-church-starter) - Astro 기반 교회 홈페이지 스타터 템플릿. 정적 사이트 생성 방식이라 빠르고 SEO 설정·Tailwind CSS 디자인·마크다운 콘텐츠 구조가 이미 잡혀 있어 개발자 없는 작은 교회도 무료 호스팅에 바로 올릴 수 있다
 - [Praisenter](https://github.com/praisenter/praisenter) - 성경 구절·찬양 가사·공지 슬라이드를 프로젝터나 보조 화면으로 송출하는 무료 오픈소스 교회 프레젠테이션 프로그램(다중 화면·이중언어 병행 표시·워크스페이스 분리, Java/JavaFX, BSD-3-Clause)
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
@@ -174,6 +175,7 @@ type: "post"
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
+- [LatticeDB](https://github.com/jeffhajewski/latticedb) - 파일 하나에 지식 그래프·벡터 검색·전문 검색을 함께 담은 임베디드 데이터베이스. Cypher 질의 하나로 의미 검색·전문 검색·그래프 탐색을 섞을 수 있고 그래프 탐색이 SQLite 대비 크게 빠르다("관계로 질의하는 데이터를 위한 SQLite")
 - [LuaCAD](https://github.com/ad-si/LuaCAD) - Lua 스크립트로 파라메트릭 2D·3D CAD 모델을 작성해 3MF·STL·OBJ 등으로 내보내는 도구(Rust 엔진에 Lua 5.4 임베드, CLI·데스크톱 앱·WASM 플레이그라운드, BOSL2 완전 지원)
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)
@@ -203,6 +205,7 @@ type: "post"
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
+- [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
 - [Webreel](https://github.com/vercel-labs/webreel)
 - [Wrtag](https://github.com/sentriz/wrtag) - MusicBrainz와 대조해 음악 파일 태그와 폴더 구조를 자동 정리하는 빠른 CLI 겸 웹 UI(Beets·Picard 대안, 리눅스·맥·윈도우 단일 실행 파일) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 Apache 2.0 CLI(Vercel Labs)
