@@ -109,11 +109,13 @@ type: "post"
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
+- [Theographic Bible Metadata](https://github.com/robertrouse/theographic-bible-metadata) - 성경에 나오는 인물·장소·시대·구절을 하나의 지식 그래프로 엮어놓은 공개 데이터셋. 위도·경도가 붙은 지명과 사건별 연대 정보가 함께 들어 있어 인물 관계도·여정 지도·연대표 제작에 바로 쓸 수 있다(342 star)
 - [UniqueBible](https://github.com/eliranwong/UniqueBible) - 히브리어·헬라어 원어 자료와 주석·사전·백과사전·연대표를 통째로 내려받아 완전 오프라인으로 쓰는 크로스플랫폼 성경 연구 앱(GUI·웹서버·터미널 등 다중 실행 모드, GPL-3.0)
 - [Weblate](https://github.com/WeblateOrg/weblate) - 깃 저장소와 맞물려 여러 언어권 팀이 소식지·교재·앱 문구를 문장 단위로 나눠 번역·검토·용어집 관리하는 웹 기반 현지화 플랫폼(자체 호스팅 가능)
 - [Xiphos](https://github.com/crosswire/xiphos) - SWORD 프로젝트 모듈로 여러 역본·주석·사전을 나란히 놓고 연구하는 리눅스·유닉스·윈도우용 데스크톱 성경 공부 도구(CrossWire)
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
+- [CarWatch](https://github.com/ThinkOffApp/CarWatch) - 라즈베리파이 5 한 대를 완전 오프라인 차량용 AI 비서로 바꾸는 프로젝트. 차량 사용설명서 745쪽을 어휘 기반 RAG로 SD 카드에 싣고 쪽수까지 인용해 답하며, 설명서에 없는 내용은 답하지 않는다(Qwen3.6-35B-A3B 구동, 파이썬 표준 라이브러리만 사용)
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
 - [Codeman](https://github.com/Ark0N/Codeman) - Claude Code·Codex·Gemini CLI 등을 지속 tmux 세션에 띄워 24시간 돌리고 실제 터미널을 브라우저로 스트리밍해 모든 서브에이전트를 실시간 감시하는 자체 호스팅 관제탑(모바일 UI·도커/SSH 격리·REST API 190여 개)
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
@@ -186,6 +188,7 @@ type: "post"
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - 대용량 로그·문서의 전문 검색과 실시간 분석에 쓰이는 오픈소스 분산 RESTful 검색·분석 엔진
 - [Factorio Code Visualizer](https://github.com/rorz/factorio-code-visualizer) - 코드베이스 구조를 실제로 플레이 가능한 Factorio 게임 맵으로 변환해 시각화하는 도구
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - 웹을 검색·스크래핑해 LLM이 바로 쓸 수 있는 형태로 넘겨주는 대규모 컨텍스트 API
+- [GenLayer Project Boilerplate](https://github.com/genlayerlabs/genlayer-project-boilerplate) - 계약 안에서 LLM을 불러 웹 데이터를 가져오고 자연어를 해석하는 '지능형 계약' 예제 모음. 축구 경기 예측 게임이 완제품으로 들어 있어 계약이 스스로 스포츠 뉴스에서 결과를 가져와 동등성 원칙으로 검증한다(Vue.js 프런트엔드·종단간 테스트 프레임워크 포함)
 - [Git-knife](https://github.com/TheRealYT/git-knife) - 커밋 메시지·작성자·author date·committer date를 스프레드시트처럼 일괄 편집하는 데스크톱 GUI(정규식 찾기·바꾸기 지원, 원래 tree를 재사용해 파일 내용은 변경하지 않음)
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
