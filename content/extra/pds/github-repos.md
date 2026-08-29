@@ -141,6 +141,7 @@ type: "post"
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
 - [BudgetBee](https://github.com/budgetbee/budgetbee) - 도커 한 번으로 내 서버에 올리는 자체 호스팅 가계부. 카테고리별 예산·순자산 집계·다가올 고정지출·엑셀/JSON 가져오기·다중 사용자·다중 통화 지원(MIT)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
+- [ezbookkeeping](https://github.com/mayswind/ezbookkeeping) - 도커 한 번으로 올리는 가벼운 자체 호스팅 가계부. 다중 통화·다중 계정·지출 분류·차트·2단계 인증을 지원하고 모바일 브라우저에서도 앱처럼 쓸 수 있다
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
@@ -151,6 +152,7 @@ type: "post"
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
+- [TeXbrain](https://github.com/swimmingbrain/texbrain) - pdfTeX를 웹어셈블리로 컴파일해 브라우저 안에서 그대로 돌리는 자유 소프트웨어 LaTeX 편집기. 실시간 미리보기·공동 편집·git 연동을 갖췄고 계정·쿠키·텔레메트리 없이 오프라인으로도 작동하며, File System Access API로 로컬 폴더를 직접 읽고 쓴다
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - 노트를 무한히 깊은 트리로 정리하고 한 노트를 여러 위치에 복제(cloning)해 둘 수 있는 개인 지식베이스 앱. WYSIWYG 편집기·전문 검색·노트 버전 관리·노트별 암호화·Excalidraw 스케치·마인드맵·지도 노트 지원, 윈도우/맥/리눅스 실행 파일만으로 서버 없이 사용 가능(AGPL-3.0)
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
@@ -215,5 +217,6 @@ type: "post"
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - 유튜브 및 수많은 스트리밍 사이트에서 동영상과 오디오를 다운로드할 수 있는 강력한 커맨드라인 도구 (youtube-dl 포크)
 
 ### 📦 기타 / 미분류 (Uncategorized)
+- [Amadeus Protocol node](https://github.com/amadeusprotocol/node) - Elixir로 작성된 아마데우스 네트워크의 원본 노드 구현체. WASM 스마트 컨트랙트 배포와 로컬 테스트넷 실행을 지원하는 초기 단계 실험적 연구 프로젝트
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x) - 데이터베이스, 봇, 프로그래밍 언어 등 다양한 기술을 밑바닥부터 직접 만들어보는 튜토리얼 모음집 (GitHub 최상위 인기 리포지터리)
 
