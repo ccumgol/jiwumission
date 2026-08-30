@@ -58,8 +58,10 @@ type: "post"
 - [Pxpipe](https://github.com/teamchong/pxpipe) - 시스템 프롬프트·툴 정의·대화 이력을 촘촘한 PNG로 렌더링해 LLM 토큰 비용을 절반 수준까지 줄이는 로컬 프록시
 - [PyTorch](https://github.com/pytorch/pytorch) - 강력한 GPU 가속을 지원하는 파이썬 텐서·동적 신경망 라이브러리로 딥러닝 연구의 사실상 표준 프레임워크
 - [Qm](https://github.com/yc-software/qm) - Y Combinator가 내부 운영에 실제로 쓰는 멀티플레이어 AI 에이전트 하니스(사람·방마다 격리된 메모리·권한·샌드박스, 하니스/모델 교체 가능, MIT)
+- [RAGFlow](https://github.com/infiniflow/ragflow) - 문서를 근거로 짚어가며 답하게 해주는 오픈소스 RAG 엔진. 최근 에이전트 기능을 붙여 LLM에 넘길 문맥 계층 자체를 만드는 쪽으로 확장했다(Go, Apache 2.0)
 - [Re_gent](https://github.com/regent-vcs/re_gent) - AI 에이전트의 작업 이력을 git처럼 추적·되감기·bisect 할 수 있게 하는 에이전트용 버전관리 도구
 - [RuView](https://github.com/ruvnet/RuView) - 카메라 없이 일반 WiFi 신호만으로 실시간 공간 인식·재실 감지·생체 신호 모니터링을 수행하는 무선 센싱 프로젝트
+- [Semantica](https://github.com/semantica-agi/semantica) - 흩어진 사내 데이터를 하나의 지식 그래프로 묶어 에이전트가 그 위에서 추론하게 하고 모든 결정에 W3C PROV-O 출처 기록을 남기는 결정론적 컨텍스트 인프라(그래프 구축·추론에 LLM 불필요, MIT)
 - [Shoehorn](https://github.com/notactuallytreyanastasio/shoehorn) - 내 VRAM에 딱 맞게 BF16 GGUF 모델을 importance matrix 기반 텐서별 혼합 정밀도로 양자화해 llama.cpp로 바로 실행하는 도구(맥·리눅스·윈도우)
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
@@ -86,6 +88,7 @@ type: "post"
 - [Bolls Bible (bain)](https://github.com/Bolls-Bible/bain) - 광고·부가기능 없이 본문에만 집중한 오픈소스 성경 읽기 앱(31개 언어 146개 역본, 병행 읽기·기기 간 동기화·시맨틱 검색, 웹·안드로이드·윈도우·리눅스, GPL-3.0)
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
+- [Cantara](https://github.com/reckel-jm/cantara) - 찬양 가사를 평범한 텍스트 파일로 관리해 화면에 띄우는 일 하나만 제대로 하는 오픈소스 예배 송출 프로그램. 전용 DB나 계정 없이 폴더에 텍스트 파일만 두면 되고 윈도우·리눅스·맥에서 모두 구동(GPL-3.0)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
@@ -204,6 +207,7 @@ type: "post"
 - [Skitter Creek Bath Salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) - AMD Family 16h의 DRAM 컨트롤러 주소 변환 레지스터가 잠기지 않는 점을 이용해 물리 주소 매핑을 재배열하고 통상 차단된 메모리 영역까지 소프트웨어로 도달하는 보안 연구(Christopher Domas)
 - [Smiiiiiiiiiiiiiiii](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) - 약 40억 사이클이 걸리는 초장시간 x86 명령어 하나로 코어 간 동시 진입 전제를 깨뜨려 CPU 최고 특권 환경 SMM을 무너뜨리는 DEF CON 34 보안 연구(Christopher Domas)
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
+- [Talos](https://github.com/wjhuang88/talos) - 모델과 셸 사이에 권한 커널을 두어 파일 쓰기·삭제·git 쓰기·셸 실행·네트워크·MCP 호출을 정확한 인자에 묶어 단 한 번 30초만 허용하는 러스트 에이전트 런타임(Apache 2.0)
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
