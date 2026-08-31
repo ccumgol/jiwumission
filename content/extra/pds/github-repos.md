@@ -12,6 +12,7 @@ type: "post"
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
 - [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
+- [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
 - [Ai-memory](https://github.com/akitaonrails/ai-memory) - 여러 코딩 에이전트 CLI가 같은 장기 기억을 공유하게 해주는 단일 러스트 바이너리(git 버전관리 마크다운 위키 + SQLite FTS5/벡터 인덱스, MCP 지원)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [Ante](https://github.com/AntigmaLabs/ante) - 인터넷 연결 없이 오프라인으로 구동되는 단일 바이너리 코딩 에이전트
@@ -78,6 +79,7 @@ type: "post"
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
 - [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
+- [Bible Notify](https://github.com/BibleNotify/BibleNotify) - 인터넷 없이도 매일 정해진 시각에 성경 구절 알림을 보내 주는 광고·계정 없는 안드로이드 앱. 구글 플레이·F-Droid에서 바로 받아 쓸 수 있고 장 단위 읽기도 지원(42 star, GPL-3.0)
 - [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
 - [bible_api](https://github.com/seven1m/bible_api) - 퍼블릭 도메인·오픈 라이선스 성경 역본을 JSON API로 제공하는 루비 웹 앱. 널리 쓰이는 bible-api.com을 그대로 돌리는 원본 코드로, 오늘의 말씀 위젯·묵상 봇 제작이나 자체 호스팅에 적합(802 star, MIT)
@@ -145,6 +147,7 @@ type: "post"
 - [BudgetBee](https://github.com/budgetbee/budgetbee) - 도커 한 번으로 내 서버에 올리는 자체 호스팅 가계부. 카테고리별 예산·순자산 집계·다가올 고정지출·엑셀/JSON 가져오기·다중 사용자·다중 통화 지원(MIT)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [ezbookkeeping](https://github.com/mayswind/ezbookkeeping) - 도커 한 번으로 올리는 가벼운 자체 호스팅 가계부. 다중 통화·다중 계정·지출 분류·차트·2단계 인증을 지원하고 모바일 브라우저에서도 앱처럼 쓸 수 있다
+- [hister](https://github.com/asciimoo/hister) - 내가 방문한 웹페이지의 본문까지 저장해 전문 검색할 수 있게 해 주는 개인용 검색 엔진. 제목·주소만 남는 브라우저 방문 기록과 달리 내용으로 되찾을 수 있다(약 3,340 star, Go)
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
@@ -169,6 +172,7 @@ type: "post"
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)
+- [tailcat](https://github.com/tailscale/tailcat) - 넷캣처럼 쓰지만 테일스케일 데이터 평면 위에서 동작하는 P2P 연결 도구. 계정이나 중앙 컨트롤 플레인 없이 NAT 뒤의 두 기기를 바로 잇는다(약 4,260 star, Go)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
 - [Yap](https://github.com/FrigadeHQ/yap) - 애플 Speech 프레임워크를 그대로 써서 모델 다운로드·클라우드 전송·API 키 없이 기기 내에서 처리하는 맥OS용 무료 음성 입력 도구
 
