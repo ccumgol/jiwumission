@@ -30,6 +30,7 @@ type: "post"
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Node.js 설치나 터미널 명령 없이 DeepSeek Harness를 쓸 수 있게 감싼 macOS·윈도우용 Electron 데스크톱 앱(트레이 상주·모바일 원격 접속·플러그인 지원, MIT)
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
+- [Experiential](https://github.com/experientiallabs/experiential) - 상용·오픈소스·로컬·자체 모델을 하나의 관제판에서 다루는 오픈소스 모델 게이트웨이(사용 기록이 쌓일수록 라우팅이 개선되는 구조, Apache-2.0)
 - [Frontman](https://github.com/frontman-ai/frontman) - 실행 중인 웹사이트에서 요소를 클릭하고 자연어로 설명하면 실제 소스 파일을 고쳐주는 AI 웹사이트 편집기(워드프레스·Next.js·Astro·Vite 지원, 자체 호스팅 무제한)
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
@@ -67,6 +68,7 @@ type: "post"
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [ThoughtDAG](https://github.com/chenxiachan/thoughtdag) - LLM 대화를 무한 캔버스 위 편집 가능한 생각 그래프로 바꿔, 노드를 잇는 선 자체가 모델에 전달되는 컨텍스트가 되는 로컬 우선 도구
+- [TimesFM](https://github.com/google-research/timesfm) - 매출·수요·트래픽처럼 시간 순으로 쌓인 데이터를 별도 학습 없이 바로 예측하게 해 주는 구글 리서치의 시계열 파운데이션 모델(Apache-2.0, Python)
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [Swiftlet](https://github.com/leonickson1/Swiftlet) - Qwen MoE 모델의 전문가 가중치를 SSD에서 스트리밍해 80B를 램 4.3GB 맥에서, 35B를 아이폰에서 구동하는 Swift·Metal 런타임(Apache 2.0)
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
@@ -157,6 +159,7 @@ type: "post"
 - [Midday](https://github.com/midday-ai/midday) - 인보이스·시간 추적·은행 거래 자동 대사·문서 보관·AI 어시스턴트를 한데 묶은 1인 사업자·프리랜서용 오픈소스 비즈니스 워크스페이스(AGPL-3.0, 자체 호스팅 가능)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
+- [SiYuan](https://github.com/siyuan-note/siyuan) - 노트를 블록 단위로 잘게 쪼개 서로 연결하는 프라이버시 우선 오픈소스 지식 워크스페이스. 데이터가 전부 로컬 마크다운으로 남고 윈도우·맥·리눅스·안드로이드·iOS 지원, 도커 자체 호스팅과 WebDAV·S3 동기화 가능(AGPL-3.0)
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
 - [TeXbrain](https://github.com/swimmingbrain/texbrain) - pdfTeX를 웹어셈블리로 컴파일해 브라우저 안에서 그대로 돌리는 자유 소프트웨어 LaTeX 편집기. 실시간 미리보기·공동 편집·git 연동을 갖췄고 계정·쿠키·텔레메트리 없이 오프라인으로도 작동하며, File System Access API로 로컬 폴더를 직접 읽고 쓴다
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - 노트를 무한히 깊은 트리로 정리하고 한 노트를 여러 위치에 복제(cloning)해 둘 수 있는 개인 지식베이스 앱. WYSIWYG 편집기·전문 검색·노트 버전 관리·노트별 암호화·Excalidraw 스케치·마인드맵·지도 노트 지원, 윈도우/맥/리눅스 실행 파일만으로 서버 없이 사용 가능(AGPL-3.0)
@@ -217,6 +220,7 @@ type: "post"
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
+- [OpenMontage](https://github.com/calesthio/OpenMontage) - 자료 조사·대본·장면 설계·소재 생성·편집·내레이션·렌더링까지 12개 파이프라인으로 나눠 처리해 코딩 어시스턴트를 통째로 영상 제작 스튜디오로 바꾸는 오픈소스 에이전트형 영상 제작 시스템(AGPL-3.0)
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
