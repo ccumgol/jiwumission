@@ -17,6 +17,7 @@ type: "post"
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [Ante](https://github.com/AntigmaLabs/ante) - 인터넷 연결 없이 오프라인으로 구동되는 단일 바이너리 코딩 에이전트
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0·ATLAS·D3FEND 등 6개 프레임워크에 매핑한 모음집(29개 보안 도메인, agentskills.io 표준, Apache 2.0)
+- [archify](https://github.com/tt-a1i/archify) - 코딩 에이전트가 아키텍처·워크플로·시퀀스·데이터 흐름 다이어그램을 자체 완결형 HTML로 그려 주는 에이전트 스킬(모션·고해상도 내보내기 지원, MIT)
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
@@ -49,6 +50,7 @@ type: "post"
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [oMLX](https://github.com/jundot/omlx) - KV 캐시를 메모리(핫)와 SSD(콜드) 두 계층에 유지해 컨텍스트가 바뀌어도 지난 맥락을 재사용하는 애플 실리콘용 로컬 LLM 추론 서버(맥 메뉴 막대 관리, LLM·VLM·OCR·임베딩·리랭커 지원)
+- [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) - 여러 AI 에이전트가 교사·조교·동료 학습자 역할을 나눠 맡아 몰입형 수업을 만들어 주는 오픈 멀티에이전트 인터랙티브 교실(칭화대 MAIC, MIT)
 - [OpenViking](https://github.com/volcengine/OpenViking) - 에이전트 메모리·지식 RAG·스킬을 한 저장소로 묶어 스스로 갱신되는 AI 에이전트용 자기진화형 컨텍스트 데이터베이스(바이트댄스 볼케이노 엔진)
 - [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 290여 공급자·500여 모델을 단일 OpenAI 호환 엔드포인트로 묶는 MIT AI 게이트웨이(쿼터 인식 자동 폴백·토큰 압축)
@@ -113,6 +115,7 @@ type: "post"
 - [Praisenter](https://github.com/praisenter/praisenter) - 성경 구절·찬양 가사·공지 슬라이드를 프로젝터나 보조 화면으로 송출하는 무료 오픈소스 교회 프레젠테이션 프로그램(다중 화면·이중언어 병행 표시·워크스페이스 분리, Java/JavaFX, BSD-3-Clause)
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
+- [Oppia](https://github.com/oppia/oppia) - 학생이 틀리면 그 자리에서 되짚어 주는 대화형 레슨을 누구나 만들어 배포하는 비영리 무료 온라인 학습 플랫폼(오프라인 안드로이드 앱 제공, Apache-2.0)
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
@@ -221,6 +224,7 @@ type: "post"
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - 자료 조사·대본·장면 설계·소재 생성·편집·내레이션·렌더링까지 12개 파이프라인으로 나눠 처리해 코딩 어시스턴트를 통째로 영상 제작 스튜디오로 바꾸는 오픈소스 에이전트형 영상 제작 시스템(AGPL-3.0)
+- [OpenTIE](https://github.com/elyosh/OpenTIE) - 1990년대 스타워즈 우주 전투 시뮬레이터 '타이 파이터'와 'X-윙 얼라이언스'를 현대 시스템에서 돌아가게 이식한 오픈소스 포트(C)
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
