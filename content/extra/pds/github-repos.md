@@ -35,6 +35,7 @@ type: "post"
 - [Frontman](https://github.com/frontman-ai/frontman) - 실행 중인 웹사이트에서 요소를 클릭하고 자연어로 설명하면 실제 소스 파일을 고쳐주는 AI 웹사이트 편집기(워드프레스·Next.js·Astro·Vite 지원, 자체 호스팅 무제한)
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
+- [headroom](https://github.com/headroomlabs-ai/headroom) - 도구 출력·로그·파일·RAG 청크를 LLM에 넘기기 전에 압축해 코딩 에이전트 토큰을 20%, JSON은 60~95%까지 줄여 주는 라이브러리·프록시·MCP 서버(64,428 star, Apache-2.0, Python)
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
@@ -68,6 +69,8 @@ type: "post"
 - [Semantica](https://github.com/semantica-agi/semantica) - 흩어진 사내 데이터를 하나의 지식 그래프로 묶어 에이전트가 그 위에서 추론하게 하고 모든 결정에 W3C PROV-O 출처 기록을 남기는 결정론적 컨텍스트 인프라(그래프 구축·추론에 LLM 불필요, MIT)
 - [Shoehorn](https://github.com/notactuallytreyanastasio/shoehorn) - 내 VRAM에 딱 맞게 BF16 GGUF 모델을 importance matrix 기반 텐서별 혼합 정밀도로 양자화해 llama.cpp로 바로 실행하는 도구(맥·리눅스·윈도우)
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
+- [slotstream](https://github.com/carloslfu/slotstream) - 4비트 기준 104GB인 Qwen3.8-Flash-Next(125B MoE)를 SSD에서 전문가를 스트리밍해 훨씬 적은 램의 맥에서 돌리는 로컬 추론 서버(MLX+Swift, Ollama 호환 API, MIT)
+- [smolcoder](https://github.com/leonvanzyl/smolcoder) - Ollama·LM Studio의 로컬 모델만으로 돌아가는 최소 구현 터미널 코딩 에이전트(Claude Fable 5.1이 직접 만든 프로젝트, MIT, TypeScript)
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [ThoughtDAG](https://github.com/chenxiachan/thoughtdag) - LLM 대화를 무한 캔버스 위 편집 가능한 생각 그래프로 바꿔, 노드를 잇는 선 자체가 모델에 전달되는 컨텍스트가 되는 로컬 우선 도구
 - [TimesFM](https://github.com/google-research/timesfm) - 매출·수요·트래픽처럼 시간 순으로 쌓인 데이터를 별도 학습 없이 바로 예측하게 해 주는 구글 리서치의 시계열 파운데이션 모델(Apache-2.0, Python)
@@ -117,6 +120,7 @@ type: "post"
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
 - [Oppia](https://github.com/oppia/oppia) - 학생이 틀리면 그 자리에서 되짚어 주는 대화형 레슨을 누구나 만들어 배포하는 비영리 무료 온라인 학습 플랫폼(오프라인 안드로이드 앱 제공, Apache-2.0)
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
+- [rhema](https://github.com/openbezal/rhema) - 설교를 실시간으로 들으며 인용되는 성경 구절을 AI가 자동 감지해 자막으로 띄우는 데스크톱 앱. NDI 방송 출력을 지원해 OBS·방송 스위처에 바로 물릴 수 있다(343 star, MIT, Tauri)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
 - [Theographic Bible Metadata](https://github.com/robertrouse/theographic-bible-metadata) - 성경에 나오는 인물·장소·시대·구절을 하나의 지식 그래프로 엮어놓은 공개 데이터셋. 위도·경도가 붙은 지명과 사건별 연대 정보가 함께 들어 있어 인물 관계도·여정 지도·연대표 제작에 바로 쓸 수 있다(342 star)
