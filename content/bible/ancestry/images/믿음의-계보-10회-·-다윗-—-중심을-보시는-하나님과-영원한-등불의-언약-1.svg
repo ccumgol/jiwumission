@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 230" width="680" height="230" font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<style>
+  svg{--paper:#fffdf8;--ink:#2b2622;--soft:#5b5148;--muted:#8a7f73;
+      --band:#e6ddc9;--rule:#d9d0be;--acc:#a67c33;--accd:#7d5c22}
+  @media (prefers-color-scheme:dark){
+    svg{--paper:#221d17;--ink:#ece5d8;--soft:#c4baa9;--muted:#9b9080;
+        --band:#3a3226;--rule:#4a4136;--acc:#c9a54c;--accd:#e0bd6a}
+  }
+  .bg{fill:var(--paper)}
+  .box{fill:var(--band);stroke:var(--rule);stroke-width:1.1}
+  .box.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.6}
+  .lbl{font-size:13px;fill:var(--ink);font-weight:600;text-anchor:middle}
+  .lbl.on{fill:var(--paper);font-weight:700}
+  .sublbl{font-size:10px;fill:var(--soft);text-anchor:middle}
+  .sublbl.on{fill:var(--paper);font-weight:500;opacity:0.92}
+  .link{fill:none;stroke:var(--muted);stroke-width:1.3}
+  .link.key{stroke:var(--acc);stroke-width:1.8}
+  .tag{font-size:10px;fill:var(--accd);font-weight:600;text-anchor:middle}
+  .arrow{fill:var(--muted)}
+  .arrow.key{fill:var(--acc)}
+</style>
+<rect class="bg" width="680" height="230" rx="8"/>
+
+<!-- Section Title -->
+<text x="340" y="32" class="lbl" style="font-size:14px;letter-spacing:0.5px">아브라함에서 다윗을 거쳐 그리스도에 이르는 언약의 계보</text>
+
+<!-- Horizontal connectors -->
+<!-- Node 1 -> Node 2 -->
+<line class="link" x1="108" y1="95" x2="135" y2="95"/>
+<polygon class="arrow" points="135,92 141,95 135,98"/>
+
+<!-- Node 2 -> Node 3 -->
+<line class="link" x1="229" y1="95" x2="256" y2="95"/>
+<polygon class="arrow" points="256,92 262,95 256,98"/>
+
+<!-- Node 3 -> Node 4 -->
+<line class="link" x1="350" y1="95" x2="377" y2="95"/>
+<polygon class="arrow" points="377,92 383,95 377,98"/>
+
+<!-- Node 4 -> Node 5 (Key Link to David) -->
+<line class="link key" x1="471" y1="95" x2="498" y2="95"/>
+<polygon class="arrow key" points="498,91 506,95 498,99"/>
+
+<!-- Vertical / Curved Branch from David to Christ -->
+<path class="link key" d="M550 120 V165 H340 V175"/>
+<polygon class="arrow key" points="336,175 340,183 344,175"/>
+
+<!-- Nodes: Row 1 -->
+<!-- Node 1: 아브라함 -->
+<rect class="box" x="20" y="70" width="88" height="50" rx="6"/>
+<text class="lbl" x="64" y="93">아브라함</text>
+<text class="sublbl" x="64" y="109">땅과 자손 (창12)</text>
+
+<!-- Node 2: 유다 -->
+<rect class="box" x="141" y="70" width="88" height="50" rx="6"/>
+<text class="lbl" x="185" y="93">유다</text>
+<text class="sublbl" x="185" y="109">왕의 홀 (창49)</text>
+
+<!-- Node 3: 보아스 & 룻 -->
+<rect class="box" x="262" y="70" width="88" height="50" rx="6"/>
+<text class="lbl" x="306" y="93">보아스 · 룻</text>
+<text class="sublbl" x="306" y="109">은혜의 기업 (룻4)</text>
+
+<!-- Node 4: 이새 -->
+<rect class="box" x="383" y="70" width="88" height="50" rx="6"/>
+<text class="lbl" x="427" y="93">이새</text>
+<text class="sublbl" x="427" y="109">베들레헴 그루터기</text>
+
+<!-- Node 5: 다윗 (강조) -->
+<rect class="box on" x="504" y="65" width="156" height="60" rx="8"/>
+<text class="lbl on" x="582" y="92">다윗 왕</text>
+<text class="sublbl on" x="582" y="108">영원한 왕위의 언약 (삼하 7)</text>
+
+<!-- Node 6: 예수 그리스도 (완성) -->
+<rect class="box on" x="220" y="180" width="240" height="38" rx="6"/>
+<text class="lbl on" x="340" y="204">예수 그리스도 (마 1:1)</text>
+
+<!-- Annotation notes -->
+<text class="tag" x="430" y="152">「다윗 언약」의 궁극적 성취</text>
+</svg>
