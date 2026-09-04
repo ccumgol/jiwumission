@@ -58,6 +58,7 @@ type: "post"
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
 - [Pi](https://github.com/earendil-works/pi) - 통합 LLM API·에이전트 루프·터미널 UI·코딩 에이전트 CLI를 한 패키지로 묶은 AI 에이전트 툴킷(대화형·JSON·RPC·SDK 4가지 모드)
+- [ponytail](https://github.com/DietrichGebert/ponytail) - 코딩 에이전트가 "가장 게으른 시니어 개발자"처럼 판단하게 만들어 불필요한 코드를 새로 쓰지 않게 막는 스킬(약 12만 3천 star, MIT, JavaScript)
 - [Postiz-app](https://github.com/gitroomhq/postiz-app) - 여러 SNS 채널의 게시물 예약을 한 곳에서 관리하는 오픈소스 소셜 미디어 스케줄링 도구
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - 파이썬 REPL을 상시 실행 환경 삼아 컨텍스트를 변수처럼 다루고(RLM) 메모리·스킬을 지속 축적해 스스로 개선하는 오픈소스 코딩·리서치 에이전트(MIT, 데몬 실행 지원)
 - [Pxpipe](https://github.com/teamchong/pxpipe) - 시스템 프롬프트·툴 정의·대화 이력을 촘촘한 PNG로 렌더링해 LLM 토큰 비용을 절반 수준까지 줄이는 로컬 프록시
@@ -107,6 +108,7 @@ type: "post"
 - [Donate-button](https://github.com/everydotorg/donate-button) - 홈페이지에 코드 몇 줄만 붙이면 카드·은행 이체·페이팔·벤모·애플페이·구글페이는 물론 주식·암호화폐 기부까지 받고 생일·기념일 P2P 모금 페이지도 열 수 있는 비영리 전용 무료 오픈소스 후원 버튼(Every.org, 71 star)
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
 - [Elisha](https://github.com/31Carlton7/elisha) - KJV·ASV·WEB 등 여러 역본을 오프라인으로 읽고 오늘의 말씀·일일 묵상·북마크·읽기 연속기록까지 관리하는 iOS·안드로이드 성경 앱(Flutter)
+- [Eloquent](https://github.com/mdbergmann/Eloquent) - CrossWire SWORD 모듈을 그대로 읽어 여러 역본·주석·사전을 나란히 놓고 보는 macOS 네이티브 성경 공부 앱(126 star, BSD-3-Clause, 계정·인터넷 불필요)
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [Holy Bible XML Format](https://github.com/Beblia/Holy-Bible-XML-Format) - 200개 이상 언어·1,000개 이상 역본의 성경 본문을 통일된 XML 포맷으로 공개한 무료 성경 데이터 저장소(다국어 사역 자료 제작에 유용)
@@ -224,6 +226,8 @@ type: "post"
 - [Talos](https://github.com/wjhuang88/talos) - 모델과 셸 사이에 권한 커널을 두어 파일 쓰기·삭제·git 쓰기·셸 실행·네트워크·MCP 호출을 정확한 인자에 묶어 단 한 번 30초만 허용하는 러스트 에이전트 런타임(Apache 2.0)
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
+- [Audacity](https://github.com/audacity/audacity) - 20년 넘게 이어진 무료 오픈소스 오디오 편집기. 2026년 9월 4.0 정식 버전을 내며 해커뉴스 최상단에 올랐고, 팟캐스트·설교 녹음·유튜브 내레이션 다듬기에 여전히 가장 실용적인 선택(1만 8천 star, C++)
+- [Cap](https://github.com/CapSoftware/Cap) - 화면·카메라·마이크를 한 번에 담아 로컬 저장하거나 자체 스토리지로 공유하는 오픈소스 Loom 대체 화면 녹화 도구(맥·윈도우, 2만 1천 star, Rust)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
