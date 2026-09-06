@@ -37,6 +37,7 @@ type: "post"
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
 - [headroom](https://github.com/headroomlabs-ai/headroom) - 도구 출력·로그·파일·RAG 청크를 LLM에 넘기기 전에 압축해 코딩 에이전트 토큰을 20%, JSON은 60~95%까지 줄여 주는 라이브러리·프록시·MCP 서버(64,428 star, Apache-2.0, Python)
+- [Humanizer](https://github.com/blader/humanizer) - 코딩 에이전트가 쓴 글에서 'AI가 쓴 티'(상투구·균질한 문단·과도한 접속사)를 걷어내 사람 문장처럼 다듬어 주는 에이전트 스킬(별 4만 3천여 개, MIT, Python)
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
@@ -106,6 +107,7 @@ type: "post"
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
 - [ChurchIt](https://github.com/meichthys/churchit) - Frappe 프레임워크 위에 올린 오픈소스 교회관리시스템으로 교인·출석·헌금·기금과 선교사 후원 추적, 익명 기도 요청 창구까지 포함(MIT)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
+- [Cloud of Worship](https://github.com/CoW-Labs/cloudofworship) - 설치 없이 브라우저에서 찬양 가사·성경 구절·영상 슬라이드를 송출하는 무료 예배 프레젠테이션 소프트웨어(오프라인 사용, 전 세계 교회가 공유한 찬양 7,000곡 이상 라이브러리, 예배팀 실시간 공동 편집, Tauri 데스크톱 앱 제공)
 - [Corpus Christi](https://github.com/corpus-christi/corpus-christi) - 교인·소그룹·행사·교육과정 관리를 담고 설계 단계부터 완전한 국제화(다국어)를 목표로 한 오픈소스 교회 관리 스위트(Python/Flask + Vue, 다국어 회중·해외 선교지 교회에 적합)
 - [Donate-button](https://github.com/everydotorg/donate-button) - 홈페이지에 코드 몇 줄만 붙이면 카드·은행 이체·페이팔·벤모·애플페이·구글페이는 물론 주식·암호화폐 기부까지 받고 생일·기념일 P2P 모금 페이지도 열 수 있는 비영리 전용 무료 오픈소스 후원 버튼(Every.org, 71 star)
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
@@ -186,6 +188,8 @@ type: "post"
 - [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)
+- [Open-SEO](https://github.com/every-app/open-seo) - 키워드 조사·순위 추적·백링크 분석을 자기 서버에서 돌리는 오픈소스 SEO 도구(세마러시·에이치레프스 대안, 별 1만 7천여 개, MIT)
+- [OpenTrailPaper](https://github.com/RaemondBW/OpenTrailPaper) - 햇빛 아래서도 읽히고 배터리가 오래가는 전자잉크 화면을 쓴 오픈소스 자전거용 주행 컴퓨터(하드웨어 설계·펌웨어 공개, Apache-2.0, C)
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)
 - [tailcat](https://github.com/tailscale/tailcat) - 넷캣처럼 쓰지만 테일스케일 데이터 평면 위에서 동작하는 P2P 연결 도구. 계정이나 중앙 컨트롤 플레인 없이 NAT 뒤의 두 기기를 바로 잇는다(약 4,260 star, Go)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
