@@ -42,6 +42,12 @@ hasChildren = true
   url = "/bible/ancestry/"
   weight = 5
 
+  [[main]]
+  parent = "Bible"
+  name = "성경 인물"
+  url = "/bible/people/"
+  weight = 6
+
 ######### C. Class (강의) #########
 [[main]]
 name = "Class"
