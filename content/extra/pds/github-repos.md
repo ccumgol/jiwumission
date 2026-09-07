@@ -43,11 +43,13 @@ type: "post"
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
+- [magnitude](https://github.com/magnitudedev/magnitude) - 내 컴퓨터 사양에 맞는 최적의 로컬 AI 모델을 자동으로 골라 띄우고 Claude Code·Codex·Cline 등 기존 코딩 에이전트에 그대로 연결해주는 오픈소스 추론 서버(3,718 star, Apache-2.0, TypeScript)
 - [Mole](https://github.com/lajosdeme/mole) - 예산 상한을 원장으로 강제하고 모든 주장을 출처 원문과 대조해 검증하는 터미널용 딥리서치 에이전트(Go, MCP 지원, 로컬 데이터 프라이버시 경계, Apache-2.0)
 - [Munder Difflin](https://github.com/chaitanyagiri/munder-difflin) - 이미 쓰는 터미널 에이전트 CLI 10여 종을 2D 사무실 화면 위 한 팀으로 묶어 각자 장기 기억·메일함을 갖고 일을 주고받게 하는 로컬 멀티에이전트 하니스
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
 - [Nobuzz (Claudette)](https://github.com/adnanakil/nobuzz) - 클로드의 마지막 답변을 Gemini CLI에 통과시켜 클릭베이트 말투를 평범한 문장으로 바꿔주는 Claude Code 스킬(`/debuzz`)
+- [NPC-Forge](https://github.com/gioblu/NPC-Forge) - 머신러닝이나 대규모 언어모델 없이 CPU만으로 돌아가는 규칙 기반 대화형 에이전트 제작 프레임워크. 게임 NPC나 터미널 비서를 GPU 없이 만들 수 있다(199 star, AGPL-3.0, Python)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
 - [Hax](https://github.com/OleksandrChekhovskyi/hax) - C로 작성된 단일 바이너리 미니멀 터미널 코딩 에이전트. 수 MB 메모리만 쓰고 llama.cpp 등 로컬 모델을 1급으로 지원하며 모델과 주고받은 전문을 트랜스크립트로 확인할 수 있다
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
@@ -102,6 +104,7 @@ type: "post"
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
 - [Cantara](https://github.com/reckel-jm/cantara) - 찬양 가사를 평범한 텍스트 파일로 관리해 화면에 띄우는 일 하나만 제대로 하는 오픈소스 예배 송출 프로그램. 전용 DB나 계정 없이 폴더에 텍스트 파일만 두면 되고 윈도우·리눅스·맥에서 모두 구동(GPL-3.0)
+- [Christian FOSS](https://github.com/meichthys/christian_foss) - 성경 앱·교회관리시스템·예배 송출·찬양 가사·원어 도구까지 무료 오픈소스 기독교 소프트웨어를 분야별로 정리한 큐레이션 목록(101 star, MIT-0, 2026년 8월 갱신)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
@@ -202,6 +205,7 @@ type: "post"
 - [Assembly Hall of Shame](https://github.com/xoreaxeaxeax/asm-hall-of-shame) - CPU 명령어 하나를 최대한 느리게 만드는 방법을 겨루는 역방향 최적화 연구 모음(현재 x86 기록 1,980억 사이클·62초)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Channels SDK](https://github.com/CopilotKit/channels-sdk) - 이미 만들어 둔 AI 에이전트를 코드 수정 없이 슬랙·MS 팀즈 등 여러 메신저 채널에 그대로 연결해주는 오픈소스 SDK
+- [Chatwoot](https://github.com/chatwoot/chatwoot) - 홈페이지 라이브 채팅·이메일 문의·왓츠앱/인스타그램 메시지를 한 화면에서 처리하는 오픈소스 고객 상담 데스크(인터콤·젠데스크 대안, 34,812 star, Ruby, 자체 호스팅 가능)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
