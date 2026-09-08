@@ -171,6 +171,7 @@ type: "post"
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
+- [NoteGen](https://github.com/codexu/note-gen) - "먼저 기록하고 나중에 정리한다"는 원칙의 로컬 우선 마크다운 노트 앱. 흩어진 스크린샷·텍스트 조각을 AI가 하나의 노트로 정리해 주고, 파일은 내 컴퓨터에 마크다운으로 남으면서 깃허브·WebDAV로 동기화된다(별 1만 2천여 개, GPL-3.0, Tauri)
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Midday](https://github.com/midday-ai/midday) - 인보이스·시간 추적·은행 거래 자동 대사·문서 보관·AI 어시스턴트를 한데 묶은 1인 사업자·프리랜서용 오픈소스 비즈니스 워크스페이스(AGPL-3.0, 자체 호스팅 가능)
@@ -188,6 +189,7 @@ type: "post"
 - [Actual Budget](https://github.com/actualbudget/actual) - 봉투 예산(envelope budgeting) 방식의 로컬 우선 무료 가계부
 - [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - 주식·외환·원자재 시세와 경제지표를 한 화면에서 다루는 오픈소스 데스크톱 금융 분석 터미널(C++20·Qt6, AGPL-3.0)
 - [Anydoc](https://github.com/firecrawl/anydoc) - Word·PPT·Excel·OpenDocument·RTF·EPUB·CSV·PDF 등 14개 포맷을 깨끗한 GitHub Flavored Markdown으로 바꾸는 러스트 라이브러리(ML 모델·외부 서비스 없이 변환 중앙값 5ms 미만, Node·파이썬·WASM 바인딩)
+- [bzip3](https://github.com/iczelia/bzip3) - BZip2의 "더 낫고 더 강한 정신적 후계자"를 표방하는 C 기반 압축 도구. 큰 블록 크기와 문맥 혼합으로 압축률을 끌어올렸다(별 1,413개, LGPL-3.0)
 - [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)
@@ -213,6 +215,7 @@ type: "post"
 - [LuaCAD](https://github.com/ad-si/LuaCAD) - Lua 스크립트로 파라메트릭 2D·3D CAD 모델을 작성해 3MF·STL·OBJ 등으로 내보내는 도구(Rust 엔진에 Lua 5.4 임베드, CLI·데스크톱 앱·WASM 플레이그라운드, BOSL2 완전 지원)
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)
+- [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
 - [Wyzer](https://github.com/Wyzer-Lang/wyzer) - 소유권 규칙 하나로 메모리·동시성·네트워크 안전성을 함께 해결하려는 정적 타입 컴파일 언어(코레오그래픽 프로그래밍, perceus 메모리 모델)
@@ -232,6 +235,7 @@ type: "post"
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
 - [Rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge) - 일부 x86(VIA C3) CPU에 숨겨진 비x86 보조 코어를 통해 메모리 보호·권한 검사를 우회하는 하드웨어 백도어를 실증하고 탐지 도구까지 공개한 연구 프로젝트
+- [SkillSpector](https://github.com/NVIDIA/SkillSpector) - AI 에이전트 스킬 전용 보안 스캐너. 설치 전에 프롬프트 인젝션·데이터 유출·공급망 위험 같은 악성 패턴을 찾아내며 Claude Code·Codex·MCP 스킬을 지원한다(엔비디아, 별 1만 6천여 개, Apache-2.0)
 - [Skitter Creek Bath Salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) - AMD Family 16h의 DRAM 컨트롤러 주소 변환 레지스터가 잠기지 않는 점을 이용해 물리 주소 매핑을 재배열하고 통상 차단된 메모리 영역까지 소프트웨어로 도달하는 보안 연구(Christopher Domas)
 - [Smiiiiiiiiiiiiiiii](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) - 약 40억 사이클이 걸리는 초장시간 x86 명령어 하나로 코어 간 동시 진입 전제를 깨뜨려 CPU 최고 특권 환경 SMM을 무너뜨리는 DEF CON 34 보안 연구(Christopher Domas)
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
