@@ -104,6 +104,7 @@ type: "post"
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
 - [Cantara](https://github.com/reckel-jm/cantara) - 찬양 가사를 평범한 텍스트 파일로 관리해 화면에 띄우는 일 하나만 제대로 하는 오픈소스 예배 송출 프로그램. 전용 DB나 계정 없이 폴더에 텍스트 파일만 두면 되고 윈도우·리눅스·맥에서 모두 구동(GPL-3.0)
+- [GiveWP](https://github.com/impress-org/givewp) - 워드프레스 홈페이지에 일회성 헌금·정기 후원·캠페인 목표 관리·기부 영수증 발송·후원자 명단을 붙여주는 오픈소스 모금 플러그인(별 366개, PHP, GPL-3.0)
 - [Christian FOSS](https://github.com/meichthys/christian_foss) - 성경 앱·교회관리시스템·예배 송출·찬양 가사·원어 도구까지 무료 오픈소스 기독교 소프트웨어를 분야별로 정리한 큐레이션 목록(101 star, MIT-0, 2026년 8월 갱신)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
@@ -141,6 +142,7 @@ type: "post"
 - [CarWatch](https://github.com/ThinkOffApp/CarWatch) - 라즈베리파이 5 한 대를 완전 오프라인 차량용 AI 비서로 바꾸는 프로젝트. 차량 사용설명서 745쪽을 어휘 기반 RAG로 SD 카드에 싣고 쪽수까지 인용해 답하며, 설명서에 없는 내용은 답하지 않는다(Qwen3.6-35B-A3B 구동, 파이썬 표준 라이브러리만 사용)
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
 - [Codeman](https://github.com/Ark0N/Codeman) - Claude Code·Codex·Gemini CLI 등을 지속 tmux 세션에 띄워 24시간 돌리고 실제 터미널을 브라우저로 스트리밍해 모든 서브에이전트를 실시간 감시하는 자체 호스팅 관제탑(모바일 UI·도커/SSH 격리·REST API 190여 개)
+- [Frigate](https://github.com/blakeblackshear/frigate) - IP 카메라 영상에서 사람·차량 같은 객체를 클라우드로 보내지 않고 내 서버에서 실시간 탐지하는 자체 호스팅 오픈소스 NVR(별 3만 5천여 개, MIT, 홈어시스턴트 연동)
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
 - [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
@@ -187,6 +189,7 @@ type: "post"
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 - [Actual Budget](https://github.com/actualbudget/actual) - 봉투 예산(envelope budgeting) 방식의 로컬 우선 무료 가계부
+- [drivesync](https://github.com/scaleninja/drivesync) - 구글 드라이브의 파일·폴더를 깃과 비슷한 사용감으로 아주 빠르게 동기화하는 명령줄 도구(Rust, MIT)
 - [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - 주식·외환·원자재 시세와 경제지표를 한 화면에서 다루는 오픈소스 데스크톱 금융 분석 터미널(C++20·Qt6, AGPL-3.0)
 - [Anydoc](https://github.com/firecrawl/anydoc) - Word·PPT·Excel·OpenDocument·RTF·EPUB·CSV·PDF 등 14개 포맷을 깨끗한 GitHub Flavored Markdown으로 바꾸는 러스트 라이브러리(ML 모델·외부 서비스 없이 변환 중앙값 5ms 미만, Node·파이썬·WASM 바인딩)
 - [bzip3](https://github.com/iczelia/bzip3) - BZip2의 "더 낫고 더 강한 정신적 후계자"를 표방하는 C 기반 압축 도구. 큰 블록 크기와 문맥 혼합으로 압축률을 끌어올렸다(별 1,413개, LGPL-3.0)
@@ -244,6 +247,7 @@ type: "post"
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 - [Audacity](https://github.com/audacity/audacity) - 20년 넘게 이어진 무료 오픈소스 오디오 편집기. 2026년 9월 4.0 정식 버전을 내며 해커뉴스 최상단에 올랐고, 팟캐스트·설교 녹음·유튜브 내레이션 다듬기에 여전히 가장 실용적인 선택(1만 8천 star, C++)
 - [Cap](https://github.com/CapSoftware/Cap) - 화면·카메라·마이크를 한 번에 담아 로컬 저장하거나 자체 스토리지로 공유하는 오픈소스 Loom 대체 화면 녹화 도구(맥·윈도우, 2만 1천 star, Rust)
+- [hyperframes](https://github.com/heygen-com/hyperframes) - HTML로 화면을 작성하면 그대로 완성된 영상으로 렌더링해주는 에이전트용 영상 제작 프레임워크(별 4만 7천여 개, TypeScript, Apache-2.0, GSAP·Puppeteer·ffmpeg 기반)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
