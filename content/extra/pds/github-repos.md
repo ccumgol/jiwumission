@@ -37,9 +37,11 @@ type: "post"
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
 - [headroom](https://github.com/headroomlabs-ai/headroom) - 도구 출력·로그·파일·RAG 청크를 LLM에 넘기기 전에 압축해 코딩 에이전트 토큰을 20%, JSON은 60~95%까지 줄여 주는 라이브러리·프록시·MCP 서버(64,428 star, Apache-2.0, Python)
+- [Engrim](https://github.com/timgordontg/engrim) - 클로드 코드·커서·코덱스·윈드서프 등 여러 AI CLI가 같은 장기 기억을 공유하게 해주는 로컬 우선 SQLite 메모리 엔진(프로젝트 단위 격리, 클라우드 종속 없음, 별 219개, MIT, Python)
 - [Humanizer](https://github.com/blader/humanizer) - 코딩 에이전트가 쓴 글에서 'AI가 쓴 티'(상투구·균질한 문단·과도한 접속사)를 걷어내 사람 문장처럼 다듬어 주는 에이전트 스킬(별 4만 3천여 개, MIT, Python)
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
+- [i-have-adhd](https://github.com/ayghri/i-have-adhd) - 코딩 에이전트가 답을 장황한 설명 속에 파묻지 않고 결론부터 말하게 만드는 스킬(2026년 9월 9일 깃허브 트렌딩 1위, 하루 4,624 star, 누적 별 3만 4천여 개, MIT)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
@@ -133,6 +135,7 @@ type: "post"
 - [rhema](https://github.com/openbezal/rhema) - 설교를 실시간으로 들으며 인용되는 성경 구절을 AI가 자동 감지해 자막으로 띄우는 데스크톱 앱. NDI 방송 출력을 지원해 OBS·방송 스위처에 바로 물릴 수 있다(343 star, MIT, Tauri)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
+- [TheOpenPresenter](https://github.com/Vija02/TheOpenPresenter) - 브라우저만 있으면 어떤 기기에서도 송출하고 여러 사람이 실시간으로 함께 편집·조작하는 오픈소스 예배·행사 프레젠테이션 소프트웨어(프로프리젠터 대안, 오프라인 앱 제공, 작은 교회·비영리단체용 무료 호스팅 약속, AGPL-3.0, TypeScript)
 - [Theographic Bible Metadata](https://github.com/robertrouse/theographic-bible-metadata) - 성경에 나오는 인물·장소·시대·구절을 하나의 지식 그래프로 엮어놓은 공개 데이터셋. 위도·경도가 붙은 지명과 사건별 연대 정보가 함께 들어 있어 인물 관계도·여정 지도·연대표 제작에 바로 쓸 수 있다(342 star)
 - [UniqueBible](https://github.com/eliranwong/UniqueBible) - 히브리어·헬라어 원어 자료와 주석·사전·백과사전·연대표를 통째로 내려받아 완전 오프라인으로 쓰는 크로스플랫폼 성경 연구 앱(GUI·웹서버·터미널 등 다중 실행 모드, GPL-3.0)
 - [Weblate](https://github.com/WeblateOrg/weblate) - 깃 저장소와 맞물려 여러 언어권 팀이 소식지·교재·앱 문구를 문장 단위로 나눠 번역·검토·용어집 관리하는 웹 기반 현지화 플랫폼(자체 호스팅 가능)
@@ -256,6 +259,7 @@ type: "post"
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
+- [video-use](https://github.com/browser-use/video-use) - 코딩 에이전트로 영상을 편집하게 해주는 도구. 자연어 지시로 컷 편집·자막·합성을 처리한다(별 2만 4천여 개, MIT, Python)
 - [Webreel](https://github.com/vercel-labs/webreel)
 - [Wrtag](https://github.com/sentriz/wrtag) - MusicBrainz와 대조해 음악 파일 태그와 폴더 구조를 자동 정리하는 빠른 CLI 겸 웹 UI(Beets·Picard 대안, 리눅스·맥·윈도우 단일 실행 파일) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 Apache 2.0 CLI(Vercel Labs)
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - 유튜브 및 수많은 스트리밍 사이트에서 동영상과 오디오를 다운로드할 수 있는 강력한 커맨드라인 도구 (youtube-dl 포크)
