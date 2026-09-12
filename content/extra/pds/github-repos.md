@@ -35,6 +35,7 @@ type: "post"
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
 - [ECC](https://github.com/affaan-m/ECC) - 스킬·직관·메모리·보안·리서치 우선 개발 규칙을 검사 가능한 파일 묶음으로 제공해 코딩 에이전트의 판단력을 끌어올리는 하니스 최적화 시스템(클로드 코드·코덱스·커서 등 지원, 별 24만여 개, MIT)
 - [Engrim](https://github.com/timgordontg/engrim) - 클로드 코드·커서·코덱스·윈드서프 등 여러 AI CLI가 같은 장기 기억을 공유하게 해주는 로컬 우선 SQLite 메모리 엔진(프로젝트 단위 격리, 클라우드 종속 없음, 별 219개, MIT, Python)
+- [exo](https://github.com/exo-explore/exo) - 맥·PC 여러 대를 텐서 병렬과 썬더볼트 RDMA로 묶어 한 대로는 못 돌리는 대형 모델을 나눠 실행하는 분산 추론 프레임워크(별 4만 7천여 개, Apache-2.0, Python)
 - [Experiential](https://github.com/experientiallabs/experiential) - 상용·오픈소스·로컬·자체 모델을 하나의 관제판에서 다루는 오픈소스 모델 게이트웨이(사용 기록이 쌓일수록 라우팅이 개선되는 구조, Apache-2.0)
 - [Frontman](https://github.com/frontman-ai/frontman) - 실행 중인 웹사이트에서 요소를 클릭하고 자연어로 설명하면 실제 소스 파일을 고쳐주는 AI 웹사이트 편집기(워드프레스·Next.js·Astro·Vite 지원, 자체 호스팅 무제한)
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
@@ -201,11 +202,13 @@ type: "post"
 - [Anydoc](https://github.com/firecrawl/anydoc) - Word·PPT·Excel·OpenDocument·RTF·EPUB·CSV·PDF 등 14개 포맷을 깨끗한 GitHub Flavored Markdown으로 바꾸는 러스트 라이브러리(ML 모델·외부 서비스 없이 변환 중앙값 5ms 미만, Node·파이썬·WASM 바인딩)
 - [bzip3](https://github.com/iczelia/bzip3) - BZip2의 "더 낫고 더 강한 정신적 후계자"를 표방하는 C 기반 압축 도구. 큰 블록 크기와 문맥 혼합으로 압축률을 끌어올렸다(별 1,413개, LGPL-3.0)
 - [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
+- [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) - 공개된 위성·항공·선박 데이터를 사실적인 3D 지구본 위에 실시간으로 얹어 브라우저에서 공개출처정보(OSINT)를 훑어보게 해 주는 도구(2026년 9월 12일 깃허브 트렌딩 1위, 하루 3,680 star, 누적 별 2만 7천여 개, JavaScript)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)
 - [Open-SEO](https://github.com/every-app/open-seo) - 키워드 조사·순위 추적·백링크 분석을 자기 서버에서 돌리는 오픈소스 SEO 도구(세마러시·에이치레프스 대안, 별 1만 7천여 개, MIT)
 - [OpenTrailPaper](https://github.com/RaemondBW/OpenTrailPaper) - 햇빛 아래서도 읽히고 배터리가 오래가는 전자잉크 화면을 쓴 오픈소스 자전거용 주행 컴퓨터(하드웨어 설계·펌웨어 공개, Apache-2.0, C)
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)
+- [ShareX](https://github.com/ShareX/ShareX) - 화면 캡처·녹화·스크롤 캡처·GIF 제작에 주석과 자동 업로드까지 한 번에 처리하는 윈도우용 무료 도구. 단축키 하나만 외우면 되어 비전문가도 바로 쓸 수 있고 사용법 안내 자료 제작에 유용하다(별 3만 9천여 개, GPL-3.0, C#)
 - [tailcat](https://github.com/tailscale/tailcat) - 넷캣처럼 쓰지만 테일스케일 데이터 평면 위에서 동작하는 P2P 연결 도구. 계정이나 중앙 컨트롤 플레인 없이 NAT 뒤의 두 기기를 바로 잇는다(약 4,260 star, Go)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
 - [Yap](https://github.com/FrigadeHQ/yap) - 애플 Speech 프레임워크를 그대로 써서 모델 다운로드·클라우드 전송·API 키 없이 기기 내에서 처리하는 맥OS용 무료 음성 입력 도구
@@ -237,6 +240,7 @@ type: "post"
 - [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)
+- [Toast](https://github.com/paradise-runner/toast) - 설정을 손보지 않아도 기본값 그대로 쓸 만하게 만든 터미널 내장형 통합개발환경(2026년 9월 11일 Show HN 73점·댓글 86개, Go)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
 - [Wyzer](https://github.com/Wyzer-Lang/wyzer) - 소유권 규칙 하나로 메모리·동시성·네트워크 안전성을 함께 해결하려는 정적 타입 컴파일 언어(코레오그래픽 프로그래밍, perceus 메모리 모델)
 - [ZSvirt](https://github.com/ZSvirt/zsvirt) - VMware·Proxmox를 대체하려는 KVM 기반 경량 오픈소스 가상화 플랫폼 겸 IaaS 엔진(Java, GPL-3.0)
