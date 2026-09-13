@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2670 246" width="2670" height="246" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<style>
+  svg{--paper:#fffdf8;--ink:#2b2622;--soft:#5b5148;--muted:#8a7f73;
+      --band:#e6ddc9;--rule:#d9d0be;--acc:#a67c33;--accd:#7d5c22}
+  @media (prefers-color-scheme:dark){
+    svg{--paper:#221d17;--ink:#ece5d8;--soft:#c4baa9;--muted:#9b9080;
+        --band:#3a3226;--rule:#4a4136;--acc:#c9a54c;--accd:#e0bd6a}
+  }
+  .bg{fill:var(--paper)}
+  .grid{stroke:var(--rule);stroke-width:1}
+  .tick{font-size:10px;fill:var(--muted)}
+  .flood{stroke:var(--accd);stroke-width:1.6;stroke-dasharray:4 3}
+  .floodlbl{font-size:10.5px;fill:var(--accd);font-weight:700}
+  .bar{fill:var(--band);stroke:var(--rule);stroke-width:1}
+  .bar.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.4}
+  .name{font-size:11.5px;fill:var(--soft);font-weight:500}
+  .name.on{fill:var(--ink);font-weight:700}
+  .span{font-size:10px;fill:var(--accd)}
+  .span.in{fill:var(--paper);font-weight:700}
+  .note{font-size:10.5px;fill:var(--muted)}
+  .box{fill:var(--band);stroke:var(--rule);stroke-width:1.1}
+  .box.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.8}
+  .lbl{font-size:12.5px;fill:var(--ink);font-weight:500;text-anchor:middle}
+  .lbl.on{fill:var(--paper);font-weight:700}
+  .link{fill:none;stroke:var(--muted);stroke-width:1.3}
+  .link.dash{stroke:var(--acc);stroke-dasharray:5 4}
+</style>
+<rect class="bg" width="2670" height="246"/>
+<path class="link" d="M417.0 168.0 V185.0 H264.0 V202.0"/>
+<path class="link" d="M417.0 168.0 V185.0 H366.0 V202.0"/>
+<path class="link" d="M417.0 168.0 V185.0 H468.0 V202.0"/>
+<path class="link" d="M417.0 168.0 V185.0 H570.0 V202.0"/>
+<path class="link" d="M723.0 168.0 V185.0 H672.0 V202.0"/>
+<path class="link" d="M723.0 168.0 V185.0 H774.0 V202.0"/>
+<path class="link" d="M927.0 168.0 V185.0 H876.0 V202.0"/>
+<path class="link" d="M927.0 168.0 V185.0 H978.0 V202.0"/>
+<path class="link" d="M672.0 106.0 V123.0 H417.0 V140.0"/>
+<path class="link" d="M672.0 106.0 V123.0 H723.0 V140.0"/>
+<path class="link" d="M672.0 106.0 V123.0 H927.0 V140.0"/>
+<path class="link" d="M1386.0 168.0 V185.0 H1386.0 V202.0"/>
+<path class="link" d="M1284.0 106.0 V123.0 H1080.0 V140.0"/>
+<path class="link" d="M1284.0 106.0 V123.0 H1182.0 V140.0"/>
+<path class="link" d="M1284.0 106.0 V123.0 H1284.0 V140.0"/>
+<path class="link" d="M1284.0 106.0 V123.0 H1386.0 V140.0"/>
+<path class="link" d="M1284.0 106.0 V123.0 H1488.0 V140.0"/>
+<path class="link" d="M1998.0 106.0 V123.0 H1998.0 V140.0"/>
+<path class="link" d="M2304.0 168.0 V185.0 H2304.0 V202.0"/>
+<path class="link" d="M2406.0 168.0 V185.0 H2406.0 V202.0"/>
+<path class="link" d="M2355.0 106.0 V123.0 H2304.0 V140.0"/>
+<path class="link" d="M2355.0 106.0 V123.0 H2406.0 V140.0"/>
+<path class="link" d="M2559.0 106.0 V123.0 H2508.0 V140.0"/>
+<path class="link" d="M2559.0 106.0 V123.0 H2610.0 V140.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H60.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H162.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H672.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H1284.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H1590.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H1692.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H1794.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H1896.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H1998.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H2100.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H2202.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H2355.0 V78.0"/>
+<path class="link" d="M1309.5 44.0 V61.0 H2559.0 V78.0"/>
+<rect class="box" x="16.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="60.0" y="96">르우벤</text>
+<rect class="box" x="118.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="162.0" y="96">시므온</text>
+<rect class="box" x="220.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="264.0" y="220">헤브론</text>
+<rect class="box" x="322.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="366.0" y="220">아므람</text>
+<rect class="box" x="424.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="468.0" y="220">웃시엘</text>
+<rect class="box" x="526.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="570.0" y="220">이스할</text>
+<rect class="box" x="373.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="417.0" y="158">그핫</text>
+<rect class="box" x="628.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="672.0" y="220">립니</text>
+<rect class="box" x="730.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="774.0" y="220">시므이</text>
+<rect class="box" x="679.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="723.0" y="158">게르손</text>
+<rect class="box" x="832.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="876.0" y="220">마흘리</text>
+<rect class="box" x="934.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="978.0" y="220">무시</text>
+<rect class="box" x="883.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="927.0" y="158">므라리</text>
+<rect class="box" x="628.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="672.0" y="96">레위</text>
+<rect class="box" x="1036.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="1080.0" y="158">엘</text>
+<rect class="box" x="1138.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="1182.0" y="158">오난</text>
+<rect class="box" x="1240.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="1284.0" y="158">셀라</text>
+<rect class="box" x="1342.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="1386.0" y="220">헤스론</text>
+<rect class="box" x="1342.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="1386.0" y="158">베레스</text>
+<rect class="box" x="1444.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="1488.0" y="158">세라</text>
+<rect class="box on" x="1240.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl on" x="1284.0" y="96">유다</text>
+<rect class="box" x="1546.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="1590.0" y="96">단</text>
+<rect class="box" x="1648.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="1692.0" y="96">납달리</text>
+<rect class="box" x="1750.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="1794.0" y="96">갓</text>
+<rect class="box" x="1852.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="1896.0" y="96">아셀</text>
+<rect class="box" x="1954.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="1998.0" y="158">시므론</text>
+<rect class="box" x="1954.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="1998.0" y="96">잇사갈</text>
+<rect class="box" x="2056.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="2100.0" y="96">스불론</text>
+<rect class="box" x="2158.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="2202.0" y="96">디나</text>
+<rect class="box" x="2260.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="2304.0" y="220">마길</text>
+<rect class="box" x="2260.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="2304.0" y="158">므낫세</text>
+<rect class="box" x="2362.0" y="202" width="88" height="28" rx="5"/>
+<text class="lbl" x="2406.0" y="220">베렛</text>
+<rect class="box" x="2362.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="2406.0" y="158">에브라임</text>
+<rect class="box" x="2311.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="2355.0" y="96">요셉</text>
+<rect class="box" x="2464.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="2508.0" y="158">게라</text>
+<rect class="box" x="2566.0" y="140" width="88" height="28" rx="5"/>
+<text class="lbl" x="2610.0" y="158">노하</text>
+<rect class="box" x="2515.0" y="78" width="88" height="28" rx="5"/>
+<text class="lbl" x="2559.0" y="96">베냐민</text>
+<rect class="box" x="1265.5" y="16" width="88" height="28" rx="5"/>
+<text class="lbl" x="1309.5" y="34">야곱</text>
+</svg>
