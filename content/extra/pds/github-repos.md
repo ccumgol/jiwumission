@@ -95,25 +95,24 @@ type: "post"
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
-- [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
-- [Bible Notify](https://github.com/BibleNotify/BibleNotify) - 인터넷 없이도 매일 정해진 시각에 성경 구절 알림을 보내 주는 광고·계정 없는 안드로이드 앱. 구글 플레이·F-Droid에서 바로 받아 쓸 수 있고 장 단위 읽기도 지원(42 star, GPL-3.0)
-- [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
-- [bible_api](https://github.com/seven1m/bible_api) - 퍼블릭 도메인·오픈 라이선스 성경 역본을 JSON API로 제공하는 루비 웹 앱. 널리 쓰이는 bible-api.com을 그대로 돌리는 원본 코드로, 오늘의 말씀 위젯·묵상 봇 제작이나 자체 호스팅에 적합(802 star, MIT)
-- [BibleOS](https://github.com/crynta/BibleOS) - Tauri 기반 크로스플랫폼 성경 리더 앱으로, 읽는 중에 AI 채팅으로 본문 배경·문맥을 바로 물어볼 수 있다
-- [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
+- [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
+- [Bible Notify](https://github.com/BibleNotify/BibleNotify) - 인터넷 없이도 매일 정해진 시각에 성경 구절 알림을 보내 주는 광고·계정 없는 안드로이드 앱. 구글 플레이·F-Droid에서 바로 받아 쓸 수 있고 장 단위 읽기도 지원(42 star, GPL-3.0)
 - [Bible Song Pro](https://github.com/Johnbatey/bible-song-pro) - OBS Studio용 무료 오픈소스 교회 프레젠테이션 시스템. 브라우저 소스 오버레이로 찬양 가사와 성경 구절을 온라인 예배 송출에 바로 얹는다
+- [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
+- [bible_api](https://github.com/seven1m/bible_api) - 퍼블릭 도메인·오픈 라이선스 성경 역본을 JSON API로 제공하는 루비 웹 앱. 널리 쓰이는 bible-api.com을 그대로 돌리는 원본 코드로, 오늘의 말씀 위젯·묵상 봇 제작이나 자체 호스팅에 적합(802 star, MIT)
+- [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
+- [BibleOS](https://github.com/crynta/BibleOS) - Tauri 기반 크로스플랫폼 성경 리더 앱으로, 읽는 중에 AI 채팅으로 본문 배경·문맥을 바로 물어볼 수 있다
 - [BibleTime](https://github.com/bibletime/bibletime) - 다양한 성경 역본과 주석을 연구할 수 있는 데스크톱 성경 공부 앱
 - [Bolls Bible (bain)](https://github.com/Bolls-Bible/bain) - 광고·부가기능 없이 본문에만 집중한 오픈소스 성경 읽기 앱(31개 언어 146개 역본, 병행 읽기·기기 간 동기화·시맨틱 검색, 웹·안드로이드·윈도우·리눅스, GPL-3.0)
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
-- [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
 - [Cantara](https://github.com/reckel-jm/cantara) - 찬양 가사를 평범한 텍스트 파일로 관리해 화면에 띄우는 일 하나만 제대로 하는 오픈소스 예배 송출 프로그램. 전용 DB나 계정 없이 폴더에 텍스트 파일만 두면 되고 윈도우·리눅스·맥에서 모두 구동(GPL-3.0)
-- [GiveWP](https://github.com/impress-org/givewp) - 워드프레스 홈페이지에 일회성 헌금·정기 후원·캠페인 목표 관리·기부 영수증 발송·후원자 명단을 붙여주는 오픈소스 모금 플러그인(별 366개, PHP, GPL-3.0)
+- [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
 - [Christian FOSS](https://github.com/meichthys/christian_foss) - 성경 앱·교회관리시스템·예배 송출·찬양 가사·원어 도구까지 무료 오픈소스 기독교 소프트웨어를 분야별로 정리한 큐레이션 목록(101 star, MIT-0, 2026년 8월 갱신)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
-- [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
+- [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [ChurchIt](https://github.com/meichthys/churchit) - Frappe 프레임워크 위에 올린 오픈소스 교회관리시스템으로 교인·출석·헌금·기금과 선교사 후원 추적, 익명 기도 요청 창구까지 포함(MIT)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [Cloud of Worship](https://github.com/CoW-Labs/cloudofworship) - 설치 없이 브라우저에서 찬양 가사·성경 구절·영상 슬라이드를 송출하는 무료 예배 프레젠테이션 소프트웨어(오프라인 사용, 전 세계 교회가 공유한 찬양 7,000곡 이상 라이브러리, 예배팀 실시간 공동 편집, Tauri 데스크톱 앱 제공)
@@ -124,22 +123,24 @@ type: "post"
 - [Eloquent](https://github.com/mdbergmann/Eloquent) - CrossWire SWORD 모듈을 그대로 읽어 여러 역본·주석·사전을 나란히 놓고 보는 macOS 네이티브 성경 공부 앱(126 star, BSD-3-Clause, 계정·인터넷 불필요)
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
+- [GiveWP](https://github.com/impress-org/givewp) - 워드프레스 홈페이지에 일회성 헌금·정기 후원·캠페인 목표 관리·기부 영수증 발송·후원자 명단을 붙여주는 오픈소스 모금 플러그인(별 366개, PHP, GPL-3.0)
 - [Holy Bible XML Format](https://github.com/Beblia/Holy-Bible-XML-Format) - 200개 이상 언어·1,000개 이상 역본의 성경 본문을 통일된 XML 포맷으로 공개한 무료 성경 데이터 저장소(다국어 사역 자료 제작에 유용)
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
 - [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
 - [MauCariApa Church Starter](https://github.com/MauCariApa-com/maucariapacom-church-starter) - Astro 기반 교회 홈페이지 스타터 템플릿. 정적 사이트 생성 방식이라 빠르고 SEO 설정·Tailwind CSS 디자인·마크다운 콘텐츠 구조가 이미 잡혀 있어 개발자 없는 작은 교회도 무료 호스팅에 바로 올릴 수 있다
-- [Praisenter](https://github.com/praisenter/praisenter) - 성경 구절·찬양 가사·공지 슬라이드를 프로젝터나 보조 화면으로 송출하는 무료 오픈소스 교회 프레젠테이션 프로그램(다중 화면·이중언어 병행 표시·워크스페이스 분리, Java/JavaFX, BSD-3-Clause)
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
+- [OpenBeam](https://github.com/tensorkithq/openbeam) - 설교 중 낭독되는 성경 구절을 실시간 음성 인식으로 찾아 송출 화면에 자동으로 띄워 주는 데스크톱 앱(90 star, TypeScript)
 - [Oppia](https://github.com/oppia/oppia) - 학생이 틀리면 그 자리에서 되짚어 주는 대화형 레슨을 누구나 만들어 배포하는 비영리 무료 온라인 학습 플랫폼(오프라인 안드로이드 앱 제공, Apache-2.0)
+- [Praisenter](https://github.com/praisenter/praisenter) - 성경 구절·찬양 가사·공지 슬라이드를 프로젝터나 보조 화면으로 송출하는 무료 오픈소스 교회 프레젠테이션 프로그램(다중 화면·이중언어 병행 표시·워크스페이스 분리, Java/JavaFX, BSD-3-Clause)
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [rhema](https://github.com/openbezal/rhema) - 설교를 실시간으로 들으며 인용되는 성경 구절을 AI가 자동 감지해 자막으로 띄우는 데스크톱 앱. NDI 방송 출력을 지원해 OBS·방송 스위처에 바로 물릴 수 있다(343 star, MIT, Tauri)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
-- [TheOpenPresenter](https://github.com/Vija02/TheOpenPresenter) - 브라우저만 있으면 어떤 기기에서도 송출하고 여러 사람이 실시간으로 함께 편집·조작하는 오픈소스 예배·행사 프레젠테이션 소프트웨어(프로프리젠터 대안, 오프라인 앱 제공, 작은 교회·비영리단체용 무료 호스팅 약속, AGPL-3.0, TypeScript)
 - [Theographic Bible Metadata](https://github.com/robertrouse/theographic-bible-metadata) - 성경에 나오는 인물·장소·시대·구절을 하나의 지식 그래프로 엮어놓은 공개 데이터셋. 위도·경도가 붙은 지명과 사건별 연대 정보가 함께 들어 있어 인물 관계도·여정 지도·연대표 제작에 바로 쓸 수 있다(342 star)
+- [TheOpenPresenter](https://github.com/Vija02/TheOpenPresenter) - 브라우저만 있으면 어떤 기기에서도 송출하고 여러 사람이 실시간으로 함께 편집·조작하는 오픈소스 예배·행사 프레젠테이션 소프트웨어(프로프리젠터 대안, 오프라인 앱 제공, 작은 교회·비영리단체용 무료 호스팅 약속, AGPL-3.0, TypeScript)
 - [UniqueBible](https://github.com/eliranwong/UniqueBible) - 히브리어·헬라어 원어 자료와 주석·사전·백과사전·연대표를 통째로 내려받아 완전 오프라인으로 쓰는 크로스플랫폼 성경 연구 앱(GUI·웹서버·터미널 등 다중 실행 모드, GPL-3.0)
 - [Weblate](https://github.com/WeblateOrg/weblate) - 깃 저장소와 맞물려 여러 언어권 팀이 소식지·교재·앱 문구를 문장 단위로 나눠 번역·검토·용어집 관리하는 웹 기반 현지화 플랫폼(자체 호스팅 가능)
 - [Xiphos](https://github.com/crosswire/xiphos) - SWORD 프로젝트 모듈로 여러 역본·주석·사전을 나란히 놓고 연구하는 리눅스·유닉스·윈도우용 데스크톱 성경 공부 도구(CrossWire)
@@ -155,12 +156,13 @@ type: "post"
 - [MeTube](https://github.com/alexta69/metube) - yt-dlp를 브라우저 UI로 감싼 자체 호스팅 영상 다운로더, 채널·재생목록 구독 자동 수집 지원
 - [Ntfy](https://github.com/binwiederhier/ntfy) - HTTP 요청 한 줄로 휴대폰·데스크톱에 알림을 보내는 자체 호스팅 푸시 알림 서비스(구글·애플 알림 인프라 불필요)
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스
+- [Open WebUI](https://github.com/open-webui/open-webui) - 로컬 모델(Ollama)과 OpenAI API를 한 화면에서 쓰는 자체 호스팅 챗GPT 스타일 AI 대화 인터페이스. 문서 기반 RAG·사용자 계정 관리 내장(별 15만여 개, 파이썬)
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
 - [RomM](https://github.com/rommapp/romm) - 레트로 게임 롬 파일을 메타데이터·박스아트와 함께 정리하고 브라우저에서 바로 실행하는 자체 호스팅 롬 매니저 겸 플레이어
-- [Usertour](https://github.com/usertour/usertour) - 앱 안에 제품 투어·체크리스트·설문을 붙이는 오픈소스 사용자 온보딩 플랫폼(Appcues·Userflow 대안, Docker 자체 호스팅)
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
 - [TuneLog](https://github.com/adiiverma40/tunelog) - 별점 없이 건너뛴 곡·다시 들은 곡만으로 취향을 학습하는 자체 호스팅 음악 추천 서비스(Navidrome/Subsonic·ListenBrainz 연동)
+- [Usertour](https://github.com/usertour/usertour) - 앱 안에 제품 투어·체크리스트·설문을 붙이는 오픈소스 사용자 온보딩 플랫폼(Appcues·Userflow 대안, Docker 자체 호스팅)
 - [wacrm](https://github.com/ArnasDon/wacrm) - 공유 수신함·연락처·칸반 영업 파이프라인·단체발송·노코드 자동화를 담은 왓츠앱용 자체 호스팅 CRM 템플릿(공식 WhatsApp Business API, Node.js 어디든 배포, MIT)
 - [Wger](https://github.com/wger-project/wger) - 자동 중량 증가 규칙이 들어간 운동 루틴·Open Food Facts 기반 식단·체중·진척도 사진을 한곳에서 관리하는 자체 호스팅 운동·영양 트래커(안드로이드·iOS 앱, REST API, AGPL-3.0)
 - [WorldMonitor](https://github.com/koala73/worldmonitor) - AI 뉴스 집계·지정학 모니터링·인프라 추적을 하나의 상황인식 화면으로 묶은 실시간 글로벌 인텔리전스 대시보드
@@ -230,6 +232,7 @@ type: "post"
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - 웹을 검색·스크래핑해 LLM이 바로 쓸 수 있는 형태로 넘겨주는 대규모 컨텍스트 API
 - [GenLayer Project Boilerplate](https://github.com/genlayerlabs/genlayer-project-boilerplate) - 계약 안에서 LLM을 불러 웹 데이터를 가져오고 자연어를 해석하는 '지능형 계약' 예제 모음. 축구 경기 예측 게임이 완제품으로 들어 있어 계약이 스스로 스포츠 뉴스에서 결과를 가져와 동등성 원칙으로 검증한다(Vue.js 프런트엔드·종단간 테스트 프레임워크 포함)
 - [Git-knife](https://github.com/TheRealYT/git-knife) - 커밋 메시지·작성자·author date·committer date를 스프레드시트처럼 일괄 편집하는 데스크톱 GUI(정규식 찾기·바꾸기 지원, 원래 tree를 재사용해 파일 내용은 변경하지 않음)
+- [gpty](https://github.com/godot-pty/gpty) - 게임 엔진 고닷(Godot)과 러스트로 만든 터미널 멀티플렉서 데스크톱 앱. AI 에이전트 세션을 여러 개 띄워 두고 쓰는 용도를 겨냥(57 star, GPL-3.0)
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
@@ -238,6 +241,7 @@ type: "post"
 - [mador](https://github.com/marsbos/mador) - 80줄 프록시 상태 튜플로 아무 DOM 요소나 반응형으로 만드는 초경량 라이브러리
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
 - [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
+- [system-design-notes](https://github.com/liquidslr/system-design-notes) - 시스템 설계 면접 교재를 챕터별 그림과 함께 정리한 공개 학습 노트(별 1만 9천여 개)
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)
 - [Toast](https://github.com/paradise-runner/toast) - 설정을 손보지 않아도 기본값 그대로 쓸 만하게 만든 터미널 내장형 통합개발환경(2026년 9월 11일 Show HN 73점·댓글 86개, Go)
