@@ -97,6 +97,7 @@ type: "post"
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
+- [Bible Databases](https://github.com/scrollmapper/bible_databases) - 성경 140개 번역본과 OpenBible.info 상호참조 자료를 MySQL·SQLite·CSV·JSON·YAML·Markdown·Parquet 형식으로 정리한 공개 데이터베이스. 오늘의 말씀·읽기표·구절 검색 도구를 교단이나 상용 API에 묶이지 않고 만들 수 있다(별 1,685개, MIT)
 - [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
 - [Bible Notify](https://github.com/BibleNotify/BibleNotify) - 인터넷 없이도 매일 정해진 시각에 성경 구절 알림을 보내 주는 광고·계정 없는 안드로이드 앱. 구글 플레이·F-Droid에서 바로 받아 쓸 수 있고 장 단위 읽기도 지원(42 star, GPL-3.0)
 - [Bible Song Pro](https://github.com/Johnbatey/bible-song-pro) - OBS Studio용 무료 오픈소스 교회 프레젠테이션 시스템. 브라우저 소스 오버레이로 찬양 가사와 성경 구절을 온라인 예배 송출에 바로 얹는다
@@ -234,6 +235,7 @@ type: "post"
 - [Git-knife](https://github.com/TheRealYT/git-knife) - 커밋 메시지·작성자·author date·committer date를 스프레드시트처럼 일괄 편집하는 데스크톱 GUI(정규식 찾기·바꾸기 지원, 원래 tree를 재사용해 파일 내용은 변경하지 않음)
 - [gpty](https://github.com/godot-pty/gpty) - 게임 엔진 고닷(Godot)과 러스트로 만든 터미널 멀티플렉서 데스크톱 앱. AI 에이전트 세션을 여러 개 띄워 두고 쓰는 용도를 겨냥(57 star, GPL-3.0)
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
+- [Homebrew](https://github.com/Homebrew/brew) - 맥·리눅스에서 가장 널리 쓰이는 오픈소스 패키지 관리자. 7.0.0에서 네이티브 맥 GUI 앱(BrewUI), 내장 취약점 점검 `brew vulns`와 자체 보안 권고 DB, 리눅스 Landlock 샌드박스를 도입했다(별 4만 9천여 개, BSD-2-Clause, Ruby)
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
 - [LatticeDB](https://github.com/jeffhajewski/latticedb) - 파일 하나에 지식 그래프·벡터 검색·전문 검색을 함께 담은 임베디드 데이터베이스. Cypher 질의 하나로 의미 검색·전문 검색·그래프 탐색을 섞을 수 있고 그래프 탐색이 SQLite 대비 크게 빠르다("관계로 질의하는 데이터를 위한 SQLite")
@@ -251,6 +253,7 @@ type: "post"
 
 ### 🛡️ 보안 (Security)
 - [Bumblebee](https://github.com/perplexityai/bumblebee) - 코드를 실행하지 않고 디스크 위 패키지·MCP 설정·에디터/브라우저 확장 메타데이터만 읽어 알려진 공급망 침해 노출 여부를 대조하는 읽기 전용 스캐너(Go 단일 정적 바이너리, 의존성 0, Apache 2.0, 퍼플렉시티)
+- [Helium](https://github.com/imputnet/helium) - 텔레메트리와 구글 연동을 걷어내고 광고·추적 차단을 기본으로 켠 "비공개·빠른·정직한" 크로미엄 기반 웹 브라우저(별 2만여 개, GPL-3.0, C++)
 - [Nightcrawler](https://github.com/garagehq/nightcrawler) - 스마트폰에서 완전 로컬로 구동되는 자율 침투 테스트 에이전트(2B 로컬 모델, 클라우드 불필요, MIT)
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
@@ -274,6 +277,7 @@ type: "post"
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
 - [video-use](https://github.com/browser-use/video-use) - 코딩 에이전트로 영상을 편집하게 해주는 도구. 자연어 지시로 컷 편집·자막·합성을 처리한다(별 2만 4천여 개, MIT, Python)
+- [VoiceStudio](https://github.com/debpalash/VoiceStudio) - 음성 복제·음성 디자인·영상 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 전부 로컬에서 처리하는 오픈소스 일레븐랩스 대안(별 2만 6천여 개, AGPL-3.0, Python)
 - [Webreel](https://github.com/vercel-labs/webreel)
 - [Wrtag](https://github.com/sentriz/wrtag) - MusicBrainz와 대조해 음악 파일 태그와 폴더 구조를 자동 정리하는 빠른 CLI 겸 웹 UI(Beets·Picard 대안, 리눅스·맥·윈도우 단일 실행 파일) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 Apache 2.0 CLI(Vercel Labs)
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - 유튜브 및 수많은 스트리밍 사이트에서 동영상과 오디오를 다운로드할 수 있는 강력한 커맨드라인 도구 (youtube-dl 포크)
