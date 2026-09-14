@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 387" width="700" height="387" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 438" width="700" height="438" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
 <style>
   svg{--paper:#fffdf8;--ink:#2b2622;--soft:#5b5148;--muted:#8a7f73;
       --band:#e6ddc9;--rule:#d9d0be;--acc:#a67c33;--accd:#7d5c22}
@@ -25,58 +25,64 @@
   .link{fill:none;stroke:var(--muted);stroke-width:1.3}
   .link.dash{stroke:var(--acc);stroke-dasharray:5 4}
 </style>
-<rect class="bg" width="700" height="387"/>
-<line class="grid" x1="96.0" y1="22" x2="96.0" y2="361"/>
-<text class="tick" x="96.0" y="375" text-anchor="middle">0</text>
-<line class="grid" x1="229.2" y1="22" x2="229.2" y2="361"/>
-<text class="tick" x="229.2" y="375" text-anchor="middle">500</text>
-<line class="grid" x1="362.4" y1="22" x2="362.4" y2="361"/>
-<text class="tick" x="362.4" y="375" text-anchor="middle">1000</text>
-<line class="grid" x1="495.5" y1="22" x2="495.5" y2="361"/>
-<text class="tick" x="495.5" y="375" text-anchor="middle">1500</text>
-<line class="grid" x1="628.7" y1="22" x2="628.7" y2="361"/>
-<text class="tick" x="628.7" y="375" text-anchor="middle">2000</text>
-<text class="tick" x="88" y="375" text-anchor="end">창조 후(년)</text>
-<line class="flood" x1="537.1" y1="16" x2="537.1" y2="361"/>
-<text class="floodlbl" x="537.1" y="12" text-anchor="middle">홍수 1656</text>
-<rect class="bar" x="96.0" y="30" width="247.7" height="13" rx="3"/>
+<rect class="bg" width="700" height="438"/>
+<line class="grid" x1="96.0" y1="22" x2="96.0" y2="412"/>
+<text class="tick" x="96.0" y="426" text-anchor="middle">0</text>
+<line class="grid" x1="221.8" y1="22" x2="221.8" y2="412"/>
+<text class="tick" x="221.8" y="426" text-anchor="middle">500</text>
+<line class="grid" x1="347.6" y1="22" x2="347.6" y2="412"/>
+<text class="tick" x="347.6" y="426" text-anchor="middle">1000</text>
+<line class="grid" x1="473.4" y1="22" x2="473.4" y2="412"/>
+<text class="tick" x="473.4" y="426" text-anchor="middle">1500</text>
+<line class="grid" x1="599.2" y1="22" x2="599.2" y2="412"/>
+<text class="tick" x="599.2" y="426" text-anchor="middle">2000</text>
+<text class="tick" x="88" y="426" text-anchor="end">창조 후(년)</text>
+<line class="flood" x1="512.7" y1="16" x2="512.7" y2="412"/>
+<text class="floodlbl" x="512.7" y="12" text-anchor="middle">홍수 1656</text>
+<rect class="bar" x="96.0" y="30" width="234.0" height="13" rx="3"/>
 <text class="name" x="87" y="40" text-anchor="end">아담</text>
-<rect class="bar" x="130.6" y="47" width="242.9" height="13" rx="3"/>
+<rect class="bar" x="128.7" y="47" width="229.5" height="13" rx="3"/>
 <text class="name" x="87" y="57" text-anchor="end">셋</text>
-<rect class="bar" x="158.6" y="64" width="241.1" height="13" rx="3"/>
+<rect class="bar" x="155.1" y="64" width="227.7" height="13" rx="3"/>
 <text class="name" x="87" y="74" text-anchor="end">에노스</text>
-<rect class="bar" x="182.6" y="81" width="242.4" height="13" rx="3"/>
+<rect class="bar" x="177.8" y="81" width="229.0" height="13" rx="3"/>
 <text class="name" x="87" y="91" text-anchor="end">게난</text>
-<rect class="bar" x="201.2" y="98" width="238.4" height="13" rx="3"/>
+<rect class="bar" x="195.4" y="98" width="225.2" height="13" rx="3"/>
 <text class="name" x="87" y="108" text-anchor="end">마할랄렐</text>
-<rect class="bar" x="218.5" y="115" width="256.2" height="13" rx="3"/>
+<rect class="bar" x="211.7" y="115" width="242.1" height="13" rx="3"/>
 <text class="name" x="87" y="125" text-anchor="end">야렛</text>
-<rect class="bar" x="261.7" y="132" width="97.2" height="13" rx="3"/>
+<rect class="bar" x="252.5" y="132" width="91.8" height="13" rx="3"/>
 <text class="name" x="87" y="142" text-anchor="end">에녹</text>
-<rect class="bar" x="279.0" y="149" width="258.1" height="13" rx="3"/>
+<rect class="bar" x="268.9" y="149" width="243.8" height="13" rx="3"/>
 <text class="name" x="87" y="159" text-anchor="end">므두셀라</text>
-<rect class="bar" x="328.8" y="166" width="207.0" height="13" rx="3"/>
+<rect class="bar" x="315.9" y="166" width="195.5" height="13" rx="3"/>
 <text class="name" x="87" y="176" text-anchor="end">라멕</text>
-<rect class="bar on" x="377.3" y="183" width="253.0" height="13" rx="3"/>
+<rect class="bar on" x="361.7" y="183" width="239.0" height="13" rx="3"/>
 <text class="name on" x="87" y="193" text-anchor="end">노아</text>
-<text class="span in" x="625.3" y="193" text-anchor="end">1056–2006</text>
-<rect class="bar" x="510.5" y="200" width="159.8" height="13" rx="3"/>
+<text class="span" x="605.8" y="193">1056–2006</text>
+<rect class="bar" x="487.5" y="200" width="151.0" height="13" rx="3"/>
 <text class="name" x="87" y="210" text-anchor="end">셈</text>
-<rect class="bar" x="537.1" y="217" width="116.7" height="13" rx="3"/>
+<rect class="bar" x="512.7" y="217" width="110.2" height="13" rx="3"/>
 <text class="name" x="87" y="227" text-anchor="end">아르박삿</text>
-<rect class="bar" x="546.4" y="234" width="115.3" height="13" rx="3"/>
+<rect class="bar" x="521.5" y="234" width="109.0" height="13" rx="3"/>
 <text class="name" x="87" y="244" text-anchor="end">셀라</text>
-<rect class="bar" x="554.4" y="251" width="123.6" height="13" rx="3"/>
+<rect class="bar" x="529.0" y="251" width="116.8" height="13" rx="3"/>
 <text class="name" x="87" y="261" text-anchor="end">에벨</text>
-<rect class="bar" x="563.5" y="268" width="63.7" height="13" rx="3"/>
+<rect class="bar" x="537.6" y="268" width="60.1" height="13" rx="3"/>
 <text class="name" x="87" y="278" text-anchor="end">벨렉</text>
-<rect class="bar" x="571.5" y="285" width="63.7" height="13" rx="3"/>
+<rect class="bar" x="545.1" y="285" width="60.1" height="13" rx="3"/>
 <text class="name" x="87" y="295" text-anchor="end">르우</text>
-<rect class="bar" x="580.0" y="302" width="61.3" height="13" rx="3"/>
+<rect class="bar" x="553.2" y="302" width="57.9" height="13" rx="3"/>
 <text class="name" x="87" y="312" text-anchor="end">스룩</text>
-<rect class="bar" x="588.0" y="319" width="39.4" height="13" rx="3"/>
+<rect class="bar" x="560.7" y="319" width="37.2" height="13" rx="3"/>
 <text class="name" x="87" y="329" text-anchor="end">나홀</text>
-<rect class="bar" x="595.7" y="336" width="54.6" height="13" rx="3"/>
+<rect class="bar" x="568.0" y="336" width="51.6" height="13" rx="3"/>
 <text class="name" x="87" y="346" text-anchor="end">데라</text>
+<rect class="bar" x="600.8" y="353" width="44.0" height="13" rx="3"/>
+<text class="name" x="87" y="363" text-anchor="end">아브라함</text>
+<rect class="bar" x="625.9" y="370" width="45.3" height="13" rx="3"/>
+<text class="name" x="87" y="380" text-anchor="end">이삭</text>
+<rect class="bar" x="641.0" y="387" width="37.0" height="13" rx="3"/>
+<text class="name" x="87" y="397" text-anchor="end">야곱</text>
 <text class="note" x="96" y="12">노아의 육백 세에 홍수가 온다</text>
 </svg>
