@@ -178,8 +178,10 @@ type: "post"
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [ezbookkeeping](https://github.com/mayswind/ezbookkeeping) - 도커 한 번으로 올리는 가벼운 자체 호스팅 가계부. 다중 통화·다중 계정·지출 분류·차트·2단계 인증을 지원하고 모바일 브라우저에서도 앱처럼 쓸 수 있다
 - [Firefly III](https://github.com/firefly-iii/firefly-iii) - 계좌·예산·청구서·저축 목표를 한곳에서 관리하고 규칙 기반으로 거래를 자동 분류하는 자체 호스팅 개인·가정용 가계부(공개 데모 제공, 별 2만 4천여 개, AGPL-3.0)
+- [Ghostfolio](https://github.com/ghostfolio/ghostfolio) - 주식·ETF·예금 등 여러 계좌에 흩어진 자산을 한 화면에 모아 배분 비율·수익률·수수료를 보여 주는 자체 호스팅 오픈소스 자산 관리 도구(다중 통화, 별 9천여 개, AGPL-3.0, TypeScript)
 - [hister](https://github.com/asciimoo/hister) - 내가 방문한 웹페이지의 본문까지 저장해 전문 검색할 수 있게 해 주는 개인용 검색 엔진. 제목·주소만 남는 브라우저 방문 기록과 달리 내용으로 되찾을 수 있다(약 3,340 star, Go)
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
+- [Kadō](https://github.com/scastiel/kado) - 계정·구독·텔레메트리 없이 기기에 저장하는 아이폰·아이패드용 습관 추적 앱. 지수이동평균 점수를 써서 하루 빠뜨려도 기록이 초기화되지 않는다(별 166개, MIT, Swift)
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
@@ -189,6 +191,7 @@ type: "post"
 - [omni-tools](https://github.com/iib0011/omni-tools) - 이미지·PDF·텍스트 변환 등 일상 작업용 웹 도구를 모은 자체 호스팅 모음집
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
+- [Plane](https://github.com/makeplane/plane) - 지라·리니어·먼데이·클릭업을 대체하는 자체 호스팅 오픈소스 프로젝트 관리 플랫폼(이슈·스프린트·칸반·문서·트리아지, 별 5만 9천여 개, AGPL-3.0, TypeScript)
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
 - [SiYuan](https://github.com/siyuan-note/siyuan) - 노트를 블록 단위로 잘게 쪼개 서로 연결하는 프라이버시 우선 오픈소스 지식 워크스페이스. 데이터가 전부 로컬 마크다운으로 남고 윈도우·맥·리눅스·안드로이드·iOS 지원, 도커 자체 호스팅과 WebDAV·S3 동기화 가능(AGPL-3.0)
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
@@ -242,6 +245,7 @@ type: "post"
 - [LuaCAD](https://github.com/ad-si/LuaCAD) - Lua 스크립트로 파라메트릭 2D·3D CAD 모델을 작성해 3MF·STL·OBJ 등으로 내보내는 도구(Rust 엔진에 Lua 5.4 임베드, CLI·데스크톱 앱·WASM 플레이그라운드, BOSL2 완전 지원)
 - [mador](https://github.com/marsbos/mador) - 80줄 프록시 상태 튜플로 아무 DOM 요소나 반응형으로 만드는 초경량 라이브러리
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
+- [Pascal Editor](https://github.com/pascalorg/editor) - 로컬 CLI와 MCP 도구를 갖춰 사람과 AI 에이전트가 같은 도면을 함께 편집하는 오픈소스 3D 건축 편집기(평면도·파라메트릭 설계·BIM, 별 2만 3천여 개, MIT, TypeScript)
 - [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) - 시스템 설계 면접 교재를 챕터별 그림과 함께 정리한 공개 학습 노트(별 1만 9천여 개)
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
