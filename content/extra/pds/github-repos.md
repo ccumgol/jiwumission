@@ -128,6 +128,7 @@ type: "post"
 - [Holy Bible XML Format](https://github.com/Beblia/Holy-Bible-XML-Format) - 200개 이상 언어·1,000개 이상 역본의 성경 본문을 통일된 XML 포맷으로 공개한 무료 성경 데이터 저장소(다국어 사역 자료 제작에 유용)
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
 - [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
+- [Liberapay](https://github.com/liberapay/liberapay.com) - 주·월·연 단위 정기 후원을 자동으로 받고 후원 내역과 목표 금액을 공개 페이지에 투명하게 보여주는 비영리 오픈소스 후원 플랫폼. 플랫폼 수수료가 없고 직접 설치해 운영할 수도 있다(별 2,011개, Python)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
 - [MauCariApa Church Starter](https://github.com/MauCariApa-com/maucariapacom-church-starter) - Astro 기반 교회 홈페이지 스타터 템플릿. 정적 사이트 생성 방식이라 빠르고 SEO 설정·Tailwind CSS 디자인·마크다운 콘텐츠 구조가 이미 잡혀 있어 개발자 없는 작은 교회도 무료 호스팅에 바로 올릴 수 있다
@@ -245,6 +246,7 @@ type: "post"
 - [LuaCAD](https://github.com/ad-si/LuaCAD) - Lua 스크립트로 파라메트릭 2D·3D CAD 모델을 작성해 3MF·STL·OBJ 등으로 내보내는 도구(Rust 엔진에 Lua 5.4 임베드, CLI·데스크톱 앱·WASM 플레이그라운드, BOSL2 완전 지원)
 - [mador](https://github.com/marsbos/mador) - 80줄 프록시 상태 튜플로 아무 DOM 요소나 반응형으로 만드는 초경량 라이브러리
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
+- [Open Code Review](https://github.com/alibaba/open-code-review) - 규칙 기반 파이프라인과 LLM 에이전트를 함께 돌려 코드 줄 단위로 지적해주는 알리바바의 사내용 코드 리뷰 도구(별 2만 8천여 개, Apache-2.0, Go)
 - [Pascal Editor](https://github.com/pascalorg/editor) - 로컬 CLI와 MCP 도구를 갖춰 사람과 AI 에이전트가 같은 도면을 함께 편집하는 오픈소스 3D 건축 편집기(평면도·파라메트릭 설계·BIM, 별 2만 3천여 개, MIT, TypeScript)
 - [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) - 시스템 설계 면접 교재를 챕터별 그림과 함께 정리한 공개 학습 노트(별 1만 9천여 개)
@@ -272,6 +274,7 @@ type: "post"
 - [Audacity](https://github.com/audacity/audacity) - 20년 넘게 이어진 무료 오픈소스 오디오 편집기. 2026년 9월 4.0 정식 버전을 내며 해커뉴스 최상단에 올랐고, 팟캐스트·설교 녹음·유튜브 내레이션 다듬기에 여전히 가장 실용적인 선택(1만 8천 star, C++)
 - [Cap](https://github.com/CapSoftware/Cap) - 화면·카메라·마이크를 한 번에 담아 로컬 저장하거나 자체 스토리지로 공유하는 오픈소스 Loom 대체 화면 녹화 도구(맥·윈도우, 2만 1천 star, Rust)
 - [hyperframes](https://github.com/heygen-com/hyperframes) - HTML로 화면을 작성하면 그대로 완성된 영상으로 렌더링해주는 에이전트용 영상 제작 프레임워크(별 4만 7천여 개, TypeScript, Apache-2.0, GSAP·Puppeteer·ffmpeg 기반)
+- [img2threejs](https://github.com/img2threejs/img2threejs) - 사진 한 장 속 물체를 메시 파일 대신 절차적 Three.js 코드로 복원해 용량이 작고 애니메이션을 붙이기 쉬운 3D 모델로 만들어주는 도구(별 1만 6천여 개, Apache-2.0, Python)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
@@ -290,4 +293,5 @@ type: "post"
 
 - [Amadeus Protocol node](https://github.com/amadeusprotocol/node) - Elixir로 작성된 아마데우스 네트워크의 원본 노드 구현체. WASM 스마트 컨트랙트 배포와 로컬 테스트넷 실행을 지원하는 초기 단계 실험적 연구 프로젝트
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x) - 데이터베이스, 봇, 프로그래밍 언어 등 다양한 기술을 밑바닥부터 직접 만들어보는 튜토리얼 모음집 (GitHub 최상위 인기 리포지터리)
+- [Fugleramme](https://github.com/arnegiacomo/fugleramme) - 마이크로 들리는 새소리를 기기 안에서 판별해 그 새를 1800년대 조류 도감 그림으로 전자잉크 액자에 띄워주는 라즈베리파이 프로젝트(별 1,467개, MIT, Python)
 - [human-atlas](https://github.com/ashemag/human-atlas) - 2,234개 부위를 골라 볼 수 있는 오픈소스 3D 인체 해부학 탐색기
