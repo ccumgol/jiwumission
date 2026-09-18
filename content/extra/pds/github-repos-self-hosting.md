@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -32,6 +32,7 @@ _build:
 - [Open WebUI](https://github.com/open-webui/open-webui) - 로컬 모델(Ollama)과 OpenAI API를 한 화면에서 쓰는 자체 호스팅 챗GPT 스타일 AI 대화 인터페이스. 문서 기반 RAG·사용자 계정 관리 내장(별 15만여 개, 파이썬)
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
+- [ResolveHQ](https://github.com/mirza-rizvi/ResolveHQ) - 클라우드플레어 워커스(D1·R2·큐·이메일 라우팅) 위에 올리는 자체 호스팅 헬프데스크. 공용 수신함과 이메일 스레드 묶기, AI 보조 답변을 지원한다.
 - [RomM](https://github.com/rommapp/romm) - 레트로 게임 롬 파일을 메타데이터·박스아트와 함께 정리하고 브라우저에서 바로 실행하는 자체 호스팅 롬 매니저 겸 플레이어
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
 - [TuneLog](https://github.com/adiiverma40/tunelog) - 별점 없이 건너뛴 곡·다시 들은 곡만으로 취향을 학습하는 자체 호스팅 음악 추천 서비스(Navidrome/Subsonic·ListenBrainz 연동)

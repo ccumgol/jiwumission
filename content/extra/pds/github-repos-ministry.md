@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 53개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 53개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 54개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 54개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -60,6 +60,7 @@ _build:
 - [MauCariApa Church Starter](https://github.com/MauCariApa-com/maucariapacom-church-starter) - Astro 기반 교회 홈페이지 스타터 템플릿. 정적 사이트 생성 방식이라 빠르고 SEO 설정·Tailwind CSS 디자인·마크다운 콘텐츠 구조가 이미 잡혀 있어 개발자 없는 작은 교회도 무료 호스팅에 바로 올릴 수 있다
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
+- [open-bibles](https://github.com/seven1m/open-bibles) - 퍼블릭 도메인이거나 자유 라이선스인 성경 번역본을 OSIS·Zefania·USFX 표준 XML 형식으로 모아 둔 저장소.
 - [OpenBeam](https://github.com/tensorkithq/openbeam) - 설교 중 낭독되는 성경 구절을 실시간 음성 인식으로 찾아 송출 화면에 자동으로 띄워 주는 데스크톱 앱(90 star, TypeScript)
 - [Oppia](https://github.com/oppia/oppia) - 학생이 틀리면 그 자리에서 되짚어 주는 대화형 레슨을 누구나 만들어 배포하는 비영리 무료 온라인 학습 플랫폼(오프라인 안드로이드 앱 제공, Apache-2.0)
 - [Praisenter](https://github.com/praisenter/praisenter) - 성경 구절·찬양 가사·공지 슬라이드를 프로젝터나 보조 화면으로 송출하는 무료 오픈소스 교회 프레젠테이션 프로그램(다중 화면·이중언어 병행 표시·워크스페이스 분리, Java/JavaFX, BSD-3-Clause)
