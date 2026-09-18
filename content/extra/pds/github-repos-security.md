@@ -8,12 +8,9 @@ categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
 comments: false
-_build:
-  list: never
-  render: always
 ---
 
-[← 추천 GitHub 리포 전체 목록](../github-repos/)
+[← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
 보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **11개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 

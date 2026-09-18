@@ -14,12 +14,12 @@ type: "post"
 
 ## 분류
 
-- **[🤖 인공지능 및 에이전트 (AI & Agents)](github-repos-ai-agents/)** — 82개 · 코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구
-- **[⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)](github-repos-ministry/)** — 54개 · 교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정
-- **[🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)](github-repos-self-hosting/)** — 22개 · 직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구
-- **[📅 생산성 및 노트 (Productivity & Notes)](github-repos-productivity/)** — 29개 · 노트·할 일·일정·가계부 등 개인 생산성 도구
-- **[🛠️ 시스템 및 유틸리티 (System & Utilities)](github-repos-system/)** — 17개 · 운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티
-- **[💻 개발 도구 및 가상화 (Dev Tools & Virtualization)](github-repos-dev-tools/)** — 35개 · 에디터·CI·컨테이너·가상화 등 개발자용 도구
-- **[🛡️ 보안 (Security)](github-repos-security/)** — 12개 · 보안 점검, 프라이버시 보호, 취약점 분석 도구
-- **[🎬 멀티미디어 및 창작 (Multimedia & Creation)](github-repos-multimedia/)** — 17개 · 영상·오디오·이미지 제작과 편집, 창작용 도구
-- **[📦 기타 / 미분류 (Uncategorized)](github-repos-misc/)** — 4개 · 위 분류에 들어가지 않는 프로젝트
+- **[🤖 인공지능 및 에이전트 (AI & Agents)](/extra/pds/github-repos-ai-agents/)** — 82개 · 코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구
+- **[⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)](/extra/pds/github-repos-ministry/)** — 54개 · 교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정
+- **[🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)](/extra/pds/github-repos-self-hosting/)** — 22개 · 직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구
+- **[📅 생산성 및 노트 (Productivity & Notes)](/extra/pds/github-repos-productivity/)** — 29개 · 노트·할 일·일정·가계부 등 개인 생산성 도구
+- **[🛠️ 시스템 및 유틸리티 (System & Utilities)](/extra/pds/github-repos-system/)** — 17개 · 운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티
+- **[💻 개발 도구 및 가상화 (Dev Tools & Virtualization)](/extra/pds/github-repos-dev-tools/)** — 35개 · 에디터·CI·컨테이너·가상화 등 개발자용 도구
+- **[🛡️ 보안 (Security)](/extra/pds/github-repos-security/)** — 12개 · 보안 점검, 프라이버시 보호, 취약점 분석 도구
+- **[🎬 멀티미디어 및 창작 (Multimedia & Creation)](/extra/pds/github-repos-multimedia/)** — 17개 · 영상·오디오·이미지 제작과 편집, 창작용 도구
+- **[📦 기타 / 미분류 (Uncategorized)](/extra/pds/github-repos-misc/)** — 4개 · 위 분류에 들어가지 않는 프로젝트

@@ -8,12 +8,9 @@ categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
 comments: false
-_build:
-  list: never
-  render: always
 ---
 
-[← 추천 GitHub 리포 전체 목록](../github-repos/)
+[← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
 교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **53개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 

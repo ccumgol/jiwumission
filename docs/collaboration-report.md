@@ -290,6 +290,7 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 | 날짜 | 갱신자 | 내용 |
 |---|---|---|
+| 2026-09-18 | Claude (**Agent-C**) | **자료실 '추천 GitHub 리포' 분류 9개 404 해결 + 자료실 등록.** 원인 둘 — ① 허브의 분류 링크가 **상대경로**(`github-repos-ai-agents/`)였는데 이 사이트는 `<base href>` 가 **그 페이지 자신**을 가리켜 `/extra/pds/github-repos/github-repos-ai-agents/` 로 해석돼 404(실제 페이지는 `/extra/pds/github-repos-ai-agents/` 에 200으로 존재) ② frontmatter 의 `_build:` 는 **Hugo 0.145 에서 제거된 키**라 로컬 0.164 에서 `pnpm run build` 가 ERROR 로 실패했고(CI 0.158 은 경고만) `list: never` 로 자료실 목록에도 안 떴음. 조치 — `_build` 블록 제거(기본값과 동일), 허브·본문 링크를 모두 절대경로로. 검증 — 빌드 종료코드 0·ERROR 0건, 분류 9개 전부 HTTP 200, 자료실 목록에 9개+허브 노출 |
 | 2026-09-04 | Claude (**Agent-C**) | **`CLAUDE.md`·`AGENTS.md` 신설** — 규칙을 이 문서에서 떼어내 자동으로 읽히는 곳으로 옮김. 특히 **23:30 자동 커밋 함정**은 매번 자동으로 읽히는 편이 안전하다(이 문서를 안 열고 작업을 시작하면 놓친다). `AGENTS.md` 는 `CLAUDE.md` 를 가리키는 심볼릭 링크 |
 | 2026-09-04 | Claude (**Agent-C**) | **협업 문서 신설.** sermon-presentation 의 `collaboration-report.md` 틀을 이식하고 2장 이하를 이 프로젝트로 다시 씀. 저장소 실측으로 확인한 것: ① `auto_push.sh` 가 `git add -A` 로 **미완성 작업까지 매일 23:30 배포**한다는 함정(0.3) ② robots.txt 가 **저장소에 없고** Cloudflare 관리형이라는 것(4.1) ③ **Hugo 판이 로컬 0.164.0 / CI 0.158.0 으로 어긋난** 것(4.3) ④ `image-optim` 브랜치가 `main` 대비 앞선 커밋 0건인 잔여 브랜치라는 것 ⑤ **README·manual 이 가리키는 `config/_default/hugo.toml` 이 실재하지 않고** 운영 설정은 저장소 뿌리의 `hugo.toml` 이라는 것. 4.1 은 [감사보고서_20260904.md](감사보고서_20260904.md) 를 보드로 옮긴 것이며 **코드는 아무것도 고치지 않았다** |
 
