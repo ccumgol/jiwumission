@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 82개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 82개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 84개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 84개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **82개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **84개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -26,6 +26,7 @@ comments: false
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0·ATLAS·D3FEND 등 6개 프레임워크에 매핑한 모음집(29개 보안 도메인, agentskills.io 표준, Apache 2.0)
 - [archify](https://github.com/tt-a1i/archify) - 코딩 에이전트가 아키텍처·워크플로·시퀀스·데이터 흐름 다이어그램을 자체 완결형 HTML로 그려 주는 에이전트 스킬(모션·고해상도 내보내기 지원, MIT)
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
+- [BrowserSkill](https://github.com/Tencent/BrowserSkill) - AI 에이전트가 사용자가 로그인해 둔 실제 브라우저를 그대로 조작하게 해 주는 CLI와 확장 프로그램
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
@@ -66,6 +67,7 @@ comments: false
 - [oMLX](https://github.com/jundot/omlx) - KV 캐시를 메모리(핫)와 SSD(콜드) 두 계층에 유지해 컨텍스트가 바뀌어도 지난 맥락을 재사용하는 애플 실리콘용 로컬 LLM 추론 서버(맥 메뉴 막대 관리, LLM·VLM·OCR·임베딩·리랭커 지원)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 290여 공급자·500여 모델을 단일 OpenAI 호환 엔드포인트로 묶는 MIT AI 게이트웨이(쿼터 인식 자동 폴백·토큰 압축)
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
+- [opencode](https://github.com/anomalyco/opencode) - 터미널에서 돌아가는 오픈소스 코딩 에이전트로 로컬 모델 서버와 붙여 쓸 수 있다
 - [OpenHuman](https://github.com/tinyhumansai/openhuman) - 내 삶의 기록을 로컬에 쌓아 두고 에이전트 여러 대를 지휘하며 심층 리서치까지 수행하는 맥·윈도우·리눅스용 오픈소스 개인 AI(러스트, GPL-3.0)
 - [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) - 여러 AI 에이전트가 교사·조교·동료 학습자 역할을 나눠 맡아 몰입형 수업을 만들어 주는 오픈 멀티에이전트 인터랙티브 교실(칭화대 MAIC, MIT)
 - [OpenViking](https://github.com/volcengine/OpenViking) - 에이전트 메모리·지식 RAG·스킬을 한 저장소로 묶어 스스로 갱신되는 AI 에이전트용 자기진화형 컨텍스트 데이터베이스(바이트댄스 볼케이노 엔진)

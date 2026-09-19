@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **29개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **30개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -28,6 +28,7 @@ comments: false
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [Kadō](https://github.com/scastiel/kado) - 계정·구독·텔레메트리 없이 기기에 저장하는 아이폰·아이패드용 습관 추적 앱. 지수이동평균 점수를 써서 하루 빠뜨려도 기록이 초기화되지 않는다(별 166개, MIT, Swift)
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
+- [Mealie](https://github.com/mealie-recipes/mealie) - 레시피 URL만 넣으면 재료와 조리법을 자동 정리해 주는 자체 호스팅형 레시피 관리·식단 계획 도구
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
 - [Midday](https://github.com/midday-ai/midday) - 인보이스·시간 추적·은행 거래 자동 대사·문서 보관·AI 어시스턴트를 한데 묶은 1인 사업자·프리랜서용 오픈소스 비즈니스 워크스페이스(AGPL-3.0, 자체 호스팅 가능)
