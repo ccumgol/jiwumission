@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **22개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **23개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -23,6 +23,7 @@ comments: false
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
 - [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
+- [LibreChat](https://github.com/danny-avila/LibreChat) - OpenAI·앤트로픽·구글·로컬 모델을 한 화면에서 바꿔가며 쓰는 자체 호스팅 챗GPT 대안. 다중 사용자 인증·에이전트·MCP·코드 인터프리터를 갖춰 팀이나 교회 단위로 직접 운영하기 좋다(별 4만 4천 개, MIT)
 - [MeTube](https://github.com/alexta69/metube) - yt-dlp를 브라우저 UI로 감싼 자체 호스팅 영상 다운로더, 채널·재생목록 구독 자동 수집 지원
 - [Ntfy](https://github.com/binwiederhier/ntfy) - HTTP 요청 한 줄로 휴대폰·데스크톱에 알림을 보내는 자체 호스팅 푸시 알림 서비스(구글·애플 알림 인프라 불필요)
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스

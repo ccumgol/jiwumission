@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **84개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **86개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -36,6 +36,7 @@ comments: false
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - 코드베이스를 영속적 지식 그래프로 색인해 AI 코딩 에이전트에게 지도를 제공하는 고성능 MCP 서버(158개 언어, 1ms 미만 질의)
 - [Codex Plugin CC](https://github.com/openai/codex-plugin-cc) - Claude Code에서 OpenAI Codex를 불러 코드 리뷰·작업 위임을 하게 해주는 플러그인
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
+- [cua](https://github.com/trycua/cua) - 여러 OS의 가상머신 플릿과 오픈소스 드라이버·벤치마크를 묶어 컴퓨터를 직접 조작하는 AI 에이전트의 학습·평가·데이터 생성을 대규모로 돌리는 플랫폼(별 2만 4천 개, MIT)
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Node.js 설치나 터미널 명령 없이 DeepSeek Harness를 쓸 수 있게 감싼 macOS·윈도우용 Electron 데스크톱 앱(트레이 상주·모바일 원격 접속·플러그인 지원, MIT)
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
@@ -74,6 +75,7 @@ comments: false
 - [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
 - [Pi](https://github.com/earendil-works/pi) - 통합 LLM API·에이전트 루프·터미널 UI·코딩 에이전트 CLI를 한 패키지로 묶은 AI 에이전트 툴킷(대화형·JSON·RPC·SDK 4가지 모드)
+- [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) - 오래 걸리는 작업을 맡긴 AI 에이전트들의 진행 상황과 결과를 메일함처럼 한곳에서 확인하고 응답하는 로컬 우선 인박스(DeepAgents·LangGraph 기반, Apache-2.0)
 - [ponytail](https://github.com/DietrichGebert/ponytail) - 코딩 에이전트가 "가장 게으른 시니어 개발자"처럼 판단하게 만들어 불필요한 코드를 새로 쓰지 않게 막는 스킬(약 12만 3천 star, MIT, JavaScript)
 - [Postiz-app](https://github.com/gitroomhq/postiz-app) - 여러 SNS 채널의 게시물 예약을 한 곳에서 관리하는 오픈소스 소셜 미디어 스케줄링 도구
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - 파이썬 REPL을 상시 실행 환경 삼아 컨텍스트를 변수처럼 다루고(RLM) 메모리·스킬을 지속 축적해 스스로 개선하는 오픈소스 코딩·리서치 에이전트(MIT, 데몬 실행 지원)
