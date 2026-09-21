@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 84개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 84개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 86개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 86개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **86개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **88개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -61,6 +61,7 @@ comments: false
 - [Mole](https://github.com/lajosdeme/mole) - 예산 상한을 원장으로 강제하고 모든 주장을 출처 원문과 대조해 검증하는 터미널용 딥리서치 에이전트(Go, MCP 지원, 로컬 데이터 프라이버시 경계, Apache-2.0)
 - [Munder Difflin](https://github.com/chaitanyagiri/munder-difflin) - 이미 쓰는 터미널 에이전트 CLI 10여 종을 2D 사무실 화면 위 한 팀으로 묶어 각자 장기 기억·메일함을 갖고 일을 주고받게 하는 로컬 멀티에이전트 하니스
 - [Nanochat](https://github.com/karpathy/nanochat) - 약 100달러 예산으로 처음부터 끝까지 돌려보는 최소·풀스택 ChatGPT 학습·추론 파이프라인 코드베이스 (Andrej Karpathy)
+- [needle](https://github.com/cactus-compute/needle) - 휴대폰·웨어러블·스마트홈·로봇·마이크로컨트롤러 같은 초소형 기기에서 도구 호출과 구조화 추출, 임베딩을 수행하는 8~29MB 크기의 2비트 자동화 파운데이션 모델(별 1만 1,899개, Apache-2.0)
 - [Nobuzz (Claudette)](https://github.com/adnanakil/nobuzz) - 클로드의 마지막 답변을 Gemini CLI에 통과시켜 클릭베이트 말투를 평범한 문장으로 바꿔주는 Claude Code 스킬(`/debuzz`)
 - [NPC-Forge](https://github.com/gioblu/NPC-Forge) - 머신러닝이나 대규모 언어모델 없이 CPU만으로 돌아가는 규칙 기반 대화형 에이전트 제작 프레임워크. 게임 NPC나 터미널 비서를 GPU 없이 만들 수 있다(199 star, AGPL-3.0, Python)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
@@ -74,6 +75,7 @@ comments: false
 - [OpenViking](https://github.com/volcengine/OpenViking) - 에이전트 메모리·지식 RAG·스킬을 한 저장소로 묶어 스스로 갱신되는 AI 에이전트용 자기진화형 컨텍스트 데이터베이스(바이트댄스 볼케이노 엔진)
 - [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
+- [Ordewell](https://github.com/ordewell/ordewell) - 목표 하나를 순서가 있는 작업 계획으로 쪼개고 작업마다 실행기·모델·모드를 따로 지정해 실행한 뒤 결과까지 검증하는 코딩 에이전트용 다중 작업 오케스트레이션 도구(별 132개, Apache-2.0)
 - [Pi](https://github.com/earendil-works/pi) - 통합 LLM API·에이전트 루프·터미널 UI·코딩 에이전트 CLI를 한 패키지로 묶은 AI 에이전트 툴킷(대화형·JSON·RPC·SDK 4가지 모드)
 - [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) - 오래 걸리는 작업을 맡긴 AI 에이전트들의 진행 상황과 결과를 메일함처럼 한곳에서 확인하고 응답하는 로컬 우선 인박스(DeepAgents·LangGraph 기반, Apache-2.0)
 - [ponytail](https://github.com/DietrichGebert/ponytail) - 코딩 에이전트가 "가장 게으른 시니어 개발자"처럼 판단하게 만들어 불필요한 코드를 새로 쓰지 않게 막는 스킬(약 12만 3천 star, MIT, JavaScript)
