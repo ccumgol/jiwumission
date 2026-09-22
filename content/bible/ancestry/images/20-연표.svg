@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 438" width="700" height="438" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<style>
+  svg{--paper:#fffdf8;--ink:#2b2622;--soft:#5b5148;--muted:#8a7f73;
+      --band:#e6ddc9;--rule:#d9d0be;--acc:#a67c33;--accd:#7d5c22}
+  @media (prefers-color-scheme:dark){
+    svg{--paper:#221d17;--ink:#ece5d8;--soft:#c4baa9;--muted:#9b9080;
+        --band:#3a3226;--rule:#4a4136;--acc:#c9a54c;--accd:#e0bd6a}
+  }
+  .bg{fill:var(--paper)}
+  .grid{stroke:var(--rule);stroke-width:1}
+  .tick{font-size:10px;fill:var(--muted)}
+  .flood{stroke:var(--accd);stroke-width:1.6;stroke-dasharray:4 3}
+  .floodlbl{font-size:10.5px;fill:var(--accd);font-weight:700}
+  .bar{fill:var(--band);stroke:var(--rule);stroke-width:1}
+  .bar.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.4}
+  .name{font-size:11.5px;fill:var(--soft);font-weight:500}
+  .name.on{fill:var(--ink);font-weight:700}
+  .span{font-size:10px;fill:var(--accd)}
+  .span.in{fill:var(--paper);font-weight:700}
+  .note{font-size:10.5px;fill:var(--muted)}
+  .box{fill:var(--band);stroke:var(--rule);stroke-width:1.1}
+  .box.on{fill:var(--acc);stroke:var(--accd);stroke-width:1.8}
+  .lbl{font-size:12.5px;fill:var(--ink);font-weight:500;text-anchor:middle}
+  .lbl.on{fill:var(--paper);font-weight:700}
+  .link{fill:none;stroke:var(--muted);stroke-width:1.3}
+  .link.dash{stroke:var(--acc);stroke-dasharray:5 4}
+</style>
+<rect class="bg" width="700" height="438"/>
+<line class="grid" x1="96.0" y1="22" x2="96.0" y2="412"/>
+<text class="tick" x="96.0" y="426" text-anchor="middle">0</text>
+<line class="grid" x1="221.8" y1="22" x2="221.8" y2="412"/>
+<text class="tick" x="221.8" y="426" text-anchor="middle">500</text>
+<line class="grid" x1="347.6" y1="22" x2="347.6" y2="412"/>
+<text class="tick" x="347.6" y="426" text-anchor="middle">1000</text>
+<line class="grid" x1="473.4" y1="22" x2="473.4" y2="412"/>
+<text class="tick" x="473.4" y="426" text-anchor="middle">1500</text>
+<line class="grid" x1="599.2" y1="22" x2="599.2" y2="412"/>
+<text class="tick" x="599.2" y="426" text-anchor="middle">2000</text>
+<text class="tick" x="88" y="426" text-anchor="end">창조 후(년)</text>
+<line class="flood" x1="512.7" y1="16" x2="512.7" y2="412"/>
+<text class="floodlbl" x="512.7" y="12" text-anchor="middle">홍수 1656</text>
+<rect class="bar" x="96.0" y="30" width="234.0" height="13" rx="3"/>
+<text class="name" x="87" y="40" text-anchor="end">아담</text>
+<rect class="bar" x="128.7" y="47" width="229.5" height="13" rx="3"/>
+<text class="name" x="87" y="57" text-anchor="end">셋</text>
+<rect class="bar" x="155.1" y="64" width="227.7" height="13" rx="3"/>
+<text class="name" x="87" y="74" text-anchor="end">에노스</text>
+<rect class="bar" x="177.8" y="81" width="229.0" height="13" rx="3"/>
+<text class="name" x="87" y="91" text-anchor="end">게난</text>
+<rect class="bar" x="195.4" y="98" width="225.2" height="13" rx="3"/>
+<text class="name" x="87" y="108" text-anchor="end">마할랄렐</text>
+<rect class="bar" x="211.7" y="115" width="242.1" height="13" rx="3"/>
+<text class="name" x="87" y="125" text-anchor="end">야렛</text>
+<rect class="bar" x="252.5" y="132" width="91.8" height="13" rx="3"/>
+<text class="name" x="87" y="142" text-anchor="end">에녹</text>
+<rect class="bar" x="268.9" y="149" width="243.8" height="13" rx="3"/>
+<text class="name" x="87" y="159" text-anchor="end">므두셀라</text>
+<rect class="bar" x="315.9" y="166" width="195.5" height="13" rx="3"/>
+<text class="name" x="87" y="176" text-anchor="end">라멕</text>
+<rect class="bar" x="361.7" y="183" width="239.0" height="13" rx="3"/>
+<text class="name" x="87" y="193" text-anchor="end">노아</text>
+<rect class="bar" x="487.5" y="200" width="151.0" height="13" rx="3"/>
+<text class="name" x="87" y="210" text-anchor="end">셈</text>
+<rect class="bar" x="512.7" y="217" width="110.2" height="13" rx="3"/>
+<text class="name" x="87" y="227" text-anchor="end">아르박삿</text>
+<rect class="bar" x="521.5" y="234" width="109.0" height="13" rx="3"/>
+<text class="name" x="87" y="244" text-anchor="end">셀라</text>
+<rect class="bar" x="529.0" y="251" width="116.8" height="13" rx="3"/>
+<text class="name" x="87" y="261" text-anchor="end">에벨</text>
+<rect class="bar" x="537.6" y="268" width="60.1" height="13" rx="3"/>
+<text class="name" x="87" y="278" text-anchor="end">벨렉</text>
+<rect class="bar" x="545.1" y="285" width="60.1" height="13" rx="3"/>
+<text class="name" x="87" y="295" text-anchor="end">르우</text>
+<rect class="bar" x="553.2" y="302" width="57.9" height="13" rx="3"/>
+<text class="name" x="87" y="312" text-anchor="end">스룩</text>
+<rect class="bar" x="560.7" y="319" width="37.2" height="13" rx="3"/>
+<text class="name" x="87" y="329" text-anchor="end">나홀</text>
+<rect class="bar" x="568.0" y="336" width="51.6" height="13" rx="3"/>
+<text class="name" x="87" y="346" text-anchor="end">데라</text>
+<rect class="bar" x="600.8" y="353" width="44.0" height="13" rx="3"/>
+<text class="name" x="87" y="363" text-anchor="end">아브라함</text>
+<rect class="bar" x="625.9" y="370" width="45.3" height="13" rx="3"/>
+<text class="name" x="87" y="380" text-anchor="end">이삭</text>
+<rect class="bar on" x="641.0" y="387" width="37.0" height="13" rx="3"/>
+<text class="name on" x="87" y="397" text-anchor="end">야곱</text>
+<text class="span" x="636.0" y="397" text-anchor="end">2166–2313</text>
+<text class="note" x="96" y="12">연표는 야곱에서 멈춘다 — 시즌 2가 여기서 닫히고 시즌 3이 열린다</text>
+</svg>
