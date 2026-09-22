@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 86개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 86개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 90개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 90개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,12 +12,13 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **88개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **90개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
 - [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
+- [agent-native](https://github.com/BuilderIO/agent-native) - AI 에이전트가 직접 조작할 수 있는 앱을 만드는 리액트·타입스크립트 프레임워크(별 5,891개, 깃허브 트렌딩 일간 상위권)
 - [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
@@ -57,6 +58,7 @@ comments: false
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [magnitude](https://github.com/magnitudedev/magnitude) - 내 컴퓨터 사양에 맞는 최적의 로컬 AI 모델을 자동으로 골라 띄우고 Claude Code·Codex·Cline 등 기존 코딩 에이전트에 그대로 연결해주는 오픈소스 추론 서버(3,718 star, Apache-2.0, TypeScript)
+- [mini-AGI](https://github.com/volotat/mini-AGI) - 8GB VRAM 노트북 한 대에서 배치 크기 1의 연속 스트림으로 밑바닥부터 학습시키는 지속학습 모델 실험(별 303개, MIT, Python)
 - [Ml-intern](https://github.com/huggingface/ml-intern) - 논문 검색부터 모델 학습, 평가, 배포까지 전 과정을 수행하는 자율 머신러닝 엔지니어 에이전트
 - [Mole](https://github.com/lajosdeme/mole) - 예산 상한을 원장으로 강제하고 모든 주장을 출처 원문과 대조해 검증하는 터미널용 딥리서치 에이전트(Go, MCP 지원, 로컬 데이터 프라이버시 경계, Apache-2.0)
 - [Munder Difflin](https://github.com/chaitanyagiri/munder-difflin) - 이미 쓰는 터미널 에이전트 CLI 10여 종을 2D 사무실 화면 위 한 팀으로 묶어 각자 장기 기억·메일함을 갖고 일을 주고받게 하는 로컬 멀티에이전트 하니스
