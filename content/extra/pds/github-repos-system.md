@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛠️ 시스템 및 유틸리티"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 17개 목록입니다."
-description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 17개 목록입니다."
+summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 18개 목록입니다."
+description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 18개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **17개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **18개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 
@@ -26,6 +26,7 @@ comments: false
 - [Kinesis](https://github.com/callbacked/kinesis) - 메타 뉴럴 밴드(손목 근전도 밴드)의 손가락 제스처를 맥의 시스템 입력으로 바꿔 커서·단축키를 제어하는 네이티브 macOS 앱(Swift, Show HN 121점)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)
+- [npunlock](https://github.com/hsfzxjy/npunlock) - 인텔 코어 울트라 칩의 NPU에서 벤더 런타임을 거치지 않고 직접 커스텀 C 커널을 작성·실행하게 해 주는 저수준 도구(Show HN 63점, Apache-2.0, C)
 - [Open-SEO](https://github.com/every-app/open-seo) - 키워드 조사·순위 추적·백링크 분석을 자기 서버에서 돌리는 오픈소스 SEO 도구(세마러시·에이치레프스 대안, 별 1만 7천여 개, MIT)
 - [OpenTrailPaper](https://github.com/RaemondBW/OpenTrailPaper) - 햇빛 아래서도 읽히고 배터리가 오래가는 전자잉크 화면을 쓴 오픈소스 자전거용 주행 컴퓨터(하드웨어 설계·펌웨어 공개, Apache-2.0, C)
 - [Moodist](https://github.com/remvze/moodist) - 집중·휴식용 앰비언트 사운드 84종을 겹쳐 나만의 사운드스케이프를 만드는 계정 불필요 웹 앱(바이노럴 비트·색상 노이즈·슬립 타이머 지원)

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 92개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 92개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 93개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 93개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **92개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **93개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -104,6 +104,7 @@ comments: false
 - [ThoughtDAG](https://github.com/chenxiachan/thoughtdag) - LLM 대화를 무한 캔버스 위 편집 가능한 생각 그래프로 바꿔, 노드를 잇는 선 자체가 모델에 전달되는 컨텍스트가 되는 로컬 우선 도구
 - [TimesFM](https://github.com/google-research/timesfm) - 매출·수요·트래픽처럼 시간 순으로 쌓인 데이터를 별도 학습 없이 바로 예측하게 해 주는 구글 리서치의 시계열 파운데이션 모델(Apache-2.0, Python)
 - [TurboFieldfare](https://github.com/drumih/turbo-fieldfare) - 4비트 Gemma 4 26B의 전문가 가중치를 SSD에서 스트리밍해 램 2GB만으로 M시리즈 맥에서 구동하는 Swift·Metal 추론 엔진
+- [Univer](https://github.com/dream-num/univer) - 스프레드시트·문서·슬라이드·캔버스·관계형 테이블·PDF를 브라우저에서 한 런타임으로 다루는 오픈소스 오피스 엔진. AI 에이전트가 문서를 직접 읽고 고치도록 설계됐다(별 1만 6천여 개, 깃허브 트렌딩 일간 상위, Apache-2.0, TypeScript)
 - [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - 100페이지 PDF를 한 번에 처리하는 바이두의 3B 멀티모달 문서 OCR 모델(32K 컨텍스트, Ollama·vLLM·llama.cpp 로컬 구동, MIT)
 - [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - 자연어로 주식·크립토·외환 전략을 만들고 백테스트하는 오픈소스 AI 트레이딩 에이전트(홍콩대 HKUDS)
 - [Waste](https://github.com/sqliteai/waste) - 램 29GB만으로 Kimi K3 급 초대형 모델을 초당 0.5토큰 속도로 구동하는 실험적 추론 프로젝트
