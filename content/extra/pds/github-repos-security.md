@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛡️ 보안"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 12개 목록입니다."
-description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 12개 목록입니다."
+summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 13개 목록입니다."
+description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 13개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,12 +12,13 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **12개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **13개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛡️ 보안 (Security)
 
 - [Bumblebee](https://github.com/perplexityai/bumblebee) - 코드를 실행하지 않고 디스크 위 패키지·MCP 설정·에디터/브라우저 확장 메타데이터만 읽어 알려진 공급망 침해 노출 여부를 대조하는 읽기 전용 스캐너(Go 단일 정적 바이너리, 의존성 0, Apache 2.0, 퍼플렉시티)
 - [Helium](https://github.com/imputnet/helium) - 텔레메트리와 구글 연동을 걷어내고 광고·추적 차단을 기본으로 켠 "비공개·빠른·정직한" 크로미엄 기반 웹 브라우저(별 2만여 개, GPL-3.0, C++)
+- [mailflare-extension](https://github.com/Curetix/mailflare-extension) - 클라우드플레어 이메일 라우팅을 SimpleLogin·AnonAddy 같은 익명 메일 별칭 서비스처럼 쓰게 해 주는 브라우저 확장. 사이트마다 다른 주소를 만들고 스팸이 오면 그 별칭만 지운다(별 98개, TypeScript, MIT)
 - [Nightcrawler](https://github.com/garagehq/nightcrawler) - 스마트폰에서 완전 로컬로 구동되는 자율 침투 테스트 에이전트(2B 로컬 모델, 클라우드 불필요, MIT)
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트

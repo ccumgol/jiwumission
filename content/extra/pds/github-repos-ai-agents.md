@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 93개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 93개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 95개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 95개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **93개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **95개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -76,10 +76,12 @@ comments: false
 - [opencode](https://github.com/anomalyco/opencode) - 터미널에서 돌아가는 오픈소스 코딩 에이전트로 로컬 모델 서버와 붙여 쓸 수 있다
 - [OpenHuman](https://github.com/tinyhumansai/openhuman) - 내 삶의 기록을 로컬에 쌓아 두고 에이전트 여러 대를 지휘하며 심층 리서치까지 수행하는 맥·윈도우·리눅스용 오픈소스 개인 AI(러스트, GPL-3.0)
 - [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) - 여러 AI 에이전트가 교사·조교·동료 학습자 역할을 나눠 맡아 몰입형 수업을 만들어 주는 오픈 멀티에이전트 인터랙티브 교실(칭화대 MAIC, MIT)
+- [OpenResearch](https://github.com/alphaXiv/OpenResearch) - 코딩 에이전트에 논문 검색·정독·비교 능력을 붙여 연구 에이전트로 바꿔 주는 플랫폼. arXiv 플랫폼 alphaXiv 팀이 만들었다(별 5천여 개, Rust, MIT)
 - [OpenViking](https://github.com/volcengine/OpenViking) - 에이전트 메모리·지식 RAG·스킬을 한 저장소로 묶어 스스로 갱신되는 AI 에이전트용 자기진화형 컨텍스트 데이터베이스(바이트댄스 볼케이노 엔진)
 - [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
 - [Ordewell](https://github.com/ordewell/ordewell) - 목표 하나를 순서가 있는 작업 계획으로 쪼개고 작업마다 실행기·모델·모드를 따로 지정해 실행한 뒤 결과까지 검증하는 코딩 에이전트용 다중 작업 오케스트레이션 도구(별 132개, Apache-2.0)
+- [panel](https://github.com/greentfrapp/panel) - 채팅·PDF·노트북·파일을 한 독에 모으고, 필요한 도구가 없으면 에이전트가 즉석에서 새 패널을 만들어 붙이는 연구 워크스페이스(Python, MIT)
 - [Pi](https://github.com/earendil-works/pi) - 통합 LLM API·에이전트 루프·터미널 UI·코딩 에이전트 CLI를 한 패키지로 묶은 AI 에이전트 툴킷(대화형·JSON·RPC·SDK 4가지 모드)
 - [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) - 오래 걸리는 작업을 맡긴 AI 에이전트들의 진행 상황과 결과를 메일함처럼 한곳에서 확인하고 응답하는 로컬 우선 인박스(DeepAgents·LangGraph 기반, Apache-2.0)
 - [ponytail](https://github.com/DietrichGebert/ponytail) - 코딩 에이전트가 "가장 게으른 시니어 개발자"처럼 판단하게 만들어 불필요한 코드를 새로 쓰지 않게 막는 스킬(약 12만 3천 star, MIT, JavaScript)

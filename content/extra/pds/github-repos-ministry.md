@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 57개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 57개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 58개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 58개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **57개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **58개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -20,6 +20,7 @@ comments: false
 - [AndBible](https://github.com/AndBible/and-bible) - 인터넷 없이도 여러 역본을 볼 수 있는 안드로이드 성경 공부 앱
 - [B1Admin](https://github.com/ChurchApps/B1Admin) - 교인 관리·소그룹·출석·온라인 헌금·셀프 체크인·홈페이지 빌더를 하나로 묶은 자체 호스팅 가능한 오픈소스 교회관리시스템(Planning Center 대안)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
+- [bible](https://github.com/thiagobodruk/bible) - 35개 언어·90개 역본의 성경 본문을 JSON과 XML로 정리해 바로 쓸 수 있게 한 데이터 저장소. 성경 앱·구절 검색·예배 자막 프로그램의 기초 데이터로 알맞다(별 740개, MIT)
 - [Bible Databases](https://github.com/scrollmapper/bible_databases) - 성경 140개 번역본과 OpenBible.info 상호참조 자료를 MySQL·SQLite·CSV·JSON·YAML·Markdown·Parquet 형식으로 정리한 공개 데이터베이스. 오늘의 말씀·읽기표·구절 검색 도구를 교단이나 상용 API에 묶이지 않고 만들 수 있다(별 1,685개, MIT)
 - [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
 - [Bible Notify](https://github.com/BibleNotify/BibleNotify) - 인터넷 없이도 매일 정해진 시각에 성경 구절 알림을 보내 주는 광고·계정 없는 안드로이드 앱. 구글 플레이·F-Droid에서 바로 받아 쓸 수 있고 장 단위 읽기도 지원(42 star, GPL-3.0)
