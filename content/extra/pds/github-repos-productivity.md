@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 32개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 32개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 33개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 33개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **32개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **33개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -37,6 +37,7 @@ comments: false
 - [NoteGen](https://github.com/codexu/note-gen) - "먼저 기록하고 나중에 정리한다"는 원칙의 로컬 우선 마크다운 노트 앱. 흩어진 스크린샷·텍스트 조각을 AI가 하나의 노트로 정리해 주고, 파일은 내 컴퓨터에 마크다운으로 남으면서 깃허브·WebDAV로 동기화된다(별 1만 2천여 개, GPL-3.0, Tauri)
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [omni-tools](https://github.com/iib0011/omni-tools) - 이미지·PDF·텍스트 변환 등 일상 작업용 웹 도구를 모은 자체 호스팅 모음집
+- [Open Notebook](https://github.com/lfnovo/open-notebook) - 구글 노트북LM의 프라이버시 중심 오픈소스 대안. 모아 둔 자료를 AI가 읽고 요약·질의응답·팟캐스트 형식 정리까지 해 주며, 쓸 모델을 직접 고르고 내 서버에서 돌릴 수 있다. 한국어 문서 제공(별 3만 9,504개, TypeScript, MIT)
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [Plane](https://github.com/makeplane/plane) - 지라·리니어·먼데이·클릭업을 대체하는 자체 호스팅 오픈소스 프로젝트 관리 플랫폼(이슈·스프린트·칸반·문서·트리아지, 별 5만 9천여 개, AGPL-3.0, TypeScript)
