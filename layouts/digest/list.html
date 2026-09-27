@@ -30,7 +30,7 @@
               {{ $pages = $pages.ByDate.Reverse }}
             {{ end }}
 
-            {{ $paginator:= .Paginate $pages 9 }}
+            {{ $paginator:= .Paginate $pages 12 }}
             {{ range $paginator.Pages }}
               <div class="md:col-6 lg:col-4 mb-14">
                 {{ partial "components/blog-card" . }}

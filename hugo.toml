@@ -18,7 +18,7 @@ ID = 'G-KGN4QELTEK' # see https://gohugo.io/templates/internal/#configure-google
 ########################## Pagination ############################
 [pagination]
 disableAliases = false
-pagerSize = 10
+pagerSize = 12
 path = 'page'
 
 
