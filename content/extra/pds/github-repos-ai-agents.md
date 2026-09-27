@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 96개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 96개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 98개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 98개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **96개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **98개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -33,6 +33,7 @@ comments: false
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) - 블렌더·프리캐드·김프·리브레오피스·draw.io·OBS 같은 GUI 프로그램에 명령줄을 붙여 AI 에이전트가 직접 조작하게 해 주는 CLI 허브(별 50,640개, 홍콩대 HKUDS, Apache-2.0)
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
 - [Cloudflare Computer](https://github.com/cloudflare/computer) - Durable Object 안에서 SQLite로 백업되는 영속 가상 파일시스템을 제공해 에이전트가 파일 편집·셸 명령·git 작업을 감사 로그와 함께 수행하게 하는 클라우드플레어의 에이전트 런타임
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) - 코드베이스를 영속적 지식 그래프로 색인해 AI 코딩 에이전트에게 지도를 제공하는 고성능 MCP 서버(158개 언어, 1ms 미만 질의)
@@ -53,6 +54,7 @@ comments: false
 - [headroom](https://github.com/headroomlabs-ai/headroom) - 도구 출력·로그·파일·RAG 청크를 LLM에 넘기기 전에 압축해 코딩 에이전트 토큰을 20%, JSON은 60~95%까지 줄여 주는 라이브러리·프록시·MCP 서버(64,428 star, Apache-2.0, Python)
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
+- [Hindsight](https://github.com/vectorize-io/hindsight) - 대화를 기억하는 데서 그치지 않고 축적한 경험으로 학습하는 AI 에이전트 장기 메모리 시스템(별 32,180개, 트렌딩 일간 2위, MIT, Python)
 - [Humanizer](https://github.com/blader/humanizer) - 코딩 에이전트가 쓴 글에서 'AI가 쓴 티'(상투구·균질한 문단·과도한 접속사)를 걷어내 사람 문장처럼 다듬어 주는 에이전트 스킬(별 4만 3천여 개, MIT, Python)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [i-have-adhd](https://github.com/ayghri/i-have-adhd) - 코딩 에이전트가 답을 장황한 설명 속에 파묻지 않고 결론부터 말하게 만드는 스킬(2026년 9월 9일 깃허브 트렌딩 1위, 하루 4,624 star, 누적 별 3만 4천여 개, MIT)
