@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **18개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **19개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 
@@ -33,4 +33,5 @@ comments: false
 - [ShareX](https://github.com/ShareX/ShareX) - 화면 캡처·녹화·스크롤 캡처·GIF 제작에 주석과 자동 업로드까지 한 번에 처리하는 윈도우용 무료 도구. 단축키 하나만 외우면 되어 비전문가도 바로 쓸 수 있고 사용법 안내 자료 제작에 유용하다(별 3만 9천여 개, GPL-3.0, C#)
 - [tailcat](https://github.com/tailscale/tailcat) - 넷캣처럼 쓰지만 테일스케일 데이터 평면 위에서 동작하는 P2P 연결 도구. 계정이나 중앙 컨트롤 플레인 없이 NAT 뒤의 두 기기를 바로 잇는다(약 4,260 star, Go)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
+- [Tinycast](https://github.com/abue-ammar/tinycast) - 단축키 실행·앱과 파일 검색·클립보드 기록을 하나로 묶은 완전 네이티브 macOS 런처. Swift로 작성돼 가볍고 반응이 빠르다(별 7,601개, 오늘 하루 +739개)
 - [Yap](https://github.com/FrigadeHQ/yap) - 애플 Speech 프레임워크를 그대로 써서 모델 다운로드·클라우드 전송·API 키 없이 기기 내에서 처리하는 맥OS용 무료 음성 입력 도구

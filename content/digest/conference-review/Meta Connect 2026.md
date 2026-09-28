@@ -17,6 +17,8 @@ categories: ["컨퍼런스 리뷰", "AI & Tech"]
 Category: "3_Resource"
 ---
 
+{{< youtube n3W6M8qga38 >}}
+
 # Meta Connect 2026 컨퍼런스 리뷰
 
 > 작성일 2026-09-27 · 행사일 2026년 9월 23~24일 · 미국 캘리포니아 멘로파크 Meta 본사

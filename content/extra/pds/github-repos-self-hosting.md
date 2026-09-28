@@ -12,13 +12,14 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **23개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **24개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
 - [CarWatch](https://github.com/ThinkOffApp/CarWatch) - 라즈베리파이 5 한 대를 완전 오프라인 차량용 AI 비서로 바꾸는 프로젝트. 차량 사용설명서 745쪽을 어휘 기반 RAG로 SD 카드에 싣고 쪽수까지 인용해 답하며, 설명서에 없는 내용은 답하지 않는다(Qwen3.6-35B-A3B 구동, 파이썬 표준 라이브러리만 사용)
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
 - [Codeman](https://github.com/Ark0N/Codeman) - Claude Code·Codex·Gemini CLI 등을 지속 tmux 세션에 띄워 24시간 돌리고 실제 터미널을 브라우저로 스트리밍해 모든 서브에이전트를 실시간 감시하는 자체 호스팅 관제탑(모바일 UI·도커/SSH 격리·REST API 190여 개)
+- [CogSend](https://github.com/deepakness/cogsend) - 글을 한 번 쓰면 연결해 둔 여러 소셜 플랫폼에 함께 올려 주는 자체 호스팅형 예약 발행 도구. 본인의 클라우드플레어 계정 위에서 돌아가 구독료 없이 쓸 수 있다(별 152개, MIT)
 - [Frigate](https://github.com/blakeblackshear/frigate) - IP 카메라 영상에서 사람·차량 같은 객체를 클라우드로 보내지 않고 내 서버에서 실시간 탐지하는 자체 호스팅 오픈소스 NVR(별 3만 5천여 개, MIT, 홈어시스턴트 연동)
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
 - [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
