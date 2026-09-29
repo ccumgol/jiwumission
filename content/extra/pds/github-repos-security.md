@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛡️ 보안"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 14개 목록입니다."
-description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 14개 목록입니다."
+summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 16개 목록입니다."
+description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 16개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **14개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **16개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛡️ 보안 (Security)
 
@@ -22,6 +22,7 @@ comments: false
 - [mailflare-extension](https://github.com/Curetix/mailflare-extension) - 클라우드플레어 이메일 라우팅을 SimpleLogin·AnonAddy 같은 익명 메일 별칭 서비스처럼 쓰게 해 주는 브라우저 확장. 사이트마다 다른 주소를 만들고 스팸이 오면 그 별칭만 지운다(별 98개, TypeScript, MIT)
 - [Nightcrawler](https://github.com/garagehq/nightcrawler) - 스마트폰에서 완전 로컬로 구동되는 자율 침투 테스트 에이전트(2B 로컬 모델, 클라우드 불필요, MIT)
 - [OneCLI](https://github.com/onecli/onecli) - AI 에이전트에게 실제 API 키를 노출하지 않고 외부 서비스 접근만 허용하는 러스트 기반 오픈소스 자격증명 게이트웨이 겸 볼트
+- [OpenBao](https://github.com/openbao/openbao) - 비밀번호·인증서·API 키 같은 민감 정보를 한곳에서 보관하고 배포하는 오픈소스 시크릿 관리 시스템. 해시코프 볼트가 라이선스를 바꾼 뒤 갈라져 나온 커뮤니티 포크로, 리눅스 재단 산하에서 개발되고 OpenSSF에도 합류했다(별 8,182개, Go, MPL-2.0)
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
 - [Rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge) - 일부 x86(VIA C3) CPU에 숨겨진 비x86 보조 코어를 통해 메모리 보호·권한 검사를 우회하는 하드웨어 백도어를 실증하고 탐지 도구까지 공개한 연구 프로젝트
 - [security-audit-skill](https://github.com/cloudflare/security-audit-skill) - 클라우드플레어가 만든 코딩 에이전트용 보안 감사 스킬. 다단계로 점검하고 독립 검증된 기계 판독 형식으로 결과를 내놓는다.
@@ -30,3 +31,4 @@ comments: false
 - [Smiiiiiiiiiiiiiiii](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) - 약 40억 사이클이 걸리는 초장시간 x86 명령어 하나로 코어 간 동시 진입 전제를 깨뜨려 CPU 최고 특권 환경 SMM을 무너뜨리는 DEF CON 34 보안 연구(Christopher Domas)
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
 - [Talos](https://github.com/wjhuang88/talos) - 모델과 셸 사이에 권한 커널을 두어 파일 쓰기·삭제·git 쓰기·셸 실행·네트워크·MCP 호출을 정확한 인자에 묶어 단 한 번 30초만 허용하는 러스트 에이전트 런타임(Apache 2.0)
+- [ts-cms-ep-sfx](https://github.com/ApelegHQ/ts-cms-ep-sfx) - 브라우저 안에서 파일을 암호화해 '스스로 복호화되는 HTML 한 장'으로 만들어 주는 도구. AES-256-GCM과 CMS(PWRI) 표준을 쓰고 서버로 아무것도 보내지 않으며, OpenSSL로도 복호화할 수 있어 다른 도구와 호환된다(별 29개, TypeScript, Apache-2.0)
