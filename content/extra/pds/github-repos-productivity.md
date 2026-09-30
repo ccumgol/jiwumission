@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 34개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 34개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **34개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **35개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -41,6 +41,7 @@ comments: false
 - [Open Notebook](https://github.com/lfnovo/open-notebook) - 구글 노트북LM의 프라이버시 중심 오픈소스 대안. 모아 둔 자료를 AI가 읽고 요약·질의응답·팟캐스트 형식 정리까지 해 주며, 쓸 모델을 직접 고르고 내 서버에서 돌릴 수 있다. 한국어 문서 제공(별 3만 9,504개, TypeScript, MIT)
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
+- [papermono-shopping-list](https://github.com/seamusc/papermono-shopping-list) - 휴대폰 웹 UI로 항목을 추가하면 냉장고에 자석으로 붙여 둔 M5Stack PaperMono 전자잉크 화면이 갱신되는 장보기 목록(FastAPI 서버 포함)
 - [Plane](https://github.com/makeplane/plane) - 지라·리니어·먼데이·클릭업을 대체하는 자체 호스팅 오픈소스 프로젝트 관리 플랫폼(이슈·스프린트·칸반·문서·트리아지, 별 5만 9천여 개, AGPL-3.0, TypeScript)
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
 - [SiYuan](https://github.com/siyuan-note/siyuan) - 노트를 블록 단위로 잘게 쪼개 서로 연결하는 프라이버시 우선 오픈소스 지식 워크스페이스. 데이터가 전부 로컬 마크다운으로 남고 윈도우·맥·리눅스·안드로이드·iOS 지원, 도커 자체 호스팅과 WebDAV·S3 동기화 가능(AGPL-3.0)

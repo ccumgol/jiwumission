@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 59개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 59개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 61개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 61개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **60개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **61개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -35,17 +35,17 @@ comments: false
 - [Bolls Bible (bain)](https://github.com/Bolls-Bible/bain) - 광고·부가기능 없이 본문에만 집중한 오픈소스 성경 읽기 앱(31개 언어 146개 역본, 병행 읽기·기기 간 동기화·시맨틱 검색, 웹·안드로이드·윈도우·리눅스, GPL-3.0)
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [Cantara](https://github.com/reckel-jm/cantara) - 찬양 가사를 평범한 텍스트 파일로 관리해 화면에 띄우는 일 하나만 제대로 하는 오픈소스 예배 송출 프로그램. 전용 DB나 계정 없이 폴더에 텍스트 파일만 두면 되고 윈도우·리눅스·맥에서 모두 구동(GPL-3.0)
-- [Church4Christ](https://github.com/leveo/church4christ) - 주보·설교·행사 일정·기도 요청 게시판·봉사자 편성을 담은 이중언어(영어/중국어) 교회 홈페이지와 관리자 시스템을 한 벌로 제공하는 오픈소스 프로젝트. 클라우드플레어 워커스+D1+R2 위에 올려 작은 교회는 무료 사용량 범위에서 시작할 수 있다(GPL-3.0, TypeScript)
 - [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
 - [Christian FOSS](https://github.com/meichthys/christian_foss) - 성경 앱·교회관리시스템·예배 송출·찬양 가사·원어 도구까지 무료 오픈소스 기독교 소프트웨어를 분야별로 정리한 큐레이션 목록(101 star, MIT-0, 2026년 8월 갱신)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
+- [Church4Christ](https://github.com/leveo/church4christ) - 주보·설교·행사 일정·기도 요청 게시판·봉사자 편성을 담은 이중언어(영어/중국어) 교회 홈페이지와 관리자 시스템을 한 벌로 제공하는 오픈소스 프로젝트. 클라우드플레어 워커스+D1+R2 위에 올려 작은 교회는 무료 사용량 범위에서 시작할 수 있다(GPL-3.0, TypeScript)
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)
 - [ChurchIt](https://github.com/meichthys/churchit) - Frappe 프레임워크 위에 올린 오픈소스 교회관리시스템으로 교인·출석·헌금·기금과 선교사 후원 추적, 익명 기도 요청 창구까지 포함(MIT)
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
-- [CYS Claude Sermon Skills](https://github.com/idoforgod/cys-claude-sermon-skills) - 본문 분석·원어 문법·교회사와 교리 검토·설교문 작성·회중 반응 시뮬레이션까지 설교 준비 전 과정을 다루는 한국어 Claude 스킬 21개 모음. Claude.ai 웹·앱과 Claude Code CLI 양쪽에서 쓸 수 있고 터미널이 낯선 사람도 따라 할 수 있게 설치 절차를 자세히 적어 뒀다(별 62개, MIT)
 - [Cloud of Worship](https://github.com/CoW-Labs/cloudofworship) - 설치 없이 브라우저에서 찬양 가사·성경 구절·영상 슬라이드를 송출하는 무료 예배 프레젠테이션 소프트웨어(오프라인 사용, 전 세계 교회가 공유한 찬양 7,000곡 이상 라이브러리, 예배팀 실시간 공동 편집, Tauri 데스크톱 앱 제공)
 - [Corpus Christi](https://github.com/corpus-christi/corpus-christi) - 교인·소그룹·행사·교육과정 관리를 담고 설계 단계부터 완전한 국제화(다국어)를 목표로 한 오픈소스 교회 관리 스위트(Python/Flask + Vue, 다국어 회중·해외 선교지 교회에 적합)
+- [CYS Claude Sermon Skills](https://github.com/idoforgod/cys-claude-sermon-skills) - 본문 분석·원어 문법·교회사와 교리 검토·설교문 작성·회중 반응 시뮬레이션까지 설교 준비 전 과정을 다루는 한국어 Claude 스킬 21개 모음. Claude.ai 웹·앱과 Claude Code CLI 양쪽에서 쓸 수 있고 터미널이 낯선 사람도 따라 할 수 있게 설치 절차를 자세히 적어 뒀다(별 62개, MIT)
 - [Donate-button](https://github.com/everydotorg/donate-button) - 홈페이지에 코드 몇 줄만 붙이면 카드·은행 이체·페이팔·벤모·애플페이·구글페이는 물론 주식·암호화폐 기부까지 받고 생일·기념일 P2P 모금 페이지도 열 수 있는 비영리 전용 무료 오픈소스 후원 버튼(Every.org, 71 star)
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
 - [Elisha](https://github.com/31Carlton7/elisha) - KJV·ASV·WEB 등 여러 역본을 오프라인으로 읽고 오늘의 말씀·일일 묵상·북마크·읽기 연속기록까지 관리하는 iOS·안드로이드 성경 앱(Flutter)
@@ -60,6 +60,7 @@ comments: false
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
 - [MauCariApa Church Starter](https://github.com/MauCariApa-com/maucariapacom-church-starter) - Astro 기반 교회 홈페이지 스타터 템플릿. 정적 사이트 생성 방식이라 빠르고 SEO 설정·Tailwind CSS 디자인·마크다운 콘텐츠 구조가 이미 잡혀 있어 개발자 없는 작은 교회도 무료 호스팅에 바로 올릴 수 있다
+- [Notifuse](https://github.com/Notifuse/notifuse) - 후원자·성도 명단을 직접 관리하며 소식지를 보내는 자체 호스팅 뉴스레터·이메일 발송 플랫폼(MJML 시각 편집기, Liquid 맞춤 문구, 발송 대행사 7곳 연결)
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
 - [open-bibles](https://github.com/seven1m/open-bibles) - 퍼블릭 도메인이거나 자유 라이선스인 성경 번역본을 OSIS·Zefania·USFX 표준 XML 형식으로 모아 둔 저장소.
