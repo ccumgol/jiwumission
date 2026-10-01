@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 99개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 99개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 100개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 100개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **99개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **100개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -59,6 +59,7 @@ comments: false
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [i-have-adhd](https://github.com/ayghri/i-have-adhd) - 코딩 에이전트가 답을 장황한 설명 속에 파묻지 않고 결론부터 말하게 만드는 스킬(2026년 9월 9일 깃허브 트렌딩 1위, 하루 4,624 star, 누적 별 3만 4천여 개, MIT)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
+- [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) - 문서 작성·표 다루기·자료 조사 등 지식 노동 업무를 AI가 거들도록 묶어 놓은 Claude Cowork용 오픈소스 플러그인 모음(별 2만 5천여 개, Apache-2.0, Python)
 - [lossless-memory](https://github.com/aru-labs/lossless-memory) - 개인용 AI의 장기 기억을 요약 없이 원문 그대로 보관하고 모든 항목에 타임스탬프를 붙이는 도구(별 102개, Python, MIT)
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [magnitude](https://github.com/magnitudedev/magnitude) - 내 컴퓨터 사양에 맞는 최적의 로컬 AI 모델을 자동으로 골라 띄우고 Claude Code·Codex·Cline 등 기존 코딩 에이전트에 그대로 연결해주는 오픈소스 추론 서버(3,718 star, Apache-2.0, TypeScript)
