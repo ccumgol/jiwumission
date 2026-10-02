@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 100개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 100개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 102개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 102개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **100개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **102개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -58,6 +58,7 @@ comments: false
 - [Humanizer](https://github.com/blader/humanizer) - 코딩 에이전트가 쓴 글에서 'AI가 쓴 티'(상투구·균질한 문단·과도한 접속사)를 걷어내 사람 문장처럼 다듬어 주는 에이전트 스킬(별 4만 3천여 개, MIT, Python)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [i-have-adhd](https://github.com/ayghri/i-have-adhd) - 코딩 에이전트가 답을 장황한 설명 속에 파묻지 않고 결론부터 말하게 만드는 스킬(2026년 9월 9일 깃허브 트렌딩 1위, 하루 4,624 star, 누적 별 3만 4천여 개, MIT)
+- [Jeeves](https://github.com/PostHog/jeeves) - 예/아니오·객관식·점수 매기기 같은 판정만 전담하되, 답하기 전에 먼저 추론하도록 학습시킨 9B 분류 모델. 학습에 쓰지 않은 테스트 데이터에서 0.889를 기록해 기존 Jev 계열(0.857)을 앞섰고 학습 코드와 데이터까지 공개돼 있다(385 star, MIT, Python)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) - 문서 작성·표 다루기·자료 조사 등 지식 노동 업무를 AI가 거들도록 묶어 놓은 Claude Cowork용 오픈소스 플러그인 모음(별 2만 5천여 개, Apache-2.0, Python)
 - [lossless-memory](https://github.com/aru-labs/lossless-memory) - 개인용 AI의 장기 기억을 요약 없이 원문 그대로 보관하고 모든 항목에 타임스탬프를 붙이는 도구(별 102개, Python, MIT)
@@ -76,6 +77,7 @@ comments: false
 - [oMLX](https://github.com/jundot/omlx) - KV 캐시를 메모리(핫)와 SSD(콜드) 두 계층에 유지해 컨텍스트가 바뀌어도 지난 맥락을 재사용하는 애플 실리콘용 로컬 LLM 추론 서버(맥 메뉴 막대 관리, LLM·VLM·OCR·임베딩·리랭커 지원)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 290여 공급자·500여 모델을 단일 OpenAI 호환 엔드포인트로 묶는 MIT AI 게이트웨이(쿼터 인식 자동 폴백·토큰 압축)
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
+- [OpenShell](https://github.com/NVIDIA/OpenShell) - 자율 AI 에이전트가 파일·네트워크·자격증명에 어디까지 닿을 수 있는지를 정책으로 선언하면 커널 수준에서 강제해 주는 엔비디아의 에이전트 실행 환경. 에이전트는 실제 자격증명을 보지 못하고, 정책 변경은 형식 검증으로 먼저 걸러 사람이 검토한다(별 14,006개, 하루 +2,456개로 트렌딩 1위, Rust, Apache-2.0)
 - [opencode](https://github.com/anomalyco/opencode) - 터미널에서 돌아가는 오픈소스 코딩 에이전트로 로컬 모델 서버와 붙여 쓸 수 있다
 - [OpenHuman](https://github.com/tinyhumansai/openhuman) - 내 삶의 기록을 로컬에 쌓아 두고 에이전트 여러 대를 지휘하며 심층 리서치까지 수행하는 맥·윈도우·리눅스용 오픈소스 개인 AI(러스트, GPL-3.0)
 - [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) - 여러 AI 에이전트가 교사·조교·동료 학습자 역할을 나눠 맡아 몰입형 수업을 만들어 주는 오픈 멀티에이전트 인터랙티브 교실(칭화대 MAIC, MIT)

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛠️ 시스템 및 유틸리티"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 19개 목록입니다."
-description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 19개 목록입니다."
+summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 20개 목록입니다."
+description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 20개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **19개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **20개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 
@@ -23,6 +23,7 @@ comments: false
 - [bzip3](https://github.com/iczelia/bzip3) - BZip2의 "더 낫고 더 강한 정신적 후계자"를 표방하는 C 기반 압축 도구. 큰 블록 크기와 문맥 혼합으로 압축률을 끌어올렸다(별 1,413개, LGPL-3.0)
 - [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
 - [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) - 공개된 위성·항공·선박 데이터를 사실적인 3D 지구본 위에 실시간으로 얹어 브라우저에서 공개출처정보(OSINT)를 훑어보게 해 주는 도구(2026년 9월 12일 깃허브 트렌딩 1위, 하루 3,680 star, 누적 별 2만 7천여 개, JavaScript)
+- [hntui](https://github.com/ahmd-sh/hntui) - 터미널에서 해커뉴스의 여섯 개 피드를 모두 훑고 댓글 트리를 따라 들어가거나 글을 저장해 두는 TUI 리더. Vim 키와 마우스를 함께 지원하고 설치 스크립트 한 줄이면 의존성 없는 단일 바이너리가 깔린다(Show HN 111점, 140 star, MIT, TypeScript)
 - [Kinesis](https://github.com/callbacked/kinesis) - 메타 뉴럴 밴드(손목 근전도 밴드)의 손가락 제스처를 맥의 시스템 입력으로 바꿔 커서·단축키를 제어하는 네이티브 macOS 앱(Swift, Show HN 121점)
 - [MarkItDown](https://github.com/microsoft/markitdown) - PDF/오피스 문서 등을 마크다운 포맷으로 변환해주는 도구
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - 결정론적 이벤트 기반 아키텍처를 갖춘 프로덕션급 러스트 네이티브 알고리즘 트레이딩 엔진(나노초 해상도 백테스트, 연구용 전략 코드를 그대로 실전 배포, LGPL-3.0)

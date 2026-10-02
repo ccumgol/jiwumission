@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 62개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 62개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 63개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 63개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **62개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **63개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -73,6 +73,7 @@ comments: false
 - [rhema](https://github.com/openbezal/rhema) - 설교를 실시간으로 들으며 인용되는 성경 구절을 AI가 자동 감지해 자막으로 띄우는 데스크톱 앱. NDI 방송 출력을 지원해 OBS·방송 스위처에 바로 물릴 수 있다(343 star, MIT, Tauri)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
+- [STEPBible-Data](https://github.com/STEPBible/STEPBible-Data) - 케임브리지 틴데일 하우스의 성서학자들이 만들고 STEPBible.org가 관리하는 무료 성경 원어 데이터셋. 히브리어·헬라어 원문에 확장 스트롱 번호와 형태 분석 태그가 붙어 있고 사본 이문·어휘 자료까지 탭 구분 텍스트로 들어 있다. CC BY 4.0이라 출처만 밝히면 어떤 교재나 앱에도 넣을 수 있고 소드 호환 모듈로도 배포된다(203 star, 포크 63개)
 - [Theographic Bible Metadata](https://github.com/robertrouse/theographic-bible-metadata) - 성경에 나오는 인물·장소·시대·구절을 하나의 지식 그래프로 엮어놓은 공개 데이터셋. 위도·경도가 붙은 지명과 사건별 연대 정보가 함께 들어 있어 인물 관계도·여정 지도·연대표 제작에 바로 쓸 수 있다(342 star)
 - [TheOpenPresenter](https://github.com/Vija02/TheOpenPresenter) - 브라우저만 있으면 어떤 기기에서도 송출하고 여러 사람이 실시간으로 함께 편집·조작하는 오픈소스 예배·행사 프레젠테이션 소프트웨어(프로프리젠터 대안, 오프라인 앱 제공, 작은 교회·비영리단체용 무료 호스팅 약속, AGPL-3.0, TypeScript)
 - [UniqueBible](https://github.com/eliranwong/UniqueBible) - 히브리어·헬라어 원어 자료와 주석·사전·백과사전·연대표를 통째로 내려받아 완전 오프라인으로 쓰는 크로스플랫폼 성경 연구 앱(GUI·웹서버·터미널 등 다중 실행 모드, GPL-3.0)
