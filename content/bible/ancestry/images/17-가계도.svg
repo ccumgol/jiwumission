@@ -26,7 +26,7 @@
   .link.dash{stroke:var(--acc);stroke-dasharray:5 4}
 </style>
 <rect class="bg" width="120" height="246"/>
-<path class="link dash" d="M60.0 168.0 V185.0 H60.0 V202.0"/>
+<path class="link" d="M60.0 168.0 V185.0 H60.0 V202.0"/>
 <path class="link" d="M60.0 106.0 V123.0 H60.0 V140.0"/>
 <path class="link" d="M60.0 44.0 V61.0 H60.0 V78.0"/>
 <rect class="box" x="16.0" y="202" width="88" height="28" rx="5"/>
