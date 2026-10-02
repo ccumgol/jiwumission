@@ -290,6 +290,7 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 | 날짜 | 갱신자 | 내용 |
 |---|---|---|
+| 2026-10-02 | Claude (**Agent-C**) | **배포 Hugo 0.158.0→0.164.0, og:image 복구, 비권장 키 정리.** ① 로컬/CI 버전 불일치 해소 — 0.158 과 0.164 로 각각 빌드해 산출물을 통째로 비교(파일 5111개 동일, HTML 구조 0건 차이)한 뒤 브랜치에서 머지. **주의: 맥에서는 이미지 `_hu_` 해시가 바뀌었으나 실제 CI(linux)에서는 그대로였다 — 그 해시는 버전이 아니라 빌드 플랫폼에 좌우된다.** ② **og:image 가 전 페이지에서 누락**돼 있던 것을 복구 — `params.toml` 의 image 가 `assets/images/og-image.png` 라 basic-seo 가 `assets/assets/...` 를 찾다 실패했음 (2026-07-21 `fe58f32` 에 섞여 들어간 회귀). `images/og-image.png` 로 수정. ③ `languageCode→locale`·`languageName→label` 로 비권장 경고 3건 제거. **※ `layouts/digest/single.html` 의 관련글 `shuffle` 때문에 같은 설정으로 두 번 빌드해도 digest 하위 135개 파일이 달라진다 — 산출물 비교 시 이 점을 감안할 것.** `chore/hugo-0.164` 브랜치는 머지 후 삭제(커밋 `5e87909` 는 main 이력에 보존) |
 | 2026-10-02 | Claude (**Agent-G**) | **Hugo 테마 가이드 전면 재수집 (275개 → 315개).** 원인 — 2026-07-25 수집본이라 두 달 사이에 ① 공식 등록 테마가 **275 → 315개**(신규 60, 목록에서 내려감 20) ② themes.gohugo.io 가 재빌드되면서 Hugo 이미지 처리 해시가 바뀌어 **공통 255개 중 239개의 썸네일 URL 이 404**(브라우저 네트워크로 실측: 옛 `hugo-book/tn-featured_hu_ca3c2a4a…png` → 404, 새 `…_hu_fbdf98e3…png` → 200) ③ 별점·최종 업데이트일이 전반적으로 변동. 조치 — 315개 상세 페이지를 전부 재수집(설명·별점·업데이트일·라이선스·태그·데모/저장소), 신규 60개만 한국어 분류를 새로 붙이고 기존 255개 분류는 재사용, `static/tools/hugo-theme-guide/index.html` 의 데이터·기준일 교체, 본문 md 의 분류표·필터 수치·기준일 갱신 + 재수집 안내(notice) 추가. 파일명을 판 번호 없는 이름으로 바꿈(`slug: hugo-theme-guide` 고정이라 **URL 불변**). 검증 — `pnpm run build` 성공(3638 pages), 로컬 1399 포트에서 두 페이지 모두 200·화면 확인, 새 썸네일 표본 4건 HTTP 200 |
 | 2026-09-27 | Claude (**Agent-C**) | **블로그 게시판 1페이지 표시 글 수를 12개로 통일.** 실측해 보니 값이 세 갈래였다 — 섹션 게시판(`type:"blog"` → 테마 `blog/list.html`)은 `pagerSize`=**10**, `/digest/` 와 분류(term) 페이지는 레이아웃에 하드코딩된 **9**. 조치 — `hugo.toml` `pagerSize` 10→12, `layouts/digest/list.html`·`layouts/term.html` 의 `.Paginate $pages 9`→`12`. 테마 파일은 건드리지 않고 `pagerSize` 로 제어. 검증 — 빌드 0, IT뉴스 85개÷12=8페이지(마지막 1개)·각 페이지 12개, 섹션/분류 게시판 모두 12개. **남은 것**: `/digest/` 만 `post-list-row` CSS 반응형 상한(모바일 6·태블릿 8)이 걸려 있어 작은 화면에서는 12개가 다 보이지 않는다(기존 설계) |
 | 2026-09-18 | Claude (**Agent-C**) | **자료실 '추천 GitHub 리포' 분류 9개 404 해결 + 자료실 등록.** 원인 둘 — ① 허브의 분류 링크가 **상대경로**(`github-repos-ai-agents/`)였는데 이 사이트는 `<base href>` 가 **그 페이지 자신**을 가리켜 `/extra/pds/github-repos/github-repos-ai-agents/` 로 해석돼 404(실제 페이지는 `/extra/pds/github-repos-ai-agents/` 에 200으로 존재) ② frontmatter 의 `_build:` 는 **Hugo 0.145 에서 제거된 키**라 로컬 0.164 에서 `pnpm run build` 가 ERROR 로 실패했고(CI 0.158 은 경고만) `list: never` 로 자료실 목록에도 안 떴음. 조치 — `_build` 블록 제거(기본값과 동일), 허브·본문 링크를 모두 절대경로로. 검증 — 빌드 종료코드 0·ERROR 0건, 분류 9개 전부 HTTP 200, 자료실 목록에 9개+허브 노출 |
@@ -305,11 +306,7 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-- [시작 2026-10-02 / Agent-C] Hugo 비권장(deprecated) 설정 키 3건 정리 + 머지된 브랜치 정리
-  대상: hugo.toml languageCode→locale / languages.toml languageName→label, languageCode→locale
-       (0.158 에서 비권장, 추후 버전에서 제거되면 빌드가 깨짐)
-  계획: 변경 전/후 산출물 A/B 비교로 lang 속성·RSS·날짜 표기 변화 없음을 확인 후 커밋
-  다음 단계: before 빌드 저장 → 키 변경 → after 빌드 → diff → 푸시 → chore/hugo-0.164 브랜치 삭제
+(없음)
 ```
 
 ### 사용자에게 남은 것 (읽고 지우세요)
