@@ -61,7 +61,7 @@ keywords = [
 description = "AI와 성경말씀으로 나를 변화시키는 시간 — JIWU Mission. 오늘의 QT·성경 자료·주간 AI/IT 소식을 나누는 문서선교 네트워크입니다."
 author = "JIWU Mission"
 twitter = "ccumgol"
-image = "assets/images/og-image.png"
+image = "images/og-image.png"
 
 [site_verification]
 google = ""

@@ -305,10 +305,12 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-- [대기 2026-10-02 / Agent-C] 브랜치 chore/hugo-0.164 검증 완료, main 머지는 사용자 승인 대기
-  결과: 0.158 vs 0.164 산출물 A/B 비교 — 파일 5111개 동일, HTML 구조 0건 차이,
-        차이는 ① 이미지 _hu_ 해시 이름(157그룹, 내용은 바이트 동일) ② minifier 개선(CSS -14B, JS -7B)
-  주의: 0.164 에서 languageCode/languageName 비권장 경고 3건 추가 (지금은 경고, 추후 제거 예정)
+- [시작 2026-10-02 / Agent-C] ① chore/hugo-0.164 를 main 에 머지 ② og:image 누락 버그 수정
+  ②의 원인: params.toml 의 image 가 "assets/images/og-image.png" 인데 basic-seo 는 앞에 assets/ 를
+            붙여 찾으므로 assets/assets/... 를 뒤지다 실패 → og:image 태그 자체가 생략됨
+            (2026-07-21 fe58f32 커밋에 섞여 들어간 회귀. 그 뒤로 공유 썸네일 미노출)
+  계획: 머지 → image = "images/og-image.png" 로 수정 → 빌드로 og:image 출력 확인 → 각각 별도 커밋
+  다음 단계: 머지 후 params.toml 수정 → pnpm run build → 푸시 → 프로덕션 og:image 검증
 ```
 
 ### 사용자에게 남은 것 (읽고 지우세요)
