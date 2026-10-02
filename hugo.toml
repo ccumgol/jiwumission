@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://jesusiswith.us/"
 title = "JIWU Mission | Jesus is with us"
-languageCode = "ko-kr"
+locale = "ko-kr"
 theme = "hugoplate"
 timeZone = "America/New_York"
 buildFuture = true

@@ -305,12 +305,11 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-- [시작 2026-10-02 / Agent-C] ① chore/hugo-0.164 를 main 에 머지 ② og:image 누락 버그 수정
-  ②의 원인: params.toml 의 image 가 "assets/images/og-image.png" 인데 basic-seo 는 앞에 assets/ 를
-            붙여 찾으므로 assets/assets/... 를 뒤지다 실패 → og:image 태그 자체가 생략됨
-            (2026-07-21 fe58f32 커밋에 섞여 들어간 회귀. 그 뒤로 공유 썸네일 미노출)
-  계획: 머지 → image = "images/og-image.png" 로 수정 → 빌드로 og:image 출력 확인 → 각각 별도 커밋
-  다음 단계: 머지 후 params.toml 수정 → pnpm run build → 푸시 → 프로덕션 og:image 검증
+- [시작 2026-10-02 / Agent-C] Hugo 비권장(deprecated) 설정 키 3건 정리 + 머지된 브랜치 정리
+  대상: hugo.toml languageCode→locale / languages.toml languageName→label, languageCode→locale
+       (0.158 에서 비권장, 추후 버전에서 제거되면 빌드가 깨짐)
+  계획: 변경 전/후 산출물 A/B 비교로 lang 속성·RSS·날짜 표기 변화 없음을 확인 후 커밋
+  다음 단계: before 빌드 저장 → 키 변경 → after 빌드 → diff → 푸시 → chore/hugo-0.164 브랜치 삭제
 ```
 
 ### 사용자에게 남은 것 (읽고 지우세요)
