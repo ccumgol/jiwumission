@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 36개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 36개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **35개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **36개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -35,6 +35,7 @@ comments: false
 - [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
 - [Midday](https://github.com/midday-ai/midday) - 인보이스·시간 추적·은행 거래 자동 대사·문서 보관·AI 어시스턴트를 한데 묶은 1인 사업자·프리랜서용 오픈소스 비즈니스 워크스페이스(AGPL-3.0, 자체 호스팅 가능)
 - [Mindwtr](https://github.com/dongdongbh/Mindwtr) - 떠오른 일을 일단 수집함에 담고 나중에 다음 행동으로 쪼개는 GTD 방식 할 일 앱. 계정 가입도 인터넷 연결도 필요 없고 데스크톱·모바일 모두 지원(별 2,091개, AGPL-3.0, TypeScript)
+- [Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex) - 설치만 하면 바로 쓰는 데스크톱 가계부. 예산·반복 거래·현금흐름 보고서·자산 추적을 지원하고 데이터는 SQLite 파일로 내 컴퓨터에 남습니다.
 - [NoteGen](https://github.com/codexu/note-gen) - "먼저 기록하고 나중에 정리한다"는 원칙의 로컬 우선 마크다운 노트 앱. 흩어진 스크린샷·텍스트 조각을 AI가 하나의 노트로 정리해 주고, 파일은 내 컴퓨터에 마크다운으로 남으면서 깃허브·WebDAV로 동기화된다(별 1만 2천여 개, GPL-3.0, Tauri)
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [omni-tools](https://github.com/iib0011/omni-tools) - 이미지·PDF·텍스트 변환 등 일상 작업용 웹 도구를 모은 자체 호스팅 모음집
