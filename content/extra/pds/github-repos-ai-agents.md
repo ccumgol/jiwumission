@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 104개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 104개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 106개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 106개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,13 +12,14 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **104개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **106개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
 - [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
 - [agent-native](https://github.com/BuilderIO/agent-native) - AI 에이전트가 직접 조작할 수 있는 앱을 만드는 리액트·타입스크립트 프레임워크(별 5,891개, 깃허브 트렌딩 일간 상위권)
+- [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - AI 에이전트가 트위터·레딧·유튜브·깃허브 등을 유료 API 없이 읽고 검색하게 해주는 CLI 도구
 - [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
@@ -106,6 +107,7 @@ comments: false
 - [Skills](https://github.com/mattpocock/skills) - 실무 엔지니어를 위한 코딩 에이전트 스킬 모음
 - [slotstream](https://github.com/carloslfu/slotstream) - 4비트 기준 104GB인 Qwen3.8-Flash-Next(125B MoE)를 SSD에서 전문가를 스트리밍해 훨씬 적은 램의 맥에서 돌리는 로컬 추론 서버(MLX+Swift, Ollama 호환 API, MIT)
 - [smolcoder](https://github.com/leonvanzyl/smolcoder) - Ollama·LM Studio의 로컬 모델만으로 돌아가는 최소 구현 터미널 코딩 에이전트(Claude Fable 5.1이 직접 만든 프로젝트, MIT, TypeScript)
+- [Splash](https://github.com/incoai/splash) - 애플 실리콘 맥에서 Metal과 투기적 디코딩으로 LLM을 로컬 실행하는 추론 엔진
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [supervision](https://github.com/roboflow/supervision) - 객체 탐지·분할 모델의 결과를 박스·마스크로 그리고, 지정 구역 안의 대상을 세고, 영상 프레임 간 추적까지 몇 줄로 붙이는 재사용 컴퓨터 비전 도구 모음(Python·MIT)
