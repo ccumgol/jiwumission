@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 41개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 41개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **41개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **42개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -52,6 +52,7 @@ comments: false
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) - 시스템 설계 면접 교재를 챕터별 그림과 함께 정리한 공개 학습 노트(별 1만 9천여 개)
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)
+- [Tile Language](https://github.com/tile-ai/tilelang) - 고성능 GPU·CPU·가속기 커널을 파이썬스러운 문법으로 짧게 작성하게 해 주는 도메인 특화 언어(별 8,360개)
 - [Toast](https://github.com/paradise-runner/toast) - 설정을 손보지 않아도 기본값 그대로 쓸 만하게 만든 터미널 내장형 통합개발환경(2026년 9월 11일 Show HN 73점·댓글 86개, Go)
 - [Whiteboard](https://github.com/devdotfast/whiteboard) - 사람과 AI 에이전트가 같은 캔버스에서 소프트웨어 설계를 함께 하는 오픈소스 IDE. Rust로 만든 AST 인식 diff 뷰어로 구조 변경을 의미 단위로 보여 주고 다이어그램과 코드를 연결하며 설계 결정을 기록으로 남긴다(별 1,888개, MIT)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
