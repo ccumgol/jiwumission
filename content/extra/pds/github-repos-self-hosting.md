@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 25개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 25개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 27개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 27개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **25개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **27개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -20,6 +20,7 @@ comments: false
 - [Chatto](https://github.com/chattocorp/chatto) - 음성·영상·화면공유·SSO를 갖춘 약 50MB 단일 바이너리 자체 호스팅 팀 채팅 서버(슬랙/디스코드 대안)
 - [Codeman](https://github.com/Ark0N/Codeman) - Claude Code·Codex·Gemini CLI 등을 지속 tmux 세션에 띄워 24시간 돌리고 실제 터미널을 브라우저로 스트리밍해 모든 서브에이전트를 실시간 감시하는 자체 호스팅 관제탑(모바일 UI·도커/SSH 격리·REST API 190여 개)
 - [CogSend](https://github.com/deepakness/cogsend) - 글을 한 번 쓰면 연결해 둔 여러 소셜 플랫폼에 함께 올려 주는 자체 호스팅형 예약 발행 도구. 본인의 클라우드플레어 계정 위에서 돌아가 구독료 없이 쓸 수 있다(별 152개, MIT)
+- [Dashy](https://github.com/lissy93/dashy) - 자주 쓰는 사이트와 서비스를 한 화면에 모아 두는 개인·팀용 시작 페이지. 도커 한 줄로 띄우고 YAML 파일 하나로 설정하며 상태 점검·위젯·아이콘 팩·다크 모드·접근 권한 분리를 지원한다(별 2만 6천여 개, Vue, MIT)
 - [Frigate](https://github.com/blakeblackshear/frigate) - IP 카메라 영상에서 사람·차량 같은 객체를 클라우드로 보내지 않고 내 서버에서 실시간 탐지하는 자체 호스팅 오픈소스 NVR(별 3만 5천여 개, MIT, 홈어시스턴트 연동)
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
 - [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
@@ -30,6 +31,7 @@ comments: false
 - [Ntfy](https://github.com/binwiederhier/ntfy) - HTTP 요청 한 줄로 휴대폰·데스크톱에 알림을 보내는 자체 호스팅 푸시 알림 서비스(구글·애플 알림 인프라 불필요)
 - [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - 자체 호스팅 프라이버시 우선 AI 워크스페이스
 - [Open WebUI](https://github.com/open-webui/open-webui) - 로컬 모델(Ollama)과 OpenAI API를 한 화면에서 쓰는 자체 호스팅 챗GPT 스타일 AI 대화 인터페이스. 문서 기반 RAG·사용자 계정 관리 내장(별 15만여 개, 파이썬)
+- [openGym](https://github.com/DuarteSantos8/openGym) - 직접 서버에 올려 쓰는 헬스·체중 기록 앱. 루틴을 짜고 운동을 기록하면 어느 근육이 충분히 자극됐는지·피로한지·방치됐는지를 보여주고, FitNotes·Strong·Hevy에서 기록을 가져올 수 있다(별 4,217개, JavaScript, AGPL-3.0, 깃허브 트렌딩 일간 1위)
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
 - [ResolveHQ](https://github.com/mirza-rizvi/ResolveHQ) - 클라우드플레어 워커스(D1·R2·큐·이메일 라우팅) 위에 올리는 자체 호스팅 헬프데스크. 공용 수신함과 이메일 스레드 묶기, AI 보조 답변을 지원한다.

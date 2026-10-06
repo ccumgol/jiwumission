@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 108개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 108개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 109개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 109개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **108개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **109개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -109,6 +109,7 @@ comments: false
 - [slotstream](https://github.com/carloslfu/slotstream) - 4비트 기준 104GB인 Qwen3.8-Flash-Next(125B MoE)를 SSD에서 전문가를 스트리밍해 훨씬 적은 램의 맥에서 돌리는 로컬 추론 서버(MLX+Swift, Ollama 호환 API, MIT)
 - [smolcoder](https://github.com/leonvanzyl/smolcoder) - Ollama·LM Studio의 로컬 모델만으로 돌아가는 최소 구현 터미널 코딩 에이전트(Claude Fable 5.1이 직접 만든 프로젝트, MIT, TypeScript)
 - [Splash](https://github.com/incoai/splash) - 애플 실리콘 맥에서 Metal과 투기적 디코딩으로 LLM을 로컬 실행하는 추론 엔진
+- [Strata](https://github.com/Niko1221/Strata) - 1,250억 파라미터급 Qwen3.8-Flash-Next 모델을 소비자용 PC 한 대에서 돌리게 해 주는 추론 엔진. 윈도·리눅스 원클릭 설치에 localhost OpenAI·Anthropic 호환 API를 제공한다(별 1만 3천여 개, C++, MIT)
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [supervision](https://github.com/roboflow/supervision) - 객체 탐지·분할 모델의 결과를 박스·마스크로 그리고, 지정 구역 안의 대상을 세고, 영상 프레임 간 추적까지 몇 줄로 붙이는 재사용 컴퓨터 비전 도구 모음(Python·MIT)

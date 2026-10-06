@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **21개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **22개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -31,6 +31,7 @@ comments: false
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
+- [SCM](https://github.com/allenv0/SCM) - 맥에서 폴더 안의 모든 사진과 동영상의 모든 프레임까지 AI로 검색해 주는 도구. 전부 로컬에서 돌아가 사진을 외부로 올리지 않는다(별 369개, JavaScript, MIT, 해커뉴스 Show HN 163점)
 - [video-use](https://github.com/browser-use/video-use) - 코딩 에이전트로 영상을 편집하게 해주는 도구. 자연어 지시로 컷 편집·자막·합성을 처리한다(별 2만 4천여 개, MIT, Python)
 - [Voicebox](https://github.com/jamiepine/voicebox) - 음성 복제와 받아쓰기, 낭독을 전부 내 컴퓨터 안에서 처리하는 오픈소스 AI 음성 스튜디오. 7가지 TTS 엔진을 골라 쓰고 전역 단축키로 어떤 앱에든 받아쓰기를 넣을 수 있으며, 모델·음성 데이터·녹음이 기기를 떠나지 않는다(별 5만 5,800개, MIT)
 - [VoiceStudio](https://github.com/debpalash/VoiceStudio) - 음성 복제·음성 디자인·영상 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 전부 로컬에서 처리하는 오픈소스 일레븐랩스 대안(별 2만 6천여 개, AGPL-3.0, Python)
