@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 65개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 65개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 66개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 66개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **65개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **66개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -28,6 +28,7 @@ comments: false
 - [Bible for Android (Alkitab)](https://github.com/yukuku/androidbible) - 성경 본문·찬송가·통독표·묵상글·북마크를 오프라인으로 쓰는 무료 오픈소스 안드로이드 성경 앱. 자체 .yes 포맷으로 누구나 자기 언어의 번역본과 통독표를 만들어 배포할 수 있다(Apache-2.0)
 - [Bible Notify](https://github.com/BibleNotify/BibleNotify) - 인터넷 없이도 매일 정해진 시각에 성경 구절 알림을 보내 주는 광고·계정 없는 안드로이드 앱. 구글 플레이·F-Droid에서 바로 받아 쓸 수 있고 장 단위 읽기도 지원(42 star, GPL-3.0)
 - [Bible Song Pro](https://github.com/Johnbatey/bible-song-pro) - OBS Studio용 무료 오픈소스 교회 프레젠테이션 시스템. 브라우저 소스 오버레이로 찬양 가사와 성경 구절을 온라인 예배 송출에 바로 얹는다
+- [Bible Song Pro Studio](https://github.com/Johnbatey/bible-song-pro-studio) - 찬양 가사와 성경 구절을 띄우고 OBS 송출로 바로 내보내는 예배용 일렉트론 데스크톱 콘솔
 - [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
 - [bible-api](https://github.com/wldeh/bible-api) - 200개가 넘는 언어와 역본의 성경 본문을 JSON으로 제공하는 무료 성경 API. API 키·회원가입·사용량 제한이 없고 jsDelivr CDN에서 바로 호출돼 '오늘의 말씀' 위젯이나 묵상 봇을 서버 없이 만들 수 있다(별 531개, MIT)
 - [bible_api](https://github.com/seven1m/bible_api) - 퍼블릭 도메인·오픈 라이선스 성경 역본을 JSON API로 제공하는 루비 웹 앱. 널리 쓰이는 bible-api.com을 그대로 돌리는 원본 코드로, 오늘의 말씀 위젯·묵상 봇 제작이나 자체 호스팅에 적합(802 star, MIT)

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📦 기타 / 미분류"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 6개 목록입니다."
-description: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 6개 목록입니다."
+summary: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 7개 목록입니다."
+description: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 7개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-위 분류에 들어가지 않는 프로젝트. 현재 **6개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+위 분류에 들어가지 않는 프로젝트. 현재 **7개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📦 기타 / 미분류 (Uncategorized)
 
@@ -21,4 +21,5 @@ comments: false
 - [Fugleramme](https://github.com/arnegiacomo/fugleramme) - 마이크로 들리는 새소리를 기기 안에서 판별해 그 새를 1800년대 조류 도감 그림으로 전자잉크 액자에 띄워주는 라즈베리파이 프로젝트(별 1,467개, MIT, Python)
 - [human-atlas](https://github.com/ashemag/human-atlas) - 2,234개 부위를 골라 볼 수 있는 오픈소스 3D 인체 해부학 탐색기
 - [modem-thing](https://github.com/bkovac/modem-thing) - 20달러짜리 4G 무선 핫스팟 하드웨어를 개조해 문자 메시지만 주고받는 단순한 기기로 만드는 프로젝트. 스마트폰 알림에서 벗어나려는 "멍청한 폰" 계열 하드웨어 해킹(별 22개, Python, MIT)
+- [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - 롤러코스터 타이쿤 2를 현대 환경에서 돌아가게 다시 만든 오픈소스 게임 (멀티플레이 지원)
 - [OpenStock](https://github.com/Open-Dev-Society/OpenStock) - 비싼 금융 정보 플랫폼을 대신하는 오픈소스 주식 정보 서비스. 실시간 시세 조회, 종목별 맞춤 알림, 기업 상세 정보 탐색을 무료로 제공한다(별 1만 6,810개, TypeScript, AGPL-3.0)

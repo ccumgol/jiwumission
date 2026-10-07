@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 43개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 43개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **42개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **43개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -45,6 +45,7 @@ comments: false
 - [Open Code Review](https://github.com/alibaba/open-code-review) - 규칙 기반 파이프라인과 LLM 에이전트를 함께 돌려 코드 줄 단위로 지적해주는 알리바바의 사내용 코드 리뷰 도구(별 2만 8천여 개, Apache-2.0, Go)
 - [open-compute](https://github.com/elliothux/open-compute) - KV·D1·R2·Durable Objects·큐·워크플로를 러스트 바이너리 하나에 담은 클라우드플레어 워커스 호환 자체 호스팅 런타임.
 - [Pascal Editor](https://github.com/pascalorg/editor) - 로컬 CLI와 MCP 도구를 갖춰 사람과 AI 에이전트가 같은 도면을 함께 편집하는 오픈소스 3D 건축 편집기(평면도·파라메트릭 설계·BIM, 별 2만 3천여 개, MIT, TypeScript)
+- [rea](https://github.com/morluto/rea) - AI 에이전트를 붙여 앱 동작부터 네이티브 바이너리까지 역분석하는 리버스 엔지니어링 도구
 - [reladraw](https://github.com/reladraw/reladraw) - 배치를 자동으로 정하지 않고 "무엇의 왼쪽 위", "A와 B 사이" 같은 관계 문장으로 위치를 직접 지정하는 텍스트 다이어그램 언어(Show HN 167포인트, Apache-2.0, TypeScript)
 - [releases](https://github.com/flaviocopes/releases) - 내가 배포하는 앱과 CLI 도구의 버전, GitHub 릴리스 이력, 다음 릴리스 변경 사항을 한 화면에 모아 보는 네이티브 맥 앱.
 - [screenshot-to-code](https://github.com/abi/screenshot-to-code) - 웹페이지나 디자인 시안을 화면 캡처해 넣으면 바로 손볼 수 있는 HTML/Tailwind·React·Vue 코드로 바꿔 주는 도구

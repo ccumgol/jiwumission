@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 23개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 23개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **22개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **23개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -23,6 +23,7 @@ comments: false
 - [img2threejs](https://github.com/img2threejs/img2threejs) - 사진 한 장 속 물체를 메시 파일 대신 절차적 Three.js 코드로 복원해 용량이 작고 애니메이션을 붙이기 쉬운 3D 모델로 만들어주는 도구(별 1만 6천여 개, Apache-2.0, Python)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안
 - [kcc (Kindle Comic Converter)](https://github.com/ciromattia/kcc) - 만화·코믹 파일을 킨들·코보·리마커블 등 전자잉크 기기에 맞게 변환해 주는 도구. 2D 푸리에 변환과 디더링으로 흑백 화면의 화질을 끌어올린다(별 5,744개, ISC, Python)
+- [ldraw-nova](https://github.com/anteloc/ldraw-nova) - 설명한 모양을 조립 가능한 레고(LDraw) 설계 파일로 만들어 주는 생성형 AI 에이전트 도구
 - [LocalVocal](https://github.com/royshil/obs-localvocal) - OBS 스튜디오에서 말하는 내용을 전부 기기 안에서 인식해 실시간 자막으로 띄우는 플러그인. 번역 자막도 지원해 예배·강의 실시간 송출에 추가 비용 없이 자막을 붙일 수 있다(별 1,616개, GPL-2.0, C++)
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
