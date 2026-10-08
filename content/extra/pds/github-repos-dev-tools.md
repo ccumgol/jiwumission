@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 43개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 43개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 45개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 45개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **43개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **45개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -27,6 +27,7 @@ comments: false
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
 - [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) - AI 코딩 에이전트가 위험한 git·셸 명령을 실행하기 전에 맥락까지 판단해 가로막는 러스트 기반 훅
+- [e2e](https://github.com/tester-army/e2e) - 웹과 모바일 앱을 한 도구로 끝까지 검사하는 차세대 E2E 테스트 프레임워크. 플레이라이트 기반이며 2026년 7월 공개 뒤 넉 달 만에 별 7,442개를 모았다(TypeScript, Apache-2.0)
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - 대용량 로그·문서의 전문 검색과 실시간 분석에 쓰이는 오픈소스 분산 RESTful 검색·분석 엔진
 - [Factorio Code Visualizer](https://github.com/rorz/factorio-code-visualizer) - 코드베이스 구조를 실제로 플레이 가능한 Factorio 게임 맵으로 변환해 시각화하는 도구
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - 웹을 검색·스크래핑해 LLM이 바로 쓸 수 있는 형태로 넘겨주는 대규모 컨텍스트 API
@@ -55,6 +56,7 @@ comments: false
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)
 - [Tile Language](https://github.com/tile-ai/tilelang) - 고성능 GPU·CPU·가속기 커널을 파이썬스러운 문법으로 짧게 작성하게 해 주는 도메인 특화 언어(별 8,360개)
 - [Toast](https://github.com/paradise-runner/toast) - 설정을 손보지 않아도 기본값 그대로 쓸 만하게 만든 터미널 내장형 통합개발환경(2026년 9월 11일 Show HN 73점·댓글 86개, Go)
+- [treepeat](https://github.com/dsummersl/treepeat) - 트리시터로 소스 코드를 구문 트리 단위로 비교해 중복·유사 코드를 찾아내는 도구. 변수명만 바꿔 복사한 코드도 구조로 잡아낸다(별 85개, Python, Apache-2.0)
 - [Whiteboard](https://github.com/devdotfast/whiteboard) - 사람과 AI 에이전트가 같은 캔버스에서 소프트웨어 설계를 함께 하는 오픈소스 IDE. Rust로 만든 AST 인식 diff 뷰어로 구조 변경을 의미 단위로 보여 주고 다이어그램과 코드를 연결하며 설계 결정을 기록으로 남긴다(별 1,888개, MIT)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
 - [Wyzer](https://github.com/Wyzer-Lang/wyzer) - 소유권 규칙 하나로 메모리·동시성·네트워크 안전성을 함께 해결하려는 정적 타입 컴파일 언어(코레오그래픽 프로그래밍, perceus 메모리 모델)

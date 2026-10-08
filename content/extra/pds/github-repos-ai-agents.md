@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 109개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 109개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 110개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 110개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **109개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **110개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -76,6 +76,7 @@ comments: false
 - [needle](https://github.com/cactus-compute/needle) - 휴대폰·웨어러블·스마트홈·로봇·마이크로컨트롤러 같은 초소형 기기에서 도구 호출과 구조화 추출, 임베딩을 수행하는 8~29MB 크기의 2비트 자동화 파운데이션 모델(별 1만 1,899개, Apache-2.0)
 - [Nobuzz (Claudette)](https://github.com/adnanakil/nobuzz) - 클로드의 마지막 답변을 Gemini CLI에 통과시켜 클릭베이트 말투를 평범한 문장으로 바꿔주는 Claude Code 스킬(`/debuzz`)
 - [NPC-Forge](https://github.com/gioblu/NPC-Forge) - 머신러닝이나 대규모 언어모델 없이 CPU만으로 돌아가는 규칙 기반 대화형 에이전트 제작 프레임워크. 게임 NPC나 터미널 비서를 GPU 없이 만들 수 있다(199 star, AGPL-3.0, Python)
+- [Octop](https://github.com/TencentCloud/Octop) - 텐센트클라우드가 공개한 자체 호스팅형 AI 어시스턴트. 다중 사용자·다중 에이전트를 지원해 서버 한 대로 팀 전체가 각자 계정으로 쓸 수 있다(별 7,718개, Python, MIT)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [oMLX](https://github.com/jundot/omlx) - KV 캐시를 메모리(핫)와 SSD(콜드) 두 계층에 유지해 컨텍스트가 바뀌어도 지난 맥락을 재사용하는 애플 실리콘용 로컬 LLM 추론 서버(맥 메뉴 막대 관리, LLM·VLM·OCR·임베딩·리랭커 지원)
