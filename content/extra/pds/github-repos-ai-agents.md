@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **110개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **111개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -28,6 +28,7 @@ comments: false
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0·ATLAS·D3FEND 등 6개 프레임워크에 매핑한 모음집(29개 보안 도메인, agentskills.io 표준, Apache 2.0)
 - [archify](https://github.com/tt-a1i/archify) - 코딩 에이전트가 아키텍처·워크플로·시퀀스·데이터 흐름 다이어그램을 자체 완결형 HTML로 그려 주는 에이전트 스킬(모션·고해상도 내보내기 지원, MIT)
 - [ax](https://github.com/google/ax) - 구글이 공개한 오픈 에이전트 오케스트레이션 런타임으로 여러 AI 에이전트를 엮어 실행한다(별 7,586개, 하루 만에 +2,305개, Go, Apache-2.0)
+- [big-arrow-on-the-screen](https://github.com/franzenzenhofer/big-arrow-on-the-screen) - AI 에이전트가 맥 화면 위에 화살표·상자·텍스트를 그려 가리킬 수 있게 해 주는 CLI
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) - AI 에이전트가 사용자가 로그인해 둔 실제 브라우저를 그대로 조작하게 해 주는 CLI와 확장 프로그램
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
