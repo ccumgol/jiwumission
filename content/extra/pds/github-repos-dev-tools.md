@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 46개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 46개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **47개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **48개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -37,6 +37,7 @@ comments: false
 - [gpty](https://github.com/godot-pty/gpty) - 게임 엔진 고닷(Godot)과 러스트로 만든 터미널 멀티플렉서 데스크톱 앱. AI 에이전트 세션을 여러 개 띄워 두고 쓰는 용도를 겨냥(57 star, GPL-3.0)
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
 - [Homebrew](https://github.com/Homebrew/brew) - 맥·리눅스에서 가장 널리 쓰이는 오픈소스 패키지 관리자. 7.0.0에서 네이티브 맥 GUI 앱(BrewUI), 내장 취약점 점검 `brew vulns`와 자체 보안 권고 DB, 리눅스 Landlock 샌드박스를 도입했다(별 4만 9천여 개, BSD-2-Clause, Ruby)
+- [k10s](https://github.com/p10node/k10s) - 마우스로 클릭해서 쓰는 쿠버네티스 터미널 UI. 즉시 검색·로그·파드 접속·포트 포워딩과 테마 7종, 상황을 이해하는 AI 도우미를 의존성 없는 Go 단일 바이너리로 제공한다(별 295개, Apache-2.0, Go)
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
 - [LatticeDB](https://github.com/jeffhajewski/latticedb) - 파일 하나에 지식 그래프·벡터 검색·전문 검색을 함께 담은 임베디드 데이터베이스. Cypher 질의 하나로 의미 검색·전문 검색·그래프 탐색을 섞을 수 있고 그래프 탐색이 SQLite 대비 크게 빠르다("관계로 질의하는 데이터를 위한 SQLite")

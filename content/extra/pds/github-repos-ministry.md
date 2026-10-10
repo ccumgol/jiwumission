@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 68개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 68개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 69개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 69개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **68개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **69개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -49,6 +49,7 @@ comments: false
 - [ChurchPresenter](https://github.com/ChurchPresenter/ChurchPresenter) - 찬양 가사·성경 구절·영상·자막을 오프라인 우선으로 송출하는 무료 교회 예배 프레젠테이션 소프트웨어
 - [CiviCRM](https://github.com/civicrm/civicrm-core) - 비영리/선교단체를 위한 후원자 및 회원 관계 관리 CRM
 - [Cloud of Worship](https://github.com/CoW-Labs/cloudofworship) - 설치 없이 브라우저에서 찬양 가사·성경 구절·영상 슬라이드를 송출하는 무료 예배 프레젠테이션 소프트웨어(오프라인 사용, 전 세계 교회가 공유한 찬양 7,000곡 이상 라이브러리, 예배팀 실시간 공동 편집, Tauri 데스크톱 앱 제공)
+- [ConnectClips](https://github.com/connect-community-church/connectclips) - 설교 녹화나 유튜브 링크를 넣으면 faster-whisper로 받아쓰고 Claude가 장면 5~10개를 골라 후킹 제목을 붙인 뒤 얼굴을 따라가며 9:16 세로 숏폼 클립으로 잘라 주는 자체 호스팅 도구. 설교 파일이 교회 밖으로 나가지 않고 설교당 API 비용이 5센트 안팎이다(별 3개, MIT, Python)
 - [Corpus Christi](https://github.com/corpus-christi/corpus-christi) - 교인·소그룹·행사·교육과정 관리를 담고 설계 단계부터 완전한 국제화(다국어)를 목표로 한 오픈소스 교회 관리 스위트(Python/Flask + Vue, 다국어 회중·해외 선교지 교회에 적합)
 - [CYS Claude Sermon Skills](https://github.com/idoforgod/cys-claude-sermon-skills) - 본문 분석·원어 문법·교회사와 교리 검토·설교문 작성·회중 반응 시뮬레이션까지 설교 준비 전 과정을 다루는 한국어 Claude 스킬 21개 모음. Claude.ai 웹·앱과 Claude Code CLI 양쪽에서 쓸 수 있고 터미널이 낯선 사람도 따라 할 수 있게 설치 절차를 자세히 적어 뒀다(별 62개, MIT)
 - [Donate-button](https://github.com/everydotorg/donate-button) - 홈페이지에 코드 몇 줄만 붙이면 카드·은행 이체·페이팔·벤모·애플페이·구글페이는 물론 주식·암호화폐 기부까지 받고 생일·기념일 P2P 모금 페이지도 열 수 있는 비영리 전용 무료 오픈소스 후원 버튼(Every.org, 71 star)
