@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 112개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 112개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 114개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 114개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **112개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **114개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -24,6 +24,7 @@ comments: false
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
 - [Ai-memory](https://github.com/akitaonrails/ai-memory) - 여러 코딩 에이전트 CLI가 같은 장기 기억을 공유하게 해주는 단일 러스트 바이너리(git 버전관리 마크다운 위키 + SQLite FTS5/벡터 인덱스, MCP 지원)
+- [AirLLM](https://github.com/lyogavin/airllm) - 모델 레이어를 하나씩 번갈아 올렸다 내리는 방식으로, 양자화나 증류 없이 700억 파라미터 LLM 추론을 4GB VRAM 그래픽카드 한 장에서 돌리게 해 주는 파이썬 라이브러리(별 36,410개, Apache-2.0)
 - [Ante](https://github.com/AntigmaLabs/ante) - 인터넷 연결 없이 오프라인으로 구동되는 단일 바이너리 코딩 에이전트
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0·ATLAS·D3FEND 등 6개 프레임워크에 매핑한 모음집(29개 보안 도메인, agentskills.io 표준, Apache 2.0)
 - [archify](https://github.com/tt-a1i/archify) - 코딩 에이전트가 아키텍처·워크플로·시퀀스·데이터 흐름 다이어그램을 자체 완결형 HTML로 그려 주는 에이전트 스킬(모션·고해상도 내보내기 지원, MIT)
@@ -116,6 +117,7 @@ comments: false
 - [Superpowers](https://github.com/obra/superpowers) - 코딩 에이전트에게 작업 방식을 스킬로 가르치는 에이전틱 스킬 프레임워크 겸 개발 방법론
 - [Supertonic](https://github.com/supertone-inc/supertonic) - 기기 내에서 완전히 구동되는 초고속 다국어 온디바이스 TTS 엔진
 - [supervision](https://github.com/roboflow/supervision) - 객체 탐지·분할 모델의 결과를 박스·마스크로 그리고, 지정 구역 안의 대상을 세고, 영상 프레임 간 추적까지 몇 줄로 붙이는 재사용 컴퓨터 비전 도구 모음(Python·MIT)
+- [SurfSense](https://github.com/MODSetter/SurfSense) - 내 문서를 조사·변환·편집해 주는 AI 에이전트를 외부로 데이터를 내보내지 않고 자체 서버에서 돌리는 구글 노트북LM 대안. 설교 준비 자료나 교인 정보처럼 밖으로 내보내기 꺼려지는 문서를 다룰 때 알맞다(별 16,366개, Python)
 - [Swiftlet](https://github.com/leonickson1/Swiftlet) - Qwen MoE 모델의 전문가 가중치를 SSD에서 스트리밍해 80B를 램 4.3GB 맥에서, 35B를 아이폰에서 구동하는 Swift·Metal 런타임(Apache 2.0)
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
 - [T3 Code](https://github.com/pingdotgg/t3code) - 내 컴퓨터에서 돌아가는 코딩 에이전트(Claude Code·Codex·Cursor 등)를 휴대폰·웹·데스크톱 앱으로 원격 조종하는 컨트롤 서피스(별 25,164개, MIT)
