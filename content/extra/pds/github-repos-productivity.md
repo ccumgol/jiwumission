@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **38개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **40개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -23,6 +23,7 @@ comments: false
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
 - [ezbookkeeping](https://github.com/mayswind/ezbookkeeping) - 도커 한 번으로 올리는 가벼운 자체 호스팅 가계부. 다중 통화·다중 계정·지출 분류·차트·2단계 인증을 지원하고 모바일 브라우저에서도 앱처럼 쓸 수 있다
 - [Firefly III](https://github.com/firefly-iii/firefly-iii) - 계좌·예산·청구서·저축 목표를 한곳에서 관리하고 규칙 기반으로 거래를 자동 분류하는 자체 호스팅 개인·가정용 가계부(공개 데모 제공, 별 2만 4천여 개, AGPL-3.0)
+- [FSNotes](https://github.com/glushchenko/fsnotes) - 맥·아이폰용 네이티브 마크다운 메모 앱. 서버나 계정 없이 메모를 평범한 텍스트 파일로 저장하고 아이클라우드로 동기화하며, 빠른 검색·태그·암호 잠금 폴더를 지원한다(별 7,524개, MIT, Swift)
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio) - 주식·ETF·예금 등 여러 계좌에 흩어진 자산을 한 화면에 모아 배분 비율·수익률·수수료를 보여 주는 자체 호스팅 오픈소스 자산 관리 도구(다중 통화, 별 9천여 개, AGPL-3.0, TypeScript)
 - [Handy](https://github.com/cjpais/Handy) - 인터넷 연결 없이 내 컴퓨터 안에서만 음성을 텍스트로 바꿔 주는 무료 오픈소스 받아쓰기 앱. 녹음 내용이 외부로 전송되지 않는다(별 3만 1,991개, MIT, Rust, 윈도우·맥·리눅스)
 - [hister](https://github.com/asciimoo/hister) - 내가 방문한 웹페이지의 본문까지 저장해 전문 검색할 수 있게 해 주는 개인용 검색 엔진. 제목·주소만 남는 브라우저 방문 기록과 달리 내용으로 되찾을 수 있다(약 3,340 star, Go)
@@ -46,6 +47,7 @@ comments: false
 - [Plane](https://github.com/makeplane/plane) - 지라·리니어·먼데이·클릭업을 대체하는 자체 호스팅 오픈소스 프로젝트 관리 플랫폼(이슈·스프린트·칸반·문서·트리아지, 별 5만 9천여 개, AGPL-3.0, TypeScript)
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
 - [ppt-master](https://github.com/hugohe3/ppt-master) - 문서나 주제를 넣으면 이미지가 아니라 네이티브 도형·전환 효과·애니메이션으로 이뤄진 진짜 .pptx 파일을 만들어 주는 AI 발표자료 생성 도구. 데이터 기반 차트·표를 넣고 발표자 노트를 음성 내레이션으로 바꾸며 기존 템플릿도 그대로 적용한다(별 59,365개, MIT, Python)
+- [Presenton](https://github.com/presenton/presenton) - 문장 하나로 편집 가능한 파워포인트 발표 자료를 통째로 만들어 주는 오픈소스 AI 발표 자료 생성기 겸 API(감마·캔바 대안, 별 1만 1천여 개, Apache-2.0, TypeScript)
 - [SiYuan](https://github.com/siyuan-note/siyuan) - 노트를 블록 단위로 잘게 쪼개 서로 연결하는 프라이버시 우선 오픈소스 지식 워크스페이스. 데이터가 전부 로컬 마크다운으로 남고 윈도우·맥·리눅스·안드로이드·iOS 지원, 도커 자체 호스팅과 WebDAV·S3 동기화 가능(AGPL-3.0)
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
 - [TeXbrain](https://github.com/swimmingbrain/texbrain) - pdfTeX를 웹어셈블리로 컴파일해 브라우저 안에서 그대로 돌리는 자유 소프트웨어 LaTeX 편집기. 실시간 미리보기·공동 편집·git 연동을 갖췄고 계정·쿠키·텔레메트리 없이 오프라인으로도 작동하며, File System Access API로 로컬 폴더를 직접 읽고 쓴다
