@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **115개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **116개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -34,6 +34,7 @@ comments: false
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) - AI 에이전트가 사용자가 로그인해 둔 실제 브라우저를 그대로 조작하게 해 주는 CLI와 확장 프로그램
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
+- [chess-postmortem-skills](https://github.com/brumar/chess-postmortem-skills) - Stockfish로 체스 기보를 분석해 주석 PGN·HTML 뷰어·해설 영상까지 만들어 주는 Claude Code 스킬 모음
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) - 블렌더·프리캐드·김프·리브레오피스·draw.io·OBS 같은 GUI 프로그램에 명령줄을 붙여 AI 에이전트가 직접 조작하게 해 주는 CLI 허브(별 50,640개, 홍콩대 HKUDS, Apache-2.0)

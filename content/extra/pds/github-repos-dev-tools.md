@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 49개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 49개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **48개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **49개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -63,4 +63,5 @@ comments: false
 - [Whiteboard](https://github.com/devdotfast/whiteboard) - 사람과 AI 에이전트가 같은 캔버스에서 소프트웨어 설계를 함께 하는 오픈소스 IDE. Rust로 만든 AST 인식 diff 뷰어로 구조 변경을 의미 단위로 보여 주고 다이어그램과 코드를 연결하며 설계 결정을 기록으로 남긴다(별 1,888개, MIT)
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위
 - [Wyzer](https://github.com/Wyzer-Lang/wyzer) - 소유권 규칙 하나로 메모리·동시성·네트워크 안전성을 함께 해결하려는 정적 타입 컴파일 언어(코레오그래픽 프로그래밍, perceus 메모리 모델)
+- [xtool](https://github.com/xtool-org/xtool) - 맥과 Xcode 없이 리눅스·윈도우·macOS에서 SwiftPM만으로 iOS 앱을 빌드하고 기기에 배포하는 크로스 플랫폼 도구
 - [ZSvirt](https://github.com/ZSvirt/zsvirt) - VMware·Proxmox를 대체하려는 KVM 기반 경량 오픈소스 가상화 플랫폼 겸 IaaS 엔진(Java, GPL-3.0)
