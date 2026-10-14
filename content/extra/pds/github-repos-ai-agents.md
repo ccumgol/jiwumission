@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 114개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 114개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 117개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 117개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **116개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **117개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -63,6 +63,7 @@ comments: false
 - [Humanizer](https://github.com/blader/humanizer) - 코딩 에이전트가 쓴 글에서 'AI가 쓴 티'(상투구·균질한 문단·과도한 접속사)를 걷어내 사람 문장처럼 다듬어 주는 에이전트 스킬(별 4만 3천여 개, MIT, Python)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [i-have-adhd](https://github.com/ayghri/i-have-adhd) - 코딩 에이전트가 답을 장황한 설명 속에 파묻지 않고 결론부터 말하게 만드는 스킬(2026년 9월 9일 깃허브 트렌딩 1위, 하루 4,624 star, 누적 별 3만 4천여 개, MIT)
+- [iFixAi](https://github.com/ifixai-ai/iFixAi) - AI 에이전트가 실제로 지시받은 일을 수행하고 있는지 사람 또는 에이전트 스스로 120초 안에 독립 감사하게 해주는 도구(별 2만 7,276개, Apache-2.0, Python)
 - [impeccable](https://github.com/pbakaus/impeccable) - AI 코딩 에이전트에 디자인 감각을 입히는 디자인 언어. 명령어 24개와 결정론적 검출 규칙 61개로 AI가 만든 프런트엔드의 흔한 실수를 잡아냅니다.
 - [Jeeves](https://github.com/PostHog/jeeves) - 예/아니오·객관식·점수 매기기 같은 판정만 전담하되, 답하기 전에 먼저 추론하도록 학습시킨 9B 분류 모델. 학습에 쓰지 않은 테스트 데이터에서 0.889를 기록해 기존 Jev 계열(0.857)을 앞섰고 학습 코드와 데이터까지 공개돼 있다(385 star, MIT, Python)
 - [jev-pokemon](https://github.com/christianmat/jev-pokemon) - 타입 기반 의사결정 모델 Jev가 포켓몬 레드를 37시간 40분 만에 클리어한 실험 기록.

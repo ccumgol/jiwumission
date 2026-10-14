@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 71개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 71개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 72개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 72개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **71개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **72개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -63,6 +63,7 @@ comments: false
 - [Holy Bible XML Format](https://github.com/Beblia/Holy-Bible-XML-Format) - 200개 이상 언어·1,000개 이상 역본의 성경 본문을 통일된 XML 포맷으로 공개한 무료 성경 데이터 저장소(다국어 사역 자료 제작에 유용)
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
 - [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
+- [Lessons.church](https://github.com/ChurchApps/LessonsApp) - 교회 어린이부·주일학교용 무료 영상 교육과정 플랫폼으로 교실별 일정 배정과 내용 수정이 가능하고 FreePlay TV 앱이 수업을 미리 받아 오프라인 재생한다(ChurchApps, TypeScript)
 - [Liberapay](https://github.com/liberapay/liberapay.com) - 주·월·연 단위 정기 후원을 자동으로 받고 후원 내역과 목표 금액을 공개 페이지에 투명하게 보여주는 비영리 오픈소스 후원 플랫폼. 플랫폼 수수료가 없고 직접 설치해 운영할 수도 있다(별 2,011개, Python)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
