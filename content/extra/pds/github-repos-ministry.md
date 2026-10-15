@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 72개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 72개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 73개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 73개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **72개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **73개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -32,6 +32,7 @@ comments: false
 - [Bible Song Pro Studio](https://github.com/Johnbatey/bible-song-pro-studio) - 찬양 가사와 성경 구절을 띄우고 OBS 송출로 바로 내보내는 예배용 일렉트론 데스크톱 콘솔
 - [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
 - [bible-api](https://github.com/wldeh/bible-api) - 200개가 넘는 언어와 역본의 성경 본문을 JSON으로 제공하는 무료 성경 API. API 키·회원가입·사용량 제한이 없고 jsDelivr CDN에서 바로 호출돼 '오늘의 말씀' 위젯이나 묵상 봇을 서버 없이 만들 수 있다(별 531개, MIT)
+- [bible-translations](https://github.com/jadenzaleski/bible-translations) - 바이블게이트웨이의 성경 역본 전체를 JSON과 SQL 두 형식으로 정리해 둔 데이터 저장소. 역본별로 장·절이 구조화돼 있어 주보·예배 자막 구절 추출, 오늘의 말씀 봇, 통독표 자동 채우기에 쓰기 좋고 호출 제한이나 사용료가 없다(별 217개, MIT, Python)
 - [bible_api](https://github.com/seven1m/bible_api) - 퍼블릭 도메인·오픈 라이선스 성경 역본을 JSON API로 제공하는 루비 웹 앱. 널리 쓰이는 bible-api.com을 그대로 돌리는 원본 코드로, 오늘의 말씀 위젯·묵상 봇 제작이나 자체 호스팅에 적합(802 star, MIT)
 - [Biblememory](https://github.com/miking7/biblememory) - 간격 반복(Spaced Repetition) 알고리즘을 사용하여 성경 암송을 돕는 오프라인 우선(PWA) 성경 암송 앱
 - [BibleOS](https://github.com/crynta/BibleOS) - Tauri 기반 크로스플랫폼 성경 리더 앱으로, 읽는 중에 AI 채팅으로 본문 배경·문맥을 바로 물어볼 수 있다
