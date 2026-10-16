@@ -119,7 +119,8 @@ def process(path, qts):
     # 1) 내용구분 섹션 헤딩 찾기 ("각 장 ... 내용 정리" 또는 "각 장의 내용 요약")
     hs = hl = None
     for i, l in enumerate(lines):
-        if re.match(r"^(#{2,4})\s*(?:\d+\.\s*)?각 장.*(?:내용 정리|내용 요약)", l):
+        # "각 장 및 문단의 내용 정리" 또는 잠언처럼 "4. 내용 정리"만 있는 제목도 인식
+        if re.match(r"^(#{2,4})\s*(?:\d+\.\s*)?(?:각 장.*)?(?:내용 정리|내용 요약)", l):
             hs = i
             hl = len(re.match(r"^(#{2,4})", l).group(1))
             break
