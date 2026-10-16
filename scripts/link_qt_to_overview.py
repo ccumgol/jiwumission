@@ -48,8 +48,14 @@ def P(chapter, verse):
 
 
 def parse_ref(tok):
-    """'1:1-2:3' / '1:1-18' / '1:1' 형태를 (시작위치, 끝위치)로."""
-    m = re.match(r"^(\d+):(\d+)-(?:(\d+):)?(\d+)$", tok)
+    """'1:1-2:3' / '1:1-18' / '1:1' 형태를 (시작위치, 끝위치)로.
+
+    절 뒤 a/b 반절 표기('2:1-10a', '2:10b-22')와 장 단위 본문('40-42장')도 인식.
+    """
+    m = re.match(r"^(\d+)-(\d+)장$", tok)
+    if m:
+        return (P(int(m.group(1)), 1), P(int(m.group(2)), 999))
+    m = re.match(r"^(\d+):(\d+)[ab]?-(?:(\d+):)?(\d+)[ab]?$", tok)
     if m:
         sc, sv = int(m.group(1)), int(m.group(2))
         ec = int(m.group(3)) if m.group(3) else sc
