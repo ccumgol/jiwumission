@@ -161,10 +161,16 @@ def process(path, qts):
             text = m.group(3)
         else:
             stripped = lines[i].strip()
-            # 빈 줄·헤딩·인용은 건너뜀
-            if not stripped or stripped.startswith(("#", ">")):
+            # 빈 줄·인용은 건너뜀
+            if not stripped or stripped.startswith(">"):
                 continue
-            text = stripped.lstrip("*").strip()
+            if stripped.startswith("#"):
+                # 빌레몬서처럼 문단 범위를 소제목에 적은 개론("### 1:1-3 인사")만 항목으로 인정
+                text = stripped.lstrip("#").strip()
+                if not re.match(r"^\d+:\d+", text):
+                    continue
+            else:
+                text = stripped.lstrip("*").strip()
         ref = entry_ref(text)
         if ref:
             entries.append([i, ref[0], ref[1]])
