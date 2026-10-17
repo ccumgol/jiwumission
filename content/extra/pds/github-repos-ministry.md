@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 73개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 73개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 74개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 74개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **73개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **74개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -87,5 +87,6 @@ comments: false
 - [TheOpenPresenter](https://github.com/Vija02/TheOpenPresenter) - 브라우저만 있으면 어떤 기기에서도 송출하고 여러 사람이 실시간으로 함께 편집·조작하는 오픈소스 예배·행사 프레젠테이션 소프트웨어(프로프리젠터 대안, 오프라인 앱 제공, 작은 교회·비영리단체용 무료 호스팅 약속, AGPL-3.0, TypeScript)
 - [UniqueBible](https://github.com/eliranwong/UniqueBible) - 히브리어·헬라어 원어 자료와 주석·사전·백과사전·연대표를 통째로 내려받아 완전 오프라인으로 쓰는 크로스플랫폼 성경 연구 앱(GUI·웹서버·터미널 등 다중 실행 모드, GPL-3.0)
 - [Vereinfacht](https://github.com/vereinfacht/vereinfacht) - 회원 명부·회비·단체 행정을 한곳에서 처리하는 비영리 단체와 자원봉사 모임용 웹 운영 플랫폼
+- [VezyWorship](https://github.com/VEZwolle/vezy-worship) - 빔프로젝터와 라이브 스트림 화면을 따로 구성하는 예배 프레젠테이션 소프트웨어
 - [Weblate](https://github.com/WeblateOrg/weblate) - 깃 저장소와 맞물려 여러 언어권 팀이 소식지·교재·앱 문구를 문장 단위로 나눠 번역·검토·용어집 관리하는 웹 기반 현지화 플랫폼(자체 호스팅 가능)
 - [Xiphos](https://github.com/crosswire/xiphos) - SWORD 프로젝트 모듈로 여러 역본·주석·사전을 나란히 놓고 연구하는 리눅스·유닉스·윈도우용 데스크톱 성경 공부 도구(CrossWire)

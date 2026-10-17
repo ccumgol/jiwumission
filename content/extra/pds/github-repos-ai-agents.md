@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 119개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 119개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 120개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 120개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **119개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **120개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -37,6 +37,7 @@ comments: false
 - [chess-postmortem-skills](https://github.com/brumar/chess-postmortem-skills) - Stockfish로 체스 기보를 분석해 주석 PGN·HTML 뷰어·해설 영상까지 만들어 주는 Claude Code 스킬 모음
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
+- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - 앤스로픽이 직접 검수해 관리하는 클로드 코드 플러그인 공식 디렉터리
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) - 블렌더·프리캐드·김프·리브레오피스·draw.io·OBS 같은 GUI 프로그램에 명령줄을 붙여 AI 에이전트가 직접 조작하게 해 주는 CLI 허브(별 50,640개, 홍콩대 HKUDS, Apache-2.0)
 - [Cline](https://github.com/cline/cline) - IDE/터미널에서 동작하는 오픈소스 자율 AI 코딩 에이전트
 - [Cloudflare Computer](https://github.com/cloudflare/computer) - Durable Object 안에서 SQLite로 백업되는 영속 가상 파일시스템을 제공해 에이전트가 파일 편집·셸 명령·git 작업을 감사 로그와 함께 수행하게 하는 클라우드플레어의 에이전트 런타임

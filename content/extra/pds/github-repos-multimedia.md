@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **29개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **30개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -31,6 +31,7 @@ comments: false
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - 자료 조사·대본·장면 설계·소재 생성·편집·내레이션·렌더링까지 12개 파이프라인으로 나눠 처리해 코딩 어시스턴트를 통째로 영상 제작 스튜디오로 바꾸는 오픈소스 에이전트형 영상 제작 시스템(AGPL-3.0)
+- [OpenPencil](https://github.com/open-pencil/open-pencil) - AI를 전제로 설계된 로컬 우선 오픈소스 디자인 에디터, 피그마 대안
 - [OpenTIE](https://github.com/elyosh/OpenTIE) - 1990년대 스타워즈 우주 전투 시뮬레이터 '타이 파이터'와 'X-윙 얼라이언스'를 현대 시스템에서 돌아가게 이식한 오픈소스 포트(C)
 - [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
