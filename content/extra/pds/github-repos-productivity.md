@@ -12,12 +12,13 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **40개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **41개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
 - [Alexandrie](https://github.com/Smaug6739/Alexandrie) - 확장 마크다운 에디터·칸반·OIDC/SSO·오프라인 PWA를 갖춘 자체 호스팅 지식 베이스(노션·컨플루언스 대안), docker compose 한 번으로 배포
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - 문서·DB·칸반·캘린더·위키를 하나로 묶은 오픈소스 노션 대안(Rust·Flutter, 데스크톱 앱·오프라인 우선)
+- [BeeCount](https://github.com/TNT-Likely/BeeCount) - iOS·안드로이드·웹에서 돌아가는 로컬 우선 가계부 앱으로 iCloud·WebDAV·S3 동기화와 영수증 AI 자동 입력을 지원(별 2,567개, Flutter)
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
 - [BudgetBee](https://github.com/budgetbee/budgetbee) - 도커 한 번으로 내 서버에 올리는 자체 호스팅 가계부. 카테고리별 예산·순자산 집계·다가올 고정지출·엑셀/JSON 가져오기·다중 사용자·다중 통화 지원(MIT)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼

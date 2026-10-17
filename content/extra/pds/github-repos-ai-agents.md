@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 118개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 118개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 119개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 119개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **118개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **119개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -134,3 +134,4 @@ comments: false
 - [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - 자연어로 주식·크립토·외환 전략을 만들고 백테스트하는 오픈소스 AI 트레이딩 에이전트(홍콩대 HKUDS)
 - [Waste](https://github.com/sqliteai/waste) - 램 29GB만으로 Kimi K3 급 초대형 모델을 초당 0.5토큰 속도로 구동하는 실험적 추론 프로젝트
 - [WeKnora](https://github.com/Tencent/WeKnora) - 쌓아 둔 문서를 넣으면 질문에 답하는 RAG 검색, 스스로 조사하는 추론 에이전트, 자동으로 갱신되는 위키까지 한 번에 만들어 주는 텐센트의 오픈소스 LLM 지식 플랫폼(Ollama·OpenAI 등 모델 백엔드 교체 가능, 멀티테넌트 지원, Go)
+- [XERJ](https://github.com/xerj-org/xerj) - 코드·문서·로그·PDF를 한 번에 색인해 AI 에이전트가 grep보다 토큰을 40배 적게 쓰고 검색하게 해 주는 Rust 기반 검색 엔진(별 6,861개, Apache-2.0, 일래스틱서치 호환)

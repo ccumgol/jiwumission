@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 28개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 28개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **28개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **29개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -34,6 +34,7 @@ comments: false
 - [Open WebUI](https://github.com/open-webui/open-webui) - 로컬 모델(Ollama)과 OpenAI API를 한 화면에서 쓰는 자체 호스팅 챗GPT 스타일 AI 대화 인터페이스. 문서 기반 RAG·사용자 계정 관리 내장(별 15만여 개, 파이썬)
 - [openGym](https://github.com/DuarteSantos8/openGym) - 직접 서버에 올려 쓰는 헬스·체중 기록 앱. 루틴을 짜고 운동을 기록하면 어느 근육이 충분히 자극됐는지·피로한지·방치됐는지를 보여주고, FitNotes·Strong·Hevy에서 기록을 가져올 수 있다(별 4,217개, JavaScript, AGPL-3.0, 깃허브 트렌딩 일간 1위)
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
+- [OpenSMS](https://github.com/daslearning-org/OpenSMS) - 쓰던 안드로이드 폰과 유심만으로 직접 운영하는 SMS API 게이트웨이를 만들어 주는 오픈소스 프로젝트(별 32개, Apache-2.0, Python)
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
 - [ResolveHQ](https://github.com/mirza-rizvi/ResolveHQ) - 클라우드플레어 워커스(D1·R2·큐·이메일 라우팅) 위에 올리는 자체 호스팅 헬프데스크. 공용 수신함과 이메일 스레드 묶기, AI 보조 답변을 지원한다.
 - [RomM](https://github.com/rommapp/romm) - 레트로 게임 롬 파일을 메타데이터·박스아트와 함께 정리하고 브라우저에서 바로 실행하는 자체 호스팅 롬 매니저 겸 플레이어
