@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 51개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 51개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 53개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 53개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **51개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **53개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -34,6 +34,7 @@ comments: false
 - [Factorio Code Visualizer](https://github.com/rorz/factorio-code-visualizer) - 코드베이스 구조를 실제로 플레이 가능한 Factorio 게임 맵으로 변환해 시각화하는 도구
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - 웹을 검색·스크래핑해 LLM이 바로 쓸 수 있는 형태로 넘겨주는 대규모 컨텍스트 API
 - [GenLayer Project Boilerplate](https://github.com/genlayerlabs/genlayer-project-boilerplate) - 계약 안에서 LLM을 불러 웹 데이터를 가져오고 자연어를 해석하는 '지능형 계약' 예제 모음. 축구 경기 예측 게임이 완제품으로 들어 있어 계약이 스스로 스포츠 뉴스에서 결과를 가져와 동등성 원칙으로 검증한다(Vue.js 프런트엔드·종단간 테스트 프레임워크 포함)
+- [git-ai](https://github.com/feder-cr/git-ai) - AI 에이전트를 위해 다시 설계한 Git. 에이전트가 코드를 고칠 때 작업을 격리하고 이력을 깔끔하게 남기도록 깃 위에 얹은 도구(별 1,784개, Go)
 - [Git-knife](https://github.com/TheRealYT/git-knife) - 커밋 메시지·작성자·author date·committer date를 스프레드시트처럼 일괄 편집하는 데스크톱 GUI(정규식 찾기·바꾸기 지원, 원래 tree를 재사용해 파일 내용은 변경하지 않음)
 - [gpty](https://github.com/godot-pty/gpty) - 게임 엔진 고닷(Godot)과 러스트로 만든 터미널 멀티플렉서 데스크톱 앱. AI 에이전트 세션을 여러 개 띄워 두고 쓰는 용도를 겨냥(57 star, GPL-3.0)
 - [Graphify](https://github.com/safishamsi/graphify) - 코드·SQL 스키마·스크립트·문서·논문·이미지·영상 폴더를 하나의 질의 가능한 지식 그래프로 바꿔주는 AI 코딩 어시스턴트 스킬
@@ -49,6 +50,7 @@ comments: false
 - [Open Code Review](https://github.com/alibaba/open-code-review) - 규칙 기반 파이프라인과 LLM 에이전트를 함께 돌려 코드 줄 단위로 지적해주는 알리바바의 사내용 코드 리뷰 도구(별 2만 8천여 개, Apache-2.0, Go)
 - [open-compute](https://github.com/elliothux/open-compute) - KV·D1·R2·Durable Objects·큐·워크플로를 러스트 바이너리 하나에 담은 클라우드플레어 워커스 호환 자체 호스팅 런타임.
 - [openai/math](https://github.com/openai/math) - OpenAI 내부 모델이 미해결 수학 문제에 대해 만들어 낸 원고 719편과 그 일부의 린(Lean) 형식 증명을 372개 계열로 정리해 공개한 저장소(별 1만 2,009개, Lean, Apache-2.0)
+- [Parin](https://github.com/Kapendev/parin) - raylib과 고도(Godot) 사이의 빈자리를 노린, 단순함을 앞세운 2D 게임 엔진(별 127개, D, MIT)
 - [Pascal Editor](https://github.com/pascalorg/editor) - 로컬 CLI와 MCP 도구를 갖춰 사람과 AI 에이전트가 같은 도면을 함께 편집하는 오픈소스 3D 건축 편집기(평면도·파라메트릭 설계·BIM, 별 2만 3천여 개, MIT, TypeScript)
 - [rea](https://github.com/morluto/rea) - AI 에이전트를 붙여 앱 동작부터 네이티브 바이너리까지 역분석하는 리버스 엔지니어링 도구
 - [reladraw](https://github.com/reladraw/reladraw) - 배치를 자동으로 정하지 않고 "무엇의 왼쪽 위", "A와 B 사이" 같은 관계 문장으로 위치를 직접 지정하는 텍스트 다이어그램 언어(Show HN 167포인트, Apache-2.0, TypeScript)

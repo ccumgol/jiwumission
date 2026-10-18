@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 120개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 120개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 121개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 121개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **120개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **121개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -110,6 +110,7 @@ comments: false
 - [Qm](https://github.com/yc-software/qm) - Y Combinator가 내부 운영에 실제로 쓰는 멀티플레이어 AI 에이전트 하니스(사람·방마다 격리된 메모리·권한·샌드박스, 하니스/모델 교체 가능, MIT)
 - [RAGFlow](https://github.com/infiniflow/ragflow) - 문서를 근거로 짚어가며 답하게 해주는 오픈소스 RAG 엔진. 최근 에이전트 기능을 붙여 LLM에 넘길 문맥 계층 자체를 만드는 쪽으로 확장했다(Go, Apache 2.0)
 - [Re_gent](https://github.com/regent-vcs/re_gent) - AI 에이전트의 작업 이력을 git처럼 추적·되감기·bisect 할 수 있게 하는 에이전트용 버전관리 도구
+- [ruflo](https://github.com/ruvnet/ruflo) - 여러 AI 에이전트를 떼로 묶어 자율 작업 흐름을 돌리는 에이전트 하네스. 적응형 메모리·자기 학습·벡터 RAG 연동을 갖췄고 클로드 코드·코덱스 등과 바로 붙는다(별 76,451개, TypeScript, MIT)
 - [RuView](https://github.com/ruvnet/RuView) - 카메라 없이 일반 WiFi 신호만으로 실시간 공간 인식·재실 감지·생체 신호 모니터링을 수행하는 무선 센싱 프로젝트
 - [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - AI 에이전트를 과학 연구 도우미로 바꿔 주는 에이전트 스킬 모음. 생물·화학·의학·신약 개발 분야의 검증된 스킬 177개와 과학 데이터베이스 100여 곳 연결을 담았고, 커서·클로드 코드·코덱스 등 오픈 에이전트 스킬 표준을 따르는 도구에서 그대로 쓴다(별 50,388개, MIT, Python)
 - [Semantica](https://github.com/semantica-agi/semantica) - 흩어진 사내 데이터를 하나의 지식 그래프로 묶어 에이전트가 그 위에서 추론하게 하고 모든 결정에 W3C PROV-O 출처 기록을 남기는 결정론적 컨텍스트 인프라(그래프 구축·추론에 LLM 불필요, MIT)
