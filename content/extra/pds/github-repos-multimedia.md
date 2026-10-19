@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 31개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 31개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **30개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **31개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -20,6 +20,7 @@ comments: false
 - [Audacity](https://github.com/audacity/audacity) - 20년 넘게 이어진 무료 오픈소스 오디오 편집기. 2026년 9월 4.0 정식 버전을 내며 해커뉴스 최상단에 올랐고, 팟캐스트·설교 녹음·유튜브 내레이션 다듬기에 여전히 가장 실용적인 선택(1만 8천 star, C++)
 - [Audionaut](https://github.com/kvoltmer/Audionaut) - JUCE로 만든 크로스 플랫폼 멀티트랙 오디오 편집·녹음 프로그램
 - [Cap](https://github.com/CapSoftware/Cap) - 화면·카메라·마이크를 한 번에 담아 로컬 저장하거나 자체 스토리지로 공유하는 오픈소스 Loom 대체 화면 녹화 도구(맥·윈도우, 2만 1천 star, Rust)
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - 노드를 선으로 이어 이미지·영상 생성 모델의 작업 흐름을 조립하는 GUI이자 백엔드(별 139,599개, Python, GPL-3.0)
 - [Compositor](https://github.com/robbietilton/Compositor) - 피사체 선택·배경 제거·콘텐츠 인식 채우기를 지원하는 맥용 무료 포토샵 대안(별 1만 6,900개, MIT, Swift)
 - [Doory](https://github.com/shaongitbd/doory) - 브라우저에서 포스터·카드뉴스·SNS 이미지를 만드는 오픈소스 캔바(Canva) 대안. 자체 호스팅으로 구독료 없이 운영할 수 있다(별 773개, TypeScript)
 - [hyperframes](https://github.com/heygen-com/hyperframes) - HTML로 화면을 작성하면 그대로 완성된 영상으로 렌더링해주는 에이전트용 영상 제작 프레임워크(별 4만 7천여 개, TypeScript, Apache-2.0, GSAP·Puppeteer·ffmpeg 기반)

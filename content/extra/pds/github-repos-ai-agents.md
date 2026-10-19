@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 121개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 121개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 123개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 123개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **121개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **123개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -30,6 +30,7 @@ comments: false
 - [archify](https://github.com/tt-a1i/archify) - 코딩 에이전트가 아키텍처·워크플로·시퀀스·데이터 흐름 다이어그램을 자체 완결형 HTML로 그려 주는 에이전트 스킬(모션·고해상도 내보내기 지원, MIT)
 - [ax](https://github.com/google/ax) - 구글이 공개한 오픈 에이전트 오케스트레이션 런타임으로 여러 AI 에이전트를 엮어 실행한다(별 7,586개, 하루 만에 +2,305개, Go, Apache-2.0)
 - [big-arrow-on-the-screen](https://github.com/franzenzenhofer/big-arrow-on-the-screen) - AI 에이전트가 맥 화면 위에 화살표·상자·텍스트를 그려 가리킬 수 있게 해 주는 CLI
+- [billion-context](https://github.com/ranxianglei/billion-context) - 컨텍스트 창이 작아도 긴 에이전트 세션을 이어가게 해 주는 컨텍스트 압축 플러그인(별 2,004개, TypeScript, 토큰 사용량 약 5분의 1)
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) - AI 에이전트가 사용자가 로그인해 둔 실제 브라우저를 그대로 조작하게 해 주는 CLI와 확장 프로그램
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
@@ -136,4 +137,5 @@ comments: false
 - [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - 자연어로 주식·크립토·외환 전략을 만들고 백테스트하는 오픈소스 AI 트레이딩 에이전트(홍콩대 HKUDS)
 - [Waste](https://github.com/sqliteai/waste) - 램 29GB만으로 Kimi K3 급 초대형 모델을 초당 0.5토큰 속도로 구동하는 실험적 추론 프로젝트
 - [WeKnora](https://github.com/Tencent/WeKnora) - 쌓아 둔 문서를 넣으면 질문에 답하는 RAG 검색, 스스로 조사하는 추론 에이전트, 자동으로 갱신되는 위키까지 한 번에 만들어 주는 텐센트의 오픈소스 LLM 지식 플랫폼(Ollama·OpenAI 등 모델 백엔드 교체 가능, 멀티테넌트 지원, Go)
+- [whatsapp-mcp](https://github.com/finereli/whatsapp-mcp) - 내 왓츠앱 메시지를 AI 에이전트가 검색·열람할 수 있게 해 주는 읽기 전용 MCP 서버(별 284개, MIT, 클라우드플레어 워커스에서 무료 구동)
 - [XERJ](https://github.com/xerj-org/xerj) - 코드·문서·로그·PDF를 한 번에 색인해 AI 에이전트가 grep보다 토큰을 40배 적게 쓰고 검색하게 해 주는 Rust 기반 검색 엔진(별 6,861개, Apache-2.0, 일래스틱서치 호환)
