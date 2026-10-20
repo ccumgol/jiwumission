@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 75개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 75개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 76개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 76개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **75개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **76개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -62,6 +62,7 @@ comments: false
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [FreeShowRemote](https://github.com/ChurchApps/FreeShowRemote) - 무료 예배 송출 프로그램 FreeShow를 스마트폰으로 조작하는 공식 리모컨 앱. 같은 와이파이에만 붙으면 인도자가 자기 자리에서 가사·성경 슬라이드를 넘길 수 있다(별 14개, React Native·Expo, MIT)
 - [GiveWP](https://github.com/impress-org/givewp) - 워드프레스 홈페이지에 일회성 헌금·정기 후원·캠페인 목표 관리·기부 영수증 발송·후원자 명단을 붙여주는 오픈소스 모금 플러그인(별 366개, PHP, GPL-3.0)
+- [Helfertool](https://github.com/helfertool/helfertool) - 행사 자원봉사자와 스태프의 모집·교대 편성·명단 관리를 한곳에서 처리하는 장고 기반 웹 도구
 - [Holy Bible XML Format](https://github.com/Beblia/Holy-Bible-XML-Format) - 200개 이상 언어·1,000개 이상 역본의 성경 본문을 통일된 XML 포맷으로 공개한 무료 성경 데이터 저장소(다국어 사역 자료 제작에 유용)
 - [Houdini](https://github.com/houdiniproject/houdini) - 후원 폼부터 캠페인 크라우드펀딩·후원자 이력 관리까지 처리하는 비영리·NGO용 오픈소스 모금 인프라
 - [Hush Line](https://github.com/scidsg/hushline) - 단체·개인이 익명 종단간 암호화 제보 창구를 직접 운영할 수 있게 해주는 오픈소스 팁라인(PGP·Tor 지원)
