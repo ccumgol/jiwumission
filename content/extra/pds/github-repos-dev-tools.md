@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 53개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 53개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 54개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 54개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **53개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **54개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -41,6 +41,7 @@ comments: false
 - [Homebrew](https://github.com/Homebrew/brew) - 맥·리눅스에서 가장 널리 쓰이는 오픈소스 패키지 관리자. 7.0.0에서 네이티브 맥 GUI 앱(BrewUI), 내장 취약점 점검 `brew vulns`와 자체 보안 권고 DB, 리눅스 Landlock 샌드박스를 도입했다(별 4만 9천여 개, BSD-2-Clause, Ruby)
 - [k10s](https://github.com/p10node/k10s) - 마우스로 클릭해서 쓰는 쿠버네티스 터미널 UI. 즉시 검색·로그·파드 접속·포트 포워딩과 테마 7종, 상황을 이해하는 AI 도우미를 의존성 없는 Go 단일 바이너리로 제공한다(별 295개, Apache-2.0, Go)
 - [Kakehashi](https://github.com/wie-project/kakehashi) - JIT 없이 Mach-O를 로드하고 BSD 시스템콜을 번역해 리눅스 ARM64에서 macOS 바이너리를 실행하는 유저스페이스 변환 계층
+- [KiviDB](https://github.com/kividbio/kividb) - Redis·Valkey 명령어와 호환되면서 전문 검색과 벡터 검색을 내장한 멀티스레드 인메모리 데이터베이스(별 379개, AGPL-3.0, Rust)
 - [Klepton](https://github.com/shinyquagsire23/Klepton) - JIT 없이 Quest·안드로이드 XR APK를 visionOS와 macOS에서 실행하는 리링커 겸 호환 계층
 - [LatticeDB](https://github.com/jeffhajewski/latticedb) - 파일 하나에 지식 그래프·벡터 검색·전문 검색을 함께 담은 임베디드 데이터베이스. Cypher 질의 하나로 의미 검색·전문 검색·그래프 탐색을 섞을 수 있고 그래프 탐색이 SQLite 대비 크게 빠르다("관계로 질의하는 데이터를 위한 SQLite")
 - [LuaCAD](https://github.com/ad-si/LuaCAD) - Lua 스크립트로 파라메트릭 2D·3D CAD 모델을 작성해 3MF·STL·OBJ 등으로 내보내는 도구(Rust 엔진에 Lua 5.4 임베드, CLI·데스크톱 앱·WASM 플레이그라운드, BOSL2 완전 지원)

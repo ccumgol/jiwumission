@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 124개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 124개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 126개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 126개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **124개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **126개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -47,6 +47,7 @@ comments: false
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [context-mode](https://github.com/mksglu/context-mode) - AI 코딩 에이전트의 도구 실행 결과를 샌드박스에 격리해 컨텍스트 소모를 최대 98%까지 줄이고, 세션 메모리 저장과 17개 플랫폼 모델 라우팅을 MCP·훅으로 강제하는 도구(별 2만 7천여 개, TypeScript)
 - [cua](https://github.com/trycua/cua) - 여러 OS의 가상머신 플릿과 오픈소스 드라이버·벤치마크를 묶어 컴퓨터를 직접 조작하는 AI 에이전트의 학습·평가·데이터 생성을 대규모로 돌리는 플랫폼(별 2만 4천 개, MIT)
+- [DeepInfer](https://github.com/deepseek-ai/DeepInfer) - 딥시크가 V4.1-Flash를 대규모로 서빙하던 고성능 추론 프레임워크를 공개한 것(별 17,687개, Apache-2.0, Python)
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Node.js 설치나 터미널 명령 없이 DeepSeek Harness를 쓸 수 있게 감싼 macOS·윈도우용 Electron 데스크톱 앱(트레이 상주·모바일 원격 접속·플러그인 지원, MIT)
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
@@ -73,6 +74,7 @@ comments: false
 - [JevBench](https://github.com/fstandhartinger/jevbench) - LLM을 심판으로 쓰는 대신 타입이 정해진 판정으로 의사결정 모델을 비교 평가하는 공개 벤치마크(별 214개, Hacker News 149점)
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) - 문서 작성·표 다루기·자료 조사 등 지식 노동 업무를 AI가 거들도록 묶어 놓은 Claude Cowork용 오픈소스 플러그인 모음(별 2만 5천여 개, Apache-2.0, Python)
+- [Kronos](https://github.com/shiyu-coder/Kronos) - 주가 캔들 등 금융 시계열을 하나의 언어처럼 학습시킨 오픈소스 기반 모델(별 42,770개, MIT, Python)
 - [lossless-memory](https://github.com/aru-labs/lossless-memory) - 개인용 AI의 장기 기억을 요약 없이 원문 그대로 보관하고 모든 항목에 타임스탬프를 붙이는 도구(별 102개, Python, MIT)
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [magnitude](https://github.com/magnitudedev/magnitude) - 내 컴퓨터 사양에 맞는 최적의 로컬 AI 모델을 자동으로 골라 띄우고 Claude Code·Codex·Cline 등 기존 코딩 에이전트에 그대로 연결해주는 오픈소스 추론 서버(3,718 star, Apache-2.0, TypeScript)
