@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 54개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 54개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 55개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 55개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **54개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **55개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -59,6 +59,7 @@ comments: false
 - [screenshot-to-code](https://github.com/abi/screenshot-to-code) - 웹페이지나 디자인 시안을 화면 캡처해 넣으면 바로 손볼 수 있는 HTML/Tailwind·React·Vue 코드로 바꿔 주는 도구
 - [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
 - [SolidCraft](https://github.com/bherbruck/solidcraft) - 순수 러스트로 만든 오픈소스 파라메트릭 3D CAD로 데스크톱·웹에서 돌아가고 MCP로 자동화할 수 있다(별 2,328개, Apache-2.0, Rust)
+- [Supabase](https://github.com/supabase/supabase) - PostgreSQL 데이터베이스에 인증·파일 저장·실시간 동기화·자동 API를 얹어 주는 오픈소스 백엔드 플랫폼, 자체 호스팅 지원(별 113,532개, Apache-2.0, TypeScript)
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) - 시스템 설계 면접 교재를 챕터별 그림과 함께 정리한 공개 학습 노트(별 1만 9천여 개)
 - [Tawc](https://github.com/wmww/tawc) - 루트 권한 없이 안드로이드 폰에서 리눅스 CLI·GUI 프로그램을 하드웨어 가속으로 실행하는 웨이랜드 컴포지터(XWayland 포함, 리눅스 앱을 홈 화면·앱 스위처에 통합, 클로드 코드로 제작)
 - [Terminal-code](https://github.com/zenbu-labs/terminal-code) - code-server로 띄운 VS Code를 kitty 그래픽 프로토콜로 터미널 격자에 픽셀 단위로 렌더링하는 도구(`tode --ssh`로 프런트엔드는 로컬·백엔드만 원격 유지)

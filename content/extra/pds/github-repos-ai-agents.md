@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 126개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 126개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 127개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 127개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **126개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **127개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -90,6 +90,7 @@ comments: false
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
 - [oMLX](https://github.com/jundot/omlx) - KV 캐시를 메모리(핫)와 SSD(콜드) 두 계층에 유지해 컨텍스트가 바뀌어도 지난 맥락을 재사용하는 애플 실리콘용 로컬 LLM 추론 서버(맥 메뉴 막대 관리, LLM·VLM·OCR·임베딩·리랭커 지원)
+- [Omnara](https://github.com/omnara-ai/omnara) - 클로드 매니지드 에이전트나 오픈AI 에이전트 API 대신 내 서버에서 직접 돌릴 수 있는 오픈소스 에이전트 운영 플랫폼(별 3,175개, Apache-2.0, Go)
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 290여 공급자·500여 모델을 단일 OpenAI 호환 엔드포인트로 묶는 MIT AI 게이트웨이(쿼터 인식 자동 폴백·토큰 압축)
 - [OpenClaw](https://github.com/steipete/openclaw) - 개인 하드웨어에서 메신저와 AI 에이전트를 연결해주는 비서
 - [opencode](https://github.com/anomalyco/opencode) - 터미널에서 돌아가는 오픈소스 코딩 에이전트로 로컬 모델 서버와 붙여 쓸 수 있다
