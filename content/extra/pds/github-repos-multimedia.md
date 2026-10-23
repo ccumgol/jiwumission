@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 32개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 32개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 33개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 33개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **32개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **33개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -31,6 +31,7 @@ comments: false
 - [ldraw-nova](https://github.com/anteloc/ldraw-nova) - 설명한 모양을 조립 가능한 레고(LDraw) 설계 파일로 만들어 주는 생성형 AI 에이전트 도구
 - [LocalVocal](https://github.com/royshil/obs-localvocal) - OBS 스튜디오에서 말하는 내용을 전부 기기 안에서 인식해 실시간 자막으로 띄우는 플러그인. 번역 자막도 지원해 예배·강의 실시간 송출에 추가 비용 없이 자막을 붙일 수 있다(별 1,616개, GPL-2.0, C++)
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
+- [OnKey](https://github.com/dsmurrell/onkey) - 스포티파이·애플 뮤직·유튜브로 노래를 틀고 따라 부르면 원곡 멜로디와 내 음정을 실시간으로 겹쳐 보여 주는 macOS용 무료 노래 연습 앱(별 약 230개, MIT, Rust·Tauri, Show HN 210점)
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - 로컬에서 비디오를 처리하는 오픈소스 CapCut 대안 편집기
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - 자료 조사·대본·장면 설계·소재 생성·편집·내레이션·렌더링까지 12개 파이프라인으로 나눠 처리해 코딩 어시스턴트를 통째로 영상 제작 스튜디오로 바꾸는 오픈소스 에이전트형 영상 제작 시스템(AGPL-3.0)
 - [OpenPencil](https://github.com/open-pencil/open-pencil) - AI를 전제로 설계된 로컬 우선 오픈소스 디자인 에디터, 피그마 대안

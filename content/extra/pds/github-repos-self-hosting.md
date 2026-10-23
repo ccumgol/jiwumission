@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 29개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **29개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **30개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -24,6 +24,7 @@ comments: false
 - [Frigate](https://github.com/blakeblackshear/frigate) - IP 카메라 영상에서 사람·차량 같은 객체를 클라우드로 보내지 않고 내 서버에서 실시간 탐지하는 자체 호스팅 오픈소스 NVR(별 3만 5천여 개, MIT, 홈어시스턴트 연동)
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
 - [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
+- [HomeHub](https://github.com/surajverma/homehub) - 공유 메모·장보기 목록·집안일·가족 달력·가계부를 한 화면에 모은 가정용 자체 호스팅 대시보드(별 1,248개, Python, MIT)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱
 - [LibreChat](https://github.com/danny-avila/LibreChat) - OpenAI·앤트로픽·구글·로컬 모델을 한 화면에서 바꿔가며 쓰는 자체 호스팅 챗GPT 대안. 다중 사용자 인증·에이전트·MCP·코드 인터프리터를 갖춰 팀이나 교회 단위로 직접 운영하기 좋다(별 4만 4천 개, MIT)
 - [mailcheap](https://github.com/marclou/mailcheap) - 아마존 SES 위에서 돌아가는 자체 호스팅 뉴스레터 발송 도구로 메일 1,000통에 약 0.10달러

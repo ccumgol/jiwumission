@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 44개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 44개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **42개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **44개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -32,6 +32,7 @@ comments: false
 - [Kadō](https://github.com/scastiel/kado) - 계정·구독·텔레메트리 없이 기기에 저장하는 아이폰·아이패드용 습관 추적 앱. 지수이동평균 점수를 써서 하루 빠뜨려도 기록이 초기화되지 않는다(별 166개, MIT, Swift)
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Logseq](https://github.com/logseq/logseq) - 내 컴퓨터의 마크다운 파일에 그대로 저장되는 프라이버시 우선 메모·지식 관리 앱. 설치형 데스크톱 앱이라 서버를 세울 필요가 없고, 날짜별 일지에 적어 두면 나중에 주제별로 알아서 엮인다(별 4만 5,077개, Clojure, AGPL-3.0)
+- [Loop Habit Tracker](https://github.com/iSoron/uhabits) - 광고·계정 없이 오프라인으로 동작하는 안드로이드용 습관 기록 앱. 유연한 반복 일정·알림·위젯·습관 강도 점수를 지원해 성경 읽기·기도 습관 기록에 좋다(별 약 10,350개, GPL-3.0)
 - [Mealie](https://github.com/mealie-recipes/mealie) - 레시피 URL만 넣으면 재료와 조리법을 자동 정리해 주는 자체 호스팅형 레시피 관리·식단 계획 도구
 - [Meetily](https://github.com/Zackriya-Solutions/meetily) - Whisper/Ollama 기반 로컬 100% 회의록 작성/요약 도구
 - [Memos](https://github.com/usememos/memos) - "일단 적고 정리는 나중에"에 집중한 마크다운 네이티브 자체 호스팅 메모 허브(Go 단일 바이너리, 20MB 도커 이미지, 텔레메트리 없음)
@@ -54,6 +55,7 @@ comments: false
 - [TeXbrain](https://github.com/swimmingbrain/texbrain) - pdfTeX를 웹어셈블리로 컴파일해 브라우저 안에서 그대로 돌리는 자유 소프트웨어 LaTeX 편집기. 실시간 미리보기·공동 편집·git 연동을 갖췄고 계정·쿠키·텔레메트리 없이 오프라인으로도 작동하며, File System Access API로 로컬 폴더를 직접 읽고 쓴다
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - 노트를 무한히 깊은 트리로 정리하고 한 노트를 여러 위치에 복제(cloning)해 둘 수 있는 개인 지식베이스 앱. WYSIWYG 편집기·전문 검색·노트 버전 관리·노트별 암호화·Excalidraw 스케치·마인드맵·지도 노트 지원, 윈도우/맥/리눅스 실행 파일만으로 서버 없이 사용 가능(AGPL-3.0)
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
+- [Twenty](https://github.com/twentyhq/twenty) - 세일즈포스를 대체하는 오픈소스 CRM. 교인·후원자 명부 관리에도 쓸 수 있다(별 59,571개, TypeScript)
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
 - [vnote](https://github.com/vnotex/vnote) - 마크다운과 마인드맵, Typst를 함께 다루며 모든 노트를 내 컴퓨터의 일반 파일로 저장하는 데스크톱 노트 앱(별 13,011개, C++, LGPL-3.0)
 - [Wallos](https://github.com/ellite/Wallos) - 매달 빠져나가는 각종 구독료를 결제일 알림·카테고리·다중 통화로 관리하는 자체 호스팅 구독 트래커(GPL)
