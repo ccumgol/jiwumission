@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 30개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 31개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 31개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **30개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **31개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -37,6 +37,7 @@ comments: false
 - [OpenObserve](https://github.com/openobserve/openobserve) - Elasticsearch를 대체할 수 있는 고성능 클라우드 네이티브 로깅 및 관측성(Observability) 플랫폼
 - [OpenSMS](https://github.com/daslearning-org/OpenSMS) - 쓰던 안드로이드 폰과 유심만으로 직접 운영하는 SMS API 게이트웨이를 만들어 주는 오픈소스 프로젝트(별 32개, Apache-2.0, Python)
 - [Pangolin](https://github.com/fosrl/pangolin) - 리버스 프록시·DNS·SSL·터널을 한데 묶어 자체 호스팅 앱을 안전하게 인터넷에 공개해주는 오픈소스 게이트웨이
+- [R2D2](https://github.com/anubhavmalhotra/r2d2-tv) - LG 웹OS TV에 로컬 홈 화면·개인 원격 브라우저·누르고 말하는 음성 비서를 얹고 무거운 처리는 집 안 리눅스 컴퓨터가 맡는 실험 프로젝트(Python, MIT, 특정 펌웨어 전용·루트 권한 필요)
 - [ResolveHQ](https://github.com/mirza-rizvi/ResolveHQ) - 클라우드플레어 워커스(D1·R2·큐·이메일 라우팅) 위에 올리는 자체 호스팅 헬프데스크. 공용 수신함과 이메일 스레드 묶기, AI 보조 답변을 지원한다.
 - [RomM](https://github.com/rommapp/romm) - 레트로 게임 롬 파일을 메타데이터·박스아트와 함께 정리하고 브라우저에서 바로 실행하는 자체 호스팅 롬 매니저 겸 플레이어
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버

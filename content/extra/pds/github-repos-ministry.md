@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 78개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 78개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 79개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 79개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **78개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **79개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -42,6 +42,7 @@ comments: false
 - [Browserbible](https://github.com/digitalbiblesociety/browserbible) - 모바일·데스크톱 브라우저에서 돌아가는 본격 성경 소프트웨어. HTML/CSS/JavaScript로 만들어졌고 Open Scriptures·CrossWire 등 오픈소스 성경 텍스트를 활용한다.
 - [Cantara](https://github.com/reckel-jm/cantara) - 찬양 가사를 평범한 텍스트 파일로 관리해 화면에 띄우는 일 하나만 제대로 하는 오픈소스 예배 송출 프로그램. 전용 DB나 계정 없이 폴더에 텍스트 파일만 두면 되고 윈도우·리눅스·맥에서 모두 구동(GPL-3.0)
 - [CASA](https://github.com/rubyforgood/casa) - 위탁가정 아동을 돕는 비영리단체 CASA용 자원봉사자 관리 시스템. 봉사자 배정·활동 기록 제출·관리자 검토·권한 분리를 현장 절차에 맞춰 구현(Rails 7, Docker, Ruby for Good)
+- [Chordo](https://github.com/ChurchApps/Chordo) - 찬양팀 코드 악보를 모아 조옮김·메모·자동 스크롤·메트로놈·콘티 공유까지 하는 무료 오프라인 코드 악보 관리 앱(ChurchApps, B1.church·플래닝 센터 연동, GPL-3.0)
 - [ChordPro](https://github.com/ChordPro/chordpro) - 가사 위에 코드를 적은 텍스트 파일을 악보 PDF로 변환하고 조옮김·악보집 출력까지 지원하는 ChordPro 표준 공식 구현체(별 537개, Perl)
 - [Christian FOSS](https://github.com/meichthys/christian_foss) - 성경 앱·교회관리시스템·예배 송출·찬양 가사·원어 도구까지 무료 오픈소스 기독교 소프트웨어를 분야별로 정리한 큐레이션 목록(101 star, MIT-0, 2026년 8월 갱신)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)

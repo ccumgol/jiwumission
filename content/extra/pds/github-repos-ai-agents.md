@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 128개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 128개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 129개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 129개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **128개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **129개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -59,6 +59,7 @@ comments: false
 - [Graphify](https://github.com/Graphify-Labs/graphify) - 코드·문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꿔 주는 코딩 에이전트용 스킬
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
+- [Hallmark](https://github.com/Nutlope/hallmark) - 클로드 코드·커서·코덱스 같은 AI 코딩 도구가 'AI 티 나는' 뻔한 웹 디자인을 피하도록 안내하는 디자인 스킬(MIT, 별 약 32,000개)
 - [Hax](https://github.com/OleksandrChekhovskyi/hax) - C로 작성된 단일 바이너리 미니멀 터미널 코딩 에이전트. 수 MB 메모리만 쓰고 llama.cpp 등 로컬 모델을 1급으로 지원하며 모델과 주고받은 전문을 트랜스크립트로 확인할 수 있다
 - [headroom](https://github.com/headroomlabs-ai/headroom) - 도구 출력·로그·파일·RAG 청크를 LLM에 넘기기 전에 압축해 코딩 에이전트 토큰을 20%, JSON은 60~95%까지 줄여 주는 라이브러리·프록시·MCP 서버(64,428 star, Apache-2.0, Python)
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
