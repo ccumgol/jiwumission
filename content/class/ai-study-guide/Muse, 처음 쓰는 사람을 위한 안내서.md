@@ -13,7 +13,7 @@ notion_id: "404091c2-84f6-807d-8936-f017c0f0cd62"
 categories: ["blog", "AI & Tech"]
 ---
 
-[muse-beginner-guide-ko.pdf](images/muse-beginner-guide-ko.pdf)
+[muse-beginner-guide-ko.pdf](../images/muse-beginner-guide-ko.pdf)
 
 # Muse, 처음 쓰는 사람을 위한 안내서
 
