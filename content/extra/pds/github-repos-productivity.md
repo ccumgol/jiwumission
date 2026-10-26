@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 44개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 44개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 46개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 46개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **44개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **46개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -22,10 +22,12 @@ comments: false
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)
 - [BudgetBee](https://github.com/budgetbee/budgetbee) - 도커 한 번으로 내 서버에 올리는 자체 호스팅 가계부. 카테고리별 예산·순자산 집계·다가올 고정지출·엑셀/JSON 가져오기·다중 사용자·다중 통화 지원(MIT)
 - [Devlane](https://github.com/Devlaner/devlane) - Jira/Linear 등을 대체하는 오픈소스 프로젝트 관리 플랫폼
+- [Ely Office](https://github.com/ELY-Open-Source/ElyOffice) - 워드·스프레드시트·프레젠테이션·PDF(OCR·서명)·메일·Git·마크다운 앱을 Rust와 GPUI로 만든 계정·클라우드 없는 오프라인 데스크톱 오피스 모음(별 1,037개, MIT, 윈도·맥·리눅스)
 - [ezbookkeeping](https://github.com/mayswind/ezbookkeeping) - 도커 한 번으로 올리는 가벼운 자체 호스팅 가계부. 다중 통화·다중 계정·지출 분류·차트·2단계 인증을 지원하고 모바일 브라우저에서도 앱처럼 쓸 수 있다
 - [Firefly III](https://github.com/firefly-iii/firefly-iii) - 계좌·예산·청구서·저축 목표를 한곳에서 관리하고 규칙 기반으로 거래를 자동 분류하는 자체 호스팅 개인·가정용 가계부(공개 데모 제공, 별 2만 4천여 개, AGPL-3.0)
 - [FSNotes](https://github.com/glushchenko/fsnotes) - 맥·아이폰용 네이티브 마크다운 메모 앱. 서버나 계정 없이 메모를 평범한 텍스트 파일로 저장하고 아이클라우드로 동기화하며, 빠른 검색·태그·암호 잠금 폴더를 지원한다(별 7,524개, MIT, Swift)
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio) - 주식·ETF·예금 등 여러 계좌에 흩어진 자산을 한 화면에 모아 배분 비율·수익률·수수료를 보여 주는 자체 호스팅 오픈소스 자산 관리 도구(다중 통화, 별 9천여 개, AGPL-3.0, TypeScript)
+- [Habo](https://github.com/xpavle00/Habo) - 회원가입 없이 쓰는 미니멀 습관 추적 앱으로 종단간 암호화 동기화와 자체 서버 운영을 지원(별 1,549개, GPL-3.0, Flutter, 안드로이드·iOS 무료)
 - [Handy](https://github.com/cjpais/Handy) - 인터넷 연결 없이 내 컴퓨터 안에서만 음성을 텍스트로 바꿔 주는 무료 오픈소스 받아쓰기 앱. 녹음 내용이 외부로 전송되지 않는다(별 3만 1,991개, MIT, Rust, 윈도우·맥·리눅스)
 - [hister](https://github.com/asciimoo/hister) - 내가 방문한 웹페이지의 본문까지 저장해 전문 검색할 수 있게 해 주는 개인용 검색 엔진. 제목·주소만 남는 브라우저 방문 기록과 달리 내용으로 되찾을 수 있다(약 3,340 star, Go)
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
