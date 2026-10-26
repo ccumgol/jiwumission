@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 129개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 129개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 130개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 130개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **129개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **130개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -36,6 +36,7 @@ comments: false
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
 - [chess-postmortem-skills](https://github.com/brumar/chess-postmortem-skills) - Stockfish로 체스 기보를 분석해 주석 PGN·HTML 뷰어·해설 영상까지 만들어 주는 Claude Code 스킬 모음
+- [Cindy](https://github.com/makecindy/cindy) - 클로드 코드·코덱스 등 여러 AI 에이전트와 모델을 하나로 묶어 내 컴퓨터의 실제 파일·앱으로 일을 끝내 주는 데스크톱·모바일 에이전트 앱. 작업 중 모델을 바꿔도 기억·스킬·도구가 이어지고, 기존 요금제·자기 API 키·로컬 모델을 연결할 수 있다(별 약 4,800개, Apache-2.0, TypeScript)
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - 앤스로픽이 직접 검수해 관리하는 클로드 코드 플러그인 공식 디렉터리

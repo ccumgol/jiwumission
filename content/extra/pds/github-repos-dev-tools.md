@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 57개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 57개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 58개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 58개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **57개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **58개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -32,6 +32,7 @@ comments: false
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - 대용량 로그·문서의 전문 검색과 실시간 분석에 쓰이는 오픈소스 분산 RESTful 검색·분석 엔진
 - [esp32sim](https://github.com/mikroverk/esp32sim) - 실제 보드 없이 ESP32 펌웨어를 로컬·브라우저에서 실행하는 오픈소스 에뮬레이터
 - [Factorio Code Visualizer](https://github.com/rorz/factorio-code-visualizer) - 코드베이스 구조를 실제로 플레이 가능한 Factorio 게임 맵으로 변환해 시각화하는 도구
+- [Farol](https://github.com/winnin/farol) - AI 코드 리뷰 다음 단계에서 풀 리퀘스트의 가장 위험한 파일, 영향 범위, 변경분 테스트 커버리지, 계약 깨짐을 지도처럼 보여 주는 무료 CLI·GitHub Action. TypeScript/React·Go·Python 지원(별 112개, MIT)
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - 웹을 검색·스크래핑해 LLM이 바로 쓸 수 있는 형태로 넘겨주는 대규모 컨텍스트 API
 - [GenLayer Project Boilerplate](https://github.com/genlayerlabs/genlayer-project-boilerplate) - 계약 안에서 LLM을 불러 웹 데이터를 가져오고 자연어를 해석하는 '지능형 계약' 예제 모음. 축구 경기 예측 게임이 완제품으로 들어 있어 계약이 스스로 스포츠 뉴스에서 결과를 가져와 동등성 원칙으로 검증한다(Vue.js 프런트엔드·종단간 테스트 프레임워크 포함)
 - [git-ai](https://github.com/feder-cr/git-ai) - AI 에이전트를 위해 다시 설계한 Git. 에이전트가 코드를 고칠 때 작업을 격리하고 이력을 깔끔하게 남기도록 깃 위에 얹은 도구(별 1,784개, Go)
