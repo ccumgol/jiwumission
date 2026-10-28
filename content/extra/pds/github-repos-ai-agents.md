@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 131개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 131개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 134개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 134개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **131개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **134개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -51,6 +51,7 @@ comments: false
 - [DeepInfer](https://github.com/deepseek-ai/DeepInfer) - 딥시크가 V4.1-Flash를 대규모로 서빙하던 고성능 추론 프레임워크를 공개한 것(별 17,687개, Apache-2.0, Python)
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Node.js 설치나 터미널 명령 없이 DeepSeek Harness를 쓸 수 있게 감싼 macOS·윈도우용 Electron 데스크톱 앱(트레이 상주·모바일 원격 접속·플러그인 지원, MIT)
+- [DeepTutor](https://github.com/HKUDS/DeepTutor) - 채팅·문제 풀이·퀴즈·자료 조사·복습을 한 세션 맥락으로 잇고 내 문서·유튜브 강의를 학습 자료로 연결하는 홍콩대 HKUDS의 AI 개인 튜터 작업 공간(별 약 4만 5,700개, 트렌딩 일간 +1,587, Apache-2.0, Python)
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
 - [ECC](https://github.com/affaan-m/ECC) - 스킬·직관·메모리·보안·리서치 우선 개발 규칙을 검사 가능한 파일 묶음으로 제공해 코딩 에이전트의 판단력을 끌어올리는 하니스 최적화 시스템(클로드 코드·코덱스·커서 등 지원, 별 24만여 개, MIT)
 - [Engrim](https://github.com/timgordontg/engrim) - 클로드 코드·커서·코덱스·윈드서프 등 여러 AI CLI가 같은 장기 기억을 공유하게 해주는 로컬 우선 SQLite 메모리 엔진(프로젝트 단위 격리, 클라우드 종속 없음, 별 219개, MIT, Python)
@@ -66,6 +67,7 @@ comments: false
 - [Herdr](https://github.com/ogulcancelik/herdr) - 여러 코딩 에이전트를 한 터미널에서 실행·감시하는 러스트 기반 에이전트 멀티플렉서(에이전트 시대의 tmux)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - 내 서버에 설치해 메신저·LLM과 연결하면 웹 검색·코드 실행·파일 관리를 계속 수행하는, 지속 메모리를 가진 상주형 오픈소스 자율 에이전트(Nous Research)
 - [Hindsight](https://github.com/vectorize-io/hindsight) - 대화를 기억하는 데서 그치지 않고 축적한 경험으로 학습하는 AI 에이전트 장기 메모리 시스템(별 32,180개, 트렌딩 일간 2위, MIT, Python)
+- [Hob](https://github.com/FrigadeHQ/hob) - Gemma·gpt-oss 같은 오픈웨이트 모델을 내 컴퓨터에서 돌려 파일 읽기·수정, 샌드박스 파이썬 실행, 웹 검색, MCP를 지원하는 오프라인 가능 AI 데스크톱 비서(클로드·챗GPT 데스크톱 앱 대안, MIT, Show HN 164점)
 - [Humanizer](https://github.com/blader/humanizer) - 코딩 에이전트가 쓴 글에서 'AI가 쓴 티'(상투구·균질한 문단·과도한 접속사)를 걷어내 사람 문장처럼 다듬어 주는 에이전트 스킬(별 4만 3천여 개, MIT, Python)
 - [Huzzah (hz)](https://github.com/danielvaughn/hz) - 영속적인 `.hz` 의사코드 파일을 편집하면 그 diff만 프롬프트로 넘겨 영향받은 코드만 AI가 재생성하는 실험적 코딩 인터페이스(언어 비종속, 의사코드가 그대로 설계 문서로 남음)
 - [i-have-adhd](https://github.com/ayghri/i-have-adhd) - 코딩 에이전트가 답을 장황한 설명 속에 파묻지 않고 결론부터 말하게 만드는 스킬(2026년 9월 9일 깃허브 트렌딩 1위, 하루 4,624 star, 누적 별 3만 4천여 개, MIT)
@@ -112,6 +114,7 @@ comments: false
 - [ponytail](https://github.com/DietrichGebert/ponytail) - 코딩 에이전트가 "가장 게으른 시니어 개발자"처럼 판단하게 만들어 불필요한 코드를 새로 쓰지 않게 막는 스킬(약 12만 3천 star, MIT, JavaScript)
 - [Postiz-app](https://github.com/gitroomhq/postiz-app) - 여러 SNS 채널의 게시물 예약을 한 곳에서 관리하는 오픈소스 소셜 미디어 스케줄링 도구
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - 파이썬 REPL을 상시 실행 환경 삼아 컨텍스트를 변수처럼 다루고(RLM) 메모리·스킬을 지속 축적해 스스로 개선하는 오픈소스 코딩·리서치 에이전트(MIT, 데몬 실행 지원)
+- [Project Maya](https://github.com/mw00/project-maya) - GLM-5.3-Flash·DeepSeek-V4.1-Flash·MiniMax-M3.1-Flash 같은 수천억 파라미터 MoE 모델을 GPU 1~16장 개인 장비에서 돌리는 추론 엔진·서버·대시보드(OpenAI/Anthropic 호환 API, MIT)
 - [Pxpipe](https://github.com/teamchong/pxpipe) - 시스템 프롬프트·툴 정의·대화 이력을 촘촘한 PNG로 렌더링해 LLM 토큰 비용을 절반 수준까지 줄이는 로컬 프록시
 - [PyTorch](https://github.com/pytorch/pytorch) - 강력한 GPU 가속을 지원하는 파이썬 텐서·동적 신경망 라이브러리로 딥러닝 연구의 사실상 표준 프레임워크
 - [Qm](https://github.com/yc-software/qm) - Y Combinator가 내부 운영에 실제로 쓰는 멀티플레이어 AI 에이전트 하니스(사람·방마다 격리된 메모리·권한·샌드박스, 하니스/모델 교체 가능, MIT)
