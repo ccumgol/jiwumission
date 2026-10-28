@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 134개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 134개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 136개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 136개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **134개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **136개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -21,6 +21,7 @@ comments: false
 - [agent-native](https://github.com/BuilderIO/agent-native) - AI 에이전트가 직접 조작할 수 있는 앱을 만드는 리액트·타입스크립트 프레임워크(별 5,891개, 깃허브 트렌딩 일간 상위권)
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - AI 에이전트가 트위터·레딧·유튜브·깃허브 등을 유료 API 없이 읽고 검색하게 해주는 CLI 도구
 - [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
+- [AI Design Skills](https://github.com/elayadesign/ai-design-skills) - 클로드 코드·커서·코덱스·윈드서프가 읽는 마크다운 규칙 형태의 디자인 스킬 모음. 첫 스킬 landing-page-design은 질문으로 요구사항을 받아 페이지 구조·전환 문구·글꼴·간격·모션까지 갖춘 랜딩 페이지를 처음부터 설계한다(별 약 1만 1천 개, MIT)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
 - [Ai-memory](https://github.com/akitaonrails/ai-memory) - 여러 코딩 에이전트 CLI가 같은 장기 기억을 공유하게 해주는 단일 러스트 바이너리(git 버전관리 마크다운 위키 + SQLite FTS5/벡터 인덱스, MCP 지원)
@@ -38,6 +39,7 @@ comments: false
 - [chess-postmortem-skills](https://github.com/brumar/chess-postmortem-skills) - Stockfish로 체스 기보를 분석해 주석 PGN·HTML 뷰어·해설 영상까지 만들어 주는 Claude Code 스킬 모음
 - [Cindy](https://github.com/makecindy/cindy) - 클로드 코드·코덱스 등 여러 AI 에이전트와 모델을 하나로 묶어 내 컴퓨터의 실제 파일·앱으로 일을 끝내 주는 데스크톱·모바일 에이전트 앱. 작업 중 모델을 바꿔도 기억·스킬·도구가 이어지고, 기존 요금제·자기 API 키·로컬 모델을 연결할 수 있다(별 약 4,800개, Apache-2.0, TypeScript)
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
+- [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - 하위 스킬 26개·하위 에이전트 19개로 기술 SEO·스키마·E-E-A-T·AI 검색(GEO/AEO, llms.txt)·백링크·지역/다국어 SEO를 점검하고 PDF·엑셀 보고서로 정리하는 클로드 코드용 SEO 스킬(별 약 2만 3천 개, MIT, Python)
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
 - [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - 앤스로픽이 직접 검수해 관리하는 클로드 코드 플러그인 공식 디렉터리
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) - 블렌더·프리캐드·김프·리브레오피스·draw.io·OBS 같은 GUI 프로그램에 명령줄을 붙여 AI 에이전트가 직접 조작하게 해 주는 CLI 허브(별 50,640개, 홍콩대 HKUDS, Apache-2.0)

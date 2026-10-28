@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 46개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 46개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 47개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 47개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **46개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **47개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -48,6 +48,7 @@ comments: false
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [papermono-shopping-list](https://github.com/seamusc/papermono-shopping-list) - 휴대폰 웹 UI로 항목을 추가하면 냉장고에 자석으로 붙여 둔 M5Stack PaperMono 전자잉크 화면이 갱신되는 장보기 목록(FastAPI 서버 포함)
+- [PaperPilot](https://github.com/KrushnaVardhanReddy/PaperPilot) - PDF 병합·분할·OCR·압축을 파일 업로드 없이 로컬에서 처리하는 순수 Rust 문서 도구. 브라우저(WASM)·데스크톱 앱·CLI·로컬 REST API·MCP 서버로 쓸 수 있어 클로드·코덱스에게 PDF 작업을 시킬 수 있다(별 약 680개, Apache-2.0)
 - [Plane](https://github.com/makeplane/plane) - 지라·리니어·먼데이·클릭업을 대체하는 자체 호스팅 오픈소스 프로젝트 관리 플랫폼(이슈·스프린트·칸반·문서·트리아지, 별 5만 9천여 개, AGPL-3.0, TypeScript)
 - [PLANKA](https://github.com/plankanban/planka) - 도커 한 번으로 띄우는 자체 호스팅 칸반 보드(트렐로 대안), 실시간 공동 편집·35개 언어 지원·약 80MB 램으로 구동
 - [ppt-master](https://github.com/hugohe3/ppt-master) - 문서나 주제를 넣으면 이미지가 아니라 네이티브 도형·전환 효과·애니메이션으로 이뤄진 진짜 .pptx 파일을 만들어 주는 AI 발표자료 생성 도구. 데이터 기반 차트·표를 넣고 발표자 노트를 음성 내레이션으로 바꾸며 기존 템플릿도 그대로 적용한다(별 59,365개, MIT, Python)
