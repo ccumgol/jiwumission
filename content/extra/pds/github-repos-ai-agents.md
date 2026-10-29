@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 136개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 136개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 137개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 137개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **136개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **137개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -102,6 +102,7 @@ comments: false
 - [opencode](https://github.com/anomalyco/opencode) - 터미널에서 돌아가는 오픈소스 코딩 에이전트로 로컬 모델 서버와 붙여 쓸 수 있다
 - [OpenHuman](https://github.com/tinyhumansai/openhuman) - 내 삶의 기록을 로컬에 쌓아 두고 에이전트 여러 대를 지휘하며 심층 리서치까지 수행하는 맥·윈도우·리눅스용 오픈소스 개인 AI(러스트, GPL-3.0)
 - [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) - 여러 AI 에이전트가 교사·조교·동료 학습자 역할을 나눠 맡아 몰입형 수업을 만들어 주는 오픈 멀티에이전트 인터랙티브 교실(칭화대 MAIC, MIT)
+- [OpenMausBot](https://github.com/milind-soni/OpenMausBot) - 사이드바의 봇 하나하나가 로컬 클로드 코드·코덱스로 돌아가는 실제 AI 에이전트인 메신저형 데스크톱 앱. 봇마다 성격·모델·클라우드 컴퓨터·연결 앱을 따로 두고, 연락처에 말하듯 일을 시킨 뒤 중요한 단계만 승인한다(별 약 7,400개, Apache-2.0, TypeScript)
 - [OpenResearch](https://github.com/alphaXiv/OpenResearch) - 코딩 에이전트에 논문 검색·정독·비교 능력을 붙여 연구 에이전트로 바꿔 주는 플랫폼. arXiv 플랫폼 alphaXiv 팀이 만들었다(별 5천여 개, Rust, MIT)
 - [openrig](https://github.com/mvschwarz/openrig) - Claude Code·Codex·Pi 같은 코딩 도구를 엮어 역할이 정해진 상시 에이전트 팀을 꾸리는 프레임워크. 맥락을 공유하고 각 에이전트가 자기 작업을 소유한다(별 6,719개, Apache-2.0, TypeScript)
 - [OpenShell](https://github.com/NVIDIA/OpenShell) - 자율 AI 에이전트가 파일·네트워크·자격증명에 어디까지 닿을 수 있는지를 정책으로 선언하면 커널 수준에서 강제해 주는 엔비디아의 에이전트 실행 환경. 에이전트는 실제 자격증명을 보지 못하고, 정책 변경은 형식 검증으로 먼저 걸러 사람이 검토한다(별 14,006개, 하루 +2,456개로 트렌딩 1위, Rust, Apache-2.0)

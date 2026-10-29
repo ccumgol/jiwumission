@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛠️ 시스템 및 유틸리티"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 24개 목록입니다."
-description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 24개 목록입니다."
+summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 25개 목록입니다."
+description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 25개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,11 +12,12 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **24개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **25개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 
 - [Actual Budget](https://github.com/actualbudget/actual) - 봉투 예산(envelope budgeting) 방식의 로컬 우선 무료 가계부
+- [dontallow](https://github.com/johncassil/dontallow) - macOS에서 브라우저를 켤 때마다 반복되는 "로컬 네트워크의 기기를 찾도록 허용" 팝업에 '허용 안 함'을 자동으로 눌러 주는 작은 상주 도구(스위프트 파일 하나, 유휴 CPU 0, MIT)
 - [drivesync](https://github.com/scaleninja/drivesync) - 구글 드라이브의 파일·폴더를 깃과 비슷한 사용감으로 아주 빠르게 동기화하는 명령줄 도구(Rust, MIT)
 - [Filee](https://github.com/KnifeLemon/Filee) - 이미지·PDF·오피스 문서·한글(HWP/HWPX)·영상·오디오·전자책·압축파일 등 255가지 형식을 업로드 없이 오프라인으로 변환해 주는 무료 파일 변환기(별 10,285개, MIT, C#)
 - [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - 주식·외환·원자재 시세와 경제지표를 한 화면에서 다루는 오픈소스 데스크톱 금융 분석 터미널(C++20·Qt6, AGPL-3.0)
