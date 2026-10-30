@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 47개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 47개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,11 +12,12 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **47개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **48개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
 - [Alexandrie](https://github.com/Smaug6739/Alexandrie) - 확장 마크다운 에디터·칸반·OIDC/SSO·오프라인 PWA를 갖춘 자체 호스팅 지식 베이스(노션·컨플루언스 대안), docker compose 한 번으로 배포
+- [AnkiDroid](https://github.com/ankidroid/Anki-Android) - 간격 반복 플래시카드 앱 안키의 안드로이드판. 광고 없이 무료로 쓰며 PC용 안키와 동기화되고, 성경 암송·외국어 공부 카드 만들기에 좋다(별 약 1만 2천 개, Kotlin, GPL-3.0)
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - 문서·DB·칸반·캘린더·위키를 하나로 묶은 오픈소스 노션 대안(Rust·Flutter, 데스크톱 앱·오프라인 우선)
 - [BeeCount](https://github.com/TNT-Likely/BeeCount) - iOS·안드로이드·웹에서 돌아가는 로컬 우선 가계부 앱으로 iCloud·WebDAV·S3 동기화와 영수증 AI 자동 입력을 지원(별 2,567개, Flutter)
 - [Bento](https://github.com/nyblnet/bento) - 뷰어·발표자 모드·편집기·실시간 공동편집을 HTML 파일 한 개에 담은 오프라인 프레젠테이션 도구(파워포인트 대안)

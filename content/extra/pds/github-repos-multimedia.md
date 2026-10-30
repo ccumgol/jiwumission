@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 34개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 34개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **34개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **35개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -30,6 +30,7 @@ comments: false
 - [Kimodo](https://github.com/nv-tlabs/kimodo) - 설명 문장 한 줄로 3D 캐릭터 동작을 만들어 주는 엔비디아의 인체 모션 생성 모델
 - [ldraw-nova](https://github.com/anteloc/ldraw-nova) - 설명한 모양을 조립 가능한 레고(LDraw) 설계 파일로 만들어 주는 생성형 AI 에이전트 도구
 - [LocalVocal](https://github.com/royshil/obs-localvocal) - OBS 스튜디오에서 말하는 내용을 전부 기기 안에서 인식해 실시간 자막으로 띄우는 플러그인. 번역 자막도 지원해 예배·강의 실시간 송출에 추가 비용 없이 자막을 붙일 수 있다(별 1,616개, GPL-2.0, C++)
+- [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [Materializr](https://github.com/materializr-cad/materializr) - 제약 스케치·솔리드 모델링·나사산·글자 각인을 지원하는 메이커용 무료 파라메트릭 3D CAD. STEP·STL·3MF로 내보내며 윈도·맥·리눅스·안드로이드·아이패드에서 돌아간다(GPL-3.0, C++)
 - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 주제나 키워드 하나로 대본·자막·음성·영상 소재를 자동으로 엮어 고화질 쇼트폼 영상을 만드는 AI 워크플로 도구(웹 UI·API 제공)
 - [OnKey](https://github.com/dsmurrell/onkey) - 스포티파이·애플 뮤직·유튜브로 노래를 틀고 따라 부르면 원곡 멜로디와 내 음정을 실시간으로 겹쳐 보여 주는 macOS용 무료 노래 연습 앱(별 약 230개, MIT, Rust·Tauri, Show HN 210점)
@@ -37,8 +38,8 @@ comments: false
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - 자료 조사·대본·장면 설계·소재 생성·편집·내레이션·렌더링까지 12개 파이프라인으로 나눠 처리해 코딩 어시스턴트를 통째로 영상 제작 스튜디오로 바꾸는 오픈소스 에이전트형 영상 제작 시스템(AGPL-3.0)
 - [OpenPencil](https://github.com/open-pencil/open-pencil) - AI를 전제로 설계된 로컬 우선 오픈소스 디자인 에디터, 피그마 대안
 - [OpenTIE](https://github.com/elyosh/OpenTIE) - 1990년대 스타워즈 우주 전투 시뮬레이터 '타이 파이터'와 'X-윙 얼라이언스'를 현대 시스템에서 돌아가게 이식한 오픈소스 포트(C)
-- [Lucasartsifier](https://github.com/katiahayati/lucasartsifier) - 역컴파일한 SCI 스크립트를 추상 해석해 시에라 어드벤처 게임의 진행 불가(walking dead) 상태를 자동 검출하고 방지 가드를 생성·검증해 패치 파일로 내보내는 정적 분석 도구
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
+- [ProWave](https://github.com/fabox-os/Pro-Wave) - 애플 로직 프로 스타일의 음악 제작 프로그램(DAW)을 러스트로 새로 만든 프로젝트. 트랙·미디·피아노 롤·믹서·내장 신시사이저를 갖추고 윈도·맥·리눅스에서 동작(Rust, GPL-3.0)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
 - [Rembrandt](https://github.com/thesnarkitecht/rembrandt) - RAW 현상·마스크 보정·기기 내 AI 보정까지 되는 무료 사진 편집·관리 프로그램. 계정 가입도 구독료도 추적도 없고 맥·윈도우·리눅스에서 모두 돌아가는 어도비 라이트룸 대안(별 99개, GPL-3.0)
 - [SCM](https://github.com/allenv0/SCM) - 맥에서 폴더 안의 모든 사진과 동영상의 모든 프레임까지 AI로 검색해 주는 도구. 전부 로컬에서 돌아가 사진을 외부로 올리지 않는다(별 369개, JavaScript, MIT, 해커뉴스 Show HN 163점)
