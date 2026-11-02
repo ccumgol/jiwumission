@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 84개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 84개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 85개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 85개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **84개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **85개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -32,6 +32,7 @@ comments: false
 - [Bible Song Pro](https://github.com/Johnbatey/bible-song-pro) - OBS Studio용 무료 오픈소스 교회 프레젠테이션 시스템. 브라우저 소스 오버레이로 찬양 가사와 성경 구절을 온라인 예배 송출에 바로 얹는다
 - [Bible Song Pro Studio](https://github.com/Johnbatey/bible-song-pro-studio) - 찬양 가사와 성경 구절을 띄우고 OBS 송출로 바로 내보내는 예배용 일렉트론 데스크톱 콘솔
 - [Bible Strong (Prayse)](https://github.com/smontlouis/bible-strong) - 히브리어·헬라어 원어 사전·연대기 타임라인·주제 성경·주석·오디오 성경을 담은 완전 오프라인 오픈소스 성경 공부 앱(GPL-3.0)
+- [Bible Vector Search](https://github.com/tim-hub/bible-vector-search) - 단어가 아니라 뜻으로 성경 구절을 찾아 주는 검색 도구. '두려울 때 위로가 되는 말씀'처럼 문장으로 물으면 AI 임베딩으로 가까운 구절을 찾아 주며 웹사이트와 API를 함께 제공(영어 BBE 번역본, 별 34개, TypeScript, MIT)
 - [bible-api](https://github.com/wldeh/bible-api) - 200개가 넘는 언어와 역본의 성경 본문을 JSON으로 제공하는 무료 성경 API. API 키·회원가입·사용량 제한이 없고 jsDelivr CDN에서 바로 호출돼 '오늘의 말씀' 위젯이나 묵상 봇을 서버 없이 만들 수 있다(별 531개, MIT)
 - [bible-translations](https://github.com/jadenzaleski/bible-translations) - 바이블게이트웨이의 성경 역본 전체를 JSON과 SQL 두 형식으로 정리해 둔 데이터 저장소. 역본별로 장·절이 구조화돼 있어 주보·예배 자막 구절 추출, 오늘의 말씀 봇, 통독표 자동 채우기에 쓰기 좋고 호출 제한이나 사용료가 없다(별 217개, MIT, Python)
 - [bible.rs](https://github.com/DSpeckhals/bible.rs) - 러스트(Actix Web + Diesel)로 만든 가볍고 빠른 성경 서버. 장·절 단위 열람·검색 웹사이트를 직접 띄울 수 있고 같은 데이터를 JSON API로도 제공한다(별 228개, Rust, MIT)

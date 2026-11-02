@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 48개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 49개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 49개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **48개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **49개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -30,6 +30,7 @@ comments: false
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio) - 주식·ETF·예금 등 여러 계좌에 흩어진 자산을 한 화면에 모아 배분 비율·수익률·수수료를 보여 주는 자체 호스팅 오픈소스 자산 관리 도구(다중 통화, 별 9천여 개, AGPL-3.0, TypeScript)
 - [Habo](https://github.com/xpavle00/Habo) - 회원가입 없이 쓰는 미니멀 습관 추적 앱으로 종단간 암호화 동기화와 자체 서버 운영을 지원(별 1,549개, GPL-3.0, Flutter, 안드로이드·iOS 무료)
 - [Handy](https://github.com/cjpais/Handy) - 인터넷 연결 없이 내 컴퓨터 안에서만 음성을 텍스트로 바꿔 주는 무료 오픈소스 받아쓰기 앱. 녹음 내용이 외부로 전송되지 않는다(별 3만 1,991개, MIT, Rust, 윈도우·맥·리눅스)
+- [Hex](https://github.com/anomalyco/hex) - 음성을 클라우드로 보내지 않고 내 컴퓨터 안에서 바로 글자로 바꿔 주는 맥·윈도·리눅스용 로컬 음성 받아쓰기 앱. 오픈코드를 만든 anomalyco 팀 작품(별 약 3,200개, Rust, MIT)
 - [hister](https://github.com/asciimoo/hister) - 내가 방문한 웹페이지의 본문까지 저장해 전문 검색할 수 있게 해 주는 개인용 검색 엔진. 제목·주소만 남는 브라우저 방문 기록과 달리 내용으로 되찾을 수 있다(약 3,340 star, Go)
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [Kadō](https://github.com/scastiel/kado) - 계정·구독·텔레메트리 없이 기기에 저장하는 아이폰·아이패드용 습관 추적 앱. 지수이동평균 점수를 써서 하루 빠뜨려도 기록이 초기화되지 않는다(별 166개, MIT, Swift)

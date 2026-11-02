@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 59개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 59개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 60개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 60개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **59개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **60개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -49,6 +49,7 @@ comments: false
 - [mador](https://github.com/marsbos/mador) - 80줄 프록시 상태 튜플로 아무 DOM 요소나 반응형으로 만드는 초경량 라이브러리
 - [Maven](https://github.com/apache/maven) - 자바 생태계의 표준 빌드·의존성 관리 도구인 아파치 메이븐의 코어 저장소
 - [office365_flake](https://github.com/Tombert/office365_flake) - 가상머신 없이 Wine으로 리눅스에서 Microsoft Office 365를 실행하는 Nix Flake와 스크립트 모음
+- [OmniDiff](https://github.com/ivankovic/omnidiff) - 줄 단위가 아니라 내용의 구조를 고려해 정확하고 빠르게 차이를 보여 주는 Git difftool(별 약 290개, Rust)
 - [Open Code Review](https://github.com/alibaba/open-code-review) - 규칙 기반 파이프라인과 LLM 에이전트를 함께 돌려 코드 줄 단위로 지적해주는 알리바바의 사내용 코드 리뷰 도구(별 2만 8천여 개, Apache-2.0, Go)
 - [open-compute](https://github.com/elliothux/open-compute) - KV·D1·R2·Durable Objects·큐·워크플로를 러스트 바이너리 하나에 담은 클라우드플레어 워커스 호환 자체 호스팅 런타임.
 - [openai/math](https://github.com/openai/math) - OpenAI 내부 모델이 미해결 수학 문제에 대해 만들어 낸 원고 719편과 그 일부의 린(Lean) 형식 증명을 372개 계열로 정리해 공개한 저장소(별 1만 2,009개, Lean, Apache-2.0)
