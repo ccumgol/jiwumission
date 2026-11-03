@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 49개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 49개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 50개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 50개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **49개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **50개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -57,6 +57,7 @@ comments: false
 - [Presenton](https://github.com/presenton/presenton) - 문장 하나로 편집 가능한 파워포인트 발표 자료를 통째로 만들어 주는 오픈소스 AI 발표 자료 생성기 겸 API(감마·캔바 대안, 별 1만 1천여 개, Apache-2.0, TypeScript)
 - [SiYuan](https://github.com/siyuan-note/siyuan) - 노트를 블록 단위로 잘게 쪼개 서로 연결하는 프라이버시 우선 오픈소스 지식 워크스페이스. 데이터가 전부 로컬 마크다운으로 남고 윈도우·맥·리눅스·안드로이드·iOS 지원, 도커 자체 호스팅과 WebDAV·S3 동기화 가능(AGPL-3.0)
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
+- [Table Habit](https://github.com/FriesI23/mhabit) - 작은 습관을 매일 체크하고 점수·성장 그래프로 보여 주는 광고·계정 없는 오프라인 우선 습관 추적 앱, PC·모바일 지원과 WebDAV 동기화(별 1,685개, Dart/Flutter, Apache-2.0)
 - [TeXbrain](https://github.com/swimmingbrain/texbrain) - pdfTeX를 웹어셈블리로 컴파일해 브라우저 안에서 그대로 돌리는 자유 소프트웨어 LaTeX 편집기. 실시간 미리보기·공동 편집·git 연동을 갖췄고 계정·쿠키·텔레메트리 없이 오프라인으로도 작동하며, File System Access API로 로컬 폴더를 직접 읽고 쓴다
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - 노트를 무한히 깊은 트리로 정리하고 한 노트를 여러 위치에 복제(cloning)해 둘 수 있는 개인 지식베이스 앱. WYSIWYG 편집기·전문 검색·노트 버전 관리·노트별 암호화·Excalidraw 스케치·마인드맵·지도 노트 지원, 윈도우/맥/리눅스 실행 파일만으로 서버 없이 사용 가능(AGPL-3.0)
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 140개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 140개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 142개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 142개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,12 +12,13 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **140개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **142개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
 - [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
+- [agent-desktop](https://github.com/vercel-labs/agent-desktop) - 운영체제 접근성 트리를 읽어 AI 에이전트가 맥·윈도·리눅스 데스크톱 앱의 버튼과 입력창을 직접 조작하게 하는 버셀 랩스의 CLI(별 9,521개, Rust, Apache-2.0)
 - [agent-native](https://github.com/BuilderIO/agent-native) - AI 에이전트가 직접 조작할 수 있는 앱을 만드는 리액트·타입스크립트 프레임워크(별 5,891개, 깃허브 트렌딩 일간 상위권)
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - AI 에이전트가 트위터·레딧·유튜브·깃허브 등을 유료 API 없이 읽고 검색하게 해주는 CLI 도구
 - [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
@@ -33,6 +34,7 @@ comments: false
 - [big-arrow-on-the-screen](https://github.com/franzenzenhofer/big-arrow-on-the-screen) - AI 에이전트가 맥 화면 위에 화살표·상자·텍스트를 그려 가리킬 수 있게 해 주는 CLI
 - [billion-context](https://github.com/ranxianglei/billion-context) - 컨텍스트 창이 작아도 긴 에이전트 세션을 이어가게 해 주는 컨텍스트 압축 플러그인(별 2,004개, TypeScript, 토큰 사용량 약 5분의 1)
 - [Book-to-skill](https://github.com/virgiliojr94/book-to-skill) - 기술 서적 PDF·EPUB이나 문서 폴더를 프레임워크·의사결정 규칙·챕터별 파일로 구조화해 코딩 에이전트용 스킬로 변환하는 로컬 도구
+- [bootgpt](https://github.com/kerlenton/bootgpt) - 512바이트 부트 섹터 어셈블리가 11.5KB 초소형 신경망을 불러와 OS 없이 가짜 리눅스 부팅 로그를 생성하는 실험(MIT)
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) - AI 에이전트가 사용자가 로그인해 둔 실제 브라우저를 그대로 조작하게 해 주는 CLI와 확장 프로그램
 - [Career-ops](https://github.com/santifer/career-ops) - 채용 공고를 A~F 루브릭으로 채점해 1.0~5.0 점수로 환산하고 이력서 맞춤 수정과 지원 현황 추적까지 코딩 CLI 안에서 로컬로 처리하는 오픈소스 구직 자동화 도구
 - [Caveman](https://github.com/JuliusBrussee/caveman) - 토큰 사용량을 약 65% 절약해주는 Claude Code용 스킬
