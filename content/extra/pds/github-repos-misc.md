@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📦 기타 / 미분류"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 11개 목록입니다."
-description: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 11개 목록입니다."
+summary: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 12개 목록입니다."
+description: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 12개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-위 분류에 들어가지 않는 프로젝트. 현재 **11개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+위 분류에 들어가지 않는 프로젝트. 현재 **12개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📦 기타 / 미분류 (Uncategorized)
 
@@ -22,6 +22,7 @@ comments: false
 - [Fugleramme](https://github.com/arnegiacomo/fugleramme) - 마이크로 들리는 새소리를 기기 안에서 판별해 그 새를 1800년대 조류 도감 그림으로 전자잉크 액자에 띄워주는 라즈베리파이 프로젝트(별 1,467개, MIT, Python)
 - [human-atlas](https://github.com/ashemag/human-atlas) - 2,234개 부위를 골라 볼 수 있는 오픈소스 3D 인체 해부학 탐색기
 - [Keybytes](https://github.com/notaroomba/keybytes) - 키마다 RISC-V 마이크로컨트롤러가 든 1u 기판을 자석 케이스로 원하는 배열대로 이어 붙이는 블루투스 모듈형 키보드의 회로도·케이스·펌웨어(별 296개, C·KiCad, Show HN 271점)
+- [koppar-lte-modem](https://github.com/Koppar-AI/koppar-lte-modem) - USB-C로 연결해 LTE 데이터·문자·음성 통화를 쓰게 해 주는 오픈 하드웨어 모뎀 보드. 통화 음성도 USB로 오가 컴퓨터가 전화기 역할을 함
 - [Microduck](https://github.com/pollen-robotics/microduck) - 키 25cm·무게 800g의 두 발 오리 로봇을 움직이는 소프트웨어. 15개 서보를 강화학습 정책으로 50Hz 제어해 걷고, 바퀴로 구르고, 물건을 집고, 넘어지면 스스로 일어난다(별 약 1만 1,600개, Apache-2.0, Rust)
 - [modem-thing](https://github.com/bkovac/modem-thing) - 20달러짜리 4G 무선 핫스팟 하드웨어를 개조해 문자 메시지만 주고받는 단순한 기기로 만드는 프로젝트. 스마트폰 알림에서 벗어나려는 "멍청한 폰" 계열 하드웨어 해킹(별 22개, Python, MIT)
 - [NightWatch](https://github.com/rsutcliffe/nightwatch) - 오늘 밤 하늘이 맑아지는 시간대를 찾아 주고 촬영할 천체 순위를 매겨 장비를 펼 만한 밤인지 알려주는 무료 macOS 메뉴바 앱(별 88개, Swift, MIT)

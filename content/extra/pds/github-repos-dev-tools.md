@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 60개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 60개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 61개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 61개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **60개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **61개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -59,6 +59,7 @@ comments: false
 - [rea](https://github.com/morluto/rea) - AI 에이전트를 붙여 앱 동작부터 네이티브 바이너리까지 역분석하는 리버스 엔지니어링 도구
 - [reladraw](https://github.com/reladraw/reladraw) - 배치를 자동으로 정하지 않고 "무엇의 왼쪽 위", "A와 B 사이" 같은 관계 문장으로 위치를 직접 지정하는 텍스트 다이어그램 언어(Show HN 167포인트, Apache-2.0, TypeScript)
 - [releases](https://github.com/flaviocopes/releases) - 내가 배포하는 앱과 CLI 도구의 버전, GitHub 릴리스 이력, 다음 릴리스 변경 사항을 한 화면에 모아 보는 네이티브 맥 앱.
+- [Scrapling](https://github.com/D4Vinci/Scrapling) - 웹페이지 한 장부터 사이트 전체 크롤링까지 한 도구로 처리하는 파이썬 웹 스크래핑 프레임워크. 페이지 구조가 바뀌어도 요소를 다시 찾아내는 적응형 선택 기능 제공
 - [screenshot-to-code](https://github.com/abi/screenshot-to-code) - 웹페이지나 디자인 시안을 화면 캡처해 넣으면 바로 손볼 수 있는 HTML/Tailwind·React·Vue 코드로 바꿔 주는 도구
 - [sofka](https://github.com/nklmilojevic/sofka) - 쿠버네티스를 터미널에서 다루는 TUI를 러스트로 새로 만든 도구. kube-rs와 ratatui 위에서 처음부터 비동기로 설계해 k9s 대안을 지향한다(별 810개, Apache-2.0)
 - [SolidCraft](https://github.com/bherbruck/solidcraft) - 순수 러스트로 만든 오픈소스 파라메트릭 3D CAD로 데스크톱·웹에서 돌아가고 MCP로 자동화할 수 있다(별 2,328개, Apache-2.0, Rust)
