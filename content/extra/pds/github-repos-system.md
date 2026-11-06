@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛠️ 시스템 및 유틸리티"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 27개 목록입니다."
-description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 27개 목록입니다."
+summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 28개 목록입니다."
+description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 28개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **27개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **28개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 
@@ -26,6 +26,7 @@ comments: false
 - [ConvertX](https://github.com/C4illin/ConvertX) - 이미지·문서·전자책·영상·3D 등 1,000개 이상 포맷을 도커 한 번으로 변환하는 자체 호스팅 파일 변환기(자동 삭제·계정 분리 지원, AGPL-3.0)
 - [flipflop](https://github.com/andunieee/flipflop) - Iroh 기반 지속 터널로 기기와 기기를 직접 연결해 파일을 주고받는 도구. 클라우드에 업로드하지 않고 건네므로 대용량 파일을 남의 서버에 맡기고 싶지 않을 때 쓸 만하다(별 129개, GPL-3.0, Rust)
 - [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) - 공개된 위성·항공·선박 데이터를 사실적인 3D 지구본 위에 실시간으로 얹어 브라우저에서 공개출처정보(OSINT)를 훑어보게 해 주는 도구(2026년 9월 12일 깃허브 트렌딩 1위, 하루 3,680 star, 누적 별 2만 7천여 개, JavaScript)
+- [gputaskman](https://github.com/shanselman/gputaskman) - 프로세스별 GPU 메모리·사용량과 로컬 LLM의 가중치·KV 캐시 몫까지 보여 주는 터미널 GPU 작업 관리자(별 약 260개, Python, MIT)
 - [hntui](https://github.com/ahmd-sh/hntui) - 터미널에서 해커뉴스의 여섯 개 피드를 모두 훑고 댓글 트리를 따라 들어가거나 글을 저장해 두는 TUI 리더. Vim 키와 마우스를 함께 지원하고 설치 스크립트 한 줄이면 의존성 없는 단일 바이너리가 깔린다(Show HN 111점, 140 star, MIT, TypeScript)
 - [hop](https://github.com/Arjun-Ingole/hop) - 설치용 USB 메모리 없이 윈도 PC에 리눅스를 나란히 설치하게 도와주는 도구
 - [Kensaku](https://github.com/yjid/kensaku) - 문서·코드는 물론 스크린숏 속 글자(OCR)까지 즉시 찾아 주는 로컬 파일 검색·실행기. 뜻으로 찾는 의미 검색과 AI 에이전트용 MCP 연결 지원(별 약 480개, Rust, MIT)

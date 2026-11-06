@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 50개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 50개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 51개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 51개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **50개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **51개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -34,6 +34,7 @@ comments: false
 - [hister](https://github.com/asciimoo/hister) - 내가 방문한 웹페이지의 본문까지 저장해 전문 검색할 수 있게 해 주는 개인용 검색 엔진. 제목·주소만 남는 브라우저 방문 기록과 달리 내용으로 되찾을 수 있다(약 3,340 star, Go)
 - [Joplin](https://github.com/laurent22/joplin) - 종단간 암호화 동기화를 지원하는 무료 메모/노트 앱
 - [Kadō](https://github.com/scastiel/kado) - 계정·구독·텔레메트리 없이 기기에 저장하는 아이폰·아이패드용 습관 추적 앱. 지수이동평균 점수를 써서 하루 빠뜨려도 기록이 초기화되지 않는다(별 166개, MIT, Swift)
+- [KitchenOwl](https://github.com/TomBursch/kitchenowl) - 장보기 목록·레시피·식단 계획·지출을 가족과 실시간 공유하는 자체 호스팅형 앱, iOS·안드로이드·웹 지원(별 약 3,800개, AGPL-3.0)
 - [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) - 외국어 원문·전자책·기사를 불러와 모르는 단어를 표시·번역하며 읽는 자체 호스팅 어학 리딩 도구(LingQ 대안, 15개 이상 언어)
 - [Logseq](https://github.com/logseq/logseq) - 내 컴퓨터의 마크다운 파일에 그대로 저장되는 프라이버시 우선 메모·지식 관리 앱. 설치형 데스크톱 앱이라 서버를 세울 필요가 없고, 날짜별 일지에 적어 두면 나중에 주제별로 알아서 엮인다(별 4만 5,077개, Clojure, AGPL-3.0)
 - [Loop Habit Tracker](https://github.com/iSoron/uhabits) - 광고·계정 없이 오프라인으로 동작하는 안드로이드용 습관 기록 앱. 유연한 반복 일정·알림·위젯·습관 강도 점수를 지원해 성경 읽기·기도 습관 기록에 좋다(별 약 10,350개, GPL-3.0)
