@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 37개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 37개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **35개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **37개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -22,6 +22,7 @@ comments: false
 - [Cap](https://github.com/CapSoftware/Cap) - 화면·카메라·마이크를 한 번에 담아 로컬 저장하거나 자체 스토리지로 공유하는 오픈소스 Loom 대체 화면 녹화 도구(맥·윈도우, 2만 1천 star, Rust)
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - 노드를 선으로 이어 이미지·영상 생성 모델의 작업 흐름을 조립하는 GUI이자 백엔드(별 139,599개, Python, GPL-3.0)
 - [Compositor](https://github.com/robbietilton/Compositor) - 피사체 선택·배경 제거·콘텐츠 인식 채우기를 지원하는 맥용 무료 포토샵 대안(별 1만 6,900개, MIT, Swift)
+- [Disc Image Studio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) - 그림을 CD·DVD·블루레이 기록면에 맨눈으로 보이게 새겨 주는 굽기용 데이터 생성 도구(별 약 7,200개, C#, GPL-3.0)
 - [Doory](https://github.com/shaongitbd/doory) - 브라우저에서 포스터·카드뉴스·SNS 이미지를 만드는 오픈소스 캔바(Canva) 대안. 자체 호스팅으로 구독료 없이 운영할 수 있다(별 773개, TypeScript)
 - [hyperframes](https://github.com/heygen-com/hyperframes) - HTML로 화면을 작성하면 그대로 완성된 영상으로 렌더링해주는 에이전트용 영상 제작 프레임워크(별 4만 7천여 개, TypeScript, Apache-2.0, GSAP·Puppeteer·ffmpeg 기반)
 - [img2threejs](https://github.com/img2threejs/img2threejs) - 사진 한 장 속 물체를 메시 파일 대신 절차적 Three.js 코드로 복원해 용량이 작고 애니메이션을 붙이기 쉬운 3D 모델로 만들어주는 도구(별 1만 6천여 개, Apache-2.0, Python)
@@ -46,6 +47,7 @@ comments: false
 - [Spotatui](https://github.com/LargeModGames/spotatui) - 스포티파이 네이티브 스트리밍에 로컬 파일·Subsonic·라디오·Qobuz·유튜브 소스를 함께 붙인 Rust 터미널 음악 플레이어(별 1,680개, MIT)
 - [text-to-cad](https://github.com/earthtojake/text-to-cad) - 만들고 싶은 부품을 문장으로 설명하면 실제 CAD 모델로 만들어 STL·3MF·STEP 파일로 내보내는 도구. 3D 프린터로 바로 뽑을 수 있어 거치대·브래킷 같은 간단한 맞춤 부품 제작에 쓸 수 있다(별 20,684개, MIT, Python)
 - [video-use](https://github.com/browser-use/video-use) - 코딩 에이전트로 영상을 편집하게 해주는 도구. 자연어 지시로 컷 편집·자막·합성을 처리한다(별 2만 4천여 개, MIT, Python)
+- [Video.js](https://github.com/videojs/video.js) - 웹사이트용 대표 오픈소스 동영상 플레이어, v10에서 HTML·React용 프레임워크로 재설계(별 약 4만 개, TypeScript)
 - [Voicebox](https://github.com/jamiepine/voicebox) - 음성 복제와 받아쓰기, 낭독을 전부 내 컴퓨터 안에서 처리하는 오픈소스 AI 음성 스튜디오. 7가지 TTS 엔진을 골라 쓰고 전역 단축키로 어떤 앱에든 받아쓰기를 넣을 수 있으며, 모델·음성 데이터·녹음이 기기를 떠나지 않는다(별 5만 5,800개, MIT)
 - [VoiceStudio](https://github.com/debpalash/VoiceStudio) - 음성 복제·음성 디자인·영상 더빙·받아쓰기·전사·오디오북 제작을 646개 언어로 전부 로컬에서 처리하는 오픈소스 일레븐랩스 대안(별 2만 6천여 개, AGPL-3.0, Python)
 - [Webreel](https://github.com/vercel-labs/webreel) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 CLI(Apache-2.0, Vercel Labs)

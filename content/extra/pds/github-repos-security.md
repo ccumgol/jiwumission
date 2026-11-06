@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛡️ 보안"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 18개 목록입니다."
-description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 18개 목록입니다."
+summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 19개 목록입니다."
+description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 19개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **18개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **19개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛡️ 보안 (Security)
 
@@ -31,6 +31,7 @@ comments: false
 - [Skitter Creek Bath Salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) - AMD Family 16h의 DRAM 컨트롤러 주소 변환 레지스터가 잠기지 않는 점을 이용해 물리 주소 매핑을 재배열하고 통상 차단된 메모리 영역까지 소프트웨어로 도달하는 보안 연구(Christopher Domas)
 - [Smiiiiiiiiiiiiiiii](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) - 약 40억 사이클이 걸리는 초장시간 x86 명령어 하나로 코어 간 동시 진입 전제를 깨뜨려 CPU 최고 특권 환경 SMM을 무너뜨리는 DEF CON 34 보안 연구(Christopher Domas)
 - [Strix](https://github.com/usestrix/strix) - 앱 취약점을 탐지하고 패치 PR을 생성하는 AI 침투 테스트 도구
+- [Stroq](https://github.com/AGGIB/Stroq) - 클로드 코드·코덱스 세션을 분석해 외부 글이 시킨 명령과 유출된 키를 찾고 로컬 훅으로 막아 주는 감사 도구(별 약 85개, TypeScript, Apache-2.0)
 - [Talos](https://github.com/wjhuang88/talos) - 모델과 셸 사이에 권한 커널을 두어 파일 쓰기·삭제·git 쓰기·셸 실행·네트워크·MCP 호출을 정확한 인자에 묶어 단 한 번 30초만 허용하는 러스트 에이전트 런타임(Apache 2.0)
 - [ts-cms-ep-sfx](https://github.com/ApelegHQ/ts-cms-ep-sfx) - 브라우저 안에서 파일을 암호화해 '스스로 복호화되는 HTML 한 장'으로 만들어 주는 도구. AES-256-GCM과 CMS(PWRI) 표준을 쓰고 서버로 아무것도 보내지 않으며, OpenSSL로도 복호화할 수 있어 다른 도구와 호환된다(별 29개, TypeScript, Apache-2.0)
 - [VoidAccess](https://github.com/KatrielMoses/voidaccess) - 검색어에서 관계 그래프까지 13단계로 자동 분석하는 자체 호스팅 다크웹 위협 인텔리전스 플랫폼
