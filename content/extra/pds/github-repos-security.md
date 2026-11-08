@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛡️ 보안"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 19개 목록입니다."
-description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 19개 목록입니다."
+summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
+description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,11 +12,12 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **19개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **21개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛡️ 보안 (Security)
 
 - [Bumblebee](https://github.com/perplexityai/bumblebee) - 코드를 실행하지 않고 디스크 위 패키지·MCP 설정·에디터/브라우저 확장 메타데이터만 읽어 알려진 공급망 침해 노출 여부를 대조하는 읽기 전용 스캐너(Go 단일 정적 바이너리, 의존성 0, Apache 2.0, 퍼플렉시티)
+- [coldframe](https://github.com/hedgerow-dev/coldframe) - 슈퍼마켓 냉장 설비 제어기(댄포스 AK-SM 800A, 딕셀 XWEB 500)로 위장해 공격자의 접속·비밀번호·익스플로잇 시도를 기록하는 단일 파일 허니팟(별 30개, Python, MIT)
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - 소스 코드 없이 컴파일된 프로그램을 뜯어보고 동작 방식을 알아내는 소프트웨어 리버스 엔지니어링 프레임워크. 미 국가안보국(NSA)이 2019년 공개해 보안 분석가와 악성코드 연구자들의 표준 도구로 자리 잡았다(별 7만 9,671개, Java, Apache-2.0)
 - [Helium](https://github.com/imputnet/helium) - 텔레메트리와 구글 연동을 걷어내고 광고·추적 차단을 기본으로 켠 "비공개·빠른·정직한" 크로미엄 기반 웹 브라우저(별 2만여 개, GPL-3.0, C++)
 - [Kairos](https://github.com/finic-ai/kairos) - 결제·송금 같은 금융 행동 이벤트를 실시간으로 받아 사기 여부와 위험도를 판단하는 오픈소스 리스크 의사결정 플랫폼(별 206개, TypeScript, Apache-2.0)
@@ -27,6 +28,7 @@ comments: false
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
 - [Rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge) - 일부 x86(VIA C3) CPU에 숨겨진 비x86 보조 코어를 통해 메모리 보호·권한 검사를 우회하는 하드웨어 백도어를 실증하고 탐지 도구까지 공개한 연구 프로젝트
 - [security-audit-skill](https://github.com/cloudflare/security-audit-skill) - 클라우드플레어가 만든 코딩 에이전트용 보안 감사 스킬. 다단계로 점검하고 독립 검증된 기계 판독 형식으로 결과를 내놓는다.
+- [Sherlock](https://github.com/sherlock-project/sherlock) - 사용자 이름 하나로 수백 개 SNS·웹사이트에서 같은 아이디의 계정을 한 번에 찾아 주는 공개 정보 수집(OSINT) 명령줄 도구(별 약 10만 400개, Python, MIT)
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector) - AI 에이전트 스킬 전용 보안 스캐너. 설치 전에 프롬프트 인젝션·데이터 유출·공급망 위험 같은 악성 패턴을 찾아내며 Claude Code·Codex·MCP 스킬을 지원한다(엔비디아, 별 1만 6천여 개, Apache-2.0)
 - [Skitter Creek Bath Salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) - AMD Family 16h의 DRAM 컨트롤러 주소 변환 레지스터가 잠기지 않는 점을 이용해 물리 주소 매핑을 재배열하고 통상 차단된 메모리 영역까지 소프트웨어로 도달하는 보안 연구(Christopher Domas)
 - [Smiiiiiiiiiiiiiiii](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) - 약 40억 사이클이 걸리는 초장시간 x86 명령어 하나로 코어 간 동시 진입 전제를 깨뜨려 CPU 최고 특권 환경 SMM을 무너뜨리는 DEF CON 34 보안 연구(Christopher Domas)

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 144개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 144개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 145개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 145개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **144개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **145개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -29,6 +29,7 @@ comments: false
 - [AirLLM](https://github.com/lyogavin/airllm) - 모델 레이어를 하나씩 번갈아 올렸다 내리는 방식으로, 양자화나 증류 없이 700억 파라미터 LLM 추론을 4GB VRAM 그래픽카드 한 장에서 돌리게 해 주는 파이썬 라이브러리(별 36,410개, Apache-2.0)
 - [Ante](https://github.com/AntigmaLabs/ante) - 인터넷 연결 없이 오프라인으로 구동되는 단일 바이너리 코딩 에이전트
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - AI 에이전트용 사이버보안 스킬 817개를 MITRE ATT&CK·NIST CSF 2.0·ATLAS·D3FEND 등 6개 프레임워크에 매핑한 모음집(29개 보안 도메인, agentskills.io 표준, Apache 2.0)
+- [Anthropic Skills](https://github.com/anthropics/skills) - 문서·스프레드시트·발표 자료 작성, 디자인, 테스트 등 작업 절차를 AI 에이전트용 Agent Skills로 정리한 앤트로픽 공식 저장소(별 약 18만 8,800개, Python)
 - [archify](https://github.com/tt-a1i/archify) - 코딩 에이전트가 아키텍처·워크플로·시퀀스·데이터 흐름 다이어그램을 자체 완결형 HTML로 그려 주는 에이전트 스킬(모션·고해상도 내보내기 지원, MIT)
 - [Auto Ontology](https://github.com/NVIDIA/auto-ontology) - 데이터 위에 개념·관계 그래프(온톨로지)를 자동으로 만들어 AI 에이전트가 정확한 질의를 생성하고 맥락을 찾게 돕는 엔비디아의 파이썬 프레임워크(별 4,865개, Apache-2.0)
 - [ax](https://github.com/google/ax) - 구글이 공개한 오픈 에이전트 오케스트레이션 런타임으로 여러 AI 에이전트를 엮어 실행한다(별 7,586개, 하루 만에 +2,305개, Go, Apache-2.0)
