@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 89개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 89개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 90개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 90개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **89개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **90개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -23,6 +23,7 @@ comments: false
 - [BaryMusic](https://github.com/barypia/barymusic) - 찬양 곡 라이브러리와 콘티를 관리하고 외부 화면에 실시간 가사를 송출하는 웹 앱(윈도우 포터블·도커 제공, GPL-3.0)
 - [Bentopdf](https://github.com/alam00000/bentopdf) - 브라우저 내에서 WebAssembly로 구동되어 서버 전송 없이 안전하게 PDF를 편집·변환할 수 있는 프라이버시 중심 툴킷
 - [bible](https://github.com/thiagobodruk/bible) - 35개 언어·90개 역본의 성경 본문을 JSON과 XML로 정리해 바로 쓸 수 있게 한 데이터 저장소. 성경 앱·구절 검색·예배 자막 프로그램의 기초 데이터로 알맞다(별 740개, MIT)
+- [Bible (michaelshimeles)](https://github.com/michaelshimeles/bible) - 검색·형광펜·메모·책갈피를 지원하는 러스트 기반 맥용 네이티브 성경 읽기 앱(별 123개, Rust, MIT)
 - [Bible API (HelloAO)](https://github.com/HelloAOLab/bible-api) - 여러 언어·여러 역본의 성경 본문을 REST와 정적 JSON 파일로 제공하는 무료 성경 API. 가입 키나 요금 없이 장·절 단위로 바로 꺼내 쓸 수 있어 교회 홈페이지·주보·묵상 카드·메신저 봇에 쓰기 좋다(별 160개, TypeScript, MIT)
 - [Bible App](https://github.com/polystrategist/bible-app) - 성경 읽기와 참고 자료, 묵상 노트, 구절 하이라이트, 기도 제목 점검을 한 화면에 모은 오프라인 데스크톱 성경 앱(별 56개, Python)
 - [Bible Cross-References](https://github.com/trekhleb/bible-cross-references) - 성경 상호 참조(관주) 34만 4,799개를 한 화면에 호(arc)로 그려 주는 무료 웹 앱. 구절별 연결 본문과 히브리어·헬라어 원어, 같은 단어가 쓰인 구절까지 펼쳐 볼 수 있어 설교 준비·성경공부에 좋다. 한국어 번역은 아직 없음(별 68개, MIT, TypeScript)

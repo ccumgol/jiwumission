@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 37개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 37개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 38개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 38개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **37개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **38개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -24,6 +24,7 @@ comments: false
 - [Compositor](https://github.com/robbietilton/Compositor) - 피사체 선택·배경 제거·콘텐츠 인식 채우기를 지원하는 맥용 무료 포토샵 대안(별 1만 6,900개, MIT, Swift)
 - [Disc Image Studio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) - 그림을 CD·DVD·블루레이 기록면에 맨눈으로 보이게 새겨 주는 굽기용 데이터 생성 도구(별 약 7,200개, C#, GPL-3.0)
 - [Doory](https://github.com/shaongitbd/doory) - 브라우저에서 포스터·카드뉴스·SNS 이미지를 만드는 오픈소스 캔바(Canva) 대안. 자체 호스팅으로 구독료 없이 운영할 수 있다(별 773개, TypeScript)
+- [HyperFlow H3 Flash](https://github.com/Video-Rebirth/hyperflow-h3-flash) - 영상·오디오 동시 생성 확산 모델을 137억 매개변수·4~8단계로 압축한 INT8/GGUF 버전(별 138개, Python, Apache-2.0)
 - [hyperframes](https://github.com/heygen-com/hyperframes) - HTML로 화면을 작성하면 그대로 완성된 영상으로 렌더링해주는 에이전트용 영상 제작 프레임워크(별 4만 7천여 개, TypeScript, Apache-2.0, GSAP·Puppeteer·ffmpeg 기반)
 - [img2threejs](https://github.com/img2threejs/img2threejs) - 사진 한 장 속 물체를 메시 파일 대신 절차적 Three.js 코드로 복원해 용량이 작고 애니메이션을 붙이기 쉬운 3D 모델로 만들어주는 도구(별 1만 6천여 개, Apache-2.0, Python)
 - [Immich](https://github.com/immich-app/immich) - 스마트폰 사진 및 비디오를 개인 서버에 백업하고 관리할 수 있는 구글 포토(Google Photos)의 강력한 오픈소스 대안

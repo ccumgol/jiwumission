@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 145개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 145개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 146개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 146개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **145개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **146개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -151,6 +151,7 @@ comments: false
 - [teamai-cli](https://github.com/Tencent/teamai-cli) - 팀 단위 업무를 AI 네이티브로 바꾸는 텐센트의 오픈소스 CLI 도구
 - [ThoughtDAG](https://github.com/chenxiachan/thoughtdag) - LLM 대화를 무한 캔버스 위 편집 가능한 생각 그래프로 바꿔, 노드를 잇는 선 자체가 모델에 전달되는 컨텍스트가 되는 로컬 우선 도구
 - [TimesFM](https://github.com/google-research/timesfm) - 매출·수요·트래픽처럼 시간 순으로 쌓인 데이터를 별도 학습 없이 바로 예측하게 해 주는 구글 리서치의 시계열 파운데이션 모델(Apache-2.0, Python)
+- [TokenEconomizer](https://github.com/microsoft/TokenEconomizer) - 마이크로 스킬·도구 정리·실패 반복 감지로 코딩 에이전트 토큰 비용을 줄이는 마이크로소프트 플러그인(별 약 5,270개, Python, Apache-2.0)
 - [TokenSpeed](https://github.com/lightseekorg/tokenspeed) - 대형 언어 모델을 더 빠르게 서빙하는 것을 목표로 한 오픈소스 LLM 추론 엔진(별 약 2,770개, MIT, Python, 깃허브 트렌딩 일간)
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - 기본·뉴스·기술 분석가, 강세·약세 연구원, 트레이더, 리스크 관리자 역할을 LLM 에이전트들이 나눠 맡아 토론으로 매매 판단을 내리는 연구용 다중 에이전트 프레임워크(별 약 11만 6천 개, Apache-2.0, Python, 깃허브 트렌딩 일간)
 - [TurboFieldfare](https://github.com/drumih/turbo-fieldfare) - 4비트 Gemma 4 26B의 전문가 가중치를 SSD에서 스트리밍해 램 2GB만으로 M시리즈 맥에서 구동하는 Swift·Metal 추론 엔진
