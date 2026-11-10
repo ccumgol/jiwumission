@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 51개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 51개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 52개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 52개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **51개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **52개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -49,6 +49,7 @@ comments: false
 - [omni-tools](https://github.com/iib0011/omni-tools) - 이미지·PDF·텍스트 변환 등 일상 작업용 웹 도구를 모은 자체 호스팅 모음집
 - [Open Notebook](https://github.com/lfnovo/open-notebook) - 구글 노트북LM의 프라이버시 중심 오픈소스 대안. 모아 둔 자료를 AI가 읽고 요약·질의응답·팟캐스트 형식 정리까지 해 주며, 쓸 모델을 직접 고르고 내 서버에서 돌릴 수 있다. 한국어 문서 제공(별 3만 9,504개, TypeScript, MIT)
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) - 클로드·Codex·Cursor와 연동되는 무료·오픈소스 WYSIWYG 마크다운 편집기(옵시디언/노션 대안)
+- [Owlistic](https://github.com/owlistic-notes/owlistic) - 실시간 동기화를 지원하는 오픈소스 노트·할 일 앱. 위지윅 편집기와 노트 안 체크리스트를 갖춘 에버노트·조플린 대안으로 도커로 쉽게 설치된다(별 431개, Go+Flutter, GPL-3.0)
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - 종이 문서를 스캔해 자동 OCR·전문 검색·자동 분류까지 처리하는 자체 호스팅 문서 관리 시스템
 - [papermono-shopping-list](https://github.com/seamusc/papermono-shopping-list) - 휴대폰 웹 UI로 항목을 추가하면 냉장고에 자석으로 붙여 둔 M5Stack PaperMono 전자잉크 화면이 갱신되는 장보기 목록(FastAPI 서버 포함)
 - [PaperPilot](https://github.com/KrushnaVardhanReddy/PaperPilot) - PDF 병합·분할·OCR·압축을 파일 업로드 없이 로컬에서 처리하는 순수 Rust 문서 도구. 브라우저(WASM)·데스크톱 앱·CLI·로컬 REST API·MCP 서버로 쓸 수 있어 클로드·코덱스에게 PDF 작업을 시킬 수 있다(별 약 680개, Apache-2.0)

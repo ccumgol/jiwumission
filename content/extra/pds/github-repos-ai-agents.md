@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 146개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 146개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 149개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 149개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,12 +12,13 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **146개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **149개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음
 - [Agent Skills (표준 명세)](https://github.com/agentskills/agentskills) - AI 에이전트에게 능력을 가르치는 개방형 SKILL.md 표준의 명세와 문서(Anthropic 개발, Apache 2.0)
+- [agent-browser](https://github.com/vercel-labs/agent-browser) - AI 에이전트를 위한 브라우저 자동화 CLI. 스냅샷·셀렉터 기반으로 에이전트가 웹을 조작하게 해 준다(별 48,456개, 트렌딩 일간 +916, Rust, Apache-2.0)
 - [agent-desktop](https://github.com/vercel-labs/agent-desktop) - 운영체제 접근성 트리를 읽어 AI 에이전트가 맥·윈도·리눅스 데스크톱 앱의 버튼과 입력창을 직접 조작하게 하는 버셀 랩스의 CLI(별 9,521개, Rust, Apache-2.0)
 - [agent-native](https://github.com/BuilderIO/agent-native) - AI 에이전트가 직접 조작할 수 있는 앱을 만드는 리액트·타입스크립트 프레임워크(별 5,891개, 깃허브 트렌딩 일간 상위권)
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - AI 에이전트가 트위터·레딧·유튜브·깃허브 등을 유료 API 없이 읽고 검색하게 해주는 CLI 도구
@@ -64,10 +65,12 @@ comments: false
 - [Engrim](https://github.com/timgordontg/engrim) - 클로드 코드·커서·코덱스·윈드서프 등 여러 AI CLI가 같은 장기 기억을 공유하게 해주는 로컬 우선 SQLite 메모리 엔진(프로젝트 단위 격리, 클라우드 종속 없음, 별 219개, MIT, Python)
 - [exo](https://github.com/exo-explore/exo) - 맥·PC 여러 대를 텐서 병렬과 썬더볼트 RDMA로 묶어 한 대로는 못 돌리는 대형 모델을 나눠 실행하는 분산 추론 프레임워크(별 4만 7천여 개, Apache-2.0, Python)
 - [Experiential](https://github.com/experientiallabs/experiential) - 상용·오픈소스·로컬·자체 모델을 하나의 관제판에서 다루는 오픈소스 모델 게이트웨이(사용 기록이 쌓일수록 라우팅이 개선되는 구조, Apache-2.0)
+- [Flide](https://github.com/OmniJev/Flide) - 의사결정 모델(decision model)을 위한 초고속 추론 엔진. 기존 대비 최대 9.5배 빠르다는 Show HN이 119점을 받았다(별 274개, Python, Apache-2.0)
 - [Frontman](https://github.com/frontman-ai/frontman) - 실행 중인 웹사이트에서 요소를 클릭하고 자연어로 설명하면 실제 소스 파일을 고쳐주는 AI 웹사이트 편집기(워드프레스·Next.js·Astro·Vite 지원, 자체 호스팅 무제한)
 - [Google Skills](https://github.com/google/skills) - 구글 클라우드 인증·온보딩·에이전트 배포 등 작업법을 AI 코딩 에이전트용 Agent Skills로 정리한 구글 공식 모음(별 약 2만 2,800개, Python, Apache-2.0)
 - [Graphify](https://github.com/Graphify-Labs/graphify) - 코드·문서·SQL 스키마·설정·PDF를 질의 가능한 지식 그래프로 바꿔 주는 코딩 에이전트용 스킬
 - [Grok Build](https://github.com/xai-org/grok-build) - xAI(SpaceXAI)가 Apache 2.0으로 공개한 러스트 기반 코딩 에이전트 하니스 겸 터미널 UI
+- [grokbot-clone](https://github.com/nickvasilescu/grokbot-clone) - Grok Bot을 리버스 엔지니어링해 만든 오픈소스 대안. Grok API·클라우드 컴퓨터 위에서 상주형 AI 팀원을 구동한다(TypeScript, MIT)
 - [H3.c](https://github.com/antirez/h3.c) - 레디스 창시자 antirez가 C와 Metal로 직접 작성한 애플 실리콘용 네이티브 MiniMax-H3 영상·음성 생성 추론 엔진
 - [Hallmark](https://github.com/Nutlope/hallmark) - 클로드 코드·커서·코덱스 같은 AI 코딩 도구가 'AI 티 나는' 뻔한 웹 디자인을 피하도록 안내하는 디자인 스킬(MIT, 별 약 32,000개)
 - [Hax](https://github.com/OleksandrChekhovskyi/hax) - C로 작성된 단일 바이너리 미니멀 터미널 코딩 에이전트. 수 MB 메모리만 쓰고 llama.cpp 등 로컬 모델을 1급으로 지원하며 모델과 주고받은 전문을 트랜스크립트로 확인할 수 있다
