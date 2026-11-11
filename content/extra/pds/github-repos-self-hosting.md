@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 32개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 32개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 33개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 33개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **32개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **33개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -23,6 +23,7 @@ comments: false
 - [Dashy](https://github.com/lissy93/dashy) - 자주 쓰는 사이트와 서비스를 한 화면에 모아 두는 개인·팀용 시작 페이지. 도커 한 줄로 띄우고 YAML 파일 하나로 설정하며 상태 점검·위젯·아이콘 팩·다크 모드·접근 권한 분리를 지원한다(별 2만 6천여 개, Vue, MIT)
 - [Frigate](https://github.com/blakeblackshear/frigate) - IP 카메라 영상에서 사람·차량 같은 객체를 클라우드로 보내지 않고 내 서버에서 실시간 탐지하는 자체 호스팅 오픈소스 NVR(별 3만 5천여 개, MIT, 홈어시스턴트 연동)
 - [Giraffile](https://github.com/coffeetron832/Giraffile) - 서버 업로드·계정·저장소 없이 브라우저에서 브라우저로 파일을 암호화 WebRTC P2P로 전송하는 초경량 자체 호스팅 파일 전송 앱(링크·QR 공유, 타이머 만료 시 파일 소멸)
+- [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) - 홈 어시스턴트(Home Assistant)를 Claude·ChatGPT 같은 AI 비서로 설정·자동화하게 해 주는 MCP 서버. 도구 87개 제공(별 6,612개, Python, MIT)
 - [Halcyon Video](https://github.com/halcyon-video/halcyon-video) - 내 Jellyfin·Plex 라이브러리를 1990년대 비디오 대여점으로 바꿔 걸어 다니며 고르게 하는 셀프호스팅 앱(three.js, WebGL 없는 2.5D 모드로 라즈베리파이에서도 구동, GPL-3.0)
 - [HomeHub](https://github.com/surajverma/homehub) - 공유 메모·장보기 목록·집안일·가족 달력·가계부를 한 화면에 모은 가정용 자체 호스팅 대시보드(별 1,248개, Python, MIT)
 - [KaraKeep](https://github.com/karakeep-app/karakeep) - 오프라인 요약/태그를 지원하는 무엇이든 저장 북마크 앱

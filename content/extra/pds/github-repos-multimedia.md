@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 38개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 38개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 39개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 39개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **38개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **39개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -43,6 +43,7 @@ comments: false
 - [prettymaps](https://github.com/marceloprates/prettymaps) - 오픈스트리트맵 데이터를 가져와 도시의 거리·건물·물길을 포스터처럼 아름다운 지도 그림으로 그려주는 파이썬 라이브러리(osmnx + matplotlib + shapely, 주소나 좌표만 넣으면 몇 줄 코드로 결과가 나온다)
 - [ProWave](https://github.com/fabox-os/Pro-Wave) - 애플 로직 프로 스타일의 음악 제작 프로그램(DAW)을 러스트로 새로 만든 프로젝트. 트랙·미디·피아노 롤·믹서·내장 신시사이저를 갖추고 윈도·맥·리눅스에서 동작(Rust, GPL-3.0)
 - [RACK-02](https://github.com/SSX360/rack-02) - 유클리드 시퀀싱·폴리미터·실시간 보컬 입력·24비트 스템 바운싱을 HTML 파일 하나에 담은 제너러티브 모듈러 테크노 머신(외부 라이브러리 없이 오프라인 구동)
+- [RAWmakase](https://github.com/pch/rawmakase) - 라이트룸식 조작 체계를 갖춘 무료 비파괴 RAW 사진 현상 프로그램. 라이트룸 클래식 카탈로그 가져오기 지원, 맥·윈도우·리눅스(별 1,662개, Rust, MIT)
 - [Rembrandt](https://github.com/thesnarkitecht/rembrandt) - RAW 현상·마스크 보정·기기 내 AI 보정까지 되는 무료 사진 편집·관리 프로그램. 계정 가입도 구독료도 추적도 없고 맥·윈도우·리눅스에서 모두 돌아가는 어도비 라이트룸 대안(별 99개, GPL-3.0)
 - [SCM](https://github.com/allenv0/SCM) - 맥에서 폴더 안의 모든 사진과 동영상의 모든 프레임까지 AI로 검색해 주는 도구. 전부 로컬에서 돌아가 사진을 외부로 올리지 않는다(별 369개, JavaScript, MIT, 해커뉴스 Show HN 163점)
 - [Spotatui](https://github.com/LargeModGames/spotatui) - 스포티파이 네이티브 스트리밍에 로컬 파일·Subsonic·라디오·Qobuz·유튜브 소스를 함께 붙인 Rust 터미널 음악 플레이어(별 1,680개, MIT)

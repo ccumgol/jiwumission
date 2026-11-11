@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 90개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 90개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 91개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 91개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **90개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **91개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -86,6 +86,7 @@ comments: false
 - [open-bibles](https://github.com/seven1m/open-bibles) - 퍼블릭 도메인이거나 자유 라이선스인 성경 번역본을 OSIS·Zefania·USFX 표준 XML 형식으로 모아 둔 저장소.
 - [OpenBeam](https://github.com/tensorkithq/openbeam) - 설교 중 낭독되는 성경 구절을 실시간 음성 인식으로 찾아 송출 화면에 자동으로 띄워 주는 데스크톱 앱(90 star, TypeScript)
 - [OpenPetra](https://github.com/openpetra/openpetra) - 자선·선교단체의 후원자 관리, 기부 영수증, 복식부기 회계, 회원 연락처를 한 시스템에 묶은 오픈소스 행정 소프트웨어 CRM+ERP(다국가·다통화 지원, C#, GPL-3.0)
+- [OpenSignup](https://github.com/richshaw/OpenSignup) - 봉사 시간표·포트럭 분담·간식 당번·카풀을 칸 단위로 모집하는 광고 없는 오픈소스 신청표. 참가자 계정 불필요, 정원 자동 마감·전날 알림 메일, 도커로 자체 설치 가능(별 24개, TypeScript, AGPL-3.0)
 - [Oppia](https://github.com/oppia/oppia) - 학생이 틀리면 그 자리에서 되짚어 주는 대화형 레슨을 누구나 만들어 배포하는 비영리 무료 온라인 학습 플랫폼(오프라인 안드로이드 앱 제공, Apache-2.0)
 - [OuDedetai](https://github.com/FaithLife-Community/OuDedetai) - 페이스라이프의 로고스(Logos)·버범(Verbum) 성경 연구 프로그램을 리눅스에서 Wine으로 설치하고 관리해 주는 파이썬 도구. 윈도우·맥만 공식 지원하는 로고스를, 오래된 노트북에 리눅스를 깔아 쓰는 교회나 선교지에서도 이미 산 장서 그대로 열 수 있게 해 준다(별 147개, MIT)
 - [phyto](https://github.com/studio-liturgy/acts2-phyto) - 가정교회 등 작은 예배 모임용 무료 찬양·말씀 송출 도구. 찬양 약 3,000곡 오프라인 검색, 반주자 전용 코드 표시·전조, 웹(phyto.live)에서 바로 사용(별 15개, TypeScript, GPL-3.0)
