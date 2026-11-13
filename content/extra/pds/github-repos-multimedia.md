@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 39개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 39개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 40개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 40개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **39개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **40개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -55,3 +55,4 @@ comments: false
 - [Webreel](https://github.com/vercel-labs/webreel) - JSON 설정에 클릭·타이핑·스크롤 순서를 적으면 브라우저 데모를 자동 녹화해 MP4·GIF·WebM으로 뽑아주는 CLI(Apache-2.0, Vercel Labs)
 - [Wrtag](https://github.com/sentriz/wrtag) - MusicBrainz와 대조해 음악 파일 태그와 폴더 구조를 자동 정리하는 빠른 CLI 겸 웹 UI(Beets·Picard 대안, 리눅스·맥·윈도우 단일 실행 파일)
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - 유튜브 및 수많은 스트리밍 사이트에서 동영상과 오디오를 다운로드할 수 있는 강력한 커맨드라인 도구 (youtube-dl 포크)
+- [Zigzag](https://github.com/simpsoka/zigzag) - SVG 그림을 자수기용 도안으로 바꾸고 바늘땀을 눈으로 보며 고치는 무료 자수 프로그램. 맥·윈도우 지원, AI 에이전트 연동(별 214개, Rust, Apache-2.0)

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 92개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 92개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 93개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 93개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **92개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **93개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -64,6 +64,7 @@ comments: false
 - [EcclesiaCRM](https://github.com/phili67/ecclesiacrm) - CalDAV·CardDAV 서버, 주일학교, 심방(목양) 관리까지 붙인 교회 운영용 오픈소스 CRM(ChurchCRM 계열 포크)
 - [Elisha](https://github.com/31Carlton7/elisha) - KJV·ASV·WEB 등 여러 역본을 오프라인으로 읽고 오늘의 말씀·일일 묵상·북마크·읽기 연속기록까지 관리하는 iOS·안드로이드 성경 앱(Flutter)
 - [Eloquent](https://github.com/mdbergmann/Eloquent) - CrossWire SWORD 모듈을 그대로 읽어 여러 역본·주석·사전을 나란히 놓고 보는 macOS 네이티브 성경 공부 앱(126 star, BSD-3-Clause, 계정·인터넷 불필요)
+- [Exegete](https://github.com/worlyung/exegete) - AI가 성경 본문·원어 정보를 지어내지 못하게 실제 데이터로 뒷받침하는 4단계 성경 주해 도구. 헬라어·히브리어·영어·한국어 지원, 개역한글 내장(별 27개, Python, MIT)
 - [Ezra Bible App](https://github.com/ezra-bible-app/ezra-bible-app) - 키워드 태그 기반 주제별 성경 공부에 특화된, SWORD 모듈로 오프라인 사용이 가능한 크로스플랫폼 성경 앱
 - [FreeShow](https://github.com/ChurchApps/FreeShow) - 예배 가사, 성경, 설교 송출용 무료 예배 프레젠테이션 프로그램
 - [FreeShowRemote](https://github.com/ChurchApps/FreeShowRemote) - 무료 예배 송출 프로그램 FreeShow를 스마트폰으로 조작하는 공식 리모컨 앱. 같은 와이파이에만 붙으면 인도자가 자기 자리에서 가사·성경 슬라이드를 넘길 수 있다(별 14개, React Native·Expo, MIT)

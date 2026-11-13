@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛡️ 보안"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
-description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 21개 목록입니다."
+summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
+description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,11 +12,12 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **21개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **22개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛡️ 보안 (Security)
 
 - [Bumblebee](https://github.com/perplexityai/bumblebee) - 코드를 실행하지 않고 디스크 위 패키지·MCP 설정·에디터/브라우저 확장 메타데이터만 읽어 알려진 공급망 침해 노출 여부를 대조하는 읽기 전용 스캐너(Go 단일 정적 바이너리, 의존성 0, Apache 2.0, 퍼플렉시티)
+- [Codex Security](https://github.com/openai/codex-security) - 코드의 보안 취약점을 찾고 검증하고 고치는 것까지 돕는 오픈AI의 명령줄 도구·TypeScript SDK(별 12,383개, TypeScript, Apache-2.0)
 - [coldframe](https://github.com/hedgerow-dev/coldframe) - 슈퍼마켓 냉장 설비 제어기(댄포스 AK-SM 800A, 딕셀 XWEB 500)로 위장해 공격자의 접속·비밀번호·익스플로잇 시도를 기록하는 단일 파일 허니팟(별 30개, Python, MIT)
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - 소스 코드 없이 컴파일된 프로그램을 뜯어보고 동작 방식을 알아내는 소프트웨어 리버스 엔지니어링 프레임워크. 미 국가안보국(NSA)이 2019년 공개해 보안 분석가와 악성코드 연구자들의 표준 도구로 자리 잡았다(별 7만 9,671개, Java, Apache-2.0)
 - [Helium](https://github.com/imputnet/helium) - 텔레메트리와 구글 연동을 걷어내고 광고·추적 차단을 기본으로 켠 "비공개·빠른·정직한" 크로미엄 기반 웹 브라우저(별 2만여 개, GPL-3.0, C++)
