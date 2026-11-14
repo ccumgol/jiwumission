@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 149개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 149개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 151개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 151개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **149개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **151개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -22,6 +22,7 @@ comments: false
 - [agent-desktop](https://github.com/vercel-labs/agent-desktop) - 운영체제 접근성 트리를 읽어 AI 에이전트가 맥·윈도·리눅스 데스크톱 앱의 버튼과 입력창을 직접 조작하게 하는 버셀 랩스의 CLI(별 9,521개, Rust, Apache-2.0)
 - [agent-native](https://github.com/BuilderIO/agent-native) - AI 에이전트가 직접 조작할 수 있는 앱을 만드는 리액트·타입스크립트 프레임워크(별 5,891개, 깃허브 트렌딩 일간 상위권)
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - AI 에이전트가 트위터·레딧·유튜브·깃허브 등을 유료 API 없이 읽고 검색하게 해주는 CLI 도구
+- [AgentRun](https://github.com/Parcha-ai/agentrun) - 쓰던 AI 에이전트 실행 환경에 자기 개선·중단 후 이어 가는 실행·관리 화면을 얹어 주는 오픈소스 플랫폼(별 855개, JavaScript, Apache-2.0)
 - [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
 - [AI Design Skills](https://github.com/elayadesign/ai-design-skills) - 클로드 코드·커서·코덱스·윈드서프가 읽는 마크다운 규칙 형태의 디자인 스킬 모음. 첫 스킬 landing-page-design은 질문으로 요구사항을 받아 페이지 구조·전환 문구·글꼴·간격·모션까지 갖춘 랜딩 페이지를 처음부터 설계한다(별 약 1만 1천 개, MIT)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
@@ -56,6 +57,7 @@ comments: false
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [context-mode](https://github.com/mksglu/context-mode) - AI 코딩 에이전트의 도구 실행 결과를 샌드박스에 격리해 컨텍스트 소모를 최대 98%까지 줄이고, 세션 메모리 저장과 17개 플랫폼 모델 라우팅을 MCP·훅으로 강제하는 도구(별 2만 7천여 개, TypeScript)
 - [cua](https://github.com/trycua/cua) - 여러 OS의 가상머신 플릿과 오픈소스 드라이버·벤치마크를 묶어 컴퓨터를 직접 조작하는 AI 에이전트의 학습·평가·데이터 생성을 대규모로 돌리는 플랫폼(별 2만 4천 개, MIT)
+- [Daily Stock Analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - AI가 여러 나라 증시의 시세·뉴스를 모아 분석 보고서와 대시보드를 만들고 정해진 시간에 알림을 보내는 도구. 투자 조언이 아닌 참고용(별 71,563개, Python, MIT)
 - [DeepInfer](https://github.com/deepseek-ai/DeepInfer) - 딥시크가 V4.1-Flash를 대규모로 서빙하던 고성능 추론 프레임워크를 공개한 것(별 17,687개, Apache-2.0, Python)
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Node.js 설치나 터미널 명령 없이 DeepSeek Harness를 쓸 수 있게 감싼 macOS·윈도우용 Electron 데스크톱 앱(트레이 상주·모바일 원격 접속·플러그인 지원, MIT)

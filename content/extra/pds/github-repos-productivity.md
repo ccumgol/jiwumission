@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 54개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 54개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 55개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 55개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,10 +12,11 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **54개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **55개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
+- [ActivityWatch](https://github.com/ActivityWatch/activitywatch) - 어떤 프로그램·웹사이트에 시간을 얼마나 썼는지 자동으로 기록하는 무료 시간 기록 도구. 기록은 내 컴퓨터에만 저장, 윈도우·맥·리눅스 지원(별 19,621개, Python, MPL-2.0)
 - [Alexandrie](https://github.com/Smaug6739/Alexandrie) - 확장 마크다운 에디터·칸반·OIDC/SSO·오프라인 PWA를 갖춘 자체 호스팅 지식 베이스(노션·컨플루언스 대안), docker compose 한 번으로 배포
 - [AnkiDroid](https://github.com/ankidroid/Anki-Android) - 간격 반복 플래시카드 앱 안키의 안드로이드판. 광고 없이 무료로 쓰며 PC용 안키와 동기화되고, 성경 암송·외국어 공부 카드 만들기에 좋다(별 약 1만 2천 개, Kotlin, GPL-3.0)
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - 문서·DB·칸반·캘린더·위키를 하나로 묶은 오픈소스 노션 대안(Rust·Flutter, 데스크톱 앱·오프라인 우선)
