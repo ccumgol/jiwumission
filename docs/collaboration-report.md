@@ -307,7 +307,9 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-(없음)
+- [시작 2026-11-14 22:59 / Agent-C] 노션 기초 영상 강좌에 02-018 영상 추가
+  계획: scripts/add_notion_video.py 02-018 → data/notion_videos.yaml diff 확인 → pnpm run build
+  다음 단계: YAML 추가·빌드 완료(4,911쪽, 21편, 썸네일 200). 사용자 커밋·푸시 OK 대기
 
 직전 작업: 노션 기초 영상 강좌 페이지 (2026-11-13 완료, Agent-C) — 사용자 승인 후
   커밋·푸시. 7장 참고.
