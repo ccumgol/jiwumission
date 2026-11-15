@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 151개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 151개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 154개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 154개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **151개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **154개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -47,6 +47,7 @@ comments: false
 - [Claude Code](https://github.com/anthropics/claude-code) - 터미널에서 코드베이스를 이해하고 반복 작업·코드 설명·git 워크플로를 자연어로 처리하는 앤트로픽의 에이전틱 코딩 도구
 - [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - 하위 스킬 26개·하위 에이전트 19개로 기술 SEO·스키마·E-E-A-T·AI 검색(GEO/AEO, llms.txt)·백링크·지역/다국어 SEO를 점검하고 PDF·엑셀 보고서로 정리하는 클로드 코드용 SEO 스킬(별 약 2만 3천 개, MIT, Python)
 - [Claude Skills](https://github.com/alirezarezvani/claude-skills) - 코딩 에이전트용 플러그인 및 스킬 모음
+- [Claude Trading Skills](https://github.com/tradermonty/claude-trading-skills) - 주식 투자자를 위한 Claude Code 스킬 모음. 시장 분석·차트·경제 일정·종목 선별·매매 전략 개발 지원(별 4,780개, Python, MIT)
 - [claude-mem](https://github.com/thedotmack/claude-mem) - 클로드 코드·코덱스·제미나이 등 AI 코딩 에이전트가 세션 중에 한 일을 기록·압축해 두었다가 다음 세션에 필요한 맥락만 다시 넣어 주는 기억 도구(별 약 10만 6천 개, TypeScript, Apache-2.0)
 - [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - 앤스로픽이 직접 검수해 관리하는 클로드 코드 플러그인 공식 디렉터리
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) - 블렌더·프리캐드·김프·리브레오피스·draw.io·OBS 같은 GUI 프로그램에 명령줄을 붙여 AI 에이전트가 직접 조작하게 해 주는 CLI 허브(별 50,640개, 홍콩대 HKUDS, Apache-2.0)
@@ -61,6 +62,7 @@ comments: false
 - [DeepInfer](https://github.com/deepseek-ai/DeepInfer) - 딥시크가 V4.1-Flash를 대규모로 서빙하던 고성능 추론 프레임워크를 공개한 것(별 17,687개, Apache-2.0, Python)
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - 모델·도구·스킬·세션·샌드박스·루프·UI를 전부 플러그인으로 구현해 자유롭게 교체·확장하는 딥시크의 오픈소스 에이전트 하니스(MIT, 클로드 코드 대안)
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Node.js 설치나 터미널 명령 없이 DeepSeek Harness를 쓸 수 있게 감싼 macOS·윈도우용 Electron 데스크톱 앱(트레이 상주·모바일 원격 접속·플러그인 지원, MIT)
+- [DeepSeek V3 in JAX](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax) - 딥시크 V3 언어 모델 구조를 순수 JAX 약 190줄로 구현해 맥북 에어에서 학습시킨 교육용 프로젝트(별 86개, Python, MIT)
 - [DeepTutor](https://github.com/HKUDS/DeepTutor) - 채팅·문제 풀이·퀴즈·자료 조사·복습을 한 세션 맥락으로 잇고 내 문서·유튜브 강의를 학습 자료로 연결하는 홍콩대 HKUDS의 AI 개인 튜터 작업 공간(별 약 4만 5,700개, 트렌딩 일간 +1,587, Apache-2.0, Python)
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - 그림자·머메이드 없이 순수 HTML+SVG로 29종 편집 다이어그램을 그려주는 클로드 코드용 스킬 모음
 - [ECC](https://github.com/affaan-m/ECC) - 스킬·직관·메모리·보안·리서치 우선 개발 규칙을 검사 가능한 파일 묶음으로 제공해 코딩 에이전트의 판단력을 끌어올리는 하니스 최적화 시스템(클로드 코드·코덱스·커서 등 지원, 별 24만여 개, MIT)
@@ -104,6 +106,7 @@ comments: false
 - [nesformer](https://github.com/dbreunig/nesformer) - 닌텐도 패미컴(NES)의 6502 CPU와 메모리를 큐원 3.5 모델 가중치 안에 컴파일해 넣어, 언어 모델이 토큰을 예측하며 슈퍼마리오를 돌리는 실험 프로젝트(Python)
 - [Nobuzz (Claudette)](https://github.com/adnanakil/nobuzz) - 클로드의 마지막 답변을 Gemini CLI에 통과시켜 클릭베이트 말투를 평범한 문장으로 바꿔주는 Claude Code 스킬(`/debuzz`)
 - [NPC-Forge](https://github.com/gioblu/NPC-Forge) - 머신러닝이나 대규모 언어모델 없이 CPU만으로 돌아가는 규칙 기반 대화형 에이전트 제작 프레임워크. 게임 NPC나 터미널 비서를 GPU 없이 만들 수 있다(199 star, AGPL-3.0, Python)
+- [Obsidian Skills](https://github.com/obsidianmd/obsidian-skills) - 옵시디언 공식 AI 에이전트 스킬 모음. 옵시디언 CLI와 마크다운·Bases·JSON Canvas 형식을 에이전트가 다루게 함(별 52,592개, Shell, MIT)
 - [Octop](https://github.com/TencentCloud/Octop) - 텐센트클라우드가 공개한 자체 호스팅형 AI 어시스턴트. 다중 사용자·다중 에이전트를 지원해 서버 한 대로 팀 전체가 각자 계정으로 쓸 수 있다(별 7,718개, Python, MIT)
 - [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - AI 에이전트가 Word·Excel·PowerPoint를 읽고 편집·자동화하는 단일 바이너리 오픈소스 오피스 스위트
 - [Ollama](https://github.com/ollama/ollama) - 개인 PC에서 다양한 최신 LLM을 손쉽게 실행하는 도구
