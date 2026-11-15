@@ -290,6 +290,7 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 | 날짜 | 갱신자 | 내용 |
 |---|---|---|
+| 2026-11-15 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-024 ~ 02-028 영상 5편 추가 (25편 → 30편).** `scripts/add_notion_video.py` 로 다섯 항목. 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 5개 200, 커밋 6814ce5 배포 성공 후 라이브 페이지에 다섯 ID 확인 |
 | 2026-11-15 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-019 · 02-020 · 02-021(+022) · 02-023 영상 추가 (21편 → 25편).** `scripts/add_notion_video.py` 로 네 항목. 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 4개 200, 커밋 e237621 배포 성공 후 라이브 페이지에 네 ID 확인 |
 | 2026-11-14 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-018 슬래시(/) 명령어 영상 추가 (20편 → 21편).** `python3 scripts/add_notion_video.py 02-018` → `data/notion_videos.yaml` 한 항목(kd8Wr2NWeZI, 1:54). 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 200, 커밋 4a73592 배포 성공 후 라이브 페이지에 새 ID 확인 |
 | 2026-11-13 | Claude (**Agent-C**) | **`/class/notion/` 에 '노션 기초 영상 강좌' 페이지 추가.** 데이터 `data/notion_videos.yaml`(18편: 입문 특강 + PART 01 7편 + PART 02 10편) → 숏코드 `notion_videos`(썸네일만 먼저, 클릭 시 youtube-nocookie iframe) → 글 `content/class/notion/노션 기초 영상 강좌.md`. 새 영상은 `python3 scripts/add_notion_video.py <unit> [id]` 한 줄로 추가(제목·설명·길이를 단위 폴더에서 읽음, PyYAML 불필요). **주의**: 숏코드 안에서 `.Page.Scratch` 로 '스크립트 한 번만' 처리하면 본문이 두 번 렌더링될 때 플래그가 먼저 소모돼 스크립트가 빠진다 → 매번 출력하고 JS 쪽 `window` 플래그로 막음. 검증 — `pnpm run build` 성공(4,872쪽), 1280px 3열·375px 1열·다크 모드 확인, 18편 썸네일·oEmbed 200 |
@@ -309,12 +310,10 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-- [시작 2026-11-15 02:00 / Agent-C] 노션 기초 영상 강좌에 02-024 ~ 02-028 영상 5편 추가
-  계획: scripts/add_notion_video.py 다섯 번 → diff 확인 → pnpm run build → 커밋·푸시(사용자 OK 2026-11-15)
-  다음 단계: 스크립트 실행
+(없음)
 
-직전 작업: 노션 기초 영상 강좌에 02-019 · 02-020 · 02-021(+022) · 02-023 영상 추가
-  (2026-11-15 완료, Agent-C) — 사용자 승인 후 커밋 e237621 푸시, 배포 성공·라이브 4편 확인. 7장 참고.
+직전 작업: 노션 기초 영상 강좌에 02-024 ~ 02-028 영상 5편 추가 (2026-11-15 완료, Agent-C)
+  — 사용자 승인 후 커밋 6814ce5 푸시, 배포 성공·라이브 5편 확인. 7장 참고.
 
 그 전 작업: Typing Warrior 글 내려받기 주소 교체 (2026-11-04 완료, Agent-C).
   content/extra/pds/손끝으로 새기는 말씀과 시 — Typing Warrior.md
