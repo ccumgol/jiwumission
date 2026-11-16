@@ -1,0 +1,345 @@
+---
+title: "2026년 11월 3주차 글로벌 AI 산업 지형도 및 트렌드 분석"
+date: "2026-11-15T23:30:00.000Z"
+author: "Gihyun Park"
+lastmod: "2026-11-16"
+summary: "2026년 11월 셋째 주 글로벌 AI 산업은 엔비디아 창업자 리스크와 앤트로픽 상장 열기 속에서 모델 가격 경쟁, 전력 확보, 에이전트 상거래와 규제·보안 이슈가 핵심 흐름으로 부상했습니다."
+description: "2026년 11월 셋째 주 글로벌 AI 산업은 엔비디아 창업자 리스크와 앤트로픽 상장 열기 속에서 모델 가격 경쟁, 전력 확보, 에이전트 상거래와 규제·보안 이슈가 핵심 흐름으로 부상했습니다."
+tags: ["잎새 57호"]
+image: "images/2026년-11월-3주차-글로벌-AI-산업-지형도-및-트렌드-분석.webp"
+comments: false
+notion_url: "https://app.notion.com/p/2026-11-3-AI-419091c284f681be9a5cccd741dfcbd2"
+notion_id: "419091c2-84f6-81be-9a5c-ccd741dfcbd2"
+categories: ["주간 AI 트렌드", "blog"]
+---
+
+{{< youtube sG5RwfcC42I >}}
+
+- **대상 기간**: 2026년 11월 9일(월) ~ 11월 15일(일)
+- **작성일**: 2026년 11월 15일
+- **프레임워크**: 6대 축(모델·LLM / 반도체·인프라 / 에이전트·피지컬AI / 데이터센터·에너지 / 거버넌스·보안 / 자본·시장) + 부상 관찰
+- **환율 기준**: 1달러 ≈ 1,400원, 1유로 ≈ 1,600원
+- **참고 자료**: 웹 검색 5회 + 예약 작업 'Daily AI tech briefing'(매일의 IT뉴스) 11월 9일~11월 15일분
+- **표기 원칙**: 확인하지 못한 수치는 "보도"·"전망"으로 표시했습니다. 지난주(11월 2주차)에 다룬 중간선거 다음 날 폭락, 마벨-루멘텀 인수, GPT-6 Cyber는 반복하지 않고, 이번 주 새로 나온 사건과 숫자만 다룹니다.
+
+---
+
+## Executive Delta Brief
+
+이번 주 글로벌 AI 산업의 핵심 변화 5건입니다. 한 줄로 줄이면 **"AI 반도체의 얼굴이 사라진 주에, 돈은 오히려 AI 모델 회사의 상장으로 몰렸다"**는 한 주였습니다.
+
+1. **젠슨 황, 엔비디아 CEO에서 전격 사임 — 33년 창업자 체제가 끝나고 '첫 이사회 의장' 체제로.** 11월 12일 엔비디아 이사회는 황이 사장·CEO·이사직에서 즉시 물러났다고 발표했습니다. 콜렛 크레스 CFO가 임시 CEO를 겸하고, 시놉시스 CEO 출신 하비 존스 이사가 회사 역사상 첫 이사회 의장이 됐습니다. 사임 이유는 공식 발표에 없지만, 로이터는 추가로 드러난 사생활 의혹이 원인이라고 보도했습니다. 이 의혹은 상대가 중국 정보기관과 연관됐다는 '첩보 표적' 논란으로 번져 있었습니다. FT는 이사회가 Arm CEO 르네 하스에게 후임 의사를 타진했다고 보도했고, 주말에는 '복귀 청원' 서명이 10만 8천 명을 넘었습니다. 출처: [NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) · [Reuters](https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/) · [Financial Times](https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926) · [Business Insider](https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11)
+2. **앤트로픽 IPO 로드쇼 시작 — 8억 2,500만 주, 주당 70~78달러, 주문은 공모 물량의 약 6배(보도).** 상단 기준 최대 약 644억 달러(약 90조 원) 조달로 AI 기업 사상 최대 공모입니다. 티커는 'ANT'(나스닥 글로벌 셀렉트), 거래 시작은 11월 19일로 보도됐습니다(회사 공식 일정 아님). 중국 본토·홍콩 기관은 참여할 수 없습니다. 지난주 폭락 직후임에도 주문이 몰리면서 'AI 투자 심리는 꺾이지 않았다'는 첫 증거가 됐습니다. 출처: [Anthropic](https://www.anthropic.com/news/roadshow-launch) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed)
+3. **최상위 모델 가격 전쟁 — 앤트로픽 Fable 5.2는 '더 빠르고 더 싸게', 구글 Gemini 4 Carbon은 '1위인데 절반 값'.** 앤트로픽은 Claude Fable 5.2·Mythos 5.2를 내놓으며 출력 속도 최대 30% 향상과 가격 인하(입력 100만 토큰당 8달러, 출력 40달러)를 함께 발표했습니다. 구글은 Gemini 4 Carbon(입력 2달러/출력 10달러, 도입 가격)과 저가형 Gemini 4 Hydrogen을 연달아 공개하고 무료 사용자에게도 Gemini 4를 열었습니다. 메타 Muse Ember는 입력 100만 토큰당 10센트입니다. 한편 오픈AI는 3분기 매출 약 100억 달러(전 분기 대비 +50%, 보도)로 성장률이 다시 올라갔습니다. 출처: [Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2) · [Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/) · [TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/) · [The Information](https://www.theinformation.com/articles/openai-revenue-jumps-10-billion-third-quarter)
+4. **AI 회사가 '발전소'를 직접 산다 — 앤트로픽 1.7GW 가스 발전기 34억 달러, 반대로 소프트뱅크는 터빈 예약 취소로 37억 달러 손실.** 앤트로픽의 1.7기가와트 계약은 AI 연구소의 발전 설비 구매 가운데 최대 규모입니다(FT). 같은 주 소프트뱅크는 13기가와트 넘게 예약해 둔 가스 터빈을 대부분 취소하며 37억 달러 손실을 냈습니다(WSJ). 삼성은 데이터센터 냉각 업체 모딘 인수를 협상 중입니다(보도). 전력 장비가 '사 두면 이기는 자산'이 아니라 '정확히 필요한 만큼 사는 자산'이 됐습니다. 출처: [Financial Times](https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0) · [WSJ](https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/samsung-is-in-talks-to-acquire-data-center-cooling-firm-modine)
+5. **에이전트가 지갑을 열다 — 'ChatGPT 월렛' 출시, 같은 주 유나이티드항공은 AI 비서의 항공권 예약을 차단.** 오픈AI는 AI 에이전트가 상품을 고르고 결제까지 하는 월렛을 내놨습니다. 반면 유나이티드항공은 개인정보·연방 규정을 이유로 개인용 AI 에이전트의 예약을 막겠다고 밝혔고, 아마존은 AI 쇼핑 에이전트에 맞서 '세상 모든 상품 데이터'를 모으는 월드 프로덕트 그래프를 추진합니다(로이터 단독). 에이전트 상거래의 '통행권' 싸움이 시작됐습니다. 출처: [TechCrunch](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/) · [WSJ](https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38) · [Reuters](https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/)
+
+---
+
+## 시대 키워드 유효성 검증
+
+| 키워드 | 판정 | 이번 주 근거 |
+| --- | --- | --- |
+| **Founder Risk (창업자 리스크)** | 신규·최상위 | 젠슨 황 사임, 엔비디아 투자 229곳·백스톱 1,650억 달러의 '돈줄' 공백 |
+| **Frontier Price War (최상위 모델 가격 전쟁)** | 강화 | Fable 5.2 가격 인하, Gemini 4 Carbon 입력 2달러, Muse Ember 10센트 |
+| **IPO Super-Cycle (상장 초호황)** | 강화 | 앤트로픽 약 6배 주문, AI 주식 발행 올해 3천억 달러+대기 1천억 달러 |
+| **Self-Powered AI (자가 발전 AI)** | 유지 | 앤트로픽 1.7GW 가스 발전기, 소프트뱅크 터빈 취소 |
+| **Agentic Commerce (에이전트 상거래)** | 신규 | ChatGPT 월렛, 유나이티드 예약 차단, 아마존 상품 그래프 |
+| **Ballot-Box Compute (투표함 컴퓨팅)** | 유지·관찰 | 지난주 신규. 이번 주는 의회 조사·청문회 국면으로 이동 |
+
+---
+
+## 축 1. 모델·LLM (파랑 #2563EB)
+
+### 개요
+
+**호기심 훅: "1등 모델 값이 왜 내려갈까?"** 이번 주 최상위 모델 3개가 동시에 나왔는데, 공통점은 '성능은 올리고 값은 내렸다'입니다. 앤트로픽 Fable 5.2는 이전 버전보다 출력이 최대 30% 빠르면서 가격(입력 8달러/출력 40달러)이 내려갔고, 같은 기반 모델의 심사 고객용 버전이 Mythos 5.2입니다. 사전 테스트에서 페르마의 마지막 정리 증명을 30시간 만에 형식화하고, 에이전트 코딩 벤치마크 FrontierCode 2.0에서 49.1%를 기록했다고 회사는 밝혔습니다. 구글 Gemini 4 Carbon은 커서·퍼플렉시티·재피어 벤치마크 1위를 내세우면서도 "차순위 외부 모델보다 작업당 비용이 2배 이상 낮다"고 주장합니다. 사흘 뒤에는 저가형 Gemini 4 Hydrogen을 내고 무료 사용자에게까지 Gemini 4를 열었습니다.
+
+수요 쪽 숫자는 강합니다. 오픈AI 3분기 매출은 약 100억 달러로 전 분기보다 50% 늘었고(2분기 성장률 17%, 보도), 중국 딥시크의 에이전트 앱 '하네스'는 출시 3개월 만에 일일 사용자 154만 명, 하루 토큰 약 92조 개를 기록했습니다. 결국 "값을 내려도 사용량이 더 빨리 늘어난다"는 계산이 가격 인하의 배경입니다.
+
+### 주도 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 앤트로픽 | Claude Fable 5.2·Mythos 5.2 공개, 속도 +30%·가격 인하, 패스트 모드 | 상장 직전 '성능+가격' 동시 공세 | [Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2) |
+| 구글 | Gemini 4 Carbon 일반 공개, Hydrogen 무료 개방, Decisions API | 최상위·저가·특화 API 3단 라인업 | [Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) |
+| 오픈AI | 3분기 매출 약 100억 달러(+50%, 보도), Businesses in ChatGPT 베타 | 성장률 반등으로 상장 경쟁 대응 | [The Information](https://www.theinformation.com/articles/openai-revenue-jumps-10-billion-third-quarter) · [The Verge](https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub) |
+| 메타 | 초경량 Muse Ember, 입력 100만 토큰당 10센트 | 에이전트 실행용 '싼 일꾼' 모델 | [TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/) |
+
+### 주목 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 딥시크 | 에이전트 앱 하네스 DAU 154만, 월 548만 명, 플러그인 3만 5천 개 | 중국 에이전트 대중화 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-08/deepseek-s-ai-agent-platform-hits-1-54-million-daily-users) · [Yicai](https://www.yicaiglobal.com/news/deepseek-harness-releases-dau-data-for-first-time-topping-15-million) |
+| 구글 딥마인드 | AlphaGenome 2(유전 변이 세포 단위 예측), AlphaProof Code로 시그널 프로토콜 검증 | 과학·보안 검증 도구로서의 AI | [The Verge](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model) · [Wired](https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/) |
+| 누스 리서치 | 중국 큐원 기반 Arete-27B, '편향층' 제거 주장 | 공개 모델 '재가공' 시장 | [Nous Research](https://nousresearch.com/arete) |
+| 애플 | 50달러 'AI 사용팩' 판매 — 무료 애플 인텔리전스에 첫 과금 | 기기 회사도 토큰 비용 전가 | [9to5Mac](https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/) |
+
+### 일반인 체감 신호
+
+무료 제미나이에 최상위급 모델이 들어오고, 아이폰에서는 AI 기능에 '추가 요금'이 붙기 시작했습니다. 같은 AI라도 **어디서 쓰느냐에 따라 공짜와 유료가 갈리는** 시기입니다. 자주 쓰는 AI 서비스의 무료 한도와 유료 조건을 한 번 정리해 둘 만합니다.
+
+### 병목 · 리스크 + 축 간 연결
+
+- **마진 압박 → 축 6**: 가격 인하는 상장을 앞둔 앤트로픽·오픈AI의 이익률 논쟁으로 바로 이어집니다. 아모데이 CEO는 "1~2년 뒤 필요한 연산을 가늠하는 것"을 회사의 "가장 깊은 사업상 딜레마"라고 말했습니다.
+- **연산 공급 → 축 2·4**: 값이 내려가 사용량이 늘수록 칩·전력 수요가 커집니다. 엔비디아 리더십 공백과 발전 장비 확보전이 모델 경쟁의 뒷단 변수입니다.
+- **중국 공개 모델의 칩 출처 → 축 5**: 한 개인 연구자가 중국 공개 모델 6종에서 수출 금지 칩(블랙웰) 학습 흔적을 찾았다는 분석을 냈습니다(독립 검증 안 됨).
+
+---
+
+## 축 2. 반도체·인프라 (틸 #0D9488)
+
+### 개요
+
+**호기심 훅: "세계에서 가장 비싼 칩 회사에 사장이 없다면?"** 11월 12일 젠슨 황이 엔비디아에서 물러났습니다. 1993년 창업 이후 처음으로 '황 없는 엔비디아'가 됐습니다. 임시 CEO는 2013년부터 CFO를 맡아 온 콜렛 크레스이고, 이사회는 첫 의장으로 하비 존스를 세웠습니다. 발표 당일 주가는 4.34% 내렸습니다.
+
+시장이 진짜 걱정하는 것은 칩이 아니라 **'돈줄'**입니다. 뉴욕타임스에 따르면 엔비디아는 7월 기준 비상장 회사 229곳에 480억 달러를 투자했고, 클라우드 회사들에 1,650억 달러 규모의 보증(백스톱)을 제공했습니다. 준비하던 5,000억 달러 대출 컨소시엄에서도 대출 기관 일부가 빠질 수 있다는 보도가 나왔습니다. 엔비디아는 칩을 팔면서 동시에 칩을 살 회사에 돈을 대 주는 '순환 구조'의 중심이었고, 그 설계자가 갑자기 사라진 셈입니다.
+
+경쟁자들은 이 틈에 움직였습니다. 구글은 TPU 8세대에 정부·규제 산업용 'TPU 8tx'와 긴 문맥용 'TPU 8i Max'를 추가했고(2027년 공급), 세레브라스는 3분기 핵심 매출이 70% 늘며 마이크로소프트와 계약을 공개했습니다.
+
+### 주도 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 엔비디아 | 황 사임, 크레스 임시 CEO, 존스 첫 의장, 후임에 르네 하스 타진(보도) | 창업자 리더십 → 이사회 중심 체제 | [NVIDIA](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) · [CNBC](https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html) |
+| 구글 | TPU 8tx(기밀 컴퓨팅)·8i Max(HBM 대역폭 2배) | 엔비디아 대안 다변화 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rivalry-with-new-versions-of-its-tpu-systems) |
+| 세레브라스 | 핵심 매출 2억 3,090만 달러(+70%), MS 계약(매출은 2027년 1분기부터) | 추론 특화 칩의 실적 증명 | [CNBC](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html) |
+| IBM | 양자 프로세서 나이트호크 r3(520큐비트, 연산 1만 회) | 차세대 연산의 병행 투자 | [SiliconANGLE](https://siliconangle.com/2026/11/11/ibm-quantum-announces-upcoming-nighthawk-r3-processor-designed-to-execute-10000-operations/) |
+
+### 주목 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 프랙타일(영국) | 7억 2천만 달러 유치, 기업가치 70억 달러(5월 약 11억 달러, 보도) | 추론 칩 스타트업 몸값 급등 | [Financial Times](https://www.ft.com/content/f999a0c2-af52-499f-8008-accbdfd45a25) |
+| 딥엑스(한국) | 엣지 AI 칩 DX-M2 테이프아웃, 1,000억 매개변수 모델 구동 목표, 2027년 가을 양산 | 로봇·드론용 온디바이스 칩 | [EE Times](https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/) |
+| 루미널 | 추론 컴파일러, 시리즈 A 2,500만 달러 | 칩 종류를 가리지 않는 추론 소프트웨어 | [Axios](https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software) |
+| 텐드릴스(영국) | 수천 코어 동시 구동 CPU 구조, 3천만 달러 | CPU 재설계 실험 | [Tech.eu](https://tech.eu/2026/11/11/tendrils-compute-raises-30m-to-redo-the-cpu/) |
+
+### 일반인 체감 신호
+
+연금·지수 펀드 속 **엔비디아 비중**은 대부분의 미국 주식형 상품에서 최상위권입니다. 이번 주처럼 '한 사람의 거취'가 지수를 흔들 수 있다는 사실을 기억해 둘 필요가 있습니다(투자 권유 아님).
+
+### 병목 · 리스크 + 축 간 연결
+
+- **돈줄 공백 → 축 4·6**: 엔비디아 보증에 기대던 네오클라우드(엔스케일 등)의 자금 조달이 흔들릴 수 있습니다. 엔스케일은 엔비디아가 30억 달러 이상 전환사채 중 20억 달러를 맡기로 했습니다.
+- **수사·청문회 → 축 5**: 미 법무부는 엔비디아 관련 수사 3건(반독점 1, 칩 유통 경로 2)을 진행 중이고, 황은 추수감사절 전 의회 증언에 합의했습니다.
+- **중국 사업 32억 달러 위험**: 로이터는 수출 제한 엔비디아 칩을 전제로 한 중국 연산 사업이 32억 달러를 넘는다고 보도했습니다.
+
+---
+
+## 축 3. 에이전트·피지컬AI (오렌지 #F97316)
+
+### 개요
+
+**호기심 훅: "AI가 대신 결제해도 될까?"** 오픈AI가 'ChatGPT 월렛'을 내놨습니다. 에이전트가 상품을 찾고, 비교하고, 결제까지 끝냅니다. 같은 주 유나이티드항공은 정반대 결정을 했습니다. 개인용 AI 에이전트의 항공권 예약을 차단하겠다는 것입니다. 아마존은 AI 쇼핑 에이전트가 자사 상품 데이터를 긁어 가는 것에 맞서 '월드 프로덕트 그래프'라는 자체 상품 데이터망을 준비합니다.
+
+움직이는 기계 쪽도 바빴습니다. 테슬라는 운전대 없는 2인승 사이버캡을 개인에게 팔기 시작했습니다. 가격은 2만 9,990달러지만 **월 299달러 자율주행 구독이 없으면 차가 움직이지 않습니다.** 오픈AI는 로봇 전담 팀을 해체하고 인력을 본 연구·응용 조직에 흡수했는데, "범용 모델이 로봇을 직접 제어하는 단계"라는 설명입니다. 아마존 링은 249달러 실내 드론 카메라와 999달러 바퀴형 로봇을 공개했습니다.
+
+### 주도 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 오픈AI | ChatGPT 월렛, Business Agents, 로봇 팀 해체·흡수 | 대화 → 거래 → 물리 세계로 확장 | [CNBC](https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html) · [Fortune](https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/) |
+| 테슬라 | 사이버캡 개인 판매, 2만 9,990달러+월 299달러 필수 구독 | 차를 '구독형 서비스 기기'로 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/tesla-says-it-s-starting-to-sell-cybercabs-for-personal-use) · [Electrek](https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/) |
+| 아마존 | 월드 프로덕트 그래프(로이터 단독), 링 보안 로봇 2종 | 상품 데이터 주권 방어 | [Reuters](https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/) · [ZDNET](https://www.zdnet.com/home-and-office/ring-drone-cam-rover-cam-security-robots/) |
+| 애플 | 터너스 CEO, "시리를 진짜 에이전트로" 주문(블룸버그 보도) | iOS 28 에이전트 개편 | [Bloomberg](https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up) |
+
+### 주목 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 유나이티드항공 | 개인용 AI 에이전트 예약 차단 | 에이전트 '통행권' 거부 첫 대형 사례 | [WSJ](https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38) |
+| AWS | 사람이 한 줄도 안 쓴 무료 도구 'AWS Emulator' | 에이전트가 만든 제품의 공식 출시 | [GeekWire](https://www.geekwire.com/2026/aws-gives-developers-a-free-local-stand-in-for-its-cloud-built-from-scratch-by-ai-agents/) |
+| 구글·삼성 | 안드로이드 XR 스마트 안경 예약 판매, 395달러부터 | AI 비서의 새 '눈' | [Wired](https://www.wired.com/story/google-samsung-intelligent-eyewear-launch-warby-parker-gentle-monster-smart-glasses/) |
+| 오우라 | AI 원격진료 카운슬 헬스 6억 2,500만 달러 인수 | 웨어러블+의료 에이전트 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-10/oura-to-buy-on-demand-doctor-ai-service-counsel-health-revenue-jumps-153-in-q4) |
+
+### 일반인 체감 신호
+
+AI에게 결제를 맡길 수 있게 됐지만, **어떤 회사는 AI 손님을 받지 않습니다.** 항공권·숙박처럼 규정이 엄격한 예약은 당분간 직접 하는 편이 안전하고, AI 결제를 쓴다면 결제 한도와 승인 단계를 꼭 설정해 두세요.
+
+### 병목 · 리스크 + 축 간 연결
+
+- **플랫폼의 거부 → 축 5**: 유나이티드·아마존처럼 데이터와 고객 접점을 가진 회사들이 에이전트 접근을 막으면, 에이전트 상거래는 '허가받은 길'로만 다니게 됩니다. 이용 약관·개인정보 규제가 핵심 변수입니다.
+- **구독형 하드웨어 → 소비자 보호**: 사이버캡 약관은 운행 구역을 "언제든 확대·축소·이전"할 수 있고, 구독료도 한 달 전 통지로 바꿀 수 있습니다. 소유와 이용의 경계가 흐려집니다.
+- **에이전트 보안 → 축 5**: 바이브 코딩 도구 Grok Build의 공유 링크로 앱 3만 5천 개 이상의 데이터가 노출됐다는 연구가 나왔습니다.
+
+---
+
+## 축 4. 데이터센터·에너지 (빨강 #EF4444)
+
+### 개요
+
+**호기심 훅: "AI 회사가 왜 발전기를 살까?"** 앤트로픽이 원파워와 1.7기가와트 규모 가스 발전기 공급 계약을 34억 달러에 맺었습니다(FT). 대형 원전 1~2기에 맞먹는 규모로, AI 연구소의 발전 설비 구매로는 최대입니다. 전력망 연결을 몇 년씩 기다리는 대신 현장에서 바로 전기를 만들겠다는 뜻입니다.
+
+같은 주 정반대 장면도 나왔습니다. 소프트뱅크는 AI 전력용으로 13기가와트(후버댐 6개 분량) 넘게 예약해 둔 가스 터빈을 대부분 취소하면서 37억 달러 손실을 냈습니다(WSJ). 전력 장비는 '확보하면 이기는 자산'에서 '수요와 정확히 맞춰야 하는 자산'으로 바뀌고 있습니다.
+
+AI 클라우드 실적은 수요가 여전히 공급을 앞선다는 것을 보여줬습니다. 코어위브 3분기 매출은 36억 6천만 달러(+168%)로 수주잔고가 1,325억 달러로 불어났지만, 순손실은 7억 900만 달러였습니다. 상장을 준비하는 영국 엔스케일은 매출이 14배 늘었지만 순손실 16억 9천만 달러, 부채는 3개월 만에 1억 3,740만 달러에서 55억 달러로 늘었습니다.
+
+### 주도 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 앤트로픽 | 원파워와 1.7GW 가스 발전기 34억 달러 계약(FT) | 연구소가 직접 발전 설비 확보 | [Financial Times](https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0) |
+| 코어위브 | 매출 36.6억 달러(+168%), 수주잔고 1,325억 달러, 순손실 7.09억 달러 | 성장과 적자의 동시 확대 | [CNBC](https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html) |
+| 소프트뱅크 | 13GW 터빈 예약 대부분 취소, 37억 달러 손실(WSJ) | 과잉 선점의 대가 | [WSJ](https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c) |
+| 삼성 | 데이터센터 냉각 업체 모딘 인수 협상(보도), 모딘 주가 30%↑ | 메모리 회사의 냉각 진출 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/samsung-is-in-talks-to-acquire-data-center-cooling-firm-modine) |
+
+### 주목 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 엔스케일 | 3분기 매출 3억 750만 달러(+1,344%), 순손실 16.9억 달러, 부채 55억 달러 | 앤트로픽 약 450억 달러 계약 이행 자금 필요 | [CNBC](https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/neocloud-nscale-reveals-5-5-billion-debt-and-closer-nvidia-ties-ahead-of-ipo) |
+| Mavria | 트럭 운송형 모듈 데이터센터, 1억 3천만 달러(기업가치 10억 달러) | 빨리 짓고 옮기는 데이터센터 | [WSJ](https://www.wsj.com/business/energy-oil/they-led-an-energy-department-overhaul-now-they-plan-to-build-data-centers-914f47c2) |
+| 마이크로소프트 | 365 장애 24~30시간 — "네트워크 용량 증설 과정 문제" | 클라우드 증설 자체가 리스크 | [Engadget](https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/) |
+| 미 FAA | 외딴 시설 배선 교체 중 전국 이륙 중단 4시간 | 핵심 인프라의 단일 장애점 | [Axios](https://www.axios.com/2026/11/13/faa-nationwide-ground-stop) · [WSJ](https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f) |
+
+### 일반인 체감 신호
+
+목요일 오후 아웃룩·팀즈가 하루 넘게 멈췄고, 다음 날 미국 전역의 비행기가 4시간 동안 뜨지 못했습니다. 둘 다 AI와는 무관했지만 **'증설 공사'와 '배선 교체'가 원인**이었습니다. 데이터센터와 망을 급하게 늘리는 시기에는 이런 장애가 잦아질 수 있으니, 중요한 파일은 오프라인 사본을 두는 습관이 도움이 됩니다.
+
+### 병목 · 리스크 + 축 간 연결
+
+- **장비 과잉·부족의 동시 존재**: 앤트로픽은 사고, 소프트뱅크는 취소했습니다. 발전 장비 시장이 '정확한 수요 예측' 싸움이 됐습니다 → 축 1(아모데이의 연산 수요 딜레마).
+- **네오클라우드 신용 → 축 2·6**: 엔스케일·코어위브의 적자 구조는 엔비디아 보증과 상장 시장의 체력에 달려 있습니다.
+- **증설 리스크 → 축 5**: 대규모 장애가 반복되면 클라우드 '복원력' 규제 논의로 이어질 수 있습니다.
+
+---
+
+## 축 5. 거버넌스·보안 (보라 #8B5CF6)
+
+### 개요
+
+**호기심 훅: "회사 대표의 사생활이 왜 국가 안보 문제가 될까?"** 젠슨 황 사임의 출발점은 사생활 의혹이었지만, 상대가 중국 정보기관과 연관됐다는 의혹이 붙으며 안보 사안이 됐습니다. 이사회는 전 연방검사장 대행과 와치텔 립턴에 외부 조사를 맡겼고, 황은 추수감사절 전 하원 외교위원회에서 선서 증언(비공개 가능성)을 하기로 했습니다. 미 법무부는 반독점 1건과 칩 유통 경로(메가스피드·슈퍼마이크로) 2건, 모두 3건의 엔비디아 관련 수사를 진행 중입니다.
+
+이 와중에 오픈AI는 중국의 AI 칩·제조 장비 접근을 막는 초당적 법안을 지지하겠다고 의원들에게 밝혔습니다. 유럽에서는 이탈리아가 안드로이드 사진·영상에 동의 없이 접근한 메타에 8억 500만 유로(약 1조 3천억 원) 과징금을 매겼습니다. 바이낸스는 북한 해킹으로 도난당한 63억 달러를 전액 보전했다고 밝혔고, 미 법무부는 12억 달러 압류 권한을 확보했습니다.
+
+### 주도 기업·기관
+
+| 주체 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 미 법무부 | 엔비디아 관련 수사 3건, 메가스피드 사건 이관 | 칩 유통 경로 단속 강화 | [Semafor](https://www.semafor.com/article/11/12/2026/us-doj-probes-nvidia) · [NYT](https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html) |
+| 미 하원 | 황 선서 증언 합의(추수감사절 전) | 반도체 경영진의 의회 소환 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/huang-agrees-to-testify-before-congress-soon-gop-lawmaker-says) |
+| 오픈AI | 대중 칩 수출 통제 법안 지지, 보안 제품 Daybreak Red Team | 규제 '찬성' 쪽으로 포지션 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/openai-joins-groundswell-of-support-for-ai-chip-control-measures) · [The Register](https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500) |
+| 이탈리아 경쟁당국 | 메타에 8억 500만 유로 과징금 | 기기 내 데이터 접근 동의 강화 | [Reuters](https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/) |
+
+### 주목 이슈
+
+| 주체 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 바이낸스·미 법무부 | 63억 달러 전액 보전, 12억 달러 압류 권한 | 북한 해킹 자금 추적 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/binance-finishes-covering-6-3-billion-of-stolen-customer-tokens) |
+| CAISSI(미 AI 안전 센터) | 직원들에 백악관 비공식 보고 요청(AP) | AI 안전 기구 독립성 논란 | [AP](https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13) |
+| EU 집행위 | 디지털 공정성법 발의(중독 설계·다크 패턴) | 알고리즘 설계 규제 확대 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-11/eu-targets-social-media-addiction-and-online-dark-patterns) |
+| Grok Build | 공유 링크로 앱 3만 5천 개 이상 데이터 노출 | 바이브 코딩의 보안 사각 | [Ars Technica](https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/) |
+
+### 일반인 체감 신호
+
+이탈리아 과징금의 핵심은 '사진첩 접근 권한'입니다. 휴대폰 **설정 → 개인정보 → 사진**에서 앱별 접근 권한을 '선택한 사진만'으로 바꿔 두는 것만으로도 위험을 크게 줄일 수 있습니다.
+
+### 병목 · 리스크 + 축 간 연결
+
+- **인물 리스크의 안보화 → 축 2**: 반도체 경영진 개인이 첩보 표적이 되면서 이사회 감독·후계 계획이 공급망 안보 항목이 됐습니다.
+- **수출 통제 강화 → 축 2·1**: 오픈AI까지 통제 법안을 지지하면서, 중국 공개 모델의 칩 출처 논란이 입법 근거로 쓰일 수 있습니다.
+- **클라우드 장애 → 축 4**: 마이크로소프트·FAA 장애가 겹치며 핵심 인프라 복원력 점검 요구가 커질 전망입니다.
+
+---
+
+## 축 6. 자본·시장 (골드 #CA8A04)
+
+### 개요
+
+**호기심 훅: "폭락 다음 주에 사상 최대 상장이 될까?"** 지난주 'AI 거래'가 하루에 2조 달러 넘게 증발했는데, 이번 주 앤트로픽 공모에는 물량의 약 6배 주문이 몰렸습니다(블룸버그). 8억 2,500만 주를 주당 70~78달러에 팔아 최대 약 644억 달러를 조달하는 계획으로, 주관사들은 기존 투자자에게 우선 배정하겠다고 알렸습니다. FT는 앤트로픽이 약 1조 5천억 달러 가치로 상장할 경우를 가정해 계산하기도 했습니다(뱅크먼-프리드의 2021년 5억 달러 투자가 약 370억 달러가 된다는 분석).
+
+그러나 공급도 쏟아집니다. 디인포메이션에 따르면 앤트로픽을 빼고도 올해 AI 관련 기업 주식 발행이 3천억 달러를 넘었고 약 1천억 달러가 더 대기 중입니다. 비상장 시장에서는 머코어(기업가치 200억 달러), 미렌딜(시리즈 A 10억 달러), 프랙타일(70억 달러) 같은 대형 딜이 이어졌습니다. 반면 소프트뱅크는 기술주 급락 여파로 2분기 약 70억 달러 순손실을 냈습니다.
+
+### 주도 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 앤트로픽 | 공모 8.25억 주·70~78달러, 약 6배 주문, 19일 거래 보도 | AI 투자 심리의 바로미터 | [Anthropic](https://www.anthropic.com/news/roadshow-launch) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed) |
+| 엔스케일 | 수정 상장 서류, 350억 달러 목표 흔들(보도) | 네오클라우드 상장의 시험대 | [Startup Fortune](https://startupfortune.com/nscale-updates-its-nyse-ipo-filing-as-losses-widen-and-the-35bn-target-wobbles/) · [FT](https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47) |
+| 소프트뱅크 | 2분기 약 70억 달러 순손실, 터빈 손실 37억 달러 | AI 올인 전략의 변동성 | [CNBC](https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html) |
+| 스페이스X·테슬라 | 합병 협상 진전, 12월~2027년 초 발표 가능(보도) | 머스크 제국 통합 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress) |
+
+### 주목 기업
+
+| 기업 | 이번 주 움직임 | 의미 | 출처 |
+| --- | --- | --- | --- |
+| 머코어 | 7억 5천만 달러, 기업가치 200억 달러 | 학습 데이터 인력 시장 | [Reuters](https://www.reuters.com/legal/transactional/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/) |
+| 미렌딜 | 시리즈 A 10억 달러(앤트로픽 출신) | AI가 AI 연구를 가속하는 도구 | [WSJ](https://www.wsj.com/pro/venture-capital/this-startup-raised-1-billion-to-build-ai-faster-and-with-fewer-humans-f7f07a59) |
+| 문샷 AI | 상장 위한 지배 구조 개편(케이맨 정리) | 중국 AI 상장 준비 | [WSJ](https://www.wsj.com/tech/chinas-moonshot-ai-restructures-to-pave-way-for-ipo-49f09abb) |
+| 데이터벤토 | 시리즈 C 1억 달러, 기업가치 11억 달러, 프런티어 연구소 6곳 중 5곳 고객 | 금융 데이터가 AI 학습 자원으로 | [FinTech Global](https://fintech.global/2026/11/13/databento-hits-1-1bn-valuation-with-100m-series-c/) |
+
+### 일반인 체감 신호
+
+앤트로픽이 나스닥에 상장하면 한국에서도 해외 주식 계좌로 거래할 수 있습니다. 다만 **공모주 배정은 주로 미국 기관 몫**이고, 상장 첫날 가격은 크게 출렁일 수 있습니다. '유명하니까 산다'보다 자신의 투자 기간과 손실 감내 범위를 먼저 따져 보세요(투자 권유 아님).
+
+### 병목 · 리스크 + 축 간 연결
+
+- **공급 과잉 → 주가 부담**: 3천억+1천억 달러의 주식 공급이 AI 주식 전반의 가격을 누를 수 있습니다.
+- **엔비디아 순환 금융 → 축 2·4**: 투자 229곳·보증 1,650억 달러 구조가 흔들리면 네오클라우드 신용이 먼저 타격받습니다.
+- **가격 전쟁 → 축 1**: 상장 기업의 마진 전망이 모델 가격 인하와 정면으로 부딪힙니다.
+
+---
+
+## 부상 관찰: 우주·궤도 데이터센터
+
+### 이번 주 신호
+
+이번 주 궤도 데이터센터 관련 새 발표는 크지 않았지만, **'머스크 제국 통합'**이라는 구조적 신호가 나왔습니다. 블룸버그는 스페이스X·테슬라 합병 논의가 진전돼 이르면 12월이나 2027년 초에 발표될 수 있다고 보도했습니다. 스페이스X는 이미 AI 조직(그록)을 품고 있고(이번 주 그록 영상 생성 팀 약 60명 감원 보도), 1월에는 궤도 AI 연산용 위성을 최대 100만 기까지 띄우겠다는 신청을 FCC에 냈습니다. 합병이 성사되면 **로켓·위성 통신·AI 모델·자동차·로봇**이 한 회사 안에 묶여, 궤도 연산을 수직 통합으로 밀어붙일 수 있는 유일한 사업자가 됩니다.
+
+| 신호 | 내용 | 해석 | 출처 |
+| --- | --- | --- | --- |
+| 스페이스X·테슬라 합병 협상 | 12월~2027년 초 발표 가능(보도) | 발사·AI·하드웨어 수직 통합 | [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress) |
+| 스페이스X 그록 조직 재편 | 영상 생성 팀 약 60명 감원, 코딩·봇 집중 | AI를 '돈 되는 곳'에 집중 | [The Information](https://www.theinformation.com/articles/elon-musks-ai-group-guts-grok-video-generation-team) |
+| 업계 현황(11/4 집계) | 추적 대상 53개 중 21곳 궤도 장비 시험, 상용 서비스는 케플러 1곳 | 실증 단계 지속 | [New Space Economy](https://newspaceeconomy.ca/2026/11/04/orbital-data-center-market-landscape-2026/) |
+| 경제성(배경) | 궤도 전력 kW당 연 1만 4,700달러 vs 지상 570~3,000달러(구글 6월 논문, 보도) | 지상 대비 약 5~26배 | [Fierce Network](https://www.fierce-network.com/cloud/space-data-centers-starcloud-spacex-and-project-suncatcher-explained) |
+
+### 중요성
+
+- **지상 병목의 우회로**: 앤트로픽이 발전기를 직접 사고, 소프트뱅크가 터빈 예약을 취소하는 등 지상 전력은 '정확한 계산'의 영역이 됐습니다. 우주는 이 계산을 바꿀 수 있는 거의 유일한 변수입니다.
+- **수직 통합만이 경제성을 바꾼다**: 발사 단가·위성 통신·칩 수요를 한 회사가 다 가지면 비용 격차(5~26배)를 줄일 수단이 생깁니다. 그래서 합병 뉴스가 궤도 연산의 선행 지표입니다.
+- **판정**: 7번째 축 승격은 보류. 추적 지표는 ① 스페이스X·테슬라 합병 발표 여부 ② 궤도 연산 위성의 실제 발사 일정.
+
+---
+
+## 종합 결론
+
+### 결론 1. AI 산업의 최대 리스크가 '기술'에서 '사람과 지배 구조'로 옮겨 갔다
+
+엔비디아는 칩 성능 때문이 아니라 창업자 한 사람의 거취 때문에 흔들렸습니다. 그리고 그 파장은 칩 공급이 아니라 **엔비디아가 쥐고 있던 돈줄**(비상장 투자 480억 달러, 보증 1,650억 달러, 대출 컨소시엄 5,000억 달러)로 번지고 있습니다. 같은 주 앤트로픽은 상장 서류와 로드쇼로 '이사회·공시·투명성'을 시험받고 있습니다. AI 산업이 창업자의 직관으로 달리던 단계에서, **이사회와 공시와 의회가 감시하는 단계**로 넘어갔다는 신호입니다.
+
+### 결론 2. 모델 값은 내려가고, 전기·상장 자금은 더 비싸게 확보된다
+
+최상위 모델 3개가 모두 '값은 내리고 성능은 올렸다'는 메시지로 나왔습니다. 그런데 그 모델을 돌릴 전기는 회사가 직접 발전기를 사야 할 만큼 귀하고(앤트로픽 34억 달러), 확보 실패나 과잉 확보 모두 비쌉니다(소프트뱅크 37억 달러 손실). 결국 **AI의 수익성은 모델 가격이 아니라 연산·전력 조달 원가를 누가 더 정확히 맞추느냐**로 갈립니다. 앤트로픽 상장에 6배 주문이 몰린 것은 시장이 그 계산을 아직 믿고 있다는 뜻이지만, 3천억 달러가 넘는 주식 공급은 그 믿음의 한계를 시험할 것입니다.
+
+---
+
+## 전략 제언
+
+### 투자자
+
+- 엔비디아는 '실적'보다 **후임 CEO와 대출·보증 구조**의 변화를 먼저 확인할 시기입니다. 네오클라우드(엔스케일·코어위브)는 엔비디아 보증 의존도를 점검하세요.
+- 앤트로픽 상장 첫 주 가격 흐름은 연말 AI 주식 전반의 심리 지표가 됩니다. 단, 공모 물량과 올해 누적 발행량을 함께 보세요(투자 권유 아님).
+
+### 정책 입안자
+
+- 핵심 기술 기업 경영진의 **안보 리스크 관리**(이해 충돌 공개, 후계 계획)를 상장사 공시 기준에 반영할 필요가 있습니다.
+- 에이전트 상거래에 대비해 '에이전트 결제'의 책임 소재·환불·한도 기준을 마련해야 합니다. 한국도 전자금융거래법상 '대리 결제' 해석을 미리 정리할 시점입니다.
+
+### 사업자
+
+- 모델 가격 인하 국면입니다. 최상위 모델·저가 모델·특화 API를 섞는 **모델 라우팅**으로 비용을 줄이세요.
+- 우리 서비스에 AI 에이전트가 접속할 때 **허용할지, 막을지, 유료 API로 열지** 정책을 정하세요(유나이티드·아마존 사례).
+- 클라우드 장애에 대비해 핵심 업무의 오프라인·다중 클라우드 대안을 점검하세요.
+
+---
+
+## 다음 주 관전 포인트
+
+| 일정 | 이슈 | 관전 이유 |
+| --- | --- | --- |
+| 11/18~19(보도) | 앤트로픽 공모가 확정·나스닥 거래 시작 | 공모가 상단 돌파 여부, 첫날 흐름 |
+| 다음 주 | 엔비디아 3분기(회계) 실적 발표(예정) | 황 사임 후 첫 성적표, 가이던스와 후임 언급 |
+| 추수감사절(11/26) 전 | 젠슨 황 하원 비공개 증언 | 첩보·수출 통제 논란의 향방 |
+| 진행 중 | 엔비디아 후임 CEO 서치펌 선정 | 르네 하스 등 후보 윤곽 |
+| 12월~2027년 초(보도) | 스페이스X·테슬라 합병 발표 여부 | 궤도 연산 수직 통합의 신호 |
