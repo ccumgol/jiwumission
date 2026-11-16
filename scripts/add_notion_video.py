@@ -6,6 +6,7 @@ The page /class/notion/노션-기초-영상-강좌/ renders this file through th
 
 Usage:
     python3 scripts/add_notion_video.py <unit> [youtube_id]
+    python3 scripts/add_notion_video.py --compilation <NN>      (part compilation, e.g. 03)
 
     <unit>        unit folder prefix under the Notion manual folder, e.g. 02-015
                   (the folder 02-015_페이지란 is found automatically)
@@ -23,6 +24,11 @@ Environment:
     NOTION_UNITS_DIR  override the unit folder root
                       (default ~/Desktop/Playground/Notion)
 
+Compilation (--compilation 03): reads 합본_PART03/유튜브_제목_설명_PART03.md (or
+합본_PART01-02/..._PART01.md): title under "## 제목", id from the "✅ … https://youtu.be/<id>"
+line, summary = first line of the first code block, duration from 노션기초_PART03_합본_1920x1080.mp4.
+It is stored with kind: "compilation" and shown in the top section of the page.
+
 The YAML is written in a fixed, line-based format (no PyYAML needed). Entries are
 kept sorted by unit; an entry with the same id or unit is replaced, not duplicated.
 """
@@ -38,6 +44,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = REPO_ROOT / "data" / "notion_videos.yaml"
 UNITS_DIR = Path(os.environ.get("NOTION_UNITS_DIR", Path.home() / "Desktop/Playground/Notion"))
 FIELDS = ("id", "unit", "part", "title", "summary", "duration", "date")
+OPTIONAL_FIELDS = ("kind",)  # written only when set; "compilation" = part compilation
 HEADER = """# Notion 기초 영상 강좌 목록 — layouts/shortcodes/notion_videos.html 이 읽는다.
 # 새 영상은 손으로 고치지 말고: python3 scripts/add_notion_video.py <unit> [youtube_id]
 # part 이름은 아래 parts 에서 바꾼다. videos 는 unit 순서로 정렬된다.
@@ -88,6 +95,9 @@ def write_data_file(path, parts, videos):
         for i, field in enumerate(FIELDS):
             prefix = "  - " if i == 0 else "    "
             lines.append(f"{prefix}{field}: {q(video.get(field, ''))}")
+        for field in OPTIONAL_FIELDS:
+            if video.get(field):
+                lines.append(f"    {field}: {q(video[field])}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -141,9 +151,13 @@ def read_duration(unit_dir):
     videos = sorted(unit_dir.glob("*_가로_1920x1080.mp4"))
     if not videos:
         raise FileNotFoundError(f"No *_가로_1920x1080.mp4 in {unit_dir}")
+    return duration_of(videos[0])
+
+
+def duration_of(video):
     out = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "default=nw=1:nk=1", str(videos[0])],
+         "-of", "default=nw=1:nk=1", str(video)],
         capture_output=True, text=True, check=True,
     ).stdout.strip()
     seconds = round(float(out))
@@ -167,19 +181,54 @@ def build_entry(unit, youtube_id=None):
     }
 
 
+def unit_key(video):
+    """Compilations are keyed by their full label ("합본 PART 03"), units by the first code."""
+    return video["unit"] if video.get("kind") == "compilation" else video["unit"].split()[0]
+
+
 def upsert(videos, entry):
     """Return a new list with entry replacing any video of the same id or unit."""
-    key = entry["unit"].split()[0]
-    kept = [v for v in videos if v["id"] != entry["id"] and v["unit"].split()[0] != key]
-    return sorted(kept + [entry], key=lambda v: (v["part"], v["unit"]))
+    key = unit_key(entry)
+    kept = [v for v in videos if v["id"] != entry["id"] and unit_key(v) != key]
+    return sorted(kept + [entry], key=lambda v: (v["part"], v.get("kind", ""), v["unit"]))
+
+
+def compilation_files(part):
+    """Return (md, mp4) paths for a part compilation, e.g. part "03"."""
+    for folder in sorted(UNITS_DIR.glob("합본_PART*")):
+        md = folder / f"유튜브_제목_설명_PART{part}.md"
+        mp4 = folder / f"노션기초_PART{part}_합본_1920x1080.mp4"
+        if md.exists() and mp4.exists():
+            return md, mp4
+    raise FileNotFoundError(f"No 합본_PART*/유튜브_제목_설명_PART{part}.md with its mp4 in {UNITS_DIR}")
+
+
+def build_compilation_entry(part):
+    md, mp4 = compilation_files(part)
+    md_text = md.read_text(encoding="utf-8")
+    title = re.search(r"## 제목\n\n\*\*(.+?)\*\*", md_text)
+    vid = re.search(r"✅[^\n]*https://youtu\.be/([\w-]{11})", md_text)
+    if not title or not vid:
+        raise ValueError(f"{md.name}: need '## 제목' bold title and a '✅ … https://youtu.be/<id>' line")
+    return {
+        "id": vid.group(1),
+        "unit": f"합본 PART {part}",
+        "part": f"PART {part}",
+        "title": title.group(1),
+        "summary": read_summary(md_text),
+        "duration": duration_of(mp4),
+        "date": read_date(md_text),
+        "kind": "compilation",
+    }
 
 
 def main(argv):
-    if len(argv) not in (2, 3) or not re.fullmatch(r"\d{2}-\d{3}", argv[1]):
+    is_comp = len(argv) == 3 and argv[1] == "--compilation" and re.fullmatch(r"\d{2}", argv[2])
+    if not is_comp and (len(argv) not in (2, 3) or not re.fullmatch(r"\d{2}-\d{3}", argv[1])):
         print(__doc__)
         return 2
     try:
-        entry = build_entry(argv[1], argv[2] if len(argv) == 3 else None)
+        entry = build_compilation_entry(argv[2]) if is_comp else build_entry(argv[1], argv[2] if len(argv) == 3 else None)
         parts, videos = parse_data_file(DATA_FILE)
         write_data_file(DATA_FILE, parts, upsert(videos, entry))
     except (OSError, ValueError, subprocess.CalledProcessError) as err:

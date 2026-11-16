@@ -310,7 +310,14 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-(없음)
+- [시작 2026-11-16 / Agent-C] 노션 기초 영상 강좌 페이지 개편 + 합본·PART 03·04 추가
+  계획: 상단 = 입문 특강 + 파트 합본 4편(썸네일 카드, 지금 형식), 하단 = 파트별 단원 영상을
+        썸네일 없는 목록(제목 + 한 줄 설명)으로. data/notion_videos.yaml 에 합본(kind: compilation)과
+        PART 03·04 단원 34편 추가, layouts/shortcodes/notion_videos.html 개편, add_notion_video.py 보강.
+  진행: 데이터 68편(단원 63 + 합본 4 + 특강), 숏코드·글 개편, features.md 갱신, pnpm run build 성공,
+        로컬(hugo server)에서 카드 5·목록 63줄·▶ 줄 아래 재생/닫기·375px 확인.
+  다음 단계: 사용자 OK 대기 → 커밋·푸시 → gh run watch → 라이브 확인
+
 
 직전 작업: 홈 하단 '편한IT 8월 강좌' 카드 → '노션 기초 영상 강좌' 배너 교체 (2026-11-15 완료, Agent-C)
   image_card 의 이미지·제목·링크·본문을 ko/en 두 곳 모두 교체. 배너는 강좌 페이지

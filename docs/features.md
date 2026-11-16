@@ -176,7 +176,7 @@ Hugo는 기본적으로 **미래 날짜 글을 만들지 않습니다.** 이 옵
 | `profile` | 대표간사 소개 (`note`=링크 아래 작은 회색 글씨, 사진은 300×300 Fill로 원형 채움) |
 | `newsletter` | 소식지 신청 카드 (모바일 중앙정렬 / 데스크탑 좌측정렬) |
 | `card`·`cta`·`contact`·`check`·`checklist`·`subheading` | 소개 카드·행동 유도·연락처·체크 항목·소제목 |
-| `notion_videos` | `data/notion_videos.yaml` 의 노션 강좌 영상을 PART 별 카드로 — 썸네일만 먼저, **누르면** youtube-nocookie iframe 으로 교체 (`/class/notion/노션-기초-영상-강좌/`) |
+| `notion_videos` | `data/notion_videos.yaml` 의 노션 강좌 영상 — 위쪽 '처음이라면 여기부터' = 입문 특강 + 파트 몰아보기(`kind: compilation`)를 썸네일 카드로, 아래 = PART 별 단원 영상을 썸네일 없는 목록(제목·한 줄 설명·길이)으로. 카드는 누르면 그 자리, 목록은 ▶ 를 누르면 줄 아래에 youtube-nocookie iframe (`/class/notion/노션-기초-영상-강좌/`) |
 
 ### 본문 표현
 - **접이식 토글**: 노션 토글을 `<details>/<summary>`로 대체. 들여쓰기·소제목 계층 스타일 + **닫힘 `►` / 열림 `▼`** 마커 (`assets/css/custom.css`)
@@ -210,7 +210,7 @@ Hugo는 기본적으로 **미래 날짜 글을 만들지 않습니다.** 이 옵
 |---------|------|----------|
 | `auto_push.sh` | 일일 커밋·푸시 (**유일 원본**, `~/.scripts/`는 심볼릭 링크) | launchd 매일 23:30 |
 | `gen_changelog.sh` | 커밋 기록 → 사이트 제작기 변경 이력 생성 | `bash scripts/gen_changelog.sh` (수동) |
-| `add_notion_video.py` | 노션 강좌 단위 폴더(`~/Desktop/Playground/Notion/<unit>_*`)의 제목·설명·길이로 `data/notion_videos.yaml` 에 영상 1편 추가/갱신 | `python3 scripts/add_notion_video.py 02-016 [유튜브ID]` (업로드 후) |
+| `add_notion_video.py` | 노션 강좌 단위 폴더(`~/Desktop/Playground/Notion/<unit>_*`)의 제목·설명·길이로 `data/notion_videos.yaml` 에 영상 1편 추가/갱신 | `python3 scripts/add_notion_video.py 02-016 [유튜브ID]` (업로드 후) · 파트 합본은 `--compilation 03` (`합본_PART*/유튜브_제목_설명_PART03.md` 의 ✅ 줄·`## 제목`) |
 | `link_qt_to_overview.py` | 성경개론 내용구분에 QT 링크 삽입 (원고 완성분만, 여러 번 실행해도 안전) | `python3 scripts/link_qt_to_overview.py` (수동) |
 | `themeGenerator.js`·`projectSetup.js` 등 | 테마 빌드·초기 설정 (Hugoplate 기본 제공) | `pnpm run build`에 포함 |
 | ~~`updateRepos.js`~~ | ~~IT뉴스에서 GitHub 리포 추출·분류~~ | **사용 중지** — 예약 작업이 대체. 실행 시 큐레이션 소실 위험 |
