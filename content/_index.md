@@ -183,8 +183,8 @@ AI 서비스, 노션, 홈페이지 관련 강좌와 주간 글로벌 AI 산업 �
 문의: 카카오톡 ID. **jiwumission**
 {{< /info_card >}}
 
-{{< image_card title="8월 강좌 · Notion 자료 관리" src="images/courses/notion-2026-08.webp" alt="편한IT 8월 강좌 — Notion을 활용한 효율적인 자료 관리" link="/class/notion/" link_label="강좌 자세히 보기" >}}
-매주 월 7:30 PM (Zoom) · 목 3:30 PM (오프라인)
+{{< image_card title="노션 기초 영상 강좌" src="images/courses/notion-video-course.webp" alt="편한IT 노션 기초 영상 강좌" link="/class/notion/노션-기초-영상-강좌/" link_label="강좌 보러 가기" >}}
+노션을 처음 시작하는 분을 위한 짧은 영상 강좌입니다. [홈페이지 강좌 페이지](/class/notion/노션-기초-영상-강좌/)와 [편한IT 유튜브 재생목록](https://youtube.com/playlist?list=PLPRMrPgg66oejzScM6qhysDHtTVKYu-dv)에서 보실 수 있으며, **계속 업데이트 중**입니다.
 {{< /image_card >}}
 {{< /cards >}}
 
@@ -211,8 +211,8 @@ Zoom sessions: Mon 7:30 PM (EST). Offline: Thu 3:30 PM.
 Inquiry KakaoTalk ID: **jiwumission**
 {{< /info_card >}}
 
-{{< image_card title="August Course · Notion" src="images/courses/notion-2026-08.webp" alt="Easy IT August Course — Efficient data management with Notion" link="/class/notion/" link_label="View Course" >}}
-Every Mon 7:30 PM (Zoom) · Thu 3:30 PM (Offline)
+{{< image_card title="Notion Basics Video Course" src="images/courses/notion-video-course.webp" alt="Easy IT Notion basics video course" link="/class/notion/노션-기초-영상-강좌/" link_label="View Course" >}}
+Short video lessons for Notion beginners. Available on the [course page](/class/notion/노션-기초-영상-강좌/) and the [Easy IT YouTube playlist](https://youtube.com/playlist?list=PLPRMrPgg66oejzScM6qhysDHtTVKYu-dv) — **updated continuously**.
 {{< /image_card >}}
 {{< /cards >}}
 
