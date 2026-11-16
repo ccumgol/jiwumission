@@ -290,6 +290,7 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 | 날짜 | 갱신자 | 내용 |
 |---|---|---|
+| 2026-11-16 | Claude (**Agent-C**) | **노션 기초 영상 강좌 개편 (30편 → 68편).** 위쪽 = 입문 특강 + 파트 합본 4편 썸네일 카드, 아래 = PART 01~04 단원 63편 썸네일 없는 목록(▶ 줄 아래 재생). 합본은 `add_notion_video.py --compilation NN`(kind: compilation). 검증 — `pnpm run build` 성공, 로컬·라이브에서 카드 5·목록 63줄, 커밋 955b25e 배포 성공 |
 | 2026-11-15 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-024 ~ 02-028 영상 5편 추가 (25편 → 30편).** `scripts/add_notion_video.py` 로 다섯 항목. 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 5개 200, 커밋 6814ce5 배포 성공 후 라이브 페이지에 다섯 ID 확인 |
 | 2026-11-15 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-019 · 02-020 · 02-021(+022) · 02-023 영상 추가 (21편 → 25편).** `scripts/add_notion_video.py` 로 네 항목. 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 4개 200, 커밋 e237621 배포 성공 후 라이브 페이지에 네 ID 확인 |
 | 2026-11-14 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-018 슬래시(/) 명령어 영상 추가 (20편 → 21편).** `python3 scripts/add_notion_video.py 02-018` → `data/notion_videos.yaml` 한 항목(kd8Wr2NWeZI, 1:54). 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 200, 커밋 4a73592 배포 성공 후 라이브 페이지에 새 ID 확인 |
@@ -310,13 +311,10 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-- [시작 2026-11-16 / Agent-C] 노션 기초 영상 강좌 페이지 개편 + 합본·PART 03·04 추가
-  계획: 상단 = 입문 특강 + 파트 합본 4편(썸네일 카드, 지금 형식), 하단 = 파트별 단원 영상을
-        썸네일 없는 목록(제목 + 한 줄 설명)으로. data/notion_videos.yaml 에 합본(kind: compilation)과
-        PART 03·04 단원 34편 추가, layouts/shortcodes/notion_videos.html 개편, add_notion_video.py 보강.
-  진행: 데이터 68편(단원 63 + 합본 4 + 특강), 숏코드·글 개편, features.md 갱신, pnpm run build 성공,
-        로컬(hugo server)에서 카드 5·목록 63줄·▶ 줄 아래 재생/닫기·375px 확인.
-  다음 단계: 사용자 OK 대기 → 커밋·푸시 → gh run watch → 라이브 확인
+(없음)
+
+직전 작업: 노션 기초 영상 강좌 페이지 개편 + 합본 4편·PART 03·04 34편 추가 (2026-11-16 완료, Agent-C)
+  — 사용자 승인 후 커밋 955b25e 푸시, 배포 성공·라이브에서 카드 5·목록 63줄 확인. 7장 참고.
 
 
 직전 작업: 홈 하단 '편한IT 8월 강좌' 카드 → '노션 기초 영상 강좌' 배너 교체 (2026-11-15 완료, Agent-C)
