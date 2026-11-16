@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 154개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 154개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 156개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 156개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **154개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **156개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -24,6 +24,7 @@ comments: false
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - AI 에이전트가 트위터·레딧·유튜브·깃허브 등을 유료 API 없이 읽고 검색하게 해주는 CLI 도구
 - [AgentRun](https://github.com/Parcha-ai/agentrun) - 쓰던 AI 에이전트 실행 환경에 자기 개선·중단 후 이어 가는 실행·관리 화면을 얹어 주는 오픈소스 플랫폼(별 855개, JavaScript, Apache-2.0)
 - [agentsview](https://github.com/kenn-io/agentsview) - 클로드 코드·코덱스 등 20종 이상 코딩 에이전트의 세션을 로컬에서 검색·분석하고 토큰 사용량 통계까지 보여주는 도구(약 5,600 star, Go)
+- [Agweb](https://github.com/paul-nameless/agweb) - 맥용 코딩 에이전트 전용 브라우저. 창 포커스를 빼앗지 않고 쉬는 탭은 멈추며 여러 에이전트의 탭을 한 화면에서 지켜봄(별 222개, Swift, MIT)
 - [AI Design Skills](https://github.com/elayadesign/ai-design-skills) - 클로드 코드·커서·코덱스·윈드서프가 읽는 마크다운 규칙 형태의 디자인 스킬 모음. 첫 스킬 landing-page-design은 질문으로 요구사항을 받아 페이지 구조·전환 문구·글꼴·간격·모션까지 갖춘 랜딩 페이지를 처음부터 설계한다(별 약 1만 1천 개, MIT)
 - [AI Job Search](https://github.com/MadsLorentzen/ai-job-search) - Claude Code 기반 AI 구직 자동화 프레임워크
 - [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 신경망·컴퓨터 비전·NLP·생성 모델·AI 윤리를 실습과 퀴즈로 훑는 마이크로소프트의 무료 12주 24강 AI 입문 커리큘럼(TensorFlow·PyTorch 병행, 50개 이상 언어 번역)
@@ -130,6 +131,7 @@ comments: false
 - [Paperclip](https://github.com/paperclipai/paperclip) - 여러 AI 에이전트를 회사 조직처럼 묶어 한곳에서 관리하고 업무를 배정하는 오픈소스 앱. 에이전트를 하나씩 따로 돌리는 대신 팀 단위로 운영하려는 조직을 겨냥했다(별 8만 4,927개, TypeScript, MIT)
 - [Pi](https://github.com/earendil-works/pi) - 통합 LLM API·에이전트 루프·터미널 UI·코딩 에이전트 CLI를 한 패키지로 묶은 AI 에이전트 툴킷(대화형·JSON·RPC·SDK 4가지 모드)
 - [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) - 오래 걸리는 작업을 맡긴 AI 에이전트들의 진행 상황과 결과를 메일함처럼 한곳에서 확인하고 응답하는 로컬 우선 인박스(DeepAgents·LangGraph 기반, Apache-2.0)
+- [Plannotator](https://github.com/backnotprop/plannotator) - 코딩 에이전트의 계획·코드를 사람이 보고 주석·검토한 뒤 의견을 한 번에 돌려보내는 작업 공간(별 11,815개, TypeScript, Apache-2.0)
 - [ponytail](https://github.com/DietrichGebert/ponytail) - 코딩 에이전트가 "가장 게으른 시니어 개발자"처럼 판단하게 만들어 불필요한 코드를 새로 쓰지 않게 막는 스킬(약 12만 3천 star, MIT, JavaScript)
 - [Postiz-app](https://github.com/gitroomhq/postiz-app) - 여러 SNS 채널의 게시물 예약을 한 곳에서 관리하는 오픈소스 소셜 미디어 스케줄링 도구
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - 파이썬 REPL을 상시 실행 환경 삼아 컨텍스트를 변수처럼 다루고(RLM) 메모리·스킬을 지속 축적해 스스로 개선하는 오픈소스 코딩·리서치 에이전트(MIT, 데몬 실행 지원)

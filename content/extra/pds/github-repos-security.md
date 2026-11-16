@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛡️ 보안"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
-description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 22개 목록입니다."
+summary: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 23개 목록입니다."
+description: "보안 점검, 프라이버시 보호, 취약점 분석 도구 분야의 오픈소스 리포지터리 23개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **22개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+보안 점검, 프라이버시 보호, 취약점 분석 도구. 현재 **23개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛡️ 보안 (Security)
 
@@ -28,6 +28,7 @@ comments: false
 - [OpenBao](https://github.com/openbao/openbao) - 비밀번호·인증서·API 키 같은 민감 정보를 한곳에서 보관하고 배포하는 오픈소스 시크릿 관리 시스템. 해시코프 볼트가 라이선스를 바꾼 뒤 갈라져 나온 커뮤니티 포크로, 리눅스 재단 산하에서 개발되고 OpenSSF에도 합류했다(별 8,182개, Go, MPL-2.0)
 - [Pentagi](https://github.com/vxcontrol/pentagi) - 자율적으로 취약점을 분석하고 검증하는 펜테스트 에이전트
 - [Rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge) - 일부 x86(VIA C3) CPU에 숨겨진 비x86 보조 코어를 통해 메모리 보호·권한 검사를 우회하는 하드웨어 백도어를 실증하고 탐지 도구까지 공개한 연구 프로젝트
+- [safeagents](https://github.com/huggingface/safeagents) - 허깅페이스가 만든 코딩 에이전트 감시 프록시. 에이전트가 실행하려는 명령을 모델과의 사이에서 미리 검사(별 262개, Python, Apache-2.0)
 - [security-audit-skill](https://github.com/cloudflare/security-audit-skill) - 클라우드플레어가 만든 코딩 에이전트용 보안 감사 스킬. 다단계로 점검하고 독립 검증된 기계 판독 형식으로 결과를 내놓는다.
 - [Sherlock](https://github.com/sherlock-project/sherlock) - 사용자 이름 하나로 수백 개 SNS·웹사이트에서 같은 아이디의 계정을 한 번에 찾아 주는 공개 정보 수집(OSINT) 명령줄 도구(별 약 10만 400개, Python, MIT)
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector) - AI 에이전트 스킬 전용 보안 스캐너. 설치 전에 프롬프트 인젝션·데이터 유출·공급망 위험 같은 악성 패턴을 찾아내며 Claude Code·Codex·MCP 스킬을 지원한다(엔비디아, 별 1만 6천여 개, Apache-2.0)
