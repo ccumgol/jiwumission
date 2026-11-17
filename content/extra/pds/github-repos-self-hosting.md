@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🏠 자체 호스팅 및 홈랩"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 34개 목록입니다."
-description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 34개 목록입니다."
+summary: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
+description: "직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구 분야의 오픈소스 리포지터리 35개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **34개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+직접 서버에 올려 쓰는 서비스와 홈랩 구성 도구. 현재 **35개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🏠 자체 호스팅 및 홈랩 (Self-Hosting & Homelab)
 
@@ -45,6 +45,7 @@ comments: false
 - [Termix](https://github.com/Termix-SSH/Termix) - SSH 터미널·원격 데스크톱·파일 관리·도커·모니터링을 플러그인으로 쓰는 무료 자체 호스팅 서버 관리 플랫폼, 웹·데스크톱·모바일 지원(별 15,790개, TypeScript, Apache-2.0)
 - [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - 유튜브 영상을 메타데이터와 함께 백업/정리하는 미디어 서버
 - [TuneLog](https://github.com/adiiverma40/tunelog) - 별점 없이 건너뛴 곡·다시 들은 곡만으로 취향을 학습하는 자체 호스팅 음악 추천 서비스(Navidrome/Subsonic·ListenBrainz 연동)
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - 웹사이트·서버가 살아 있는지 주기적으로 확인하고 멈추면 이메일·텔레그램·슬랙으로 알려 주는 자체 호스팅 모니터링 도구(별 94,500개, JavaScript, MIT)
 - [Usertour](https://github.com/usertour/usertour) - 앱 안에 제품 투어·체크리스트·설문을 붙이는 오픈소스 사용자 온보딩 플랫폼(Appcues·Userflow 대안, Docker 자체 호스팅)
 - [wacrm](https://github.com/ArnasDon/wacrm) - 공유 수신함·연락처·칸반 영업 파이프라인·단체발송·노코드 자동화를 담은 왓츠앱용 자체 호스팅 CRM 템플릿(공식 WhatsApp Business API, Node.js 어디든 배포, MIT)
 - [Wger](https://github.com/wger-project/wger) - 자동 중량 증가 규칙이 들어간 운동 루틴·Open Food Facts 기반 식단·체중·진척도 사진을 한곳에서 관리하는 자체 호스팅 운동·영양 트래커(안드로이드·iOS 앱, REST API, AGPL-3.0)
