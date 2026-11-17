@@ -290,6 +290,7 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 | 날짜 | 갱신자 | 내용 |
 |---|---|---|
+| 2026-11-17 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 PART 06 9편 + 합본 PART 06 추가 (82편 → 92편).** `add_notion_video.py` 9항목 + `--compilation 06`, parts 에 PART 06 이름, 강좌 글에 PART 06 한 줄. 검증 — `pnpm run build` 성공, 생성 HTML 카드 7·목록 85줄 |
 | 2026-11-16 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 PART 05 13편 + 합본 PART 05 추가 (68편 → 82편).** `add_notion_video.py` 13항목 + `--compilation 05`, parts 에 PART 05 이름, 강좌 글에 PART 05 한 줄. 검증 — `pnpm run build` 성공, 생성 HTML 에서 카드 6·목록 76줄 |
 | 2026-11-16 | Claude (**Agent-C**) | **노션 기초 영상 강좌 개편 (30편 → 68편).** 위쪽 = 입문 특강 + 파트 합본 4편 썸네일 카드, 아래 = PART 01~04 단원 63편 썸네일 없는 목록(▶ 줄 아래 재생). 합본은 `add_notion_video.py --compilation NN`(kind: compilation). 검증 — `pnpm run build` 성공, 로컬·라이브에서 카드 5·목록 63줄, 커밋 955b25e 배포 성공 |
 | 2026-11-15 | Claude (**Agent-C**) | **노션 기초 영상 강좌에 02-024 ~ 02-028 영상 5편 추가 (25편 → 30편).** `scripts/add_notion_video.py` 로 다섯 항목. 검증 — `pnpm run build` 성공(4,911쪽), 썸네일 5개 200, 커밋 6814ce5 배포 성공 후 라이브 페이지에 다섯 ID 확인 |
@@ -313,6 +314,10 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ### 현재 진행 중
 ```
 (없음)
+
+직전 작업: 노션 기초 영상 강좌에 PART 06 9편 + 합본 PART 06 추가 (2026-11-17 완료, Agent-C)
+  — 사용자 요청으로 커밋·푸시. 7장 참고.
+
 
 직전 작업: 노션 기초 영상 강좌에 PART 05 13편 + 합본 PART 05 추가 (2026-11-16 완료, Agent-C)
   — 사용자 요청('웹페이지 업데이트해줘')으로 커밋·푸시. 7장 참고.
