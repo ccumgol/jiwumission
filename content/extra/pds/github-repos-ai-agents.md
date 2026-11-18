@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 157개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 157개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 158개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 158개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **157개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **158개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -130,6 +130,7 @@ comments: false
 - [Orkas](https://github.com/Orkas-AI/Orkas) - 목표를 주면 지휘관 에이전트가 할 일로 쪼개 16개 전문 에이전트와 클로드 코드·코덱스 등 코딩 에이전트에 나눠 맡기는 로컬 우선 데스크톱 AI 팀 앱(macOS·윈도 무료, MIT)
 - [panel](https://github.com/greentfrapp/panel) - 채팅·PDF·노트북·파일을 한 독에 모으고, 필요한 도구가 없으면 에이전트가 즉석에서 새 패널을 만들어 붙이는 연구 워크스페이스(Python, MIT)
 - [Paperclip](https://github.com/paperclipai/paperclip) - 여러 AI 에이전트를 회사 조직처럼 묶어 한곳에서 관리하고 업무를 배정하는 오픈소스 앱. 에이전트를 하나씩 따로 돌리는 대신 팀 단위로 운영하려는 조직을 겨냥했다(별 8만 4,927개, TypeScript, MIT)
+- [PaperOrchestra](https://github.com/google-research/paper-orchestra) - 여러 AI 에이전트가 개요·관련 연구 조사·본문·다듬기·그래프를 나눠 맡아 아이디어와 실험 기록을 학회 양식의 LaTeX 논문 초안으로 만들어 주는 구글 연구진의 도구(별 2,939개, Python, Apache-2.0)
 - [Pi](https://github.com/earendil-works/pi) - 통합 LLM API·에이전트 루프·터미널 UI·코딩 에이전트 CLI를 한 패키지로 묶은 AI 에이전트 툴킷(대화형·JSON·RPC·SDK 4가지 모드)
 - [Pizza Bot](https://github.com/pizza-bot-app/pizza-bot) - 오래 걸리는 작업을 맡긴 AI 에이전트들의 진행 상황과 결과를 메일함처럼 한곳에서 확인하고 응답하는 로컬 우선 인박스(DeepAgents·LangGraph 기반, Apache-2.0)
 - [Plannotator](https://github.com/backnotprop/plannotator) - 코딩 에이전트의 계획·코드를 사람이 보고 주석·검토한 뒤 의견을 한 번에 돌려보내는 작업 공간(별 11,815개, TypeScript, Apache-2.0)

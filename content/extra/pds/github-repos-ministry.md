@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 95개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 95개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 96개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 96개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **95개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **96개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -78,6 +78,7 @@ comments: false
 - [KJV Study](https://github.com/kennethreitz/kjvstudy.org) - 킹제임스 성경 31,102절에 히브리어·헬라어 인터리니어와 스트롱 사전, 상호참조, 통독 계획을 묶은 오픈소스 성경 연구 플랫폼, 도커로 자체 호스팅 가능(별 37개, ISC)
 - [Lessons.church](https://github.com/ChurchApps/LessonsApp) - 교회 어린이부·주일학교용 무료 영상 교육과정 플랫폼으로 교실별 일정 배정과 내용 수정이 가능하고 FreePlay TV 앱이 수업을 미리 받아 오프라인 재생한다(ChurchApps, TypeScript)
 - [Liberapay](https://github.com/liberapay/liberapay.com) - 주·월·연 단위 정기 후원을 자동으로 받고 후원 내역과 목표 금액을 공개 페이지에 투명하게 보여주는 비영리 오픈소스 후원 플랫폼. 플랫폼 수수료가 없고 직접 설치해 운영할 수도 있다(별 2,011개, Python)
+- [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) - 내 서버에 설치해 쓰는 무료 오픈소스 기계 번역기·번역 API. 인터넷 없이도 동작하고 번역할 글이 바깥으로 나가지 않아 선교 소식·후원자 편지 번역에 적합(별 17,782개, Python, AGPL-3.0)
 - [Listmonk](https://github.com/knadh/listmonk) - 후원자 소식지 및 정기 이메일을 대량 발송할 수 있는 메일링 도구
 - [LyricConverter](https://github.com/ChrisMBarr/LyricConverter) - ProPresenter·MediaShout·OpenLyrics·ChordPro 등 예배 프레젠테이션 프로그램의 찬양 가사 파일을 다른 형식으로 바꿔 주는 설치 없는 무료 웹 변환기(별 29개, TypeScript)
 - [LyricDisplay](https://github.com/PeterAlaks/lyric-display-app) - OBS·vMix·와이어캐스트와 실시간 동기화되는 다중 출력 예배 가사 송출 프로그램(세트리스트·순서지 타이머·모바일 컨트롤러 지원, GPL-3.0)
