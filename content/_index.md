@@ -184,7 +184,7 @@ AI 서비스, 노션, 홈페이지 관련 강좌와 주간 글로벌 AI 산업 �
 {{< /info_card >}}
 
 {{< image_card title="노션 기초 영상 강좌" src="images/courses/notion-video-course.webp" alt="편한IT 노션 기초 영상 강좌" link="/class/notion/노션-기초-영상-강좌/" link_label="강좌 보러 가기" >}}
-노션을 처음 시작하는 분을 위한 짧은 영상 강좌입니다. [홈페이지 강좌 페이지](/class/notion/노션-기초-영상-강좌/)와 [편한IT 유튜브 재생목록](https://youtube.com/playlist?list=PLPRMrPgg66oejzScM6qhysDHtTVKYu-dv)에서 보실 수 있으며, **계속 업데이트 중**입니다.
+노션을 처음 시작하는 분을 위한 짧은 영상 강좌입니다. [홈페이지 강좌 페이지](/class/notion/노션-기초-영상-강좌/)와 유튜브 [노션-단편 재생목록](https://www.youtube.com/playlist?list=PLKcC6Z-k8CDU)(단원 영상을 순서대로)과 [노션 Notion 재생목록](https://youtube.com/playlist?list=PLPRMrPgg66oejzScM6qhysDHtTVKYu-dv)(파트별 몰아보기·특강)에서 보실 수 있으며, **계속 업데이트 중**입니다.
 {{< /image_card >}}
 {{< /cards >}}
 
@@ -212,7 +212,7 @@ Inquiry KakaoTalk ID: **jiwumission**
 {{< /info_card >}}
 
 {{< image_card title="Notion Basics Video Course" src="images/courses/notion-video-course.webp" alt="Easy IT Notion basics video course" link="/class/notion/노션-기초-영상-강좌/" link_label="View Course" >}}
-Short video lessons for Notion beginners. Available on the [course page](/class/notion/노션-기초-영상-강좌/) and the [Easy IT YouTube playlist](https://youtube.com/playlist?list=PLPRMrPgg66oejzScM6qhysDHtTVKYu-dv) — **updated continuously**.
+Short video lessons for Notion beginners. Available on the [course page](/class/notion/노션-기초-영상-강좌/), the [lesson playlist](https://www.youtube.com/playlist?list=PLKcC6Z-k8CDU) (lessons in order) and the [Notion playlist](https://youtube.com/playlist?list=PLPRMrPgg66oejzScM6qhysDHtTVKYu-dv) (part compilations and special lectures) — **updated continuously**.
 {{< /image_card >}}
 {{< /cards >}}
 
