@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 40개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 40개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 41개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 41개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **40개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **41개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
@@ -48,6 +48,7 @@ comments: false
 - [SCM](https://github.com/allenv0/SCM) - 맥에서 폴더 안의 모든 사진과 동영상의 모든 프레임까지 AI로 검색해 주는 도구. 전부 로컬에서 돌아가 사진을 외부로 올리지 않는다(별 369개, JavaScript, MIT, 해커뉴스 Show HN 163점)
 - [Spotatui](https://github.com/LargeModGames/spotatui) - 스포티파이 네이티브 스트리밍에 로컬 파일·Subsonic·라디오·Qobuz·유튜브 소스를 함께 붙인 Rust 터미널 음악 플레이어(별 1,680개, MIT)
 - [text-to-cad](https://github.com/earthtojake/text-to-cad) - 만들고 싶은 부품을 문장으로 설명하면 실제 CAD 모델로 만들어 STL·3MF·STEP 파일로 내보내는 도구. 3D 프린터로 바로 뽑을 수 있어 거치대·브래킷 같은 간단한 맞춤 부품 제작에 쓸 수 있다(별 20,684개, MIT, Python)
+- [Veyra](https://github.com/Likely7/Veyra-NRVideo) - 동영상·캡처 카드·게임 스트리밍 화면을 그래픽 카드로 실시간 처리해 해상도를 높이고 잡티를 줄이며 프레임을 보간하는 윈도우용 화질 개선 프로그램(별 3,545개, C++, GPL-3.0)
 - [video-use](https://github.com/browser-use/video-use) - 코딩 에이전트로 영상을 편집하게 해주는 도구. 자연어 지시로 컷 편집·자막·합성을 처리한다(별 2만 4천여 개, MIT, Python)
 - [Video.js](https://github.com/videojs/video.js) - 웹사이트용 대표 오픈소스 동영상 플레이어, v10에서 HTML·React용 프레임워크로 재설계(별 약 4만 개, TypeScript)
 - [Voicebox](https://github.com/jamiepine/voicebox) - 음성 복제와 받아쓰기, 낭독을 전부 내 컴퓨터 안에서 처리하는 오픈소스 AI 음성 스튜디오. 7가지 TTS 엔진을 골라 쓰고 전역 단축키로 어떤 앱에든 받아쓰기를 넣을 수 있으며, 모델·음성 데이터·녹음이 기기를 떠나지 않는다(별 5만 5,800개, MIT)

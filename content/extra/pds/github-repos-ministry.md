@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 96개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 96개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 97개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 97개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **96개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **97개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -95,6 +95,7 @@ comments: false
 - [phyto](https://github.com/studio-liturgy/acts2-phyto) - 가정교회 등 작은 예배 모임용 무료 찬양·말씀 송출 도구. 찬양 약 3,000곡 오프라인 검색, 반주자 전용 코드 표시·전조, 웹(phyto.live)에서 바로 사용(별 15개, TypeScript, GPL-3.0)
 - [Praisenter](https://github.com/praisenter/praisenter) - 성경 구절·찬양 가사·공지 슬라이드를 프로젝터나 보조 화면으로 송출하는 무료 오픈소스 교회 프레젠테이션 프로그램(다중 화면·이중언어 병행 표시·워크스페이스 분리, Java/JavaFX, BSD-3-Clause)
 - [ProDeck](https://github.com/whiteoakmedia/prodeck) - ProPresenter와 Planning Center를 묶어 대시보드·봉사자 호출·콘솔 상태를 보여 주는 교회 방송실 제어 앱(TypeScript, MIT)
+- [Project Zoe](https://github.com/kanzucodefoundation/project-zoe-client) - 사람과 관계를 중심에 둔 교회 관계 관리 시스템(RMS). 교인·관계·조직 정보를 한곳에서 관리하며 화면과 서버를 함께 설치해 쓴다(별 10개, TypeScript, Apache-2.0)
 - [Quelea](https://github.com/quelea-projection/Quelea) - 찬양 가사·성경 구절·미디어를 한 순서지로 묶어 송출하는 교회 예배용 오픈소스 프로젝션 소프트웨어(스테이지 뷰·다중 모니터 지원)
 - [rhema](https://github.com/openbezal/rhema) - 설교를 실시간으로 들으며 인용되는 성경 구절을 AI가 자동 감지해 자막으로 띄우는 데스크톱 앱. NDI 방송 출력을 지원해 OBS·방송 스위처에 바로 물릴 수 있다(343 star, MIT, Tauri)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
