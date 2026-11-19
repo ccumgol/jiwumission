@@ -2,7 +2,7 @@
 title: "손끝으로 새기는 말씀과 시 — Typing Warrior"
 date: "2026-11-02T03:13:00.000Z"
 author: "Gihyun Park"
-lastmod: "2026-11-04"
+lastmod: "2026-11-19"
 summary: "Typing Warrior는 성경 구절·시 등을 타이핑하며 연습하고, 단어 블록·전선 작전 게임 등으로 재미를 더해, 한글·영어 화면 선택과 사용자별 기록·배지를 지원하는 무료 타자 연습 프로그램입니다."
 description: "Typing Warrior는 성경 구절·시 등을 타이핑하며 연습하고, 단어 블록·전선 작전 게임 등으로 재미를 더해, 한글·영어 화면 선택과 사용자별 기록·배지를 지원하는 무료 타자 연습 프로그램입니다."
 tags: ["잎새 55호"]
@@ -45,7 +45,7 @@ categories: ["blog", "자료실"]
 📥 내려받기
 
 - 윈도우즈용: [Typing Warrior: Bible & Poetry](https://apps.microsoft.com/detail/9N1907XRG6SQ?hl=ko-kr&gl=KR&ocid=pdpshare)
-- 맥용: App Store 대기 중
+- 맥용: [Typing Warrior](https://apps.apple.com/app/id6829546475) (애플 실리콘 맥·아이패드)
 
 🏠 홈페이지: [https://jesusiswith.us](https://jesusiswith.us/)
 ☕ 응원하기: [https://buymeacoffee.com/ccumgol](https://buymeacoffee.com/ccumgol)

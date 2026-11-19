@@ -315,11 +315,14 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ```
 (없음)
 
-직전 작업: Class 메뉴 Notion 항목 정리 (2026-11-19 완료, Agent-C).
-  config/_default/menus.toml — name "Notion" → "노션(Notion)", weight 8 → 1.
-  나머지 7개는 +1, 파일 안 순서도 함께 옮겨 화면 순서와 일치시켰다.
-  검증: pnpm run build(4,977쪽) · 생성 index.html 에서 Class 하위 1~8번
-        순서가 노션(Notion) → Affinity → 정적홈페이지 → … 로 나오는 것 확인.
+직전 작업: Typing Warrior 맥 App Store 링크 추가 (2026-11-19 완료, Agent-C).
+  "맥용: App Store 대기 중" → apps.apple.com/app/id6829546475.
+  판매자 Gihyun Park · 무료 · v1.1.0 · 2026-11-06 출시 (iTunes Lookup API 실측).
+  ⚠️ 네이티브 맥 앱이 아니라 iPad 앱이다 — supportedDevices 가 iPad 일색에
+     MacDesktop 하나뿐이고 kind 가 software(= mac-software 아님).
+     애플 실리콘 맥에서만 돌아서 "(애플 실리콘 맥·아이패드)" 를 덧붙였다.
+  국가 없는 링크를 썼다 — 미국·한국 독자가 각자 자기 스토어로 간다.
+  검증: pnpm run build · 생성 HTML <li> 확인 · 세 가지 링크 형태 전부 HTTP 200.
 ```
 
 ### 사용자에게 남은 것 (읽고 지우세요)
