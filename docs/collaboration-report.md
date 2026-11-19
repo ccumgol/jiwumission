@@ -315,6 +315,9 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ```
 (없음)
 
+직전 작업: 노션 기초 영상 강좌에 PART 09 14편 + 합본 PART 09(3jrV8i77px4) 추가 (2026-11-19 완료, Agent-C)
+  — add_notion_video.py 14편 + --compilation 09, parts 에 PART 09. 빌드 후 확인, 사용자 요청("추가하고 푸시")으로 커밋·푸시.
+
 직전 작업: 노션 기초 영상 강좌에 PART 08 13편 + 합본 PART 08(euRYxuz69ZU) 추가 (2026-11-18 완료, Agent-C)
   — add_notion_video.py 13편 + --compilation 08, parts 에 PART 08. 빌드 후 확인, 사용자 요청으로 커밋·푸시.
 
