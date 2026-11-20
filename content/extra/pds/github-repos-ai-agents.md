@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 158개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 158개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 160개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 160개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **158개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **160개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -96,6 +96,7 @@ comments: false
 - [Juggler](https://github.com/juggler-ai/juggler) - JUCE 제작자가 만든, 터미널 대신 그래픽 환경에서 다루는 오픈소스 GUI 코딩 에이전트
 - [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) - 문서 작성·표 다루기·자료 조사 등 지식 노동 업무를 AI가 거들도록 묶어 놓은 Claude Cowork용 오픈소스 플러그인 모음(별 2만 5천여 개, Apache-2.0, Python)
 - [Kronos](https://github.com/shiyu-coder/Kronos) - 주가 캔들 등 금융 시계열을 하나의 언어처럼 학습시킨 오픈소스 기반 모델(별 42,770개, MIT, Python)
+- [last30days-skill](https://github.com/mvanhorn/last30days-skill) - 주제를 주면 최근 30일간 레딧·X·유튜브·해커 뉴스 등의 실제 대화를 모아 근거와 함께 요약하는 AI 에이전트용 조사 스킬(별 70,771개, Python, MIT)
 - [lossless-memory](https://github.com/aru-labs/lossless-memory) - 개인용 AI의 장기 기억을 요약 없이 원문 그대로 보관하고 모든 항목에 타임스탬프를 붙이는 도구(별 102개, Python, MIT)
 - [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book) - 하버드 CS249r 강의에서 출발한, 데이터 파이프라인·학습 인프라·배포·온디바이스·MLOps까지 다루는 오픈소스 ML 시스템 교재
 - [magnitude](https://github.com/magnitudedev/magnitude) - 내 컴퓨터 사양에 맞는 최적의 로컬 AI 모델을 자동으로 골라 띄우고 Claude Code·Codex·Cline 등 기존 코딩 에이전트에 그대로 연결해주는 오픈소스 추론 서버(3,718 star, Apache-2.0, TypeScript)
@@ -160,6 +161,7 @@ comments: false
 - [Swiftlet](https://github.com/leonickson1/Swiftlet) - Qwen MoE 모델의 전문가 가중치를 SSD에서 스트리밍해 80B를 램 4.3GB 맥에서, 35B를 아이폰에서 구동하는 Swift·Metal 런타임(Apache 2.0)
 - [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks) - 다양한 AI 상용 서비스들의 시스템 프롬프트 모음
 - [T3 Code](https://github.com/pingdotgg/t3code) - 내 컴퓨터에서 돌아가는 코딩 에이전트(Claude Code·Codex·Cursor 등)를 휴대폰·웹·데스크톱 앱으로 원격 조종하는 컨트롤 서피스(별 25,164개, MIT)
+- [tamserve](https://github.com/aryamandarda/tamserve) - SAM 2·EdgeTAM 모델로 여러 카메라의 실시간 영상 속 물체를 추적하는 서빙 엔진(별 248개, Python, Apache-2.0)
 - [teamai-cli](https://github.com/Tencent/teamai-cli) - 팀 단위 업무를 AI 네이티브로 바꾸는 텐센트의 오픈소스 CLI 도구
 - [ThoughtDAG](https://github.com/chenxiachan/thoughtdag) - LLM 대화를 무한 캔버스 위 편집 가능한 생각 그래프로 바꿔, 노드를 잇는 선 자체가 모델에 전달되는 컨텍스트가 되는 로컬 우선 도구
 - [TimesFM](https://github.com/google-research/timesfm) - 매출·수요·트래픽처럼 시간 순으로 쌓인 데이터를 별도 학습 없이 바로 예측하게 해 주는 구글 리서치의 시계열 파운데이션 모델(Apache-2.0, Python)
