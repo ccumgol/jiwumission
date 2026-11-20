@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 160개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 160개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 161개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 161개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **160개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **161개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -168,6 +168,7 @@ comments: false
 - [TokenEconomizer](https://github.com/microsoft/TokenEconomizer) - 마이크로 스킬·도구 정리·실패 반복 감지로 코딩 에이전트 토큰 비용을 줄이는 마이크로소프트 플러그인(별 약 5,270개, Python, Apache-2.0)
 - [TokenSpeed](https://github.com/lightseekorg/tokenspeed) - 대형 언어 모델을 더 빠르게 서빙하는 것을 목표로 한 오픈소스 LLM 추론 엔진(별 약 2,770개, MIT, Python, 깃허브 트렌딩 일간)
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - 기본·뉴스·기술 분석가, 강세·약세 연구원, 트레이더, 리스크 관리자 역할을 LLM 에이전트들이 나눠 맡아 토론으로 매매 판단을 내리는 연구용 다중 에이전트 프레임워크(별 약 11만 6천 개, Apache-2.0, Python, 깃허브 트렌딩 일간)
+- [TrnRT](https://github.com/RunanywhereAI/trnrt) - AWS 자체 AI 칩 트레이니엄에서 언어 모델을 돌리는 오픈소스 추론 엔진, OpenAI 호환 API 제공(별 1,649개, Python, Apache-2.0)
 - [TurboFieldfare](https://github.com/drumih/turbo-fieldfare) - 4비트 Gemma 4 26B의 전문가 가중치를 SSD에서 스트리밍해 램 2GB만으로 M시리즈 맥에서 구동하는 Swift·Metal 추론 엔진
 - [Univer](https://github.com/dream-num/univer) - 스프레드시트·문서·슬라이드·캔버스·관계형 테이블·PDF를 브라우저에서 한 런타임으로 다루는 오픈소스 오피스 엔진. AI 에이전트가 문서를 직접 읽고 고치도록 설계됐다(별 1만 6천여 개, 깃허브 트렌딩 일간 상위, Apache-2.0, TypeScript)
 - [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - 100페이지 PDF를 한 번에 처리하는 바이두의 3B 멀티모달 문서 OCR 모델(32K 컨텍스트, Ollama·vLLM·llama.cpp 로컬 구동, MIT)
