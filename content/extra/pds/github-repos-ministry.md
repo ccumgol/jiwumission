@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 98개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 98개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 99개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 99개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **98개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **99개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -51,6 +51,7 @@ comments: false
 - [ChordPro](https://github.com/ChordPro/chordpro) - 가사 위에 코드를 적은 텍스트 파일을 악보 PDF로 변환하고 조옮김·악보집 출력까지 지원하는 ChordPro 표준 공식 구현체(별 537개, Perl)
 - [Christian FOSS](https://github.com/meichthys/christian_foss) - 성경 앱·교회관리시스템·예배 송출·찬양 가사·원어 도구까지 무료 오픈소스 기독교 소프트웨어를 분야별로 정리한 큐레이션 목록(101 star, MIT-0, 2026년 8월 갱신)
 - [Christian Projects](https://github.com/mattrob33/christian-projects) - 성경·교회관리·예배송출·커뮤니케이션·신조·원어·기도 7개 분야로 정리된 기독교 오픈소스 프로젝트 큐레이션 목록(언어·플랫폼·중단 여부까지 표기)
+- [Church Hub](https://github.com/radio-crestin/church-hub) - 찬양 가사·성경 구절 송출, 예배 순서, 유튜브·OBS 방송 연동을 한데 묶은 교회용 프레젠테이션 프로그램, 윈도우·맥 지원(별 6개, TypeScript)
 - [Church4Christ](https://github.com/leveo/church4christ) - 주보·설교·행사 일정·기도 요청 게시판·봉사자 편성을 담은 이중언어(영어/중국어) 교회 홈페이지와 관리자 시스템을 한 벌로 제공하는 오픈소스 프로젝트. 클라우드플레어 워커스+D1+R2 위에 올려 작은 교회는 무료 사용량 범위에서 시작할 수 있다(GPL-3.0, TypeScript)
 - [ChurchCMS](https://github.com/church-cms/church-cms-laravel) - 교인 명부·헌금·출석·설교 발행·기도 요청·행사 캘린더를 한데 묶고 안드로이드 앱까지 함께 제공하는 자체 호스팅 교회관리시스템(Laravel 10 + Vue 2, 브라우저 설치 마법사 제공, MIT)
 - [ChurchCRM](https://github.com/ChurchCRM/CRM) - 교인 명단, 행사, 재정 관리를 위한 교회관리시스템 (ChMS)

@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 68개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 68개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 69개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 69개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **68개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **69개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -20,6 +20,7 @@ comments: false
 - [agent-git (Agit)](https://github.com/Einsia/agent-git) - Git의 커밋·브랜치 모델을 코드가 아니라 AI 에이전트와의 대화 세션에 적용한 버전 관리 도구(별 264개, Rust, MIT)
 - [Ansible](https://github.com/ansible/ansible) - 에이전트 설치 없이 SSH만으로 서버 배포·설정·네트워크·클라우드 관리를 자동화하는 IT 자동화 플랫폼
 - [AnyPS5](https://github.com/boykopovar/AnyPS5) - PS5용 실행 파일을 리눅스와 윈도우에서 돌아가게 자동 변환해 주는 도구
+- [app-store-compliance](https://github.com/mjmirza/app-store-compliance) - 앱스토어·구글 플레이 심사에서 자주 반려되는 이유 117가지와 해결 방법을 정리한 안내서 겸 제출 전 점검 도구(별 3,379개, Shell)
 - [ArcadeMaker](https://github.com/ArcadeMakerSources/ArcadeMaker) - 자체 스크립트 언어(Exp)와 IDE까지 직접 구현한 게임메이커 스타일 C# 2D 게임 엔진
 - [Assembly Hall of Shame](https://github.com/xoreaxeaxeax/asm-hall-of-shame) - CPU 명령어 하나를 최대한 느리게 만드는 방법을 겨루는 역방향 최적화 연구 모음(현재 x86 기록 1,980억 사이클·62초)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
