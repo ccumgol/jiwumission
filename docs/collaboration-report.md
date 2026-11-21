@@ -315,6 +315,9 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ```
 (없음)
 
+직전 작업: 노션 영상 제목에 노션 버전 표기 " - v3.8" 반영 (2026-11-21 완료, Agent-C)
+  — 유튜브 제목을 바꾼 뒤 data/notion_videos.yaml 161편 title 갱신("(노션 기초)"·작성일 표기 제거), 강좌 머리말에 v3.8 설명 한 줄. 사용자 OK("끝나면 반영")로 커밋·푸시.
+
 직전 작업: 노션 기초 영상 강좌에 PART 11 12편 + 합본 PART 11(BPR2dY0ZFos) 추가 (2026-11-21 완료, Agent-C)
   — add_notion_video.py 12편 + --compilation 11, parts 에 PART 11, 머리말 요약·PART 11 줄. 빌드 후 확인, 사용자 요청("사이트 추가·푸시")으로 커밋·푸시.
 
