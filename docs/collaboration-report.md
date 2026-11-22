@@ -315,6 +315,9 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ```
 (없음)
 
+직전 작업: 노션 기초 영상 강좌에 합본 PART 12 추가 (2026-11-22 완료, Agent-C)
+  — add_notion_video.py --compilation 12 (uW1OoeHeTC4, 28:54). 사용자 요청("추가·푸시")으로 커밋·푸시.
+
 직전 작업: 노션 기초 영상 강좌에 PART 12 13편 추가 (2026-11-22 완료, Agent-C)
   — add_notion_video.py 13편(유튜브 ID 직접 지정), parts 에 PART 12, 머리말 요약·PART 12 줄. 합본 PART 12는 유튜브 게시 뒤 --compilation 12로 추가. 사용자 요청("사이트 추가·푸시")으로 커밋·푸시.
 
