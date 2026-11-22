@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🎬 멀티미디어 및 창작"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 41개 목록입니다."
-description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 41개 목록입니다."
+summary: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
+description: "영상·오디오·이미지 제작과 편집, 창작용 도구 분야의 오픈소스 리포지터리 42개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,13 +12,14 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **41개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+영상·오디오·이미지 제작과 편집, 창작용 도구. 현재 **42개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🎬 멀티미디어 및 창작 (Multimedia & Creation)
 
 - [ArtCraft](https://github.com/storytold/artcraft) - 아티스트·디자이너·영상 제작자를 위한 창작 엔진. 프롬프트에 결과를 맡기지 않고 장면과 요소를 직접 배치·조정하면서 3D·이미지·영상 작업을 한곳에서 진행한다(별 7,627개, Rust)
 - [Audacity](https://github.com/audacity/audacity) - 20년 넘게 이어진 무료 오픈소스 오디오 편집기. 2026년 9월 4.0 정식 버전을 내며 해커뉴스 최상단에 올랐고, 팟캐스트·설교 녹음·유튜브 내레이션 다듬기에 여전히 가장 실용적인 선택(1만 8천 star, C++)
 - [Audionaut](https://github.com/kvoltmer/Audionaut) - JUCE로 만든 크로스 플랫폼 멀티트랙 오디오 편집·녹음 프로그램
+- [AutoClip](https://github.com/zhouxiaoka/autoclip) - 긴 영상 링크를 넣으면 AI가 볼 만한 대목을 골라 쇼츠·릴스용 짧은 영상으로 잘라 주고 자막·표지·게시 글까지 만드는 데스크톱 프로그램(별 13,407개, Python, MIT)
 - [Cap](https://github.com/CapSoftware/Cap) - 화면·카메라·마이크를 한 번에 담아 로컬 저장하거나 자체 스토리지로 공유하는 오픈소스 Loom 대체 화면 녹화 도구(맥·윈도우, 2만 1천 star, Rust)
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - 노드를 선으로 이어 이미지·영상 생성 모델의 작업 흐름을 조립하는 GUI이자 백엔드(별 139,599개, Python, GPL-3.0)
 - [Compositor](https://github.com/robbietilton/Compositor) - 피사체 선택·배경 제거·콘텐츠 인식 채우기를 지원하는 맥용 무료 포토샵 대안(별 1만 6,900개, MIT, Swift)
