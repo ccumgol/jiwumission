@@ -1,5 +1,5 @@
 ---
-title: "유튜브 채널 완전 정복 가이드"
+title: "IT 속사정 - 부록. 유튜브 채널 완전 정복 가이드"
 date: 2026-06-02T03:34:00.000Z
 author: "Gihyun Park"
 lastmod: 2026-06-15
