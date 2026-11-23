@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📦 기타 / 미분류"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 14개 목록입니다."
-description: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 14개 목록입니다."
+summary: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 15개 목록입니다."
+description: "위 분류에 들어가지 않는 프로젝트 분야의 오픈소스 리포지터리 15개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-위 분류에 들어가지 않는 프로젝트. 현재 **14개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+위 분류에 들어가지 않는 프로젝트. 현재 **15개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📦 기타 / 미분류 (Uncategorized)
 
@@ -29,4 +29,5 @@ comments: false
 - [NightWatch](https://github.com/rsutcliffe/nightwatch) - 오늘 밤 하늘이 맑아지는 시간대를 찾아 주고 촬영할 천체 순위를 매겨 장비를 펼 만한 밤인지 알려주는 무료 macOS 메뉴바 앱(별 88개, Swift, MIT)
 - [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - 롤러코스터 타이쿤 2를 현대 환경에서 돌아가게 다시 만든 오픈소스 게임 (멀티플레이 지원)
 - [OpenStock](https://github.com/Open-Dev-Society/OpenStock) - 비싼 금융 정보 플랫폼을 대신하는 오픈소스 주식 정보 서비스. 실시간 시세 조회, 종목별 맞춤 알림, 기업 상세 정보 탐색을 무료로 제공한다(별 1만 6,810개, TypeScript, AGPL-3.0)
+- [The Riemann Handbook](https://github.com/tamnd/riemann-handbook) - 컴퓨터 검증을 통과한 리만 가설 증명(Lean 코드)을 사람이 읽는 수학 책으로 풀어 쓰는 프로젝트, PDF·EPUB 제공(별 56개, Python, MIT)
 - [Worker 755](https://github.com/gulivan/worker755) - AI가 상사이고 내가 그 하위 에이전트가 되어 90초 안에 지시를 처리하는 웹 게임, AI 에이전트의 일하는 방식을 놀면서 이해(별 115개, TypeScript, MIT)

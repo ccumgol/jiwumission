@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 59개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 59개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 61개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 61개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **59개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **61개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -46,6 +46,7 @@ comments: false
 - [Midday](https://github.com/midday-ai/midday) - 인보이스·시간 추적·은행 거래 자동 대사·문서 보관·AI 어시스턴트를 한데 묶은 1인 사업자·프리랜서용 오픈소스 비즈니스 워크스페이스(AGPL-3.0, 자체 호스팅 가능)
 - [Mindwtr](https://github.com/dongdongbh/Mindwtr) - 떠오른 일을 일단 수집함에 담고 나중에 다음 행동으로 쪼개는 GTD 방식 할 일 앱. 계정 가입도 인터넷 연결도 필요 없고 데스크톱·모바일 모두 지원(별 2,091개, AGPL-3.0, TypeScript)
 - [Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex) - 설치만 하면 바로 쓰는 데스크톱 가계부. 예산·반복 거래·현금흐름 보고서·자산 추적을 지원하고 데이터는 SQLite 파일로 내 컴퓨터에 남습니다.
+- [MR Office](https://github.com/XinaTian/MROffice) - 브라우저에서 돌아가는 오픈소스 오피스, 문서·표·발표 자료·PDF 편집과 워드·엑셀·파워포인트 파일 호환, 편집기마다 AI 도우미와 MCP 서버 내장(별 2,751개, TypeScript, AGPL-3.0)
 - [NoteGen](https://github.com/codexu/note-gen) - "먼저 기록하고 나중에 정리한다"는 원칙의 로컬 우선 마크다운 노트 앱. 흩어진 스크린샷·텍스트 조각을 AI가 하나의 노트로 정리해 주고, 파일은 내 컴퓨터에 마크다운으로 남으면서 깃허브·WebDAV로 동기화된다(별 1만 2천여 개, GPL-3.0, Tauri)
 - [Notesnook](https://github.com/streetwriters/notesnook) - 기기에서 종단간 암호화되는 완전 오픈소스 노트 앱(에버노트 대안), 동기화 서버도 자체 호스팅 가능
 - [omni-tools](https://github.com/iib0011/omni-tools) - 이미지·PDF·텍스트 변환 등 일상 작업용 웹 도구를 모은 자체 호스팅 모음집
@@ -66,6 +67,7 @@ comments: false
 - [Super Productivity](https://github.com/johannesjo/super-productivity) - 할 일 관리·시간 추적·타임박싱을 한 화면에 묶은, 계정 없이 바로 쓰는 MIT 라이선스 개인 생산성 앱
 - [Sure](https://github.com/we-promise/sure) - 계좌·지출·순자산을 한곳에서 관리하는 오픈소스 개인 재무 앱. Maybe Finance의 커뮤니티 포크(Ruby, AGPL-3.0)
 - [Table Habit](https://github.com/FriesI23/mhabit) - 작은 습관을 매일 체크하고 점수·성장 그래프로 보여 주는 광고·계정 없는 오프라인 우선 습관 추적 앱, PC·모바일 지원과 WebDAV 동기화(별 1,685개, Dart/Flutter, Apache-2.0)
+- [Tasks.org](https://github.com/tasks/tasks) - 안드로이드용 오픈소스 할 일 관리 앱, 반복·하위 작업·위치 알림을 지원하고 구글 태스크·CalDAV·넥스트클라우드와 동기화, 광고·추적 없음(별 5,796개, Kotlin, GPL-3.0)
 - [TeXbrain](https://github.com/swimmingbrain/texbrain) - pdfTeX를 웹어셈블리로 컴파일해 브라우저 안에서 그대로 돌리는 자유 소프트웨어 LaTeX 편집기. 실시간 미리보기·공동 편집·git 연동을 갖췄고 계정·쿠키·텔레메트리 없이 오프라인으로도 작동하며, File System Access API로 로컬 폴더를 직접 읽고 쓴다
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - 노트를 무한히 깊은 트리로 정리하고 한 노트를 여러 위치에 복제(cloning)해 둘 수 있는 개인 지식베이스 앱. WYSIWYG 편집기·전문 검색·노트 버전 관리·노트별 암호화·Excalidraw 스케치·마인드맵·지도 노트 지원, 윈도우/맥/리눅스 실행 파일만으로 서버 없이 사용 가능(AGPL-3.0)
 - [Tudo](https://github.com/jolleyDesign/tudo) - 빠르고 로컬에서 동작하는 TUI 할 일/노트 관리 앱
