@@ -315,6 +315,10 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ```
 (없음)
 
+직전 작업: 구글 AI 연결하기 ②편 Gemini 모델 구성 최신화 (2026-11-22 완료, Agent-WikiPedia)
+  — '모델 고르기' 절을 Auto·Gemini 4 Hydrogen·Neon·Carbon 기준으로 다시 쓰고 계정 비교표 모델 줄 수정(공식 도움말·구글 블로그 11-18 확인). Notion 원문도 같은 내용. 사용자 요청("홈페이지에 직접 반영하여 커밋 푸시")으로 커밋·푸시.
+
+
 직전 작업: 노션 기초 영상 강좌에 합본 PART 12 추가 (2026-11-22 완료, Agent-C)
   — add_notion_video.py --compilation 12 (uW1OoeHeTC4, 28:54). 사용자 요청("추가·푸시")으로 커밋·푸시.
 
