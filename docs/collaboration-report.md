@@ -315,6 +315,9 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 ```
 (없음)
 
+직전 작업: 컴퓨터 기초 시즌 6·8 02편 글 발행 (2026-11-25 완료, Agent-CBV)
+  — 유튜브 공개(M1oXj-qIMns · tRHeRoY3e7U) 뒤 노션 두 글 맨 위에 영상 블록, Obsidian_status=Ready → nobsync --vault content로 class/computer-basic에 2편+썸네일 생성(노션 Done). pnpm run build 확인. 사용자 요청(관제실 경유)으로 커밋·푸시.
+
 직전 작업: 컴퓨터 초보 시리즈 제목에 '시리즈명 - 01.' 추가 (2026-11-23 완료, Agent-WikiPedia)
   — Notion 제목 변경에 맞춰 content/class/computer-basic 시리즈 편 29개의 title 줄 수정 + git mv(파일명=새 제목). 옛 주소 29개는 static/_redirects에 301 추가(hugo list all 전후 비교로 산출). 시리즈가 아닌 단독 글은 그대로. hugo 빌드 확인. 사용자 요청("홈페이지도 같은 형식으로 바꿔서 커밋 푸시")으로 커밋·푸시.
 이전 작업: 구글 AI 연결하기 시리즈 최신 업데이트 반영 (2026-11-22 완료, Agent-WikiPedia)
