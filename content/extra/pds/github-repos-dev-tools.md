@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 71개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 71개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 73개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 73개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **71개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **73개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -25,10 +25,12 @@ comments: false
 - [Assembly Hall of Shame](https://github.com/xoreaxeaxeax/asm-hall-of-shame) - CPU 명령어 하나를 최대한 느리게 만드는 방법을 겨루는 역방향 최적화 연구 모음(현재 x86 기록 1,980억 사이클·62초)
 - [Astryx](https://github.com/facebook/astryx) - 메타가 공개한, 사람과 AI 에이전트가 같은 방식으로 쓰도록 설계된 오픈소스 디자인 시스템(150여 컴포넌트·테마·CLI)
 - [Astryx](https://github.com/meta/astryx) - 메타가 공개한 AI 에이전트 친화형 오픈소스 디자인 시스템(별 약 1만 6,600개, TypeScript, MIT)
+- [Brickie](https://github.com/hatchet-dev/brickie) - AI 에이전트용 샌드박스를 내 클라우드·쿠버네티스 클러스터에서 직접 운영, 작업 공간이 바뀔 때마다 스냅숏을 남겨 이어 하기·갈라지기 가능, 베타(별 132개, Go, MIT)
 - [Channels SDK](https://github.com/CopilotKit/channels-sdk) - 이미 만들어 둔 AI 에이전트를 코드 수정 없이 슬랙·MS 팀즈 등 여러 메신저 채널에 그대로 연결해주는 오픈소스 SDK
 - [Chatwoot](https://github.com/chatwoot/chatwoot) - 홈페이지 라이브 채팅·이메일 문의·왓츠앱/인스타그램 메시지를 한 화면에서 처리하는 오픈소스 고객 상담 데스크(인터콤·젠데스크 대안, 34,812 star, Ruby, 자체 호스팅 가능)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - 코딩 에이전트가 크롬 개발자도구로 성능 추적·네트워크 검사·콘솔 확인을 하게 해주는 크롬 팀 공식 MCP 서버
 - [Container](https://github.com/apple/container) - Mac에서 리눅스 컨테이너를 가볍게 구동하는 가상머신
+- [Cursor Plugins](https://github.com/cursor/plugins) - AI 코드 편집기 Cursor의 플러그인 규격과 공식 플러그인 모음, 코드 리뷰·학습 계획·문서 캔버스·플러그인 만들기 등을 폴더별 플러그인으로 제공(별 19,522개, TypeScript)
 - [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) - AI 코딩 에이전트가 위험한 git·셸 명령을 실행하기 전에 맥락까지 판단해 가로막는 러스트 기반 훅
 - [e2e](https://github.com/tester-army/e2e) - 웹과 모바일 앱을 한 도구로 끝까지 검사하는 차세대 E2E 테스트 프레임워크. 플레이라이트 기반이며 2026년 7월 공개 뒤 넉 달 만에 별 7,442개를 모았다(TypeScript, Apache-2.0)
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - 대용량 로그·문서의 전문 검색과 실시간 분석에 쓰이는 오픈소스 분산 RESTful 검색·분석 엔진

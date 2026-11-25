@@ -313,7 +313,9 @@ pnpm run build        # 프로덕션 빌드 → public/  (배포와 같은 명�
 
 ### 현재 진행 중
 ```
-(없음)
+- [시작 2026-11-25 / Agent-WikiPedia] 시즌 4 에이전트 글 7편 "Gemini Spark" → Task 표기 수정 + 구글 AI ①편 Project Mariner 행 축약
+  계획: content/class/computer-basic/에이전트*.md 7개, ai-study-guide ①편 1줄만 문장 단위 수정 → 빌드 → 커밋·푸시
+  다음 단계: 파일 수정·빌드 확인 완료, 커밋·푸시는 사용자 승인 대기 (요청이 다른 세션에서 와서 자동 승인 안 됨)
 
 직전 작업: 컴퓨터 기초 시즌 6·8 02편 글 발행 (2026-11-25 완료, Agent-CBV)
   — 유튜브 공개(M1oXj-qIMns · tRHeRoY3e7U) 뒤 노션 두 글 맨 위에 영상 블록, Obsidian_status=Ready → nobsync --vault content로 class/computer-basic에 2편+썸네일 생성(노션 Done). pnpm run build 확인. 사용자 요청(관제실 경유)으로 커밋·푸시.
