@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 163개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 163개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 164개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 164개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **163개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **164개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -59,6 +59,7 @@ comments: false
 - [Codex Plugin CC](https://github.com/openai/codex-plugin-cc) - Claude Code에서 OpenAI Codex를 불러 코드 리뷰·작업 위임을 하게 해주는 플러그인
 - [Colibri](https://github.com/JustVugg/colibri) - 744B MoE 모델(GLM-5.2)의 전문가 가중치를 디스크에서 스트리밍해 램 25GB 일반 PC에서 구동하는 무의존성 순수 C 추론 엔진
 - [context-mode](https://github.com/mksglu/context-mode) - AI 코딩 에이전트의 도구 실행 결과를 샌드박스에 격리해 컨텍스트 소모를 최대 98%까지 줄이고, 세션 메모리 저장과 17개 플랫폼 모델 라우팅을 MCP·훅으로 강제하는 도구(별 2만 7천여 개, TypeScript)
+- [Copybook](https://github.com/neon-solutions/copybook) - 제품에 싣는 복사용 코드 조각·명령어·AI 에이전트 프롬프트를 타입이 붙은 정의로 관리하고, 예제가 동작하는지와 프롬프트가 실제 코딩 에이전트에서 통하는지 시험하는 도구(별 34개, TypeScript, MIT)
 - [cua](https://github.com/trycua/cua) - 여러 OS의 가상머신 플릿과 오픈소스 드라이버·벤치마크를 묶어 컴퓨터를 직접 조작하는 AI 에이전트의 학습·평가·데이터 생성을 대규모로 돌리는 플랫폼(별 2만 4천 개, MIT)
 - [Daily Stock Analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - AI가 여러 나라 증시의 시세·뉴스를 모아 분석 보고서와 대시보드를 만들고 정해진 시간에 알림을 보내는 도구. 투자 조언이 아닌 참고용(별 71,563개, Python, MIT)
 - [DeepInfer](https://github.com/deepseek-ai/DeepInfer) - 딥시크가 V4.1-Flash를 대규모로 서빙하던 고성능 추론 프레임워크를 공개한 것(별 17,687개, Apache-2.0, Python)

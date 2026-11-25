@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 💻 개발 도구 및 가상화"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 69개 목록입니다."
-description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 69개 목록입니다."
+summary: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 71개 목록입니다."
+description: "에디터·CI·컨테이너·가상화 등 개발자용 도구 분야의 오픈소스 리포지터리 71개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **69개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+에디터·CI·컨테이너·가상화 등 개발자용 도구. 현재 **71개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 💻 개발 도구 및 가상화 (Dev Tools & Virtualization)
 
@@ -61,6 +61,7 @@ comments: false
 - [Open Code Review](https://github.com/alibaba/open-code-review) - 규칙 기반 파이프라인과 LLM 에이전트를 함께 돌려 코드 줄 단위로 지적해주는 알리바바의 사내용 코드 리뷰 도구(별 2만 8천여 개, Apache-2.0, Go)
 - [open-compute](https://github.com/elliothux/open-compute) - KV·D1·R2·Durable Objects·큐·워크플로를 러스트 바이너리 하나에 담은 클라우드플레어 워커스 호환 자체 호스팅 런타임.
 - [openai/math](https://github.com/openai/math) - OpenAI 내부 모델이 미해결 수학 문제에 대해 만들어 낸 원고 719편과 그 일부의 린(Lean) 형식 증명을 372개 계열로 정리해 공개한 저장소(별 1만 2,009개, Lean, Apache-2.0)
+- [OpenSRE](https://github.com/Tracer-Cloud/opensre) - CI/CD가 실패하면 실패 기록을 읽고 원인을 추적해 고친 코드를 검토용으로 올려 주는 명령줄 AI 에이전트, 자체 서버·원하는 모델로 실행, 공개 알파(별 15,173개, Python, Apache-2.0)
 - [Parin](https://github.com/Kapendev/parin) - raylib과 고도(Godot) 사이의 빈자리를 노린, 단순함을 앞세운 2D 게임 엔진(별 127개, D, MIT)
 - [Pascal Editor](https://github.com/pascalorg/editor) - 로컬 CLI와 MCP 도구를 갖춰 사람과 AI 에이전트가 같은 도면을 함께 편집하는 오픈소스 3D 건축 편집기(평면도·파라메트릭 설계·BIM, 별 2만 3천여 개, MIT, TypeScript)
 - [PHP (php-src)](https://github.com/php/php-src) - PHP 언어 인터프리터의 공식 소스 저장소. PHP2Shell 보안 패치가 여기서 배포됐다(별 41,415개, C, BSD-3-Clause)
@@ -79,6 +80,7 @@ comments: false
 - [Tile Language](https://github.com/tile-ai/tilelang) - 고성능 GPU·CPU·가속기 커널을 파이썬스러운 문법으로 짧게 작성하게 해 주는 도메인 특화 언어(별 8,360개)
 - [Toast](https://github.com/paradise-runner/toast) - 설정을 손보지 않아도 기본값 그대로 쓸 만하게 만든 터미널 내장형 통합개발환경(2026년 9월 11일 Show HN 73점·댓글 86개, Go)
 - [treepeat](https://github.com/dsummersl/treepeat) - 트리시터로 소스 코드를 구문 트리 단위로 비교해 중복·유사 코드를 찾아내는 도구. 변수명만 바꿔 복사한 코드도 구조로 잡아낸다(별 85개, Python, Apache-2.0)
+- [Type-C](https://github.com/stass/type-c) - C11에 variant·match·구분 타입·제네릭·값 기반 오류 처리를 더한 언어, 읽을 수 있는 C로 바꿔 기존 C 컴파일러에 넘기므로 파일 하나씩 옮겨 갈 수 있음(별 22개, OCaml, BSD-2-Clause)
 - [Whiteboard](https://github.com/devdotfast/whiteboard) - 사람과 AI 에이전트가 같은 캔버스에서 소프트웨어 설계를 함께 하는 오픈소스 IDE. Rust로 만든 AST 인식 diff 뷰어로 구조 변경을 의미 단위로 보여 주고 다이어그램과 코드를 연결하며 설계 결정을 기록으로 남긴다(별 1,888개, MIT)
 - [Worktrunk](https://github.com/max-sixty/worktrunk) - Git 워크트리를 쉽게 관리해 여러 AI 코딩 에이전트를 브랜치별로 동시에 돌리고 `wt merge` 한 번으로 합치는 Rust CLI
 - [Woxi](https://github.com/ad-si/Woxi) - 러스트로 작성한 오픈소스 Wolfram Language(매스매티카) 인터프리터. GUI·CLI·주피터 커널·WASM으로 쓸 수 있고 시작 시간이 밀리초 단위

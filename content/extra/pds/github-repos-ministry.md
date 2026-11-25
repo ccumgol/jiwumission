@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 100개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 100개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 101개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 101개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **100개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **101개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -89,6 +89,7 @@ comments: false
 - [Obsidian Bible Reference](https://github.com/tim-hub/obsidian-bible-reference) - Obsidian에서 성경 구절·참조를 자동 제안·삽입해 성경 공부 노트를 돕는 플러그인
 - [ODK Collect](https://github.com/getodk/collect) - 인터넷이 없는 현장에서도 설문·방문 기록·구호 물품 대장을 스마트폰으로 채우고 신호가 잡히면 일괄 업로드하는 인도적 활동용 오픈소스 데이터 수집 앱(GPS·사진·음성·서명 지원, Apache 2.0)
 - [one-scroll-bible](https://github.com/jungrok5/one-scroll-bible) - 창조에서 회복까지 성경 66권의 큰 줄거리를 휴대폰 한 페이지로 보여 주는 웹 페이지, 한국어 포함 210개 넘는 언어 지원(별 7개, HTML)
+- [Open Food Network](https://github.com/openfoodfoundation/openfoodnetwork) - 지역 농산물 온라인 장터, 농부·협동조합·푸드 허브가 각자 가게를 열고 주문·결제를 관리, 비영리 재단이 운영하며 2012년부터 관리(별 1,303개, Ruby, AGPL-3.0)
 - [open-bibles](https://github.com/seven1m/open-bibles) - 퍼블릭 도메인이거나 자유 라이선스인 성경 번역본을 OSIS·Zefania·USFX 표준 XML 형식으로 모아 둔 저장소.
 - [OpenBeam](https://github.com/tensorkithq/openbeam) - 설교 중 낭독되는 성경 구절을 실시간 음성 인식으로 찾아 송출 화면에 자동으로 띄워 주는 데스크톱 앱(90 star, TypeScript)
 - [OpenPetra](https://github.com/openpetra/openpetra) - 자선·선교단체의 후원자 관리, 기부 영수증, 복식부기 회계, 회원 연락처를 한 시스템에 묶은 오픈소스 행정 소프트웨어 CRM+ERP(다국가·다통화 지원, C#, GPL-3.0)
