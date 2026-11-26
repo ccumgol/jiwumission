@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — ⛪ 기독교 사역 및 비영리"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 102개 목록입니다."
-description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 102개 목록입니다."
+summary: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 103개 목록입니다."
+description: "교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정 분야의 오픈소스 리포지터리 103개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **102개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+교회 관리, 예배·찬양 송출, 성경 도구, 후원·자원봉사 등 비영리 행정. 현재 **103개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### ⛪ 기독교 사역 및 비영리 (Ministry & Non-Profit)
 
@@ -105,6 +105,7 @@ comments: false
 - [rhema](https://github.com/openbezal/rhema) - 설교를 실시간으로 들으며 인용되는 성경 구절을 AI가 자동 감지해 자막으로 띄우는 데스크톱 앱. NDI 방송 출력을 지원해 OBS·방송 스위처에 바로 물릴 수 있다(343 star, MIT, Tauri)
 - [Rock RMS](https://github.com/SparkDevNetwork/Rock) - CMS·관계관리(RMS)·교회관리(ChMS)를 하나로 합친 오픈소스 교회 운영 플랫폼
 - [Sermon Manager](https://github.com/WP-for-Church/Sermon-Manager) - 워드프레스 교회 홈페이지에서 설교를 시리즈·설교자·성경 본문·주제별로 정리하고 오디오·영상과 팟캐스트 피드까지 자동 생성하는 플러그인(최근 커밋 2024년 5월)
+- [STEP](https://github.com/STEPBible/step) - 영국 자선단체 STEPBible의 무료 성경 연구 도구로 수백 개 언어의 여러 역본을 온·오프라인에서 비교·검색(별 78개, BSD-3-Clause)
 - [STEPBible-Data](https://github.com/STEPBible/STEPBible-Data) - 케임브리지 틴데일 하우스의 성서학자들이 만들고 STEPBible.org가 관리하는 무료 성경 원어 데이터셋. 히브리어·헬라어 원문에 확장 스트롱 번호와 형태 분석 태그가 붙어 있고 사본 이문·어휘 자료까지 탭 구분 텍스트로 들어 있다. CC BY 4.0이라 출처만 밝히면 어떤 교재나 앱에도 넣을 수 있고 소드 호환 모듈로도 배포된다(203 star, 포크 64개)
 - [Study Bible MCP](https://github.com/djayatillake/studybible-mcp) - AI 비서에 헬라어·히브리어 원어 사전, 교차 참조, 성경 주석, 고대 근동 배경을 연결하는 성경 공부 MCP 서버. 주소만 붙이면 가입 없이 사용(별 90개, Python, MIT)
 - [Theographic](https://github.com/robertrouse/theographic-web) - 성경 인물·장소·시대·본문을 연결한 지식 그래프를 둘러보는 웹 백과사전. 장절·인물·지명 통합 검색(오타 보정), 브라우저 내 검색 엔진으로 오프라인 사용, PWA 설치 지원(본문 KJV, 별 37개, GPL-3.0)

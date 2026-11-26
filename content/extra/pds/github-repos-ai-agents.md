@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🤖 인공지능 및 에이전트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 165개 목록입니다."
-description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 165개 목록입니다."
+summary: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 166개 목록입니다."
+description: "코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구 분야의 오픈소스 리포지터리 166개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **165개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+코딩 에이전트, 에이전트 스킬·플러그인, LLM 런타임과 모델, AI 응용 도구. 현재 **166개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🤖 인공지능 및 에이전트 (AI & Agents)
 
@@ -128,6 +128,7 @@ comments: false
 - [openrig](https://github.com/mvschwarz/openrig) - Claude Code·Codex·Pi 같은 코딩 도구를 엮어 역할이 정해진 상시 에이전트 팀을 꾸리는 프레임워크. 맥락을 공유하고 각 에이전트가 자기 작업을 소유한다(별 6,719개, Apache-2.0, TypeScript)
 - [OpenShell](https://github.com/NVIDIA/OpenShell) - 자율 AI 에이전트가 파일·네트워크·자격증명에 어디까지 닿을 수 있는지를 정책으로 선언하면 커널 수준에서 강제해 주는 엔비디아의 에이전트 실행 환경. 에이전트는 실제 자격증명을 보지 못하고, 정책 변경은 형식 검증으로 먼저 걸러 사람이 검토한다(별 14,006개, 하루 +2,456개로 트렌딩 1위, Rust, Apache-2.0)
 - [OpenViking](https://github.com/volcengine/OpenViking) - 에이전트 메모리·지식 RAG·스킬을 한 저장소로 묶어 스스로 갱신되는 AI 에이전트용 자기진화형 컨텍스트 데이터베이스(바이트댄스 볼케이노 엔진)
+- [OpenVINO](https://github.com/openvinotoolkit/openvino) - 인텔의 AI 추론 최적화·배포 툴킷으로 파이토치·텐서플로 모델을 CPU·인텔 GPU 등에서 빠르게 실행(별 12810개, C++, Apache-2.0)
 - [OpenWiki](https://github.com/langchain-ai/openwiki) - 코드베이스를 읽어 에이전트가 읽기 좋은 마크다운 위키를 만들고 코드 변경 때마다 자동 갱신하는 랭체인의 CLI(12개 모델 공급자·Notion/Slack/git 커넥터·CI 자체 갱신 지원)
 - [Orca](https://github.com/stablyai/orca) - 여러 에이전트를 병렬로 실행하는 에이전트 개발환경 (ADE)
 - [Ordewell](https://github.com/ordewell/ordewell) - 목표 하나를 순서가 있는 작업 계획으로 쪼개고 작업마다 실행기·모델·모드를 따로 지정해 실행한 뒤 결과까지 검증하는 코딩 에이전트용 다중 작업 오케스트레이션 도구(별 132개, Apache-2.0)
