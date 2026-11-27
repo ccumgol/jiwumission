@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 📅 생산성 및 노트"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 61개 목록입니다."
-description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 61개 목록입니다."
+summary: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 62개 목록입니다."
+description: "노트·할 일·일정·가계부 등 개인 생산성 도구 분야의 오픈소스 리포지터리 62개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **61개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+노트·할 일·일정·가계부 등 개인 생산성 도구. 현재 **62개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 📅 생산성 및 노트 (Productivity & Notes)
 
@@ -75,5 +75,6 @@ comments: false
 - [Vikunja](https://github.com/go-vikunja/vikunja) - 칸반/간트 차트 등을 지원하는 강력한 프로젝트 관리 앱
 - [vnote](https://github.com/vnotex/vnote) - 마크다운과 마인드맵, Typst를 함께 다루며 모든 노트를 내 컴퓨터의 일반 파일로 저장하는 데스크톱 노트 앱(별 13,011개, C++, LGPL-3.0)
 - [Wallos](https://github.com/ellite/Wallos) - 매달 빠져나가는 각종 구독료를 결제일 알림·카테고리·다중 통화로 관리하는 자체 호스팅 구독 트래커(GPL)
+- [wealthfolio](https://github.com/afadil/wealthfolio) - 프라이빗 로컬 우선 개인 자산 관리 도구, 투자·순자산·지출·시뮬레이션(별 9.8천, Rust, AGPL-3.0)
 - [Yogurt](https://github.com/FrigadeHQ/yogurt) - 회의를 받아 적고 요약하는 무료·비공개 AI 회의록 앱. Granola의 오픈소스 대안(TypeScript, MIT)
 - [Yuvomi](https://github.com/ulsklyc/yuvomi) - 할 일·캘린더·장보기·식단·예산을 한 곳에서 관리하는 자체 호스팅 가족 생활 관리 앱

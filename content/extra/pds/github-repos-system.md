@@ -2,8 +2,8 @@
 title: "추천 GitHub 리포 — 🛠️ 시스템 및 유틸리티"
 date: 2026-09-16T21:00:00-04:00
 author: "Gihyun Park"
-summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 30개 목록입니다."
-description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 30개 목록입니다."
+summary: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 31개 목록입니다."
+description: "운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티 분야의 오픈소스 리포지터리 31개 목록입니다."
 categories: ["오픈소스", "자료실"]
 tags: ["GitHub", "오픈소스"]
 type: "post"
@@ -12,7 +12,7 @@ comments: false
 
 [← 추천 GitHub 리포 전체 목록](/extra/pds/github-repos/)
 
-운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **30개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
+운영체제 도구, 파일·미디어 변환, 작은 실용 유틸리티. 현재 **31개**이며, 매일 IT 뉴스 브리핑에서 새 프로젝트를 소개할 때마다 추가됩니다.
 
 ### 🛠️ 시스템 및 유틸리티 (System & Utilities)
 
@@ -42,6 +42,7 @@ comments: false
 - [Owly](https://github.com/t4t5/owly) - 애플 기기가 아닌 리눅스 컴퓨터와 아이폰 사이에서 에어드롭(AirDrop)으로 파일을 주고받게 해 주는 도구(Rust, MIT, 지원 와이파이 칩 확인 필요)
 - [ShareX](https://github.com/ShareX/ShareX) - 화면 캡처·녹화·스크롤 캡처·GIF 제작에 주석과 자동 업로드까지 한 번에 처리하는 윈도우용 무료 도구. 단축키 하나만 외우면 되어 비전문가도 바로 쓸 수 있고 사용법 안내 자료 제작에 유용하다(별 3만 9천여 개, GPL-3.0, C#)
 - [Sill](https://github.com/Saffsanity/sill) - 맥의 창 하나를 아이폰·아이패드로 스트리밍해 터치·애플 펜슬·키보드로 조작하게 해 주는 서버 없는 무료 앱(별 약 3,950개, Apache-2.0, Swift)
+- [sim-drop](https://github.com/rxliuli/sim-drop) - 맥 파인더 사이드바에서 iOS 시뮬레이터에 파일을 끌어다 넣는 도구(별 54개, Swift, GPL-3.0)
 - [tailcat](https://github.com/tailscale/tailcat) - 넷캣처럼 쓰지만 테일스케일 데이터 평면 위에서 동작하는 P2P 연결 도구. 계정이나 중앙 컨트롤 플레인 없이 NAT 뒤의 두 기기를 바로 잇는다(약 4,260 star, Go)
 - [TelemetryGuard](https://github.com/WallabyDesigns/windows-telemetry-guard) - 윈도우 10/11의 텔레메트리 및 추적을 차단하는 툴킷
 - [Tinycast](https://github.com/abue-ammar/tinycast) - 단축키 실행·앱과 파일 검색·클립보드 기록을 하나로 묶은 완전 네이티브 macOS 런처. Swift로 작성돼 가볍고 반응이 빠르다(별 7,601개, 오늘 하루 +739개)
